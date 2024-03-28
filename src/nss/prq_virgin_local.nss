@@ -12,6 +12,6 @@ int StartingConditional() {
     // OBJECT_SELF is the NPC we are talking to
     string sTag=GetTag(OBJECT_SELF);
 
-    // Global to party
-    return (GetPartyInt(oPC, sTag)==0);
+    // Local to player (vs party)
+    return (GetLocalInt(oPC, sTag)==0);
 }

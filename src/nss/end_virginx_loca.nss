@@ -7,6 +7,6 @@ void main() {
     // OBJECT_SELF is the NPC we are talking to
     string sTag=GetTag(OBJECT_SELF);
 
-    SetPartyInt(oPC, sTag, 1);
+    SetLocalInt(oPC, sTag, 1);
     //RewardPartyXP(250, oPC, TRUE);
 }

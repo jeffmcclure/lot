@@ -7,5 +7,5 @@ void main() {
 //    JeffGiveStuff(oPC);
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 1.0.7 with enhancements by Jeff McClure";
-    MessageAll(msg);
+    SendMessageToPC(oPC,msg);
 }
