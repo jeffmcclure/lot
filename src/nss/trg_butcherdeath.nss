@@ -1,46 +1,16 @@
-//#include "pqj_inc"
 #include "nw_i0_tool"
-string sDeny;
-void main()
-{
+void main() {
 
-object oPC = GetFirstPC();
+    object oPC = GetFirstPC();
 
-//int nInt;
-//nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_BUTCHER");
+    RewardPartyXP(750, oPC, TRUE);
+    object cleaver = CreateItemOnObject("butcherscleaver", OBJECT_SELF);
+    SetLocalString(cleaver, "LIMIT_ACQUIRE", GetLocalString(OBJECT_SELF, "LIMIT_ACQUIRE"));
+    AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE);
+    AssignCommand(oPC, ActionSpeakString("The spirits of the dead are now avenged..."));
 
-//if (!(nInt >= 1))
-//   return;
-
-//nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_BUTCHER");
-
-//if (!(nInt < 2))
-//   {
-//   sDeny="You have already done this quest!";
-
-//   SendMessageToPC(oPC, sDeny);
-
-//   return;
-//   }
-
-RewardPartyXP(750, oPC, TRUE);
-//RewardPartyGP(500, oPC, TRUE);
-//CreateItemOnObject("butcherscleaver", oPC);
-//AddPersistentJournalQuestEntry("QST_BUTCHER", 2, oPC, FALSE, FALSE);
-AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE);
-//ExecuteScript("sav_lastkilled", OBJECT_SELF);
-AssignCommand(oPC, ActionSpeakString("The spirits of the dead are now avenged..."));
-//SendMessageToPC(oPC, "The spirits of the dead are now avenged...");
-
-object oTarget;
-oTarget = GetObjectByTag("D1_WOUNDEDMAN");
-DestroyObject(oTarget, 0.0);
-oTarget = GetObjectByTag("BUTCHER_BLOOD");
-DestroyObject(oTarget, 0.0);
-
-oTarget = GetObjectByTag("SND_BUTCHER1");
-SoundObjectStop(oTarget);
-oTarget = GetObjectByTag("SND_BUTCHER2");
-SoundObjectStop(oTarget);
-
+    DestroyObject(GetObjectByTag("D1_WOUNDEDMAN"), 0.0);
+    DestroyObject(GetObjectByTag("BUTCHER_BLOOD"), 0.0);
+    SoundObjectStop(GetObjectByTag("SND_BUTCHER1"));
+    SoundObjectStop(GetObjectByTag("SND_BUTCHER2"));
 }

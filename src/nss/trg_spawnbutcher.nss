@@ -29,6 +29,7 @@ lTarget = GetLocation(oTarget);
 object oMember=GetFirstFactionMember(oPC, TRUE);
 while (GetIsObjectValid(oMember)) {
     object oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
+    SetLocalString(oSpawn, "LIMIT_ACQUIRE", GetName(oMember));
     SetIsTemporaryEnemy(oPC, oSpawn);
     AssignCommand(oSpawn, ActionAttack(oPC));
     AssignCommand(oSpawn, DetermineCombatRound(oPC));
