@@ -4,7 +4,7 @@ void main() {
     object oPC = GetLastKiller();
     int xp = GetLocalInt(OBJECT_SELF, "xp");
     if (xp > 0) {
-        RewardPartyXP(2500, oPC, TRUE);
+        RewardPartyXP(xp, oPC, TRUE);
     } else {
         ExecuteScript("xp_partyextra", OBJECT_SELF);
     }

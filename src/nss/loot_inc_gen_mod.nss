@@ -92,6 +92,7 @@ int    TREASURE_MEDIUM = 2;
 int    TREASURE_HIGH = 3;
 int    TREASURE_BOSS = 4;
 int    TREASURE_BOOK = 5;
+int    TREASURE_UNIQUE = 6;
 
 
 // * JUMP_LEVEL is used in a Specific item function
@@ -4569,9 +4570,8 @@ int LOOT_INC_MAIN_DEBUGGING = TRUE;
 //int GetTotalAvailableItems (object oCaller);
 //string GetUniqueItemFromList (object oCaller,int iNumber);
 
-void GenerateUniqueTreasure (object oCaller,object oPC)
+void GenerateUniqueTreasure (object oCaller,object oTarget)
 {
-    SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 1");
     int iMinimumLevel = GetMinimumLevel (oCaller);
     int iNumberOfItemsToGenerate = 1;
     int iMinimum = GetMinimumNumberOfItemsToGenerate (oCaller);
@@ -4579,30 +4579,24 @@ void GenerateUniqueTreasure (object oCaller,object oPC)
     if (iNumberOfItemsToGenerate < iMinimum) iNumberOfItemsToGenerate = iMinimum;
     if (iNumberOfItemsToGenerate > iMaximum) iNumberOfItemsToGenerate = iMaximum;
 
-    SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 2");
     int iNumItemsInList = GetTotalAvailableItems (oCaller);
-    SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 3");
 
     int iRandomNumber;
     string sItemTemplate;
     int iCounter;
 
     for (iCounter = 0; iCounter < iNumberOfItemsToGenerate; iCounter ++) {
-        SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 4");
         iRandomNumber = Random (iNumItemsInList)+1;
         sItemTemplate = GetUniqueItemFromList (oCaller, iRandomNumber);
-        SendMessageToPC(GetFirstPC(), "sItemTemplate='" + sItemTemplate + "'");
-        object oItem = CreateItemOnObject (sItemTemplate,oCaller,1);
-        SendMessageToPC(GetFirstPC(), "isValid = " + IntToString(GetIsObjectValid(oItem)));
-        SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 5");
+        object oItem = CreateItemOnObject (sItemTemplate,oTarget,1);
+        //SendMessageToPC(GetFirstPC(), "isValid = " + IntToString(GetIsObjectValid(oItem)));
         if (LOOT_INC_MAIN_DEBUGGING == TRUE)
             WriteTimestampedLogEntry (GetTag (oCaller) + " generated " + sItemTemplate);
     }
 }
 
-void TreasureChest(int nTreasureType) {
+void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
     object oLastOpener = GetLastOpenedBy();
-
     string charName = GetName(oLastOpener);
 
     if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
@@ -4611,7 +4605,14 @@ void TreasureChest(int nTreasureType) {
 
     SetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName, 1);
 
-    GenerateTreasure(nTreasureType, oLastOpener, OBJECT_SELF);
+    if (nTreasureType == TREASURE_UNIQUE) {
+        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn);
+        if (oCreateOn == GetLastOpenedBy()) {
+            ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oCreateOn);
+        }
+    } else {
+        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn);
+    }
 }
 void TreasureChestLow() {
     TreasureChest(TREASURE_LOW);
@@ -4628,7 +4629,6 @@ void TreasureChestBoss() {
 void TreasureChestBook() {
     TreasureChest(TREASURE_BOOK);
 }
-void TreasureChestUnique(object oCaller,object oPC) {
-    SendMessageToPC(GetFirstPC(), "TreasureChestUnique()");
-    GenerateUniqueTreasure(oCaller, oPC);
+void TreasureChestUnique() {
+    TreasureChest(TREASURE_UNIQUE, GetLastOpenedBy());
 }
