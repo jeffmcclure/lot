@@ -9344,7 +9344,6 @@
       "StoreGold" : -1,
       "StoreList" : [
         { },
-        { },
         {
           "ItemList" : [
             {
@@ -9475,12 +9474,7 @@
               "YOrientation" : 1.0,
               "YPosition" : -1.0,
               "ZPosition" : -1.0
-            }
-          ]
-        },
-        { },
-        {
-          "ItemList" : [
+            },
             {
               "AddCost" : 0,
               "BaseItem" : 66,
@@ -9511,7 +9505,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 0,
+              "ReposPosX" : 3,
               "ReposPosy" : 0,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9553,7 +9547,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 2,
+              "ReposPosX" : 5,
               "ReposPosy" : 0,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9595,7 +9589,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 4,
+              "ReposPosX" : 7,
               "ReposPosy" : 0,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9637,8 +9631,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 6,
-              "ReposPosy" : 0,
+              "ReposPosX" : 0,
+              "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN005",
@@ -9676,7 +9670,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 8,
+              "ReposPosX" : 9,
               "ReposPosy" : 0,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9705,7 +9699,7 @@
               "ModelPart1" : 1,
               "Plot" : 0,
               "PropertiesList" : [ ],
-              "ReposPosX" : 0,
+              "ReposPosX" : 2,
               "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9760,8 +9754,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 9,
-              "ReposPosy" : 0,
+              "ReposPosX" : 4,
+              "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "LANTERN_BLUE",
@@ -9815,7 +9809,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 2,
+              "ReposPosX" : 5,
               "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9870,7 +9864,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 3,
+              "ReposPosX" : 6,
               "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9925,7 +9919,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 4,
+              "ReposPosX" : 7,
               "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -9980,7 +9974,7 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 5,
+              "ReposPosX" : 8,
               "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -10035,8 +10029,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 6,
-              "ReposPosy" : 2,
+              "ReposPosX" : 9,
+              "ReposPosy" : 3,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "LANTERN_WHITE",
@@ -10090,8 +10084,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 7,
-              "ReposPosy" : 2,
+              "ReposPosX" : 0,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "LANTERN_YELLOW",
@@ -10103,7 +10097,10 @@
               "ZPosition" : -1.0
             }
           ]
-        }
+        },
+        { },
+        { },
+        { }
       ],
       "Tag" : "STO_GARDASTORE",
       "WillNotBuy" : [ ],

@@ -2522,7 +2522,6 @@
       "StoreGold" : -1,
       "StoreList" : [
         { },
-        { },
         {
           "ItemList" : [
             {
@@ -3498,11 +3497,7 @@
               "YOrientation" : 1.0,
               "YPosition" : -1.0,
               "ZPosition" : -1.0
-            }
-          ]
-        },
-        {
-          "ItemList" : [
+            },
             {
               "AddCost" : 0,
               "BaseItem" : 19,
@@ -3551,8 +3546,8 @@
                   "Subtype" : 3
                 }
               ],
-              "ReposPosX" : 0,
-              "ReposPosy" : 0,
+              "ReposPosX" : 8,
+              "ReposPosy" : 2,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MNECK036",
@@ -3602,8 +3597,8 @@
                   "Subtype" : 3
                 }
               ],
-              "ReposPosX" : 1,
-              "ReposPosy" : 0,
+              "ReposPosX" : 5,
+              "ReposPosy" : 3,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MNECK035",
@@ -3613,11 +3608,7 @@
               "YOrientation" : 1.0,
               "YPosition" : -1.0,
               "ZPosition" : -1.0
-            }
-          ]
-        },
-        {
-          "ItemList" : [
+            },
             {
               "AddCost" : 0,
               "BaseItem" : 66,
@@ -3648,8 +3639,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 0,
-              "ReposPosy" : 0,
+              "ReposPosX" : 6,
+              "ReposPosy" : 3,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN002",
@@ -3690,8 +3681,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 2,
-              "ReposPosy" : 0,
+              "ReposPosX" : 0,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN003",
@@ -3732,8 +3723,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 4,
-              "ReposPosy" : 0,
+              "ReposPosX" : 2,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN004",
@@ -3774,8 +3765,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 6,
-              "ReposPosy" : 0,
+              "ReposPosX" : 8,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN005",
@@ -3803,8 +3794,8 @@
               "ModelPart1" : 1,
               "Plot" : 0,
               "PropertiesList" : [ ],
-              "ReposPosX" : 8,
-              "ReposPosy" : 0,
+              "ReposPosX" : 4,
+              "ReposPosy" : 5,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN001",
@@ -3842,8 +3833,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 0,
-              "ReposPosy" : 2,
+              "ReposPosX" : 6,
+              "ReposPosy" : 5,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT001",
@@ -3881,8 +3872,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 2,
-              "ReposPosy" : 2,
+              "ReposPosX" : 0,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT002",
@@ -3920,8 +3911,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 4,
-              "ReposPosy" : 2,
+              "ReposPosX" : 2,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT003",
@@ -3960,7 +3951,7 @@
                 }
               ],
               "ReposPosX" : 6,
-              "ReposPosy" : 2,
+              "ReposPosy" : 6,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT002",
@@ -3999,7 +3990,7 @@
                 }
               ],
               "ReposPosX" : 8,
-              "ReposPosy" : 2,
+              "ReposPosy" : 6,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT003",
@@ -4038,7 +4029,7 @@
                 }
               ],
               "ReposPosX" : 0,
-              "ReposPosy" : 3,
+              "ReposPosy" : 7,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT004",
@@ -4073,7 +4064,7 @@
                   "Subtype" : 329
                 }
               ],
-              "ReposPosX" : 2,
+              "ReposPosX" : 9,
               "ReposPosy" : 3,
               "StackSize" : 1,
               "Stolen" : 0,
@@ -4086,7 +4077,10 @@
               "ZPosition" : -1.0
             }
           ]
-        }
+        },
+        { },
+        { },
+        { }
       ],
       "Tag" : "STO_PEPINSTORE1",
       "WillNotBuy" : [ ],
@@ -4114,7 +4108,6 @@
       "ResRef" : "pepinstore002",
       "StoreGold" : -1,
       "StoreList" : [
-        { },
         { },
         {
           "ItemList" : [
@@ -5305,11 +5298,7 @@
               "YOrientation" : 1.0,
               "YPosition" : -1.0,
               "ZPosition" : -1.0
-            }
-          ]
-        },
-        {
-          "ItemList" : [
+            },
             {
               "AddCost" : 0,
               "BaseItem" : 19,
@@ -5359,7 +5348,7 @@
                 }
               ],
               "ReposPosX" : 0,
-              "ReposPosy" : 0,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MNECK036",
@@ -5410,7 +5399,7 @@
                 }
               ],
               "ReposPosX" : 1,
-              "ReposPosy" : 0,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MNECK035",
@@ -5479,7 +5468,7 @@
                 }
               ],
               "ReposPosX" : 2,
-              "ReposPosy" : 0,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MNECK037",
@@ -5521,7 +5510,7 @@
                 }
               ],
               "ReposPosX" : 3,
-              "ReposPosy" : 0,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MRING004",
@@ -5531,11 +5520,7 @@
               "YOrientation" : 1.0,
               "YPosition" : -1.0,
               "ZPosition" : -1.0
-            }
-          ]
-        },
-        {
-          "ItemList" : [
+            },
             {
               "AddCost" : 0,
               "BaseItem" : 66,
@@ -5566,8 +5551,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 0,
-              "ReposPosy" : 0,
+              "ReposPosX" : 4,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN002",
@@ -5608,8 +5593,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 2,
-              "ReposPosy" : 0,
+              "ReposPosX" : 7,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN003",
@@ -5650,8 +5635,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 4,
-              "ReposPosy" : 0,
+              "ReposPosX" : 0,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN004",
@@ -5692,8 +5677,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 6,
-              "ReposPosy" : 0,
+              "ReposPosX" : 2,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN005",
@@ -5721,8 +5706,8 @@
               "ModelPart1" : 1,
               "Plot" : 0,
               "PropertiesList" : [ ],
-              "ReposPosX" : 8,
-              "ReposPosy" : 0,
+              "ReposPosX" : 4,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_CONTAIN001",
@@ -5760,8 +5745,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 0,
-              "ReposPosy" : 2,
+              "ReposPosX" : 6,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT001",
@@ -5799,8 +5784,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 2,
-              "ReposPosy" : 2,
+              "ReposPosX" : 8,
+              "ReposPosy" : 6,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT002",
@@ -5838,8 +5823,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 4,
-              "ReposPosy" : 2,
+              "ReposPosX" : 6,
+              "ReposPosy" : 7,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT003",
@@ -5877,8 +5862,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 6,
-              "ReposPosy" : 2,
+              "ReposPosX" : 8,
+              "ReposPosy" : 7,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT002",
@@ -5916,8 +5901,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 8,
-              "ReposPosy" : 2,
+              "ReposPosX" : 0,
+              "ReposPosy" : 8,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT003",
@@ -5955,8 +5940,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 0,
-              "ReposPosy" : 3,
+              "ReposPosX" : 2,
+              "ReposPosy" : 8,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT004",
@@ -5991,8 +5976,8 @@
                   "Subtype" : 329
                 }
               ],
-              "ReposPosX" : 2,
-              "ReposPosy" : 3,
+              "ReposPosX" : 9,
+              "ReposPosy" : 4,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "HenchmanHealKit",
@@ -6030,8 +6015,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 3,
-              "ReposPosy" : 3,
+              "ReposPosX" : 4,
+              "ReposPosy" : 8,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT004",
@@ -6069,8 +6054,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 5,
-              "ReposPosy" : 3,
+              "ReposPosX" : 6,
+              "ReposPosy" : 8,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT005",
@@ -6113,8 +6098,8 @@
                   "Subtype" : 0
                 }
               ],
-              "ReposPosX" : 7,
-              "ReposPosy" : 3,
+              "ReposPosX" : 8,
+              "ReposPosy" : 8,
               "StackSize" : 1,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT007",
@@ -6158,7 +6143,7 @@
                 }
               ],
               "ReposPosX" : 0,
-              "ReposPosy" : 4,
+              "ReposPosy" : 9,
               "StackSize" : 10,
               "Stolen" : 0,
               "Tag" : "NW_IT_MEDKIT008",
@@ -6170,7 +6155,10 @@
               "ZPosition" : -1.0
             }
           ]
-        }
+        },
+        { },
+        { },
+        { }
       ],
       "Tag" : "STO_PEPINSTORE2",
       "WillNotBuy" : [ ],
