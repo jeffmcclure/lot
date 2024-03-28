@@ -1,13 +1,19 @@
 #!/bin/zsh
 
-# Script has permissive and lazy error handling so it can be run the first time and subsequently without failing or reporting errors
+# This script creates, re-creates, and starts the following docker containers to host the module for multiplayer:
+#   nwn_lot       runs Neverwinter Nights server process
+#   webserver     runs nginx web server to server the files so the user does not need to manually install .mod, .hak, and other files
+
+# This script has permissive/lazy/weak error handling so it can be run the first time and subsequently without failing or reporting errors
 
 # Input variables
 # LOT_LOCAL_IP
 # LOT_PUBLIC_IP
+# NWN_DIR
+
 export LOT_DIR=$HOME/lot
-export LOT_MOD_NAME=lot_1_7_4
 export LOT_VERSION="1.7.4"
+export LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
 
 mkdir $LOT_DIR 2>/dev/null
 echo cd $LOT_DIR
@@ -51,8 +57,7 @@ EOF
 	docker rm nwn_lot &>/dev/null
 
 	echo copy ${LOT_MOD_NAME}.mod
-	pwd
-	/bin/cp /Users/jeffmcclure/Documents/Neverwinter\ Nights/modules/${LOT_MOD_NAME}.mod modules/
+	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
 
 	echo creating nwn_lot
 	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home --env-file=env.txt nwnxee/unified:build8193.36.11
@@ -61,7 +66,7 @@ EOF
 function nwsync {
 	printf "\n\n%s\n\n\n" "nwsync"
 	cd ../lot_docker
-	nwsync_write --description="The Lord of Terror Server Data" /Users/jeffmcclure/lot/webserver modules/${LOT_MOD_NAME}.mod
+	nwsync_write --description="The Lord of Terror Server Data" "${LOT_DIR}/webserver" modules/${LOT_MOD_NAME}.mod
 }
 
 if [ $# -eq 0 ]; then
