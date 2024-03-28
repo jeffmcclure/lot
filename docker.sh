@@ -41,29 +41,11 @@ function supporting {
 	header "supporting"
 	cd ../lot_docker || exit
 
-	if [ ! -e hak/lothak.hak ] || [ ! -e hak/lotcephak1.hak ] || [ ! -e hak/lotwav.hak ]; then
+	if [ ! -e hak/lot2.hak ]; then
 		mkdir hak &>/dev/null
-		cd hak || exit
-		F="${DOWNLOADS}/lothakpackfull110704.rar"
-		if [ ! -e "$F" ]; then
-			echo "$F does not exist"
-			exit 1
-		fi
-		unrar e "${F}"
-		cd ..
-	fi
-
-	if [ ! -e music/mus_d1tristd.bmu ]; then
-		mkdir music &>/dev/null
-		cd music || exit
-		F="${DOWNLOADS}/lordofterrormusic.rar"
-		if [ ! -e "$F" ]; then
-			echo "$F does not exist"
-			exit 1
-		fi
-		unrar e "${F}"
-		cd ..
-	fi
+		echo /bin/cp "${NWN_DIR}/hak/lot2.hak" hak/
+		/bin/cp "${NWN_DIR}/hak/lot2.hak" hak/ || exit
+  fi
 
 	if [ ! -e hak/cep3_core3.hak ]; then
 		mkdir hak &>/dev/null
