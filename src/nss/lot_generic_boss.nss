@@ -1,11 +1,20 @@
-// 2024-03-01 - Jeff McClure
+//::///////////////////////////////////////////////
+//:: Copyright (c) 2024 Jeff McClure
+//:://////////////////////////////////////////////
+/*
+    Death script for boss configured to drop per-player loot
+*/
+//:://////////////////////////////////////////////
+//:: Created By: Jeff McClure
+//:: Created On: 2024-03-01
+//:://////////////////////////////////////////////
 
 #include "nw_i0_tool"
 
 // use when you want to give a specific amount of xp (value stored in NCP variable) and
 // drop specific items (stored in NCP variables).   All party members receive the XP, and
-// each party member receives a copy of the loot.
-// Use in conjunction with lot_usechest.nss
+// the monster corpse is populated with a separate copy of each loot for each player,
+// each player may only pick up their own loot.
 void main() {
     object oPC = GetLastKiller();
     int xp = GetLocalInt(OBJECT_SELF, "xp");
@@ -15,41 +24,30 @@ void main() {
         ExecuteScript("xp_partyextra", OBJECT_SELF);
     }
 
-    //location loc = GetLocation(OBJECT_SELF);
-
-    // Locate the area we are in
-    //object oArea = GetArea(OBJECT_SELF);
-
-    // Locate where in the are we are
-    //vector vPosition = GetPosition(OBJECT_SELF);
-
-    // Identify the direction we are facing
-    //float fOrientation = GetFacing(OBJECT_SELF) - 180.0;
-    //if (fOrientation < 0.0) fOrientation = fOrientation + 360.0;
-
-    // Create a new location with this information
-    //location loc = Location(oArea, vPosition, fOrientation);
-
-    //object oChest = CreateObject(OBJECT_TYPE_PLACEABLE, "x0_treasure_high", loc);
-    //SetLocked(oChest, FALSE);
-    //SetName(oChest, "Loot");
-    //string monsterIdTag = GetTag(OBJECT_SELF);
-
-    //int any = FALSE;
-    //int i;
-    //for (i = 0; i < 5; i++) {
-        //string loot = GetLocalString(OBJECT_SELF, "loot" + IntToString(i));
-        //if (loot != "") {
-            //any = TRUE;
-            //SetLocalString(oChest, "loot" + IntToString(i), loot);
-        //}
+    //object oItem = GetFirstItemInInventory(OBJECT_SELF);
+    //while (GetIsObjectValid(oItem)) {
+    //    SendMessageToPC(GetFirstPC(), "inv='" + GetResRef(oItem) + "'");
+    //    oItem = GetNextItemInInventory(OBJECT_SELF);
     //}
 
-    ExecuteScript("loot_normal_hi", OBJECT_SELF);
-    ExecuteScript("lot_usechest", OBJECT_SELF);
+    int i;
+    int any = FALSE;
+    for (i = 0; i < 5; i++) {
+        string lootResRef = GetLocalString(OBJECT_SELF, "loot" + IntToString(i));
+        if (lootResRef != "") {
+            any = TRUE;
+            object oMember = GetFirstFactionMember(oPC, TRUE);
+            while (GetIsObjectValid(oMember)) {
+                string charName = GetName(oMember);
+                object obj = CreateItemOnObject(lootResRef, OBJECT_SELF);
+                SetIdentified(obj, TRUE);
+                SetLocalString(obj, "LIMIT_ACQUIRE", charName);
+                oMember = GetNextFactionMember(oPC, TRUE);
+            }
+        }
+    }
 
-    //SendMessageToPC(oPC, "1 loot1 = '" + loot1 + "'");
-
-    //SetLocalString(oChest, "monsterIdTag", monsterIdTag);
-    //SetEventScript(oChest, EVENT_SCRIPT_PLACEABLE_ON_USED, "lot_usechest");
+    if (!any) {
+        ExecuteScript("loot_normal_hi", OBJECT_SELF);
+    }
 }
