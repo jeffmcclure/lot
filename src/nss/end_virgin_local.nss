@@ -7,7 +7,9 @@ void main() {
 
     string sTag=GetTag(OBJECT_SELF); // OBJECT_SELF is the NPC we are talking to; GetTag() returns "NPC_THEEMON" for example
 
+    if (GetLocalInt(oPC, sTag) == 1) return; // ensure we only process this once
+
     SetLocalInt(oPC, sTag, 1);
     RewardPartyXP(250, oPC, FALSE);
-    OldAcquaintance(oPC, sTag);
+    OldAcquaintance(OBJECT_SELF);
 }

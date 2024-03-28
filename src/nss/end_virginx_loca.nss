@@ -7,7 +7,10 @@ void main() {
 
     string sTag=GetTag(OBJECT_SELF); // OBJECT_SELF is the NPC we are talking to; GetTag() returns "NPC_THEEMON" for example
 
+    if (GetLocalInt(oPC, sTag) == 1) return; // ensure we only process this once
+    SendMessageToPC(GetFirstPC(), "end_virginx_loca 2");
+
     SetLocalInt(oPC, sTag, 1);
     //RewardPartyXP(250, oPC, TRUE);
-    OldAcquaintance(oPC, sTag);
+    OldAcquaintance(OBJECT_SELF);
 }

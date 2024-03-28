@@ -1,5 +1,8 @@
 #include "inc_party"
-void OldAcquaintance(object oPC, string sTag) {
+void OldAcquaintance(object obj) {
+    string sTag=GetTag(obj);
+    object oPC = GetFirstPC();
+
     if (
         sTag == "ADRIA" ||
         sTag == "CAIN" ||
@@ -17,6 +20,9 @@ void OldAcquaintance(object oPC, string sTag) {
         sTag == "TREMAYNE" ||
         sTag == "WIRT"
         ) {
-        AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OLD_ACQUAINTANCE") + 1, oPC, TRUE); // give to party
+        if (GetLocalInt(obj, "OLD_ACQUAINTANCE") == 0) {
+            SetLocalInt(obj, "OLD_ACQUAINTANCE", 1);
+            AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OLD_ACQUAINTANCE") + 1, oPC, TRUE); // give to party
+        }
     }
 }

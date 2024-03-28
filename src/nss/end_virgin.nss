@@ -8,8 +8,9 @@ void main() {
     // OBJECT_SELF is the NPC we are talking to
     string sTag=GetTag(OBJECT_SELF);
 
+    if (GetPartyInt(oPC, sTag) == 1) return; // ensure we only process this once
+
     SetPartyInt(oPC, sTag, 1);
     RewardPartyXP(250, oPC, TRUE);
-
-    OldAcquaintance(oPC, sTag);
+    OldAcquaintance(OBJECT_SELF);
 }
