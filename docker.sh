@@ -3,11 +3,9 @@
 # Script has permissive and lazy error handling so it can be run the first time and subsequently without failing or reporting errors
 
 # Input variables
-# LOT_DIR     directory to run docker out of
-
-export LOT_LOCAL_IP=192.168.7.229
-export LOT_PUBLIC_IP=71.254.0.211
-export LOT_DIR=/Users/jeffmcclure/lot
+# LOT_LOCAL_IP
+# LOT_PUBLIC_IP
+export LOT_DIR=$HOME/lot
 export LOT_MOD_NAME=lot_1_7_4
 export LOT_VERSION="1.7.4"
 
@@ -18,6 +16,7 @@ mkdir lot_docker webserver 2>/dev/null
 cd webserver
 
 function webserver {
+	printf "\n\n%s\n\n\n" "webserver"
 	cd ../webserver
 
 	echo stopping nwn_nginx
@@ -31,6 +30,7 @@ function webserver {
 }
 
 function nwn {
+	printf "\n\n%s\n\n\n" "nwn"
 	cd ../lot_docker
 	cat <<EOF >env.txt
     NWN_ILR=0
@@ -59,9 +59,9 @@ EOF
 }
 
 function nwsync {
-	echo nwsync_write
+	printf "\n\n%s\n\n\n" "nwsync"
 	cd ../lot_docker
-	/Users/jeffmcclure/d/nwn/nwsync/bin/nwsync_write --description="The Lord of Terror Server Data" /Users/jeffmcclure/lot/webserver modules/${LOT_MOD_NAME}.mod
+	nwsync_write --description="The Lord of Terror Server Data" /Users/jeffmcclure/lot/webserver modules/${LOT_MOD_NAME}.mod
 }
 
 if [ $# -eq 0 ]; then
