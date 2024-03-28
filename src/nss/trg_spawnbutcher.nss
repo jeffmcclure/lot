@@ -18,13 +18,10 @@ if (!(nInt == 0))
 
 SetPartyInt(oPC, "butcher", 1);
 
-object oTarget;
-oTarget = GetObjectByTag("SND_FRESHMEAT");
+object oTarget = GetObjectByTag("SND_FRESHMEAT");
 AssignCommand(oTarget, ActionStartConversation(oPC, "con_butcher"));
 
-location lTarget;
-oTarget = GetWaypointByTag("WP_BUTCHER");
-lTarget = GetLocation(oTarget);
+location lTarget = GetLocation(GetWaypointByTag("WP_BUTCHER"));
 
 object oMember=GetFirstFactionMember(oPC, TRUE);
 while (GetIsObjectValid(oMember)) {
