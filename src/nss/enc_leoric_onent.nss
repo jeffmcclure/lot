@@ -25,7 +25,6 @@ void main() {
     //PlaySound("leoric1a");
     DelayCommand(0.1, PlaySound("leoric1a"));
     if(GetIsPC(oPC)) {
-        //object oTarget = GetObjectByTag("SND_LEORIC");
         object oTarget = GetObjectByTag("RDM_CHEST2_JEFF");
         AssignCommand(oTarget, ActionStartConversation(oPC, "con_leoric"));
         SetIsTemporaryEnemy(oPC, leoric);
