@@ -32,10 +32,6 @@ while (GetIsObjectValid(oMember)) {
     SetIsTemporaryEnemy(oPC, oSpawn);
     AssignCommand(oSpawn, ActionAttack(oPC));
     AssignCommand(oSpawn, DetermineCombatRound(oPC));
-    oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
-    SetIsTemporaryEnemy(oPC, oSpawn);
-    AssignCommand(oSpawn, ActionAttack(oPC));
-    AssignCommand(oSpawn, DetermineCombatRound(oPC));
     oMember=GetNextFactionMember(oPC, TRUE);
 }
 
