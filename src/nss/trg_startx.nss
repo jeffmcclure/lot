@@ -8,7 +8,7 @@ string sTag=GetTag(OBJECT_SELF);
 SetPartyInt(oPC, sTag, 1);
 RewardPartyXP(250, oPC, TRUE);
 AddJournalQuestEntry("QST_MAINMODULE", 1, oPC, TRUE, FALSE);
-//RewardPartyGP(1000, oPC, FALSE);
+//RewardPartyGP(1000, oPC, TRUE);
 //CreateItemOnObject("nw_it_mpotion002", oPC);
 //CreateItemOnObject("nw_it_mpotion020", oPC);
 //CreateItemOnObject("nw_it_mpotion001", oPC);

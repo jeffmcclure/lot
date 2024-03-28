@@ -3,6 +3,6 @@ void main()
 {
 
 object oPC = GetPCSpeaker();
-RewardPartyGP(450, oPC, FALSE);
+RewardPartyGP(450, oPC, TRUE);
 
 }

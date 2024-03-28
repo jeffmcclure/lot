@@ -11,8 +11,8 @@ oItem = GetItemPossessedBy(oPC, "D1_ANVILOFFURY");
 if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
-RewardPartyXP(1000, oPC, FALSE);
-RewardPartyGP(1000, oPC, FALSE);
+RewardPartyXP(1000, oPC, TRUE);
+RewardPartyGP(1000, oPC, TRUE);
 CreateItemOnObject("griswoldsedge005", oPC);
 //AddPersistentJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);
 AddJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);

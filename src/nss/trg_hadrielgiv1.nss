@@ -10,7 +10,7 @@ oItem = GetItemPossessedBy(oPC, "D1_AZUREWRATH");
 if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
-RewardPartyGP(2000000, oPC, FALSE);
+RewardPartyGP(2000000, oPC, TRUE);
 SetLocalInt(oPC, "azuregone", 1);
 
 }

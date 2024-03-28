@@ -8,7 +8,7 @@ object oPC = GetPCSpeaker();
 if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_MONK, oPC))
    {
    RewardPartyXP(1500, oPC, TRUE);
-   RewardPartyGP(1000, oPC, FALSE);
+   RewardPartyGP(1000, oPC, TRUE);
    CreateItemOnObject("griswoldsedge003", oPC);
    //AddPersistentJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);
    AddJournalQuestEntry("QST_ANVIL", 3, oPC, TRUE, FALSE);
@@ -24,7 +24,7 @@ if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_MONK, oPC))
 else if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_DRUID, oPC))
    {
    RewardPartyXP(1500, oPC, TRUE);
-   RewardPartyGP(1000, oPC, FALSE);
+   RewardPartyGP(1000, oPC, TRUE);
    CreateItemOnObject("griswoldsedge004", oPC);
    //AddPersistentJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);
    AddJournalQuestEntry("QST_ANVIL", 3, oPC, TRUE, FALSE);
@@ -40,7 +40,7 @@ else if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_DRUID, oPC))
 else if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_ROGUE, oPC))
    {
    RewardPartyXP(1500, oPC, TRUE);
-   RewardPartyGP(1000, oPC, FALSE);
+   RewardPartyGP(1000, oPC, TRUE);
    CreateItemOnObject("griswoldsedge005", oPC);
    //AddPersistentJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);
    AddJournalQuestEntry("QST_ANVIL", 3, oPC, TRUE, FALSE);
@@ -56,7 +56,7 @@ else if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_ROGUE, oPC))
 else if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_WIZARD, oPC))
    {
    RewardPartyXP(1500, oPC, TRUE);
-   RewardPartyGP(1000, oPC, FALSE);
+   RewardPartyGP(1000, oPC, TRUE);
    CreateItemOnObject("griswoldsedge002", oPC);
    //AddPersistentJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);
    AddJournalQuestEntry("QST_ANVIL", 3, oPC, TRUE, FALSE);
@@ -72,7 +72,7 @@ else if (GetHasFeat(FEAT_WEAPON_PROFICIENCY_WIZARD, oPC))
 else
    {
    RewardPartyXP(1500, oPC, TRUE);
-   RewardPartyGP(1000, oPC, FALSE);
+   RewardPartyGP(1000, oPC, TRUE);
    CreateItemOnObject("griswoldsedge", oPC);
    //AddPersistentJournalQuestEntry("QST_ANVIL", 3, oPC, FALSE, FALSE);
    AddJournalQuestEntry("QST_ANVIL", 3, oPC, TRUE, FALSE);

@@ -12,7 +12,7 @@ if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
 RewardPartyXP(1500, oPC, TRUE);
-RewardPartyGP(1500, oPC, FALSE);
+RewardPartyGP(1500, oPC, TRUE);
 CreateItemOnObject("veilofsteel", oPC);
 
 //AddPersistentJournalQuestEntry("QST_LACHDANAN", 3, oPC, FALSE, FALSE);

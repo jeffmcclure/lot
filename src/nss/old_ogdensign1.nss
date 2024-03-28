@@ -5,8 +5,8 @@ void main()
 
 object oPC = GetPCSpeaker();
 
-RewardPartyXP(1000, oPC, FALSE);
-RewardPartyGP(750, oPC, FALSE);
+RewardPartyXP(1000, oPC, TRUE);
+RewardPartyGP(750, oPC, TRUE);
 CreateItemOnObject("harlequincrest", oPC);
 
 object oItem;

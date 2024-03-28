@@ -34,7 +34,7 @@ oItem = GetItemPossessedBy(oPC, "D1_LAZARUSJOURNAL3");
 if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
-RewardPartyXP(1000, oPC, FALSE);
+RewardPartyXP(1000, oPC, TRUE);
 CreateItemOnObject("tkronring", oPC);
 AddJournalQuestEntry("QST_TKRON", 3, oPC, FALSE, FALSE);
 SetPartyInt(oPC, "tkrontalk", 2);

@@ -6,7 +6,7 @@ void main()
 object oPC = GetPCSpeaker();
 
 RewardPartyXP(2500, oPC, TRUE);
-RewardPartyGP(3500, oPC, FALSE);
+RewardPartyGP(3500, oPC, TRUE);
 //AddPersistentJournalQuestEntry("QST_LOSTBOYS", 5, oPC, FALSE, FALSE);
 AddJournalQuestEntry("QST_LOSTBOYS", 5, oPC, TRUE, FALSE);
 //ExecuteScript("sav_lastspeaker", OBJECT_SELF);

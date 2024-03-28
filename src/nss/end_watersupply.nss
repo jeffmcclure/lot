@@ -8,7 +8,7 @@ object oPC = GetPCSpeaker();
 //SetLocalInt(oPC, "watersupplyquest", 5);
 
 RewardPartyXP(1000, oPC, TRUE);
-RewardPartyGP(500, oPC, FALSE);
+RewardPartyGP(500, oPC, TRUE);
 CreateItemOnObject("ringoftruth", oPC);
 
 //AddPersistentJournalQuestEntry("QST_WATERSUPPLY", 3, oPC, FALSE, FALSE);

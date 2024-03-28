@@ -4,8 +4,8 @@ void main()
 
 object oPC = GetPCSpeaker();
 
-//RewardPartyXP(500, oPC, FALSE);
-//RewardPartyGP(5000, oPC, FALSE);
+//RewardPartyXP(500, oPC, TRUE);
+//RewardPartyGP(5000, oPC, TRUE);
 
 object oTarget;
 location lTarget;

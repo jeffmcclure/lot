@@ -11,7 +11,7 @@ if (!GetIsPC(oPC)) return;
     {
         DestroyObject(oItem);
 AddJournalQuestEntry("QST_SHADOWFANG", 4, oPC, TRUE, FALSE);
-RewardPartyXP(3000, oPC, FALSE);
+RewardPartyXP(3000, oPC, TRUE);
 FloatingTextStringOnCreature("The cursed demon blade has been destroyed!", oPC);
 DelayCommand(3.0, AssignCommand(oPC, ActionSpeakString("The corruption you have wrought is ended!")));
 

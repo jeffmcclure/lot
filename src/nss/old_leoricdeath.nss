@@ -36,8 +36,8 @@ while (oPC != OBJECT_INVALID)
     {
     if (GetArea(oPC) == oArea)
         {
-        RewardPartyXP(750, oPC, FALSE);
-        //RewardPartyGP(200, oPC, FALSE);
+        RewardPartyXP(750, oPC, TRUE);
+        //RewardPartyGP(200, oPC, TRUE);
         //CreateItemOnObject("undeadcrown", oPC);
         //AddPersistentJournalQuestEntry("QST_LEORIC", 2, oPC, FALSE, FALSE);
         AddJournalQuestEntry("QST_LEORIC", 2, oPC, FALSE, FALSE);

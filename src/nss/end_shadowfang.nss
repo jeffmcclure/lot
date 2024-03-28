@@ -12,7 +12,7 @@ if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
 RewardPartyXP(1000, oPC, TRUE);
-RewardPartyGP(1000, oPC, FALSE);
+RewardPartyGP(1000, oPC, TRUE);
 SetPartyInt(oPC, "endtremayne", 1);
 
 }

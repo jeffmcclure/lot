@@ -43,8 +43,8 @@ while (oPC != OBJECT_INVALID)
     {
     if (GetArea(oPC) == oArea)
         {
-        RewardPartyXP(750, oPC, FALSE);
-        //RewardPartyGP(500, oPC, FALSE);
+        RewardPartyXP(750, oPC, TRUE);
+        //RewardPartyGP(500, oPC, TRUE);
         //AddPersistentJournalQuestEntry("QST_WATERSUPPLY", 2, oPC, FALSE, FALSE);
         AddJournalQuestEntry("QST_WATERSUPPLY", 2, oPC, FALSE, FALSE);
         SendMessageToPC(oPC, "The underground spring has been purified!");

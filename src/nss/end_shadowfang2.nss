@@ -11,7 +11,7 @@ if (!GetIsPC(oPC)) return;
     {
         DestroyObject(oItem);
 AddJournalQuestEntry("QST_SHADOWFANG", 4, oPC, TRUE, FALSE);
-RewardPartyXP(3000, oPC, FALSE);
+RewardPartyXP(3000, oPC, TRUE);
 
 object oTarget;
 oTarget = GetObjectByTag("ALTAR_HELLFORGE");

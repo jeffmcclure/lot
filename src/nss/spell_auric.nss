@@ -29,7 +29,7 @@ SendMessageToPC(GetItemActivator(), "Improper use of item!");
 return;}
 
 oPC = GetItemActivator();
-RewardPartyGP(25000, oPC, FALSE);
+RewardPartyGP(25000, oPC, TRUE);
 oPC = GetItemActivatedTarget();
 RemoveXPFromParty(1000, oPC, FALSE);
 

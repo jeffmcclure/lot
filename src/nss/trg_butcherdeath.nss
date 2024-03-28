@@ -24,7 +24,7 @@ object oPC = GetFirstPC();
 //   }
 
 RewardPartyXP(750, oPC, TRUE);
-//RewardPartyGP(500, oPC, FALSE);
+//RewardPartyGP(500, oPC, TRUE);
 //CreateItemOnObject("butcherscleaver", oPC);
 //AddPersistentJournalQuestEntry("QST_BUTCHER", 2, oPC, FALSE, FALSE);
 AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE);

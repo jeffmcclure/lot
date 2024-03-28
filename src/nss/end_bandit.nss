@@ -12,7 +12,7 @@ if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
 RewardPartyXP(750, oPC, TRUE);
-RewardPartyGP(5000, oPC, FALSE);
+RewardPartyGP(5000, oPC, TRUE);
 //AddPersistentJournalQuestEntry("QST_BANDIT", 3, oPC, FALSE, FALSE);
 AddJournalQuestEntry("QST_BANDIT", 3, oPC, TRUE, FALSE);
 //ExecuteScript("sav_lastspeaker", OBJECT_SELF);

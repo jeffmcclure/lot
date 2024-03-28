@@ -5,9 +5,8 @@ void main()
 
 object oPC = GetPCSpeaker();
 
-RewardPartyXP(1500, oPC, FALSE);
-
-RewardPartyGP(750, oPC, FALSE);
+RewardPartyXP(1500, oPC, TRUE);
+RewardPartyGP(750, oPC, TRUE);
 
 object oItem;
 oItem = GetItemPossessedBy(oPC, "D1_TAVERNSIGN");

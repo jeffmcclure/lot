@@ -11,7 +11,7 @@ void main()
 
 object oPC = GetPCSpeaker();
 
-RewardPartyGP(1000, oPC, FALSE);
+RewardPartyGP(1000, oPC, TRUE);
 
 CreateItemOnObject("bookoftownportal", oPC);
 

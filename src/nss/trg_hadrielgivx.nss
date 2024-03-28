@@ -14,7 +14,7 @@ if (GetIsObjectValid(oItem))
     int nNewXP = ((( nHD * ( nHD - 1) ) / 2 ) * 1000) + 1;
     SetXP(oPC, nNewXP);
 
-RewardPartyGP(1000000, oPC, FALSE);
+RewardPartyGP(1000000, oPC, TRUE);
 SetLocalInt(oPC, "azuregone", 1);
 
 }
