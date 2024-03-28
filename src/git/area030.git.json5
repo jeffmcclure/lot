@@ -243,6 +243,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 65535,
@@ -251,12 +254,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "ArmorStand2",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "zep_armorstand",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 10,
       "XOrientation" : -1.0,
       "XPosition" : 18.16,
@@ -496,6 +499,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 65535,
@@ -504,12 +510,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "ArmorStand1",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "zep_armorstand",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 10,
       "XOrientation" : -1.0,
       "XPosition" : 18.156143,
@@ -749,6 +755,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 65535,
@@ -757,12 +766,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "ArmorStand",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "zep_armorstand",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 10,
       "XOrientation" : -1.0,
       "XPosition" : 18.163218,
@@ -786,7 +795,7 @@
       "DisarmDC" : 20,
       "Faction" : 1,
       "Fort" : 28,
-      "GenericType" : 0,
+      "GenericTypeNew" : 0,
       "HP" : 20,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -5259,7 +5268,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 100,
+              "Cost" : 1000,
               "Cursed" : 0,
               "DescIdentified" : null,
               "Description" : null,
@@ -5288,7 +5297,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 756,
+              "Cost" : 1656,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -5330,7 +5339,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 3024,
+              "Cost" : 3924,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -12916,7 +12925,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 756,
+              "Cost" : 1656,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -12958,7 +12967,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 3024,
+              "Cost" : 3924,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -14822,7 +14831,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 6912,
+              "Cost" : 7812,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -14864,7 +14873,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 12420,
+              "Cost" : 13320,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -25099,7 +25108,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 3024,
+              "Cost" : 3924,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -26963,7 +26972,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 6912,
+              "Cost" : 7812,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -27005,7 +27014,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 12420,
+              "Cost" : 13320,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -27986,7 +27995,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 19548,
+              "Cost" : 20448,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -39708,7 +39717,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 12420,
+              "Cost" : 13320,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -40553,7 +40562,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 19548,
+              "Cost" : 20448,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -42344,7 +42353,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 58622,
+              "Cost" : 59522,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -42391,7 +42400,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 98109,
+              "Cost" : 99009,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -62500,7 +62509,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 13495,
+              "Cost" : 14395,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12899,
@@ -62551,7 +62560,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 50,
-              "Cost" : 10727,
+              "Cost" : 11627,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12895,
@@ -62611,7 +62620,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 13495,
+              "Cost" : 14395,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 56581,
@@ -62671,7 +62680,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 17405,
+              "Cost" : 18305,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 56586,
@@ -62722,7 +62731,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 19548,
+              "Cost" : 20448,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12897,
@@ -62773,7 +62782,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 5908,
+              "Cost" : 6808,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12891,
@@ -62824,7 +62833,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 25703,
+              "Cost" : 26603,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12893,
@@ -81665,7 +81674,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 13495,
+              "Cost" : 14395,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12899,
@@ -81716,7 +81725,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 50,
-              "Cost" : 10727,
+              "Cost" : 11627,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12895,
@@ -81776,7 +81785,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 13495,
+              "Cost" : 14395,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 56581,
@@ -81836,7 +81845,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 17405,
+              "Cost" : 18305,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 56586,
@@ -81887,7 +81896,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 19548,
+              "Cost" : 20448,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12897,
@@ -81938,7 +81947,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 5908,
+              "Cost" : 6808,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12891,
@@ -81989,7 +81998,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 25703,
+              "Cost" : 26603,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12893,

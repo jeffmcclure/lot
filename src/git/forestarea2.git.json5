@@ -197,6 +197,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 24,
@@ -205,12 +208,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "NW_DEER",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "nw_deer",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 12,
       "XOrientation" : 0.0,
       "XPosition" : 66.081474,
@@ -404,6 +407,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 24,
@@ -412,12 +418,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "NW_DEER",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "nw_deer",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 12,
       "XOrientation" : 0.0,
       "XPosition" : 117.570984,
@@ -611,6 +617,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 24,
@@ -619,12 +628,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "NW_DEER",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "nw_deer",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 12,
       "XOrientation" : 0.0,
       "XPosition" : 101.38782,
@@ -818,6 +827,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 24,
@@ -826,12 +838,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "NW_DEER",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "nw_deer",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 12,
       "XOrientation" : 0.0,
       "XPosition" : 19.70858,
@@ -1025,6 +1037,9 @@
         },
         {
           "Rank" : 0
+        },
+        {
+          "Rank" : 0
         }
       ],
       "SoundSetFile" : 24,
@@ -1033,12 +1048,12 @@
       "Str" : 10,
       "Subrace" : "",
       "Tag" : "NW_DEER",
-      "Tail" : 0,
+      "TailNew" : 0,
       "TemplateList" : [ ],
       "TemplateResRef" : "nw_deer",
       "WalkRate" : 7,
       "Willbonus" : 0,
-      "Wings" : 0,
+      "WingsNew" : 0,
       "Wis" : 12,
       "XOrientation" : 0.0,
       "XPosition" : 19.500515,
@@ -4071,7 +4086,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 756,
+              "Cost" : 1656,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -4113,7 +4128,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 3024,
+              "Cost" : 3924,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -4155,7 +4170,7 @@
               "AddCost" : 0,
               "BaseItem" : 57,
               "Charges" : 0,
-              "Cost" : 6912,
+              "Cost" : 7812,
               "Cursed" : 0,
               "DescIdentified" : {
                 "StringRef" : 12863,
@@ -4401,6 +4416,8 @@
               "AddCost" : 0,
               "BaseItem" : 80,
               "Charges" : 0,
+              "Cloth1Color" : 0,
+              "Cloth2Color" : 0,
               "Cost" : 657,
               "Cursed" : 0,
               "DescIdentified" : {
@@ -4410,10 +4427,14 @@
               "Description" : null,
               "Identified" : 1,
               "Infinite" : 1,
+              "Leather1Color" : 0,
+              "Leather2Color" : 0,
               "LocalizedName" : {
                 "StringRef" : 13802,
                 "Strings" : [ ]
               },
+              "Metal1Color" : 0,
+              "Metal2Color" : 0,
               "ModelPart1" : 1,
               "Plot" : 0,
               "PropertiesList" : [
@@ -4443,6 +4464,8 @@
               "AddCost" : 0,
               "BaseItem" : 80,
               "Charges" : 0,
+              "Cloth1Color" : 0,
+              "Cloth2Color" : 0,
               "Cost" : 2925,
               "Cursed" : 0,
               "DescIdentified" : {
@@ -4452,10 +4475,14 @@
               "Description" : null,
               "Identified" : 1,
               "Infinite" : 1,
+              "Leather1Color" : 0,
+              "Leather2Color" : 0,
               "LocalizedName" : {
                 "StringRef" : 13840,
                 "Strings" : [ ]
               },
+              "Metal1Color" : 0,
+              "Metal2Color" : 0,
               "ModelPart1" : 1,
               "Plot" : 0,
               "PropertiesList" : [
@@ -4485,6 +4512,8 @@
               "AddCost" : 0,
               "BaseItem" : 80,
               "Charges" : 0,
+              "Cloth1Color" : 0,
+              "Cloth2Color" : 0,
               "Cost" : 6813,
               "Cursed" : 0,
               "DescIdentified" : {
@@ -4494,10 +4523,14 @@
               "Description" : null,
               "Identified" : 1,
               "Infinite" : 1,
+              "Leather1Color" : 0,
+              "Leather2Color" : 0,
               "LocalizedName" : {
                 "StringRef" : 13841,
                 "Strings" : [ ]
               },
+              "Metal1Color" : 0,
+              "Metal2Color" : 0,
               "ModelPart1" : 1,
               "Plot" : 0,
               "PropertiesList" : [
@@ -4527,13 +4560,19 @@
               "AddCost" : 0,
               "BaseItem" : 80,
               "Charges" : 0,
+              "Cloth1Color" : 0,
+              "Cloth2Color" : 0,
               "Cost" : 12251,
               "Cursed" : 0,
               "DescIdentified" : null,
               "Description" : null,
               "Identified" : 0,
               "Infinite" : 1,
+              "Leather1Color" : 0,
+              "Leather2Color" : 0,
               "LocalizedName" : "Cloak of Acceleration",
+              "Metal1Color" : 0,
+              "Metal2Color" : 0,
               "ModelPart1" : 11,
               "Plot" : 0,
               "PropertiesList" : [
