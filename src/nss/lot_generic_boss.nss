@@ -10,7 +10,9 @@
 //:://////////////////////////////////////////////
 
 #include "nw_i0_tool"
+#include "inc_gen_loot_p"
 
+// Intended to be used for "OnDeath" event of bosses or high-value monsters.
 // use when you want to give a specific amount of xp (value stored in NCP variable) and
 // drop specific items (stored in NCP variables).   All party members receive the XP, and
 // the monster corpse is populated with a separate copy of each loot for each player,
@@ -36,14 +38,7 @@ void main() {
         string lootResRef = GetLocalString(OBJECT_SELF, "loot" + IntToString(i));
         if (lootResRef != "") {
             any = TRUE;
-            object oMember = GetFirstFactionMember(oPC, TRUE);
-            while (GetIsObjectValid(oMember)) {
-                string charName = GetName(oMember);
-                object obj = CreateItemOnObject(lootResRef, OBJECT_SELF);
-                SetIdentified(obj, TRUE);
-                SetLocalString(obj, "LIMIT_ACQUIRE", charName);
-                oMember = GetNextFactionMember(oPC, TRUE);
-            }
+            GenLootForEachPlayer(lootResRef, OBJECT_SELF);
         }
     }
 
