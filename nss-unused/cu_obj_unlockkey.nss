@@ -1,5 +1,5 @@
 //Script for rewarding xp to the PC opening the lock.
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 void main()
 {
     int nOnce = GetLocalInt(GetLastUnlocked(), "un"+GetTag(OBJECT_SELF)); // check to see if unlocked by this PC before (uses "un" to distinguish from disarm variable)

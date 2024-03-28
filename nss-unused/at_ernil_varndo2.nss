@@ -1,5 +1,5 @@
 // Include the cu_functions script that makes AllParty() work
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 
 void main()
 {

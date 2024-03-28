@@ -3,7 +3,7 @@
 
 // Flags combat round event, and then fires the default spawn in script.
 
-#include "J_INC_CONSTANTS"
+#include "j_inc_constants"
 
 void main()
 {

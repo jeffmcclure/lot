@@ -13,7 +13,7 @@
 //:://////////////////////////////////////////////
 
 #include "NW_I0_GENERIC"
-#include "TH_NPC_INCLUDE"
+#include "th_npc_include"
 
 void main()
 {

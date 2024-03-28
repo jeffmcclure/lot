@@ -2,7 +2,7 @@
 // Ben W-Husey (B G P Hughes)
 // This script rewards the PC for unlocking a door/placeable based on the difficulty of the lock - not to be used on doors with keys.
 // Include cu_functions for AllParty to work  (prevents multiple characters getting the same xp in the same party)
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 //#include "nw_i0_tool"
 
 void main()

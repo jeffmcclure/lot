@@ -1,5 +1,5 @@
 // Include the cu_functions script - which makes PartyGotEntry actually work.
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 
 void main()
 {

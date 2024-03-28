@@ -1,7 +1,7 @@
 // Ben W-Husey (B G P Hughes)
 // This script rewards the PC for disarming the trap based on trap difficulty - the whole party is also rewarded a lesser amount for trap removal
 // Include cu_functions for PartyGotEntry to work
-#include "CU_FUNCTIONS"
+#include "cu_functions"
 #include "nw_i0_tool"
 
 void main()
