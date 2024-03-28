@@ -1,5 +1,11 @@
+// 2024-03-01 - Jeff McClure
+
 #include "nw_i0_tool"
 
+// use when you want to give a specific amount of xp (value stored in NCP variable) and
+// drop specific items (stored in NCP variables).   All party members receive the XP, and
+// each party member receives a copy of the loot.
+// Use in conjunction with lot_usechest.nss
 void main() {
     object oPC = GetLastKiller();
     int xp = GetLocalInt(OBJECT_SELF, "xp");

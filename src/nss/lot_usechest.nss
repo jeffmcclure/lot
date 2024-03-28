@@ -1,3 +1,7 @@
+// 2024-03-01 - Jeff McClure
+// use with lot_generic_boss.nss
+// allow each player to recieve the loot once
+// automatically puts loot in players inventory; loot does not appear in chest
 void main() {
     object oPC = GetLastUsedBy();
     if (!GetIsPC(oPC)) return;
