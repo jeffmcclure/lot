@@ -13,16 +13,16 @@
 * Multi-player, Bosses: Scale King Leoric hit points for party size.
 * Multi-player: Reward all party members with gold/xp instead of just one player
 * Bosses: New mini-boss Death Clean Leader in Catacomb I
-* Bosses: Scale King Leoric to 200% size.
+* Bosses: Scale King Leoric to 200% size
 * Stores: Merchants/stores take into consideration Appraise, Persuade, and Charisma
 * Stores: Show dice roll and DC check for Merchant/store appraise
-* Henchmen: Show persuade check dice roll for henchmen and other standard checks
-* Henchmen: Fixed bug where if you back out of the conversation with Jarulf or Janna at the second prompt, it breaks their conversation and you cannot talk to them again.
-* Henchmen: Add defensive logic to henchman script to resolve bug where henchman will not rejoin after being separated from PC
-* Quests: New Quest "Find Remy"
+* Henchmen, NPC: Show persuade check dice roll for henchmen and other standard checks
+* Henchmen, Bug: Fixed bug where if you back out of the conversation with Jarulf or Janna at the second prompt, it breaks their conversation and you cannot talk to them again.
+* Henchmen, Bug: Add defensive logic to henchman script to resolve bug where henchman will not rejoin after being separated from PC
+* Quests: New quest "Find Remy"
 * Quests: New section of cathedral "The Rectory" with map point for the entry in Tristram (for Find Remy)
 * Quests: New quest "Should old acquaintance be forgot..." - designed to encourage players to meet the key town NPC and collect free XP
-* Add starting loot in tavern chests
+* Add starting chests with loot in the tavern chest room
 * Added new chests that must be picked and cannot be bashed open
 * Gift to player Cloak of Fast Feet during game opening conversation with TheeMon
 * Using lot2.hak file with integrated ambient music and videos.  No longer using lotcephak1.hak, lothak.hak lotwav.hak
