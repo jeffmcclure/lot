@@ -1,0 +1,262 @@
+{
+  "TemplateResRef" : "kingleoric1",
+  "CurrentHitPoints" : 250,
+  "HitPoints" : 250,
+  "MaxHitPoints" : 250,
+  "DecayTime" : 10000,
+  "AppearanceType" : 39,
+  "BodyBag" : 3,
+  "CRAdjust" : -1,
+  "Cha" : 11,
+  "ChallengeRating" : 15.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 19 // undead
+    },
+    {
+      "ClassLevel" : 11,
+      "ClassX" : 4 // fighter
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "Deity" : "",
+  "Description" : "This is the cursed form of King Leoric, once the benevolent ruler of Khanduras.  The king had been corrupted by an unknown evil deep within the labyrinth, an evil that drove him mad and led him to call down a terrible curse on his followers who were forced to kill him.  His son, Prince Albrecht, is believed to be abducted by the Archbishop Lazarus.",
+  "Dex" : 12,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_leoric001",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "it_leoric003",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 896
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 235
+    },
+    {
+      "Feat" : 69
+    },
+    {
+      "Feat" : 18
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 107
+    },
+    {
+      "Feat" : 106
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 145
+    }
+  ],
+  "FirstName" : "<cÿÿ >King Leoric",
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+//  "ItemList" : [
+//    {
+//      "Dropable" : 1,
+//      "InventoryRes" : "undeadcrown",
+//
+//      "ReposPosX" : 0,
+//      "ReposPosy" : 0
+//    }
+//  ],
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "NaturalAC" : 1,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 241,
+  "Race" : 24,
+  "Refbonus" : 1,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_leoric",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_bos",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 11
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 11
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 56,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 30,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 30,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 30,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 30,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 30,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 81,
+  "Str" : 20,
+  "Subrace" : "",
+  "Tag" : "NPC_KING_LEORIC",
+  "TailNew" : 0,
+  "TemplateList" : [ ],
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "WingsNew" : 0,
+  "Wis" : 10
+}
