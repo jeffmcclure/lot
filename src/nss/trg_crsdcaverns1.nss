@@ -1,3 +1,4 @@
+#include "inc_party"
 int nInt;
 location lTarget;
 object oTarget;

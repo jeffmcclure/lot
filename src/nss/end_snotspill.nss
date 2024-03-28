@@ -1,4 +1,5 @@
 #include "NW_I0_GENERIC"
+#include "inc_party"
 void main()
 {
 

@@ -1,3 +1,4 @@
+#include "inc_party"
 int StartingConditional()
 {
 object oPC = GetPCSpeaker();

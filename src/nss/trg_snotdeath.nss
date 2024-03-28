@@ -1,3 +1,4 @@
+#include "inc_party"
 object oTarget;
 void main()
 {
