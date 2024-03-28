@@ -94,13 +94,13 @@ void jeffAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int 
     } else {
         SendMessageToPC(oPC, "[Appraise Skill]: No Advantage");
     }
+    nBonusMarkDown = nBonusMarkDown + nAdjust;
+    nBonusMarkUp = nBonusMarkUp + nAdjust;
+    //SendMessageToPC(oPC, "nBonusMarkDown =  " + IntToString(nBonusMarkDown));
+    //SendMessageToPC(oPC, "nBonusMarkUp =  " + IntToString(nBonusMarkUp));
 
     SetLocalInt(oPC, "X0_APPRAISEADJUST"+ sTag, nAdjust);
   //  SpawnScriptDebugger();
-
-
-    nBonusMarkUp = nBonusMarkUp + nAdjust;
-    nBonusMarkDown = nBonusMarkDown - nAdjust;
 
     OpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
 }
