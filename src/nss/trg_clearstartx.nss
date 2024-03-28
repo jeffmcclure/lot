@@ -2,6 +2,9 @@
 void main()
 {
 
+// do not clear starting area.   Late arrivals to game need to speak with TheeMon.
+return;
+
 object oPC = GetEnteringObject();
 if (!GetIsPC(oPC)) return;
 
