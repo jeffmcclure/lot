@@ -167,4 +167,4 @@ for i in "$@"; do
 	esac
 done
 
-md5sum modules/lot_1_7_4.mod ~/Documents/Neverwinter\ Nights/modules/lot_1_7_4.mod
+md5sum ../lot_docker/modules/lot_1_7_4.mod ~/Documents/Neverwinter\ Nights/modules/lot_1_7_4.mod
