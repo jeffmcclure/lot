@@ -15,15 +15,15 @@ export LOT_DIR=$HOME/lot
 export LOT_VERSION="1.7.4"
 export LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
 
-mkdir $LOT_DIR 2>/dev/null
-echo cd $LOT_DIR
-cd $LOT_DIR
+mkdir "$LOT_DIR" 2>/dev/null
+echo cd "$LOT_DIR"
+cd "$LOT_DIR" || exit
 mkdir lot_docker webserver 2>/dev/null
-cd webserver
+cd webserver || exit
 
 function webserver {
 	printf "\n\n%s\n\n\n" "webserver"
-	cd ../webserver
+	cd ../webserver || exit
 
 	echo stopping nwn_nginx
 	docker stop nwn_nginx &>/dev/null
@@ -37,7 +37,7 @@ function webserver {
 
 function nwn {
 	printf "\n\n%s\n\n\n" "nwn"
-	cd ../lot_docker
+	cd ../lot_docker || exit
 	cat <<EOF >env.txt
     NWN_ILR=0
     NWN_PORT=5121
@@ -60,13 +60,13 @@ EOF
 	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
 
 	echo creating nwn_lot
-	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home --env-file=env.txt nwnxee/unified:build8193.36.11
+	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.36.11
 }
 
 function nwsync {
 	printf "\n\n%s\n\n\n" "nwsync"
-	cd ../lot_docker
-	nwsync_write --description="The Lord of Terror Server Data" "${LOT_DIR}/webserver" modules/${LOT_MOD_NAME}.mod
+	cd ../lot_docker || exit
+	nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
 if [ $# -eq 0 ]; then
@@ -88,9 +88,5 @@ for i in "$@"; do
 		nwsync
 		;;
 
-	lotcp)
-		echo rsync to AWS
-		rsync -aP -e "ssh -i $AWS_KEY" "${LOT_DIR}/webserver/" "ec2-user@${AWS}:/usr/share/nginx/html/"
-		;;
 	esac
 done
