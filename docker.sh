@@ -12,8 +12,8 @@
 
 LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
 DOWNLOADS=$HOME/Downloads/lot
-LOT_VERSION="2.0.1"
-LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
+LOT_VERSION="2.0.2"
+LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
 
 if [ -z "$LOT_DIR" ]; then
 	LOT_DIR=$HOME/lot

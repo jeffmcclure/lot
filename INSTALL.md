@@ -15,4 +15,4 @@
 ## Install Module
 * Download "Module File" from ["The Lord of Terror 2" page on neverwinter vault](https://neverwintervault.org/project/nwnee/module/lord-terror-2)
 * Unzip archive
-* Install lot_2.0.1.mod into the "~/Documents/Neverwinter Nights/modules" directory
+* Install lot_2.0.2.mod into the "~/Documents/Neverwinter Nights/modules" directory

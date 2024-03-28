@@ -1,6 +1,11 @@
 [Back to README.md](README.md)
 
 # Changelog
+## 2.0.2 &mdash; 2024-03-25
+* [ ] todo: Loot genie
+* [ ] todo: Dark Souls death recovery system
+
+
 ## 2.0.1 &mdash; 2024-03-24
 * Fixed issue where some monsters were not dropping loot
 * Do not zoom conversations for henchmen, Ogden, or Griswold
