@@ -40,7 +40,7 @@ while (oPC != OBJECT_INVALID)
         //RewardPartyGP(200, oPC, TRUE);
         //CreateItemOnObject("undeadcrown", oPC);
         //AddPersistentJournalQuestEntry("QST_LEORIC", 2, oPC, FALSE, FALSE);
-        AddJournalQuestEntry("QST_LEORIC", 2, oPC, FALSE, FALSE);
+        AddJournalQuestEntry("QST_LEORIC", 2, oPC, TRUE, FALSE);
         SendMessageToPC(oPC, "Rest well, Leoric.  I'll find your son...");
         //ExecuteScript("sav_lastkilled", OBJECT_SELF);
         }

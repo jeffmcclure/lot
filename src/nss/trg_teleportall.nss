@@ -12,7 +12,7 @@ while (oPC != OBJECT_INVALID)
         SetPartyInt(oPC, "diabloquest", 5);
         SetPartyInt(oPC, "diablokill", 5);
         //AddPersistentJournalQuestEntry("QST_DIABLO", 2, oPC, FALSE, FALSE);
-        AddJournalQuestEntry("QST_DIABLO", 2, oPC, FALSE, FALSE);
+        AddJournalQuestEntry("QST_DIABLO", 2, oPC, TRUE, FALSE);
         //ExecuteScript("sav_lastspeaker", OBJECT_SELF);
         AssignCommand(oPC, ClearAllActions());
         AssignCommand(oPC, JumpToObject(oDst));

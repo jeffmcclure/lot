@@ -28,7 +28,7 @@ if (!(nInt < 2))
 
 CreateItemOnObject("thesteeltome", oPC);
 //AddPersistentJournalQuestEntry("QST_WARLORD", 1, oPC, FALSE, FALSE);
-AddJournalQuestEntry("QST_WARLORD", 1, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_WARLORD", 1, oPC, TRUE, FALSE);
 //ExecuteScript("sav_lastused", OBJECT_SELF);
 
 }

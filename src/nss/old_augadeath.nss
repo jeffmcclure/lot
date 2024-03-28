@@ -46,7 +46,7 @@ while (oPC != OBJECT_INVALID)
         RewardPartyXP(750, oPC, TRUE);
         //RewardPartyGP(500, oPC, TRUE);
         //AddPersistentJournalQuestEntry("QST_WATERSUPPLY", 2, oPC, FALSE, FALSE);
-        AddJournalQuestEntry("QST_WATERSUPPLY", 2, oPC, FALSE, FALSE);
+        AddJournalQuestEntry("QST_WATERSUPPLY", 2, oPC, TRUE, FALSE);
         SendMessageToPC(oPC, "The underground spring has been purified!");
         //ExecuteScript("sav_lastkilled", OBJECT_SELF);
         //AssignCommand(oPC, ClearAllActions());

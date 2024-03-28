@@ -9,8 +9,8 @@ object oPC = GetPCSpeaker();
 if (GetItemPossessedBy(oPC, "EPIC_EPICTOTEM")== OBJECT_INVALID)
    {
    CreateItemOnObject("epictotem", oPC);
-   AddPersistentJournalQuestEntry("QST_CORNERSTONE", 1, oPC, FALSE, FALSE);
-   //AddJournalQuestEntry("QST_CORNERSTONE", 1, oPC, FALSE, FALSE);
+   //AddPersistentJournalQuestEntry("QST_CORNERSTONE", 1, oPC, TRUE, FALSE);
+   AddJournalQuestEntry("QST_CORNERSTONE", 1, oPC, TRUE, FALSE);
    ExecuteScript("sav_speaker", OBJECT_SELF);
 
    oTarget = GetWaypointByTag("WP_CORNERSTONE");

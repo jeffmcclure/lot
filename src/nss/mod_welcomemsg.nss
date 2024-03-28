@@ -11,7 +11,7 @@ if (!GetIsPC(oPC)) return;
 //RebuildJournalQuestEntries(GetEnteringObject());
 
 //AddPersistentJournalQuestEntry("QST_UPDATE_042004", 1, oPC, FALSE, FALSE);
-AddJournalQuestEntry("QST_FLESHDOOM", 2, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_FLESHDOOM", 2, oPC, TRUE, FALSE);
 //SetLocalInt(oPC, "caverns1", 1);
 //SetLocalInt(oPC, "catacombs1", 1);
 

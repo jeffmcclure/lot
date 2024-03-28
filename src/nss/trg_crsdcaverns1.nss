@@ -54,8 +54,8 @@ else if (nInt < 1)
 else if (nInt == 1)
    {
    SendMessageToPC(oPC, "This place reeks strongly of blood and death.");
-   AddPersistentJournalQuestEntry("QST_LOSTBOYS", 2, oPC, FALSE, FALSE);
- //AddJournalQuestEntry("QST_LOSTBOYS", 2, oPC, FALSE, FALSE);
+   //AddPersistentJournalQuestEntry("QST_LOSTBOYS", 2, oPC, FALSE, FALSE);
+   AddJournalQuestEntry("QST_LOSTBOYS", 2, oPC, TRUE, FALSE);
    ExecuteScript("sav_lastenter", OBJECT_SELF);
 
    }

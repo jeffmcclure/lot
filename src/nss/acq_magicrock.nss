@@ -32,7 +32,7 @@ if (GetItemPossessedBy(oPC, "D1_HEAVENSTONE")!= OBJECT_INVALID)
 
 CreateItemOnObject("heavenstone", oPC);
 //AddPersistentJournalQuestEntry("QST_MAGICROCK", 2, oPC, FALSE, FALSE);
-AddJournalQuestEntry("QST_MAGICROCK", 2, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_MAGICROCK", 2, oPC, TRUE, FALSE);
 //ExecuteScript("sav_lastused", OBJECT_SELF);
 
 }

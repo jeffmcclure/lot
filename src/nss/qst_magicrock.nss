@@ -3,7 +3,8 @@ void main()
 {
 
 object oPC = GetPCSpeaker();
-AddPersistentJournalQuestEntry("QST_MAGICROCK", 1, oPC, TRUE, FALSE);
+//AddPersistentJournalQuestEntry("QST_MAGICROCK", 1, oPC, TRUE, FALSE);
+AddJournalQuestEntry("QST_MAGICROCK", 1, oPC, TRUE, FALSE);
 
 }
 

@@ -13,7 +13,8 @@ nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_CORNERSTONE");
 if (!(nInt < 1))
    return;
 
-AddPersistentJournalQuestEntry("QST_CORNERSTONE", 1, oPC, TRUE, FALSE);
+//AddPersistentJournalQuestEntry("QST_CORNERSTONE", 1, oPC, TRUE, FALSE);
+AddJournalQuestEntry("QST_CORNERSTONE", 1, oPC, TRUE, FALSE);
 //ExecuteScript("sav_lastenter", OBJECT_SELF);
 
 }

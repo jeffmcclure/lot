@@ -17,7 +17,8 @@ nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_LAZARUS");
 if (!(nInt < 1))
    return;
 
-AddPersistentJournalQuestEntry("QST_LAZARUS", 1, oPC, FALSE, FALSE);
+//AddPersistentJournalQuestEntry("QST_LAZARUS", 1, oPC, TRUE, FALSE);
+AddJournalQuestEntry("QST_LAZARUS", 1, oPC, TRUE, FALSE);
 
 }
 

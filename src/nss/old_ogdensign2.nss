@@ -15,7 +15,7 @@ if (GetIsObjectValid(oItem))
    DestroyObject(oItem);
 
 //AddPersistentJournalQuestEntry("QST_OGDENSIGN", 3, oPC, FALSE, FALSE);
-AddJournalQuestEntry("QST_OGDENSIGN", 3, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_OGDENSIGN", 3, oPC, TRUE, FALSE);
 //ExecuteScript("sav_lastspeaker", OBJECT_SELF);
 
 }
