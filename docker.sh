@@ -117,7 +117,7 @@ EOF
 	docker rm nwn_lot &>/dev/null
 
 	echo creating nwn_lot
-	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.36.11
+	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.36.12
 }
 
 function nwsync {
