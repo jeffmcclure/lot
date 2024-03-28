@@ -40,8 +40,8 @@ function nwn {
     NWN_NWSYNCURL=http://71.254.0.211:8000
 EOF
 
-    #NWN_NWSYNCURL=http://ec2-35-91-182-7.us-west-2.compute.amazonaws.com
-    #NWN_NWSYNCURL=http://72.95.96.159:8000
+	#NWN_NWSYNCURL=http://ec2-35-91-182-7.us-west-2.compute.amazonaws.com
+	#NWN_NWSYNCURL=http://72.95.96.159:8000
 	#NWN_NWSYNCURL=http://192.168.7.229:8000
 
 	echo stopping nwn_lot
