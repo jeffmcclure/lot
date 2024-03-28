@@ -18,7 +18,6 @@ void main() {
     }
 
     object leoric = CreateObject(OBJECT_TYPE_CREATURE, resref, lTarget);
-    DelayCommand(0.1, PlaySound("leoric1a"));
     if(GetIsPC(oPC)) {
         // Sounds cannot be played direction from triggers - here is the workaround
         object oTarget = GetObjectByTag("RDM_CHEST2_JEFF");
