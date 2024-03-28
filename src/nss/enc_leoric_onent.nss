@@ -6,9 +6,9 @@
 void main()
 {
   object leoric = GetObjectByTag("NPC_KING_LEORIC");
-  SetObjectVisualTransform(leoric, OBJECT_VISUAL_TRANSFORM_SCALE, 2.0);
+  SetObjectVisualTransform(leoric, OBJECT_VISUAL_TRANSFORM_SCALE, 2.1);
   object oPC = GetFirstPC();
-  int points = 122 * GetNumberPartyMembers(oPC);
+  int points = 249 * GetNumberPartyMembers(oPC);
   SetCurrentHitPoints(leoric, points);
   MessageAll("Leoric hit points set to " + IntToString(points));
 }

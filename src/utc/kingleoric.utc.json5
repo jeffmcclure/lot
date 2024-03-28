@@ -7,11 +7,11 @@
   "ClassList" : [
     {
       "ClassLevel" : 1,
-      "ClassX" : 19
+      "ClassX" : 19 // undead
     },
     {
-      "ClassLevel" : 10,
-      "ClassX" : 4
+      "ClassLevel" : 11,
+      "ClassX" : 4 // fighter
     }
   ],
   "Comment" : "",
@@ -46,6 +46,9 @@
     },
     {
       "Feat" : 6
+    },
+    {
+      "Feat" : 896
     },
     {
       "Feat" : 14
@@ -91,7 +94,7 @@
   "Fortbonus" : 1,
   "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 122,
+  "HitPoints" : 999,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
@@ -108,7 +111,7 @@
   "LastName" : "",
   "LawfulChaotic" : 0,
   "Lootable" : 0,
-  "MaxHitPoints" : 155,
+  "MaxHitPoints" : 999,
   "NaturalAC" : 1,
   "NoPermDeath" : 1,
   "PaletteID" : 45,
@@ -246,13 +249,13 @@
     }
   ],
   "StartingPackage" : 81,
-  "Str" : 18,
+  "Str" : 20,
   "Subrace" : "",
   "Tag" : "NPC_KING_LEORIC",
   "TailNew" : 0,
   "TemplateList" : [ ],
   "TemplateResRef" : "kingleoric",
-  "WalkRate" : 5,
+  "WalkRate" : 6,
   "Willbonus" : 0,
   "WingsNew" : 0,
   "Wis" : 10

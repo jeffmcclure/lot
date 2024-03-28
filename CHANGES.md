@@ -30,6 +30,7 @@
 * Gift to player Cloak of Fast Feet during game opening conversation with TheeMon
 * Using lot2.hak file with integrated ambient music and videos.  No longer using lotcephak1.hak, lothak.hak lotwav.hak
 * rename area files for better names (.are, .gic, .git)
+* Boss: Butcher and Leoric now immune to critical hits
 
 ## 1.0.7 &mdash; 2024-02-01 
 * Use [nwt](https://github.com/jeffmcclure/nwt) and [GitHub](https://github.com/jeffmcclure/lot5) for module development
