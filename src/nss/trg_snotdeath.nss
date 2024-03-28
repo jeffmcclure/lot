@@ -11,7 +11,7 @@ object oPC = GetFirstPC();
 //if (!GetIsPC(oPC)) return;
 
 int nInt;
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_MAGICBANNER");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_MAGICBANNER");
 if (nInt == 2)
    {
    CreateItemOnObject("tavernsignx", OBJECT_SELF);

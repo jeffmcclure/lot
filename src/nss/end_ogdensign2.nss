@@ -5,7 +5,7 @@ void main()
 object oPC = GetPCSpeaker();
 
 int nInt;
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_MAGICBANNER");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_MAGICBANNER");
 if (nInt >= 1)
    {
    RewardPartyXP(1500, oPC, TRUE);

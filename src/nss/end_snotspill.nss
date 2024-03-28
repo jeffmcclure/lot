@@ -5,7 +5,7 @@ void main()
 object oPC = GetPCSpeaker();
 
 int nInt;
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_OGDENSIGN");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OGDENSIGN");
 if (nInt == 1)
    {
     AddJournalQuestEntry("QST_MAGICBANNER", 2, oPC, TRUE, FALSE);

@@ -11,11 +11,11 @@ object oPC = GetFirstPC();
 //if (!GetIsPC(oPC)) return;
 
 int nInt;
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_OGDENSIGN");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OGDENSIGN");
 if (!(nInt >= 1))
    return;
 
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_OGDENSIGN");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OGDENSIGN");
 if (!(nInt < 2))
    return;
 
