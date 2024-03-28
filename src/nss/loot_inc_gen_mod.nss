@@ -105,13 +105,13 @@ int JUMP_LEVEL = 2;
 
 
 //* Declarations
-    void CreateGenericExotic(object oTarget, object oAdventurer, int nModifier = 0);
-    void CreateGenericMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0);
-    void CreateSpecificMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0);
-    void CreateGenericDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0);
-    void CreateSpecificDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0);
-    void CreateGenericWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0);
-    void CreateSpecificWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateGenericExotic(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateGenericMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateSpecificMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateGenericDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateSpecificDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateGenericWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0);
+    object CreateSpecificWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0);
     int nDetermineClassToUse(object oCharacter);
 
 
@@ -126,7 +126,7 @@ void dbSpeak(string s)
 }
 
 //* made this function to help with debugging
-void dbCreateItemOnObject(string sItemTemplate, object oTarget = OBJECT_SELF, int nStackSize = 1)
+object dbCreateItemOnObject(string sItemTemplate, object oTarget = OBJECT_SELF, int nStackSize = 1)
 {
     if (sItemTemplate == "")
     {
@@ -161,6 +161,7 @@ void dbCreateItemOnObject(string sItemTemplate, object oTarget = OBJECT_SELF, in
             PrintString("*******");
         }
     }
+    return oItem;
 }
 
 
@@ -312,7 +313,7 @@ int GetNumberOfItems(int nTreasureType)
     // *
     // * Non-Scaling Treasure
     // *
-    void CreateBook(object oTarget)
+    object CreateBook(object oTarget)
     {
         int nBook1 = Random(31) + 1;
         string sRes = "NW_IT_BOOK01";
@@ -326,10 +327,10 @@ int GetNumberOfItems(int nTreasureType)
             sRes = "NW_IT_BOOK0" + IntToString(nBook1);
         }
         dbSpeak("Create book");
-        dbCreateItemOnObject(sRes, oTarget);
+        return dbCreateItemOnObject(sRes, oTarget);
     }
 
-    void CreateAnimalPart(object oTarget)
+    object CreateAnimalPart(object oTarget)
     {
 
         string sRes = "";
@@ -341,10 +342,10 @@ int GetNumberOfItems(int nTreasureType)
             case 3: sRes = "NW_IT_MMIDMISC06"; break;
         }
         dbSpeak("animal");
-        dbCreateItemOnObject(sRes, oTarget);
+        return dbCreateItemOnObject(sRes, oTarget);
     }
 
-    void CreateJunk(object oTarget)
+    object CreateJunk(object oTarget)
     {
         string sRes = "NW_IT_TORCH001";
         int NUM_ITEMS = 6;
@@ -360,12 +361,12 @@ int GetNumberOfItems(int nTreasureType)
             case 6: sRes = "NW_IT_TORCH001"; break; //torch
         }
         dbSpeak("CreateJunk");
-        dbCreateItemOnObject(sRes, oTarget);
+        return dbCreateItemOnObject(sRes, oTarget);
     }
     // *
     // * Scaling Treasure
     // *
-    void CreateGold(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
+    object CreateGold(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         int nAmount = 0;
@@ -406,9 +407,9 @@ int GetNumberOfItems(int nTreasureType)
             nAmount = 1;
         }
         dbSpeak("gold");
-        dbCreateItemOnObject("NW_IT_GOLD001", oTarget, nAmount);
+        return dbCreateItemOnObject("NW_IT_GOLD001", oTarget, nAmount);
     }
-    void CreateGem(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
+    object CreateGem(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         string sGem = "nw_it_gem001";
@@ -490,9 +491,9 @@ int GetNumberOfItems(int nTreasureType)
             }
         }
       dbSpeak("Create Gem");
-      dbCreateItemOnObject(sGem, oTarget, 1);
+      return dbCreateItemOnObject(sGem, oTarget, 1);
     }
-    void CreateJewel(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
+    object CreateJewel(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         string sJewel = "";
@@ -562,9 +563,9 @@ int GetNumberOfItems(int nTreasureType)
         }
       dbSpeak("Create Jewel");
 
-      dbCreateItemOnObject(sJewel, oTarget, 1);
-
+      return dbCreateItemOnObject(sJewel, oTarget, 1);
     }
+    
     // * returns the valid upper limit for any arcane spell scroll
     int TrimLevel(int nScroll, int nLevel)
     {   int nMax = 5;
@@ -586,7 +587,7 @@ int GetNumberOfItems(int nTreasureType)
 
     }
     // * nModifier is to 'raise' the level of the oAdventurer
-    void CreateArcaneScroll(object oTarget, object oAdventurer, int nModifier = 0)
+    object CreateArcaneScroll(object oTarget, object oAdventurer, int nModifier = 0)
     {
         int nMaxSpells = 21;
         int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -645,10 +646,10 @@ int GetNumberOfItems(int nTreasureType)
         {
             sRes = "NW_IT_SPARSCR" + IntToString(nLevel) + IntToString(nScroll);
         }
-          dbCreateItemOnObject(sRes, oTarget, 1);
-        }
+          return dbCreateItemOnObject(sRes, oTarget, 1);
+    }
 
-    void CreateDivineScroll(object oTarget, object oAdventurer, int nModifier=0)
+    object CreateDivineScroll(object oTarget, object oAdventurer, int nModifier=0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         string sScroll = "";
@@ -712,10 +713,10 @@ int GetNumberOfItems(int nTreasureType)
         }
         dbSpeak("Divine Scroll");
 
-        dbCreateItemOnObject(sScroll, oTarget, 1);
-
+        return dbCreateItemOnObject(sScroll, oTarget, 1);
     }
-    void CreateAmmo(object oTarget, object oAdventurer, int nModifier=0)
+    
+    object CreateAmmo(object oTarget, object oAdventurer, int nModifier=0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         string sAmmo = "";
@@ -798,10 +799,10 @@ int GetNumberOfItems(int nTreasureType)
             }
         }
         dbSpeak("ammo");
-        dbCreateItemOnObject(sAmmo, oTarget, Random(30) + 1); // create up to 30 of the specified ammo type
+        return dbCreateItemOnObject(sAmmo, oTarget, Random(30) + 1); // create up to 30 of the specified ammo type
     }
 
-    void CreateTrapKit(object oTarget, object oAdventurer, int nModifier = 0)
+    object CreateTrapKit(object oTarget, object oAdventurer, int nModifier = 0)
     {
       int nHD = GetHitDice(oAdventurer) + nModifier;
       string sKit = "";
@@ -949,10 +950,10 @@ int GetNumberOfItems(int nTreasureType)
 
         }
         dbSpeak("Create Trapkit");
-        dbCreateItemOnObject(sKit, oTarget, 1);
+        return dbCreateItemOnObject(sKit, oTarget, 1);
 
     }
-    void CreateHealingKit(object oTarget, object oAdventurer, int nModifier = 0)
+    object CreateHealingKit(object oTarget, object oAdventurer, int nModifier = 0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         string sKit = "";
@@ -1016,10 +1017,10 @@ int GetNumberOfItems(int nTreasureType)
         }
         dbSpeak("Create Healing Kit");
 
-        dbCreateItemOnObject(sKit, oTarget, 1);
+        return dbCreateItemOnObject(sKit, oTarget, 1);
 
     }
-    void CreateLockPick(object oTarget, object oAdventurer, int nModifier = 0)
+    object CreateLockPick(object oTarget, object oAdventurer, int nModifier = 0)
     {
         int nHD = GetHitDice(oAdventurer) + nModifier;
         string sKit = "";
@@ -1091,23 +1092,38 @@ int GetNumberOfItems(int nTreasureType)
         }
        dbSpeak("Create Lockpick");
 
-        dbCreateItemOnObject(sKit, oTarget, 1);
-
+        return dbCreateItemOnObject(sKit, oTarget, 1);
     }
-    void CreateKit(object oTarget, object oAdventurer, int nModifier = 0)
+    
+    object CreateKit(object oTarget, object oAdventurer, int nModifier = 0)
     {
         // * April 23 2002: Major restructuring of this function
         // * to allow me to
 
         switch (Random(8) + 1)
         {
-            case 1: case 2: CreateTrapKit(oTarget, oAdventurer, nModifier); break;
-            case 3: case 4:  CreateHealingKit(oTarget, oAdventurer, nModifier); break;
-            case 5: case 6: case 7: case 8: CreateLockPick(oTarget, oAdventurer, nModifier); break;
+            case 1:
+            case 2:
+                return CreateTrapKit(oTarget, oAdventurer, nModifier);
+                //break;
+            case 3:
+            case 4:
+                return CreateHealingKit(oTarget, oAdventurer, nModifier);
+                //break;
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+                return CreateLockPick(oTarget, oAdventurer, nModifier);
+                //break;
+            default:
+                return OBJECT_INVALID;
+                //break;
         }
+        return OBJECT_INVALID;
     }
 
-    void CreatePotion(object oTarget, object oAdventurer, int nModifier = 0)
+    object CreatePotion(object oTarget, object oAdventurer, int nModifier = 0)
     {
         string sPotion = "";
         int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -1195,8 +1211,9 @@ int GetNumberOfItems(int nTreasureType)
         }
 
         dbSpeak("Create Potion");
-        dbCreateItemOnObject(sPotion, oTarget, 1);
+        return dbCreateItemOnObject(sPotion, oTarget, 1);
     }
+    
     //::///////////////////////////////////////////////
     //:: CreateTable2GenericItem
     //:: Copyright (c) 2002 Bioware Corp.
@@ -1209,7 +1226,7 @@ int GetNumberOfItems(int nTreasureType)
     //:: Created By:  Brent
     //:: Created On:
     //:://////////////////////////////////////////////
-        void CreateGenericMiscItem(object oTarget, object oAdventurer, int nModifier=0)
+        object CreateGenericMiscItem(object oTarget, object oAdventurer, int nModifier=0)
         {
             int nHD = GetHitDice(oAdventurer) + nModifier;
             string sItem = "";
@@ -1459,24 +1476,22 @@ int GetNumberOfItems(int nTreasureType)
              }
              dbSpeak("Create Misc");
 
-             dbCreateItemOnObject(sItem, oTarget, 1);
+             return dbCreateItemOnObject(sItem, oTarget, 1);
          }
 
          // * this function just returns an item that is more appropriate
          // * for this class. Only wizards, sorcerers, clerics, monks, rogues and bards get this
-        void CreateGenericClassItem(object oTarget, object oAdventurer, int nSpecific =0)
+        object CreateGenericClassItem(object oTarget, object oAdventurer, int nSpecific =0)
         {
-
-
             if (GetLevelByClass(CLASS_TYPE_DRUID, oAdventurer)>= 1)
             {
                 if (nSpecific == 0)
                 {
-                    CreateGenericDruidWeapon(oTarget, oAdventurer);
+                    return CreateGenericDruidWeapon(oTarget, oAdventurer);
                 }
                 else
                 {
-                    CreateSpecificDruidWeapon(oTarget, oAdventurer);
+                    return CreateSpecificDruidWeapon(oTarget, oAdventurer);
                 }
             }
             else
@@ -1486,19 +1501,17 @@ int GetNumberOfItems(int nTreasureType)
                 if (Random(100) + 1 > 70)
                 {
                     // * grab an arcane scroll as if the wizard had +4 levels
-                    CreateArcaneScroll(oTarget, oAdventurer, 4);
+                    return CreateArcaneScroll(oTarget, oAdventurer, 4);
                 }
                 else
                 if (nSpecific == 0)
                 {
-                    CreateGenericWizardWeapon(oTarget, oAdventurer);
+                    return CreateGenericWizardWeapon(oTarget, oAdventurer);
                 }
                 else
                 {
-                    CreateSpecificWizardWeapon(oTarget, oAdventurer);
+                    return CreateSpecificWizardWeapon(oTarget, oAdventurer);
                 }
-
-
             }
             else
             if (GetLevelByClass(CLASS_TYPE_CLERIC, oAdventurer)>= 1)
@@ -1512,7 +1525,7 @@ int GetNumberOfItems(int nTreasureType)
                        case 3: sItem = "nw_it_medkit003"; break;
                        case 4: sItem = "nw_it_medkit004"; break;
                    }
-                  dbCreateItemOnObject(sItem, oTarget, 1);
+                  return dbCreateItemOnObject(sItem, oTarget, 1);
             }
             else
             if (GetLevelByClass(CLASS_TYPE_MONK, oAdventurer)>= 1)
@@ -1520,28 +1533,30 @@ int GetNumberOfItems(int nTreasureType)
                 dbSpeak("in monk function");
                 if (nSpecific == 0)
                 {
-                    CreateGenericMonkWeapon(oTarget, oAdventurer);
+                    return CreateGenericMonkWeapon(oTarget, oAdventurer);
                 }
                 else
                 {
-                    CreateSpecificMonkWeapon(oTarget, oAdventurer);
+                    return CreateSpecificMonkWeapon(oTarget, oAdventurer);
                 }
             }
             else
             if (GetLevelByClass(CLASS_TYPE_ROGUE, oAdventurer)>= 1)
             {
                 // * give a misc item as if a couple levels higher
-                CreateGenericMiscItem(oTarget, oAdventurer, 2);
+                return CreateGenericMiscItem(oTarget, oAdventurer, 2);
             }
             else
             if (GetLevelByClass(CLASS_TYPE_BARD, oAdventurer)>= 1)
             {
                 // * give a misc item as if a couple levels higher
-                CreateGenericMiscItem(oTarget, oAdventurer, 2);
+                return CreateGenericMiscItem(oTarget, oAdventurer, 2);
             }
 
+            return OBJECT_INVALID;
         }
-        void CreateGenericRodStaffWand(object oTarget, object oAdventurer, int nModifier = 0)
+
+        object CreateGenericRodStaffWand(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -1614,10 +1629,10 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Rod staff wand");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
 
-        void CreateGenericMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0)
+        object CreateGenericMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -1730,9 +1745,9 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Monk Weapon");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0)
+        object CreateSpecificMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
 
             string sItem = "";
@@ -1745,7 +1760,7 @@ int GetNumberOfItems(int nTreasureType)
                   {
                        case 1: sItem = "nw_wthmsh003"; break;
                        case 2: sItem = "nw_wthmsh006"; break;
-                       case 3: CreateGenericMonkWeapon(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 3: return CreateGenericMonkWeapon(oTarget, oAdventurer, JUMP_LEVEL);
                   }
 
             }
@@ -1761,7 +1776,7 @@ int GetNumberOfItems(int nTreasureType)
                        case 5: sItem = "NW_IT_MGLOVE016"; break;
                        case 6: sItem = "NW_IT_MGLOVE021"; break;
                        case 7: sItem = "NW_IT_MGLOVE026"; break;
-                       case 8: CreateGenericMonkWeapon(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 8: return CreateGenericMonkWeapon(oTarget, oAdventurer, JUMP_LEVEL);
                    }
 
             }
@@ -1871,11 +1886,10 @@ int GetNumberOfItems(int nTreasureType)
             }
            dbSpeak("Specific Monk Weapon");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
-
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
 
-        void CreateGenericDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0)
+        object CreateGenericDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -1987,11 +2001,10 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Druid weapon");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
-
-
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateSpecificDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
 
             string sItem = "";
@@ -1999,12 +2012,11 @@ int GetNumberOfItems(int nTreasureType)
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericDruidWeapon(oTarget, oAdventurer, JUMP_LEVEL); return;
-
+                return CreateGenericDruidWeapon(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 2500
             {
-                CreateGenericDruidWeapon(oTarget, oAdventurer, JUMP_LEVEL); return;
+                return CreateGenericDruidWeapon(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(3, nHD))   // * 800 - 10000
             {
@@ -2015,7 +2027,7 @@ int GetNumberOfItems(int nTreasureType)
                        case 2: sItem = "nw_wdbmqs006"; break;
                        case 3: sItem = "nw_wbwmsl005"; break;
                        case 4: sItem = "nw_wswmdg006"; break;
-                       case 5: CreateGenericDruidWeapon(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 5: return CreateGenericDruidWeapon(oTarget, oAdventurer, JUMP_LEVEL);
                    }
 
             }
@@ -2065,11 +2077,10 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("specific druid weapon");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
-
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
 
-        void CreateGenericWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0)
+        object CreateGenericWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -2151,10 +2162,10 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Wizard or Sorcerer Weapon");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
-
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateSpecificWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
 
             string sItem = "";
@@ -2162,11 +2173,11 @@ int GetNumberOfItems(int nTreasureType)
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericWizardWeapon(oTarget, oAdventurer, JUMP_LEVEL); return;
+                return CreateGenericWizardWeapon(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 2500
             {
-                CreateGenericWizardWeapon(oTarget, oAdventurer, JUMP_LEVEL); return;
+                return CreateGenericWizardWeapon(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(3, nHD))   // * 800 - 10000
             {
@@ -2224,11 +2235,10 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Specific Wizard or Sorcerer Weapon");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
-
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
 
-        void CreateGenericSimple(object oTarget, object oAdventurer, int nModifier = 0)
+        object CreateGenericSimple(object oTarget, object oAdventurer, int nModifier = 0)
         {
            string sItem = "";
            int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -2393,9 +2403,10 @@ int GetNumberOfItems(int nTreasureType)
             }
             dbSpeak("Create Generic SImple; Specific = " + IntToString(nModifier));
 
-            dbCreateItemOnObject(sItem, oTarget, 1);
+            return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateGenericMartial(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateGenericMartial(object oTarget, object oAdventurer, int nModifier = 0)
         {
            string sItem = "";
 
@@ -2577,9 +2588,10 @@ int GetNumberOfItems(int nTreasureType)
 
             dbSpeak("Create Generic Martial");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateGenericExotic(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateGenericExotic(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
 
@@ -2709,9 +2721,10 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create generic exotic");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateGenericLightArmor(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateGenericLightArmor(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
 
@@ -2808,9 +2821,10 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create Generic light");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateGenericMediumArmor(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateGenericMediumArmor(object oTarget, object oAdventurer, int nModifier = 0)
         {
             int nHD = GetHitDice(oAdventurer) + nModifier;
             string sItem = "";
@@ -2935,9 +2949,10 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create Generic medium");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateGenericHeavyArmor(object oTarget, object oAdventurer, int nModifier = 0)
+        
+        object CreateGenericHeavyArmor(object oTarget, object oAdventurer, int nModifier = 0)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer) + nModifier;
@@ -3041,27 +3056,27 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create Generic heavy");
 
-           dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, 1);
         }
+        
         // *
         // * SPECIC TREASURE ITEMS (re: Named Items)
         // *
-        void CreateSpecificMiscItem(object oTarget,object oAdventurer)
+        object CreateSpecificMiscItem(object oTarget,object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericMiscItem(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericMiscItem(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
                   int nRandom = Random(3) + 1;
                   switch (nRandom)
                   {
-                       case 1: CreateGenericMiscItem(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 1: return CreateGenericMiscItem(oTarget, oAdventurer, JUMP_LEVEL);
                        case 2: sItem = "nw_maarcl057"; break;
                        case 3: sItem = "nw_it_mbelt005"; break;
                    }
@@ -3166,22 +3181,21 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificRodStaffWand(object oTarget, object oAdventurer)
+        
+        object CreateSpecificRodStaffWand(object oTarget, object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericRodStaffWand(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericRodStaffWand(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
-                CreateGenericRodStaffWand(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericRodStaffWand(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(3, nHD))   // * 800 - 10000
             {
@@ -3240,24 +3254,22 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, 1);
         }
 
 
-        void CreateSpecificSimple(object oTarget, object oAdventurer)
+        object CreateSpecificSimple(object oTarget, object oAdventurer)
         {
            string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericSimple(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericSimple(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
-                CreateGenericSimple(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericSimple(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(3, nHD))   // * 800 - 10000
             {
@@ -3381,24 +3393,23 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificMartial(object oTarget, object oAdventurer)
+        object CreateSpecificMartial(object oTarget, object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericMartial(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericMartial(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
                   int nRandom = Random(3) + 1;
                   switch (nRandom)
                   {
-                       case 1: CreateGenericMartial(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 1: return CreateGenericMartial(oTarget, oAdventurer, JUMP_LEVEL);
                        case 2: sItem = "nw_wthmax005"; break;
                        case 3: sItem = "nw_wthmax007"; break;
                    }
@@ -3575,9 +3586,9 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificExotic(object oTarget, object oAdventurer)
+        object CreateSpecificExotic(object oTarget, object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
@@ -3587,7 +3598,7 @@ int GetNumberOfItems(int nTreasureType)
                   int nRandom = Random(3) + 1;
                   switch (nRandom)
                   {
-                       case 1: CreateGenericExotic(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 1: return CreateGenericExotic(oTarget, oAdventurer, JUMP_LEVEL);
                        case 2: sItem = "nw_wthmsh003"; break;
                        case 3: sItem = "nw_wthmsh006"; break;
                    }
@@ -3598,7 +3609,7 @@ int GetNumberOfItems(int nTreasureType)
                   int nRandom = Random(5) + 1;
                   switch (nRandom)
                   {
-                       case 1: CreateGenericExotic(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 1: return CreateGenericExotic(oTarget, oAdventurer, JUMP_LEVEL);
                        case 2: sItem = "nw_wthmsh003"; break;
                        case 3: sItem = "nw_wthmsh006"; break;
                        case 4: sItem = "nw_wthmsh004"; break;
@@ -3706,24 +3717,23 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificLightArmor(object oTarget, object oAdventurer)
+        object CreateSpecificLightArmor(object oTarget, object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericLightArmor(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericLightArmor(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
                   int nRandom = Random(3) + 1;
                   switch (nRandom)
                   {
-                       case 1: CreateGenericLightArmor(oTarget, oAdventurer, JUMP_LEVEL); return; break;
+                       case 1: return CreateGenericLightArmor(oTarget, oAdventurer, JUMP_LEVEL);
                        case 2: sItem = "nw_ashmsw011"; break;
                        case 3: sItem = "nw_ashmsw010"; break;
                    }
@@ -3804,22 +3814,21 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-              dbCreateItemOnObject(sItem, oTarget, 1);
+              return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificMediumArmor(object oTarget, object oAdventurer)
+        
+        object CreateSpecificMediumArmor(object oTarget, object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericMediumArmor(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericMediumArmor(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
-                CreateGenericMediumArmor(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericMediumArmor(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(3, nHD))   // * 800 - 10000
             {
@@ -3891,22 +3900,21 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                  dbCreateItemOnObject(sItem, oTarget, 1);
+                  return dbCreateItemOnObject(sItem, oTarget, 1);
         }
-        void CreateSpecificHeavyArmor(object oTarget, object oAdventurer)
+        
+        object CreateSpecificHeavyArmor(object oTarget, object oAdventurer)
         {
             string sItem = "";
             int nHD = GetHitDice(oAdventurer);
 
             if (GetRange(1, nHD))    // * 800
             {
-                CreateGenericHeavyArmor(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericHeavyArmor(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(2, nHD))   // * 200 - 2500
             {
-                CreateGenericHeavyArmor(oTarget, oAdventurer, JUMP_LEVEL);
-                return;
+                return CreateGenericHeavyArmor(oTarget, oAdventurer, JUMP_LEVEL);
             }
             else if (GetRange(3, nHD))   // * 800 - 10000
             {
@@ -3982,11 +3990,11 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                  dbCreateItemOnObject(sItem, oTarget, 1);
-
+                  return dbCreateItemOnObject(sItem, oTarget, 1);
         }
+        
         // * if nSpecific is = 1 then spawn in 'named' items at the higher levels
-    void CreateTable2Item(object oTarget, object oAdventurer, int nSpecific=0)
+    object CreateTable2Item(object oTarget, object oAdventurer, int nSpecific=0)
     {
         dbSpeak("In CreateTable2Item");
         string sItem = "";
@@ -4148,62 +4156,63 @@ int GetNumberOfItems(int nTreasureType)
         int nRandom = d100();
         if (nRandom <= nProbMisc)
         {
-            if (nSpecific == 0) CreateGenericMiscItem(oTarget, oAdventurer);
-            else CreateSpecificMiscItem(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericMiscItem(oTarget, oAdventurer);
+            else return CreateSpecificMiscItem(oTarget, oAdventurer);
 
         }
         else
         if (nRandom <= nProbMisc + nProbClass)
         {   // * no need for a seperate specific function here
-            CreateGenericClassItem(oTarget, oAdventurer, nSpecific);
+            return CreateGenericClassItem(oTarget, oAdventurer, nSpecific);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand)
         {
-            if (nSpecific == 0) CreateGenericRodStaffWand(oTarget, oAdventurer);
-            else CreateSpecificRodStaffWand(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericRodStaffWand(oTarget, oAdventurer);
+            else return CreateSpecificRodStaffWand(oTarget, oAdventurer);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand + nProbSimple)
         {
-            if (nSpecific == 0) CreateGenericSimple(oTarget, oAdventurer);
-            else CreateSpecificSimple(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericSimple(oTarget, oAdventurer);
+            else return CreateSpecificSimple(oTarget, oAdventurer);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand + nProbSimple + nProbMartial)
         {
 
-             if (nSpecific == 0) CreateGenericMartial(oTarget, oAdventurer);
-             else CreateSpecificMartial(oTarget, oAdventurer);
+             if (nSpecific == 0) return CreateGenericMartial(oTarget, oAdventurer);
+             else return CreateSpecificMartial(oTarget, oAdventurer);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand + nProbSimple + nProbMartial + nProbExotic)
         {
-            if (nSpecific == 0) CreateGenericExotic(oTarget, oAdventurer);
-            else CreateSpecificExotic(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericExotic(oTarget, oAdventurer);
+            else return CreateSpecificExotic(oTarget, oAdventurer);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand + nProbSimple + nProbMartial + nProbExotic + nProbLight)
         {
-            if (nSpecific == 0) CreateGenericLightArmor(oTarget, oAdventurer);
-            else CreateSpecificLightArmor(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericLightArmor(oTarget, oAdventurer);
+            else return CreateSpecificLightArmor(oTarget, oAdventurer);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand + nProbSimple + nProbMartial + nProbExotic + nProbLight + nProbMedium)
         {
-            if (nSpecific == 0) CreateGenericMediumArmor(oTarget, oAdventurer);
-            else CreateSpecificMediumArmor(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericMediumArmor(oTarget, oAdventurer);
+            else return CreateSpecificMediumArmor(oTarget, oAdventurer);
         }
         else
         if (nRandom <= nProbMisc + nProbClass + nProbRodStaffWand + nProbSimple + nProbMartial + nProbExotic + nProbLight + nProbMedium + nProbHeavy)
         {
-            if (nSpecific == 0) CreateGenericHeavyArmor(oTarget, oAdventurer);
-            else CreateSpecificHeavyArmor(oTarget, oAdventurer);
+            if (nSpecific == 0) return CreateGenericHeavyArmor(oTarget, oAdventurer);
+            else return CreateSpecificHeavyArmor(oTarget, oAdventurer);
         }
         else
         {
             dbSpeak("Generic Generic or Specific; error: 3524");
         }
+        return OBJECT_INVALID;
     }
 
 //::///////////////////////////////////////////////
@@ -4222,14 +4231,12 @@ int GetNumberOfItems(int nTreasureType)
    oLastOpener = The creature that opened the container
    oCreateOn = The place to put the treasure. If this is
     invalid then the treasure is placed on oLastOpener
-
-
 */
 //:://////////////////////////////////////////////
 //:: Created By:  Andrew
 //:: Created On:
 //:://////////////////////////////////////////////
-void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn)
+void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn, string limitAcquire = "")
 {
 
     dbSpeak("*********************NEW TREASURE*************************");
@@ -4331,39 +4338,42 @@ void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn)
    for (i = 1; i <= nNumberItems; i++)
    {
      int nRandom = d100();
+     object treasure;
      if (nRandom <= nProbBook)
-        CreateBook(oCreateOn);                                // * Book
+        treasure = CreateBook(oCreateOn);                                // * Book
      else if (nRandom <= nProbBook + nProbAnimal)
-        CreateAnimalPart(oCreateOn);                          // * Animal
+        treasure = CreateAnimalPart(oCreateOn);                          // * Animal
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk)
-        CreateJunk(oCreateOn);                                // * Junk
+        treasure = CreateJunk(oCreateOn);                                // * Junk
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold)
-        CreateGold(oCreateOn, oLastOpener, nTreasureType);    // * Gold
+        treasure = CreateGold(oCreateOn, oLastOpener, nTreasureType);    // * Gold
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem)
-        CreateGem(oCreateOn, oLastOpener, nTreasureType);     // * Gem
+        treasure = CreateGem(oCreateOn, oLastOpener, nTreasureType);     // * Gem
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel)
-        CreateJewel(oCreateOn, oLastOpener, nTreasureType);   // * Jewel
+        treasure = CreateJewel(oCreateOn, oLastOpener, nTreasureType);   // * Jewel
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel + nProbArcane)
-        CreateArcaneScroll(oCreateOn, oLastOpener);   // * Arcane Scroll
+        treasure = CreateArcaneScroll(oCreateOn, oLastOpener);   // * Arcane Scroll
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel + nProbArcane + nProbDivine)
-        CreateDivineScroll(oCreateOn, oLastOpener);   // * Divine Scroll
+        treasure = CreateDivineScroll(oCreateOn, oLastOpener);   // * Divine Scroll
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel + nProbArcane + nProbDivine + nProbAmmo)
-        CreateAmmo(oCreateOn, oLastOpener);   // * Ammo
+        treasure = CreateAmmo(oCreateOn, oLastOpener);   // * Ammo
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel + nProbArcane + nProbDivine + nProbAmmo + nProbKit)
-        CreateKit(oCreateOn, oLastOpener);   // * Healing, Trap, or Thief kit
+        treasure = CreateKit(oCreateOn, oLastOpener);   // * Healing, Trap, or Thief kit
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel + nProbArcane + nProbDivine + nProbAmmo + nProbKit + nProbPotion)
-        CreatePotion(oCreateOn, oLastOpener);   // * Potion
+        treasure = CreatePotion(oCreateOn, oLastOpener);   // * Potion
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem + nProbJewel + nProbArcane + nProbDivine + nProbAmmo + nProbKit + nProbPotion + nProbTable2)
      {
-        CreateTable2Item(oCreateOn, oLastOpener, nSpecific);   // * Weapons, Armor, Misc - Class based
+        treasure = CreateTable2Item(oCreateOn, oLastOpener, nSpecific);   // * Weapons, Armor, Misc - Class based
      }
      else
       dbSpeak("other stuff");
 
-
-
+      if (limitAcquire != "") {
+        SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
+      }
    }
 }
+
 void GenerateLowTreasure(object oLastOpener, object oCreateOn=OBJECT_INVALID)
 {
  GenerateTreasure(TREASURE_LOW, oLastOpener, oCreateOn);
@@ -4570,7 +4580,7 @@ int LOOT_INC_MAIN_DEBUGGING = TRUE;
 //int GetTotalAvailableItems (object oCaller);
 //string GetUniqueItemFromList (object oCaller,int iNumber);
 
-void GenerateUniqueTreasure (object oCaller,object oTarget)
+void GenerateUniqueTreasure (object oCaller,object oTarget, string limitAcquire = "")
 {
     int iMinimumLevel = GetMinimumLevel (oCaller);
     int iNumberOfItemsToGenerate = 1;
@@ -4588,8 +4598,11 @@ void GenerateUniqueTreasure (object oCaller,object oTarget)
     for (iCounter = 0; iCounter < iNumberOfItemsToGenerate; iCounter ++) {
         iRandomNumber = Random (iNumItemsInList)+1;
         sItemTemplate = GetUniqueItemFromList (oCaller, iRandomNumber);
-        object oItem = CreateItemOnObject (sItemTemplate,oTarget,1);
-        //SendMessageToPC(GetFirstPC(), "isValid = " + IntToString(GetIsObjectValid(oItem)));
+        object treasure = CreateItemOnObject (sItemTemplate,oTarget,1);
+        if (limitAcquire != "") {
+            SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
+        }
+        //SendMessageToPC(GetFirstPC(), "isValid = " + IntToString(GetIsObjectValid(treasure)));
         if (LOOT_INC_MAIN_DEBUGGING == TRUE)
             WriteTimestampedLogEntry (GetTag (oCaller) + " generated " + sItemTemplate);
     }
@@ -4600,20 +4613,21 @@ void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
     string charName = GetName(oLastOpener);
 
     if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
-        return;
+        //return;
     }
 
     SetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName, 1);
 
     if (nTreasureType == TREASURE_UNIQUE) {
-        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn);
+        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn, "Clayman Orin");
         if (oCreateOn == GetLastOpenedBy()) {
             ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oCreateOn);
         }
     } else {
-        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn);
+        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn, "Clayman Orin");
     }
 }
+
 void TreasureChestLow() {
     TreasureChest(TREASURE_LOW);
 }
@@ -4630,5 +4644,5 @@ void TreasureChestBook() {
     TreasureChest(TREASURE_BOOK);
 }
 void TreasureChestUnique() {
-    TreasureChest(TREASURE_UNIQUE, GetLastOpenedBy());
+    TreasureChest(TREASURE_UNIQUE, OBJECT_SELF);
 }
