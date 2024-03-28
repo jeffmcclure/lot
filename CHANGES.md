@@ -1,5 +1,7 @@
 # Changelog
 ## 2.0.0 &mdash; 2024-02-14
+* [ ] TODO : check all chests to ensure party loot
+* [ ] TODO : change to party loot for caverns 1 entry mini-boss
 * [ ] TODO Multi-player: on entry copy all quests from other players
 * [ ] TODO : level up players to match the highest level when they enter
 * [ ] TODO : remove unused code (.nss, etc)
