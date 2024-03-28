@@ -4,8 +4,7 @@
 void main() {
     object oPC=GetPCSpeaker();
 
-    // OBJECT_SELF is the NPC we are talking to
-    string sTag=GetTag(OBJECT_SELF);
+    string sTag=GetTag(OBJECT_SELF); // OBJECT_SELF is the NPC we are talking to; GetTag() returns "NPC_THEEMON" for example
 
     SetLocalInt(oPC, sTag, 1);
     RewardPartyXP(250, oPC, FALSE);
