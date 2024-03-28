@@ -6,6 +6,7 @@
 * [ ] todo: items in inventory when monster killed, will use loot genie
 * [ ] todo: Dark Souls death recovery system
 * Added Achievement Dude Perfect
+* Added Achievement Raw Deal
 
 
 ## 2.0.1 &mdash; 2024-03-24

@@ -66,6 +66,8 @@ void jeffAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int 
         // Dude Perfect achievement
         if (playerAppraiseRole == 10 && npcAppraiseRole == 1)
             AddJournalQuestEntry("ACH_DUDE_PERFECT", 1, oPC, FALSE, FALSE); // only give to player not party
+        else if (playerAppraiseRole == 1 && npcAppraiseRole == 10)
+            AddJournalQuestEntry("ACH_RAW_DEAL", 1, oPC, FALSE, FALSE); // only give to player not party
 
         /*
          * Charisma Adjustment
