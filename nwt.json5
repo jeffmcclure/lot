@@ -2,6 +2,7 @@
   {
     "description" : "The Lord of Terror",
     "overwrite" : true,
+    "doNotOverwrite" : ["src/module.ifo.json5"],
     "rules" : {
       "*.are" : "src/are",
       "*.dlg" : "src/dlg",
@@ -25,6 +26,5 @@
     },
     "source" : "/Users/jeffmcclure/Documents/Neverwinter Nights/modules/lot_1_7_4.mod",
     "target" : "/Users/jeffmcclure/Documents/Neverwinter Nights/modules/lot_1_7_4.mod",
-    "version" : "1.7.4"
   }
 ]
