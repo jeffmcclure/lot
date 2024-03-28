@@ -1174,7 +1174,7 @@ void SetAIConstant(string sName, int iConstant);
 int GetAIConstant(string sName);
 // Deletes a constant set to sName.
 // (To stop local's going awary, we set them with pre-fixes.)
-int DeleteAIConstant(string sName);
+void DeleteAIConstant(string sName);
 
 // Sets a local AI integers to ourselves.
 // (To stop local's going awary, we set them with pre-fixes.)
@@ -1189,7 +1189,7 @@ int GetAIInteger(string sName);
 int GetBoundriedAIInteger(string sName, int iDefault = 10, int iTop = 10, int iBottom = 1);
 // Deletes a local AI integers from ourselves.
 // (To stop local's going awary, we set them with pre-fixes.)
-int DeleteAIInteger(string sName);
+void DeleteAIInteger(string sName);
 
 // Sets a local AI object to ourselves.
 // (To stop local's going awary, we set them with pre-fixes.)

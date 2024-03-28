@@ -84,7 +84,7 @@
 
 
 #include "x2_inc_craft"
-#include "zep_inc_main"
+//#include "zep_inc_main"
 
 // Set to FALSE to disable the requirement of the proper placeable to be near the PC
 const int    ZEP_CR_REQUIRE_PLACEABLE = FALSE;
@@ -1089,24 +1089,25 @@ int ZEP_GetIsWeapon(object oWeapon) {
         case BASE_ITEM_WHIP:
 //Note from Loki: Following cases are custom CEP weapon types
         case BASE_ITEM_TRIDENT:
-        case BASE_ITEM_HEAVYPICK:
-        case BASE_ITEM_LIGHTPICK:
-        case BASE_ITEM_SAI:
-        case BASE_ITEM_NUNCHAKU:
-        case BASE_ITEM_FALCHION1:
-        case BASE_ITEM_SAP:
-        case BASE_ITEM_DAGGERASSASSIN:
-        case BASE_ITEM_KATAR:
-        case BASE_ITEM_LIGHTMACE2:
-        case BASE_ITEM_KUKRI2:
-        case BASE_ITEM_FALCHION2:
-        case BASE_ITEM_HEAVYMACE:
-        case BASE_ITEM_MAUL:
-        case BASE_ITEM_MERCURIALLONGSWORD:
-        case BASE_ITEM_MERCURIALGREATSWORD:
-        case BASE_ITEM_DOUBLESCIMITAR:
-        case BASE_ITEM_GOAD:
-        case BASE_ITEM_WINDFIREWHEEL: return TRUE;
+//        case BASE_ITEM_HEAVYPICK:
+        //case BASE_ITEM_LIGHTPICK:
+        //case BASE_ITEM_SAI:
+        //case BASE_ITEM_NUNCHAKU:
+        //case BASE_ITEM_FALCHION1:
+        //case BASE_ITEM_SAP:
+        //case BASE_ITEM_DAGGERASSASSIN:
+        //case BASE_ITEM_KATAR:
+        //case BASE_ITEM_LIGHTMACE2:
+        //case BASE_ITEM_KUKRI2:
+        //case BASE_ITEM_FALCHION2:
+        //case BASE_ITEM_HEAVYMACE:
+        //case BASE_ITEM_MAUL:
+        //case BASE_ITEM_MERCURIALLONGSWORD:
+        //case BASE_ITEM_MERCURIALGREATSWORD:
+        //case BASE_ITEM_DOUBLESCIMITAR:
+        //case BASE_ITEM_GOAD:
+        //case BASE_ITEM_WINDFIREWHEEL:
+        return TRUE;
     }
 
     return FALSE;

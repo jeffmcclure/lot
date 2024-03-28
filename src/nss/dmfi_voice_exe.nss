@@ -332,7 +332,7 @@ string ConvertLeetspeak(string sLetter)
     if (GetStringLowerCase(sLetter) == "j") sTranslate = "J";
     if (GetStringLowerCase(sLetter) == "k") sTranslate = "|<";
     if (GetStringLowerCase(sLetter) == "l") sTranslate = "1";
-    if (GetStringLowerCase(sLetter) == "m") sTranslate = "/\/\";
+    if (GetStringLowerCase(sLetter) == "m") sTranslate = "/\\/\\";
     if (GetStringLowerCase(sLetter) == "n") sTranslate = "|\|";
     if (GetStringLowerCase(sLetter) == "o") sTranslate = "0";
     if (GetStringLowerCase(sLetter) == "p") sTranslate = "p";

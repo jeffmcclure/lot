@@ -1,7 +1,12 @@
 // Throw this switch for debugging
 
 int LOOT_INC_MAIN_DEBUGGING = TRUE;
-
+int GetMaxAllowedLevel (object oCaller);
+int GetMinimumLevel (object oCaller);
+int GetMinimumNumberOfItemsToGenerate (object oCaller);
+int GetMaximumNumberOfItemsToGenerate (object oCaller);
+int GetTotalAvailableItems (object oCaller);
+string GetUniqueItemFromList (object oCaller,int iNumber);
 
 int GetPartyMemberCount (object oPC, int iMinimumLevel)
 {

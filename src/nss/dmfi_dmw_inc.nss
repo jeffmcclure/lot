@@ -725,7 +725,7 @@ string dmwand_ItemInfo(object oItem, int nLongForm = 0)
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_BASE_ITEM_WEIGHT_REDUCTION)) { sProperties = sProperties + "Weight Reduction\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_BONUS_FEAT)) { sProperties = sProperties + "Bonus Feat\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_BONUS_SPELL_SLOT_OF_LEVEL_N)) { sProperties = sProperties + "Bonus Spell Slot\n"; }
-      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_BOOMERANG)) { sProperties = sProperties + "Boomerang\n"; }
+//      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_BOOMERANG)) { sProperties = sProperties + "Boomerang\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_CAST_SPELL)) { sProperties = sProperties + "Cast Spell\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DAMAGE_BONUS)) { sProperties = sProperties + "Damage Bonus\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DAMAGE_BONUS_VS_ALIGNMENT_GROUP)) { sProperties = sProperties + "Damage Bonus vs. Alignment Group\n"; }
@@ -734,7 +734,7 @@ string dmwand_ItemInfo(object oItem, int nLongForm = 0)
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DAMAGE_REDUCTION)) { sProperties = sProperties + "Damage Reduction\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DAMAGE_RESISTANCE)) { sProperties = sProperties + "Damage Resistance\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DAMAGE_VULNERABILITY)) { sProperties = sProperties + "Damage Vulnerability\n"; }
-      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DANCING)) { sProperties = sProperties + "Dancing\n"; }
+//      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DANCING)) { sProperties = sProperties + "Dancing\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DARKVISION)) { sProperties = sProperties + "Darkvision\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DECREASED_ABILITY_SCORE)) { sProperties = sProperties + "Decreased Ability\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DECREASED_AC)) { sProperties = sProperties + "Decreased AC\n"; }
@@ -744,8 +744,8 @@ string dmwand_ItemInfo(object oItem, int nLongForm = 0)
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DECREASED_SAVING_THROWS)) { sProperties = sProperties + "Decreased Saving Throws\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DECREASED_SAVING_THROWS_SPECIFIC)) { sProperties = sProperties + "Decreased Specific Saving Throw\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DECREASED_SKILL_MODIFIER)) { sProperties = sProperties + "Decreased Skill Modifier\n"; }
-      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DOUBLE_STACK)) { sProperties = sProperties + "Double Stack\n"; }
-      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_ENHANCED_CONTAINER_BONUS_SLOTS)) { sProperties = sProperties + "Enhanced Container Bonus Slots\n"; }
+//      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_DOUBLE_STACK)) { sProperties = sProperties + "Double Stack\n"; }
+//      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_ENHANCED_CONTAINER_BONUS_SLOTS)) { sProperties = sProperties + "Enhanced Container Bonus Slots\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_ENHANCED_CONTAINER_REDUCED_WEIGHT)) { sProperties = sProperties + "Enhanced Container Reduced Weight\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_ENHANCEMENT_BONUS)) { sProperties = sProperties + "Enhancement Bonus\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_ENHANCEMENT_BONUS_VS_ALIGNMENT_GROUP)) { sProperties = sProperties + "Enhancement Bonus vs. Alignment Group\n"; }
@@ -788,8 +788,8 @@ string dmwand_ItemInfo(object oItem, int nLongForm = 0)
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_USE_LIMITATION_RACIAL_TYPE)) { sProperties = sProperties + "Racial Use Limitation\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_USE_LIMITATION_SPECIFIC_ALIGNMENT)) { sProperties = sProperties + "Alignment Use Limitation\n"; }
       if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_USE_LIMITATION_TILESET)) { sProperties = sProperties + "Tileset Use Limitation\n"; }
-      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_VORPAL)) { sProperties = sProperties + "Vorpal\n"; }
-      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_WOUNDING)) { sProperties = sProperties + "Wounding\n"; }
+//      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_VORPAL)) { sProperties = sProperties + "Vorpal\n"; }
+//      if(GetItemHasItemProperty(oItem, ITEM_PROPERTY_WOUNDING)) { sProperties = sProperties + "Wounding\n"; }
       if(sProperties != "") { sProperties = "Properties:\n" + sProperties; }
 
       sReturnString = sStacked + GetName(oItem) + "\n" +
@@ -950,7 +950,7 @@ string dmwand_Race(object oEntity)
       case RACIAL_TYPE_HUMANOID_MONSTROUS:   return "Monstrous"; break;
       case RACIAL_TYPE_HUMANOID_ORC:   return "Orc"; break;
       case RACIAL_TYPE_HUMANOID_REPTILIAN:   return "Reptillian"; break;
-      case RACIAL_TYPE_INVALID:   return "Unknown"; break;
+//      case RACIAL_TYPE_INVALID:   return "Unknown"; break;
       case RACIAL_TYPE_MAGICAL_BEAST:   return "Magical Beast"; break;
       case RACIAL_TYPE_OUTSIDER:   return "Outsider"; break;
       case RACIAL_TYPE_SHAPECHANGER:   return "Shapechanger"; break;
