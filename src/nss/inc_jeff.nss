@@ -30,9 +30,6 @@ int hasItem2(object oPC, string itemTag) {
 
 void JeffGiveStuff(object oPC) {
     if (!GetIsPC(oPC)) return;
-    CreateItemOnObject("key_butcher", oPC);
-    AddJournalQuestEntry("QST_BUTCHER", 1, oPC, TRUE, FALSE);
-    //ExecuteScript("giv_butcher", OBJECT_SELF);
 
     /*
      * Wand of Resurrection
