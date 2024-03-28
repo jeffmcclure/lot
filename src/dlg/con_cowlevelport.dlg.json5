@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>The portal glows and pulses warmly in front of you.  You are not sure where it leads to, and for some reason you are unable to enter it.  You might need to do something, or possess something, in order to enter it.</Start>"
     },
     {
@@ -22,7 +21,6 @@
         2,
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>The portal glows and pulses warmly in front of you.  You are not sure where it leads to, but it seems to draw its power from the two stones you have in your possession - the cornerstone, and the soulstone.\n\nYou can enter if you wish, but you have a feeling that you may nto be able to come back - short of dying, that is.  Would you like to enter?</Start>"
     }
   ],
@@ -30,25 +28,13 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the portal alone."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_go2cowstart",
-      "Sound" : "",
       "Text" : "Enter the portal."
     }
   ],

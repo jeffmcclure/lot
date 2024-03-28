@@ -11,11 +11,13 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 15
+          "Index" : 15,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 7
+          "Index" : 7,
+          "IsChild" : false
         },
         6,
         5,
@@ -24,11 +26,13 @@
         2,
         {
           "Active" : "nw_d2_intn",
-          "Index" : 1
+          "Index" : 1,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 0
+          "Index" : 0,
+          "IsChild" : false
         }
       ],
       "Script" : "hench_unbusify",
@@ -42,7 +46,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58454,
         "Strings" : [ ]
@@ -53,7 +56,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58455,
         "Strings" : [ ]
@@ -64,7 +66,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58456,
         "Strings" : [ ]
@@ -75,7 +76,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction> The creature looks askance at you. </Start>"
     },
     {
@@ -83,7 +83,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction> The creature nods its agreement. </Start>"
     },
     {
@@ -91,7 +90,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58457,
         "Strings" : [ ]
@@ -102,7 +100,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58458,
         "Strings" : [ ]
@@ -113,7 +110,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58459,
         "Strings" : [ ]
@@ -124,7 +120,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58460,
         "Strings" : [ ]
@@ -135,7 +130,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58461,
         "Strings" : [ ]
@@ -146,7 +140,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58462,
         "Strings" : [ ]
@@ -157,7 +150,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58463,
         "Strings" : [ ]
@@ -179,7 +171,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58465,
         "Strings" : [ ]
@@ -190,7 +181,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58466,
         "Strings" : [ ]
@@ -201,7 +191,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58467,
         "Strings" : [ ]
@@ -236,34 +225,40 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intl",
-          "Index" : 14
+          "Index" : 14,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 13
+          "Index" : 13,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_stlth",
-          "Index" : 12
+          "Index" : 12,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_stlth",
-          "Index" : 11
+          "Index" : 11,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_srch",
-          "Index" : 10
+          "Index" : 10,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_srch",
-          "Index" : 9
+          "Index" : 9,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 8
+          "Index" : 8,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58470,
         "Strings" : [ ]
@@ -274,7 +269,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction>Your companion raises his head and nods, no longer paying as much attention to the area around you.</Start>"
     },
     {
@@ -282,7 +276,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction>Your companion steps from the shadows and returns to view.</Start>"
     },
     {
@@ -292,34 +285,40 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 22
+          "Index" : 22,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 21
+          "Index" : 21,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_stlth",
-          "Index" : 20
+          "Index" : 20,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_stlth",
-          "Index" : 19
+          "Index" : 19,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_srch",
-          "Index" : 18
+          "Index" : 18,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_srch",
-          "Index" : 17
+          "Index" : 17,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 16
+          "Index" : 16,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58470,
         "Strings" : [ ]
@@ -330,7 +329,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction>Your companion looks up at you a nods, now paying less attention to the area around you.</Start>"
     },
     {
@@ -338,7 +336,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction>Your companion steps from the shadows and returns to view.</Start>"
     },
     {
@@ -349,39 +346,35 @@
         {
           "Active" : "nw_d2_intn",
           "Index" : 15,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 24
+          "Index" : 24,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 23
+          "Index" : 23,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58471,
         "Strings" : [ ]
@@ -392,7 +385,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 53320,
         "Strings" : [ ]
@@ -404,28 +396,22 @@
   "ReplyList" : [
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_fm_st_04",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 53319,
         "Strings" : [
@@ -438,74 +424,75 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
-          "Index" : 3
+          "Index" : 3,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_04",
-          "Index" : 2
+          "Index" : 2,
+          "IsChild" : false
         },
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 53318,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchscoutyes",
-          "Index" : 5
+          "Index" : 5,
+          "IsChild" : false
         },
         {
           "Active" : "henchscoutno",
-          "Index" : 4
+          "Index" : 4,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchscout",
-      "Sound" : "",
       "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 12
+          "Index" : 12,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 11
+          "Index" : 11,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 10
+          "Index" : 10,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 9
+          "Index" : 9,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 8
+          "Index" : 8,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 7
+          "Index" : 7,
+          "IsChild" : false
         },
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58436,
         "Strings" : [ ]
@@ -513,12 +500,9 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         13
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58437,
         "Strings" : [ ]
@@ -526,20 +510,19 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
-          "Index" : 16
+          "Index" : 16,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_04",
-          "Index" : 15
+          "Index" : 15,
+          "IsChild" : false
         },
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58438,
         "Strings" : [ ]
@@ -547,16 +530,14 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_11",
-          "Index" : 18
+          "Index" : 18,
+          "IsChild" : false
         },
         17
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58439,
         "Strings" : [ ]
@@ -564,12 +545,9 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         19
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58441,
         "Strings" : [
@@ -582,33 +560,26 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_fm_st_04",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58442,
         "Strings" : [
@@ -620,28 +591,21 @@
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         20
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_off",
-      "Sound" : "",
       "Text" : "You can stop searching all the time now."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58444,
         "Strings" : [
@@ -653,28 +617,21 @@
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_off",
-      "Sound" : "",
       "Text" : "You can return from the shadows now."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58446,
         "Strings" : [
@@ -687,17 +644,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58448,
         "Strings" : [
@@ -710,17 +663,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58450,
         "Strings" : [
@@ -733,12 +682,9 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         22
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58441,
         "Strings" : [ ]
@@ -746,89 +692,68 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_fm_st_04",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58443,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         23
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_off",
-      "Sound" : "",
       "Text" : "You can stop searching all the time now."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58445,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         24
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_off",
-      "Sound" : "",
       "Text" : "You can return from the shadows now."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58447,
         "Strings" : [ ]
@@ -836,17 +761,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58449,
         "Strings" : [ ]
@@ -854,13 +775,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         25
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58451,
         "Strings" : [ ]
@@ -868,28 +786,22 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_fm_st_04",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58452,
         "Strings" : [ ]
@@ -897,28 +809,22 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_fm_st_04",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58453,
         "Strings" : [ ]

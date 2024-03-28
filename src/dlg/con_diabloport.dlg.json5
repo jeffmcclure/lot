@@ -12,7 +12,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>The portal shimmers with evil energy, as if beckoning you to enter... But you must make sure you are ready to face what lies beyond, for there is no turning back once you enter... your portal spell will be useless...\n\nBeyond this portal stands the Dark Lord of Terror himself - Diablo... Are you prepared to end the terror?</Start>"
     }
   ],
@@ -20,18 +19,10 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I need to do something first before I enter."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_gotodiablo",
-      "Sound" : "",
       "Text" : "I am ready to enter the portal and face Diablo."
     }
   ],

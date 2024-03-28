@@ -11,7 +11,8 @@
       "RepliesList" : [
         {
           "Active" : "prq_theo2",
-          "Index" : 2
+          "Index" : 2,
+          "IsChild" : false
         },
         1,
         0
@@ -39,7 +40,6 @@
         5,
         4
       ],
-      "Script" : "",
       "Sound" : "celia_theo6",
       "Text" : "Hey!  Ugh!  There's something stuck in your fur!  Ick!  Come on, Theo, let's go home... Thanks again, hero person..."
     },
@@ -62,7 +62,6 @@
       "RepliesList" : [
         8
       ],
-      "Script" : "",
       "Sound" : "celia_theo2",
       "Text" : "We were playing over by the river, and Theo said he wanted to look at the big green thing...  I said we shouldn't but we snuck over there..."
     },
@@ -85,7 +84,6 @@
       "RepliesList" : [
         11
       ],
-      "Script" : "",
       "Text" : "Thank you, <mister/missus> hero person!"
     }
   ],
@@ -93,108 +91,65 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Don't bother me kid, I got better things to do."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Sorry, I'm still looking for him."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Actually, here is, uhm, Theo..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_celia",
-      "Sound" : "",
       "Text" : "Yeah, sure.  Get lost kid!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_celia",
-      "Sound" : "",
       "Text" : "Uhm, no problem..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Stop whining child!  What's your problem?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Uhm... okay, little girl, stop crying.  Who is this Theo and where did you last see him?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Okay, then what happened?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So I'm supposed to look for him?  Bah..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "I'll see if I can find your friend for you, little girl..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     }
   ],

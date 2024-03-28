@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>The soulstone pulses with unearthly power, as the essence of Diablo tries to once again escape its arcane prison... to no avail.  But you realize that leaving the soulstone where it is will allow the Lord of Terror to begin his cycle of fear among the hapless people of Tristram...</Start>"
     },
     {
@@ -21,7 +20,6 @@
       "RepliesList" : [
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>You also realize that in order to prevent Diablo from terrorizing the land of Khanduras, you will need to contain the demon's essence unto yourself.  This task will require a sacrifice on your part...</Start>"
     },
     {
@@ -32,7 +30,6 @@
         3,
         2
       ],
-      "Script" : "",
       "Text" : "Are you prepared to take this ultimate sacrifice?\n\n<StartAction>This action will end the game.</Start>"
     },
     {
@@ -43,7 +40,6 @@
         5,
         4
       ],
-      "Script" : "",
       "Text" : "<StartAction>You have defeated the Lord of Terror once again.  His reign of terror will no longer trouble the people of Tristram.\n\nWhat do you want to do next?</Start>"
     }
   ],
@@ -51,52 +47,30 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have to think about it."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_endgame",
-      "Sound" : "",
       "Text" : "Yes, I am prepared to contain this soulstone within myself."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_endgame",
-      "Sound" : "",
       "Text" : "End the game."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_back2town",
-      "Sound" : "",
       "Text" : "Go back to town."
     }
   ],

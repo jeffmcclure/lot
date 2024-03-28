@@ -12,7 +12,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>As you look into the well, you catch a smell of moist dirt and rock from below.  There seems to be solid ground near the water under there.  You can probably use the rope that holds the bucket to climb down.</Start>"
     },
     {
@@ -22,16 +21,13 @@
       "RepliesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "<StartAction>It is possible for you to climb down this well using the rope that holds the bucket.  Would you like to climb down?</Start>"
     },
     {
@@ -41,7 +37,6 @@
       "RepliesList" : [
         2
       ],
-      "Script" : "",
       "Text" : "<StartAction>The water in this well is tainted, according to Pepin.  You must find out what is causing this contamination...</Start>"
     },
     {
@@ -51,7 +46,6 @@
       "RepliesList" : [
         3
       ],
-      "Script" : "",
       "Text" : "<StartAction>The water in this well is of a sickly yellowish color, with an unpleasant pungent smell.  It is doubtful that the water from here is drinkable.  Maybe one of the townsfolk will know what is wrong with it...</Start>"
     }
   ],
@@ -59,32 +53,16 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_climbwell",
-      "Sound" : "",
       "Text" : "<StartAction>Climb down.</Start>"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     }
   ],

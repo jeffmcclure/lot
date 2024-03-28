@@ -31,15 +31,16 @@
       "RepliesList" : [
         {
           "Active" : "prq_signgone",
-          "Index" : 4
+          "Index" : 4,
+          "IsChild" : false
         },
         {
           "Active" : "prq_magicbanner",
-          "Index" : 3
+          "Index" : 3,
+          "IsChild" : false
         },
         2
       ],
-      "Script" : "",
       "Sound" : "snotspill3",
       "Text" : "You kill uglies!  Get banner!  You bring to me or else!"
     },
@@ -51,7 +52,6 @@
         6,
         5
       ],
-      "Script" : "",
       "Text" : "W-what?!  You die!  YOU DIE!!!!"
     },
     {
@@ -61,7 +61,6 @@
       "RepliesList" : [
         7
       ],
-      "Script" : "",
       "Sound" : "snotspill1",
       "Text" : "Hey!  You that one that kill all, you give me magic banner, or we attack!  You no leave with life!  You kill big ugiles, and you give back magic!"
     },
@@ -81,80 +80,46 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_snotspillx",
-      "Sound" : "",
       "Text" : "I can go now?  How generous of you..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_snotspillx",
-      "Sound" : "",
       "Text" : "Alright, I'll be going now..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Sure, whatever."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I have your \"magic banner\".  Is it this tavern sign?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I gave your \"banner\" back to its rightful owner."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_signgone",
-      "Sound" : "",
       "Text" : "Wait, maybe we can talk about this."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_signgone",
-      "Sound" : "",
       "Text" : "Bring it on!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Uhm, wait, what are you talking about?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Ooookay..."
     }
   ],

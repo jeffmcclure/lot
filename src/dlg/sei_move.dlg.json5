@@ -13,7 +13,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "Nobody is sitting on it. What do you want to do with it?"
     },
     {
@@ -21,33 +20,20 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "It is already occupied."
     }
   ],
   "NumWords" : 26,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave it alone."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sei_pickup",
-      "Sound" : "",
       "Text" : "Pick it up."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sei_sit",
-      "Sound" : "",
       "Text" : "Sit on it."
     }
   ],

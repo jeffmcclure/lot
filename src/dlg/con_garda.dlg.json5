@@ -11,12 +11,12 @@
       "RepliesList" : [
         {
           "Active" : "prq_mushroom",
-          "Index" : 2
+          "Index" : 2,
+          "IsChild" : false
         },
         1,
         0
       ],
-      "Script" : "",
       "Text" : "Why, hello there, <FirstName>! Can do something for you?"
     },
     {
@@ -27,7 +27,6 @@
         4,
         3
       ],
-      "Script" : "",
       "Text" : "Why would I need a book like that?  I am not the right person to ask about this."
     },
     {
@@ -48,16 +47,13 @@
       "RepliesList" : [
         {
           "Index" : 8,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 7,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "My goodness, <FirstName>, that's such a rude thing to say!  But I guess being away from Tristram has soured your disposition."
     },
     {
@@ -68,7 +64,6 @@
         8,
         7
       ],
-      "Script" : "",
       "Text" : "Bad does not begin to describe it, <FirstName>.  So much darkness... so much death...  But Ogden and I love our tavern, and as much as we are terrified about what has been going on in this town, we dare not leave and abandon our friends here."
     },
     {
@@ -79,7 +74,6 @@
         10,
         9
       ],
-      "Script" : "",
       "Text" : "<StartAction>Giggles.</Start>  Now that's the old <FirstName> I know.  So, what can I do for you?"
     },
     {
@@ -90,7 +84,6 @@
         12,
         11
       ],
-      "Script" : "",
       "Text" : "Why, hello there, <FirstName>! Can do something for you?"
     }
   ],
@@ -98,116 +91,68 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No thanks."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_garda",
-      "Sound" : "",
       "Text" : "Yes, I think I'll have a drink."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found a fungal tome in the caves.  Do you need it?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Very well."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_garda",
-      "Sound" : "",
       "Text" : "Alright, I guess I'll just have a drink then."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Well, if it isn't Ogden's whiney little wife!  Is your husband still beating you up every night, Garda?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "It was good, Garda.  But I missed you folks.  I hear there have been bad things happening in Tristram."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "It was a fine adventure.  Getting away from this town was the best thing that happened to me."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "That is a nice thing to do Garda.  I am sure the townsfolk of Tristram appreciate the continued hospitality of the Tavern of the Rising Sun."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nothing right now, goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_garda",
-      "Sound" : "",
       "Text" : "I think I'll have myself a drink."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No thanks."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_garda",
-      "Sound" : "",
       "Text" : "Yes, I think I'll have a drink."
     }
   ],

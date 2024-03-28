@@ -12,7 +12,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Sound" : "lachdanan1",
       "Text" : "Please, don't kill me, just hear me out..."
     },
@@ -23,7 +22,6 @@
       "RepliesList" : [
         2
       ],
-      "Script" : "",
       "Sound" : "lachdanan2",
       "Text" : "I was once captain of King Leoric's knights, upholding the laws of this land with justice and honor.  Then his dark curse fell upon us for the role that we played in his tragic death..."
     },
@@ -35,7 +33,6 @@
         4,
         3
       ],
-      "Script" : "",
       "Sound" : "lachdanan3",
       "Text" : "As my fellow knights succumbed to their twisted fate, I fled from the King's burial chamber, searching for some way to free myself from the curse.  I failed..."
     },
@@ -46,7 +43,6 @@
       "RepliesList" : [
         5
       ],
-      "Script" : "",
       "Sound" : "lachdanan4",
       "Text" : "I have heard of a golden elixir that could lift the curse, and allow my soul to rest.  But I have been unable to find it.  My strength now wanes, and with it, the last of my humanity as well..."
     },
@@ -70,10 +66,10 @@
         13,
         {
           "Active" : "prq_lachdanan2",
-          "Index" : 8
+          "Index" : 8,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Sound" : "lachdanan6a",
       "Text" : "You have not found the golden elixir?"
     },
@@ -85,7 +81,6 @@
         10,
         9
       ],
-      "Script" : "",
       "Sound" : "lachdanan7",
       "Text" : "You have saved my soul from damnation, and for that, I am in your debt!  If there is ever a way that I can repay you from beyond the grave, I will find it!   But for now, take my helm..."
     },
@@ -109,7 +104,6 @@
         15,
         14
       ],
-      "Script" : "",
       "Sound" : "lachdanan6b",
       "Text" : "I fear that I am doomed for eternity...  Please, keep trying..."
     },
@@ -120,7 +114,6 @@
       "RepliesList" : [
         16
       ],
-      "Script" : "",
       "Text" : "<StartAction>Lachdanan smiles at you in gratitude, as he awaits a peaceful death...</Start>"
     },
     {
@@ -130,7 +123,6 @@
       "RepliesList" : [
         17
       ],
-      "Script" : "",
       "Text" : "<StartAction>Lachdanan smiles at you in gratitude, as he awaits a peaceful death...</Start>"
     }
   ],
@@ -138,159 +130,94 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't have time for you, vile demon!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Who are you and what are you doing here?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "It seems everyone here fails all the time..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can I do anything to help?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "I will do so at my own leisure, if you don't mind..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I can't promise anything, but I'll see if I can find it."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Actually, I have found it!  Here it is!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 7,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I guess this would be sufficient for the trouble I went through to get your trivial elixir..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Are you sure?  It is your helm, and I don't really need it."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_lachdanan2",
-      "Sound" : "",
       "Text" : "I guess I'll be seeing you then, huh?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_lachdanan2",
-      "Sound" : "",
       "Text" : "Good-bye, Lachdanan..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, not yet, I am still searching."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Don't rush me..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I will try my best..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     }
   ],

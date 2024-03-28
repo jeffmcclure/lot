@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>You see a floating structure surrounded by warm golden light.  There doesn't seem to be anything you can do with it."
     },
     {
@@ -23,7 +22,6 @@
         2,
         1
       ],
-      "Script" : "",
       "Text" : "WHO ARE YOU..."
     },
     {
@@ -36,7 +34,6 @@
         4,
         3
       ],
-      "Script" : "",
       "Text" : "WHAT DO YOU WANT..."
     },
     {
@@ -49,7 +46,6 @@
         7,
         6
       ],
-      "Script" : "",
       "Text" : "WHY ARE YOU HERE..."
     },
     {
@@ -62,7 +58,6 @@
         11,
         10
       ],
-      "Script" : "",
       "Text" : "WHERE ARE YOU GOING..."
     },
     {
@@ -75,7 +70,6 @@
         13,
         12
       ],
-      "Script" : "",
       "Text" : "AND HOW WILL YOU ACHIEVE THIS?"
     },
     {
@@ -96,7 +90,6 @@
         22,
         21
       ],
-      "Script" : "",
       "Text" : "<StartAction>This strange floating structure is surrounded by a warm golden light... and from inside you can see... a bottle with gold liquid swirling inside it... It might be the golden elixir that Lachdanan wants!</Start>"
     },
     {
@@ -114,284 +107,194 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_goldenelixir",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "dmg_mag50",
-      "Sound" : "",
       "Text" : "My name is not important."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am a mortal in need of something."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "dmg_mag50",
-      "Sound" : "",
       "Text" : "I think you know what I want."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want to save the town of Tristram."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want to save the soul of a fallen warrior of light."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "dmg_mag50",
-      "Sound" : "",
       "Text" : "It is quite obvious why I am here."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am here to save Lachdanan from eternal unrest!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am here to get the golden elixir!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am here to save the town of Tristram from impending destruction!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_goldenelixir",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "dmg_mag50",
-      "Sound" : "",
       "Text" : "I am going mad answering these absurd questions!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am going back to Lachdanan and give him his salvation."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_goldenelixir",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "dmg_mag50",
-      "Sound" : "",
       "Text" : "I don't know, any suggestions?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "By saving Tristram from the encroaching darkness."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "By destroying the evil that has corrupted these lands."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "By taking the golden elixir that you now possess."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_speaklachdan",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am going to put an end to the terror that has caused so much suffering in my town!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am going to the deepest bowels of hell to destroy the ancient evil!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want the golden elixir inside this structure."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_goldenelixir",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "My name is <FirstName>."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave it alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Reach for the golden elixir."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_goldenelixir",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     }
   ],

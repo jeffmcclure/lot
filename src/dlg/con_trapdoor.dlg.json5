@@ -17,7 +17,6 @@
         2,
         0
       ],
-      "Script" : "",
       "Text" : "What is the secret password?"
     },
     {
@@ -27,7 +26,6 @@
       "RepliesList" : [
         1
       ],
-      "Script" : "",
       "Text" : "Come back when you do.  Buh-bye."
     },
     {
@@ -37,7 +35,6 @@
       "RepliesList" : [
         3
       ],
-      "Script" : "",
       "Text" : "*groan* That is such a cliché. Try again."
     },
     {
@@ -57,7 +54,6 @@
       "RepliesList" : [
         7
       ],
-      "Script" : "",
       "Text" : "There isn't?  You must be in the wrong town.  Try again."
     },
     {
@@ -67,7 +63,6 @@
       "RepliesList" : [
         9
       ],
-      "Script" : "",
       "Text" : "Did Pepin give you a little too much potions or something?  That's not it, try again..."
     },
     {
@@ -77,7 +72,6 @@
       "RepliesList" : [
         11
       ],
-      "Script" : "",
       "Text" : "That may be correct ... if you're a complete retard! Try again."
     },
     {
@@ -87,7 +81,6 @@
       "RepliesList" : [
         13
       ],
-      "Script" : "",
       "Text" : "Uhm, NO ... Try again."
     },
     {
@@ -95,7 +88,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "This trapdoor leads somewhere, but a powerful ward protects it and you are unable to pass through.  Maybe it needs some sort of incantation to dispel it.  You should ask the farmer how to access it..."
     },
     {
@@ -117,41 +109,33 @@
       "RepliesList" : [
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 10,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 8,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "You are changing the subject!  What is the secret password!"
     },
     {
@@ -162,7 +146,6 @@
         19,
         17
       ],
-      "Script" : "",
       "Text" : "Would you like to go down?"
     },
     {
@@ -191,7 +174,6 @@
         22,
         20
       ],
-      "Script" : "",
       "Text" : "Would you like to go down?"
     },
     {
@@ -217,231 +199,151 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't know the password!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"Open sesame!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"The cows have come home.\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_cowpassword",
           "Index" : 11,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yay!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"There is no cow level!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"Hakuna Matata!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"All your base are belong to us!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"Go metal no pass!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "My mistake."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I know the password."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         10
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Oh great, first a talking cow, now a talking trapdoor!  What's next, a talking rock?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         12
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'd rather not."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         13
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         15
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'd rather not."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         16
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     }
   ],

@@ -11,34 +11,41 @@
       "RepliesList" : [
         {
           "Active" : "prq_demonbrain",
-          "Index" : 92
+          "Index" : 92,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mushroom3",
-          "Index" : 89
+          "Index" : 89,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mushroom",
-          "Index" : 87
+          "Index" : 87,
+          "IsChild" : false
         },
         {
           "Active" : "prq_watersupply2",
-          "Index" : 80
+          "Index" : 80,
+          "IsChild" : false
         },
         79,
         {
           "Active" : "prq_storq_1_10",
-          "Index" : 78
+          "Index" : 78,
+          "IsChild" : false
         },
         {
           "Active" : "prq_storq_11",
-          "Index" : 77
+          "Index" : 77,
+          "IsChild" : false
         },
         76,
         1,
         {
           "Active" : "s_responsegood",
-          "Index" : 0
+          "Index" : 0,
+          "IsChild" : false
         }
       ],
       "Script" : "con_tristramx",
@@ -53,76 +60,92 @@
         53,
         {
           "Active" : "prq_butcherx",
-          "Index" : 49
+          "Index" : 49,
+          "IsChild" : false
         },
         {
           "Active" : "prq_watersupplyx",
-          "Index" : 46
+          "Index" : 46,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lostboysx",
-          "Index" : 43
+          "Index" : 43,
+          "IsChild" : false
         },
         {
           "Active" : "prq_leoricx",
-          "Index" : 41
+          "Index" : 41,
+          "IsChild" : false
         },
         {
           "Active" : "prq_wormsx",
-          "Index" : 38
+          "Index" : 38,
+          "IsChild" : false
         },
         {
           "Active" : "prq_ogdensignx",
-          "Index" : 36
+          "Index" : 36,
+          "IsChild" : false
         },
         {
           "Active" : "prq_islandx",
-          "Index" : 33
+          "Index" : 33,
+          "IsChild" : false
         },
         {
           "Active" : "prq_magicrockx",
-          "Index" : 31
+          "Index" : 31,
+          "IsChild" : false
         },
         {
           "Active" : "prq_fleshdoomx",
-          "Index" : 28
+          "Index" : 28,
+          "IsChild" : false
         },
         {
           "Active" : "prq_arkainex",
-          "Index" : 25
+          "Index" : 25,
+          "IsChild" : false
         },
         {
           "Active" : "prq_chamberx",
-          "Index" : 22
+          "Index" : 22,
+          "IsChild" : false
         },
         {
           "Active" : "prq_hallsblindx",
-          "Index" : 19
+          "Index" : 19,
+          "IsChild" : false
         },
         {
           "Active" : "prq_anvilx",
-          "Index" : 16
+          "Index" : 16,
+          "IsChild" : false
         },
         {
           "Active" : "prq_warlordx",
-          "Index" : 13
+          "Index" : 13,
+          "IsChild" : false
         },
         {
           "Active" : "prq_izual3",
-          "Index" : 11
+          "Index" : 11,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lachdananx",
-          "Index" : 8
+          "Index" : 8,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lazarusx",
-          "Index" : 5
+          "Index" : 5,
+          "IsChild" : false
         },
         3,
         2
       ],
-      "Script" : "",
       "Text" : "I will be happy to answer any questions you may have!"
     },
     {
@@ -133,11 +156,9 @@
         4,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I have tried all sorts of herbs and potions on them, but their wounds keep coming back...  This is very troubling indeed, and I am fast running out of answers.  Whatever struck them down has the taint of evil itself.  I fear that I might not be able to fully heal them..."
     },
     {
@@ -149,11 +170,9 @@
         6,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_lazarus1",
       "Text" : "I was shocked when I heard of what the townspeople were planning to do that night.  I thought that of all people, Lazarus would have had more sense than that.  He was an archbishop, and always seemed to care so much for the townsfolk of Tristram.  So many were injured, I could not save them all..."
     },
@@ -166,11 +185,9 @@
         9,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_lachdanan1",
       "Text" : "A golden elixir, you say?  I have never concocted a potion of that color before, so I can't tell you how it would affect you if you were to try to drink it.   As your healer, I strongly advise that should you find such an elixir, do as Lachdanan asks and do not try to use it!"
     },
@@ -181,17 +198,14 @@
       "RepliesList" : [
         {
           "Index" : 15,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         12,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_izual1",
       "Text" : "Farnham is often confused, but he speaks a powerful name when the word \"Izual\" passes his lips.  Cain would be able to tell you, in much greater detail, the legend of this warrior..."
     },
@@ -204,11 +218,9 @@
         14,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_warlord1",
       "Text" : "Cain would be able to tell you much more about something like this than I would ever wish to know."
     },
@@ -221,11 +233,9 @@
         17,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_anvil1",
       "Text" : "If you had been looking for information on the pestle of curing, or the silver chalice of purification, I could have assisted you, my friend.  However, in this matter, you would be better served to speak to either Griswold or Cain."
     },
@@ -238,11 +248,9 @@
         20,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_blind1",
       "Text" : "This does seem familiar, somehow.  I seem to recall reading something very much like that poem while researching the history of demonic afflictions.  It spoke of a place of great evil that... wait - you're not going there are you?"
     },
@@ -255,11 +263,9 @@
         23,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_bone1",
       "Text" : "This sounds like a very dangerous place.  If you venture there, please take great care."
     },
@@ -272,11 +278,9 @@
         26,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_valor1",
       "Text" : "Hmm... It sounds like something I should remember, but I've been so busy learning new cures and creating better elixirs that I must have forgotten.  Sorry..."
     },
@@ -289,11 +293,9 @@
         29,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_flshdm1",
       "Text" : "I was asked to assist in the exorcism.  My skills were able to ease the poor man's suffering, as Tremayne drove the demon from his body.  While I was treating him for an exceptionally high fever, he spoke of a place of searing heat...  The tortured fellow cried out about Hell, and falling into a pit of flame!  I could not make any sense of it, and thankfully, he soon recovered."
     },
@@ -305,11 +307,9 @@
         32,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_rock1",
       "Text" : "I don't know what it is that they thought they could see with that rock, but I will say this.  If rocks are falling from the sky, you had better be careful!"
     },
@@ -322,11 +322,9 @@
         34,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_island1",
       "Text" : "For once, I can vouch for Farnham's extraordinary claim!  There are many mentions in the books that I've been reading about a place of great healing, where warriors of light would go to mend the wounds sustained in the Sin War.  If you could find this place, it would most assuredly be to the benefit of us all..."
     },
@@ -337,12 +335,10 @@
       "RepliesList" : [
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         37
       ],
-      "Script" : "",
       "Sound" : "pepin_sign1",
       "Text" : "My goodness, demons running about the village at night, pillaging our homes - is nothing sacred?  I hope that Odgen and Garda are all right. I suppose that they would come to see me if they were hurt..."
     },
@@ -355,11 +351,9 @@
         39,
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "pepin_worms4",
       "Text" : "I fear that the worms could soon overrun the village!  I know that they are coming up from under the house that is opposite mine... Just the thought of those slimy beasts oozing into my house makes me want to be ill!  Please, rid us of them!"
     },
@@ -370,12 +364,10 @@
       "RepliesList" : [
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         42
       ],
-      "Script" : "",
       "Sound" : "pepin_leoric1",
       "Text" : "The loss of his son was too much for King Leoric...  I did what I could to ease his madness, but in the end, it overcame him.  A black curse has hung over this kingdom from that day forward - but perhaps if you were to free his spirit from his earthly prison, the curse would be lifted!"
     },
@@ -387,7 +379,6 @@
         45,
         44
       ],
-      "Script" : "",
       "Sound" : "pepin_lostboys1",
       "Text" : "Roof and Inneas are missing?  Light protect us!  Is there no place that is safe!  Our only hope of returning to a peaceful life rests in you!  Please, you must find those boys and bring them home to their family!"
     },
@@ -398,13 +389,11 @@
       "RepliesList" : [
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         48,
         47
       ],
-      "Script" : "",
       "Sound" : "pepin_water3",
       "Text" : "Please, you must hurry.  Every hour that passes brings us closer to having no water to drink.  We cannot survive for long without your help!"
     },
@@ -415,7 +404,6 @@
       "RepliesList" : [
         50
       ],
-      "Script" : "",
       "Sound" : "pepin_butcher1",
       "Text" : "By the light, I know of this vile demon!  There were many that bore the scars of his wrath upon their bodies when the few survivors of the charge led by Lazarus crawled from the cathedral."
     },
@@ -427,7 +415,6 @@
         52,
         51
       ],
-      "Script" : "",
       "Sound" : "pepin_butcher2",
       "Text" : "I don't know what he used to slice open his victims, but it could not have been of this world!  It left wounds festering with disease and even I found them almost impossible to treat!  Beware if you plan to battle this fiend!"
     },
@@ -438,52 +425,60 @@
       "RepliesList" : [
         {
           "Active" : "prq_knowadria",
-          "Index" : 73
+          "Index" : 73,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowcain",
-          "Index" : 71
+          "Index" : 71,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowdeese",
-          "Index" : 69
+          "Index" : 69,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowfarnham",
-          "Index" : 67
+          "Index" : 67,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowgillian",
-          "Index" : 65
+          "Index" : 65,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowgriswold",
-          "Index" : 63
+          "Index" : 63,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowlester",
-          "Index" : 61
+          "Index" : 61,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowogden",
-          "Index" : 59
+          "Index" : 59,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowtremayne",
-          "Index" : 57
+          "Index" : 57,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowwirt",
-          "Index" : 55
+          "Index" : 55,
+          "IsChild" : false
         },
         {
           "Index" : 52,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         54
       ],
-      "Script" : "",
       "Text" : "They are all good people. Who do you want to know more about?"
     },
     {
@@ -493,12 +488,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         56
       ],
-      "Script" : "",
       "Sound" : "pepin_wirt1",
       "Text" : "Poor Wirt...  I did all that was possible for the child, but I know he despises that wooden peg that I was forced to attach to his leg.  His wounds were hideous.  No one - and especially such a young child - should have to suffer the way he did..."
     },
@@ -509,12 +502,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         58
       ],
-      "Script" : "",
       "Sound" : "pepin_trem1",
       "Text" : "His holiness is a wondrous man of great knowledge and understanding.  He has shown me many cures for rare and deadly diseases.  He brings me books and reagents for my work whenever he can, but I fear that he may someday take on some task that is too great even for him..."
     },
@@ -525,12 +516,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         60
       ],
-      "Script" : "",
       "Sound" : "pepin_ogden1",
       "Text" : "I really don't understand why Odgen stays here in Tristram.  He suffers from a slight nervous condition, but he is an intelligent and industrious man who would do very well wherever he went. I suppose it may be the fear of the many murders that happen in the surrounding countryside, or perhaps the wishes of his wife that keep him and his family where they are."
     },
@@ -541,12 +530,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         62
       ],
-      "Script" : "",
       "Text" : "That man acts as if there's something not right with him somehow, yet I can't find anything wrong with him..."
     },
     {
@@ -556,12 +543,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         64
       ],
-      "Script" : "",
       "Sound" : "pepin_gris1",
       "Text" : "Griswold knows as much about the art of war as I do about the art of healing.  He is a shrewd merchant, but his work is second to none.  Oh, I suppose that may because he is the only blacksmith left here."
     },
@@ -572,12 +557,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         66
       ],
-      "Script" : "",
       "Sound" : "pepin_gilln1",
       "Text" : "Odgen's barmaid is a sweet girl.  Her grandmother is quite ill, and suffers from delusions.  She claims that they are visions, but I have no proof of that one way or the other."
     },
@@ -588,12 +571,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         68
       ],
-      "Script" : "",
       "Sound" : "pepin_farnm1",
       "Text" : "Even my skills have been unable to fully heal Farnham.  Oh, I have been able to mend his body, but his mind and spirit are beyond anything I can do."
     },
@@ -604,16 +585,13 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 68,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I can't stop thinking about how I could've done more to help Farnham.  Not even my strongest herbs could help him.  Oh, I just wish I could've tried a little harder.  Now I fear he is gone for good..."
     },
     {
@@ -623,12 +601,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         70
       ],
-      "Script" : "",
       "Text" : "I was the one who delivered both of Deese's sons a year after the other.  I am still sad that I could do nothing for his wife, or his baby girl, before they both died.  But I am glad that Deese still maintains the respect that he has earned from all the people of this town."
     },
     {
@@ -638,16 +614,13 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I felt horrible when I heard of what happened to Deese's sons.  I would have tried my best to heal them if I got to them in time.  I hope you try your best to rid this land of this evil that has taken so many innocent lives."
     },
     {
@@ -657,12 +630,10 @@
       "RepliesList" : [
         {
           "Index" : 75,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         72
       ],
-      "Script" : "",
       "Sound" : "pepin_cain1",
       "Text" : "Cain is a true friend and a wise sage.  He maintains a vast library and has an innate ability to discern the true nature of many things.  If you ever have any questions, he is the person to go to."
     },
@@ -674,7 +645,6 @@
         75,
         74
       ],
-      "Script" : "",
       "Sound" : "pepin_adria1",
       "Text" : "While I use some limited forms of magic to create the potions and elixirs I store here, Adria is a true sorceress.  She never seems to sleep, and she always has access to many mystic tomes and artifacts.  I believed her hut may be much more than the hovel it appears to be, but I can never seem to get inside the place."
     },
@@ -694,7 +664,6 @@
         84,
         81
       ],
-      "Script" : "",
       "Sound" : "pepin_water4",
       "Text" : "What's that you say?  The mere \"presence\" of the demons has caused the water to become tainted?  Oh, truly a great evil lurks beneath our town! But your perseverance and courage gives us hope!"
     },
@@ -730,11 +699,9 @@
         88,
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Hmm, that looks like a book of reagents.  Perhaps the witch Adria might be interested in it.  Why don't you go ask her?"
     },
     {
@@ -757,13 +724,11 @@
         {
           "Active" : "prq_mushroom3",
           "Index" : 89,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         94,
         93
       ],
-      "Script" : "",
       "Sound" : "pepin_mushroom1",
       "Text" : "The witch told me that you were searching for the brain of a demon to assist me in creating my elixir.  It should be a great value to the many who were injured by those foul beasts, if I can just unlock the secrets I suspect that its alchemy holds... If you can remove the brain of a demon when you kill it, I would be grateful if you could bring it to me..."
     },
@@ -800,7 +765,6 @@
         101,
         100
       ],
-      "Script" : "",
       "Sound" : "pepin_worms3",
       "Text" : "I left the door to this house open for you; it is the one opposite of mine."
     },
@@ -825,54 +789,46 @@
         {
           "Active" : "prq_mushroom3",
           "Index" : 89,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_demonbrain",
           "Index" : 92,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_watersupply2",
           "Index" : 80,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 79,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_storq_1_10",
           "Index" : 78,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_storq_11",
           "Index" : 77,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 76,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "s_responsegood",
-          "Index" : 103
+          "Index" : 103,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "It is unfortunate that you don't consider our problems important... Very well, what can I do for you?"
     },
     {
@@ -907,37 +863,32 @@
       "RepliesList" : [
         {
           "Index" : 79,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_storq_1_10",
           "Index" : 78,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_storq_11",
           "Index" : 77,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 76,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "s_responsegood",
-          "Index" : 109
+          "Index" : 109,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "No time for even pleasantries anymore?  I guess you \"have\" changed.  Very well, what do you need?"
     },
     {
@@ -960,11 +911,9 @@
         114,
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I'm afraid that I cannot be as eloquent as Cain or as thorough as Ogden, so if you want to know what has been happening in this town, asking either of them would be the best course."
     },
     {
@@ -974,25 +923,21 @@
       "RepliesList" : [
         {
           "Index" : 79,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_storq_1_10",
           "Index" : 78,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_storq_11",
           "Index" : 77,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         116,
         115
       ],
-      "Script" : "",
       "Text" : "It would be my pleasure to aid you, <FirstName>.  What do you need?"
     },
     {
@@ -1004,12 +949,12 @@
         119,
         {
           "Index" : 76,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "s_responsegood",
-          "Index" : 118
+          "Index" : 118,
+          "IsChild" : false
         }
       ],
       "Script" : "con_tristramx",
@@ -1029,1012 +974,577 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I'm done. Thank you very much."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can I ask you some questions, healer?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I changed my mind."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "The patients you have inside... can they be cured?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about the Archbishop Lazarus."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Yes, you're pretty inept.  That's common knowledge to me.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know.  Thank you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I met a knight named Lachdanan who is looking for a golden elixir.  Do you carry it?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Whatever.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'll keep that in mind.  Thanks."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you know of a being called Izual?  Gillian said Farnham has been mumbling it to himself..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you know about this Warlord of Blood?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Does the topic of blood make you squeamish, healer?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright, I'll ask him then.  Thanks."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you know about the Anvil of Fury?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You don't know much of anything that's actually useful, do you?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright, thanks anyway."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>Recite poem about the Halls of the Blind.</Start>"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Maybe, maybe not.  Your information didn't help me much, though."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Unfortunately, I may have to.  But thanks."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you know about a Chamber of Bone?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I know how to take care of myself.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I will.  Thanks anyway."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         10
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you recall anything about Valor?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thanks for nothing."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's okay.  Thanks anyway."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         11
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Were you there when Tremayne exorcised a demon out of one of the townsfolk?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Maybe you're losing your touch, healer.  Wouldn't be the first time."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's good to know.  Thank you for the information."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         12
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you know anything about this \"heaven stone\" that Griswold is talking about?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Uhm, thanks."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         13
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Farnham mentions \"an island where angels watched\" ... do you know of this place?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Or just \"my\" benefit ... maybe I should investigate this place."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you for the information, healer."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Have you heard about the theft of Ogden's tavern sign by demons?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         15
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What more can you tell me about these worms?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So much whining about such trivial things.  I'll go about it at my leisure!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'll go exterminate them."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         16
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What can you tell me about King Leoric?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         17
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you know anything about Deese's missing sons?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I will do so at my own leisure.  They don't meant anything to me."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I will try my best.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         18
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "How are you holding up with the water supply?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Don't rush me!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         19
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you know of this \"butcher\" creature?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         20
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have other questions for you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I would like to know more about the other townsfolk."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         22
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Wirt."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         23
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Tremayne."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         24
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Ogden."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         25
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Lester."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         26
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Griswold."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         27
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Gillian."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_islandxx",
-          "Index" : 29
+          "Index" : 29,
+          "IsChild" : false
         },
         28
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Farnham."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "end_lostboys",
-          "Index" : 31
+          "Index" : 31,
+          "IsChild" : false
         },
         30
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Deese."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         32
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Cain."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         33
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Adria."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I want to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 21,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about the other townsfolk."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_sellpepin",
-      "Sound" : "",
       "Text" : "I would like to sell some things to you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_pepin2",
-      "Sound" : "",
       "Text" : "I would like to see what you're selling."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_pepin1",
-      "Sound" : "",
       "Text" : "I would like to see what you're selling."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         34
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I require some healing."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         35
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have killed the monsters that have tainted the underground spring, and the town's water supply is clean once again."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         36
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Yes yes, so I saved Tristram, but what about my reward?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Only this?! Bah, I guess it will do then..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Ah, a decent item for my services. Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         37
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "Thank you, it was no trouble at all."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Ah, a decent item for my services. Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you again, and good day to you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         38
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found a fungal tome in the caves.  Do you need it?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Very well."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         39
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Here is the demon brain you wanted..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Another errand?   This had better be the last one!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you Pepin, I'll bring it to her now."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         40
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Is it true you wanted the brain of a demon?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "First mushrooms, now brains.  This is really getting annoying."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'll go search for one.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 45,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "I don't have time for your tales, healer, I need your services."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 42,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Sounds like I'm not gonna like what you're going to say,"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         42
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What did you find?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Hunting vermin under cellars is quite beneath me."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         43
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Alright, I'll see what I can do."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "This had better be worth my time, healer..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "I'll get on it as soon as I can, Pepin."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         45
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "I don't have time for your problems; I just need your services."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I'm done. Thank you very much."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 46,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So what you want me to do about it?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         46
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's terrible! How can I help?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'll help you, but this better be worth my trouble!!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "I will get to the bottom of this as soon as possible!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         48
       ],
-      "Quest" : "",
       "Script" : "s_knowpepin",
-      "Sound" : "",
       "Text" : "Yes, whatever.  I would like to see your services."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I'm done. Thank you very much."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         49
       ],
-      "Quest" : "",
       "Script" : "s_knowpepin",
-      "Sound" : "",
       "Text" : "I did not come here to fix your problems, whatever they may be."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I'll do just that.  Goodbye!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 48,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Maybe I will, maybe I won't.  I am just here to avail of your services, healer, not to yap."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         50
       ],
-      "Quest" : "",
       "Script" : "s_knowpepin",
-      "Sound" : "",
       "Text" : "It is nice to see you again, Pepin.  What strange things do you mean?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         51
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Before I do that, I would like to use your services."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "On second thought, I would like to ask you some questions."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I'll do that.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think I'm done. Thank you very much."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_pepin2",
-      "Sound" : "",
       "Text" : "I would like to see what you're selling."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         53
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I require some healing."
     }
   ],

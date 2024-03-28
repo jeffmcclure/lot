@@ -25,12 +25,12 @@
         10,
         {
           "Active" : "qst_cow1",
-          "Index" : 5
+          "Index" : 5,
+          "IsChild" : false
         },
         3,
         1
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "You are changing the subject!  What is the secret password!"
     },
@@ -41,7 +41,6 @@
       "RepliesList" : [
         2
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "Come back when you do.  Buh-bye."
     },
@@ -52,7 +51,6 @@
       "RepliesList" : [
         4
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "*groan* That is such a cliché. Try again."
     },
@@ -63,7 +61,6 @@
       "RepliesList" : [
         6
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "You have uttered the correct password. I am so relieved."
     },
@@ -75,7 +72,6 @@
         9,
         7
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "Would you like to go down?"
     },
@@ -106,7 +102,6 @@
       "RepliesList" : [
         11
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "Sorry, wrong game. Try again."
     },
@@ -117,7 +112,6 @@
       "RepliesList" : [
         13
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "No, there are no tigers here. Try again."
     },
@@ -128,7 +122,6 @@
       "RepliesList" : [
         15
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "That is correct ... if you're a total retard! Try again."
     },
@@ -139,7 +132,6 @@
       "RepliesList" : [
         17
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "Uhm, NO ... Try again."
     },
@@ -150,42 +142,34 @@
       "RepliesList" : [
         {
           "Index" : 16,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 14,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 10,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "qst_cow1",
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Speaker" : "TRISTRAM_2COWLVL",
       "Text" : "What is the secret password?"
     }
@@ -194,177 +178,117 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "*sigh*"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't know the password!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"Open sesame!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"The cows have come home.\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yay!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'd rather not."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"There is no cow level!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"Here there be tigers!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         10
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"All your base are belong to us!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         11
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "\"Go metal no pass!\""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         12
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue"
     }
   ],

@@ -13,22 +13,18 @@
         {
           "Active" : "prq_rem_1",
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_rem_2",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "How can I help you?"
     },
     {
@@ -39,11 +35,13 @@
       "RepliesList" : [
         {
           "Active" : "prq_rem_1",
-          "Index" : 3
+          "Index" : 3,
+          "IsChild" : false
         },
         {
           "Active" : "prq_rem_2",
-          "Index" : 1
+          "Index" : 1,
+          "IsChild" : false
         },
         0
       ],
@@ -78,46 +76,28 @@
   "ReplyList" : [
     {
       "ActionParams" : [ ],
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Goodbye."
     },
     {
       "ActionParams" : [ ],
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you have any more of those freebies?"
     },
     {
       "ActionParams" : [ ],
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you"
     },
     {
       "ActionParams" : [ ],
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tremayne is worried about you."
     },
     {
       "ActionParams" : [ ],
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Will do."
     }
   ],

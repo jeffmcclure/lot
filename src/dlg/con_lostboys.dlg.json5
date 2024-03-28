@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>You find nothing interesting among these scattered corpses...</Start>"
     },
     {
@@ -22,7 +21,6 @@
         5,
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>The corpses here have been mutilated badly, but your heart sinks as you recognize two of them - the half-eaten remains of Deese's two sons, Roof and Inneas.  You came too late.</Start>"
     },
     {
@@ -33,7 +31,6 @@
         4,
         2
       ],
-      "Script" : "",
       "Text" : "<StartAction>As much as you want to bring back proof, you can't bear to show Deese the slaughtered remains of his sons.  This will surely break the old man's heart.</Start>"
     },
     {
@@ -61,59 +58,34 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the corpses alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You change your mind and pick up the corpses"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "lev_corpses",
-      "Sound" : "",
       "Text" : "Leave the corpses."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Pick up the two corpses."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     }
   ],

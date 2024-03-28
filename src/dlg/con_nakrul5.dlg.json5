@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Sound" : "note_nakrul5a",
       "Text" : "\"...In its ranting, the creature has let slip its name...  Na-krul...  I have attempted to research the name, but the smaller demons have somehow destroyed my library.  Na-krul...  the name fills me with a cold dread.  I prefer to think of it only as 'the creature' rather than ponder its true name...\""
     },
@@ -23,7 +22,6 @@
         2,
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>This is another journal written by Skulken, littered with arcane symbols and verses, but a part of it was intentionally written in a readable form.</Start>"
     },
     {
@@ -43,46 +41,27 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the journal alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Read the journal."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Read the journal again."
     }
   ],

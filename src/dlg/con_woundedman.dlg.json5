@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>The man is dead; you can do nothing for him at this point. </Start>"
     },
     {
@@ -22,7 +21,6 @@
         2,
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>The wounded man slowly and painfully turns to you and seems to be trying to say something...</Start>"
     },
     {
@@ -33,7 +31,6 @@
         4,
         3
       ],
-      "Script" : "",
       "Sound" : "dyingman1",
       "Text" : "Please, listen to me ... the Archbishop Lazarus ... he led us down here to find the lost prince ... the bastard led us into a trap ... now everyone is dead, killed by a demon he called the Butcher..."
     },
@@ -45,7 +42,6 @@
         7,
         5
       ],
-      "Script" : "",
       "Sound" : "dyingman2",
       "Text" : "Avenge us! .... Find this Butcher and slay him ... so that our souls may finally rest..."
     },
@@ -76,7 +72,6 @@
       "RepliesList" : [
         9
       ],
-      "Script" : "",
       "Text" : "<StartAction>The man is dead; you can do nothing for him at this point. </Start>"
     }
   ],
@@ -84,94 +79,58 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "<StartAction>Leave. </Start>"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>Lean closer. </Start>"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_evil3",
-      "Sound" : "",
       "Text" : "Your problem is not mine to deal with. The weak do not deserve to live!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Is there anything I can do to help?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
       "Script" : "giv_butcher",
-      "Sound" : "",
       "Text" : "You had it coming, you weakling... maybe I \"will\" kill this Butcher, for my own reasons!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_killdeadman",
-      "Sound" : "",
       "Text" : "Good riddance to weak garbage..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
       "Script" : "giv_butcher",
-      "Sound" : "",
       "Text" : "I will kill this monster for you. Your death will not be in vain."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_killdeadman",
-      "Sound" : "",
       "Text" : "Your death will be avenged..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     }
   ],

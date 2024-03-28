@@ -12,7 +12,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Sound" : "zhar1",
       "Text" : "What?  Why are you here?   All these interruptions are enough to make one insane!"
     },
@@ -35,7 +34,6 @@
       "RepliesList" : [
         3
       ],
-      "Script" : "",
       "Sound" : "zhar3",
       "Text" : "Aaah... your curiosity will be the death of you!"
     },
@@ -46,7 +44,6 @@
       "RepliesList" : [
         5
       ],
-      "Script" : "",
       "Sound" : "zhar3",
       "Text" : "Aaah... your curiosity will be the death of you!"
     }
@@ -55,57 +52,35 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am here to pilfer through this place for treasure.  You have a problem with that?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What are you doing in a place like this?  You're pretty far down to be studying..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "But I have questions to ask you!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_zhar",
-      "Sound" : "",
       "Text" : "But---"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright then."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_zhar",
-      "Sound" : "",
       "Text" : "But---"
     }
   ],

@@ -10,7 +10,6 @@
       "Comment" : "This starting condition should only come up if the henchman is working for a player and it is NOT that player who is trying to talk to him (the script NW_CH_JOIN_NOT only checks to see if the henchman is working for ANY player, including the one he is currently serving).  ",
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56196,
         "Strings" : [ ]
@@ -24,7 +23,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "Would you like some help in your mission?"
     },
     {
@@ -32,7 +30,6 @@
       "Animation" : 28,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "As you wish."
     },
     {
@@ -51,7 +48,6 @@
         3,
         2
       ],
-      "Script" : "",
       "Text" : "Hello, would you like to join up together again?"
     },
     {
@@ -59,7 +55,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "As you wish."
     },
     {
@@ -77,7 +72,6 @@
       "RepliesList" : [
         4
       ],
-      "Script" : "",
       "Text" : "Death took me from your side, <Sir/Madam>. "
     },
     {
@@ -88,7 +82,6 @@
         6,
         5
       ],
-      "Script" : "",
       "Text" : "Would you like to join up together again?"
     },
     {
@@ -96,7 +89,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "As you wish."
     },
     {
@@ -112,7 +104,6 @@
       "Animation" : 28,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "I am afraid that I cannot work for you."
     },
     {
@@ -123,65 +114,79 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 166
+          "Index" : 166,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 163
+          "Index" : 163,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 131
+          "Index" : 131,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 130
+          "Index" : 130,
+          "IsChild" : false
         },
         95,
         {
           "Active" : "69_ch_check_38",
-          "Index" : 93
+          "Index" : 93,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_check_39",
-          "Index" : 92
+          "Index" : 92,
+          "IsChild" : false
         },
         91,
         {
           "Active" : "x1_hen_canid",
-          "Index" : 90
+          "Index" : 90,
+          "IsChild" : false
         },
         89,
         {
           "Active" : "69_hen_castspell",
-          "Index" : 19
+          "Index" : 19,
+          "IsChild" : false
         },
         18,
         {
           "Active" : "henchbod1",
-          "Index" : 17
+          "Index" : 17,
+          "IsChild" : false
         },
         {
           "Active" : "henchbod2",
-          "Index" : 16
+          "Index" : 16,
+          "IsChild" : false
         },
         {
           "Active" : "henchbod3",
-          "Index" : 15
+          "Index" : 15,
+          "IsChild" : false
         },
         {
           "Active" : "henchbod4",
-          "Index" : 14
+          "Index" : 14,
+          "IsChild" : false
         },
         13,
         12,
         {
           "Active" : "x0_d2_hasrage",
-          "Index" : 10
+          "Index" : 10,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassong",
-          "Index" : 8
+          "Index" : 8,
+          "IsChild" : false
         },
         7
       ],
@@ -201,7 +206,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56168,
         "Strings" : [ ]
@@ -214,7 +218,6 @@
       "RepliesList" : [
         9
       ],
-      "Script" : "",
       "Text" : "Yes, I shall sing!"
     },
     {
@@ -224,7 +227,6 @@
       "RepliesList" : [
         11
       ],
-      "Script" : "",
       "Text" : "<Deity>!"
     },
     {
@@ -290,279 +292,346 @@
       "RepliesList" : [
         {
           "Active" : "x0_d2_hasaid",
-          "Index" : 88
+          "Index" : 88,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasandead",
-          "Index" : 87
+          "Index" : 87,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasbless",
-          "Index" : 86
+          "Index" : 86,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasbulls",
-          "Index" : 85
+          "Index" : 85,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hascatsg",
-          "Index" : 84
+          "Index" : 84,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasclarity",
-          "Index" : 83
+          "Index" : 83,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hascontfl",
-          "Index" : 82
+          "Index" : 82,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hascrgrund",
-          "Index" : 81
+          "Index" : 81,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hascreund",
-          "Index" : 80
+          "Index" : 80,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasdthward",
-          "Index" : 79
+          "Index" : 79,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasdivfav",
-          "Index" : 78
+          "Index" : 78,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_haseagles",
-          "Index" : 77
+          "Index" : 77,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasendur",
-          "Index" : 76
+          "Index" : 76,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasendelem",
-          "Index" : 75
+          "Index" : 75,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasenergyb",
-          "Index" : 74
+          "Index" : 74,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasentshld",
-          "Index" : 73
+          "Index" : 73,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasether",
-          "Index" : 72
+          "Index" : 72,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasetherv",
-          "Index" : 71
+          "Index" : 71,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasfindtr",
-          "Index" : 70
+          "Index" : 70,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasfoxcun",
-          "Index" : 69
+          "Index" : 69,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasfreemov",
-          "Index" : 68
+          "Index" : 68,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasghostv",
-          "Index" : 67
+          "Index" : 67,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasgrrest",
-          "Index" : 66
+          "Index" : 66,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasgrstone",
-          "Index" : 65
+          "Index" : 65,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hashaste",
-          "Index" : 64
+          "Index" : 64,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasimpinv",
-          "Index" : 63
+          "Index" : 63,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasinvis",
-          "Index" : 62
+          "Index" : 62,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasinvissp",
-          "Index" : 61
+          "Index" : 61,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasknock",
-          "Index" : 60
+          "Index" : 60,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_haslmindbl",
-          "Index" : 59
+          "Index" : 59,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_haslesrest",
-          "Index" : 58
+          "Index" : 58,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_haslight",
-          "Index" : 57
+          "Index" : 57,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasmagearm",
-          "Index" : 56
+          "Index" : 56,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasmhaste",
-          "Index" : 55
+          "Index" : 55,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasmindbl",
-          "Index" : 54
+          "Index" : 54,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasnegenpr",
-          "Index" : 53
+          "Index" : 53,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasneutpoi",
-          "Index" : 52
+          "Index" : 52,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasowlwis",
-          "Index" : 51
+          "Index" : 51,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasplanall",
-          "Index" : 50
+          "Index" : 50,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_haspremon",
-          "Index" : 49
+          "Index" : 49,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasprelem",
-          "Index" : 48
+          "Index" : 48,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasprspell",
-          "Index" : 47
+          "Index" : 47,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasrembldf",
-          "Index" : 46
+          "Index" : 46,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasremcurs",
-          "Index" : 45
+          "Index" : 45,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasremdis",
-          "Index" : 44
+          "Index" : 44,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasremfear",
-          "Index" : 43
+          "Index" : 43,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasreselem",
-          "Index" : 42
+          "Index" : 42,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasresist",
-          "Index" : 41
+          "Index" : 41,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasrestor",
-          "Index" : 40
+          "Index" : 40,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassanctry",
-          "Index" : 39
+          "Index" : 39,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasseeinv",
-          "Index" : 38
+          "Index" : 38,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasshdshld",
-          "Index" : 37
+          "Index" : 37,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasshield",
-          "Index" : 36
+          "Index" : 36,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasshldfth",
-          "Index" : 35
+          "Index" : 35,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasspelres",
-          "Index" : 34
+          "Index" : 34,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasstskin",
-          "Index" : 33
+          "Index" : 33,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm1",
-          "Index" : 32
+          "Index" : 32,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm2",
-          "Index" : 31
+          "Index" : 31,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm3",
-          "Index" : 30
+          "Index" : 30,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm4",
-          "Index" : 29
+          "Index" : 29,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm5",
-          "Index" : 28
+          "Index" : 28,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm6",
-          "Index" : 27
+          "Index" : 27,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm7",
-          "Index" : 26
+          "Index" : 26,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm8",
-          "Index" : 25
+          "Index" : 25,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hassumm9",
-          "Index" : 24
+          "Index" : 24,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hastruesee",
-          "Index" : 23
+          "Index" : 23,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasultra",
-          "Index" : 22
+          "Index" : 22,
+          "IsChild" : false
         },
         {
           "Active" : "x0_d2_hasvirtue",
-          "Index" : 21
+          "Index" : 21,
+          "IsChild" : false
         },
         20
       ],
-      "Script" : "",
       "Text" : "I suppose I can accomodate you.  Which spell do you want me to cast?"
     },
     {
@@ -570,7 +639,6 @@
       "Animation" : 38,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "I think we're safe enough here."
     },
     {
@@ -578,7 +646,6 @@
       "Animation" : 48,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "Very well."
     },
     {
@@ -588,7 +655,6 @@
       "RepliesList" : [
         94
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56222,
         "Strings" : [
@@ -606,71 +672,86 @@
       "RepliesList" : [
         {
           "Active" : "henchlvl_barbta",
-          "Index" : 128
+          "Index" : 128,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_bardta",
-          "Index" : 126
+          "Index" : 126,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_clercta",
-          "Index" : 124
+          "Index" : 124,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_druidta",
-          "Index" : 122
+          "Index" : 122,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_fightta",
-          "Index" : 120
+          "Index" : 120,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_monkta",
-          "Index" : 118
+          "Index" : 118,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_palata",
-          "Index" : 116
+          "Index" : 116,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_rangeta",
-          "Index" : 114
+          "Index" : 114,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_rogta",
-          "Index" : 112
+          "Index" : 112,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_sorceta",
-          "Index" : 110
+          "Index" : 110,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_wizarta",
-          "Index" : 108
+          "Index" : 108,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_arcanta",
-          "Index" : 106
+          "Index" : 106,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_assasta",
-          "Index" : 104
+          "Index" : 104,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_blackta",
-          "Index" : 102
+          "Index" : 102,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_harpeta",
-          "Index" : 100
+          "Index" : 100,
+          "IsChild" : false
         },
         {
           "Active" : "henchlvl_shadota",
-          "Index" : 98
+          "Index" : 98,
+          "IsChild" : false
         },
         96
       ],
-      "Script" : "",
       "Text" : "Yes, There's nothing like experience on the road to progress your training."
     },
     {
@@ -680,7 +761,6 @@
       "RepliesList" : [
         97
       ],
-      "Script" : "",
       "Text" : "Very well."
     },
     {
@@ -850,56 +930,67 @@
       "RepliesList" : [
         {
           "Active" : "nw_ch_commelee",
-          "Index" : 162
+          "Index" : 162,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 161
+          "Index" : 161,
+          "IsChild" : false
         },
         154,
         {
           "Active" : "nw_ch_heal_0",
-          "Index" : 153
+          "Index" : 153,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_yes_srch",
-          "Index" : 152
+          "Index" : 152,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_no_srch",
-          "Index" : 151
+          "Index" : 151,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_yes_stlth",
-          "Index" : 150
+          "Index" : 150,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_no_stlth",
-          "Index" : 149
+          "Index" : 149,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_locks",
-          "Index" : 148
+          "Index" : 148,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_locks",
-          "Index" : 147
+          "Index" : 147,
+          "IsChild" : false
         },
         {
           "Active" : "henchdual",
-          "Index" : 146
+          "Index" : 146,
+          "IsChild" : false
         },
         {
           "Active" : "69_hen_castspell",
-          "Index" : 139
+          "Index" : 139,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 133
+          "Index" : 133,
+          "IsChild" : false
         },
         132
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56170,
         "Strings" : [ ]
@@ -916,7 +1007,6 @@
         135,
         134
       ],
-      "Script" : "",
       "Text" : "Sure. What would you like me to do?"
     },
     {
@@ -970,14 +1060,15 @@
         142,
         {
           "Active" : "henchcast1",
-          "Index" : 141
+          "Index" : 141,
+          "IsChild" : false
         },
         {
           "Active" : "henchcast2",
-          "Index" : 140
+          "Index" : 140,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "Why, what is the matter with what I'm doing now?"
     },
     {
@@ -985,7 +1076,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "Very well, but I will still refrain from healing you if I am in close-range combat."
     },
     {
@@ -993,7 +1083,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "Very well, I will both cast attack spells and heal you whenver necessary."
     },
     {
@@ -1001,7 +1090,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "Very well, I will neither cast attack spells nor heal you if I'm in close-range combat."
     },
     {
@@ -1009,7 +1097,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "Very well, but I will still try to heal you according to your instructions."
     },
     {
@@ -1061,7 +1148,6 @@
         157,
         155
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56147,
         "Strings" : [
@@ -1079,7 +1165,6 @@
       "RepliesList" : [
         156
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56174,
         "Strings" : [ ]
@@ -1092,7 +1177,6 @@
       "RepliesList" : [
         158
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56173,
         "Strings" : [ ]
@@ -1105,7 +1189,6 @@
       "RepliesList" : [
         160
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56172,
         "Strings" : [ ]
@@ -1116,7 +1199,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56176,
         "Strings" : [ ]
@@ -1127,7 +1209,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56175,
         "Strings" : [
@@ -1146,7 +1227,6 @@
         165,
         164
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56150,
         "Strings" : [ ]
@@ -1170,72 +1250,87 @@
       "RepliesList" : [
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 228
+          "Index" : 228,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_commelee",
-          "Index" : 226
+          "Index" : 226,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 224
+          "Index" : 224,
+          "IsChild" : false
         },
         {
           "Active" : "69_hen_castspell",
-          "Index" : 209
+          "Index" : 209,
+          "IsChild" : false
         },
         202,
         {
           "Active" : "nw_ch_heal_0",
-          "Index" : 190
+          "Index" : 190,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_yes_srch",
-          "Index" : 188
+          "Index" : 188,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_no_srch",
-          "Index" : 186
+          "Index" : 186,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_no_stlth",
-          "Index" : 184
+          "Index" : 184,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_yes_stlth",
-          "Index" : 182
+          "Index" : 182,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_locks",
-          "Index" : 180
+          "Index" : 180,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_locks",
-          "Index" : 178
+          "Index" : 178,
+          "IsChild" : false
         },
         {
           "Active" : "69_no_disable",
-          "Index" : 176
+          "Index" : 176,
+          "IsChild" : false
         },
         {
           "Active" : "69_yes_disable",
-          "Index" : 174
+          "Index" : 174,
+          "IsChild" : false
         },
         {
           "Active" : "henchdual",
-          "Index" : 172
+          "Index" : 172,
+          "IsChild" : false
         },
         {
           "Active" : "69_henchatackyes",
-          "Index" : 170
+          "Index" : 170,
+          "IsChild" : false
         },
         {
           "Active" : "69_henchatackno",
-          "Index" : 169
+          "Index" : 169,
+          "IsChild" : false
         },
         167
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56146,
         "Strings" : [ ]
@@ -1248,7 +1343,6 @@
       "RepliesList" : [
         168
       ],
-      "Script" : "",
       "Text" : "Very well."
     },
     {
@@ -1258,7 +1352,6 @@
       "RepliesList" : [
         171
       ],
-      "Script" : "",
       "Text" : "Yes <Sir/Madam>!"
     },
     {
@@ -1278,7 +1371,6 @@
       "RepliesList" : [
         175
       ],
-      "Script" : "",
       "Text" : "Very well, <FirstName>."
     },
     {
@@ -1288,7 +1380,6 @@
       "RepliesList" : [
         177
       ],
-      "Script" : "",
       "Text" : "Very well, <FirstName>."
     },
     {
@@ -1298,7 +1389,6 @@
       "RepliesList" : [
         179
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56186,
         "Strings" : [ ]
@@ -1311,7 +1401,6 @@
       "RepliesList" : [
         181
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56185,
         "Strings" : [ ]
@@ -1324,7 +1413,6 @@
       "RepliesList" : [
         183
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56184,
         "Strings" : [ ]
@@ -1337,7 +1425,6 @@
       "RepliesList" : [
         185
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56183,
         "Strings" : [ ]
@@ -1350,7 +1437,6 @@
       "RepliesList" : [
         187
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56182,
         "Strings" : [ ]
@@ -1363,7 +1449,6 @@
       "RepliesList" : [
         189
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56181,
         "Strings" : [ ]
@@ -1376,38 +1461,45 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 200
+          "Index" : 200,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 199
+          "Index" : 199,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 198
+          "Index" : 198,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 197
+          "Index" : 197,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 196
+          "Index" : 196,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 195
+          "Index" : 195,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal1",
-          "Index" : 193
+          "Index" : 193,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal2",
-          "Index" : 191
+          "Index" : 191,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56149,
         "Strings" : [ ]
@@ -1420,7 +1512,6 @@
       "RepliesList" : [
         192
       ],
-      "Script" : "",
       "Text" : "I will try to heal you even if I am being attacked at close range."
     },
     {
@@ -1430,7 +1521,6 @@
       "RepliesList" : [
         194
       ],
-      "Script" : "",
       "Text" : "Very well, I will heal you only if I am not in hand-to-hand combat."
     },
     {
@@ -1440,7 +1530,6 @@
       "RepliesList" : [
         201
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56180,
         "Strings" : [ ]
@@ -1455,7 +1544,6 @@
         205,
         203
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56147,
         "Strings" : [ ]
@@ -1468,7 +1556,6 @@
       "RepliesList" : [
         204
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56174,
         "Strings" : [ ]
@@ -1481,7 +1568,6 @@
       "RepliesList" : [
         206
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56173,
         "Strings" : [ ]
@@ -1494,7 +1580,6 @@
       "RepliesList" : [
         208
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56172,
         "Strings" : [ ]
@@ -1511,14 +1596,15 @@
         216,
         {
           "Active" : "henchcast1",
-          "Index" : 213
+          "Index" : 213,
+          "IsChild" : false
         },
         {
           "Active" : "henchcast2",
-          "Index" : 210
+          "Index" : 210,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "Why, what is the matter with what I'm doing now?"
     },
     {
@@ -1528,7 +1614,6 @@
       "RepliesList" : [
         211
       ],
-      "Script" : "",
       "Text" : "Very well, but I will still refrain from healing you if I am in close-range combat."
     },
     {
@@ -1538,7 +1623,6 @@
       "RepliesList" : [
         212
       ],
-      "Script" : "",
       "Text" : "Very well, I will both cast attack spells and heal you whenever necessary."
     },
     {
@@ -1548,7 +1632,6 @@
       "RepliesList" : [
         214
       ],
-      "Script" : "",
       "Text" : "Very well, I will neither cast attack spells nor heal you if I'm in close-range combat."
     },
     {
@@ -1558,7 +1641,6 @@
       "RepliesList" : [
         215
       ],
-      "Script" : "",
       "Text" : "Very well, but I will still try to heal you according to your instructions."
     },
     {
@@ -1608,7 +1690,6 @@
       "RepliesList" : [
         225
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 62539,
         "Strings" : [ ]
@@ -1621,7 +1702,6 @@
       "RepliesList" : [
         227
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 62540,
         "Strings" : [
@@ -1643,7 +1723,6 @@
         231,
         229
       ],
-      "Script" : "",
       "Text" : "Sure. What would you like me to do?"
     },
     {
@@ -1701,789 +1780,438 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I work better alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I work better alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
       "Script" : "69_setdidiefalse",
-      "Sound" : "",
       "Text" : "Yes, an unfortunate fate indeed."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I work better alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         10
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         13
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55688,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want you to use your Bard Song."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_usesong",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         15
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want you to use your Barbarian Rage."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_userage",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 38,
-      "Comment" : "",
       "EntriesList" : [
         16
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Equip your melee weapons"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         17
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Could you pick up some of the items in the area."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         18
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Unsummon your animal companion, please."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         19
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Summon your animal companion, please."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         20
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Unsummon your familiar, please."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Summon your familiar, please."
     },
     {
       "Animation" : 39,
-      "Comment" : "",
       "EntriesList" : [
         22
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Heal whoever has the most injuries in the party."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         23
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I need you to cast a spell."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nevermind."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castvirtue",
-      "Sound" : "",
       "Text" : "Virtue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castultra",
-      "Sound" : "",
       "Text" : "Ultravision."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_casttruese",
-      "Sound" : "",
       "Text" : "True Seeing."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm9",
-      "Sound" : "",
       "Text" : "Summon Creature IX."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm8",
-      "Sound" : "",
       "Text" : "Summon Creature VIII."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm7",
-      "Sound" : "",
       "Text" : "Summon Creature VII."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm6",
-      "Sound" : "",
       "Text" : "Summon Creature VI."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm5",
-      "Sound" : "",
       "Text" : "Summon Creature V."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm4",
-      "Sound" : "",
       "Text" : "Summon Creature IV."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm3",
-      "Sound" : "",
       "Text" : "Summon Creature III."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm2",
-      "Sound" : "",
       "Text" : "Summon Creature II."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsumm1",
-      "Sound" : "",
       "Text" : "Summon Creature I."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_caststonsk",
-      "Sound" : "",
       "Text" : "Stoneskin."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsplres",
-      "Sound" : "",
       "Text" : "Spell Resistance."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castshdfth",
-      "Sound" : "",
       "Text" : "Shield of Faith."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castshield",
-      "Sound" : "",
       "Text" : "Shield."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castshadsh",
-      "Sound" : "",
       "Text" : "Shadow Shield."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castseeinv",
-      "Sound" : "",
       "Text" : "See Invisibility."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castsancry",
-      "Sound" : "",
       "Text" : "Sanctuary."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castrestor",
-      "Sound" : "",
       "Text" : "Restoration."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castresist",
-      "Sound" : "",
       "Text" : "Resistance."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castresele",
-      "Sound" : "",
       "Text" : "Resist Elements."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castremfr",
-      "Sound" : "",
       "Text" : "Remove Fear."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castremdis",
-      "Sound" : "",
       "Text" : "Remove Disease."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castremcur",
-      "Sound" : "",
       "Text" : "Remove Curse."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castrembdf",
-      "Sound" : "",
       "Text" : "Remove Blindness/Deafness."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castprspel",
-      "Sound" : "",
       "Text" : "Protection From Spells."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castprelem",
-      "Sound" : "",
       "Text" : "Protection From Elements."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castpremon",
-      "Sound" : "",
       "Text" : "Premonition."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castplally",
-      "Sound" : "",
       "Text" : "Planar Ally."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castowlwis",
-      "Sound" : "",
       "Text" : "Owl's Wisdom."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castneupoi",
-      "Sound" : "",
       "Text" : "Neutralize Poison."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castngenpr",
-      "Sound" : "",
       "Text" : "Negative Energy Protection."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castmindbl",
-      "Sound" : "",
       "Text" : "Mind Blank."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castmhaste",
-      "Sound" : "",
       "Text" : "Mass Haste."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castmagear",
-      "Sound" : "",
       "Text" : "Mage Armor."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castlight",
-      "Sound" : "",
       "Text" : "Light."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castlesres",
-      "Sound" : "",
       "Text" : "Lesser Restoration."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castlmindb",
-      "Sound" : "",
       "Text" : "Lesser Mind Blank."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castknock",
-      "Sound" : "",
       "Text" : "Knock."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castinvsph",
-      "Sound" : "",
       "Text" : "Invisibility Sphere."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castinvis",
-      "Sound" : "",
       "Text" : "Invisibility"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castimpinv",
-      "Sound" : "",
       "Text" : "Improved Invisibility."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_casthaste",
-      "Sound" : "",
       "Text" : "Haste."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castgrston",
-      "Sound" : "",
       "Text" : "Greater Stoneskin."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castgrrest",
-      "Sound" : "",
       "Text" : "Greater Restoration."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castghovis",
-      "Sound" : "",
       "Text" : "Ghostly Visage."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castfremov",
-      "Sound" : "",
       "Text" : "Freedom of Movement."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castfoxcun",
-      "Sound" : "",
       "Text" : "Fox's Cunning."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castfindtr",
-      "Sound" : "",
       "Text" : "Find Traps."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castethvis",
-      "Sound" : "",
       "Text" : "Ethereal Visage."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castether",
-      "Sound" : "",
       "Text" : "Etherealness"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castentshd",
-      "Sound" : "",
       "Text" : "Entropic Shield."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castenbuff",
-      "Sound" : "",
       "Text" : "Energy Buffer."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castendele",
-      "Sound" : "",
       "Text" : "Endure Elements."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castendur",
-      "Sound" : "",
       "Text" : "Endurance."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_casteagles",
-      "Sound" : "",
       "Text" : "Eagle's Splendour."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castdivfav",
-      "Sound" : "",
       "Text" : "Divine Favor."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castdthwrd",
-      "Sound" : "",
       "Text" : "Death Ward."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castcrund",
-      "Sound" : "",
       "Text" : "Create Undead."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castcrgrun",
-      "Sound" : "",
       "Text" : "Create Greater Undead."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castcontfl",
-      "Sound" : "",
       "Text" : "Continual Flame."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castclarit",
-      "Sound" : "",
       "Text" : "Clarity."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castcatgr",
-      "Sound" : "",
       "Text" : "Cat's Grace."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castbullst",
-      "Sound" : "",
       "Text" : "Bull's Strength."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castbless",
-      "Sound" : "",
       "Text" : "Bless."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castandead",
-      "Sound" : "",
       "Text" : "Animate Dead"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "x0_d1_castaid",
-      "Sound" : "",
       "Text" : "Aid."
     },
     {
       "Animation" : 48,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchscoutyes",
-          "Index" : 25
+          "Index" : 25,
+          "IsChild" : false
         },
         {
           "Active" : "henchscoutno",
-          "Index" : 24
+          "Index" : 24,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchscout",
-      "Sound" : "",
       "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
     },
     {
       "Animation" : 38,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "henchidentify",
-      "Sound" : "",
       "Text" : "Please try to identify my items."
     },
     {
       "Animation" : 38,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "henchmanshow",
-      "Sound" : "",
       "Text" : "Please show me your inventory."
     },
     {
       "Animation" : 28,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 26,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55784,
         "Strings" : [ ]
@@ -2491,12 +2219,9 @@
     },
     {
       "Animation" : 34,
-      "Comment" : "",
       "EntriesList" : [
         26
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55783,
         "Strings" : [ ]
@@ -2504,309 +2229,180 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "69_ch_action_17",
-      "Sound" : "",
       "Text" : null
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "x0_d2_level0",
-          "Index" : 27
+          "Index" : 27,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want to discuss your training."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         28
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nevermind, keep your current class training."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         29
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a shadowdancer.]</Start> Concentrate on shadowdancer training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         30
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a harper scout.]</Start> Concentrate on harper scout training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         31
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a blackguard.]</Start> Concentrate on blackguard training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         32
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as an assassin.]</Start> Concentrate on assassin training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         33
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as an arcane archer.]</Start> Concentrate on arcane archer training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         34
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a wizard.]</Start> Concentrate on wizard training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         35
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a sorcerer.]</Start> Concentrate on sorcerer training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         36
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a rogue.]</Start> Concentrate on rogue training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         37
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a ranger.]</Start> Concentrate on ranger training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         38
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a paladin.]</Start> Concentrate on paladin training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         39
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a monk.]</Start> Concentrate on monk training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         40
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a fighter.]</Start> Concentrate on fighter training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         41
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a druid.]</Start> Concentrate on druid training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         42
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a cleric.]</Start> Concentrate on cleric training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         43
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a bard.]</Start> Concentrate on bard training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         44
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>[Henchman will only gain levels as a barbarian.]</Start> Concentrate on barbarian training only."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 68,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55706,
         "Strings" : [ ]
@@ -2814,12 +2410,9 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         45
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55705,
         "Strings" : [ ]
@@ -2827,178 +2420,133 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55732,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         46
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Must talk about weapon-switch...stuff."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         47
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No grapple combat. Move from the enemy if enemy get too close!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         48
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Aggressive! When enemy get closer than 6 meters, charge!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         49
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Switch to melee if the enemy is at medium distance,  between 4 and 5 meters away."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         50
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You good with missile weapon, wait until the enemy get close, less than 3 meters, before switch to melee weapon."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         51
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Trust mind when to switch betwen melee and missile weapons."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         52
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Me want talk how you use combat spells."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchheal1",
-          "Index" : 54
+          "Index" : 54,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal2",
-          "Index" : 53
+          "Index" : 53,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchcastyes",
-      "Sound" : "",
       "Text" : "Cast combat spells when you grapple with enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchheal1",
-          "Index" : 56
+          "Index" : 56,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal2",
-          "Index" : 55
+          "Index" : 55,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchcastno",
-      "Sound" : "",
       "Text" : "No cast spells while you grapple with enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         57
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "All is good, but save spells. Use them for stronger enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         58
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You waste spells. Use them when enemy is medium strong."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         59
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Use spells all time! Don't stop unless enemy is weak."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         60
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Forget before talk.You do good when use spells."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         61
       ],
-      "Quest" : "",
       "Script" : "henchswap",
-      "Sound" : "",
       "Text" : "Ummm...Me think you dual-wield weapon not good."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 76,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_lock_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55731,
         "Strings" : [ ]
@@ -3006,17 +2554,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 77,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_lock_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55730,
         "Strings" : [ ]
@@ -3024,17 +2568,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 79,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55729,
         "Strings" : [ ]
@@ -3042,17 +2582,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 78,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_ch_stlth_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55728,
         "Strings" : [ ]
@@ -3060,17 +2596,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 80,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55727,
         "Strings" : [ ]
@@ -3078,17 +2610,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 81,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_ch_srch_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55726,
         "Strings" : [ ]
@@ -3096,16 +2624,12 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 82,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55725,
         "Strings" : [ ]
@@ -3113,12 +2637,9 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         62
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55723,
         "Strings" : [ ]
@@ -3126,13 +2647,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         63
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55687,
         "Strings" : [ ]
@@ -3140,21 +2658,14 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         64
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_12",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55686,
         "Strings" : [ ]
@@ -3162,21 +2673,14 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         65
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55685,
         "Strings" : [ ]
@@ -3184,34 +2688,29 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 67
+          "Index" : 67,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 66
+          "Index" : 66,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 99,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_ch_gomelee",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 62535,
         "Strings" : [
@@ -3224,17 +2723,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 100,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_ch_goranged",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 62536,
         "Strings" : [
@@ -3247,12 +2742,9 @@
     },
     {
       "Animation" : 40,
-      "Comment" : "",
       "EntriesList" : [
         68
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55683,
         "Strings" : [ ]
@@ -3260,10 +2752,6 @@
     },
     {
       "Animation" : 35,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55740,
         "Strings" : [ ]
@@ -3271,12 +2759,9 @@
     },
     {
       "Animation" : 34,
-      "Comment" : "",
       "EntriesList" : [
         69
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55739,
         "Strings" : [ ]
@@ -3284,12 +2769,9 @@
     },
     {
       "Animation" : 38,
-      "Comment" : "",
       "EntriesList" : [
         70
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55682,
         "Strings" : [ ]
@@ -3297,146 +2779,105 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         71
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55703,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 72,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_henchyeattack",
-      "Sound" : "",
       "Text" : "Attack as soon as you see the enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         72
       ],
-      "Quest" : "",
       "Script" : "69_henchnoattack",
-      "Sound" : "",
       "Text" : "Do not attack until I initiate combat."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         73
       ],
-      "Quest" : "",
       "Script" : "henchswap",
-      "Sound" : "",
       "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         74
       ],
-      "Quest" : "",
       "Script" : "69_disable_off",
-      "Sound" : "",
       "Text" : "Could you please not disable traps?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         75
       ],
-      "Quest" : "",
       "Script" : "69_disable_on",
-      "Sound" : "",
       "Text" : "Could you please disable traps?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         76
       ],
-      "Quest" : "",
       "Script" : "nw_ch_lock_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55702,
         "Strings" : [ ]
@@ -3444,27 +2885,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         77
       ],
-      "Quest" : "",
       "Script" : "nw_ch_lock_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55701,
         "Strings" : [ ]
@@ -3472,27 +2906,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         78
       ],
-      "Quest" : "",
       "Script" : "69_ch_stlth_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55700,
         "Strings" : [ ]
@@ -3500,27 +2927,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         79
       ],
-      "Quest" : "",
       "Script" : "69_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55699,
         "Strings" : [ ]
@@ -3528,27 +2948,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         80
       ],
-      "Quest" : "",
       "Script" : "69_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55698,
         "Strings" : [ ]
@@ -3556,27 +2969,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         81
       ],
-      "Quest" : "",
       "Script" : "69_ch_srch_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55697,
         "Strings" : [ ]
@@ -3584,93 +2990,71 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         82
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55693,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         83
       ],
-      "Quest" : "",
       "Script" : "henchhealyes",
-      "Sound" : "",
       "Text" : "Heal me even if there are enemies near you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         84,
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "henchhealno",
-      "Sound" : "",
       "Text" : "Do not heal me if there are enemies near you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_25",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55738,
         "Strings" : [ ]
@@ -3678,18 +3062,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_50",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55737,
         "Strings" : [ ]
@@ -3697,18 +3078,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_75",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55736,
         "Strings" : [ ]
@@ -3716,18 +3094,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_25",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55696,
         "Strings" : [ ]
@@ -3735,18 +3110,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_50",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55695,
         "Strings" : [ ]
@@ -3754,13 +3126,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         85
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_75",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55694,
         "Strings" : [ ]
@@ -3768,27 +3137,21 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 12,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         86
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55684,
         "Strings" : [ ]
@@ -3796,13 +3159,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         87
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55687,
         "Strings" : [ ]
@@ -3810,27 +3170,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         88
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_12",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55686,
         "Strings" : [ ]
@@ -3838,27 +3191,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         89
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55685,
         "Strings" : [ ]
@@ -3866,210 +3212,154 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         90
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Let's talk about how you use your combat spells."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchheal1",
-          "Index" : 92
+          "Index" : 92,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal2",
-          "Index" : 91
+          "Index" : 91,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchcastyes",
-      "Sound" : "",
       "Text" : "I want you to cast combat spells even when in hand-to-hand combat with the enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchheal1",
-          "Index" : 94
+          "Index" : 94,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal2",
-          "Index" : 93
+          "Index" : 93,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchcastno",
-      "Sound" : "",
       "Text" : "I don't want you to cast any spells while you are in hand-to-hand combat with the enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         95
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You're doing fine, but I really want you to conserve your spells. I think you should save them for our tougher foes."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         96
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You are wasting your spells. Use them only if the enemy is somewhat challenging."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         97
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think you should be using your spells all the time! Don't refrain from using them unless the enemies's just a joke."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         98
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Forget anything I've said before. I want you to trust your instincts as to when to use spells."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         99
       ],
-      "Quest" : "",
       "Script" : "69_ch_gomelee",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 62537,
         "Strings" : [ ]
@@ -4077,27 +3367,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         100
       ],
-      "Quest" : "",
       "Script" : "69_ch_goranged",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 62538,
         "Strings" : [ ]
@@ -4105,135 +3388,93 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         101
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Let's talk about your weapon-switching tactics."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         102
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         103
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Be aggressive. If you see enemies getting any closer than 10 meters or so, charge with melee!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         104
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between 4 and 5 meters away."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         105
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than 2 meters, before you switch to a melee weapon."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         106
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want you to trust your instinct as to when to switch betwen melee and missile weapons."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 70,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     }
   ],

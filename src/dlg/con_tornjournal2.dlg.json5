@@ -9,7 +9,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "<StartAction>There is nothing else interesting here.</Start>"
     },
     {
@@ -20,7 +19,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>You see a torn page on a pool of dried blood.  It seems to be a part of a bigger journal of some kind.</Start>"
     }
   ],
@@ -28,18 +26,10 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the torn journal note alone."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_journalnote2",
-      "Sound" : "",
       "Text" : "Pick up the torn journal note."
     }
   ],

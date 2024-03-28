@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>You find nothing interesting among these scattered corpses...</Start>"
     },
     {
@@ -22,7 +21,6 @@
         2,
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>The corpses here have been mutilated badly, but based on the description given to you by Jacho, you recognize one of the corpses as that of his brother, Vico.  It's a pity you were too late to save him.</Start>"
     },
     {
@@ -40,34 +38,19 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the corpse alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Pick up Vico's corpse."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     }
   ],

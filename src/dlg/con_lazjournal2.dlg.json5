@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Sound" : "story_lazarus2a",
       "Text" : "All praises to Diablo!  Lord of Terror, and survivor of the Dark Exile!"
     },
@@ -22,7 +21,6 @@
       "RepliesList" : [
         1
       ],
-      "Script" : "",
       "Sound" : "story_lazarus2b",
       "Text" : "When he awakened from his long slumber, my lord and master spoke to me of secrets that few mortals know.  He told me the kingdoms of the High Heavens, and the pits of the Burning Hells, engage in an eternal war..."
     },
@@ -33,12 +31,10 @@
       "RepliesList" : [
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         2
       ],
-      "Script" : "",
       "Sound" : "story_lazarus2c",
       "Text" : "He revealed the powers that have brought this discord to the realms of man.  My lord has named the battle for this world, and all who exist here, the Sin War..."
     },
@@ -49,7 +45,6 @@
       "RepliesList" : [
         3
       ],
-      "Script" : "",
       "Text" : "There is nothing of importance here."
     },
     {
@@ -60,7 +55,6 @@
         5,
         4
       ],
-      "Script" : "",
       "Text" : "<StartAction>This seems to be a journal written by the Archbishop Lazarus...  Most of it was written in an archaic language you cannot understand, but an excerpt of it was written in plain language that you can comprehend.</Start>"
     }
   ],
@@ -68,56 +62,34 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Read the journal."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "giv_lazjournal1",
-      "Sound" : "",
       "Text" : "Take the journal."
     }
   ],

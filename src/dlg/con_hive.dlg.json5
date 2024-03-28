@@ -11,11 +11,11 @@
       "RepliesList" : [
         {
           "Active" : "prq_blowuphive",
-          "Index" : 1
+          "Index" : 1,
+          "IsChild" : false
         },
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>There seems to be overly thick vegetation covering this part of town.  The bushes are too thick for you to access the trapdoor.  You would have to find a way to get rid of this overgrowth...</Start>"
     },
     {
@@ -33,26 +33,15 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Use the bomb given to you...."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     }
   ],

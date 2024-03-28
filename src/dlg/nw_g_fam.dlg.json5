@@ -12,11 +12,13 @@
         35,
         {
           "Active" : "nw_d2_intn",
-          "Index" : 20
+          "Index" : 20,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 6
+          "Index" : 6,
+          "IsChild" : false
         },
         5,
         4,
@@ -24,11 +26,13 @@
         2,
         {
           "Active" : "nw_d2_intl",
-          "Index" : 1
+          "Index" : 1,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 0
+          "Index" : 0,
+          "IsChild" : false
         }
       ],
       "Script" : "hench_unbusify",
@@ -42,7 +46,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58491,
         "Strings" : [ ]
@@ -53,7 +56,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58492,
         "Strings" : [ ]
@@ -64,7 +66,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58493,
         "Strings" : [ ]
@@ -75,7 +76,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58494,
         "Strings" : [ ]
@@ -86,7 +86,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58495,
         "Strings" : [ ]
@@ -97,7 +96,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58496,
         "Strings" : [ ]
@@ -108,7 +106,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58497,
         "Strings" : [ ]
@@ -119,7 +116,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58498,
         "Strings" : [ ]
@@ -130,7 +126,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58499,
         "Strings" : [ ]
@@ -253,35 +248,41 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intl",
-          "Index" : 19
+          "Index" : 19,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 18
+          "Index" : 18,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_stlth",
-          "Index" : 17
+          "Index" : 17,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_stlth",
-          "Index" : 16
+          "Index" : 16,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_srch",
-          "Index" : 15
+          "Index" : 15,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_srch",
-          "Index" : 14
+          "Index" : 14,
+          "IsChild" : false
         },
         8,
         {
           "Active" : "nw_d2_intl",
-          "Index" : 7
+          "Index" : 7,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58510,
         "Strings" : [ ]
@@ -298,7 +299,6 @@
         10,
         9
       ],
-      "Script" : "",
       "Text" : "Tell me what to do; I will obey you."
     },
     {
@@ -348,11 +348,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58511,
         "Strings" : [
@@ -370,11 +368,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58512,
         "Strings" : [
@@ -393,40 +389,33 @@
         {
           "Active" : "nw_d2_intn",
           "Index" : 33,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 32,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_stlth",
           "Index" : 31,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_srch",
           "Index" : 29,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 22,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 21,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58516,
         "Strings" : [ ]
@@ -440,40 +429,33 @@
         {
           "Active" : "nw_d2_intn",
           "Index" : 33,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 32,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_stlth",
           "Index" : 31,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_srch",
           "Index" : 29,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 22,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 21,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58517,
         "Strings" : [ ]
@@ -486,35 +468,41 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 33
+          "Index" : 33,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 32
+          "Index" : 32,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_stlth",
-          "Index" : 31
+          "Index" : 31,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_stlth",
-          "Index" : 30
+          "Index" : 30,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_no_srch",
-          "Index" : 29
+          "Index" : 29,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_yes_srch",
-          "Index" : 28
+          "Index" : 28,
+          "IsChild" : false
         },
         22,
         {
           "Active" : "nw_d2_intn",
-          "Index" : 21
+          "Index" : 21,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58510,
         "Strings" : [ ]
@@ -531,7 +519,6 @@
         24,
         23
       ],
-      "Script" : "",
       "Text" : "Tell me what to do; I will obey you."
     },
     {
@@ -581,11 +568,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58511,
         "Strings" : [
@@ -603,11 +588,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58511,
         "Strings" : [ ]
@@ -620,11 +603,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58512,
         "Strings" : [
@@ -642,11 +623,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58512,
         "Strings" : [ ]
@@ -659,11 +638,9 @@
       "RepliesList" : [
         {
           "Index" : 34,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58513,
         "Strings" : [ ]
@@ -676,7 +653,6 @@
       "RepliesList" : [
         34
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58514,
         "Strings" : [ ]
@@ -690,43 +666,35 @@
         {
           "Active" : "nw_d2_intn",
           "Index" : 20,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intl",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58515,
         "Strings" : [ ]
@@ -740,40 +708,33 @@
         {
           "Active" : "nw_d2_intn",
           "Index" : 33,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 32,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_stlth",
           "Index" : 31,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_srch",
           "Index" : 29,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 22,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 21,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58516,
         "Strings" : [ ]
@@ -787,40 +748,33 @@
         {
           "Active" : "nw_d2_intn",
           "Index" : 33,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 32,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_stlth",
           "Index" : 31,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_ch_no_srch",
           "Index" : 29,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 22,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 21,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58517,
         "Strings" : [ ]
@@ -833,7 +787,6 @@
       "RepliesList" : [
         36
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 63861,
         "Strings" : [ ]
@@ -846,7 +799,6 @@
       "RepliesList" : [
         37
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 63862,
         "Strings" : [ ]
@@ -857,7 +809,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 63863,
         "Strings" : [ ]
@@ -870,52 +821,43 @@
       "RepliesList" : [
         {
           "Index" : 35,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 20,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intl",
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intl",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "hench_unbusify",
@@ -931,52 +873,43 @@
       "RepliesList" : [
         {
           "Index" : 35,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 20,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intl",
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intn",
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "nw_d2_intl",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "hench_unbusify",
@@ -990,7 +923,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 58520,
         "Strings" : [ ]
@@ -1002,12 +934,9 @@
   "ReplyList" : [
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58473,
         "Strings" : [ ]
@@ -1015,16 +944,12 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58472,
         "Strings" : [
@@ -1037,40 +962,44 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 9
+          "Index" : 9,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 8
+          "Index" : 8,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 7
+          "Index" : 7,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 6
+          "Index" : 6,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 5
+          "Index" : 5,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 4
+          "Index" : 4,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 3
+          "Index" : 3,
+          "IsChild" : false
         },
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58474,
         "Strings" : [ ]
@@ -1078,25 +1007,25 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 13
+          "Index" : 13,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 12
+          "Index" : 12,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 11
+          "Index" : 11,
+          "IsChild" : false
         },
         10
       ],
-      "Quest" : "",
       "Script" : "nw_s0_heal",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58475,
         "Strings" : [ ]
@@ -1104,16 +1033,14 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_11",
-          "Index" : 15
+          "Index" : 15,
+          "IsChild" : false
         },
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58476,
         "Strings" : [ ]
@@ -1121,24 +1048,24 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_04",
-          "Index" : 19
+          "Index" : 19,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 18
+          "Index" : 18,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_09",
-          "Index" : 17
+          "Index" : 17,
+          "IsChild" : false
         },
         16
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58477,
         "Strings" : [ ]
@@ -1146,20 +1073,19 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
-          "Index" : 30
+          "Index" : 30,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_04",
-          "Index" : 29
+          "Index" : 29,
+          "IsChild" : false
         },
         20
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58479,
         "Strings" : [
@@ -1172,84 +1098,59 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58480,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You makin boo boos. You do somefin diffent way?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         22
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Stop you being wimp eh? We fight.. Die if we haf ta!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         23
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You big toughy. Stay wif me always, unless you dun in big trouble."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         24
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You fight lots wif me. All but dem real nasty ones."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         25
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You dun keep get hurt. Leave em all but the little uns."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         26
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You do what you fink is good eh."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         27
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58483,
         "Strings" : [
@@ -1262,17 +1163,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 39,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58482,
         "Strings" : [ ]
@@ -1280,13 +1177,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         28
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58485,
         "Strings" : [
@@ -1299,17 +1193,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58484,
         "Strings" : [ ]
@@ -1317,17 +1207,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 42,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58486,
         "Strings" : [ ]
@@ -1335,17 +1221,13 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 43,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58488,
         "Strings" : [ ]
@@ -1353,20 +1235,19 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_ch_fm_st_03",
-          "Index" : 46
+          "Index" : 46,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_fm_st_04",
-          "Index" : 45
+          "Index" : 45,
+          "IsChild" : false
         },
         31
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58479,
         "Strings" : [ ]
@@ -1374,84 +1255,59 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58481,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         32
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want you to behave differently when we face danger."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         33
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want you to fight for me to the death!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         34
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Be brave! I want you fighting at my side at all times, unless you're badly hurt!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         35
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Try not to get into trouble. Avoid tough foes."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         36
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't want you to get hurt, my friend. Try to avoid all but the easiest combat."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         37
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Trust your instincts when enemies approach us. I want you to be comfortable."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         38
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58483,
         "Strings" : [
@@ -1464,13 +1320,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         39
       ],
-      "Quest" : "",
       "Script" : "nw_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58483,
         "Strings" : [ ]
@@ -1478,13 +1331,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         40
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58485,
         "Strings" : [
@@ -1497,13 +1347,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         41
       ],
-      "Quest" : "",
       "Script" : "nw_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58485,
         "Strings" : [ ]
@@ -1511,13 +1358,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         42
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58487,
         "Strings" : [ ]
@@ -1525,13 +1369,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         43
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 58489,
         "Strings" : [ ]
@@ -1539,22 +1380,16 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         44
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         47
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 63860,
         "Strings" : [ ]
@@ -1562,22 +1397,16 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         48
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         49
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     }
   ],

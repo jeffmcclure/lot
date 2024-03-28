@@ -12,7 +12,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Sound" : "gharbad3",
       "Text" : "Nothing yet... almost done!  Very powerful, very strong!  Live!  Live!  No pain, and promise I keep!"
     },
@@ -24,7 +23,6 @@
         3,
         2
       ],
-      "Script" : "",
       "Sound" : "gharbad4",
       "Text" : "This too good for you, very powerful!  You want?  You take!!"
     },
@@ -36,7 +34,6 @@
         5,
         4
       ],
-      "Script" : "",
       "Sound" : "gharbad4",
       "Text" : "This too good for you, very powerful!  You want?  You take!!"
     },
@@ -48,7 +45,6 @@
         7,
         6
       ],
-      "Script" : "",
       "Sound" : "gharbad1",
       "Text" : "Please!  No hurt, no kill!  Keep alive, and next time, good bring to you!"
     },
@@ -68,81 +64,47 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Alright, I'll come back later."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'm getting impatient!  Cough it up!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_gharbad",
-      "Sound" : "",
       "Text" : "Die then, you groveling idiot!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_gharbad",
-      "Sound" : "",
       "Text" : "Surely, we can talk about this..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_gharbad",
-      "Sound" : "",
       "Text" : "Die then, you groveling idiot!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "end_gharbad",
-      "Sound" : "",
       "Text" : "Surely, we can talk about this..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me why I shouldn't kill you right now?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Stop groveling!  What do you mean \"good\"?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright."
     }
   ],

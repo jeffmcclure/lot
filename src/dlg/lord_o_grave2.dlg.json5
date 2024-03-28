@@ -14,7 +14,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "You stand in front of the small grave and decide what to do with it.\n"
     },
     {
@@ -22,7 +21,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "You do not possess any flowers to drop on the grave."
     },
     {
@@ -30,7 +28,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "You drop some flowers on the grave."
     },
     {
@@ -38,7 +35,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "You silently pray a few moments, then leave..."
     },
     {
@@ -49,7 +45,6 @@
         5,
         4
       ],
-      "Script" : "",
       "Text" : "As you bend down to dig up the grave, you recall that doing so may neither be lawful nor good. Do you continue?"
     }
   ],
@@ -57,58 +52,38 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the place"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "lts_grave2_flow",
-          "Index" : 2
+          "Index" : 2,
+          "IsChild" : false
         },
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Plant some flowers"
     },
     {
       "AnimLoop" : 0,
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
       "Script" : "lts_grave2_pray",
-      "Sound" : "",
       "Text" : "Silently Pray a moment"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Dig and Loot it "
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "lts_grave2_dig",
-      "Sound" : "",
       "Text" : "Yes."
     }
   ],

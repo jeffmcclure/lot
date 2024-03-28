@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Text" : "<StartAction>This portal leads to the Unholy Altar.  But you need to have something or do something first before you can enter.</Start>"
     },
     {
@@ -22,7 +21,6 @@
         2,
         1
       ],
-      "Script" : "",
       "Text" : "<StartAction>This portal leads to the Unholy Altar.  Once you go in, it will be hard to come back.  Are you prepared to go there?</Start>"
     },
     {
@@ -33,7 +31,6 @@
         4,
         3
       ],
-      "Script" : "",
       "Text" : "<StartAction>This portal leads to the Archbishop Lazarus himself.  Once you go in, it will be hard to come back.  Are you prepared to go to him?</Start>"
     },
     {
@@ -44,7 +41,6 @@
         6,
         5
       ],
-      "Script" : "",
       "Text" : "<StartAction>The portal shimmers with evil energy, as if beckoning you to enter... But you must make sure you are ready to face what lies beyond, for there is no turning back once you enter...</Start>"
     }
   ],
@@ -52,55 +48,27 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the portal alone."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I need to do something first."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_unholyport2",
-      "Sound" : "",
       "Text" : "I am ready to enter."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I need to do something first."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_unholyport1",
-      "Sound" : "",
       "Text" : "I am ready to enter and face Lazarus."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave the portal alone."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_gotohellx",
-      "Sound" : "",
       "Text" : "Enter the portal."
     }
   ],

@@ -11,7 +11,6 @@
       "RepliesList" : [
         0
       ],
-      "Script" : "",
       "Sound" : "story_lazarus3a",
       "Text" : "Glory and approbation to Diablo!  Lord of Terror, and Leader of the Three!"
     },
@@ -22,7 +21,6 @@
       "RepliesList" : [
         1
       ],
-      "Script" : "",
       "Sound" : "story_lazarus3b",
       "Text" : "My lord spoke to me of his two brothers, Mephisto and Baal, who were banished to this world long ago.  My lord wishes to bide his time, and harness his awesome power, so that he may free his captive brothers from their tombs beneath the sands of the East."
     },
@@ -33,12 +31,10 @@
       "RepliesList" : [
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         2
       ],
-      "Script" : "",
       "Sound" : "story_lazarus3c",
       "Text" : "Once my lord releases his brothers, the Sin War will once again know the fury of the Three!"
     },
@@ -49,7 +45,6 @@
       "RepliesList" : [
         3
       ],
-      "Script" : "",
       "Text" : "There is nothing of importance here."
     },
     {
@@ -60,7 +55,6 @@
         5,
         4
       ],
-      "Script" : "",
       "Text" : "<StartAction>This seems to be a journal written by the Archbishop Lazarus...  Most of it was written in an archaic language you cannot understand, but an excerpt of it was written in plain language that you can comprehend.</Start>"
     }
   ],
@@ -68,56 +62,34 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Leave."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Read the journal."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "giv_lazjournal2",
-      "Sound" : "",
       "Text" : "Take the journal."
     }
   ],

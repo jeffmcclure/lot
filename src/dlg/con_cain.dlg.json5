@@ -11,51 +11,63 @@
       "RepliesList" : [
         {
           "Active" : "prq_cathedmap1",
-          "Index" : 160
+          "Index" : 160,
+          "IsChild" : false
         },
         {
           "Active" : "prq_diablo",
-          "Index" : 155
+          "Index" : 155,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lazarus",
-          "Index" : 147
+          "Index" : 147,
+          "IsChild" : false
         },
         {
           "Active" : "prq_warlord",
-          "Index" : 141
+          "Index" : 141,
+          "IsChild" : false
         },
         {
           "Active" : "prq_izual4",
-          "Index" : 134
+          "Index" : 134,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mushroom",
-          "Index" : 131
+          "Index" : 131,
+          "IsChild" : false
         },
         {
           "Active" : "prq_andariel2",
-          "Index" : 125
+          "Index" : 125,
+          "IsChild" : false
         },
         {
           "Active" : "prq_chamber2",
-          "Index" : 120
+          "Index" : 120,
+          "IsChild" : false
         },
         {
           "Active" : "prq_blind2",
-          "Index" : 113
+          "Index" : 113,
+          "IsChild" : false
         },
         {
           "Active" : "prq_island3",
-          "Index" : 109
+          "Index" : 109,
+          "IsChild" : false
         },
         {
           "Active" : "prq_arkaine2",
-          "Index" : 103
+          "Index" : 103,
+          "IsChild" : false
         },
         {
           "Active" : "prq_identify",
-          "Index" : 95
+          "Index" : 95,
+          "IsChild" : false
         },
         1,
         0
@@ -72,63 +84,76 @@
         67,
         {
           "Active" : "prq_butcherx",
-          "Index" : 63
+          "Index" : 63,
+          "IsChild" : false
         },
         {
           "Active" : "prq_butchcleaver",
-          "Index" : 60
+          "Index" : 60,
+          "IsChild" : false
         },
         {
           "Active" : "prq_watersupplyx",
-          "Index" : 53
+          "Index" : 53,
+          "IsChild" : false
         },
         {
           "Active" : "prq_wormsx",
-          "Index" : 49
+          "Index" : 49,
+          "IsChild" : false
         },
         {
           "Active" : "prq_fleshdoomx",
-          "Index" : 44
+          "Index" : 44,
+          "IsChild" : false
         },
         {
           "Active" : "prq_leoricx",
-          "Index" : 39
+          "Index" : 39,
+          "IsChild" : false
         },
         {
           "Active" : "prq_ogdensignx",
-          "Index" : 34
+          "Index" : 34,
+          "IsChild" : false
         },
         {
           "Active" : "prq_magicrockx",
-          "Index" : 30
+          "Index" : 30,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lightsx",
-          "Index" : 28
+          "Index" : 28,
+          "IsChild" : false
         },
         {
           "Active" : "prq_andarielx",
-          "Index" : 23
+          "Index" : 23,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mushroomx",
-          "Index" : 20
+          "Index" : 20,
+          "IsChild" : false
         },
         {
           "Active" : "prq_anvilx",
-          "Index" : 15
+          "Index" : 15,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lachdananx",
-          "Index" : 9
+          "Index" : 9,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lazarusx",
-          "Index" : 3
+          "Index" : 3,
+          "IsChild" : false
         },
         2
       ],
-      "Script" : "",
       "Text" : "Ah, that is what I am here for, <FirstName>. I will try my best to tell you everything I know."
     },
     {
@@ -138,7 +163,6 @@
       "RepliesList" : [
         4
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus1",
       "Text" : "Yes, you speak of Lazarus. One who was once well respected in our land. Even before King Leoric descended into madness and lost his son, the Archbishop Lazarus was acting... strangely."
     },
@@ -151,11 +175,9 @@
         5,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus2",
       "Text" : "Lazarus seemed to be motivated by unseen forces clinging to shadows.  And acting out some dark plan that was not his own."
     },
@@ -166,7 +188,6 @@
       "RepliesList" : [
         7
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus3",
       "Text" : "It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the labyrinth to find the King's missing son. He played upon their fears, and whipped them into a frenzied mob!  None of them were prepared for what lay within the cold earth..."
     },
@@ -178,8 +199,7 @@
         8,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "qst_lazarus",
@@ -193,7 +213,6 @@
       "RepliesList" : [
         10
       ],
-      "Script" : "",
       "Sound" : "cain_lachdanan1",
       "Text" : "You claim to have spoken with Lachdanan? He was a great hero during his life. Lachdanan was an honorable and just man, who served his king faithfully for years. But of course, you already know that."
     },
@@ -205,7 +224,6 @@
         12,
         11
       ],
-      "Script" : "",
       "Sound" : "cain_lachdanan2",
       "Text" : "For those who were caught within the grasp of the King's curse, Lachdanan would be the least likely to submit to the darkness without a fight. So I suppose that your story \"could\" be true."
     },
@@ -218,11 +236,9 @@
         13,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_lachdanan3",
       "Text" : "If I were in your place, my friend, I would find a way to release him from his torture..."
     },
@@ -233,7 +249,6 @@
       "RepliesList" : [
         16
       ],
-      "Script" : "",
       "Sound" : "cain_anvil1",
       "Text" : "Griswold speaks of the Anvil of Fury, a legendary artifact long searched for, but never found.  Crafted from the metallic bones of the razor pit demons, the Anvil of Fury was smelt around the skulls of the five most powerful magi of the Underworld."
     },
@@ -244,7 +259,6 @@
       "RepliesList" : [
         17
       ],
-      "Script" : "",
       "Sound" : "cain_anvil2",
       "Text" : "Carved with runes of power and chaos, any weapon or armor forged upon this anvil will be immersed upon the realm of chaos, embedding it with magical properties."
     },
@@ -257,11 +271,9 @@
         18,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_anvil3",
       "Text" : "It is said that the unpredictable nature of chaos makes it difficult to know what the outcome of this smithing would be."
     },
@@ -274,11 +286,9 @@
         21,
         {
           "Index" : 65,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_mushroom1",
       "Text" : "The witch Adria seeks a black mushroom?   I know as much about black mushrooms as I do about red herrings.  Perhaps Pepin the healer could tell you more, but this is something that cannot be found in any of my stories or books."
     },
@@ -289,7 +299,6 @@
       "RepliesList" : [
         24
       ],
-      "Script" : "",
       "Sound" : "cain_andariel3",
       "Text" : "Known as the Maiden of Anguish, her thirst for mortal blood was so great, that she sought to learn a spell to breach the mortal realm."
     },
@@ -300,7 +309,6 @@
       "RepliesList" : [
         25
       ],
-      "Script" : "",
       "Sound" : "cain_andariel4",
       "Text" : "By seducing one of the dark sorcerers of the netherworld, Andariel took the knowledge she needed and so began to lure mortal men into her dark corner of hell!"
     },
@@ -313,11 +321,9 @@
         26,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_andariel5",
       "Text" : "If these legends are true, she is not a creature to be taken lightly..."
     },
@@ -328,12 +334,10 @@
       "RepliesList" : [
         {
           "Index" : 133,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         29
       ],
-      "Script" : "",
       "Sound" : "cain_andariel1",
       "Text" : "While the barmaid may seem a bit confused at times, it is true that men have been disappearing from the village!"
     },
@@ -344,7 +348,6 @@
       "RepliesList" : [
         31
       ],
-      "Script" : "",
       "Sound" : "cain_rock1",
       "Text" : "Griswold speaks of the Heaven stone that was destined for the enclave located in the east.  It was being taken there for further study.  This stone glowed with an energy that somehow granted vision beyond that which a normal man could possess."
     },
@@ -357,11 +360,9 @@
         32,
         {
           "Index" : 65,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_rock2",
       "Text" : "I do not know what secrets it holds, my friend, but finding this stone would certainly prove most valuable."
     },
@@ -372,7 +373,6 @@
       "RepliesList" : [
         35
       ],
-      "Script" : "",
       "Sound" : "cain_sign1",
       "Text" : "I see that this strange behavior puzzles you as well."
     },
@@ -383,7 +383,6 @@
       "RepliesList" : [
         36
       ],
-      "Script" : "",
       "Sound" : "cain_sign2",
       "Text" : "I would surmise that since many demons fear the light of the sun, and believe that it holds great power. It may be that the rising sun depicted on the sign you speak of has led them to believe that it, too, holds some arcane powers."
     },
@@ -396,11 +395,9 @@
         37,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_sign3",
       "Text" : "Hmm... perhaps they are not all as smart as we had feared..."
     },
@@ -411,7 +408,6 @@
       "RepliesList" : [
         40
       ],
-      "Script" : "",
       "Sound" : "cain_leoric1",
       "Text" : "Ah, the story of our king, is it? The tragic fall of Leoric was a harsh blow to this land. The people always loved the king, and now they live in mortal fear of him!"
     },
@@ -424,7 +420,6 @@
         42,
         41
       ],
-      "Script" : "",
       "Sound" : "cain_leoric2",
       "Text" : "The question that I keep asking myself, is how he could have fallen so far from the light?  As Leoric had always been the holiest of men, only the vilest powers of hell could so utterly destroy a man from within..."
     },
@@ -435,7 +430,6 @@
       "RepliesList" : [
         45
       ],
-      "Script" : "",
       "Sound" : "cain_flshdm1",
       "Text" : "The priest Tremayne is a holy man from an ancient order.  Their dealings with the evil forces at work are well respected and well documented."
     },
@@ -446,7 +440,6 @@
       "RepliesList" : [
         46
       ],
-      "Script" : "",
       "Sound" : "cain_flshdm2",
       "Text" : "I, too, have heard legends that speak of the cursed demon blade called Shadowfang.  It is said to consume the tortured souls of its victims.  These souls are trapped within its ebon blade, and augment its unholy power..."
     },
@@ -458,7 +451,6 @@
         48,
         47
       ],
-      "Script" : "",
       "Sound" : "cain_flshdm3",
       "Text" : "I have also read of a great hellforge, where even the mightiest weapon could be created - or destroyed!  Tread carefully when dealing with Shadowfang and its master - lest you be drawn into the sword as well!"
     },
@@ -469,7 +461,6 @@
       "RepliesList" : [
         50
       ],
-      "Script" : "",
       "Sound" : "cain_worms1",
       "Text" : "Worms that rise up from the ground?  Many of the ancient writings speak of poisonous insects, and foul creatures of the skies and seas plaguing mankind."
     },
@@ -481,7 +472,6 @@
         52,
         51
       ],
-      "Script" : "",
       "Sound" : "cain_worms2",
       "Text" : "It is no surprise that the very earth would offer up a similar peril - now that the denizens of the underworld are upon us."
     },
@@ -493,7 +483,6 @@
         57,
         54
       ],
-      "Script" : "",
       "Sound" : "cain_water1",
       "Text" : "Hmmm... I don't know what I can really tell you about this that would be of any help. The water that fills our wells comes from an underground spring."
     },
@@ -506,16 +495,13 @@
         55,
         {
           "Index" : 57,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_water3",
       "Text" : "Unfortunately, I do not know what would cause our water supply to be tainted."
     },
@@ -528,16 +514,13 @@
         58,
         {
           "Index" : 54,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_water2",
       "Text" : "I have heard of a tunnel that leads to a great lake. Perhaps they are one and the same!"
     },
@@ -549,7 +532,6 @@
         62,
         61
       ],
-      "Script" : "",
       "Text" : "That thing you hold reeks of the vile stench of evil!  The smell of dried blood on its blade makes me sick to my stomach.  I fear that you won't find anyone here in Tristram who will agree to take it off your hands!  It would be better if you just dropped that thing somewhere, so that the people of this town would not be reminded of the slaughter caused by that dark weapon..."
     },
     {
@@ -559,7 +541,6 @@
       "RepliesList" : [
         64
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus3",
       "Text" : "It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the labyrinth to find the king's missing son. He played upon their fears, and whipped them into a frenzied mob. None of them were prepared for what lay within the cold earth..."
     },
@@ -571,7 +552,6 @@
         66,
         65
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus4",
       "Text" : "Lazarus abandoned them down there - left in the clutches of unspeakable horrors ... to die."
     },
@@ -582,52 +562,60 @@
       "RepliesList" : [
         {
           "Active" : "prq_knowadria",
-          "Index" : 93
+          "Index" : 93,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowdeese",
-          "Index" : 91
+          "Index" : 91,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowfarnham",
-          "Index" : 88
+          "Index" : 88,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowgillian",
-          "Index" : 85
+          "Index" : 85,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowgriswold",
-          "Index" : 82
+          "Index" : 82,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowlester",
-          "Index" : 80
+          "Index" : 80,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowogden",
-          "Index" : 77
+          "Index" : 77,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowpepin",
-          "Index" : 75
+          "Index" : 75,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowtremayne",
-          "Index" : 72
+          "Index" : 72,
+          "IsChild" : false
         },
         {
           "Active" : "prq_knowwirt",
-          "Index" : 69
+          "Index" : 69,
+          "IsChild" : false
         },
         {
           "Index" : 65,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         68
       ],
-      "Script" : "",
       "Text" : "It would be a pleasure to share what I know about my friends in Tristram."
     },
     {
@@ -637,7 +625,6 @@
       "RepliesList" : [
         70
       ],
-      "Script" : "",
       "Sound" : "cain_wirt1",
       "Text" : "The story of Wirt is a frightening and tragic one.  He was taken from the arms of his mother and dragged into the labyrinth by the small, foul demons that wield wicked spears. There were many other children taken that day, including the son of King Leoric."
     },
@@ -649,11 +636,9 @@
         71,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_wirt2",
       "Text" : "The knights of the palace went below, but never returned.  The blacksmith found the boy, but only after the foul beasts had begun to torture him for their sadistic pleasures..."
     },
@@ -664,7 +649,6 @@
       "RepliesList" : [
         73
       ],
-      "Script" : "",
       "Sound" : "cain_trem1",
       "Text" : "Tremayne is an occasional visitor to our town - and seems to have little problem coming and going. It is strange how at times anyone who tries to leave Tristram is hunted down and slain by the cloaked riders... and at other times, it is a simple matter to leave."
     },
@@ -676,11 +660,9 @@
         74,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_trem2",
       "Text" : "I think it is that uncertain fear that keep some of us here. But we are glad for Tremayne's bravery and luck in keeping some contact with the rest of the kingdom."
     },
@@ -692,11 +674,9 @@
         76,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_pepin1",
       "Text" : "Ah, Pepin.  I count him as a true friend - perhaps the closest I have here.  He is a bit addled at times, but never a more caring or considerate soul has existed.  His knowledge and skills are equaled by few, and his door is always open."
     },
@@ -707,7 +687,6 @@
       "RepliesList" : [
         78
       ],
-      "Script" : "",
       "Sound" : "cain_ogden1",
       "Text" : "Odgen has owned and run the Rising Sun Inn and Tavern for almost four years now.  He purchased it just a few short months before everything here went to hell."
     },
@@ -719,11 +698,9 @@
         79,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_ogden2",
       "Text" : "He and his wife Garda do not have the money to leave as they invested all they had in making a life for themselves here.  He is a good man with a deep sense of responsibility."
     },
@@ -735,11 +712,9 @@
         81,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "That man bothers me.  I have never seen such overwhelming fiddle-faddle in my entire life."
     },
     {
@@ -749,7 +724,6 @@
       "RepliesList" : [
         83
       ],
-      "Script" : "",
       "Sound" : "cain_gris1",
       "Text" : "Griswold - a man of great action and great courage.  I bet he never told you about the time he went into the labyrinth to save Wirt, did he?  He knows his fair share of the dangers to be found there,  but then again - so do you."
     },
@@ -761,11 +735,9 @@
         84,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_gris2",
       "Text" : "He is a skilled craftsman, and if he claims to be able to help you in any way, you can count on his honesty and his skill."
     },
@@ -776,7 +748,6 @@
       "RepliesList" : [
         86
       ],
-      "Script" : "",
       "Sound" : "cain_gilln1",
       "Text" : "Ah, Gillian is a fine woman!  Much adored for her high spirits and her quick laugh - she holds a special place in my heart.  She stays on at the tavern to support her elderly grandmother who is too sick to travel."
     },
@@ -788,11 +759,9 @@
         87,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_gilln2",
       "Text" : "I sometimes fear for her safety, but I know that any man in the village would rather die than see her harmed."
     },
@@ -803,7 +772,6 @@
       "RepliesList" : [
         89
       ],
-      "Script" : "",
       "Sound" : "cain_farnm1",
       "Text" : "Poor Farnham...  He is a disquieting reminder of the doomed assembly that entered into the cathedral with Lazarus on that dark day.  He escaped with his life, but his courage and much of his sanity were left in some dark pit."
     },
@@ -814,12 +782,10 @@
       "RepliesList" : [
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         90
       ],
-      "Script" : "",
       "Sound" : "cain_farnm2",
       "Text" : "He finds comfort only at the bottom of his tankard nowadays, but there are occasional bits of truth buried within his constant ramblings..."
     },
@@ -830,16 +796,13 @@
       "RepliesList" : [
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 90,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "There are several rumors about Farnham's disappearance.  Some said he left town, others said he went back into the dungeon to get his revenge for the betrayal the Archbishop has wrought upon the townsfolk.  I just hope he is fine wherever he is.  I admit he a source of exasperation for most of the people in this town, but such tragedy is too much for one man to handle..."
     },
     {
@@ -850,11 +813,9 @@
         92,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Deese is a man of great dedication, and a father of great leniency.  He has managed to take care of both his crops and his children despite the loss of his wife years ago.  He is a valuable asset in this town."
     },
     {
@@ -864,16 +825,13 @@
       "RepliesList" : [
         {
           "Index" : 92,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Such a sad thing that was, what happened to Deese's sons.  We are grateful that you tried your best to save them, it's just a pity you were too late.  In leaving Tristram, I hope Deese finds solace in his life that has been filled with so much sadness..."
     },
     {
@@ -884,11 +842,9 @@
         94,
         {
           "Index" : 67,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Sound" : "cain_adria1",
       "Text" : "The witch, Adria, is an anomaly here in Tristram.  She arrived shortly after the cathedral was desecrated while most everyone else was fleeing.  She had a small hut constructed at the edge of town, seemingly overnight, and has access to many strange and arcane artifacts and tomes of knowledge that even I have never seen before."
     },
@@ -899,12 +855,12 @@
       "RepliesList" : [
         {
           "Active" : "prq_100gold",
-          "Index" : 102
+          "Index" : 102,
+          "IsChild" : false
         },
         97,
         96
       ],
-      "Script" : "",
       "Text" : "I could discern the magical properties of items for only 100 gold pieces."
     },
     {
@@ -914,11 +870,11 @@
       "RepliesList" : [
         {
           "Active" : "prq_100gold",
-          "Index" : 99
+          "Index" : 99,
+          "IsChild" : false
         },
         98
       ],
-      "Script" : "",
       "Text" : "<StartAction>[Failure]</Start>  Surely <FirstName>, a small sum for the valuable help of an old man is worth it, don't you think?"
     },
     {
@@ -929,7 +885,6 @@
         101,
         100
       ],
-      "Script" : "",
       "Text" : "<StartAction>[Success]</Start>  Well... I suppose you are right.  Coming to Tristram's aid is indeed payment enough for my services."
     },
     {
@@ -939,7 +894,6 @@
       "RepliesList" : [
         104
       ],
-      "Script" : "",
       "Sound" : "cain_valor1",
       "Text" : "The gateway of blood and the halls of fire are landmarks of mystic origin.  Wherever this book you read from resides it is surely a place of great power.  Legends speak of a pedestal that is carved from obsidian stone and has a pool of boiling blood atop its bone encrusted surface."
     },
@@ -950,7 +904,6 @@
       "RepliesList" : [
         105
       ],
-      "Script" : "",
       "Sound" : "cain_valor2",
       "Text" : "There are also allusions to stones of blood that will open the door that guards an ancient treasure... The nature of this treasure is shrouded in speculation, my friend, but it is said that the ancient hero Arkaine placed the holy armor Valor in a secret vault."
     },
@@ -961,7 +914,6 @@
       "RepliesList" : [
         106
       ],
-      "Script" : "",
       "Sound" : "cain_valor3",
       "Text" : "Arkaine was the first mortal to turn the tide of the Sin War and chase the legions of darkness back to the Burning Hells.  Just before Arkaine died, his armor was hidden away in a secret vault."
     },
@@ -974,8 +926,7 @@
         107,
         {
           "Index" : 65,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "qst_arkaine2",
@@ -989,7 +940,6 @@
       "RepliesList" : [
         110
       ],
-      "Script" : "",
       "Sound" : "cain_island1",
       "Text" : "Hmmm...  An island where angels watched?  Although Farnham's memory is often cloudy these days, that does seem familiar...  Perhaps the ancient chronicles of the Sin War can help us..."
     },
@@ -1000,7 +950,6 @@
       "RepliesList" : [
         111
       ],
-      "Script" : "",
       "Sound" : "cain_island2",
       "Text" : "Ah yes, here is something...\n\n\"In a time long forgotten, a sea of blue rested on the edge of a fiery netherworld.  This was an oasis for those who acted as the watchmen over the gates of Hell.  Angels and warriors of light could use this place to heal themselves and gather their strength.  It was also a staging area where they could train and prepare for the Sin War.\""
     },
@@ -1011,8 +960,7 @@
       "RepliesList" : [
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         112
       ],
@@ -1027,7 +975,6 @@
       "RepliesList" : [
         114
       ],
-      "Script" : "",
       "Sound" : "cain_blind1",
       "Text" : "You recite an interesting rhyme written in a style that reminds me of other works."
     },
@@ -1040,7 +987,6 @@
         116,
         115
       ],
-      "Script" : "",
       "Sound" : "cain_blind2",
       "Text" : "Let me think now.. what was it?"
     },
@@ -1053,8 +999,7 @@
         118,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "qst_blind2",
@@ -1068,7 +1013,6 @@
       "RepliesList" : [
         121
       ],
-      "Script" : "",
       "Sound" : "cain_bone1",
       "Text" : "A book that speaks of a chamber of human bones?!  Well, a chamber of bone \"is\" mentioned in certain archaic writings that I studied in the libraries of the East."
     },
@@ -1079,7 +1023,6 @@
       "RepliesList" : [
         122
       ],
-      "Script" : "",
       "Sound" : "cain_bone2",
       "Text" : "These tomes inferred that when the lords of the Underworld desired to protect great treasures, they would create domains, where those who died in the attempt to steal that treasure, would be forever bound to defend it."
     },
@@ -1092,8 +1035,7 @@
         123,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "qst_chamber2",
@@ -1107,7 +1049,6 @@
       "RepliesList" : [
         126
       ],
-      "Script" : "",
       "Sound" : "cain_andariel2",
       "Text" : "Hmmm... It reminds me of ancient writings about a demonic temptress called Andariel."
     },
@@ -1118,7 +1059,6 @@
       "RepliesList" : [
         127
       ],
-      "Script" : "",
       "Sound" : "cain_andariel3",
       "Text" : "Known as the Maiden of Anguish, her thirst for mortal blood was so great, that she sought to learn a spell to breach the mortal realm."
     },
@@ -1129,7 +1069,6 @@
       "RepliesList" : [
         128
       ],
-      "Script" : "",
       "Sound" : "cain_andariel4",
       "Text" : "By seducing one of the dark sorcerers of the netherworld, Andariel took the knowledge she needed and so began to lure mortal men into her dark corner of hell!"
     },
@@ -1142,8 +1081,7 @@
         129,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "giv_andariel",
@@ -1158,7 +1096,6 @@
         133,
         132
       ],
-      "Script" : "",
       "Text" : "Hmmm, I'm afraid I don't have much need for a book of ingredients.  Maybe Pepin or the witch can use it."
     },
     {
@@ -1169,7 +1106,6 @@
         136,
         135
       ],
-      "Script" : "",
       "Sound" : "cain_izual1",
       "Text" : "Farnham has taken to drinking quite heavily since his encounters in the labyrinth.  But within the ramblings of this drunken man rests a legend well steeped in myth and mystery.  Sit for a moment, my friend, and let me tell you of Izual, and Azurewrath..."
     },
@@ -1180,7 +1116,6 @@
       "RepliesList" : [
         137
       ],
-      "Script" : "",
       "Sound" : "cain_izual2",
       "Text" : "The saga of Izual takes place during the lost battles in Hell...  Izual was an angel, who was given charge of a holy rune blade, Azurewrath.  Leading a daring assault on the Hellforge, Izual was set upon by hundreds of blackened demons - and was fatally wounded..."
     },
@@ -1191,7 +1126,6 @@
       "RepliesList" : [
         138
       ],
-      "Script" : "",
       "Sound" : "cain_izual3",
       "Text" : "The fiends cast the dying angel into a dark pit, where the powers of chaos transformed him, as he drowned in a whirlpool of burning blood!  Evil possessed Izual - the feathers of his wings burned away to reveal leathery skin, and horns ripped through the flesh of his head!  When he finally arose from that black pit, Izual was an angel no more... transformed into a creature of evil!"
     },
@@ -1204,8 +1138,7 @@
         139,
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "giv_izual2",
@@ -1220,7 +1153,6 @@
         143,
         142
       ],
-      "Script" : "",
       "Sound" : "cain_warlord1",
       "Text" : "I know of only one legend that speaks of such a warrior as you describe.  His story is found within the ancient chronicles of the Sin War..."
     },
@@ -1231,7 +1163,6 @@
       "RepliesList" : [
         144
       ],
-      "Script" : "",
       "Sound" : "cain_warlord2",
       "Text" : "\"Stained by a thousand years of war, blood and death, the Warlord of Blood stands upon a mountain of his tattered victims.  His dark blade screams a black curse to the living; a tortured invitation to any who would stand before this executioner of hell.\""
     },
@@ -1244,8 +1175,7 @@
         145,
         {
           "Index" : 65,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "giv_warlord",
@@ -1259,7 +1189,6 @@
       "RepliesList" : [
         148
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus5",
       "Text" : "This does not bode well, for it confirms my darkest fears...  While I did not allow myself to believe the ancient legends, I cannot deny them now.  Perhaps the time has come to reveal who I am..."
     },
@@ -1270,7 +1199,6 @@
       "RepliesList" : [
         149
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus6",
       "Text" : "My true name is Deckard Cain, the Elder, and I am the last descendant of an ancient brotherhood that was dedicated to safeguarding the secrets when the time was evil.  An evil that quite obviously has now been released..."
     },
@@ -1281,7 +1209,6 @@
       "RepliesList" : [
         150
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus7",
       "Text" : "The Archbishop Lazarus, once King Leoric's trusted advisor, led a party of simple townsfolk into the labyrinth to find the King's missing son, Albrecht.  Quite some time passed before they returned, and only a few of them escaped with their lives..."
     },
@@ -1292,7 +1219,6 @@
       "RepliesList" : [
         151
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus8",
       "Text" : "Curse me for a fool!  I should have suspected his vile treachery then!  It must have been Lazarus himself who kidnapped Albrecht and has since hidden him within the labyrinth."
     },
@@ -1303,7 +1229,6 @@
       "RepliesList" : [
         152
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus9",
       "Text" : "I do not understand why the Archbishop turned to the darkness, or what his interest is in the child.  Unless... he means to sacrifice him to his dark masters!  That must be what he has planned!  The survivors of his rescue party say that Lazarus was last seen running into the deepest bowels of the labyrinth..."
     },
@@ -1326,7 +1251,6 @@
       "RepliesList" : [
         156
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus11",
       "Text" : "Your story is quite grim, my friend...  Lazarus will surely burn in hell for his horrific deed!  The boy that you described is not our prince, but I believe that Albrecht may yet be in danger..."
     },
@@ -1337,7 +1261,6 @@
       "RepliesList" : [
         157
       ],
-      "Script" : "",
       "Sound" : "cain_lazarus12",
       "Text" : "The symbol of power that you speak of must be a portal to the very heart of the labyrinth!  Know this, my friend the evil that you move against is the dark Lord of Terror!  He is known to mortal men as Diablo."
     },
@@ -1361,7 +1284,6 @@
         162,
         161
       ],
-      "Script" : "",
       "Text" : "Hmmm, let me see that... strange, it seems to be a map of this entire town, but there are structures in this map that are not supposed to be there!  This one specifically points to the graveyard beside our church...  Hmmm, that does seem familiar... Let me see if I can remember..."
     },
     {
@@ -1394,7 +1316,6 @@
       "RepliesList" : [
         166
       ],
-      "Script" : "",
       "Text" : "I am sure they all have their reasons for continuing to tell you and remind you of what is going on.  The evil that lurks below our town is something that we have never encountered before, even during our king's madness that tore our kingdom apart!"
     },
     {
@@ -1404,22 +1325,20 @@
       "RepliesList" : [
         {
           "Index" : 171,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_leoricx",
           "Index" : 39,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_identify",
-          "Index" : 168
+          "Index" : 168,
+          "IsChild" : false
         },
         167
       ],
-      "Script" : "",
       "Text" : "As much as I would like to tell you about it, Ogden has expressly told me that he should be the one to share that tale to whoever comes into town.  If you wish to know the events that transpired during that fateful time, ask the innkeeper.  I can only tell you about King Leoric, but not his recent deeds - for it is still hard for me to accept what had happened to him."
     },
     {
@@ -1431,17 +1350,14 @@
         {
           "Active" : "prq_identify",
           "Index" : 95,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         170
       ],
-      "Script" : "",
       "Text" : "That is good to hear, my friend.  If anyone can help us through these dark times, it would be you."
     },
     {
@@ -1453,17 +1369,14 @@
         {
           "Active" : "prq_identify",
           "Index" : 95,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         172
       ],
-      "Script" : "",
       "Sound" : "cain_info1",
       "Text" : "While you are venturing deeper into the labyrinth, you may find tomes of great knowledge hidden there.  Read them carefully, for they can tell you things that even I cannot..."
     },
@@ -1475,17 +1388,14 @@
         {
           "Active" : "prq_identify",
           "Index" : 95,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         174
       ],
-      "Script" : "",
       "Sound" : "cain_info2",
       "Text" : "I know of many myths and legends that may contain answers to questions that may arise in your journeys into the labyrinth.  If you come across challenges and questions to which you seek knowledge, seek me out!  And I will tell you what I can."
     },
@@ -1496,7 +1406,8 @@
       "RepliesList" : [
         {
           "Active" : "prq_identify",
-          "Index" : 176
+          "Index" : 176,
+          "IsChild" : false
         },
         175
       ],
@@ -1511,12 +1422,12 @@
       "RepliesList" : [
         {
           "Active" : "prq_100gold",
-          "Index" : 183
+          "Index" : 183,
+          "IsChild" : false
         },
         178,
         177
       ],
-      "Script" : "",
       "Text" : "I could discern the magical properties of items for only 100 gold pieces."
     },
     {
@@ -1526,11 +1437,11 @@
       "RepliesList" : [
         {
           "Active" : "prq_100gold",
-          "Index" : 180
+          "Index" : 180,
+          "IsChild" : false
         },
         179
       ],
-      "Script" : "",
       "Text" : "<StartAction>[Failure]</Start>  Surely <FirstName>, a small sum for the valuable help of an old man is worth it, don't you think?"
     },
     {
@@ -1541,7 +1452,6 @@
         182,
         181
       ],
-      "Script" : "",
       "Text" : "<StartAction>[Success]</Start>  Well... I suppose you are right.  Coming to Tristram's aid is indeed payment enough for my services."
     }
   ],
@@ -1549,1571 +1459,935 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'm done, thank you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I would like to ask you some questions."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind, old man."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about the Archbishop Lazarus."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you mean?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yet he was still able to convince the townspeople to follow him?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Lachdanan."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "He said that I should release him from the curse he incurred from the same king he claimed to serve."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 8,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "I don't think he is worthy of my time."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Perhaps I should help him then."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'll decide that."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about the Anvil of Fury."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         10
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         11
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So if I get it for Griswold, I can have whatever powerful magical item I want?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I hope it's not as inferior as the other stuff he sells.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         12
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you know where I can find a black mushroom? Adria wants me to find one.."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Big surprise there.  Thanks for nothing."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright, thanks anyway."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         13
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Andariel."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         15
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Just another bitch to slay, if you ask me."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         16
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Gillian has mentioned that men are disappearing mysteriously from Tristram."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         17
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you know anything about this \"magic rock\" Griswold wants me to find?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         18
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes - valuable to me!  Might be worth hunting for..."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that information was very valuable."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         19
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can you tell me why monsters would steal such a mundane thing like Ogden's tavern sign?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         20
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes it does. Any thoughts?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Stupid is as stupid does, huh?  Thanks anyway."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         22
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about King Leoric."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         23
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have other questions I need to ask."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "He was weak, that's all you have to admit.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         24
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What can you tell me about Tremayne's recent exorcism - and about this demon Fleshdoom and the blade Shadowfang he presumably wields?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         25
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         26
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "We'll see.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         27
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Pepin told me of monstrous worms coming out of the ground here in Tristram."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         28
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "So you don't know about them either?  Stupid old man."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you for your insights."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         29
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What can you tell me about the poisoned water supply?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         30
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you think could be causing this?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "And here I thought you were actually smart.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         31
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you know where this underground spring can be found?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Perhaps you don't know.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         32
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have the cleaver used by that monster who killed many of the townsfolk who went into the church.  Can you tell me who I can sell it to?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thanks for nothing."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "My apologies.  I will see what I can do with it somehow."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         33
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can you tell me why the townspeople went on that futile quest into the labyrinth?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         34
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What happened to them?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have other questions to ask you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         35
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can you tell me about the townsfolk here?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         36
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Wirt."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         37
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         38
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Tremayne."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         39
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         40
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Pepin."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         41
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Ogden."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         42
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         43
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Lester."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         44
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Griswold."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         45
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         46
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Gillian."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         47
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_islandxx",
-          "Index" : 50
+          "Index" : 50,
+          "IsChild" : false
         },
         48
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Farnham."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         49
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "end_lostboys",
-          "Index" : 52
+          "Index" : 52,
+          "IsChild" : false
         },
         51
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Deese."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         53
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about Adria."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         54
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can you identify some items for me?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No thanks."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_d2_persmed",
-          "Index" : 56
+          "Index" : 56,
+          "IsChild" : false
         },
         55
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartCheck>[Persuade]</Start> You don't really mean to charge me for such a simple service, do you?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind."
     },
     {
       "Animation" : 71,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_identifyall",
-      "Sound" : "",
       "Text" : "Very well, here is 100 gold pieces. Identify them please."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I changed my mind."
     },
     {
       "Animation" : 71,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_identifyall2",
-      "Sound" : "",
       "Text" : "Thank you. Identify my items please."
     },
     {
       "Animation" : 71,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_identifyall",
-      "Sound" : "",
       "Text" : "Here is 100 gold pieces. Identify them please."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         57
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>You tell Cain about the book that mentioned Valor, and the hero of light it awaits.</Start>"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         58
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         59
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         60
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "A powerful armor, huh?  I'll get to it!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you for the information. Goodbye now."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         61
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Farnham said something about \"an island where angels watched\" ... might be nothing, but I thought I should ask you..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         62
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         63
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         64
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found this cryptic poem about the Halls of the Blind.  <StartAction>You recite poem.</Start>"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         65
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Like what?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind, you're taking too long.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 66,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Come on, old man, I don't have all day!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         66
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "Take your time."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Stupid poem, if you ask me.  Thanks anyway."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         67
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you know about a \"Chamber of Bone\"?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         68
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What did they say about it?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         69
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "One that would not happen to me."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         70
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>You tell Cain about the forest caverns, and the name uttered by one of the creatures within - the name Andariel...</Start>"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         71
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Who exactly is this Andariel?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         72
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         73
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Just another bitch to slay, if you ask me."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, that's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         74
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found this fungal tome in the caves.  Do you need it?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright. I have other questions to ask you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         75
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Gillian told me about a tale Farnham was rambling on about in the tavern ... about an angel called Izual underneath the labyrinth, and something called Azurewrath. What do you know about this?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Another convoluted tale.  I have no time for this.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         76
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I would like to hear this story, old man."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         77
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         78
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I am intrigued by this Azurewrath you speak of.  Maybe I'll go there just for the opportunity to get it from him."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Thank you for the story.  I will see what I can do to give this fallen angel his salvation."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         79
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What can you tell me about the Warlord of Blood?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind, I don't have the time."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         80
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me about it, storyteller."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         81
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Sounds like a worthy adversary.  Maybe I can pillage his armories afterwards.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Sounds like a tough customer.  Thank you for the story."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         82
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartAction>You show Cain the staff you found in the Archbishop's Inner Sanctum.</Start>"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         83
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         84
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What are you talking about?  What evil is this?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         85
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I already know this story.  What's the significance of it?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         86
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         87
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So what must I do now?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "This boy may already be dead for all we know.  I'll take my time."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "I will do what I can.  Thank you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         88
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have killed Lazarus, but I was too late to save the boy..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         89
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found a mysterious red portal in the middle of the Archbishop's altar.  Do you know what it could be?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         90
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Diablo? What do you know of him?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "I will take my time and think it over.  I don't see any rush."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "I will not allow this vile demon to terrorize Tristram!  I shall go now!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         91
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found this cathedral map, and I don't know what it's supposed to do.  Can you take a look at it?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 92,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Hurry up, I haven't got all day!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         92
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Take your time."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So much for knowing everything, huh?  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you, I will go to them, now."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         94
       ],
-      "Quest" : "",
       "Script" : "s_knowcain",
-      "Sound" : "",
       "Text" : "People have been telling me what's been going on here since the first time I set foot back here!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         95
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Our king's madness?  You mean King Leoric?  What has happened?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 54,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Enough talk, I would like to see what services you offer."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         96
       ],
-      "Quest" : "",
       "Script" : "s_knowcain",
-      "Sound" : "",
       "Text" : "I know that something terrible has been happening under the church, and I'll get to the bottom of it."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         97
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Is there any advice you can share before I go there?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         98
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Any other advice you can share?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Thank you.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'm done, thank you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         100
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can you identify some items for me?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No thanks."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_d2_persmed",
-          "Index" : 102
+          "Index" : 102,
+          "IsChild" : false
         },
         101
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartCheck>[Persuade]</Start> You don't really mean to charge me for such a simple service, do you?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind."
     },
     {
       "Animation" : 71,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_identifyall",
-      "Sound" : "",
       "Text" : "Very well, here is 100 gold pieces. Identify them please."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I changed my mind."
     },
     {
       "Animation" : 71,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_identifyall2",
-      "Sound" : "",
       "Text" : "Thank you. Identify my items please."
     },
     {
       "Animation" : 71,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "s_identifyall",
-      "Sound" : "",
       "Text" : "Here is 100 gold pieces. Identify them please."
     }
   ],

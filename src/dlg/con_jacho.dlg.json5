@@ -11,20 +11,22 @@
       "RepliesList" : [
         {
           "Active" : "prq_bandit",
-          "Index" : 26
+          "Index" : 26,
+          "IsChild" : false
         },
         {
           "Active" : "prq_banditx",
-          "Index" : 7
+          "Index" : 7,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lostboysxx",
-          "Index" : 2
+          "Index" : 2,
+          "IsChild" : false
         },
         1,
         0
       ],
-      "Script" : "",
       "Text" : "Well, hello again. What do you need?"
     },
     {
@@ -35,7 +37,6 @@
         4,
         3
       ],
-      "Script" : "",
       "Text" : "Hmmm.... I did see a young man running into the forest just before we were ambushed, shouting something.  Inneas, I think was the name he was calling out.  I haven't thought much of it, since my men and I had our hands full trying to survive.  Do you know them?"
     },
     {
@@ -46,7 +47,6 @@
         6,
         5
       ],
-      "Script" : "",
       "Text" : "Well, I have not seen them since that first time.  They're probably dead by now, but good luck looking for them."
     },
     {
@@ -57,7 +57,6 @@
         9,
         8
       ],
-      "Script" : "",
       "Text" : "What?!  Where is he?  How did he die?"
     },
     {
@@ -67,18 +66,20 @@
       "RepliesList" : [
         {
           "Active" : "prq_corpsevico",
-          "Index" : 20
+          "Index" : 20,
+          "IsChild" : false
         },
         {
           "Active" : "prq_corpsevico",
-          "Index" : 11
+          "Index" : 11,
+          "IsChild" : false
         },
         {
           "Active" : "prq_corpsevicox",
-          "Index" : 10
+          "Index" : 10,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "Oh... I wish I could say that I'll miss him, but he was a bastard and probably deserved what he got for being stupid enough to go out there alone.  Did you bring his body with you?"
     },
     {
@@ -90,10 +91,10 @@
         13,
         {
           "Active" : "prq_corpsevico",
-          "Index" : 12
+          "Index" : 12,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "How can I believe he is dead then?"
     },
     {
@@ -114,7 +115,6 @@
       "RepliesList" : [
         17
       ],
-      "Script" : "",
       "Text" : "You didn't bring my brother's body back.  He may be a bastard, but I would've liked to have buried my own brother.  So that's all I can give you.  And a piece of advice - stay away from going deeper into the forest.  Whoever was behind the death of my brother might get you next."
     },
     {
@@ -125,7 +125,6 @@
         19,
         18
       ],
-      "Script" : "",
       "Text" : "Is there anything else you need from me?"
     },
     {
@@ -146,7 +145,6 @@
         23,
         22
       ],
-      "Script" : "",
       "Text" : "My brother was no weakling, so whatever is behind his death is not someone to be taken lightly.  I hope you stay away from going deeper into the forest, if you still value your life.  For now, thank you for finding my brother."
     },
     {
@@ -157,7 +155,6 @@
         25,
         24
       ],
-      "Script" : "",
       "Text" : "Is there anything else you need from me?"
     },
     {
@@ -167,14 +164,15 @@
       "RepliesList" : [
         {
           "Active" : "prq_bandit",
-          "Index" : 28
+          "Index" : 28,
+          "IsChild" : false
         },
         {
           "Active" : "prq_bandit",
-          "Index" : 27
+          "Index" : 27,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : "Well well, you seem to be lost, aren't you?"
     },
     {
@@ -185,7 +183,6 @@
         30,
         29
       ],
-      "Script" : "",
       "Text" : "My name is Jacho Carlias. My group and I have just come from a profitable little \"venture\" when suddenly these beasts attacked us. Half of our group fell to the ambush, and the rest of us that are left are pinned here."
     },
     {
@@ -195,7 +192,6 @@
       "RepliesList" : [
         31
       ],
-      "Script" : "",
       "Text" : "A little dense, are we? Anyway, we're pinned here and we can't get out of this forest. It seems these beasts have surrounded us and are just waiting for the right time to strike!"
     },
     {
@@ -206,7 +202,6 @@
         33,
         32
       ],
-      "Script" : "",
       "Text" : "If I still had most of my group who got taken away by these beasts, we would try and fight our way out of this mess!"
     },
     {
@@ -217,7 +212,6 @@
         35,
         34
       ],
-      "Script" : "",
       "Text" : "I said they fell to the beasts - while the rest of us that are left were trying to fend for our lives, some of them dragged the bodies out into the forest, along with most of the loot we carried. I can understand the gold, but I don't know what they'll do with those bodies - maybe they're hungry."
     },
     {
@@ -227,7 +221,6 @@
       "RepliesList" : [
         36
       ],
-      "Script" : "",
       "Text" : "They were not my friends. They worked for gold pieces. As far as I'm concerned, there's more coin to pass around now that they're gone. At the moment my primary concern is how to get out of this walking dinner platter..."
     },
     {
@@ -237,7 +230,6 @@
       "RepliesList" : [
         37
       ],
-      "Script" : "",
       "Text" : "My brother Vico has gone into the forest with a small group to retrieve the treasure. Greedy bastard of a brother, I tell you. But he hasn't come back yet. I think he's fallen to those beasts too."
     },
     {
@@ -262,11 +254,9 @@
         {
           "Active" : "prq_lostboysxx",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Suit yourself then.  I wouldn't expect you to help a bandit, after all."
     },
     {
@@ -277,16 +267,13 @@
         41,
         {
           "Index" : 45,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 38,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I guess it's because you have the stance of a hero, and I surmise that you are here in the forests because you are in search of something.  Might as well help me along the way, wouldn't you say?"
     },
     {
@@ -305,7 +292,6 @@
         45,
         44
       ],
-      "Script" : "",
       "Text" : "As I told you, most of our loot has been taken away, but you can help yourself to what you may find there, just bring me my brother back, in a sack if you have to."
     },
     {
@@ -318,11 +304,9 @@
         {
           "Active" : "prq_lostboysxx",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I don't know much about the beasts you're gonna deal with, but I do know that ordinary weapons will not affect them ... the part of my group that fell to them learned that the hard way. You would need enhanced weaponry, and I can sell them to you at a very low price."
     },
     {
@@ -335,11 +319,9 @@
         {
           "Active" : "prq_lostboysxx",
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I'm a bandit, not a philanthropist. If you want something, you're going to have to buy it. So what do you say?"
     },
     {
@@ -350,7 +332,6 @@
         51,
         50
       ],
-      "Script" : "",
       "Text" : "Well, hello again. What do you need?"
     }
   ],
@@ -358,510 +339,326 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nothing.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_jacho",
-      "Sound" : "",
       "Text" : "I want to see what you're selling."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Have you seen two young men pass by here recently?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 2,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Not really.  I have some bit of business with them."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "As a matter of fact I do.  I am looking for them."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I hope not.  Thanks anyway."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I guess so.  Time to do some hunting to make sure."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have some bad news for you.  Your brother is dead."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 4,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't know.  I just found a body that fits the description mangled and lying dead in the caverns..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I found his body in the caverns north of here.  The monsters there killed him.  I didn't get to him in time."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I didn't bother to pick it up."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "<StartAction>Lie.</Start> No I did not."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 9,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Well, in that case, here's his body."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "trg_vicogone",
-      "Sound" : "",
       "Text" : "I don't care if you don't believe me.  I am saying your dumb brother is dead!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
       "Script" : "trg_vicogone",
-      "Sound" : "",
       "Text" : "I guess you'll have to take my word for it."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 7,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "This should be sufficient."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "After all the trouble I go through, this is all I get?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nothing.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_jacho",
-      "Sound" : "",
       "Text" : "I want to see what you're selling"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
       "Script" : "giv_corpsevico",
-      "Sound" : "",
       "Text" : "Yes I did.  Here it is."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         10
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 11,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Not bad for a day's work, even though the pay is dismal."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         11
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "It was no trouble at all."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nothing.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_jacho",
-      "Sound" : "",
       "Text" : "I want to see what you're selling"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 24,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "giv_banditbro",
-      "Sound" : "",
       "Text" : "I have decided I'll help you find your brother."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 13,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes I am, somewhat.  May I know what a group of bandits are doing here, holed up in a camp?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         13
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I should be asking you the same question. Who are you and what are you doing here?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 15,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Why don't you fight your way out?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you mean \"pinned here\"?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         15
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 18,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "And leave all the loot they stole away from you?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         16
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Taken away? I thought you said they were killed?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 17,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Maybe you'll join your friends when night falls. Wouldn't that be a laugh."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         17
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "That's a little insensitive of you to say about your fallen comrades!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         18
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         19
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         20
       ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "I think I'll pass up on that.  I don't go out of my way to help people like you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I bet you wouldn't.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Tell me why I should help a bandit like you?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         22
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "You don't deserve my help.  You deserved what you got.  I'm going in there to collect the loot for myself. To hell with your stupid brother!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 24,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "giv_banditbro",
-      "Sound" : "",
       "Text" : "I'm on my way in there, so I might as well help you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         23
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "What will you give me in return?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think that going through all that trouble may not be worth it.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         24
       ],
-      "Quest" : "",
       "Script" : "giv_banditbro",
-      "Sound" : "",
       "Text" : "Alright, I'll see if I can find your brother."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Right.  I'll be going now."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         25
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Why not just give them to me? I'm helping you, right?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind, I already have good weapons."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_jacho",
-      "Sound" : "",
       "Text" : "Okay, I'll see what you have."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Nothing.  Goodbye."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "sto_jacho",
-      "Sound" : "",
       "Text" : "I want to see what you're selling."
     }
   ],

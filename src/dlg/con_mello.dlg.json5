@@ -12,7 +12,6 @@
         1,
         0
       ],
-      "Script" : "",
       "Text" : "Would you like some help in your mission?"
     },
     {
@@ -20,7 +19,6 @@
       "Animation" : 28,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "As you wish."
     },
     {
@@ -37,7 +35,6 @@
       "Comment" : "This starting condition should only come up if the henchman is working for a player and it is NOT that player who is trying to talk to him (the script NW_CH_JOIN_NOT only checks to see if the henchman is working for ANY player, including the one he is currently serving).  ",
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56196,
         "Strings" : [ ]
@@ -52,16 +49,15 @@
         {
           "Active" : "prq_mello001",
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_mello",
-          "Index" : 3
+          "Index" : 3,
+          "IsChild" : false
         },
         2
       ],
-      "Script" : "",
       "Text" : "I greet you, my friend."
     },
     {
@@ -71,11 +67,11 @@
       "RepliesList" : [
         {
           "Active" : "prq_mello",
-          "Index" : 5
+          "Index" : 5,
+          "IsChild" : false
         },
         4
       ],
-      "Script" : "",
       "Text" : "Really?  You want to give me the improved kama I need?"
     },
     {
@@ -94,7 +90,6 @@
       "Animation" : 28,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "I appreciate the trouble you went to in order to it, but I it seems I cannot work for you at this time.  You seem to already have someone working for you.  I am sorry."
     },
     {
@@ -105,7 +100,6 @@
         10,
         9
       ],
-      "Script" : "",
       "Text" : "My name is Mello, and I am indeed a monk from the Brotherhood of the Bough.  I have come far from the south in search of enlightenment, experience, and possibly a cure."
     },
     {
@@ -115,7 +109,8 @@
       "RepliesList" : [
         {
           "Active" : "prq_mello001",
-          "Index" : 12
+          "Index" : 12,
+          "IsChild" : false
         },
         11
       ],
@@ -130,7 +125,6 @@
         14,
         13
       ],
-      "Script" : "",
       "Text" : "I have been observing you for a while, and I can glean from your face that you do not necessarily have a lawful outlook in life.  In our brotherhood, it is important for us to serve within the boundaries of the law of the land.  Our brotherhood was founded with the purpose of upholding these laws.  And it is also our philosophy to not serve any undertaking that violates our way.  So I fear that I cannot join you."
     },
     {
@@ -140,12 +134,10 @@
       "RepliesList" : [
         {
           "Index" : 13,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         15
       ],
-      "Script" : "",
       "Text" : "<StartAction>Failure.</Start>  I am sorry, but the edict of our Brotherhood is not something I can disregard so easily.  It will be against everything I believe if I join you."
     },
     {
@@ -155,11 +147,9 @@
       "RepliesList" : [
         {
           "Index" : 17,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "<StartAction>Success.</Start>  Hmm...  Perhaps I can learn from your unique outlook of the world.  I guess I can make an exception in this case - but only if you can do one thing for me."
     },
     {
@@ -170,7 +160,6 @@
         17,
         16
       ],
-      "Script" : "",
       "Text" : "I would be more than happy to join you on your travels - if you can do one thing for me?"
     },
     {
@@ -181,7 +170,6 @@
         19,
         18
       ],
-      "Script" : "",
       "Text" : "I am a little hesitant to ask this of you, but...  the priest who lives near the church is selling some specialized items that I can use.  Monk stuff, as that good-natured blacksmith would call it.  Unfortunately, I did not bring enough gold to purchase a simple item that I need from the priest."
     },
     {
@@ -204,21 +192,17 @@
         {
           "Active" : "prq_mello2",
           "Index" : 25,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 24,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 23,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "In truth, you don't need to.  But if you want me to assist you in your travels, procuring this improved weapon is the only way I will join you."
     },
     {
@@ -228,12 +212,12 @@
       "RepliesList" : [
         {
           "Active" : "prq_mello2",
-          "Index" : 25
+          "Index" : 25,
+          "IsChild" : false
         },
         24,
         23
       ],
-      "Script" : "",
       "Text" : "That is my oath to you as a member of the Brotherhood of the Bough, and we keep our oaths as surely as we breathe."
     },
     {
@@ -255,7 +239,6 @@
         29,
         28
       ],
-      "Script" : "",
       "Text" : "That's good to hear, but I am afraid that I cannot work for you at this time.  You seem to already have a henchman at your disposal.  I am sorry."
     },
     {
@@ -266,7 +249,6 @@
         31,
         30
       ],
-      "Script" : "",
       "Text" : "Greetings to you <FirstName>!  Do you require my services once again?"
     },
     {
@@ -292,7 +274,6 @@
       "RepliesList" : [
         32
       ],
-      "Script" : "",
       "Text" : "My demise has given me clarity of thought and an understanding of mortality, <FirstName>."
     },
     {
@@ -303,7 +284,6 @@
         34,
         33
       ],
-      "Script" : "",
       "Text" : "Do you still have a need for my help in your journeys?"
     },
     {
@@ -311,7 +291,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "As you wish."
     },
     {
@@ -351,7 +330,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56168,
         "Strings" : [
@@ -370,7 +348,6 @@
         39,
         38
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56150,
         "Strings" : [
@@ -407,28 +384,30 @@
         48,
         {
           "Active" : "69_ch_check_38",
-          "Index" : 46
+          "Index" : 46,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_check_39",
-          "Index" : 45
+          "Index" : 45,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 44
+          "Index" : 44,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_commelee",
-          "Index" : 43
+          "Index" : 43,
+          "IsChild" : false
         },
         42,
         {
           "Index" : 35,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Any suggestions you can give me are very much welcome."
     },
     {
@@ -444,7 +423,6 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "Done!"
     },
     {
@@ -462,7 +440,6 @@
       "RepliesList" : [
         47
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56222,
         "Strings" : [
@@ -480,52 +457,62 @@
       "RepliesList" : [
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 87
+          "Index" : 87,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_commelee",
-          "Index" : 85
+          "Index" : 85,
+          "IsChild" : false
         },
         {
           "Active" : "nw_ch_comrange",
-          "Index" : 83
+          "Index" : 83,
+          "IsChild" : false
         },
         76,
         {
           "Active" : "nw_ch_heal_0",
-          "Index" : 64
+          "Index" : 64,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_yes_srch",
-          "Index" : 62
+          "Index" : 62,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_no_srch",
-          "Index" : 60
+          "Index" : 60,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_no_stlth",
-          "Index" : 58
+          "Index" : 58,
+          "IsChild" : false
         },
         {
           "Active" : "69_ch_yes_stlth",
-          "Index" : 56
+          "Index" : 56,
+          "IsChild" : false
         },
         {
           "Active" : "henchdual",
-          "Index" : 54
+          "Index" : 54,
+          "IsChild" : false
         },
         {
           "Active" : "69_henchatackyes",
-          "Index" : 52
+          "Index" : 52,
+          "IsChild" : false
         },
         {
           "Active" : "69_henchatackno",
-          "Index" : 51
+          "Index" : 51,
+          "IsChild" : false
         },
         49
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56146,
         "Strings" : [
@@ -543,7 +530,6 @@
       "RepliesList" : [
         50
       ],
-      "Script" : "",
       "Text" : "As you wish."
     },
     {
@@ -553,7 +539,6 @@
       "RepliesList" : [
         53
       ],
-      "Script" : "",
       "Text" : "Consider it done."
     },
     {
@@ -573,7 +558,6 @@
       "RepliesList" : [
         57
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56184,
         "Strings" : [
@@ -591,7 +575,6 @@
       "RepliesList" : [
         59
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56183,
         "Strings" : [
@@ -609,7 +592,6 @@
       "RepliesList" : [
         61
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56182,
         "Strings" : [
@@ -627,7 +609,6 @@
       "RepliesList" : [
         63
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56181,
         "Strings" : [
@@ -645,38 +626,45 @@
       "RepliesList" : [
         {
           "Active" : "nw_d2_intn",
-          "Index" : 74
+          "Index" : 74,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 73
+          "Index" : 73,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intn",
-          "Index" : 72
+          "Index" : 72,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 71
+          "Index" : 71,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 70
+          "Index" : 70,
+          "IsChild" : false
         },
         {
           "Active" : "nw_d2_intl",
-          "Index" : 69
+          "Index" : 69,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal1",
-          "Index" : 67
+          "Index" : 67,
+          "IsChild" : false
         },
         {
           "Active" : "henchheal2",
-          "Index" : 65
+          "Index" : 65,
+          "IsChild" : false
         }
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56149,
         "Strings" : [ ]
@@ -689,7 +677,6 @@
       "RepliesList" : [
         66
       ],
-      "Script" : "",
       "Text" : "I will try to heal you even if I am being attacked at close range."
     },
     {
@@ -699,7 +686,6 @@
       "RepliesList" : [
         68
       ],
-      "Script" : "",
       "Text" : "Normally I would advise against it, but if you wish it, I will not heal you even if I am in the heat of combat."
     },
     {
@@ -709,7 +695,6 @@
       "RepliesList" : [
         75
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56180,
         "Strings" : [
@@ -729,7 +714,6 @@
         79,
         77
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56147,
         "Strings" : [
@@ -747,7 +731,6 @@
       "RepliesList" : [
         78
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56174,
         "Strings" : [
@@ -765,7 +748,6 @@
       "RepliesList" : [
         80
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56173,
         "Strings" : [
@@ -783,7 +765,6 @@
       "RepliesList" : [
         82
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 56172,
         "Strings" : [
@@ -801,7 +782,6 @@
       "RepliesList" : [
         84
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 62539,
         "Strings" : [
@@ -819,7 +799,6 @@
       "RepliesList" : [
         86
       ],
-      "Script" : "",
       "Text" : {
         "StringRef" : 62540,
         "Strings" : [
@@ -841,7 +820,6 @@
         90,
         88
       ],
-      "Script" : "",
       "Text" : "What would you wish me do?"
     },
     {
@@ -899,7 +877,6 @@
       "Animation" : 38,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "My senses tell me that we are not in any danger here."
     },
     {
@@ -907,7 +884,6 @@
       "Animation" : 48,
       "Delay" : 4294967295,
       "RepliesList" : [ ],
-      "Script" : "",
       "Text" : "I will cleanse the way in front of us!"
     },
     {
@@ -917,32 +893,37 @@
       "RepliesList" : [
         {
           "Active" : "prq_mellotalkx",
-          "Index" : 143
+          "Index" : 143,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mellotalk3x",
-          "Index" : 130
+          "Index" : 130,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mellotalk3",
-          "Index" : 128
+          "Index" : 128,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mellotalk2a",
-          "Index" : 119
+          "Index" : 119,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mellotalk1",
-          "Index" : 106
+          "Index" : 106,
+          "IsChild" : false
         },
         {
           "Active" : "prq_mellotalk",
-          "Index" : 102
+          "Index" : 102,
+          "IsChild" : false
         },
         101,
         100
       ],
-      "Script" : "",
       "Text" : "I am always here to provide you enlightenment, <FirstName>."
     },
     {
@@ -952,7 +933,6 @@
       "RepliesList" : [
         103
       ],
-      "Script" : "",
       "Text" : "As I told you before, I came to Tristram because I am seeking a cure."
     },
     {
@@ -974,11 +954,9 @@
         107,
         {
           "Index" : 104,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "A curious mind is a divine blessing, but I am afraid I don't know you well enough to tell you about my brotherhood's plight.  Perhaps later, when I have known you better."
     },
     {
@@ -988,7 +966,6 @@
       "RepliesList" : [
         108
       ],
-      "Script" : "",
       "Text" : "A curious mind is a divine blessing, and persistence is an admirable virtue.  Perhaps the time is right for me to share with you the plight of my brotherhood."
     },
     {
@@ -998,7 +975,6 @@
       "RepliesList" : [
         109
       ],
-      "Script" : "",
       "Text" : "We of the Brotherhood of the Bough can be considered by outsiders as, well, eccentric.  I don't really blame them, as our order try to keep to themselves, and rarely come in contact with anyone outside our homes.  This has allowed us to keep tight social circles, but it has also isolated us from outside influences, and new ideas.  While our elders may find this an ideal way to live, recent events might change it."
     },
     {
@@ -1009,11 +985,9 @@
         110,
         {
           "Index" : 111,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "A strange disease has spread throughout our villages.  It is a strange, poisonous sickness that causes our people to experience burning fevers, nausea, and at times even violent seizures.  It was as if something was poisoning us from the inside, but our best medicine men have not found a cure for it.  A few of our elders have already died from this sickness, and it is threatening to wipe out our villages if it continues to spread."
     },
     {
@@ -1023,7 +997,6 @@
       "RepliesList" : [
         111
       ],
-      "Script" : "",
       "Text" : "Fortunately, no.  I live in one of the villages in the outskirts, and this strange disease has not yet reached us.  But I fear that it is only a matter of time before the sickness makes its way into the outlying villages like mine."
     },
     {
@@ -1033,7 +1006,6 @@
       "RepliesList" : [
         112
       ],
-      "Script" : "",
       "Text" : "There have been several conjectures among the healers, but many of them believe that the disease is more of an effect rather than a malignant infection."
     },
     {
@@ -1043,7 +1015,6 @@
       "RepliesList" : [
         113
       ],
-      "Script" : "",
       "Text" : "The monks in our order are deeply attuned to their surroundings.  You can call it \"one with nature\" if you like, but with us it is almost in a literal sense.  We are so deeply attuned to the land that we... feel what nature feels.  Our spirits are high during spring, and we are pacified during autumn.  We have become so entwined with nature that we sometimes serve as nature's tendrils, maybe not as much as the druids in other regions, but close to it."
     },
     {
@@ -1053,7 +1024,6 @@
       "RepliesList" : [
         114
       ],
-      "Script" : "",
       "Text" : "Precisely.  But for us to experience such a drastic and dire malady could only mean that something very bad is happening to the land.  It is one of the reasons that our elders sent out monks all over Khanduras, and some parts of the east, to investigate a possible connection.  Something is seriously killing the land, and it is affecting us, and eventually everyone in Sanctuary."
     },
     {
@@ -1063,7 +1033,6 @@
       "RepliesList" : [
         115
       ],
-      "Script" : "",
       "Text" : "We have heard of the strange and terrible events that took place here, and I was sent to investigate and see if there might be something here that can lead us to a cure.  I might be able to find some sort of connection with the strange sickness within the Brotherhood and ultimately find the cure.  Our elders have told me what to look for, and they said that it may contain the cure we need."
     },
     {
@@ -1074,18 +1043,15 @@
         116,
         {
           "Index" : 118,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 117,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 104,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "giv_mello",
@@ -1100,11 +1066,9 @@
         117,
         {
           "Index" : 104,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Please understand that I gave an oath, and I do not wish to divulge too much when I am still not close to finding what I seek.  Ask me later, when you have ventured further into the labyrinth, or when you have reached a place that might offer some explanation as to what is causing this defilement of nature..."
     },
     {
@@ -1114,21 +1078,17 @@
       "RepliesList" : [
         {
           "Index" : 118,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 117,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 104,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Considering our situation, I would really like to, but I still need to know more about this areas within this town.  Once we see that place I am looking for, I will tell you everything."
     },
     {
@@ -1138,7 +1098,6 @@
       "RepliesList" : [
         120
       ],
-      "Script" : "",
       "Text" : "I think that the time is right to tell you about the true nature of the cure I seek."
     },
     {
@@ -1148,7 +1107,6 @@
       "RepliesList" : [
         121
       ],
-      "Script" : "",
       "Text" : "The elders of the Brotherhood have long believed that there are creatures that existed in this world long before mortals walked the earth.  After the desolation left by the war between the warriors of the sky and the beasts of the pit, these creatures proliferated and spread their brood all over the bleak landscape.  But before the first mortal was ever born in this world, there was a great cataclysm that wiped out almost all these creatures from the face of the earth.  Some managed to survive by burrowing deep in the subterranean regions of the earth and went into a deep slumber."
     },
     {
@@ -1159,11 +1117,9 @@
         122,
         {
           "Index" : 123,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Our elders now believe that this slumber has ended, and the sinister brood that overran the earth a thousand years ago is trying to extricate themselves from their primeval shelters and once again claim dominance over this world.  We believe that these creatures are being led by some sort of hive queen ... a monstrosity that is commanding the remnants of the ancient brood to defile the land and make it suitable for their return.  Sentimental scholars among us have called it the Defiler."
     },
     {
@@ -1174,7 +1130,6 @@
         124,
         123
       ],
-      "Script" : "",
       "Text" : "It should be evident by now that the Defiler is the one that is killing the land, making it more suited for its brood.  And due of their long slumber, they have woken up hungry, and intend to treat this world as their feeding ground.  They are the ones who are killing the land, and in effect, the ones that are killing my people."
     },
     {
@@ -1184,11 +1139,9 @@
       "RepliesList" : [
         {
           "Index" : 125,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I need to bring back a part of the Defiler so that our healers can come up with the appropriate antidote to cure those who have fallen to the disease.  The Defiler needs to be slain, and I must take its head, or its heart, back to the Brotherhood so that our healers can start working on the cure."
     },
     {
@@ -1198,7 +1151,6 @@
       "RepliesList" : [
         125
       ],
-      "Script" : "",
       "Text" : "Not precisely.  Nature can heal gradually, but mortals do not have the fortitude or the longevity of nature.  Our sick will die much sooner than the land can heal itself.  This is why I need to bring back a part of the Defiler so that our healers can come up with the appropriate antidote to cure those who have fallen to the disease.  The Defiler needs to be slain, and I must take its vile heart back to the Brotherhood so that our healers can start working on the cure."
     },
     {
@@ -1209,15 +1161,13 @@
         {
           "Active" : "prq_mellotalk3x",
           "Index" : 130,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         127,
         126,
         {
           "Index" : 117,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "giv_mellox",
@@ -1231,11 +1181,9 @@
         129,
         {
           "Index" : 117,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "You have already been to its hive!  I am guessing that we will find it as we go deeper into its festering nest.  We must kill it and retrieve its heart!"
     },
     {
@@ -1245,7 +1193,6 @@
       "RepliesList" : [
         131
       ],
-      "Script" : "",
       "Text" : "Our ancestors' blessing be with you, <FirstName>!  Taking the heart back to the Brotherhood will cure my people's sickness!  I don't know how I can ever repay you, but take this."
     },
     {
@@ -1256,7 +1203,6 @@
         133,
         132
       ],
-      "Script" : "",
       "Text" : "These sandals have been handed down by our elders to every monk who has attained the divine level of awareness.  It is one of our most important possessions, and one that is rarely given to anyone outside our order.  But I gladly give it to you, <FirstName>, for your assistance in ridding this world of the ancient brood, and for saving my people from certain death.  I have no gold, and this is the only thing I can give you."
     },
     {
@@ -1278,7 +1224,6 @@
         136,
         135
       ],
-      "Script" : "",
       "Text" : "But my people need this heart to cure the sick!  If I stay here any longer than I should, more of my people will die!"
     },
     {
@@ -1289,11 +1234,9 @@
         137,
         {
           "Index" : 135,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "P-perhaps you are right.  I did give you my word that I will assist you, and you did help me attain what I need.  But what about my people?  More of them will die if I stay here longer..."
     },
     {
@@ -1325,12 +1268,10 @@
       "RepliesList" : [
         {
           "Index" : 135,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         144
       ],
-      "Script" : "",
       "Text" : "Yes, <FirstName>.  The more time I waste spend here, the more people will die of the sickness.  I implore you, please let me go back to my people!"
     },
     {
@@ -1340,26 +1281,21 @@
       "RepliesList" : [
         {
           "Index" : 41,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 37,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 35,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I-I guess I'll stay then...  what do you want me to do right now?"
     }
   ],
@@ -1367,338 +1303,215 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I work better alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I would."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Oops, sorry to bother you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchrefuse",
-          "Index" : 7
+          "Index" : 7,
+          "IsChild" : false
         },
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have the improved kama you wanted."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "On second thought, I changed my mind.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
       "Script" : "giv_mellokama",
-      "Sound" : "",
       "Text" : "Yes, didn't I just say that?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Whatever, I hope you were worth the trouble.  Let us go."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Excellent, let us go then."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "A monk here in Khanduras?  You seem to be a long way from home."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Just asking.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You mentioned you were looking for a cure...   a cure for what?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think that's all I need to know.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchrefuse",
-          "Index" : 19
+          "Index" : 19,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lawful",
-          "Index" : 13
+          "Index" : 13,
+          "IsChild" : false
         },
         {
           "Active" : "henchhire",
-          "Index" : 10
+          "Index" : 10,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "s_mello001",
-      "Sound" : "",
       "Text" : "I think a monk might be useful in my quest.  Are you available to travel with me?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Oh... That is too bad.  I guess I'll take my leave, then."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "nw_d2_pershigh",
-          "Index" : 12
+          "Index" : 12,
+          "IsChild" : false
         },
         11
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "<StartCheck>Persuade</Start>  Can't you make an exception in this case?  I can really use your skills."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Fine, suit yourself.  Goodbye and good riddance!"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You know what, I don't have the time.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         14
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What do you want me to do for you?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Bah, I'm not in the mood to fetch stuff for you.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         15
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "And what item would this be?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I changed my mind.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         16
       ],
-      "Quest" : "",
       "Script" : "con_chaotic1",
-      "Sound" : "",
       "Text" : "Hmmm, I don't see why I should bother buying you a weapon."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         17
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So let me get this straight - if I buy you that improved kama, you will join me in my quest?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't know.  I'll think about it."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "con_lawful1",
-      "Sound" : "",
       "Text" : "Alright, I'll see if I can get it for you then."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         18
       ],
-      "Quest" : "",
       "Script" : "giv_mellokama",
-      "Sound" : "",
       "Text" : "I have the improved kama you wanted."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Whatever, I hope you were worth the trouble.  Let us go."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Excellent, let us go then."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_mellogohome",
-      "Sound" : "",
       "Text" : "Okay, I'll go back to the tavern if I need you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Okay, wait here for me just in case."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         21
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I work better alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchrefuse",
           "Index" : 19,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         22
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I do."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchrefuse",
           "Index" : 19,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         24
       ],
-      "Quest" : "",
       "Script" : "69_setdidiefalse",
-      "Sound" : "",
       "Text" : "I am happy for you..."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         25
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "No, I work better alone."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchrefuse",
           "Index" : 19,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         26
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Yes, I do."
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         28
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55688,
         "Strings" : [ ]
@@ -1706,21 +1519,14 @@
     },
     {
       "Animation" : 38,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "henchmanshow",
-      "Sound" : "",
       "Text" : "Please show me your inventory."
     },
     {
       "Animation" : 40,
-      "Comment" : "",
       "EntriesList" : [
         29
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55683,
         "Strings" : [
@@ -1733,10 +1539,6 @@
     },
     {
       "Animation" : 35,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55740,
         "Strings" : [ ]
@@ -1744,12 +1546,9 @@
     },
     {
       "Animation" : 34,
-      "Comment" : "",
       "EntriesList" : [
         30
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55739,
         "Strings" : [
@@ -1761,63 +1560,43 @@
       }
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "trg_mellogohome",
-      "Sound" : "",
       "Text" : "Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         31
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want to give you some combat instructions."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         32
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Could you pick up some of the items in the area."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         33
       ],
-      "Quest" : "",
       "Script" : "69_ch_goranged",
-      "Sound" : "",
       "Text" : "Equip your ranged weapons"
     },
     {
       "Animation" : 38,
-      "Comment" : "",
       "EntriesList" : [
         34
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Equip your melee weapons"
     },
     {
       "Animation" : 28,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 35,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55784,
         "Strings" : [
@@ -1830,12 +1609,9 @@
     },
     {
       "Animation" : 34,
-      "Comment" : "",
       "EntriesList" : [
         35
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55783,
         "Strings" : [ ]
@@ -1843,21 +1619,14 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "69_ch_action_17",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 38,
-      "Comment" : "",
       "EntriesList" : [
         36
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55682,
         "Strings" : [
@@ -1870,100 +1639,73 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         37
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55703,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 38,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "69_henchyeattack",
-      "Sound" : "",
       "Text" : "Attack as soon as you see the enemy."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         38
       ],
-      "Quest" : "",
       "Script" : "69_henchnoattack",
-      "Sound" : "",
       "Text" : "Do not attack until I initiate combat."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         39
       ],
-      "Quest" : "",
       "Script" : "henchswap",
-      "Sound" : "",
       "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         40
       ],
-      "Quest" : "",
       "Script" : "69_ch_stlth_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55700,
         "Strings" : [ ]
@@ -1971,27 +1713,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         41
       ],
-      "Quest" : "",
       "Script" : "69_ch_stlth_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55699,
         "Strings" : [ ]
@@ -1999,27 +1734,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         42
       ],
-      "Quest" : "",
       "Script" : "69_ch_srch_on",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55698,
         "Strings" : [ ]
@@ -2027,27 +1755,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         43
       ],
-      "Quest" : "",
       "Script" : "69_ch_srch_off",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55697,
         "Strings" : [ ]
@@ -2055,93 +1776,71 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         44
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55693,
         "Strings" : [ ]
       }
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         45
       ],
-      "Quest" : "",
       "Script" : "henchhealyes",
-      "Sound" : "",
       "Text" : "Heal me even if there are enemies near you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         46,
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "henchhealno",
-      "Sound" : "",
       "Text" : "Do not heal me if there are enemies near you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_25",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55738,
         "Strings" : [ ]
@@ -2149,18 +1848,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_50",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55737,
         "Strings" : [ ]
@@ -2168,18 +1864,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_75",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55736,
         "Strings" : [ ]
@@ -2187,18 +1880,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_25",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55696,
         "Strings" : [ ]
@@ -2206,18 +1896,15 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_50",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55695,
         "Strings" : [ ]
@@ -2225,13 +1912,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         47
       ],
-      "Quest" : "",
       "Script" : "nw_ch_heal_75",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55694,
         "Strings" : [ ]
@@ -2239,27 +1923,21 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         48
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55684,
         "Strings" : [ ]
@@ -2267,13 +1945,10 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         49
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_18",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55687,
         "Strings" : [ ]
@@ -2281,27 +1956,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         50
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_12",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55686,
         "Strings" : [ ]
@@ -2309,27 +1977,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         51
       ],
-      "Quest" : "",
       "Script" : "nw_ch_dist_6",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 55685,
         "Strings" : [ ]
@@ -2337,27 +1998,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         52
       ],
-      "Quest" : "",
       "Script" : "69_ch_gomelee",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 62537,
         "Strings" : [ ]
@@ -2365,27 +2019,20 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         53
       ],
-      "Quest" : "",
       "Script" : "69_ch_goranged",
-      "Sound" : "",
       "Text" : {
         "StringRef" : 62538,
         "Strings" : [ ]
@@ -2393,589 +2040,395 @@
     },
     {
       "Animation" : 1,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : null
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         54
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Let's talk about your weapon-switching tactics."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         55
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         56
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Be aggressive. If you see enemies getting any closer than ten meters or so, charge with melee!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         57
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between four and five meters away."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         58
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than two meters, before you switch to a melee weapon."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         59
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want you to trust your instinct as to when to switch between melee and missile weapons."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 36,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : ""
     },
     {
       "Animation" : 48,
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "henchscoutyes",
-          "Index" : 61
+          "Index" : 61,
+          "IsChild" : false
         },
         {
           "Active" : "henchscoutno",
-          "Index" : 60
+          "Index" : 60,
+          "IsChild" : false
         }
       ],
-      "Quest" : "",
       "Script" : "henchscout",
-      "Sound" : "",
       "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         62
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I want to know more about you.  Can I ask you some questions?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I changed my mind, I need you to do something."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         63
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Can you tell me again why you came to Tristram?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         64
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "A cure, you say?   A cure for what?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "69_ch_tactics2",
           "Index" : 27,
-          "IsChild" : 1,
+          "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have other things I need you to do."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all I need to know."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_mellotalk1a",
-          "Index" : 66
+          "Index" : 66,
+          "IsChild" : false
         },
         65
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Are you ready to tell me about this cure you're seeking?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright then."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         67
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         68
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         69
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Are you infected too?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         70
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Have your people found out what may be causing the sickness?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         71
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "An effect?  What do you mean?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         72
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So you're saying that something is affecting the land, hence your sickness?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         73
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So you came to Tristram."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_mellotalk2",
           "Index" : 77,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         74
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "What did they tell you to look for?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         75
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "How can I help you if you insist on secrecy?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "If you don't need my help, suit yourself."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Very well, I'll ask you later."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Active" : "prq_mellotalk2",
-          "Index" : 77
+          "Index" : 77,
+          "IsChild" : false
         },
         76
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Are you ready to tell me about what this cure actually is?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         78
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         79
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         80
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "And what does all this have to do with the cure you are looking for?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         81
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Get to the point please."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         82
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So destroying this Defiler will cure your people?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         83
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So we need to find this Defiler, kill it, and take its heart?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have a feeling this is gonna be a massive bug hunt."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I'm with you.  Let's go get this Defiler!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         84
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Where can I find this Defiler again?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Let's get to it then."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         85
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have the Defiler's heart."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         86
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Continue."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 87,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "It's better than nothing."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         87
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "This will do very well.  Thank you Mello."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         88
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Wait a minute - you can't just leave me!  We had an agreement, and I demand you honor it!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 91,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "Very well, you may go."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         89
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "I am not concerned with that.  You must honor your oath to me."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         90
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "Your people are your concern.  I need you to stay so I can call on you."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 91,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright, I changed my mind.  Get out of here.  I didn't want you anyway."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I don't care.  You are staying, and that's that."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         91
       ],
-      "Quest" : "",
       "Script" : "con_good1",
-      "Sound" : "",
       "Text" : "I have no problems with that, Mello.  You can go now, I wish you and your people the best of luck."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "mello_destroy",
-      "Sound" : "",
       "Text" : "Whatever."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
       "Script" : "mello_destroy",
-      "Sound" : "",
       "Text" : "Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         92
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Do you really need to get that heart back to your people?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         93
       ],
-      "Quest" : "",
       "Script" : "con_evil1",
-      "Sound" : "",
       "Text" : "No, I still need your services."
     }
   ],

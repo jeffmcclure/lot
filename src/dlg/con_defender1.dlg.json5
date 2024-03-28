@@ -11,15 +11,18 @@
       "RepliesList" : [
         {
           "Active" : "prq_virgin",
-          "Index" : 6
+          "Index" : 6,
+          "IsChild" : false
         },
         {
           "Active" : "prq_virgin",
-          "Index" : 5
+          "Index" : 5,
+          "IsChild" : false
         },
         {
           "Active" : "prq_lostboysxx",
-          "Index" : 1
+          "Index" : 1,
+          "IsChild" : false
         },
         0
       ],
@@ -34,7 +37,6 @@
         3,
         2
       ],
-      "Script" : "",
       "Text" : "As a matter of fact, I have.  One of them even tried to steal one of my rations.  They went into the forest a few days ago.  They probably came home during the night.  I haven't really seen either of them ever since they went into the woods."
     },
     {
@@ -44,17 +46,14 @@
       "RepliesList" : [
         {
           "Index" : 13,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 8,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         4
       ],
-      "Script" : "",
       "Text" : "Make it quick; I still have some patrolling to do."
     },
     {
@@ -77,11 +76,9 @@
         9,
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "Even if I liked your proposition, I cannot join you.  The gold we earn in these patrols is measly, but we do it for the guarantee of hot soup, cold ale and a warm bed at night.  Teaming up with you to do something that reeks of uncertainty is not a very attractive proposition."
     },
     {
@@ -92,7 +89,6 @@
         11,
         10
       ],
-      "Script" : "",
       "Text" : "I am afraid we not paid enough to risk our necks in finding out what is causing all this trouble in Tristram.  With these rumors of several able-bodied men being slaughtered in the labyrinth, there is a fine line between adventure and suicide."
     },
     {
@@ -102,11 +98,9 @@
       "RepliesList" : [
         {
           "Index" : 12,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "You are free to treat us as such.  But I will remain steadfast in the task that I am hired to do.  We are working as the defenders of Tristram, not the aggressors bent on saving the world."
     },
     {
@@ -116,7 +110,6 @@
       "RepliesList" : [
         12
       ],
-      "Script" : "",
       "Text" : "Think what you want, but we only fight things we see and know.  We are not foolish enough to try and confront something we do not understand."
     },
     {
@@ -127,11 +120,9 @@
         14,
         {
           "Index" : 10,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Script" : "",
       "Text" : "I am afraid we are not paid enough to risk our necks in finding out what is causing all this trouble in Tristram.  With these rumors of able-bodied men being slaughtered in the labyrinth, there is a fine line between earning a profit and suicide."
     },
     {
@@ -141,7 +132,6 @@
       "RepliesList" : [
         15
       ],
-      "Script" : "",
       "Text" : "Think what you want, but we only fight things we see and know.  We are not foolish enough to try and confront something we do not understand."
     },
     {
@@ -152,25 +142,21 @@
         {
           "Active" : "prq_virgin",
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_virgin",
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_lostboysxx",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "set_kevintalk",
@@ -184,25 +170,21 @@
         {
           "Active" : "prq_virgin",
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_virgin",
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_lostboysxx",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "set_kevintalk",
@@ -216,25 +198,21 @@
         {
           "Active" : "prq_virgin",
           "Index" : 6,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_virgin",
           "Index" : 5,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Active" : "prq_lostboysxx",
           "Index" : 1,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         },
         {
           "Index" : 0,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
       "Script" : "set_kevintalk",
@@ -245,139 +223,84 @@
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Okay, thanks for the warning."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         1
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Have you seen two young men pass by here a few days ago?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "That's all."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         2
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "I have other questions to ask you."
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Never mind.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         {
           "Index" : 3,
-          "IsChild" : 1,
-          "LinkComment" : ""
+          "IsChild" : true
         }
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Really?  I demand to know what \"you\" are doing in Tristram!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         3
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "My name is <FirstName>.  Who are you and what are you doing here in Tristram?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright.  Goodbye."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         4
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You seem like a capable warrior.  Why don't you join me in my quest?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         5
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "But in joining me, you will be able to save this town from this unknown evil that seems to have befallen it!"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         6
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So you are admitting that you are a coward?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         7
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So it's all about making money instead of saving this town?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright then.  I'll be on my way."
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         8
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "You seem like a capable warrior.  Why don't you find out what is causing the evil yourself?"
     },
     {
-      "Comment" : "",
       "EntriesList" : [
         9
       ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "So it's all about making money instead of saving this town?"
     },
     {
-      "Comment" : "",
-      "EntriesList" : [ ],
-      "Quest" : "",
-      "Sound" : "",
       "Text" : "Alright then.  I'll be on my way."
     }
   ],
