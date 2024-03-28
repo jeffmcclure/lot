@@ -107,6 +107,7 @@ void RemoveEffects(object oDead);
 void gplotAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int nBonusMarkDown = 0);
 // * starts store with favorable appraise check
 void gplotAppraiseFavOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int nBonusMarkDown = 0);
+void jeffAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int nBonusMarkDown = 0, int alwaysRole = 1, int hardCap = 100);
 //Do a DC check and modify the skill by the Target's Strength modifier
 int CheckDCStr(int DC, int nSkill, object oTarget);
 //Check to see if target is PC and not DM
@@ -286,7 +287,7 @@ void gplotAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int
         nAdjust = -30;
     nBonusMarkUp = nBonusMarkUp + nAdjust;
     nBonusMarkDown = nBonusMarkDown - nAdjust;
-    OpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
+    jeffAppraiseOpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
 }
 
 //::///////////////////////////////////////////////
@@ -354,7 +355,7 @@ void gplotAppraiseFavOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, 
 
     nBonusMarkUp = nBonusMarkUp + nAdjust;
     nBonusMarkDown = nBonusMarkDown - nAdjust;
-    OpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
+    jeffAppraiseOpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
 }
 
 
@@ -721,6 +722,7 @@ int AutoDC(int DC, int nSkill, object oTarget)
     Difficult = Lvl * 1.5 + 6 ...rounded up
     */
     int nLevel = GetHitDice(OBJECT_SELF);
+
     int nTest = 0;
 
     // * July 2
@@ -742,8 +744,6 @@ int AutoDC(int DC, int nSkill, object oTarget)
         case DC_EPIC: nTest = 28 + FloatToInt(nLevel * 1.5 + 6) - abs( ( FloatToInt(nLevel/1.5) -2)); break;
     }
 
-
-
     // *********************************
     // * CHARM/DOMINATION
     // * If charmed or dominated the NPC
@@ -757,12 +757,16 @@ int AutoDC(int DC, int nSkill, object oTarget)
     if (nDC < 1 )
         nDC = 1;
 
+    int d20Roll = d20();
     // * Roll d20 + skill rank vs. DC + 10
-    if (GetSkillRank(nSkill, oTarget) + d20() >= (nDC) )
-    {
+    int skillRank = GetSkillRank(nSkill, oTarget);
+    string rollMessage = "(skillRank " + IntToString(skillRank) + ") + (d20 roll " + IntToString(d20Roll) + ") vs (DC " + IntToString(nDC) + ")";
+    if ( skillRank + d20Roll >= (nDC) ) {
+       SendMessageToPC(oTarget, "SUCCESS " + rollMessage);
        return TRUE;
     }
-       return FALSE;
+    SendMessageToPC(oTarget, "FAIL " + rollMessage);
+    return FALSE;
 }
 
 ///////////////////////////////////////////////////////////////////////////////
