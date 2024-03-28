@@ -1,9 +1,0 @@
-void main()
-{
- //ActionUseTalentOnObject(TALENT_CATEGORY_BENEFICIAL_ENHANCEMENT_POTION, GetObjectByTag("NW_IT_MPOTION016"));
- ActionPlayAnimation(ANIMATION_FIREFORGET_DRINK, 1.0);
- DestroyObject(GetObjectByTag("NW_IT_MPOTION016"));
- ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectTemporaryHitpoints(d8(1)), OBJECT_SELF, 120.0);
- ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectAttackIncrease(1, ATTACK_BONUS_MISC), OBJECT_SELF, 120.0);
- ApplyEffectToObject(DURATION_TYPE_TEMPORARY, EffectSavingThrowIncrease(SAVING_THROW_WILL, 1, SAVING_THROW_TYPE_FEAR), OBJECT_SELF, 120.0);
-}
