@@ -1,7 +1,7 @@
+[Back to README.md](README.md)
+
 # Changelog
-## 2.0.0 &mdash; 2024-02-14
-* [ ] TODO Multi-player: on entry copy all quests from other players
-* [ ] TODO : level up players to match the highest level when they enter
+## 2.0.0 &mdash; 2024-03-22
 * Multi-player: Chests create private loot for each player
 * Multi-player: Don't destroy TheeMon ; allow him to remain for late joiners
 * Multi-player: Allow late joiners to receive free loot from TheeMon, but don't distribute double nor greeting xp
