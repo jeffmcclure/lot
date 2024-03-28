@@ -1,3 +1,18 @@
+# see docker.sh
+
+below is old for reference
+
+docker exec -it mycoolserver bash
+
+apt-get update
+apt-get install vim
+apt-get install procps
+apt-get install curl
+apt-get install file
+
+
+
+
 #
 # amr64 images
 #
@@ -15,24 +30,14 @@ docker run -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0
 # the above arm images result in a buggy nwn server; use amd64 image for now
 #
 docker run --platform linux/amd64 --rm -it -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 1.7.4' nwnxee/unified:build8193.36.11
-docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 1.7.4' nwnxee/unified:build8193.36.11
+docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=0 -e NWN_SERVERNAME='The Lord of Terror 1.7.4' nwnxee/unified:build8193.36.11
 
 #
 # nginx
 #
+cd /Users/jeffmcclure/lot/webserver
 docker run -dit -p 192.168.7.229:8000:80 --name nwn_nginx -v $(pwd):/usr/share/nginx/html nginx
 
-apt-get update
-apt-get install vim
-apt-get install procps
-apt-get install curl
-apt-get install file
-
-
-docker exec -it mycoolserver bash
-
-
 ~/d/nwn/nwsync/bin/nwsync_write --description="My Cool Module Server Data V1" /Users/jeffmcclure/tmp/t/32586 modules/lot_1_7_4.mod
-
 
 issue may have been in the source directory that docker is run from
