@@ -3,6 +3,7 @@
 * Don't destroy TheeMon ; allow him to remain for late joiners
 * Allow late joiners to receive free loot from TheeMon, but don't distribute double nor greeting xp
 * Each player must speak to TheeMon to get free loot
+* [ ] TODO : if you back out of the conversation with Jarulf or Janna at the second prompt, it breaks their conversation and you cannot talk to them again.
 * [ ] TODO : Each player should speak to TheeMon before leaving starting area
 * [ ] TODO : level up players to match the highest level when they enter
 * Quests usually given to all party members; exceptions are by design

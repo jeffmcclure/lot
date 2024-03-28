@@ -11,7 +11,7 @@ int StartingConditional() {
 
     // Failsafe - trying to resolve bug where henchmen will not rejoin after separation
     if (formerMaster == OBJECT_INVALID) {
-        SendMessageToPC(GetPCSpeaker(),"formerMaster == OBJECT_INVALID");
+        //SendMessageToPC(GetPCSpeaker(),"formerMaster == OBJECT_INVALID");
         return FALSE;
     }
 

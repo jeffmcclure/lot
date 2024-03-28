@@ -7,4 +7,6 @@ void main() {
     RewardPartyXP(250, oPC, TRUE);
     AddJournalQuestEntry("QST_MAINMODULE", 1, oPC, FALSE, FALSE); // only give to player not party
     AddJournalQuestEntry("QST_WELCOME_BACK", 2, oPC, FALSE, FALSE); // only give to player not party
+    if (GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OLD_ACQUAINTANCE") < 1)
+        AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", 1, oPC, TRUE); // give to party
 }
