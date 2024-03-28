@@ -96,4 +96,3 @@ void JeffCreateObjectOnAllPartyMembers(
         oMember=GetNextFactionMember(oPC, TRUE);
     }
 }
-
