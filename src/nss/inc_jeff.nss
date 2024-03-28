@@ -96,3 +96,11 @@ void JeffCreateObjectOnAllPartyMembers(
         oMember=GetNextFactionMember(oPC, TRUE);
     }
 }
+
+void DestroyAllByTag(string sTag) {
+    while (TRUE) {
+        object oTarget = GetObjectByTag("KEY_BUTCHER");
+        if (oTarget == OBJECT_INVALID) return;
+        DestroyObject(oTarget, 0.5);
+    }
+}
