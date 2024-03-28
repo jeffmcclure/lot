@@ -1,3 +1,5 @@
+#include "loot_inc_data"
+
 //::///////////////////////////////////////////////
 //:: LOOT_INC_MAIN - Based off of the BioWare
 //:: treasure scripts but with many modifications.
@@ -4559,5 +4561,74 @@ int nDetermineClassToUse(object oCharacter)
     return nClass;
 }
 
+int LOOT_INC_MAIN_DEBUGGING = TRUE;
+//int GetMaxAllowedLevel (object oCaller);
+//int GetMinimumLevel (object oCaller);
+//int GetMinimumNumberOfItemsToGenerate (object oCaller);
+//int GetMaximumNumberOfItemsToGenerate (object oCaller);
+//int GetTotalAvailableItems (object oCaller);
+//string GetUniqueItemFromList (object oCaller,int iNumber);
 
+void GenerateUniqueTreasure (object oCaller,object oPC)
+{
+    SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 1");
+    int iMinimumLevel = GetMinimumLevel (oCaller);
+    int iNumberOfItemsToGenerate = 1;
+    int iMinimum = GetMinimumNumberOfItemsToGenerate (oCaller);
+    int iMaximum = GetMaximumNumberOfItemsToGenerate (oCaller);
+    if (iNumberOfItemsToGenerate < iMinimum) iNumberOfItemsToGenerate = iMinimum;
+    if (iNumberOfItemsToGenerate > iMaximum) iNumberOfItemsToGenerate = iMaximum;
 
+    SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 2");
+    int iNumItemsInList = GetTotalAvailableItems (oCaller);
+    SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 3");
+
+    int iRandomNumber;
+    string sItemTemplate;
+    int iCounter;
+
+    for (iCounter = 0; iCounter < iNumberOfItemsToGenerate; iCounter ++) {
+        SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 4");
+        iRandomNumber = Random (iNumItemsInList)+1;
+        sItemTemplate = GetUniqueItemFromList (oCaller, iRandomNumber);
+        SendMessageToPC(GetFirstPC(), "sItemTemplate='" + sItemTemplate + "'");
+        object oItem = CreateItemOnObject (sItemTemplate,oCaller,1);
+        SendMessageToPC(GetFirstPC(), "isValid = " + IntToString(GetIsObjectValid(oItem)));
+        SendMessageToPC(GetFirstPC(), "GenerateUniqueTreasure() 5");
+        if (LOOT_INC_MAIN_DEBUGGING == TRUE)
+            WriteTimestampedLogEntry (GetTag (oCaller) + " generated " + sItemTemplate);
+    }
+}
+
+void TreasureChest(int nTreasureType) {
+    object oLastOpener = GetLastOpenedBy();
+
+    string charName = GetName(oLastOpener);
+
+    if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
+        return;
+    }
+
+    SetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName, 1);
+
+    GenerateTreasure(nTreasureType, oLastOpener, OBJECT_SELF);
+}
+void TreasureChestLow() {
+    TreasureChest(TREASURE_LOW);
+}
+void TreasureChestMedium() {
+    TreasureChest(TREASURE_MEDIUM);
+}
+void TreasureChestHigh() {
+    TreasureChest(TREASURE_HIGH);
+}
+void TreasureChestBoss() {
+    TreasureChest(TREASURE_BOSS);
+}
+void TreasureChestBook() {
+    TreasureChest(TREASURE_BOOK);
+}
+void TreasureChestUnique(object oCaller,object oPC) {
+    SendMessageToPC(GetFirstPC(), "TreasureChestUnique()");
+    GenerateUniqueTreasure(oCaller, oPC);
+}
