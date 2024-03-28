@@ -4369,7 +4369,7 @@ void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn, s
      else
       dbSpeak("other stuff");
 
-      MessageAll("limitAcquire='" + limitAcquire + "'");
+      //MessageAll("limitAcquire='" + limitAcquire + "'");
       if (limitAcquire != "") {
         SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
       }
