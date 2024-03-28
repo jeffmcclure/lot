@@ -2,4 +2,5 @@
 
 void main() {
     TreasureChestMedium();
+    ShoutDisturbed();
 }

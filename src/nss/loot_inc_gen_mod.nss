@@ -1,6 +1,43 @@
 #include "loot_inc_data"
 #include "inc_jeff"
 
+object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
+    SendMessageToPC(GetFirstPC(), "CreateLoot() 1");
+    if (!GetIsPC(oPC)) {
+        MessageAll("CreateLoot(): non-PC parameter passed");
+        return OBJECT_INVALID;
+    }
+    SendMessageToPC(GetFirstPC(), "CreateLoot() 2");
+    string charName = GetName(oPC);
+    if (charName == "") {
+        MessageAll("CreateLoot() : charName is blank");
+        return OBJECT_INVALID;
+    }
+    SendMessageToPC(GetFirstPC(), "CreateLoot() 3");
+
+    object treasure;
+
+    // if Loot Genie
+    if (GetItemPossessedBy(oPC, "D1_LOOT_GENIE") != OBJECT_INVALID) {
+        SendMessageToPC(GetFirstPC(), "CreateLoot() 4");
+        treasure = CreateItemOnObject(sItemTemplate, oPC, nStackSize);
+    } else {
+        SendMessageToPC(GetFirstPC(), "CreateLoot() 5");
+        // normal loot
+        treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
+
+        // if party loot system
+        SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
+    }
+
+    return treasure;
+}
+
+int IsDeadCreature() {
+    return GetIsObjectValid(GetLastKiller());
+}
+
+
 //::///////////////////////////////////////////////
 //:: LOOT_INC_MAIN - Based off of the BioWare
 //:: treasure scripts but with many modifications.
@@ -127,18 +164,15 @@ void dbSpeak(string s)
 }
 
 //* made this function to help with debugging
-object dbCreateItemOnObject(string sItemTemplate, object oTarget = OBJECT_SELF, int nStackSize = 1)
-{
-    if (sItemTemplate == "")
-    {
+object dbCreateItemOnObject(string sItemTemplate, object oTarget, object oPC, int nStackSize = 1) {
+    if (sItemTemplate == "") {
         PrintString("blank item passed into dbCreateItemOnObject. Please report as bug to Brent.");
     }
     dbSpeak(sItemTemplate);
 
     //sItemTemplate = GetStringLowerCase
 
-    if (nStackSize == 1)
-    {
+    if (nStackSize == 1) {
         // * checks to see if this is a throwing item and if it is
         // * it creates more
 
@@ -149,9 +183,8 @@ object dbCreateItemOnObject(string sItemTemplate, object oTarget = OBJECT_SELF, 
             nStackSize = Random(30) + 1;
         }
     }
-    object oItem = CreateItemOnObject(sItemTemplate, oTarget, nStackSize);
-    if (GetIsObjectValid(oItem) == FALSE && sItemTemplate != "NW_IT_GOLD001")
-    {
+    object oItem = CreateLoot(sItemTemplate, oTarget, oPC, nStackSize);
+    if (GetIsObjectValid(oItem) == FALSE && sItemTemplate != "NW_IT_GOLD001") {
 
         // * check to see if item is there in a stack, if not give warning
         if (GetIsObjectValid(GetItemPossessedBy(oTarget, GetStringUpperCase(sItemTemplate))) == FALSE &&
@@ -171,21 +204,18 @@ object dbCreateItemOnObject(string sItemTemplate, object oTarget = OBJECT_SELF, 
 // *
 
 // * Returns the object that either last opened the container or destroyed it
-object GetLastOpener()
-{
-    if (GetIsObjectValid(GetLastOpenedBy()) == TRUE)
-    {
+object GetLastOpenerOrKiller() {
+    if (GetIsObjectValid(GetLastOpenedBy()) == TRUE) {
         dbSpeak("LastOpener: GetLastOpenedBy " + GetTag(GetLastOpenedBy()));
         return GetLastOpenedBy();
-    }
-    else
-    if (GetIsObjectValid(GetLastKiller()) == TRUE)
-    {
+    } else if (GetIsObjectValid(GetLastKiller()) == TRUE) {
         dbSpeak("LastOpener: GetLastAttacker");
         return GetLastKiller();
+    } else {
+        return GetFirstPC();
     }
-    dbSpeak("LastOpener: The Object is Invalid you weenie!");
-    return OBJECT_INVALID;
+    //dbSpeak("LastOpener: The Object is Invalid you weenie!");
+    //return OBJECT_INVALID;
 }
 
 //::///////////////////////////////////////////////
@@ -314,7 +344,7 @@ int GetNumberOfItems(int nTreasureType)
     // *
     // * Non-Scaling Treasure
     // *
-    object CreateBook(object oTarget)
+    object CreateBook(object oTarget, object oPC)
     {
         int nBook1 = Random(31) + 1;
         string sRes = "NW_IT_BOOK01";
@@ -328,10 +358,10 @@ int GetNumberOfItems(int nTreasureType)
             sRes = "NW_IT_BOOK0" + IntToString(nBook1);
         }
         dbSpeak("Create book");
-        return dbCreateItemOnObject(sRes, oTarget);
+        return dbCreateItemOnObject(sRes, oTarget, oPC);
     }
 
-    object CreateAnimalPart(object oTarget)
+    object CreateAnimalPart(object oTarget, object oPC)
     {
 
         string sRes = "";
@@ -343,10 +373,10 @@ int GetNumberOfItems(int nTreasureType)
             case 3: sRes = "NW_IT_MMIDMISC06"; break;
         }
         dbSpeak("animal");
-        return dbCreateItemOnObject(sRes, oTarget);
+        return dbCreateItemOnObject(sRes, oTarget, oPC);
     }
 
-    object CreateJunk(object oTarget)
+    object CreateJunk(object oTarget, object oPC)
     {
         string sRes = "NW_IT_TORCH001";
         int NUM_ITEMS = 6;
@@ -362,7 +392,7 @@ int GetNumberOfItems(int nTreasureType)
             case 6: sRes = "NW_IT_TORCH001"; break; //torch
         }
         dbSpeak("CreateJunk");
-        return dbCreateItemOnObject(sRes, oTarget);
+        return dbCreateItemOnObject(sRes, oTarget, oPC);
     }
     // *
     // * Scaling Treasure
@@ -408,7 +438,7 @@ int GetNumberOfItems(int nTreasureType)
             nAmount = 1;
         }
         dbSpeak("gold");
-        return dbCreateItemOnObject("NW_IT_GOLD001", oTarget, nAmount);
+        return dbCreateItemOnObject("NW_IT_GOLD001", oTarget, oAdventurer, nAmount);
     }
     object CreateGem(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
     {
@@ -492,7 +522,7 @@ int GetNumberOfItems(int nTreasureType)
             }
         }
       dbSpeak("Create Gem");
-      return dbCreateItemOnObject(sGem, oTarget, 1);
+      return dbCreateItemOnObject(sGem, oTarget, oAdventurer);
     }
     object CreateJewel(object oTarget, object oAdventurer, int nTreasureType, int nModifier = 0)
     {
@@ -564,7 +594,7 @@ int GetNumberOfItems(int nTreasureType)
         }
       dbSpeak("Create Jewel");
 
-      return dbCreateItemOnObject(sJewel, oTarget, 1);
+      return dbCreateItemOnObject(sJewel, oTarget, oAdventurer);
     }
     
     // * returns the valid upper limit for any arcane spell scroll
@@ -647,7 +677,7 @@ int GetNumberOfItems(int nTreasureType)
         {
             sRes = "NW_IT_SPARSCR" + IntToString(nLevel) + IntToString(nScroll);
         }
-          return dbCreateItemOnObject(sRes, oTarget, 1);
+          return dbCreateItemOnObject(sRes, oTarget, oAdventurer);
     }
 
     object CreateDivineScroll(object oTarget, object oAdventurer, int nModifier=0)
@@ -714,7 +744,7 @@ int GetNumberOfItems(int nTreasureType)
         }
         dbSpeak("Divine Scroll");
 
-        return dbCreateItemOnObject(sScroll, oTarget, 1);
+        return dbCreateItemOnObject(sScroll, oTarget, oAdventurer);
     }
     
     object CreateAmmo(object oTarget, object oAdventurer, int nModifier=0)
@@ -800,7 +830,7 @@ int GetNumberOfItems(int nTreasureType)
             }
         }
         dbSpeak("ammo");
-        return dbCreateItemOnObject(sAmmo, oTarget, Random(30) + 1); // create up to 30 of the specified ammo type
+        return dbCreateItemOnObject(sAmmo, oTarget, oAdventurer, Random(30) + 1); // create up to 30 of the specified ammo type
     }
 
     object CreateTrapKit(object oTarget, object oAdventurer, int nModifier = 0)
@@ -951,7 +981,7 @@ int GetNumberOfItems(int nTreasureType)
 
         }
         dbSpeak("Create Trapkit");
-        return dbCreateItemOnObject(sKit, oTarget, 1);
+        return dbCreateItemOnObject(sKit, oTarget, oAdventurer);
 
     }
     object CreateHealingKit(object oTarget, object oAdventurer, int nModifier = 0)
@@ -1018,7 +1048,7 @@ int GetNumberOfItems(int nTreasureType)
         }
         dbSpeak("Create Healing Kit");
 
-        return dbCreateItemOnObject(sKit, oTarget, 1);
+        return dbCreateItemOnObject(sKit, oTarget, oAdventurer);
 
     }
     object CreateLockPick(object oTarget, object oAdventurer, int nModifier = 0)
@@ -1093,7 +1123,7 @@ int GetNumberOfItems(int nTreasureType)
         }
        dbSpeak("Create Lockpick");
 
-        return dbCreateItemOnObject(sKit, oTarget, 1);
+        return dbCreateItemOnObject(sKit, oTarget, oAdventurer);
     }
     
     object CreateKit(object oTarget, object oAdventurer, int nModifier = 0)
@@ -1212,7 +1242,7 @@ int GetNumberOfItems(int nTreasureType)
         }
 
         dbSpeak("Create Potion");
-        return dbCreateItemOnObject(sPotion, oTarget, 1);
+        return dbCreateItemOnObject(sPotion, oTarget, oAdventurer);
     }
     
     //::///////////////////////////////////////////////
@@ -1477,7 +1507,7 @@ int GetNumberOfItems(int nTreasureType)
              }
              dbSpeak("Create Misc");
 
-             return dbCreateItemOnObject(sItem, oTarget, 1);
+             return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
          }
 
          // * this function just returns an item that is more appropriate
@@ -1526,7 +1556,7 @@ int GetNumberOfItems(int nTreasureType)
                        case 3: sItem = "nw_it_medkit003"; break;
                        case 4: sItem = "nw_it_medkit004"; break;
                    }
-                  return dbCreateItemOnObject(sItem, oTarget, 1);
+                  return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
             }
             else
             if (GetLevelByClass(CLASS_TYPE_MONK, oAdventurer)>= 1)
@@ -1630,7 +1660,7 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Rod staff wand");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
 
         object CreateGenericMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0)
@@ -1746,7 +1776,7 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Monk Weapon");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         object CreateSpecificMonkWeapon(object oTarget, object oAdventurer, int nModifier = 0)
         {
@@ -1887,7 +1917,7 @@ int GetNumberOfItems(int nTreasureType)
             }
            dbSpeak("Specific Monk Weapon");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
 
         object CreateGenericDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2002,7 +2032,7 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Druid weapon");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateSpecificDruidWeapon(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2078,7 +2108,7 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("specific druid weapon");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
 
         object CreateGenericWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2163,7 +2193,7 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Generic Wizard or Sorcerer Weapon");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateSpecificWizardWeapon(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2236,7 +2266,7 @@ int GetNumberOfItems(int nTreasureType)
             }
           dbSpeak("Specific Wizard or Sorcerer Weapon");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
 
         object CreateGenericSimple(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2404,7 +2434,7 @@ int GetNumberOfItems(int nTreasureType)
             }
             dbSpeak("Create Generic SImple; Specific = " + IntToString(nModifier));
 
-            return dbCreateItemOnObject(sItem, oTarget, 1);
+            return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateGenericMartial(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2589,7 +2619,7 @@ int GetNumberOfItems(int nTreasureType)
 
             dbSpeak("Create Generic Martial");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateGenericExotic(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2722,7 +2752,7 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create generic exotic");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateGenericLightArmor(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2822,7 +2852,7 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create Generic light");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateGenericMediumArmor(object oTarget, object oAdventurer, int nModifier = 0)
@@ -2950,7 +2980,7 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create Generic medium");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateGenericHeavyArmor(object oTarget, object oAdventurer, int nModifier = 0)
@@ -3057,7 +3087,7 @@ int GetNumberOfItems(int nTreasureType)
             }
                   dbSpeak("Create Generic heavy");
 
-           return dbCreateItemOnObject(sItem, oTarget, 1);
+           return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         // *
@@ -3182,7 +3212,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                return dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateSpecificRodStaffWand(object oTarget, object oAdventurer)
@@ -3255,7 +3285,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                return dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
 
 
@@ -3394,7 +3424,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                return dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         object CreateSpecificMartial(object oTarget, object oAdventurer)
         {
@@ -3587,7 +3617,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                return dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         object CreateSpecificExotic(object oTarget, object oAdventurer)
         {
@@ -3718,7 +3748,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                return dbCreateItemOnObject(sItem, oTarget, 1);
+                return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         object CreateSpecificLightArmor(object oTarget, object oAdventurer)
         {
@@ -3815,7 +3845,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-              return dbCreateItemOnObject(sItem, oTarget, 1);
+              return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateSpecificMediumArmor(object oTarget, object oAdventurer)
@@ -3901,7 +3931,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                  return dbCreateItemOnObject(sItem, oTarget, 1);
+                  return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         object CreateSpecificHeavyArmor(object oTarget, object oAdventurer)
@@ -3991,7 +4021,7 @@ int GetNumberOfItems(int nTreasureType)
                    }
 
             }
-                  return dbCreateItemOnObject(sItem, oTarget, 1);
+            return dbCreateItemOnObject(sItem, oTarget, oAdventurer);
         }
         
         // * if nSpecific is = 1 then spawn in 'named' items at the higher levels
@@ -4341,11 +4371,11 @@ void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn, s
      int nRandom = d100();
      object treasure;
      if (nRandom <= nProbBook)
-        treasure = CreateBook(oCreateOn);                                // * Book
+        treasure = CreateBook(oCreateOn, oLastOpener);                                // * Book
      else if (nRandom <= nProbBook + nProbAnimal)
-        treasure = CreateAnimalPart(oCreateOn);                          // * Animal
+        treasure = CreateAnimalPart(oCreateOn, oLastOpener);                          // * Animal
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk)
-        treasure = CreateJunk(oCreateOn);                                // * Junk
+        treasure = CreateJunk(oCreateOn, oLastOpener);                                // * Junk
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold)
         treasure = CreateGold(oCreateOn, oLastOpener, nTreasureType);    // * Gold
      else if (nRandom <= nProbBook + nProbAnimal + nProbJunk + nProbGold + nProbGem)
@@ -4501,7 +4531,7 @@ void ShoutDisturbed()
            if (GetFactionEqual(oTarget, OBJECT_SELF) == TRUE)
            {
                // * Make anyone who is a member of my faction hostile if I am violated
-           object oAttacker = GetLastOpener();
+           object oAttacker = GetLastOpenerOrKiller();
            SetIsTemporaryEnemy(oAttacker,oTarget);
            AssignCommand(oTarget, ActionAttack(oAttacker));
 
@@ -4582,8 +4612,7 @@ int LOOT_INC_MAIN_DEBUGGING = TRUE;
 //int GetTotalAvailableItems (object oCaller);
 //string GetUniqueItemFromList (object oCaller,int iNumber);
 
-void GenerateUniqueTreasure (object oCaller,object oTarget, string limitAcquire = "")
-{
+void GenerateUniqueTreasure(object oCaller, object oTarget, object oPC) {
     int iMinimumLevel = GetMinimumLevel (oCaller);
     int iNumberOfItemsToGenerate = 1;
     int iMinimum = GetMinimumNumberOfItemsToGenerate (oCaller);
@@ -4600,56 +4629,37 @@ void GenerateUniqueTreasure (object oCaller,object oTarget, string limitAcquire 
     for (iCounter = 0; iCounter < iNumberOfItemsToGenerate; iCounter ++) {
         iRandomNumber = Random (iNumItemsInList)+1;
         sItemTemplate = GetUniqueItemFromList (oCaller, iRandomNumber);
-        object treasure = CreateItemOnObject (sItemTemplate,oTarget,1);
-        if (limitAcquire != "") {
-            SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
-        }
-        //SendMessageToPC(GetFirstPC(), "isValid = " + IntToString(GetIsObjectValid(treasure)));
+        object treasure = CreateLoot(sItemTemplate, oTarget, oPC);
         if (LOOT_INC_MAIN_DEBUGGING == TRUE)
             WriteTimestampedLogEntry (GetTag (oCaller) + " generated " + sItemTemplate);
     }
 }
 
-void GenTreasure(int nTreasureType, object oLastOpener, object oCreateOn, string limitAcquire = "") {
+void GenTreasure(int nTreasureType, object oCreateOn, object oLastOpener) {
     if (nTreasureType == TREASURE_UNIQUE) {
-        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn, limitAcquire);
+        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn, oLastOpener);
         if (oCreateOn == GetLastOpenedBy()) {
             ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oCreateOn);
         }
     } else {
-        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn, limitAcquire);
+        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn);
     }
 }
 
 void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
     //SendMessageToPC(GetFirstPC(), "TreasureChest() enter");
-    object oLastOpener = GetLastOpenedBy();
+    object oLastOpener = GetLastOpenerOrKiller();
 
-    // this script is called on both OnUsed, OnOpen, and OnDeath events
-    if (!GetIsObjectValid(oLastOpener)) {
-        oLastOpener = GetLastKiller();
-    }
-
-    // failsafe
-    if (!GetIsObjectValid(oLastOpener)) {
-        oLastOpener = GetFirstPC();
-    }
-
-    string charName = GetName(oLastOpener);
-
-    //if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
     if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE") != 0) {
         return;
     }
 
-    //SetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName, 1);
     SetLocalInt(OBJECT_SELF, "NW_DO_ONCE", 1);
 
     object oMember = GetFirstFactionMember(oLastOpener, TRUE);
 
     while (GetIsObjectValid(oMember)) {
-      string charName = GetName(oMember);
-      GenTreasure(nTreasureType, oMember, oCreateOn, charName);
+      GenTreasure(nTreasureType, oCreateOn, oMember);
       oMember = GetNextFactionMember(oLastOpener, TRUE);
     }
 }
@@ -4673,20 +4683,67 @@ void TreasureChestUnique() {
     TreasureChest(TREASURE_UNIQUE, OBJECT_SELF);
 }
 
-void PopulateLootForParty(object oPC, object target) {
+void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
+
+    if (oPC == OBJECT_INVALID)
+        oPC = GetLastOpenerOrKiller();
+
+    SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 1");
     int i;
     for (i = 0; i < 5; i++) {
         string lootResRef = GetLocalString(target, "loot" + IntToString(i));
         if (lootResRef == "") continue;
+        SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 2 " + lootResRef);
 
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
-            string charName = GetName(oMember);
-            if (charName != "") {
-                object treasure = CreateItemOnObject(lootResRef, target);
-                SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
-            }
+            SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 3");
+            CreateLoot(lootResRef, target, oPC);
             oMember = GetNextFactionMember(oPC, TRUE);
         }
+    }
+
+    int gold = GetLocalInt(target, "loot_gold");
+    if (gold > 0) {
+        object oMember = GetFirstFactionMember(oPC, TRUE);
+        while (GetIsObjectValid(oMember)) {
+            SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold");
+            CreateLoot("nw_it_gold001", target, oPC, gold);
+            oMember = GetNextFactionMember(oPC, TRUE);
+        }
+    }
+}
+
+// For each item in the container, re-create a copy for each player and destroy the original item
+// for each item in the current inventory set "loot.*" properties
+// then PopulateLootForParty() will create items for each party member based on loot.* properties
+void MoveInventoryLootToProperties() {
+    SendMessageToPC(GetFirstPC(), "loot_partyfi1 1");
+    if (GetLocalInt(OBJECT_SELF, "ONCE") > 0) return;
+    SetLocalInt(OBJECT_SELF, "ONCE", 1);
+
+    // destroy container contents and create properties
+    object oItem = GetFirstItemInInventory(OBJECT_SELF);
+    int loop = 0;
+    int isDeadCreature = IsDeadCreature();
+    SendMessageToPC(GetFirstPC(), "loot_partyfi1 2 isDeadCreature=" + IntToString(isDeadCreature));
+    while (GetIsObjectValid(oItem)) {
+        string resref = GetResRef(oItem);
+        SendMessageToPC(GetFirstPC(), "loot_partyfi1 3 " + resref);
+        SendMessageToPC(GetFirstPC(), "loot_partyfi1 4 " + GetName(oItem));
+        if (!isDeadCreature || GetDroppableFlag(oItem)) {
+            SendMessageToPC(GetFirstPC(), "loot_partyfi1 5 DROPPABLE");
+            if (resref == "nw_it_gold001") {
+                SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetGoldPieceValue " + IntToString(GetGoldPieceValue(oItem)));
+                SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetItemStackSize " + IntToString(GetItemStackSize(oItem)));
+                SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetGold " + IntToString(GetGold(oItem)));
+                SetLocalInt(OBJECT_SELF, "loot_gold",  GetItemStackSize(oItem));
+            } else {
+                SetLocalString(OBJECT_SELF, "loot" + IntToString(loop), resref);
+            }
+            DestroyObject(oItem);
+        }
+        oItem = GetNextItemInInventory(OBJECT_SELF);
+        loop = loop + 1;
     }
 }

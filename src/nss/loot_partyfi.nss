@@ -5,5 +5,6 @@ void main() {
     if (GetLocalInt(OBJECT_SELF, "ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "ONCE", 1);
 
-    PopulateLootForParty(GetLastOpenedBy(), OBJECT_SELF);
+    // create per-player loot based on container properties
+    PopulateLootForParty(OBJECT_SELF, GetLastOpenerOrKiller());
 }

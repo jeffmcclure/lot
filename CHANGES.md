@@ -2,7 +2,8 @@
 
 # Changelog
 ## 2.0.2 &mdash; 2024-03-25
-* [ ] todo: Loot genie
+* New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  For sale from the Witch
+* [ ] todo: items in inventory when monster killed, will use loot genie
 * [ ] todo: Dark Souls death recovery system
 
 

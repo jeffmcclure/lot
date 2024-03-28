@@ -1,5 +1,128 @@
 {
+  "ModName" : "The Lord of Terror 2.0.2",
+  "ModDescription" : "The Lord of Terror - The Diablo Campaign (v2.0.2)\n\nThis is a remake of the original Diablo game published by Blizzard Entertainment, along with its expansion, Hellfire, published by Sierra Online.  This reimagining of the Diablo saga features all the original quests, plus additional story-related side quests that will further enhance the engrossing story of the Diablo saga.\n\nThis module was created by Tolitz Rosel.  Version 1.06 last updated November 27, 2004.  For game hints and walkthrough, visit http://nwn.tolitz.com/lordofterror/\n\nVersion 2.0.2 and beyond updated and enhanced by Jeff McClure in 2024, https://github.com/jeffmcclure/lot",
   "ExpansionPack" : 3,
+  "ModCreatorID" : 2,
+  "ModCustomTlk" : "cep3.1",
+  "ModCutSceneList" : [ ],
+  "ModDawnHour" : 6,
+  "ModDuskHour" : 18,
+  //
+  // Catacomb First Level entry
+  //
+  //  "ModEntryArea" : "catacomb1",
+  //  "ModEntryX" : 26,
+  //  "ModEntryY" : 109,
+  //  "ModEntryZ" : 0,
+  //
+  // Catacomb 3rd Level outside leoric
+  //
+//    "ModEntryArea" : "cathedral3",
+//    "ModEntryX" : 94,
+//    "ModEntryY" : 45,
+//    "ModEntryZ" : 0,
+  //
+  // King Leoric
+  //
+  //  "ModEntryArea" : "thetombofkingleo",
+  //  "ModEntryX" : 88,
+  //  "ModEntryY" : 37,
+  //  "ModEntryZ" : 0,
+  //
+  // The Butcher
+  //
+  //  "ModEntryArea" : "cathedral2",
+  //  "ModEntryX" : 141,
+  //  "ModEntryY" : 36,
+  //  "ModEntryZ" : 0.0,
+  //
+  // Tavern
+  //
+  //  "ModEntryArea" : "tavernoftherisin",
+  //  "ModEntryX" : 6.8,
+  //  "ModEntryY" : 4.6,
+  //  "ModEntryZ" : 0.5,
+  //
+  // Cathedral 1 - inside main entrance
+  //
+    "ModEntryArea" : "cathedral1",
+    "ModEntryX" : 26.6,
+    "ModEntryY" : 107,
+    "ModEntryZ" : 0.0,
+  //
+  //
+  // Cathedral 4 - snotspill
+  //
+  //  "ModEntryArea" : "cathedral4",
+  //  "ModEntryX" : 79,
+  //  "ModEntryY" : 65,
+  //  "ModEntryZ" : 0.0,
+  //
+  //  Rectory
+  //
+//    "ModEntryArea" : "cathedral1",
+//    "ModEntryX" : 60,
+//    "ModEntryY" : 165,
+//    "ModEntryZ" : 0,
+  //
+  //   Standard starting location
+  //
+//  "ModEntryArea" : "townentrance",
+//  "ModEntryX" : 25,
+//  "ModEntryY" : 10,
+//  "ModEntryZ" : 0,
+  //
+  //
+  //
+  "ModEntryDirX" : 0,
+  "ModEntryDirY" : 1.0,
+  "ModExpanList" : [ ],
+  "ModGVarList" : [ ],
+  "ModHakList" : [
+    "lot2",
+    "cep3_2das",
+    "cep3_armor",
+    "cep3_core0",
+    "cep3_core1",
+    "cep3_core2",
+    "cep3_core3",
+    "cep3_reforge",
+    "cep3_phenos",
+    "cep3_heads",
+    "cep3_skies",
+    "cep3_tiles",
+    "cep3_doors",
+    "cep3_portraits",
+    "cep3_facelift",
+    "cep3_vfx"
+  ],
+  "ModID" : "AAAAAAAAAAAAAAAAAAAAAA==",
+  "ModIsSaveGame" : 0,
+  "ModMinGameVer" : "1.88",
+  "ModMinPerHour" : 2,
+  "ModOnAcquirItem" : "mod_onacquire",
+  "ModOnActvtItem" : "mod_onactivate",
+  "ModOnClientEntr" : "mod_onclientent",
+  "ModOnClientLeav" : "mod_onclientgone",
+  "ModOnModLoad" : "mod_initialize",
+  "ModOnPlrDeath" : "69_o0_death",
+  "ModOnPlrDying" : "69_o0_dying",
+  "ModOnPlrEqItm" : "mod_onequip",
+  "ModOnPlrLvlUp" : "69_o0_levelup",
+  "ModOnPlrRest" : "x2_mod_def_rest",
+  "ModOnPlrUnEqItm" : "mod_onunequip",
+  "ModOnSpawnBtnDn" : "mod_respawn",
+  "ModOnUnAqreItem" : "x2_mod_def_unaqu",
+  "ModPartyControl" : 0,
+  "ModStartDay" : 1,
+  "ModStartHour" : 7,
+  "ModStartMonth" : 6,
+  "ModStartMovie" : "lot2intro",
+  "ModStartYear" : 2000,
+  "ModTag" : "MOD_DIABLO1",
+  "ModUUID" : "",
+  "ModVersion" : 3,
+  "ModXPScale" : 25,
   "ModAreaList" : [
     "tristram",
     "theoutskirts001",
@@ -90,128 +213,5 @@
     "beneathcellar001",
     "abandoned2",
     "testareax"
-  ],
-  "ModCreatorID" : 2,
-  "ModCustomTlk" : "cep3.1",
-  "ModCutSceneList" : [ ],
-  "ModDawnHour" : 6,
-  "ModDescription" : "The Lord of Terror - The Diablo Campaign (v2.0.2)\n\nThis is a remake of the original Diablo game published by Blizzard Entertainment, along with its expansion, Hellfire, published by Sierra Online.  This reimagining of the Diablo saga features all the original quests, plus additional story-related side quests that will further enhance the engrossing story of the Diablo saga.\n\nThis module was created by Tolitz Rosel.  Version 1.06 last updated November 27, 2004.  For game hints and walkthrough, visit http://nwn.tolitz.com/lordofterror/\n\nVersion 2.0.2 and beyond updated and enhanced by Jeff McClure in 2024, https://github.com/jeffmcclure/lot",
-  "ModDuskHour" : 18,
-  //
-  // Catacomb First Level entry
-  //
-  //  "ModEntryArea" : "catacomb1",
-  //  "ModEntryX" : 26,
-  //  "ModEntryY" : 109,
-  //  "ModEntryZ" : 0,
-  //
-  // Catacomb 3rd Level outside leoric
-  //
-  //  "ModEntryArea" : "cathedral3",
-  //  "ModEntryX" : 94.05878,
-  //  "ModEntryY" : 44.95443,
-  //  "ModEntryZ" : 0,
-  //
-  // King Leoric
-  //
-  //  "ModEntryArea" : "thetombofkingleo",
-  //  "ModEntryX" : 88,
-  //  "ModEntryY" : 37,
-  //  "ModEntryZ" : 0,
-  //
-  // The Butcher
-  //
-  //  "ModEntryArea" : "cathedral2",
-  //  "ModEntryX" : 141,
-  //  "ModEntryY" : 36,
-  //  "ModEntryZ" : 0.0,
-  //
-  // Tavern
-  //
-  //  "ModEntryArea" : "tavernoftherisin",
-  //  "ModEntryX" : 6.8,
-  //  "ModEntryY" : 4.6,
-  //  "ModEntryZ" : 0.5,
-  //
-  // Cathedral 1
-  //
-  //  "ModEntryArea" : "cathedral1",
-  //  "ModEntryX" : 26.6,
-  //  "ModEntryY" : 107,
-  //  "ModEntryZ" : 0.0,
-  //
-  //
-  // Cathedral 4 - snotspill
-  //
-  //  "ModEntryArea" : "cathedral4",
-  //  "ModEntryX" : 79,
-  //  "ModEntryY" : 65,
-  //  "ModEntryZ" : 0.0,
-  //
-  //  Rectory
-  //
-  //  "ModEntryArea" : "cathedral1",
-  //  "ModEntryX" : 60,
-  //  "ModEntryY" : 165,
-  //  "ModEntryZ" : 0,
-  //
-  //   Standard starting location
-  //
-  "ModEntryArea" : "townentrance",
-  "ModEntryX" : 25,
-  "ModEntryY" : 10,
-  "ModEntryZ" : 0,
-  //
-  //
-  //
-  "ModEntryDirX" : 0,
-  "ModEntryDirY" : 1.0,
-  "ModExpanList" : [ ],
-  "ModGVarList" : [ ],
-  "ModHakList" : [
-    "lot2",
-    "cep3_2das",
-    "cep3_armor",
-    "cep3_core0",
-    "cep3_core1",
-    "cep3_core2",
-    "cep3_core3",
-    "cep3_reforge",
-    "cep3_phenos",
-    "cep3_heads",
-    "cep3_skies",
-    "cep3_tiles",
-    "cep3_doors",
-    "cep3_portraits",
-    "cep3_facelift",
-    "cep3_vfx"
-  ],
-  "ModID" : "AAAAAAAAAAAAAAAAAAAAAA==",
-  "ModIsSaveGame" : 0,
-  "ModMinGameVer" : "1.88",
-  "ModMinPerHour" : 2,
-  "ModName" : "The Lord of Terror 2.0.2",
-  "ModOnAcquirItem" : "mod_onacquire",
-  "ModOnActvtItem" : "mod_onactivate",
-  "ModOnClientEntr" : "mod_onclientent",
-  "ModOnClientLeav" : "mod_onclientgone",
-  "ModOnModLoad" : "mod_initialize",
-  "ModOnPlrDeath" : "69_o0_death",
-  "ModOnPlrDying" : "69_o0_dying",
-  "ModOnPlrEqItm" : "mod_onequip",
-  "ModOnPlrLvlUp" : "69_o0_levelup",
-  "ModOnPlrRest" : "x2_mod_def_rest",
-  "ModOnPlrUnEqItm" : "mod_onunequip",
-  "ModOnSpawnBtnDn" : "mod_respawn",
-  "ModOnUnAqreItem" : "x2_mod_def_unaqu",
-  "ModPartyControl" : 0,
-  "ModStartDay" : 1,
-  "ModStartHour" : 7,
-  "ModStartMonth" : 6,
-  "ModStartMovie" : "lot2intro",
-  "ModStartYear" : 2000,
-  "ModTag" : "MOD_DIABLO1",
-  "ModUUID" : "",
-  "ModVersion" : 3,
-  "ModXPScale" : 25
+  ]
 }
