@@ -30,21 +30,27 @@ function setup1 {
 	cd "$LOT_DIR" || exit
 	mkdir lot_docker webserver 2>/dev/null
 	cd lot_docker || exit
-	echo copy ${LOT_MOD_NAME}.mod
-	echo /bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
-	mkdir modules &>/dev/null
-	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/ || exit
-	md5sum modules/lot_2_0_0.mod ~/Documents/Neverwinter\ Nights/modules/lot_2_0_0.mod
+	src="${NWN_DIR}/modules/${LOT_MOD_NAME}.mod"
+	# shellcheck disable=SC2046
+	cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"
+	if [ $? != 0 ]; then
+	  echo /bin/cp "$src"  modules/
+	  mkdir modules &>/dev/null
+	  /bin/cp "$src" modules/ || exit
+  fi
 }
 
 function supporting {
 	header "supporting"
 	cd ../lot_docker || exit
 
-	if [ ! -e hak/lot2.hak ]; then
+	src="${NWN_DIR}/hak/lot2.hak"
+	# shellcheck disable=SC2046
+	cmp --silent hak/lot2.hak "$src"
+	if [ $? != 0 ]; then
 		mkdir hak &>/dev/null
-		echo /bin/cp "${NWN_DIR}/hak/lot2.hak" hak/
-		/bin/cp "${NWN_DIR}/hak/lot2.hak" hak/ || exit
+		echo /bin/cp "$src" hak/
+		/bin/cp "$src" hak/ || exit
   fi
 
 	if [ ! -e hak/cep3_core3.hak ]; then
@@ -148,5 +154,3 @@ for i in "$@"; do
 
 	esac
 done
-
-md5sum ../lot_docker/modules/lot_2_0_0.mod ~/Documents/Neverwinter\ Nights/modules/lot_2_0_0.mod
