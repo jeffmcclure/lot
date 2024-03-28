@@ -29,7 +29,7 @@ function setup1 {
 	echo cd "$LOT_DIR"
 	cd "$LOT_DIR" || exit
 	mkdir lot_docker webserver 2>/dev/null
-	cd webserver || exit
+	cd lot_docker || exit
 	echo copy ${LOT_MOD_NAME}.mod
 	echo /bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
 	mkdir modules &>/dev/null
