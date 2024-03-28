@@ -489,13 +489,57 @@
           "LIST" : [
             {
               "ID" : 14,
+              "LIST" : [
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear",
+                  "RESREF" : "bugbeara001"
+                },
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear",
+                  "RESREF" : "bugbearb001"
+                },
+                {
+                  "CR" : 10.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear Chieftain",
+                  "RESREF" : "bugbearboss001"
+                },
+                {
+                  "CR" : 5.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear Hero",
+                  "RESREF" : "bugchiefa001"
+                },
+                {
+                  "CR" : 5.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear Hero",
+                  "RESREF" : "bugchiefb001"
+                },
+                {
+                  "CR" : 4.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear Shaman",
+                  "RESREF" : "bugwiza001"
+                },
+                {
+                  "CR" : 4.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Bugbear Shaman",
+                  "RESREF" : "bugwizb001"
+                }
+              ],
               "STRREF" : 6706
             },
             {
               "ID" : 15,
               "STRREF" : 6707
             },
-            { // monster -> humanoid -> goblin
+            {
               "ID" : 16,
               "STRREF" : 6708,
               "LIST" : [
@@ -534,6 +578,18 @@
                   "FACTION" : "Hostile",
                   "NAME" : "Goblin Shaman",
                   "RESREF" : "gobwizb001"
+                },
+                {
+                  "CR" : 0.33333334,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Hobgoblin",
+                  "RESREF" : "hobgoblin001"
+                },
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Hobgoblin Shaman",
+                  "RESREF" : "hobgoblin002"
                 }
               ]
             },
