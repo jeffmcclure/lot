@@ -36,7 +36,7 @@ if (GetIsObjectValid(oItem))
 
 RewardPartyXP(1000, oPC, TRUE);
 CreateItemOnObject("tkronring", oPC);
-AddJournalQuestEntry("QST_TKRON", 3, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_TKRON", 3, oPC, TRUE, FALSE);
 SetPartyInt(oPC, "tkrontalk", 2);
 
 }

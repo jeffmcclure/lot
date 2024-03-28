@@ -6,7 +6,7 @@ void main()
 object oPC = GetPCSpeaker();
 RewardPartyXP(1000, oPC, TRUE);
 CreateItemOnObject("jannacloak", oPC);
-AddJournalQuestEntry("QST_JANNA", 3, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_JANNA", 3, oPC, TRUE, FALSE);
 SetPartyInt(oPC, "jannatalk", 3);
 
 object oTarget;

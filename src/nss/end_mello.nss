@@ -11,7 +11,7 @@ if (GetIsObjectValid(oItem))
 
 RewardPartyXP(1000, oPC, TRUE);
 CreateItemOnObject("mellosandals", oPC);
-AddJournalQuestEntry("QST_MELLO", 3, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_MELLO", 3, oPC, TRUE, FALSE);
 //SetLocalInt(oPC, "mellotalk", 3);
 
 object oTarget;
