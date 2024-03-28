@@ -23,7 +23,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 ### Quality of Life
 * New starting item "Cloak of Fast Feet" - walk around quicker
 * Portal location moved to center of town
-* New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  For sale from the Witch
+* New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase.
 
 ### Multi-player Focused
 * Quests shared with party
@@ -40,10 +40,12 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * New haggling/appraise system for all stores (makes use of Appraise skill and Persuade attribute)
 * Some chests must now be picked open, and may not be bashed open (makes use of Lockpick skill)
 
+## Roadmap / Future Enhancements
+* Souls-like death system where gold and XP can be recovered at your most recent death location
+
 ## See also
 * [CHANGES.md](CHANGES.md)
 * [INSTALL.md](INSTALL.md)
-
 
 ## For reference
 * [The Lord of Terror 1.06](https://neverwintervault.org/project/nwn1/module/lord-terror-diablo-campaign)
