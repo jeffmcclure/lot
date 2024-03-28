@@ -19,17 +19,17 @@
       "ChallengeRating" : 0.125,
       "ClassList" : [
         {
-          "ClassLevel" : 15,
+          "ClassLevel" : 14,
           "ClassX" : 0,
           "Comment" : ""
         },
         {
-          "ClassLevel" : 15,
+          "ClassLevel" : 14,
           "ClassX" : 15,
           "Comment" : ""
         },
         {
-          "ClassLevel" : 15,
+          "ClassLevel" : 14,
           "ClassX" : 24,
           "Comment" : ""
         }
@@ -70,6 +70,9 @@
           "StructId" : 16,
           "Tag" : "NW_WSWGS001",
           "TemplateResRef" : "nw_wswgs001",
+          "XModelPart1" : 11,
+          "XModelPart2" : 11,
+          "XModelPart3" : 11,
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
@@ -122,6 +125,7 @@
           "StructId" : 65536,
           "Tag" : "D1_DEATHCLANGORE",
           "TemplateResRef" : "deathclangore",
+          "XModelPart1" : 1,
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
@@ -303,10 +307,76 @@
       "StartingPackage" : 0,
       "Str" : 10,
       "Subrace" : "",
-      "Tag" : "EPIC_DEATHCLAN",
+      "Tag" : "EPIC_DEATHCLAN01",
       "TailNew" : 68,
       "TemplateList" : [ ],
       "TemplateResRef" : "minotaur005",
+      "VisTransformList" : [
+        {
+          "AnimationSpeed" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 1.0
+          },
+          "Comment" : "",
+          "RotateX" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 0.0
+          },
+          "RotateY" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 0.0
+          },
+          "RotateZ" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 0.0
+          },
+          "ScaleX" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 1.6
+          },
+          "ScaleY" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 1.6
+          },
+          "ScaleZ" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 1.6
+          },
+          "Scope" : 0,
+          "TranslateX" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 0.0
+          },
+          "TranslateY" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 0.0
+          },
+          "TranslateZ" : {
+            "Comment" : "",
+            "LerpType" : 0,
+            "TimerType" : 0,
+            "ValueTo" : 0.0
+          }
+        }
+      ],
       "WalkRate" : 4,
       "Willbonus" : 0,
       "WingsNew" : 51,
@@ -5934,6 +6004,7 @@
           "Stolen" : 0,
           "Tag" : "D1_BLOODSTONE1",
           "TemplateResRef" : "bloodstone001",
+          "XModelPart1" : 73,
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
@@ -6107,6 +6178,7 @@
           "Stolen" : 0,
           "Tag" : "D1_BLOODSTONE2",
           "TemplateResRef" : "bloodstone002",
+          "XModelPart1" : 73,
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
@@ -7363,6 +7435,7 @@
           "Stolen" : 0,
           "Tag" : "D1_BLOODSTONE3",
           "TemplateResRef" : "bloodstone003",
+          "XModelPart1" : 73,
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,

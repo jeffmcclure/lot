@@ -19,4 +19,10 @@ void main() {
 
     object oChest = CreateObject(OBJECT_TYPE_PLACEABLE, "x0_treasure_high", loc);
     SetLocked(oChest, FALSE);
+    SetName(oChest, "Loot");
+    string monsterIdTag = GetTag(OBJECT_SELF);
+    //object oPC = GetLastKiller();
+    //SendMessageToPC(oPC, "1 monsterIdTag = '" + monsterIdTag + "'");
+    SetLocalString(oChest, "monsterIdTag", monsterIdTag);
+    SetEventScript(oChest, EVENT_SCRIPT_PLACEABLE_ON_USED, "lot_usechest");
 }
