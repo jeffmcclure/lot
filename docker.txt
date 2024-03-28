@@ -1,7 +1,6 @@
 # see docker.sh
 
-below is old for reference
-
+docker attach nwn_lot
 docker exec -it mycoolserver bash
 
 apt-get update
@@ -9,7 +8,6 @@ apt-get install vim
 apt-get install procps
 apt-get install curl
 apt-get install file
-
 
 
 
