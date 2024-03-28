@@ -1,9 +1,11 @@
+#include "jeff"
+
 void main()
 {
     object oStore = GetNearestObjectByTag("STO_TREMAYNEPREMIUM");
     if (GetObjectType(oStore) == OBJECT_TYPE_STORE)
     {
-        OpenStore(oStore, GetPCSpeaker());
+        jeffAppraiseOpenStore(oStore, GetPCSpeaker());
     }
     else
     {

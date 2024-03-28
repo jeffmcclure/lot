@@ -1,3 +1,5 @@
+#include "jeff"
+
 void main()
 {
     object oPC = GetPCSpeaker();
@@ -6,7 +8,7 @@ void main()
     object oStore = GetNearestObjectByTag("STO_WIRTSPECIALSTORE1");
     if (GetObjectType(oStore) == OBJECT_TYPE_STORE)
     {
-        OpenStore(oStore, GetPCSpeaker());
+        jeffAppraiseOpenStore(oStore, GetPCSpeaker());
     }
     else
     {
