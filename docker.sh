@@ -8,9 +8,9 @@
 
 # Input variables
 # LOT_LOCAL_IP
-# LOT_PUBLIC_IP
 # NWN_DIR
 
+LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
 DOWNLOADS=$HOME/Downloads/lot
 LOT_VERSION="2.0.0"
 LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"

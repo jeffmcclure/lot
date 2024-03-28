@@ -21,8 +21,8 @@ void main() {
     CreateItemOnObject("nw_it_mpotion001", oPC);
     CreateItemOnObject("nw_it_mpotion003", oPC);
     CreateItemOnObject("nw_it_mpotion021", oPC);
-    CreateItemOnObject("nw_it_spdvscr501", oPC);
-    CreateItemOnObject("nw_it_spdvscr702", oPC);
+    //CreateItemOnObject("nw_it_spdvscr501", oPC); // raise dead scroll
+    //CreateItemOnObject("nw_it_spdvscr702", oPC); // resurrection scroll
     CreateItemOnObject("nw_it_medkit001", oPC);
 
     /*
