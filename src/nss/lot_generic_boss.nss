@@ -22,11 +22,17 @@ void main() {
     SetName(oChest, "Loot");
     string monsterIdTag = GetTag(OBJECT_SELF);
 
-    object oPC = GetLastKiller();
-    string loot1 = GetLocalString(OBJECT_SELF, "loot1");
-    SendMessageToPC(oPC, "1 loot1 = '" + loot1 + "'");
+    int i;
+    for (i = 0; i < 5; i++) {
+        string loot = GetLocalString(OBJECT_SELF, "loot" + IntToString(i));
+        if (loot != "") {
+            SetLocalString(oChest, "loot" + IntToString(i), loot);
+        }
+    }
+
+    //object oPC = GetLastKiller();
+    //SendMessageToPC(oPC, "1 loot1 = '" + loot1 + "'");
 
     SetLocalString(oChest, "monsterIdTag", monsterIdTag);
-    SetLocalString(oChest, "loot1", "nw_it_mneck013");
     SetEventScript(oChest, EVENT_SCRIPT_PLACEABLE_ON_USED, "lot_usechest");
 }
