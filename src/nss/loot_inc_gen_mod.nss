@@ -4608,23 +4608,36 @@ void GenerateUniqueTreasure (object oCaller,object oTarget, string limitAcquire 
     }
 }
 
-void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
-    object oLastOpener = GetLastOpenedBy();
-    string charName = GetName(oLastOpener);
-
-    if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
-        //return;
-    }
-
-    SetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName, 1);
-
+void GenTreasure(int nTreasureType, object oLastOpener, object oCreateOn, string limitAcquire = "") {
     if (nTreasureType == TREASURE_UNIQUE) {
-        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn, "Clayman Orin");
+        GenerateUniqueTreasure(OBJECT_SELF, oCreateOn, limitAcquire);
         if (oCreateOn == GetLastOpenedBy()) {
             ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oCreateOn);
         }
     } else {
-        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn, "Clayman Orin");
+        GenerateTreasure(nTreasureType, oLastOpener, oCreateOn, limitAcquire);
+    }
+}
+
+void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
+    //SendMessageToPC(GetFirstPC(), "TreasureChest()");
+    object oLastOpener = GetLastOpenedBy();
+    string charName = GetName(oLastOpener);
+
+    //if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
+    if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE") != 0) {
+        return;
+    }
+
+    //SetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName, 1);
+    SetLocalInt(OBJECT_SELF, "NW_DO_ONCE", 1);
+
+    object oMember = GetFirstFactionMember(oLastOpener, TRUE);
+
+    while (GetIsObjectValid(oMember)) {
+      string charName = GetName(oMember);
+      GenTreasure(nTreasureType, oLastOpener, oCreateOn, charName);
+      oMember = GetNextFactionMember(oLastOpener, TRUE);
     }
 }
 
