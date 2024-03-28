@@ -1,11 +1,12 @@
 # Changelog
 ## 1.7.4 &mdash; 2024-02-14
-* todo: virgin scripts : use localint for TheeMon
+* (done) todo: virgin scripts : use localint for TheeMon
 * (done) todo: Don't destroy TheeMon ; allow him to remain for late joiners
-* todo: allow late joiners to receive free loot from TheeMon, but don't distribute double nor greeting xp
+* (done) todo: allow late joiners to receive free loot from TheeMon, but don't distribute double nor greeting xp
 * todo: level up players to match the highest level when they enter
-* todo: replace GetLocalInt() with GetPartyInt() for better cross team member 
-* Quests are almost always given to all party members
+* (done) todo: replace GetLocalInt() with GetPartyInt() for better cross team member 
+* Quests usually given to all party members; exceptions are by design
+* todo: remove unused code (.nss, etc)
 * For the butcher encounter, spawn one butcher for each member of the party
 * Scale King Leoric to 200% size.
 * Scale King Leoric hit points for party size.
