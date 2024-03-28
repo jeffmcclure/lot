@@ -9,7 +9,9 @@ SetPartyInt(oPC, sTag, 1);
 AddJournalQuestEntry("QST_MAINMODULE", 1, oPC, TRUE, FALSE);
 
 RewardPartyGP(1000, oPC, TRUE);
-RewardPartyXP(251, oPC, TRUE);
+
+// end_virgin.nss will give xp, so don't double up here
+//RewardPartyXP(251, oPC, TRUE);
 
 object oMember=GetFirstFactionMember(oPC, TRUE);
 
