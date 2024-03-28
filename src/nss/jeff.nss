@@ -54,12 +54,14 @@ void jeffAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int 
        SetLocalInt(oPC, "X0_APPRAISEVISITED"+sTag, 1);
 
         int playerAppraiseRole = d10();
-        SendMessageToPC(oPC, "- (Player Appraise Roll (d10) " + IntToString(playerAppraiseRole) + ") - 2 * (Player Appraise Skill " + IntToString(nPlayerSkillRank) + ")");
+        int playerWeight = playerAppraiseRole + 2 * nPlayerSkillRank; // skill is twice the weight of roll
+        SendMessageToPC(oPC, "Player: (D10 Roll " + IntToString(playerAppraiseRole) + ") + 2 * (Appraise Skill " + IntToString(nPlayerSkillRank) + ") = " + IntToString(playerWeight));
 
         int npcAppraiseRole = d10();
-        SendMessageToPC(oPC, "+ (Merchant Appraise Roll (d10) " + IntToString(npcAppraiseRole) + ") + 2 * (Merchant Appraise Skill " + IntToString(nNPCSkillRank) + ")");
+        int npcWeight = npcAppraiseRole + 2 * nNPCSkillRank; // skill is twice the weight of roll
+        SendMessageToPC(oPC, "Merchant (D10 Roll " + IntToString(npcAppraiseRole) + ") + 2 * (Appraise Skill " + IntToString(nNPCSkillRank) + ") = " + IntToString(npcWeight));
 
-        nAdjust = 2 * (nNPCSkillRank - nPlayerSkillRank) + npcAppraiseRole - playerAppraiseRole; // weight role lower than core skill
+        nAdjust = npcWeight - playerWeight;
 
         /*
          * Charisma Adjustment
@@ -99,11 +101,6 @@ void jeffAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int 
     nBonusMarkDown = nBonusMarkDown + nAdjust;
     nBonusMarkUp = nBonusMarkUp + nAdjust;
 
-    //SendMessageToPC(oPC, "nBonusMarkDown = " + IntToString(nBonusMarkDown));
-    //SendMessageToPC(oPC, "nBonusMarkUp   = " + IntToString(nBonusMarkUp));
-
     SetLocalInt(oPC, "X0_APPRAISEADJUST"+ sTag, nAdjust);
-  //  SpawnScriptDebugger();
-
     OpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
 }

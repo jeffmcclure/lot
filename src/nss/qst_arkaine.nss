@@ -1,8 +1,5 @@
-object oTarget;
 #include "nw_i0_tool"
 #include "inc_party"
-
-string sDeny;
 
 void trgArkaine(string objToCreate, object oPC) {
     object obj = CreateItemOnObject(objToCreate, oPC);
@@ -14,18 +11,14 @@ void trgArkaine(string objToCreate, object oPC) {
     AddJournalQuestEntry("QST_ARKAINE", 3, oPC, FALSE, FALSE);
     AssignCommand(oPC, ActionSpeakString("May the spirit of our king protect me!"));
 
-    oTarget = oPC;
+    //Visual effects can't be applied to waypoints, so if it is a WP apply to the WP's location instead
 
-    //Visual effects can't be applied to waypoints, so if it is a WP
-    //apply to the WP's location instead
-
-    int nInt;
-    nInt = GetObjectType(oTarget);
+    int nInt = GetObjectType(oPC);
 
     if (nInt != OBJECT_TYPE_WAYPOINT)
-        ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oTarget);
+        ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oPC);
      else
-        ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), GetLocation(oTarget));
+        ApplyEffectAtLocation(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), GetLocation(oPC));
  }
 
  void main() {
