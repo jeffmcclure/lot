@@ -7,7 +7,8 @@ void main() {
         return;
     SetLocalInt(oPC, monsterIdTag, 1);
 
-    object obj = CreateItemOnObject("nw_it_mneck013", oPC);
+    string loot1 = GetLocalString(OBJECT_SELF, "loot1");
+    object obj = CreateItemOnObject(loot1, oPC);
     SetIdentified(obj,TRUE);
     ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectVisualEffect(VFX_FNF_WORD), oPC);
 }

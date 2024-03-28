@@ -24,5 +24,6 @@ void main() {
     //object oPC = GetLastKiller();
     //SendMessageToPC(oPC, "1 monsterIdTag = '" + monsterIdTag + "'");
     SetLocalString(oChest, "monsterIdTag", monsterIdTag);
+    SetLocalString(oChest, "loot1", "nw_it_mneck013");
     SetEventScript(oChest, EVENT_SCRIPT_PLACEABLE_ON_USED, "lot_usechest");
 }
