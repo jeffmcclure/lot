@@ -6,4 +6,5 @@ void main()
     ExecuteScript("trg_andydeath", OBJECT_SELF);
     ExecuteScript("trg_andydethport", OBJECT_SELF);
     ExecuteScript("loot_unique", OBJECT_SELF);
+ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }

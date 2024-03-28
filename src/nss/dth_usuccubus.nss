@@ -5,4 +5,5 @@ ExecuteScript("vfx_succdeath", OBJECT_SELF);
 ExecuteScript("vfx_forge", OBJECT_SELF);
 ExecuteScript("snd_succubus2", OBJECT_SELF);
 ExecuteScript("loot_unique", OBJECT_SELF);
+ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }

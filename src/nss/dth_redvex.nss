@@ -6,4 +6,5 @@ ExecuteScript("vfx_forge", OBJECT_SELF);
 ExecuteScript("snd_succubus2", OBJECT_SELF);
 ExecuteScript("loot_unique", OBJECT_SELF);
 ExecuteScript("trg_lazdoor1x", OBJECT_SELF);
+ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }

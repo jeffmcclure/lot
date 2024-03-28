@@ -4,4 +4,5 @@ ExecuteScript("xp_partyextra", OBJECT_SELF);
 //ExecuteScript("s_balrogdeathx", OBJECT_SELF);
 ExecuteScript("vfx_magmadth", OBJECT_SELF);
 ExecuteScript("loot_normal_hi", OBJECT_SELF);
+ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }

@@ -5,4 +5,5 @@ ExecuteScript("trg_nakruldeath", OBJECT_SELF);
 ExecuteScript("vfx_forge", OBJECT_SELF);
 ExecuteScript("vfx_nakruldeath", OBJECT_SELF);
 ExecuteScript("loot_unique", OBJECT_SELF);
+ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }

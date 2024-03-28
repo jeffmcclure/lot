@@ -5,4 +5,5 @@ ExecuteScript("vfx_fangspeir", OBJECT_SELF);
 ExecuteScript("vfx_forge", OBJECT_SELF);
 ExecuteScript("stp_fangspeir", OBJECT_SELF);
 ExecuteScript("loot_unique", OBJECT_SELF);
+ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }
