@@ -495,13 +495,89 @@
               "ID" : 15,
               "STRREF" : 6707
             },
-            {
+            { // monster -> humanoid -> goblin
               "ID" : 16,
-              "STRREF" : 6708
+              "STRREF" : 6708,
+              "LIST" : [
+                {
+                  "CR" : 0.25,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Goblin",
+                  "RESREF" : "goblina001"
+                },
+                {
+                  "CR" : 0.25,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Goblin",
+                  "RESREF" : "goblinb001"
+                },
+                {
+                  "CR" : 3.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Goblin Elite",
+                  "RESREF" : "gobchiefb001"
+                },
+                {
+                  "CR" : 4.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Goblin Elite",
+                  "RESREF" : "gobchiefa001"
+                },
+                {
+                  "CR" : 3.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Goblin Shaman",
+                  "RESREF" : "gobwiza001"
+                },
+                {
+                  "CR" : 3.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Goblin Shaman",
+                  "RESREF" : "gobwizb001"
+                }
+              ]
             },
-            {
+            { // Monsters -> Humanoid -> Lizardfolk
               "ID" : 17,
-              "STRREF" : 6709
+              "STRREF" : 6709,
+              "LIST" : [
+                {
+                  "CR" : 0.33333334,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Kobold",
+                  "RESREF" : "kobold001"
+                },
+                {
+                  "CR" : 0.33333334,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Kobold",
+                  "RESREF" : "kobold002"
+                },
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Kobold Footpad",
+                  "RESREF" : "kobold004"
+                },
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Kobold Healer",
+                  "RESREF" : "kobold006"
+                },
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Kobold Shaman",
+                  "RESREF" : "kobold005"
+                },
+                {
+                  "CR" : 2.0,
+                  "FACTION" : "Hostile",
+                  "NAME" : "Kobold Thug",
+                  "RESREF" : "kobold003"
+                }
+              ]
             },
             {
               "ID" : 18,
