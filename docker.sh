@@ -98,6 +98,7 @@ EOF
 function nwn {
 	header "nwn"
 	cd ../lot_docker || exit
+  #NWN_AUTOSAVEINTERVAL=15
 	cat <<EOF >env.txt
     NWN_ILR=0
     NWN_PORT=5121
@@ -106,7 +107,6 @@ function nwn {
     NWN_SERVERNAME="The Lord of Terror ${LOT_VERSION}"
     NWN_ONEPARTY=1
     NWN_DIFFICULTY=3
-    NWN_AUTOSAVEINTERVAL=15
     NWN_NWSYNCURL=http://${LOT_PUBLIC_IP}:8000
 EOF
 
