@@ -12,9 +12,12 @@
 # NWN_DIR
 
 DOWNLOADS=$HOME/Downloads/lot
-LOT_DIR=$HOME/lot
 LOT_VERSION="1.7.4"
 LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
+
+if [ -z "$LOT_DIR" ]; then
+	LOT_DIR=$HOME/lot
+fi
 
 mkdir "$LOT_DIR" 2>/dev/null
 echo cd "$LOT_DIR"
@@ -23,13 +26,42 @@ mkdir lot_docker webserver 2>/dev/null
 cd webserver || exit
 
 function supporting {
-  cd ../lot_docker || exit
-#  if [ ! -e hak/lothak.hak ]; then
-#  fi
-#  cep_3.1.1_releasec_0.7z
-#  lordofterror106x.rar
-#  lordofterrormusic.rar
-#  lothakpackfull110704.rar
+	cd ../lot_docker || exit
+
+	if [ ! -e hak/lothak.hak ] || [ ! -e hak/lotcephak1.hak ] || [ ! -e hak/lotwav.hak ]; then
+		mkdir hak &>/dev/null
+		cd hak || exit
+		F="${DOWNLOADS}/lothakpackfull110704.rar"
+		if [ ! -e "$F" ]; then
+			echo "$F does not exist"
+			exit 1
+		fi
+		unrar e "${F}"
+		cd ..
+	fi
+
+	if [ ! -e music/mus_d1tristd.bmu ]; then
+		mkdir music &>/dev/null
+		cd music || exit
+		F="${DOWNLOADS}/lordofterrormusic.rar"
+		if [ ! -e "$F" ]; then
+			echo "$F does not exist"
+			exit 1
+		fi
+		unrar e "${F}"
+		cd ..
+	fi
+
+	if [ ! -e hak/cep3_core3.hak ]; then
+		mkdir hak &>/dev/null
+		F="${DOWNLOADS}/cep_3.1.1_releasec_0.7z"
+		if [ ! -e "$F" ]; then
+			echo "$F does not exist"
+			exit 1
+		fi
+		7zz x "${F}"
+	fi
+
 }
 
 function webserver {
@@ -68,6 +100,7 @@ EOF
 	docker rm nwn_lot &>/dev/null
 
 	echo copy ${LOT_MOD_NAME}.mod
+	mkdir modules &>/dev/null
 	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
 
 	echo creating nwn_lot
@@ -92,6 +125,7 @@ for i in "$@"; do
 		;;
 
 	nwn)
+		supporting
 		nwn
 		;;
 
