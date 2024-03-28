@@ -11,15 +11,26 @@
 # LOT_PUBLIC_IP
 # NWN_DIR
 
-export LOT_DIR=$HOME/lot
-export LOT_VERSION="1.7.4"
-export LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
+DOWNLOADS=$HOME/Downloads/lot
+LOT_DIR=$HOME/lot
+LOT_VERSION="1.7.4"
+LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
 
 mkdir "$LOT_DIR" 2>/dev/null
 echo cd "$LOT_DIR"
 cd "$LOT_DIR" || exit
 mkdir lot_docker webserver 2>/dev/null
 cd webserver || exit
+
+function supporting {
+  cd ../lot_docker || exit
+#  if [ ! -e hak/lothak.hak ]; then
+#  fi
+#  cep_3.1.1_releasec_0.7z
+#  lordofterror106x.rar
+#  lordofterrormusic.rar
+#  lothakpackfull110704.rar
+}
 
 function webserver {
 	printf "\n\n%s\n\n\n" "webserver"
@@ -70,13 +81,13 @@ function nwsync {
 }
 
 if [ $# -eq 0 ]; then
-	set -- webserver nwn nwsync
+	set -- web nwn sync
 fi
 
 for i in "$@"; do
 	case $i in
 
-	webserver)
+	web)
 		webserver
 		;;
 
@@ -84,7 +95,7 @@ for i in "$@"; do
 		nwn
 		;;
 
-	nwsync)
+	sync)
 		nwsync
 		;;
 
