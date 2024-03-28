@@ -29,8 +29,7 @@ void trgArkaine(string objToCreate, object oPC) {
     int nInt = GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_ARKAINE");
 
     if (nInt >= 3) {
-       sDeny="There is nothing else interesting in this vault.";
-       SendMessageToPC(oPC, sDeny);
+       SendMessageToPC(oPC, "There is nothing else interesting in this vault.");
        return;
     }
 
@@ -47,8 +46,7 @@ void trgArkaine(string objToCreate, object oPC) {
            trgArkaine("arkainesvalor4", oPC);
         }
     } else {
-       sDeny="You need to talk to Cain first...";
-       SendMessageToPC(oPC, sDeny);
+       SendMessageToPC(oPC, "You need to talk to Cain first...");
        return;
     }
 

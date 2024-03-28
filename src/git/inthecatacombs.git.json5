@@ -10,7 +10,314 @@
     "MusicDelay" : 5000,
     "MusicNight" : 78
   },
-  "CreatureList" : [ ],
+  "CreatureList" : [
+    {
+      "AppearanceType" : 121,
+      "BodyBag" : 0,
+      "CRAdjust" : -90,
+      "Cha" : 8,
+      "ChallengeRating" : 0.125,
+      "ClassList" : [
+        {
+          "ClassLevel" : 17,
+          "ClassX" : 0,
+          "Comment" : ""
+        },
+        {
+          "ClassLevel" : 17,
+          "ClassX" : 15,
+          "Comment" : ""
+        },
+        {
+          "ClassLevel" : 17,
+          "ClassX" : 24,
+          "Comment" : ""
+        }
+      ],
+      "Con" : 10,
+      "Conversation" : "",
+      "CurrentHitPoints" : 157,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : {
+        "StringRef" : 12644,
+        "Strings" : [ ]
+      },
+      "Dex" : 12,
+      "Disarmable" : 0,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 13,
+          "Charges" : 0,
+          "Comment" : "",
+          "Cost" : 100,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 167,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 11,
+          "ModelPart2" : 11,
+          "ModelPart3" : 11,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 16,
+          "Tag" : "NW_WSWGS001",
+          "TemplateResRef" : "nw_wswgs001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 70,
+          "Charges" : 0,
+          "Comment" : "",
+          "Cost" : 12500,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 0,
+          "LocalizedName" : {
+            "StringRef" : 13232,
+            "Strings" : [
+              {
+                "Id" : 0,
+                "String" : "Death Clan Gore"
+              }
+            ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 19,
+              "CostValue" : 10,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 77,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 72,
+              "Subtype" : 8
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 65536,
+          "Tag" : "D1_DEATHCLANGORE",
+          "TemplateResRef" : "deathclangore",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 1,
+      "FeatList" : [
+        {
+          "Comment" : "",
+          "Feat" : 3
+        },
+        {
+          "Comment" : "",
+          "Feat" : 4
+        },
+        {
+          "Comment" : "",
+          "Feat" : 194
+        },
+        {
+          "Comment" : "",
+          "Feat" : 289
+        },
+        {
+          "Comment" : "",
+          "Feat" : 44
+        },
+        {
+          "Comment" : "",
+          "Feat" : 45
+        },
+        {
+          "Comment" : "",
+          "Feat" : 46
+        },
+        {
+          "Comment" : "",
+          "Feat" : 161
+        }
+      ],
+      "FirstName" : {
+        "StringRef" : 12645,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "<cÿÿ >Death Clan Leader"
+          }
+        ]
+      },
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 0,
+      "HitPoints" : 157,
+      "Int" : 7,
+      "Interruptable" : 1,
+      "IsImmortal" : 0,
+      "IsPC" : 0,
+      "LastName" : null,
+      "LawfulChaotic" : 0,
+      "Lootable" : 0,
+      "MaxHitPoints" : 157,
+      "NaturalAC" : 10,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 0,
+      "Plot" : 0,
+      "PortraitId" : 253,
+      "Race" : 13,
+      "Refbonus" : 4,
+      "ScriptAttacked" : "j_ai_onphiattack",
+      "ScriptDamaged" : "j_ai_ondamaged",
+      "ScriptDeath" : "lot_generic_boss",
+      "ScriptDialogue" : "j_ai_onconversat",
+      "ScriptDisturbed" : "j_ai_ondisturbed",
+      "ScriptEndRound" : "j_ai_oncombatrou",
+      "ScriptHeartbeat" : "j_ai_onheartbeat",
+      "ScriptOnBlocked" : "j_ai_onblocked",
+      "ScriptOnNotice" : "j_ai_onpercieve",
+      "ScriptRested" : "j_ai_onrest",
+      "ScriptSpawn" : "j_ai_onspawn_mel",
+      "ScriptSpellAt" : "j_ai_onspellcast",
+      "ScriptUserDefine" : "j_ai_onuserdef",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Comment" : "",
+          "Rank" : 0
+        },
+        {
+          "Comment" : "",
+          "Rank" : 0
+        },
+        {
+          "Comment" : "",
+          "Rank" : 0
+        },
+        {
+          "Comment" : "",
+          "Rank" : 0
+        },
+        {
+          "Comment" : "",
+          "Rank" : 0
+        },
+        {
+          "Comment" : "",
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 64,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 0,
+      "Str" : 12,
+      "Subrace" : "",
+      "Tag" : "EPIC_DEATHCLAN",
+      "TailNew" : 68,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "minotaur005",
+      "WalkRate" : 4,
+      "Willbonus" : 0,
+      "WingsNew" : 51,
+      "Wis" : 8,
+      "XOrientation" : -0.9998766,
+      "XPosition" : 17.855469,
+      "YOrientation" : 0.0157074,
+      "YPosition" : 134.93631,
+      "ZPosition" : 0.04868126
+    }
+  ],
   "DoorList" : [
     {
       "AnimationState" : 0,
