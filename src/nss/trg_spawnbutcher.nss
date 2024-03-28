@@ -1,5 +1,6 @@
 #include "inc_party"
 #include "nw_i0_generic"
+#include "x0_i0_partywide"
 void main()
 {
 
@@ -21,15 +22,18 @@ object oTarget;
 oTarget = GetObjectByTag("SND_FRESHMEAT");
 AssignCommand(oTarget, ActionStartConversation(oPC, "con_butcher"));
 
-object oSpawn;
 location lTarget;
 oTarget = GetWaypointByTag("WP_BUTCHER");
 lTarget = GetLocation(oTarget);
-oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
-oTarget = oSpawn;
-SetIsTemporaryEnemy(oPC, oTarget);
-AssignCommand(oTarget, ActionAttack(oPC));
-AssignCommand(oTarget, DetermineCombatRound(oPC));
+
+object oMember=GetFirstFactionMember(oPC, TRUE);
+while (GetIsObjectValid(oMember)) {
+    object oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
+    SetIsTemporaryEnemy(oPC, oSpawn);
+    AssignCommand(oSpawn, ActionAttack(oPC));
+    AssignCommand(oSpawn, DetermineCombatRound(oPC));
+    oMember=GetNextFactionMember(oPC, TRUE);
+}
 
 //ExecuteScript("xp_partyextra", OBJECT_SELF);
 
