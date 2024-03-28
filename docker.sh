@@ -24,20 +24,18 @@ function header {
 }
 
 function setup1 {
-  header "setup1"
+	header "setup1"
 	mkdir "$LOT_DIR" 2>/dev/null
-	echo cd "$LOT_DIR"
 	cd "$LOT_DIR" || exit
 	mkdir lot_docker webserver 2>/dev/null
 	cd lot_docker || exit
+
 	src="${NWN_DIR}/modules/${LOT_MOD_NAME}.mod"
-	# shellcheck disable=SC2046
-	cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"
-	if [ $? != 0 ]; then
-	  echo /bin/cp "$src"  modules/
-	  mkdir modules &>/dev/null
-	  /bin/cp "$src" modules/ || exit
-  fi
+	if ! cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"; then
+		echo /bin/cp "$src" modules/
+		mkdir modules &>/dev/null
+		/bin/cp "$src" modules/ || exit
+	fi
 }
 
 function supporting {
@@ -45,13 +43,11 @@ function supporting {
 	cd ../lot_docker || exit
 
 	src="${NWN_DIR}/hak/lot2.hak"
-	# shellcheck disable=SC2046
-	cmp --silent hak/lot2.hak "$src"
-	if [ $? != 0 ]; then
+	if ! cmp --silent hak/lot2.hak "$src"; then
 		mkdir hak &>/dev/null
 		echo /bin/cp "$src" hak/
 		/bin/cp "$src" hak/ || exit
-  fi
+	fi
 
 	if [ ! -e hak/cep3_core3.hak ]; then
 		mkdir hak &>/dev/null
