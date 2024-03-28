@@ -5,5 +5,6 @@ void main() {
     ExecuteScript("vfx_forge", OBJECT_SELF);
     ExecuteScript("trg_leoricdeath", OBJECT_SELF);
     ExecuteScript("loot_normal_hi", OBJECT_SELF);
-    GenLootForEachPlayer("undeadcrown", OBJECT_SELF);
+    //GenLootForEachPlayer("undeadcrown", OBJECT_SELF);
+    ExecuteScript("loot_partyfi1", OBJECT_SELF);
 }
