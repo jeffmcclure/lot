@@ -8990,10 +8990,11 @@
       "Y" : 19.24979,
       "Z" : 0.00998199
     },
-    { "AnimationState" : 0,
+    {
+      "AnimationState" : 0,
       "Appearance" : 8,
       "AutoRemoveKey" : 0,
-      "Bearing" : -0.0,
+      "Bearing" : 1.5707963,
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
@@ -9015,7 +9016,6 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "",
       "OnOpen" : "loot_unique",
       "OnUsed" : "",
       "OpenLockDC" : 18,
@@ -9034,15 +9034,15 @@
       "Type" : 0,
       "Useable" : 1,
       "Will" : 0,
-      "X" : 5,
-      "Y" : 6,
-      "Z" : 0
+      "X" : 2.0,
+      "Y" : 4.0,
+      "Z" : 0.0
     },
     {
       "AnimationState" : 0,
       "Appearance" : 8,
       "AutoRemoveKey" : 0,
-      "Bearing" : -0.0,
+      "Bearing" : 1.5707963,
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
@@ -9064,7 +9064,6 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "",
       "OnOpen" : "loot_normal_hi",
       "OnUsed" : "",
       "OpenLockDC" : 18,
@@ -9083,9 +9082,9 @@
       "Type" : 0,
       "Useable" : 1,
       "Will" : 0,
-      "X" : 5,
-      "Y" : 8,
-      "Z" : 0
+      "X" : 2.0,
+      "Y" : 7.0,
+      "Z" : 0.0
     }
   ],
   "SoundList" : [
