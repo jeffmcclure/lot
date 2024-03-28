@@ -21,8 +21,11 @@ void main() {
     SetLocked(oChest, FALSE);
     SetName(oChest, "Loot");
     string monsterIdTag = GetTag(OBJECT_SELF);
-    //object oPC = GetLastKiller();
-    //SendMessageToPC(oPC, "1 monsterIdTag = '" + monsterIdTag + "'");
+
+    object oPC = GetLastKiller();
+    string loot1 = GetLocalString(OBJECT_SELF, "loot1");
+    SendMessageToPC(oPC, "1 loot1 = '" + loot1 + "'");
+
     SetLocalString(oChest, "monsterIdTag", monsterIdTag);
     SetLocalString(oChest, "loot1", "nw_it_mneck013");
     SetEventScript(oChest, EVENT_SCRIPT_PLACEABLE_ON_USED, "lot_usechest");
