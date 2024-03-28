@@ -1,5 +1,9 @@
 {
-  "CreatureList" : [ ],
+  "CreatureList" : [
+    {
+      "Comment" : ""
+    }
+  ],
   "DoorList" : [
     {
       "Comment" : "CastleExit"
@@ -44,16 +48,51 @@
       "Comment" : "Fancy Door"
     },
     {
+      "Comment" : "Strong Door"
+    },
+    {
+      "Comment" : "Strong Door"
+    },
+    {
       "Comment" : "Fancy Door"
     },
     {
       "Comment" : "Strong Door"
     },
     {
-      "Comment" : "Strong Door"
+      "Comment" : "Easy Door 3\r\n\r\nHardness DC: 15"
+    },
+    {
+      "Comment" : "Fancy Door"
+    },
+    {
+      "Comment" : "Fancy Door"
+    },
+    {
+      "Comment" : "Fancy Door"
+    },
+    {
+      "Comment" : "Fancy Door"
+    },
+    {
+      "Comment" : "Fancy Door"
+    },
+    {
+      "Comment" : "Fancy Door"
     }
   ],
   "EncounterList" : [
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
     { },
     { },
     { },
@@ -654,6 +693,78 @@
     },
     {
       "Comment" : "Stones"
+    },
+    {
+      "Comment" : "AREA BASE TREASURE CONTAINER\r\n\r\nThis is the high treasure container for a single area. Place whatever items you want distributed to the players in HIGH treasure scripts in this container. Place this container in an INACCESSIBLE area -- players should NEVER be able to reach it.\r\n"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Globe"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Bookcase 3"
+    },
+    {
+      "Comment" : "Pull Rope / Chain"
+    },
+    {
+      "Comment" : "Bookshelf script (spawns in books or a mage scroll)."
+    },
+    {
+      "Comment" : "Bookshelf script (spawns in books or a mage scroll)."
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Chest - 1 (Low treasure script)"
+    },
+    {
+      "Comment" : "Forge"
+    },
+    {
+      "Comment" : "Divining Pool\r\nThis is where lost items go.\r\n\r\nPlayers can access the store attached to this object and recover any PLOT items that were taken off server.\r\n\r\nNote: Plot items duplicate through the use of this store."
+    },
+    {
+      "Comment" : "Candelabra"
     }
   ],
   "SoundList" : [
@@ -762,6 +873,9 @@
     },
     {
       "Comment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive."
+    },
+    {
+      "Comment" : ""
     }
   ]
 }

@@ -1,0 +1,161 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "",
+      "Delay" : 4294967295,
+      "Quest" : "",
+      "RepliesList" : [
+        {
+          "Active" : "prq_rem_1",
+          "ConditionParams" : [ ],
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_rem_2",
+          "ConditionParams" : [ ],
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "ConditionParams" : [ ],
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "",
+      "Speaker" : "",
+      "Text" : "How can I help you?"
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "",
+      "Delay" : 4294967295,
+      "Quest" : "",
+      "RepliesList" : [
+        {
+          "Active" : "prq_rem_1",
+          "ConditionParams" : [ ],
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_rem_2",
+          "ConditionParams" : [ ],
+          "Index" : 1,
+          "IsChild" : 0
+        },
+        0
+      ],
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Speaker" : "",
+      "Text" : "How can I help you?"
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "",
+      "Delay" : 4294967295,
+      "Quest" : "",
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "give_cloak2",
+      "Sound" : "",
+      "Speaker" : "",
+      "Text" : "I will replenish your depleted supply, but I will not be party to greed or hording!"
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "",
+      "Delay" : 4294967295,
+      "Quest" : "",
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "give_cloak",
+      "Sound" : "",
+      "Speaker" : "",
+      "Text" : "Please tell Tremayne that I am fine and that I will continue my studies here in the rectory library.  Please accept these small tokens for your trouble."
+    }
+  ],
+  "NumWords" : 71,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "ActionParams" : [ ],
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "",
+      "Sound" : "",
+      "Text" : "Goodbye."
+    },
+    {
+      "ActionParams" : [ ],
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Script" : "",
+      "Sound" : "",
+      "Text" : "Do you have any more of those freebies?"
+    },
+    {
+      "ActionParams" : [ ],
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "",
+      "Sound" : "",
+      "Text" : "Thank you"
+    },
+    {
+      "ActionParams" : [ ],
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Script" : "",
+      "Sound" : "",
+      "Text" : "Tremayne is worried about you."
+    },
+    {
+      "ActionParams" : [ ],
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "",
+      "Sound" : "",
+      "Text" : "Will do."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_virgin",
+      "ConditionParams" : [ ],
+      "Index" : 1
+    },
+    0
+  ]
+}
