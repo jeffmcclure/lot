@@ -5,9 +5,6 @@ void main() {
     string sTag=GetTag(OBJECT_SELF); // OBJECT_SELF is the NPC we are talking to; GetTag() returns "NPC_THEEMON" for example
     SetLocalInt(oPC, sTag, 1);
 
-    if (GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OLD_ACQUAINTANCE") < 1)
-        AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", 1, oPC, TRUE); // give to party
-
     AddJournalQuestEntry("QST_MAINMODULE", 1, oPC, FALSE, FALSE); // only give to player not party
 
     int nInt = GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_WELCOME_BACK");
