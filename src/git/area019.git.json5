@@ -1,0 +1,680 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 73,
+    "AmbientSndDayVol" : 32,
+    "AmbientSndNight" : 73,
+    "AmbientSndNitVol" : 32,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 94,
+    "MusicDelay" : 10000,
+    "MusicNight" : 94
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 2,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 9078,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 20,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 0,
+      "HP" : 20,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "TRISTRAM_2GILLIAN",
+      "LinkedToFlags" : 1,
+      "LoadScreenID" : 64,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "GILLIAN_2TRISTRAM",
+      "TemplateResRef" : "nw_door_strong",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 20.0,
+      "Y" : 15.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 9078,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 15,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "NormalDoor",
+      "TemplateResRef" : "door_normal001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 10.0,
+      "Y" : 15.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 2,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415803,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 9078,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 15,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "NormalDoor",
+      "TemplateResRef" : "door_normal001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 15.0,
+      "Y" : 10.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 7,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14594,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Chest"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OnDeath" : "thf_chest1b",
+      "OnOpen" : "loot_normal_hi",
+      "OnUnlock" : "thf_door2a",
+      "OnUsed" : "",
+      "OpenLockDC" : 20,
+      "Plot" : 0,
+      "PortraitId" : 365,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST1",
+      "TemplateResRef" : "chest001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 8.645044,
+      "Y" : 7.9258485,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415865,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Evening Point - Gillian"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "EVENING_GILLIAN",
+      "TemplateResRef" : "plc_invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 8.116289,
+      "Y" : 1.9005857,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2565,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : {
+        "StringRef" : 16810853,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811458,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 510,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_CITYINTRIORF",
+      "TemplateResRef" : "zep_cityintriorf",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 15.03,
+      "Y" : 10.2,
+      "Z" : 1.75
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 3111,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707959,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_grandmother",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16814215,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Gillian's grandmother is kindly old woman with a somewhat musical voice when she speaks.  Long hobbled due to old age, Gillian now takes care of the old woman and handles her every need.  The townspeople once said that she can have premonitions of what might happen, usually dark and frightening visions, but this has been regarded as just some random dreams of a senile, old woman..."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 3,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16814192,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Gillian's Grandmother"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 69,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "NPC_GRANDMOTHER",
+      "TemplateResRef" : "zep_womanrock",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 9.204124,
+      "Y" : 2.7018945,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2808,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : {
+        "StringRef" : 16813856,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811288,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 2455,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BUCKET",
+      "TemplateResRef" : "zep_bucket",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 17.400341,
+      "Y" : 6.7570148,
+      "Z" : 0.049999952
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 1000,
+      "IntervalVrtn" : 1000,
+      "LocName" : {
+        "StringRef" : 67838,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 3.5,
+      "MinDistance" : 0.4,
+      "PitchVariation" : 0.95,
+      "Positional" : 1,
+      "Priority" : 20,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_cv_woodwater1"
+        }
+      ],
+      "Tag" : "DockCreaks",
+      "TemplateResRef" : "dockcreaks",
+      "Times" : 3,
+      "Volume" : 49,
+      "VolumeVrtn" : 0,
+      "XPosition" : 9.162497,
+      "YPosition" : 2.775683,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 15000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67870,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 3.5,
+      "MinDistance" : 0.4,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 20,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_pl_hangoverf1"
+        }
+      ],
+      "Tag" : "HangoverWoman",
+      "TemplateResRef" : "hangoverwoman",
+      "Times" : 3,
+      "Volume" : 92,
+      "VolumeVrtn" : 0,
+      "XPosition" : 9.250113,
+      "YPosition" : 2.811729,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "01.99.W.A.P.NONE"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "NIGHT_GILLIAN",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.7071066,
+      "XPosition" : 7.7730722,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 2.7693725,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "02.30.W.A.P.LOW"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WN_GILLIAN_01",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.7071066,
+      "XPosition" : 16.205238,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 5.6259365,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "03.60.W.A.P.SCRT"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WN_GILLIAN_02",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : -0.7071066,
+      "XPosition" : 11.880992,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 14.235624,
+      "ZPosition" : 1.00284815E-5
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "04.60.W.A.P.MID"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WN_GILLIAN_03",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : -0.70710844,
+      "XPosition" : 4.3683405,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 13.9733925,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "05.60.W.A.P.MID"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WN_GILLIAN_04",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.70710844,
+      "XPosition" : 6.1816864,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 13.163759,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "00.60.W.A.P.BORD"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WN_GILLIAN_05",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.0,
+      "XPosition" : 15.617544,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 15.005578,
+      "ZPosition" : 0.010002151
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_INSIDEGILLIAN",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : -1.0,
+      "XPosition" : 18.580269,
+      "YOrientation" : 1.6252187E-6,
+      "YPosition" : 14.950378,
+      "ZPosition" : 1.00284815E-5
+    }
+  ]
+}

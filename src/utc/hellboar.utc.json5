@@ -1,0 +1,239 @@
+{
+  "AppearanceType" : 1296,
+  "BodyBag" : 6,
+  "CRAdjust" : -1,
+  "Cha" : 9,
+  "ChallengeRating" : 11.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 15
+    },
+    {
+      "ClassLevel" : 12,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 69,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 16816642,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Hellboars are magical creations made by combining humanoids and agressive boars. They are roughly 8-10 feet tall and have a muscular body."
+      }
+    ]
+  },
+  "Dex" : 15,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "hellboarplate",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "hellboarbite",
+      "StructId" : 65536
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 77
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 115
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 153
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 16808812,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Hellboar"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 69,
+  "Int" : 9,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 120,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2151,
+  "Race" : 13,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 73,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 77,
+  "Str" : 19,
+  "Subrace" : "",
+  "Tag" : "D1_HELLBOAR",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "hellboar",
+  "WalkRate" : 4,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

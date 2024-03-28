@@ -1,0 +1,70 @@
+{
+  "AnimationState" : 0,
+  "Appearance" : 113,
+  "AutoRemoveKey" : 0,
+  "BodyBag" : 0,
+  "CloseLockDC" : 0,
+  "Comment" : "Corpse - 4 (High treasure script)",
+  "Conversation" : "",
+  "CurrentHP" : 15,
+  "Description" : {
+    "StringRef" : 14603,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The lifeless corpse of Prince Albrecht, King Leoric's missing son.  The demonic possession that Diablo has wrought has taken its toll upon the boy's frail body.  It is now a lifeless husk."
+      }
+    ]
+  },
+  "DisarmDC" : 15,
+  "Faction" : 1,
+  "Fort" : 16,
+  "HP" : 15,
+  "Hardness" : 5,
+  "HasInventory" : 0,
+  "Interruptable" : 0,
+  "KeyName" : "",
+  "KeyRequired" : 0,
+  "LocName" : {
+    "StringRef" : 14601,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Corpse of Prince Albrecht"
+      }
+    ]
+  },
+  "Lockable" : 0,
+  "Locked" : 0,
+  "OnClosed" : "",
+  "OnDamaged" : "",
+  "OnDeath" : "",
+  "OnDisarm" : "",
+  "OnHeartbeat" : "",
+  "OnInvDisturbed" : "",
+  "OnLock" : "",
+  "OnMeleeAttacked" : "",
+  "OnOpen" : "",
+  "OnSpellCastAt" : "",
+  "OnTrapTriggered" : "",
+  "OnUnlock" : "",
+  "OnUsed" : "s_onusedconverse",
+  "OnUserDefined" : "",
+  "OpenLockDC" : 18,
+  "PaletteID" : 0,
+  "Plot" : 1,
+  "PortraitId" : 471,
+  "Ref" : 0,
+  "Static" : 0,
+  "Tag" : "PLC_ALBRECHT",
+  "TemplateResRef" : "corpsealbrecht",
+  "TrapDetectDC" : 0,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 0,
+  "TrapOneShot" : 1,
+  "TrapType" : 0,
+  "Type" : 0,
+  "Useable" : 1,
+  "Will" : 0
+}

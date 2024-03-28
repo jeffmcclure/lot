@@ -1,0 +1,783 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 72,
+    "AmbientSndDayVol" : 32,
+    "AmbientSndNight" : 72,
+    "AmbientSndNitVol" : 32,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 94,
+    "MusicDelay" : 10000,
+    "MusicNight" : 94
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 2,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 9078,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 20,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 0,
+      "HP" : 20,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "TRISTRAM_2CAIN1",
+      "LinkedToFlags" : 1,
+      "LoadScreenID" : 64,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CAIN1_2TRISTRAM",
+      "TemplateResRef" : "nw_door_strong",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 17.69,
+      "Y" : 6.2,
+      "Z" : -0.01
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 9078,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 20,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 0,
+      "HP" : 20,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "CAIN2_2CAIN1",
+      "LinkedToFlags" : 1,
+      "LoadScreenID" : 47,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Upstairs"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CAIN1_2CAIN2",
+      "TemplateResRef" : "nw_door_strong",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 4.99,
+      "Y" : 3.9099998,
+      "Z" : 1.6
+    }
+  ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2565,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : {
+        "StringRef" : 16810853,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811458,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 510,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_CITYINTRIORF",
+      "TemplateResRef" : "zep_cityintriorf",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 10.05,
+      "Y" : 9.95,
+      "Z" : 2.5
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2502,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415918,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 2,
+      "Description" : {
+        "StringRef" : 16813677,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 2,
+      "Hardness" : 0,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnHeartbeat" : "zep_torchspawn",
+      "OnUsed" : "zep_torch",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 419,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ZEP_CANDLE01",
+      "TemplateResRef" : "zep_candle01",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "VarTable" : [
+        {
+          "Name" : "CEP_L_LIGHTCONST",
+          "Type" : 3,
+          "Value" : "YELLOW_5"
+        },
+        {
+          "Name" : "CEP_L_AMION",
+          "Type" : 1,
+          "Value" : 1
+        },
+        {
+          "Name" : "CEP_L_LIGHTCYCLE",
+          "Type" : 1,
+          "Value" : 0
+        },
+        {
+          "Name" : "CEP_L_LIGHTSWAP",
+          "Type" : 3,
+          "Value" : "zep_ocandle01"
+        }
+      ],
+      "Will" : 0,
+      "X" : 15.421704,
+      "Y" : 2.9956372,
+      "Z" : 1.0000086
+    },
+    {
+      "AnimationState" : 5,
+      "Appearance" : 2307,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.570796,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813637,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811014,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "zep_onoff",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 2548,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ZEP_CRYSORB002",
+      "TemplateResRef" : "zep_crysorb002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "VarTable" : [
+        {
+          "Name" : "CEP_L_AMION",
+          "Type" : 1,
+          "Value" : 0
+        }
+      ],
+      "Will" : 0,
+      "X" : 2.98,
+      "Y" : 15.2,
+      "Z" : 2.23
+    },
+    {
+      "AnimationState" : 5,
+      "Appearance" : 2306,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.570796,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810937,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16813154,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "zep_onoff",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 2547,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ZEP_CRYSORB001",
+      "TemplateResRef" : "zep_crysorb001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "VarTable" : [
+        {
+          "Name" : "CEP_L_AMION",
+          "Type" : 1,
+          "Value" : 0
+        }
+      ],
+      "Will" : 0,
+      "X" : 3.0,
+      "Y" : 15.87,
+      "Z" : 2.23
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2502,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 2,
+      "Description" : {
+        "StringRef" : 16813677,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 2,
+      "Hardness" : 0,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnHeartbeat" : "zep_torchspawn",
+      "OnUsed" : "zep_torch",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 419,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ZEP_CANDLE01",
+      "TemplateResRef" : "zep_candle01",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "VarTable" : [
+        {
+          "Name" : "CEP_L_LIGHTCONST",
+          "Type" : 3,
+          "Value" : "YELLOW_5"
+        },
+        {
+          "Name" : "CEP_L_AMION",
+          "Type" : 1,
+          "Value" : 1
+        },
+        {
+          "Name" : "CEP_L_LIGHTCYCLE",
+          "Type" : 1,
+          "Value" : 0
+        },
+        {
+          "Name" : "CEP_L_LIGHTSWAP",
+          "Type" : 3,
+          "Value" : "zep_ocandle01"
+        }
+      ],
+      "Will" : 0,
+      "X" : 14.98273,
+      "Y" : 17.187407,
+      "Z" : 1.5099987
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2438,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 2,
+      "Description" : {
+        "StringRef" : 16813584,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 2,
+      "HP" : 2,
+      "Hardness" : 2,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812560,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 2635,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_PUDDING",
+      "TemplateResRef" : "zep_pudding",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 12.509925,
+      "Y" : 13.788345,
+      "Z" : 0.7899997
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2440,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 2,
+      "Description" : {
+        "StringRef" : 16813676,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 2,
+      "HP" : 2,
+      "Hardness" : 2,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812450,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 2635,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_PIE002",
+      "TemplateResRef" : "zep_pie002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 13.041074,
+      "Y" : 14.292175,
+      "Z" : 0.78999996
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 1942,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813754,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811212,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 2635,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BOTTLE002",
+      "TemplateResRef" : "zep_bottle002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 12.918214,
+      "Y" : 14.03826,
+      "Z" : 0.78999996
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67856,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 5.0,
+      "MinDistance" : 0.5,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_cv_fireplace1"
+        }
+      ],
+      "Tag" : "Fireplace",
+      "TemplateResRef" : "fireplace",
+      "Times" : 3,
+      "Volume" : 88,
+      "VolumeVrtn" : 0,
+      "XPosition" : 16.054733,
+      "YPosition" : 13.851191,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "01.60.W.A.P.READ"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "NIGHT_CAIN",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.0,
+      "XPosition" : 4.9390974,
+      "YOrientation" : 1.0,
+      "YPosition" : 13.278651,
+      "ZPosition" : 0.37135565
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : "02.60.W.A.P.READ.READ",
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WN_CAIN_01",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.0,
+      "XPosition" : 6.3931746,
+      "YOrientation" : 1.0,
+      "YPosition" : 15.354378,
+      "ZPosition" : 0.37135565
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : "03.60.W.A.P.READ.READ",
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WN_CAIN_02",
+      "TemplateResRef" : "",
+      "XOrientation" : -1.0,
+      "XPosition" : 4.4015603,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 15.602081,
+      "ZPosition" : 0.37135565
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : "04.60.W.A.P.READ.READ",
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WN_CAIN_03",
+      "TemplateResRef" : "",
+      "XOrientation" : -1.0,
+      "XPosition" : 4.31758,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 13.49011,
+      "ZPosition" : 0.37135565
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : "05.30.W.A.P.LOW",
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WN_CAIN_04",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.7071066,
+      "XPosition" : 15.505921,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 13.118545,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : "06.30.W.A.P.BORD",
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WN_CAIN_05",
+      "TemplateResRef" : "",
+      "XOrientation" : -0.7071066,
+      "XPosition" : 6.2317924,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 11.3366585,
+      "ZPosition" : 0.0013471842
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : "00.45.W.A.P.LOW",
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WN_CAIN_06",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.70710844,
+      "XPosition" : 15.407164,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 14.792856,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_INSIDESTORYTELLER1",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : -1.0,
+      "XPosition" : 16.551937,
+      "YOrientation" : 1.0291723E-6,
+      "YPosition" : 6.201895,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Upstairs Room"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Upstairs Room"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_INSIDESTORYTELLER1A",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 1.0,
+      "XPosition" : 7.9385433,
+      "YOrientation" : 7.9075363E-7,
+      "YPosition" : 3.6430578,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

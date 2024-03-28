@@ -1,0 +1,191 @@
+{
+  "AppearanceType" : 195,
+  "BodyBag" : 5,
+  "CRAdjust" : 0,
+  "Cha" : 3,
+  "ChallengeRating" : 1.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 19
+    }
+  ],
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 13,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12826,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Worm-ridden and reeking of foul decay, Zombies are formed from the corpses of men executed for committing the most depraved and degenerate crimes against the innocent.  They are driven by both the hatred that consumed them in life and an insatiable hunger for the flesh of the living.\n\nTenacious and possessing stamina of infernal origin, Zombies and their ilk make for a difficult encounter.  Fortunately, these undead minions are lacking in both will and mobility which can be used to great affect against them."
+      }
+    ]
+  },
+  "Dex" : 8,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpb010",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitemunf",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12827,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Zombie"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 13,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 15,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 354,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 109,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 13,
+  "Subrace" : "",
+  "Tag" : "D1_ZOMBIE2",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "zombie003",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 10
+}

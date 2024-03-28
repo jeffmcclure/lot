@@ -1,0 +1,340 @@
+{
+  "AppearanceHead" : 26,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 2,
+  "BodyPartLFArm" : 2,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 2,
+  "BodyPartLShin" : 2,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 2,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 2,
+  "BodyPartRFArm" : 2,
+  "BodyPartRHand" : 2,
+  "BodyPartRShin" : 2,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 2,
+  "BodyPartTorso" : 2,
+  "CRAdjust" : 0,
+  "Cha" : 18,
+  "ChallengeRating" : 40.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 40,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 44,
+  "ColorSkin" : 1,
+  "ColorTattoo1" : 25,
+  "ColorTattoo2" : 37,
+  "Comment" : "",
+  "Con" : 18,
+  "Conversation" : "",
+  "CurrentHitPoints" : 50,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 19,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "zellarmor",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "zellslam",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "zellslam",
+      "StructId" : 32768
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 222
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 223
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 249
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 62
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 21
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 213
+    },
+    {
+      "Feat" : 343
+    },
+    {
+      "Feat" : 344
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 207
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 31
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 192
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 39
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 100
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 49
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 290
+    },
+    {
+      "Feat" : 138
+    }
+  ],
+  "FirstName" : "<cÿÿ >Zell Dincht",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 50,
+  "Int" : 13,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 250,
+  "NaturalAC" : 15,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_superepic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 50
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 86,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_EPIC",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "zell",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 20
+}

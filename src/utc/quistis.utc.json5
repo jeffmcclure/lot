@@ -1,0 +1,401 @@
+{
+  "AppearanceHead" : 34,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : -10,
+  "Cha" : 15,
+  "ChallengeRating" : 40.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 40,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 0,
+  "ColorSkin" : 0,
+  "ColorTattoo1" : 30,
+  "ColorTattoo2" : 30,
+  "Comment" : "",
+  "Con" : 18,
+  "Conversation" : "",
+  "CurrentHitPoints" : 25,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 20,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "quistisarmor",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "quistiswhip",
+      "StructId" : 16
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 223
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 249
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 35
+    },
+    {
+      "Feat" : 166
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 168
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 170
+    },
+    {
+      "Feat" : 171
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : "<cÿÿ >Quistis Trepe",
+  "Fortbonus" : 0,
+  "Gender" : 1,
+  "GoodEvil" : 0,
+  "HitPoints" : 25,
+  "Int" : 13,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 225,
+  "NaturalAC" : 10,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_superepic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 11,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 14,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 41,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 369,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 60,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 60,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 60,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 60,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 60,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 61,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 76,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 368,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 116,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 122,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 167,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 183,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 86,
+  "Str" : 22,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_EPIC",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "quistis",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 14
+}

@@ -1,0 +1,2550 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 97,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 95,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroom",
+          "Index" : 93,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 92,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 91,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 90,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 89,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_wirtspecial",
+          "Index" : 88,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lvl18",
+          "Index" : 84,
+          "IsChild" : 0
+        },
+        2,
+        1,
+        0
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "wirt_greet",
+      "Text" : "Psst, over here!   I can sell you rogue items no one else in town will sell!  And 50 gold pieces will earn you a peek at my really \"special\" items!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 97,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 95,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_mushroom",
+          "Index" : 93,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 92,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 91,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 89,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_wirtspecial",
+          "Index" : 88,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_lvl18",
+          "Index" : 84,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "No.  So are you going to buy something from me or not?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 44,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_wirtquestion",
+          "Index" : 4,
+          "IsChild" : 0
+        },
+        3
+      ],
+      "Script" : "",
+      "Text" : "If you want some information, you'll have to pay for it.  Give me 25 gold pieces if you want information.  Otherwise, you can go ask Cain in town. I don't give anything for free..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        57,
+        {
+          "Active" : "prq_butcherx",
+          "Index" : 52,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_leoricx",
+          "Index" : 49,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_watersupplyx",
+          "Index" : 46,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lightsx",
+          "Index" : 43,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_wormsx",
+          "Index" : 41,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_fleshdoomx",
+          "Index" : 37,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_ogdensignx",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_islandx",
+          "Index" : 33,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_magicrockx",
+          "Index" : 30,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_arkainex",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_chamberx",
+          "Index" : 24,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_blindx",
+          "Index" : 22,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroomx",
+          "Index" : 19,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_anvilx",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_izual3",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_warlordx",
+          "Index" : 11,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lachdananx",
+          "Index" : 8,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lazarusx",
+          "Index" : 6,
+          "IsChild" : 0
+        },
+        5
+      ],
+      "Script" : "s_wirt25gp",
+      "Text" : "Alrighty, what do you want to know?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        7,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_lazarus1",
+      "Text" : "Yes, the \"righteous\" Lazarus, who was sooo effective against those monsters down there.  Didn't help save my leg, did it?  Look, I'll give you a free piece of advice.  Ask Farnham, he was there..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9
+      ],
+      "Script" : "",
+      "Sound" : "wirt_lachdanan1",
+      "Text" : "Wait, let me guess. Cain was swallowed up in a gigantic fissure that opened beneath him!  He was incinerated in a ball of hellfire, and can't answer your questions anymore!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_lachdanan2",
+      "Text" : "Oh, that isn't what happened?  Then I guess you'll be buying something or you'll be on your way!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13,
+        12,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_warlord1",
+      "Text" : "I haven't ever dealt with this warlord you speak of, but he sounds like he's going through a lot of swords!  Wouldn't mind supplying his armies..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        15
+      ],
+      "Script" : "",
+      "Sound" : "wirt_izual1",
+      "Text" : "If you were to find any trace of Izual, or the blade Azurewrath, even I would be impressed.  That is definitely one of a kind..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18,
+        17,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_anvil1",
+      "Text" : "If you were to find this artifact for Griswold, it could put a serious damper on my business here!  Awwww, you'll never find it!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        21,
+        20,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_mushroom1",
+      "Text" : "I don't have any mushrooms of any size or color for sale.  How about something a bit more useful?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        23,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_blind1",
+      "Text" : "Lets see, am I selling you something?  No.  Are you giving me money to tell you about this?  No.  Are you now leaving and going to talk to the storyteller who lives for this kind of thing?  Yes."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26,
+        25,
+        {
+          "Active" : "",
+          "Index" : 59,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_bone1",
+      "Text" : "Mm, uh, vast and mysterious treasure, you say?   Hmm, maybe I could be interested in picking up a few things  from you...  or better yet, don't you need some rare and expensive supplies to get you through this ordeal?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        28,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_valor1",
+      "Text" : "You intend to find the armor known as Valor?   No one has ever figured out where Arkaine stashed the stuff, and if my contacts couldn't find it, I seriously doubt you ever will either..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        31,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_rock1",
+      "Text" : "If anyone can make something out of that rock, Griswold can.  He knows what he is doing, and as much as I try to steal his customers, I respect the quality of his work."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        34
+      ],
+      "Script" : "",
+      "Sound" : "wirt_island1",
+      "Text" : "This is one time that you should listen to Farnham.  I have heard of this place, and I know a few sorcerers who have tried to create a portal to get there..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        36,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_sign1",
+      "Text" : "What?!  Is he saying I took that?   I suppose that Griswold is on his side, too...  Look, I got over simple sign stealing months ago.  You can't turn a profit on a piece of wood!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        38
+      ],
+      "Script" : "",
+      "Sound" : "wirt_flshdm1",
+      "Text" : "I don't know who this Fleshdoom is, but I have heard rumors of an ebon blade that cleaves a soul from the body...  Even I would not try to sell that thing, no matter what the profit."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        40,
+        39
+      ],
+      "Script" : "",
+      "Sound" : "wirt_flshdm2",
+      "Text" : "If you find it, you should do as Tremayne says, and destroy it as quickly as possible..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        42
+      ],
+      "Script" : "",
+      "Sound" : "wirt_worms1",
+      "Text" : "Hehe, they have you hunting worms now?  What's next?  Leaf collecting?  Picking up mushrooms?  Look friend, you have a whole church full of demons over there to worry about.  I don't know how a few little worms could be so bad..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        45,
+        44,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_lostboys",
+      "Text" : "You know, I've been looking for those lights, but I can't find them!  If Gillian says they're there, well, I believe here.  But I have yet to see them for myself..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        48,
+        47,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_water1",
+      "Text" : "For once, I'm with you.  My business runs dry - so to speak - if I have no market to sell to.  You better find out what is going on, and soon!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        51,
+        50,
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_leoric1",
+      "Text" : "Look, I'm running a business here.  I don't sell information, and I don't care about some king that's been dead longer than I've been alive.  If you need something to use against  this king of the undead, then I can help you out..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        53
+      ],
+      "Script" : "",
+      "Sound" : "wirt_butcher1",
+      "Text" : "I know more than you'd think about that grisly fiend!  His little friends got a hold of me and managed to get my leg before Griswold pulled me out of that hole."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        56,
+        55,
+        54
+      ],
+      "Script" : "",
+      "Sound" : "wirt_butcher2",
+      "Text" : "I'll put it bluntly - kill him before he kills you and adds your corpse to his collection!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 80,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 78,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowdeese",
+          "Index" : 76,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowfarnham",
+          "Index" : 73,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgillian",
+          "Index" : 70,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgriswold",
+          "Index" : 68,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowlester",
+          "Index" : 66,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowogden",
+          "Index" : 64,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 62,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowtremayne",
+          "Index" : 60,
+          "IsChild" : 0
+        },
+        59,
+        58
+      ],
+      "Script" : "",
+      "Text" : "Oh, so you waste your gold to catch some gossip?  Sure, why not."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        61,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_trem1",
+      "Text" : "Yeah, Tremayne...  He gets around, doesn't he?   Or haven't you heard?   My friends in some of the other towns say that he passes through, picking up a few books here, a pinch of bat claw there...  Never seems to have the problems most do, getting in and out of Tristram, that's for sure..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        63,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_pepin1",
+      "Text" : "As long as you don't need anything reattached, old Pepin is as good as they come. If I'd have had some of those potions he brews, ah, I might still have my leg..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        65,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_ogden1",
+      "Text" : "Odgen is a fool for staying here.  I could get him out of town for a very reasonable price, but he insists on trying to make a go of it with that stupid tavern.  I guess at the least he gives Gillian a place to work, and his wife Garda does make a superb shepherd's pie..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        67,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Wirt laughs hysterically.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        69,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_gris1",
+      "Text" : "I guess I owe the blacksmith my life - what there is of it.  Sure, Griswold offered me an apprenticeship at the smithy, and he is a nice enough guy, but I'll never get enough money to...  Well, let's just say that I have definite plans that require a large amount of gold..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        71
+      ],
+      "Script" : "",
+      "Sound" : "wirt_gilln1",
+      "Text" : "If I were a few years older, I would shower her with whatever riches I could muster, and let me assure you I can get my hands on some very nice stuff."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        72,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_gilln2",
+      "Text" : "Gillian is a beautiful girl who should get out of Tristram as soon as it is safe.  Hmmm...maybe I'll take her with me when I go..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        74
+      ],
+      "Script" : "",
+      "Sound" : "wirt_farnm1",
+      "Text" : "Farnham... now there is a man with serious problems, and I know all about how serious problems can be...  He trusted too much in the integrity of one man, and Lazarus led him into the very jaws of death!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        75,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_farnm2",
+      "Text" : "Oh, I know what it's like down there, so don't even start telling me about your plans to destroy \"the evil that dwells\" in that labyrinth...  Hah, just watch your legs..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Don't look at me, I don't know where he is!  He probably regained his sanity and realized that it was time to leave this stupid town.  Yeah, that's what I think..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        77,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Oh yeah, that fat farmer with his two idiot sons.  Don't tell him I told you, but I think his boys just got themselves into a world of trouble..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 77,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Hah, if you ask me, Deese's sons deserved what they got!  It was stupid to go walking into the woods alone, and I won't shed a tear for either of them, or their father!  I wish this town will stop mourning the deaths of two stupid kids - I know they won't mourn for me when I die - not that I'd care anyway..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        79,
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "wirt_cain1",
+      "Text" : "Cain knows too much.  He scares the life out of me - even more than that woman across the river.  He keeps telling me about how lucky I am to be alive, and how my story is foretold in legend.  I think he's off his crock."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        81
+      ],
+      "Script" : "",
+      "Sound" : "wirt_adria1",
+      "Text" : "Adria truly bothers me.  Sure, Cain is creepy in what he can tell you about the past, but that witch can \"see\" into your past.  She always has some way to get whatever she needs, too."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        83,
+        82
+      ],
+      "Script" : "",
+      "Sound" : "wirt_adria2",
+      "Text" : "Adria gets her hands on more merchandise than I've seen pass through the gates of the king's bazaar during high festival!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_wirtelite",
+          "Index" : 87,
+          "IsChild" : 0
+        },
+        86,
+        85
+      ],
+      "Script" : "",
+      "Text" : "Hmm, I usually don't show my premium stock to anyone, but for 2500 gold pieces, I think I'll make an exception for you.  What do you say?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "sto_wirtelite",
+      "Text" : "Check them out then."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "sto_wirtspecial1",
+      "Text" : "Check them out then."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "sto_wirtspecial2",
+      "Text" : "Check them out then."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "sto_wirtspecial3",
+      "Text" : "Check them out then."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "sto_wirtspecial4",
+      "Text" : "Check them out then."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 92,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 91,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 89,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_wirtspecial",
+          "Index" : 88,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_lvl18",
+          "Index" : 84,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        94
+      ],
+      "Script" : "",
+      "Text" : "Why would I need a thing like that?  If you are not going to buy something, stop wasting my time!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        96,
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 92,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 91,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 89,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_wirtspecial",
+          "Index" : 88,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_lvl18",
+          "Index" : 84,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "What?  You say you have Azurewrath?  What did you do, steal it from the angels?  Look <mister/missus>, I wasn't born yesterday!  Stop wasting my time by trying to sell me fake items!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 100,
+          "IsChild" : 0
+        },
+        99,
+        98
+      ],
+      "Script" : "",
+      "Text" : "Really?  You have it?  Show it to me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        102,
+        101
+      ],
+      "Script" : "",
+      "Text" : "Wow!  This \"is\" the creature's weapon!  Some of blood on it hasn't even dried yet!  This would be an excellent addition to my collection!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 111,
+          "IsChild" : 0
+        },
+        103,
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I don't care.  How much do you want for it?  I'll give you two thousand gold pieces if you give it to me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 111,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  Hey, I'm the businessman here, not you!  Don't you ever try and haggle with me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 0,
+      "RepliesList" : [
+        107,
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 105,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        104
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start>  Oh, so you want to haggle with me, huh?  Alright, will you give it to me for three thousand gold pieces?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        106,
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_butchcleave2",
+      "Text" : "Great!  Here's your gold.  Now let me have that cleaver!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 105,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  Hey, I'm the businessman here, not you!  Don't you ever try and haggle with me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        110,
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 108,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start>  You drive a very hard bargain, my friend.  How about I give you five thousand gold for it?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        109,
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_butchcleave3",
+      "Text" : "Great!  Here's your gold.  Now let me have that cleaver!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 108,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  Look, I am willing to bet no one else in town will buy that from you.  So I suggest you take my offer before I change my mind!  Five thousand gold for that cleaver, and not a gold piece more!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        112,
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_butchcleaver",
+      "Text" : "Great!  Here's your gold.  Now let me have that cleaver!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        114,
+        113
+      ],
+      "Script" : "end_virgin",
+      "Sound" : "wirt_greet",
+      "Text" : "Psst, over here!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        116,
+        115
+      ],
+      "Script" : "",
+      "Text" : "My mother is dead, stranger!  And my name is Wirt, not kid!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 118,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 117,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You got Griswold to blame for that!   Don't be a smartass, <mister/missus> - that position's already taken!  So are you just going to yap there, or are you going to buy something?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        118,
+        117
+      ],
+      "Script" : "",
+      "Text" : "Oh, so you want pleasantries first, eh?  Well, hello <FirstName>. Are you going to buy something or am I just wasting my time chatting with you?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 92,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_wirtspecial",
+          "Index" : 88,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        119
+      ],
+      "Script" : "",
+      "Text" : "I sell some items that Griswold, Adria or even that priest Tremayne won't dare sell to you!  I also sell hard to find things that you won't find anywhere!  If you have 50 gold pieces on you, I can even show you my really \"special\" items!  So what do you say?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "con_tristramx",
+      "Text" : "W-what?  Can't you see I'm sleeping!  Leave me alone!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        125,
+        {
+          "Active" : "prq_wirtspecial",
+          "Index" : 124,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lvl18",
+          "Index" : 120,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "wirt_greet",
+      "Text" : "Psst, over here!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_wirtelite",
+          "Index" : 123,
+          "IsChild" : 0
+        },
+        122,
+        121
+      ],
+      "Script" : "",
+      "Text" : "Hmm, I usually don't show my premium stock to anyone, but for 2500 gold pieces, I think I'll make an exception for you.  What do you say?"
+    }
+  ],
+  "NumWords" : 2683,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can I sell some things to you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'd like to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have the money, or the time, for your games."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, here's 25 gold pieces."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about the Archbishop Lazarus?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Okay, maybe I will..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you happen to know a knight named Lachdanan?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm, no..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine. Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about the Warlord of Blood?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks for nothing."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "All business, aren't you?  Thanks anyway..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know of Izual and a blade called Azurewrath?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You know where I can find the Anvil of Fury for Griswold?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil3",
+      "Sound" : "",
+      "Text" : "If I do find it, maybe I'll hit your other leg with it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "We'll see... Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you have any black mushrooms for sale?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Okay, thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Halls of the Blind?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright already... geez..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you been to a Chamber of Bone and its vast and mysterious treasure?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll think about it.  Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know anything about Arkaine's tomb, or his mythical armor?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "We will see."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Okay, thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Griswold wants me to find a \"heaven stone.\"  Will he create something nice out of it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll be the judge of that."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Great, that's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Farnham mentions \"an island where angels watched\" ... have you heard of this place?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll investigate the place then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Ogden's tavern sign has been stolen.  Do you have something to do with it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Just asking..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hey, have you heard of this Fleshdoom that Tremayne is speaking of?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll decide what I'll do with it.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks for the information, kid."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm sure I'll regret asking this, but do you know about the giant worms Pepin is talking about?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sorry I asked..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Gillian mentioned some strange lights in the woods.  Did you see them?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Thanks for nothing, gimp."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks anyway, Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about this poisoned water Pepin is talking about?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll do so at my own leisure!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you, that's all."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can you tell me about King Leoric?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about the Butcher?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have some more questions to ask you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well see about that."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks... I think."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know more about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to ask you something else."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Lester."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm, okay, that's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_islandxx",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "end_lostboys",
+          "Index" : 37,
+          "IsChild" : 0
+        },
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Deese."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I like to know more about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I want to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you have any other powerful items for sale?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "2500 gold pieces?  That's too expensive just to take a look!  Goodbye!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sure, I have the money.  Show me these powerful items you have!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 46,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 45,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Okay, I like to see these \"special\" items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtrogue4",
+      "Sound" : "",
+      "Text" : "Alright, can I see the items you're selling?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtrogue3",
+      "Sound" : "",
+      "Text" : "Alright, can I see the items you're selling?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtrogue2",
+      "Sound" : "",
+      "Text" : "Alright, can I see the items you're selling?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtrogue1",
+      "Sound" : "",
+      "Text" : "Alright, can I see the items you're selling?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I found a fungal tome in the caves.  Do you need it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hey kid, I have Izual's sword, Azurewrath.  Would you like to buy it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Suit yourself then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hey kid, would you be interested in buying this cleaver I got from the Butcher?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "On second thought, I changed my mind.  I want to ask you some questions instead."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind.  Goodbye!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>Show the butcher's cleaver to Wirt</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 51,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you not the least bit concerned that this weapon was wielded by one of the creatures who \"took care\" of your leg?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're weird, kid."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 53,
+          "IsChild" : 0
+        },
+        52
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  I think you should offer me more, since this item \"is\" one of a kind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>Failure.</Start>  Hey, I'm the businessman here, not you!  Don't you ever try and haggle with me!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 54,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess three thousand gold is a decent enough price.  You got a deal!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hope you, uhm, have fun with it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 56,
+          "IsChild" : 0
+        },
+        55
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  I think you should offer me more, since this item \"is\" one of a kind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 57,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess five thousand gold is a decent enough price.  You got a deal!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hope you, uhm, have fun with it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  I still think this axe is worth much more than that.  Can't you offer more for it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 59,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess two thousand gold is a decent enough price.  You got a deal!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hope you, uhm, have fun with it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "s_knowwirt",
+      "Sound" : "",
+      "Text" : "Why hello there!  Does your mother allow you to stay out here, kid?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Script" : "s_knowwirt",
+      "Sound" : "",
+      "Text" : "Who are you, kid?  And where are your parents?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        62
+      ],
+      "Quest" : "",
+      "Script" : "con_evil3",
+      "Sound" : "",
+      "Text" : "Wirt?  Oh, Canace's brat.  I thought you died with your mother."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Wirt?  Oh, you must be Canace's boy.  You've grown a lot since I left.  My name is <FirstName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sure kid, what are you selling?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        64
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What exactly do you do here, Wirt?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind.  Nice meeting you, Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        67
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you have any other powerful items for sale?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "2500 gold pieces?  That's too expensive just to take a look!  Goodbye!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtelite",
+      "Sound" : "",
+      "Text" : "Sure, I have the money.  Show me these powerful items you have!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtspecial4",
+      "Sound" : "",
+      "Text" : "Okay, I like to see these \"special\" items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_wirtrogue4",
+      "Sound" : "",
+      "Text" : "Alright, can I see the rogue items you're selling?"
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 66
+    },
+    {
+      "Active" : "prq_wirtnight",
+      "Index" : 65
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 60
+    },
+    0
+  ]
+}

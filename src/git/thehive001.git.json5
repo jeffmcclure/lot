@@ -1,0 +1,3829 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 44,
+    "AmbientSndDayVol" : 47,
+    "AmbientSndNight" : 45,
+    "AmbientSndNitVol" : 49,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 83,
+    "MusicDelay" : 0,
+    "MusicNight" : 83
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 64,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 3.1415808,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_HIVE3_2HIVE2",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 154,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Hive 3"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "HIVE2_2HIVE3",
+      "TemplateResRef" : "nw_door_ttr_12",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 115.99,
+      "Y" : 15.76,
+      "Z" : -6.01
+    },
+    {
+      "AnimationState" : 1,
+      "Appearance" : 53,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_HIVE1_2HIVE2",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 153,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Hive 1"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "HIVE2_2HIVE1",
+      "TemplateResRef" : "nw_door_ttr_13",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 3.9900002,
+      "Y" : 125.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1170,
+          "CR" : 8.0,
+          "ResRef" : "torchant",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.4377518,
+          "Y" : -0.14556885,
+          "Z" : 0.275
+        },
+        {
+          "X" : 4.751812,
+          "Y" : -9.746437,
+          "Z" : 0.14026442
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.074337006,
+          "Y" : -0.008811951,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Torchant Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 76.586685,
+          "Y" : 125.71757,
+          "Z" : 0.41573715
+        }
+      ],
+      "Tag" : "TorchantGrouplow",
+      "TemplateResRef" : "blueprint047",
+      "XPosition" : 37.749996,
+      "YPosition" : 126.72749,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1179,
+          "CR" : 8.0,
+          "ResRef" : "stinger",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1178,
+          "CR" : 8.0,
+          "ResRef" : "stinger001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1180,
+          "CR" : 8.0,
+          "ResRef" : "stinger002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1175,
+          "CR" : 11.0,
+          "ResRef" : "stingergiant",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.1023026,
+          "Y" : 1.6771393,
+          "Z" : 0.275
+        },
+        {
+          "X" : -2.1960564,
+          "Y" : -11.276817,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.15475464,
+          "Y" : 0.14820099,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Stinger Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 82.537224,
+          "Y" : 104.66267,
+          "Z" : 9.924173E-6
+        }
+      ],
+      "Tag" : "StingerGrouplow",
+      "TemplateResRef" : "blueprint037",
+      "XPosition" : 51.93124,
+      "YPosition" : 125.29694,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1433,
+          "CR" : 10.0,
+          "ResRef" : "arachnon",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 161,
+          "CR" : 8.0,
+          "ResRef" : "arachnon001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1200,
+          "CR" : 8.0,
+          "ResRef" : "arachnon002",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1199,
+          "CR" : 8.0,
+          "ResRef" : "arachnon003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 8.0,
+          "ResRef" : "arachnon004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1198,
+          "CR" : 8.0,
+          "ResRef" : "arachnon005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.3018112,
+          "Y" : -13.586174,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.18935776,
+          "Y" : -13.112785,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : -0.023670197,
+          "Y" : -0.047332764,
+          "Z" : 0.27499995
+        }
+      ],
+      "LocalizedName" : "Spider Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 30.39606,
+          "Y" : 119.800285,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SpiderGrouplow",
+      "TemplateResRef" : "blueprint046",
+      "XPosition" : 61.23292,
+      "YPosition" : 126.87566,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1196,
+          "CR" : 12.0,
+          "ResRef" : "giantdungsoldier",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1193,
+          "CR" : 12.0,
+          "ResRef" : "giantbonescarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1187,
+          "CR" : 12.0,
+          "ResRef" : "giantsteelscarab",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 2.805603,
+          "Y" : -10.445259,
+          "Z" : 0.275
+        },
+        {
+          "X" : 3.9957504,
+          "Y" : -9.0672,
+          "Z" : 0.2749999
+        }
+      ],
+      "LocalizedName" : "Beetle Group (mid)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 91.34547,
+          "Y" : 80.3789,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGroupmid",
+      "TemplateResRef" : "blueprint040",
+      "XPosition" : 91.91901,
+      "YPosition" : 122.57795,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.83284,
+          "Y" : -8.894272,
+          "Z" : 0.275
+        },
+        {
+          "X" : 1.5282898,
+          "Y" : 0.38126373,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0013580322,
+          "Y" : 0.025886536,
+          "Z" : 0.02500006
+        }
+      ],
+      "LocalizedName" : "Beetle Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 124.7988,
+          "Y" : 125.68149,
+          "Z" : 9.924173E-6
+        }
+      ],
+      "Tag" : "BeetleGrouplow",
+      "TemplateResRef" : "blueprint039",
+      "XPosition" : 92.21671,
+      "YPosition" : 122.69072,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1170,
+          "CR" : 8.0,
+          "ResRef" : "torchant",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.6526489,
+          "Y" : 3.779602,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0060043335,
+          "Y" : 0.090408325,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.04825592,
+          "Y" : 3.5538635,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Torchant Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 119.465515,
+          "Y" : 80.39981,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "TorchantGrouplow",
+      "TemplateResRef" : "blueprint047",
+      "XPosition" : 117.99768,
+      "YPosition" : 133.2147,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1179,
+          "CR" : 8.0,
+          "ResRef" : "stinger",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1178,
+          "CR" : 8.0,
+          "ResRef" : "stinger001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1180,
+          "CR" : 8.0,
+          "ResRef" : "stinger002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1175,
+          "CR" : 11.0,
+          "ResRef" : "stingergiant",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -9.12883,
+          "Y" : 11.541092,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.05596924,
+          "Y" : 0.029014587,
+          "Z" : 0.275
+        },
+        {
+          "X" : -7.301964,
+          "Y" : 14.1249695,
+          "Z" : 0.27500007
+        }
+      ],
+      "LocalizedName" : "Stinger Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 66.06848,
+          "Y" : 80.121155,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "StingerGrouplow",
+      "TemplateResRef" : "blueprint037",
+      "XPosition" : 111.33422,
+      "YPosition" : 84.782135,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1433,
+          "CR" : 10.0,
+          "ResRef" : "arachnon",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 161,
+          "CR" : 8.0,
+          "ResRef" : "arachnon001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1200,
+          "CR" : 8.0,
+          "ResRef" : "arachnon002",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1199,
+          "CR" : 8.0,
+          "ResRef" : "arachnon003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 8.0,
+          "ResRef" : "arachnon004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1198,
+          "CR" : 8.0,
+          "ResRef" : "arachnon005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.937874,
+          "Y" : -6.612854,
+          "Z" : 0.275
+        },
+        {
+          "X" : 1.4005585,
+          "Y" : -1.4881897,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : -0.023849487,
+          "Y" : -0.066726685,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Spider Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 113.183624,
+          "Y" : 92.08631,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SpiderGrouplow",
+      "TemplateResRef" : "blueprint046",
+      "XPosition" : 128.27852,
+      "YPosition" : 78.9294,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1196,
+          "CR" : 12.0,
+          "ResRef" : "giantdungsoldier",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1193,
+          "CR" : 12.0,
+          "ResRef" : "giantbonescarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1187,
+          "CR" : 12.0,
+          "ResRef" : "giantsteelscarab",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.043685913,
+          "Y" : 5.6061325,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.087379456,
+          "Y" : -0.014556885,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 1.0484238,
+          "Y" : 0.46596527,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 1.1066742,
+          "Y" : 4.93631,
+          "Z" : 0.02500006
+        }
+      ],
+      "LocalizedName" : "Beetle Group (mid)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 67.11063,
+          "Y" : 72.54758,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGroupmid",
+      "TemplateResRef" : "blueprint040",
+      "XPosition" : 80.30422,
+      "YPosition" : 102.0914,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1196,
+          "CR" : 12.0,
+          "ResRef" : "giantdungsoldier",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1193,
+          "CR" : 12.0,
+          "ResRef" : "giantbonescarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1187,
+          "CR" : 12.0,
+          "ResRef" : "giantsteelscarab",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.6355515,
+          "Y" : 9.399925,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.1078949,
+          "Y" : -0.033241272,
+          "Z" : 0.275
+        },
+        {
+          "X" : -1.0634308,
+          "Y" : 10.284615,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Beetle Group (mid)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 36.544533,
+          "Y" : 90.190155,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGroupmid",
+      "TemplateResRef" : "blueprint040",
+      "XPosition" : 79.66636,
+      "YPosition" : 72.80921,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1433,
+          "CR" : 10.0,
+          "ResRef" : "arachnon",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 161,
+          "CR" : 8.0,
+          "ResRef" : "arachnon001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1200,
+          "CR" : 8.0,
+          "ResRef" : "arachnon002",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1199,
+          "CR" : 8.0,
+          "ResRef" : "arachnon003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 8.0,
+          "ResRef" : "arachnon004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1198,
+          "CR" : 8.0,
+          "ResRef" : "arachnon005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.24805069,
+          "Y" : -2.6937103,
+          "Z" : 0.275
+        },
+        {
+          "X" : 8.227406,
+          "Y" : 5.8050766,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.03639984,
+          "Y" : -0.14860535,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Spider Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 19.639872,
+          "Y" : 81.49215,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SpiderGrouplow",
+      "TemplateResRef" : "blueprint046",
+      "XPosition" : 62.302807,
+      "YPosition" : 79.69579,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1170,
+          "CR" : 8.0,
+          "ResRef" : "torchant",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.712528,
+          "Y" : 9.656334,
+          "Z" : 0.27499995
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.10595703,
+          "Y" : -0.06917572,
+          "Z" : 0.275
+        },
+        {
+          "X" : -2.8775215,
+          "Y" : 10.626442,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Torchant Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 14.290874,
+          "Y" : 55.699295,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "TorchantGrouplow",
+      "TemplateResRef" : "blueprint047",
+      "XPosition" : 54.915337,
+      "YPosition" : 87.46381,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1196,
+          "CR" : 12.0,
+          "ResRef" : "giantdungsoldier",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1193,
+          "CR" : 12.0,
+          "ResRef" : "giantbonescarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1187,
+          "CR" : 12.0,
+          "ResRef" : "giantsteelscarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1212,
+          "CR" : 13.0,
+          "ResRef" : "brood002",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1213,
+          "CR" : 13.0,
+          "ResRef" : "brood003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1211,
+          "CR" : 14.0,
+          "ResRef" : "brood001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -20.191217,
+          "Y" : 19.625107,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.09435272,
+          "Y" : 0.3774109,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.3774109,
+          "Y" : 19.625107,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Beetle Group (high)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 56.31283,
+          "Y" : 42.327248,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGrouphigh",
+      "TemplateResRef" : "blueprint041",
+      "XPosition" : 40.30888,
+      "YPosition" : 70.234276,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1179,
+          "CR" : 8.0,
+          "ResRef" : "stinger",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1178,
+          "CR" : 8.0,
+          "ResRef" : "stinger001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1180,
+          "CR" : 8.0,
+          "ResRef" : "stinger002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1175,
+          "CR" : 11.0,
+          "ResRef" : "stingergiant",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -13.815136,
+          "Y" : 0.8304634,
+          "Z" : 0.275
+        },
+        {
+          "X" : -12.760313,
+          "Y" : -1.2373009,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.07986832,
+          "Y" : 0.036720276,
+          "Z" : 0.27500007
+        }
+      ],
+      "LocalizedName" : "Stinger Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 69.36424,
+          "Y" : 8.720433,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "StingerGrouplow",
+      "TemplateResRef" : "blueprint037",
+      "XPosition" : 27.981413,
+      "YPosition" : 40.04253,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -10.134766,
+          "Y" : 3.4052658,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.02501297,
+          "Y" : -0.078437805,
+          "Z" : 0.27499995
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.27499995
+        },
+        {
+          "X" : -9.681765,
+          "Y" : 5.926285,
+          "Z" : 0.27500007
+        }
+      ],
+      "LocalizedName" : "Beetle Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 10.791941,
+          "Y" : 13.457721,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGrouplow",
+      "TemplateResRef" : "blueprint039",
+      "XPosition" : 32.086334,
+      "YPosition" : 64.24641,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1196,
+          "CR" : 12.0,
+          "ResRef" : "giantdungsoldier",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1193,
+          "CR" : 12.0,
+          "ResRef" : "giantbonescarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1187,
+          "CR" : 12.0,
+          "ResRef" : "giantsteelscarab",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1212,
+          "CR" : 13.0,
+          "ResRef" : "brood002",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1213,
+          "CR" : 13.0,
+          "ResRef" : "brood003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1211,
+          "CR" : 14.0,
+          "ResRef" : "brood001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -11.933317,
+          "Y" : -12.613178,
+          "Z" : 0.275
+        },
+        {
+          "X" : -9.149075,
+          "Y" : -14.143074,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.058221817,
+          "Y" : 0.14433289,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Beetle Group (mid)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 95.50273,
+          "Y" : 8.067989,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGroupmid",
+      "TemplateResRef" : "blueprint040",
+      "XPosition" : 31.766504,
+      "YPosition" : 35.719982,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1170,
+          "CR" : 8.0,
+          "ResRef" : "torchant",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.018138885,
+          "Y" : -0.17887115,
+          "Z" : 0.275
+        },
+        {
+          "X" : 9.572113,
+          "Y" : -14.503727,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : 11.705788,
+          "Y" : -13.315277,
+          "Z" : 0.27500007
+        }
+      ],
+      "LocalizedName" : "Torchant Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 91.033195,
+          "Y" : 43.57899,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "TorchantGrouplow",
+      "TemplateResRef" : "blueprint047",
+      "XPosition" : 40.13028,
+      "YPosition" : 37.064842,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1179,
+          "CR" : 8.0,
+          "ResRef" : "stinger",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1178,
+          "CR" : 8.0,
+          "ResRef" : "stinger001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1180,
+          "CR" : 8.0,
+          "ResRef" : "stinger002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1175,
+          "CR" : 11.0,
+          "ResRef" : "stingergiant",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -7.495804,
+          "Y" : -16.851208,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.010047125,
+          "Y" : -0.022586605,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : -1.1475906,
+          "Y" : 1.9346771,
+          "Z" : 0.18046656
+        }
+      ],
+      "LocalizedName" : "Stinger Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 118.94903,
+          "Y" : 43.603638,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "StingerGrouplow",
+      "TemplateResRef" : "blueprint037",
+      "XPosition" : 66.99382,
+      "YPosition" : 49.9041,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1433,
+          "CR" : 10.0,
+          "ResRef" : "arachnon",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 161,
+          "CR" : 8.0,
+          "ResRef" : "arachnon001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1200,
+          "CR" : 8.0,
+          "ResRef" : "arachnon002",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1199,
+          "CR" : 8.0,
+          "ResRef" : "arachnon003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 8.0,
+          "ResRef" : "arachnon004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1198,
+          "CR" : 8.0,
+          "ResRef" : "arachnon005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.043380737,
+          "Y" : -0.15044403,
+          "Z" : 0.275
+        },
+        {
+          "X" : 6.13974,
+          "Y" : -9.233545,
+          "Z" : 0.27499995
+        },
+        {
+          "X" : 6.879677,
+          "Y" : -6.9221687,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Spider Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 123.26973,
+          "Y" : 32.522373,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SpiderGrouplow",
+      "TemplateResRef" : "blueprint046",
+      "XPosition" : 80.64168,
+      "YPosition" : 38.146896,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.7487259,
+          "Y" : -9.847895,
+          "Z" : 0.27499995
+        },
+        {
+          "X" : 0.7145996,
+          "Y" : -9.816572,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.18113586
+        },
+        {
+          "X" : -0.058189392,
+          "Y" : -0.009397507,
+          "Z" : 0.16038314
+        }
+      ],
+      "LocalizedName" : "Beetle Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 113.30942,
+          "Y" : 12.677085,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGrouplow",
+      "TemplateResRef" : "blueprint039",
+      "XPosition" : 74.34039,
+      "YPosition" : 12.616646,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 168,
+          "CR" : 13.0,
+          "ResRef" : "horkdemon",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.7193756,
+          "Y" : -38.495247,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : -1.125206,
+          "Y" : -40.69385,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.24227142,
+          "Y" : -0.0028839111,
+          "Z" : 0.275
+        },
+        {
+          "X" : -2.8693924,
+          "Y" : -1.2260742,
+          "Z" : 0.27499995
+        }
+      ],
+      "LocalizedName" : "Hork Demon Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 300,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 129.53954,
+          "Y" : 27.667887,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "HorkDemonGrouplow",
+      "TemplateResRef" : "fleshclangrou004",
+      "XPosition" : 71.49405,
+      "YPosition" : 46.31645,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 19,
+          "CR" : 8.0,
+          "ResRef" : "salagubang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 20,
+          "CR" : 8.0,
+          "ResRef" : "uwang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 17,
+          "CR" : 8.0,
+          "ResRef" : "kagang",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 18,
+          "CR" : 9.0,
+          "ResRef" : "deathbeetle001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1263,
+          "CR" : 10.0,
+          "ResRef" : "deathbeetle",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.5226231,
+          "Y" : -11.987984,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.2419262,
+          "Y" : -11.583702,
+          "Z" : 0.275
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.27500007
+        },
+        {
+          "X" : -0.122938156,
+          "Y" : 0.08395386,
+          "Z" : 0.275
+        },
+        {
+          "X" : -0.93562317,
+          "Y" : 0.65740204,
+          "Z" : 0.27500007
+        }
+      ],
+      "LocalizedName" : "Beetle Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1200,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 51.66776,
+          "Y" : 119.2217,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BeetleGrouplow",
+      "TemplateResRef" : "blueprint039",
+      "XPosition" : 17.43925,
+      "YPosition" : 125.3471,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 17.802189,
+      "Y" : 131.44753,
+      "Z" : 0.25568366
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 11.429813,
+      "Y" : 102.00478,
+      "Z" : 0.25252008
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 49.84799,
+      "Y" : 127.80857,
+      "Z" : 0.25999075
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 84.84727,
+      "Y" : 135.85757,
+      "Z" : 0.24999952
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 98.00053,
+      "Y" : 110.39603,
+      "Z" : 0.25000012
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 96.89658,
+      "Y" : 128.05812,
+      "Z" : 0.25000024
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 137.89171,
+      "Y" : 124.5952,
+      "Z" : 0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 127.67658,
+      "Y" : 90.05189,
+      "Z" : 0.24999991
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 122.74858,
+      "Y" : 62.611973,
+      "Z" : 0.24999893
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 92.089615,
+      "Y" : 89.78845,
+      "Z" : 0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 108.20244,
+      "Y" : 74.274185,
+      "Z" : 0.26
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 54.94924,
+      "Y" : 64.70022,
+      "Z" : 0.25000572
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 51.816647,
+      "Y" : 105.77304,
+      "Z" : 0.2600001
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 2.428889,
+      "Y" : 93.07434,
+      "Z" : 0.25000024
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 33.57,
+      "Y" : 24.9,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 35.84,
+      "Y" : 25.47,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 34.66,
+      "Y" : 24.33,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 12.41651,
+      "Y" : 5.4561462,
+      "Z" : 0.043756485
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 13.021552,
+      "Y" : 39.822186,
+      "Z" : 0.25000572
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 135.74791,
+      "Y" : 5.2896724,
+      "Z" : 0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 115.38,
+      "Y" : 103.69,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 115.82,
+      "Y" : 104.92,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 114.59,
+      "Y" : 105.94,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 23.67,
+      "Y" : 84.7,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.89,
+      "Y" : 85.43,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 24.88,
+      "Y" : 84.14,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.318024,
+      "Y" : 4.304128,
+      "Z" : 0.24999952
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 69.84789,
+      "Y" : 2.1032915,
+      "Z" : 0.24999994
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 67.90637,
+      "Y" : 49.61118,
+      "Z" : 0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 87.91911,
+      "Y" : 22.565186,
+      "Z" : 0.26
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 134.37595,
+      "Y" : 46.76592,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 46.859707,
+      "Y" : 69.64885,
+      "Z" : 0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 104.4225,
+      "Y" : 34.09709,
+      "Z" : 0.25000572
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 75.93,
+      "Y" : 125.48,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 73.48,
+      "Y" : 124.76,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 74.72,
+      "Y" : 124.21,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 139.55762,
+      "Y" : 19.72709,
+      "Z" : -0.49000025
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2330,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813748,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812816,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_SMOKE001",
+      "TemplateResRef" : "zep_smoke001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 121.891304,
+      "Y" : 25.905975,
+      "Z" : -2.30076
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 20000,
+      "IntervalVrtn" : 2000,
+      "LocName" : {
+        "StringRef" : 67803,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_bugsscary1"
+        },
+        {
+          "Sound" : "as_an_bugsscary2"
+        }
+      ],
+      "Tag" : "BugsScary",
+      "TemplateResRef" : "bugsscary",
+      "Times" : 3,
+      "Volume" : 44,
+      "VolumeVrtn" : 0,
+      "XPosition" : 10.911605,
+      "YPosition" : 133.92792,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 10000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67831,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_crittgnaw1"
+        },
+        {
+          "Sound" : "as_an_crittgnaw2"
+        },
+        {
+          "Sound" : "as_an_crittgnaw3"
+        },
+        {
+          "Sound" : "as_an_crittgnaw4"
+        },
+        {
+          "Sound" : "as_an_crittpeep1"
+        },
+        {
+          "Sound" : "as_an_crittpeep2"
+        },
+        {
+          "Sound" : "as_an_crittscmp1"
+        },
+        {
+          "Sound" : "as_an_crittscmp2"
+        },
+        {
+          "Sound" : "as_an_crittscmp3"
+        }
+      ],
+      "Tag" : "Critters",
+      "TemplateResRef" : "critters",
+      "Times" : 3,
+      "Volume" : 33,
+      "VolumeVrtn" : 0,
+      "XPosition" : 11.199737,
+      "YPosition" : 131.50261,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Hive - First Level"
+          }
+        ]
+      },
+      "MapNote" : "To the Hive - First Level",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_HIVE2_2HIVE1",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.0,
+      "XPosition" : 6.7791677,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 125.01469,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Hive - Third Level"
+          }
+        ]
+      },
+      "MapNote" : "To the Hive - Third Level",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_HIVE2_2HIVE3",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.1118251E-5,
+      "XPosition" : 124.21479,
+      "YOrientation" : -1.0,
+      "YPosition" : 15.497129,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

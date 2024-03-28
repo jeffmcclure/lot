@@ -1,0 +1,212 @@
+{
+  "AppearanceType" : 29,
+  "BodyBag" : 6,
+  "CRAdjust" : 0,
+  "Cha" : 8,
+  "ChallengeRating" : 3.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 3,
+      "ClassX" : 8
+    }
+  ],
+  "Comment" : "",
+  "Con" : 11,
+  "Conversation" : "",
+  "CurrentHitPoints" : 15,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12565,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Swarms of these impish terrors have been known to come out of the night and tear apart a sleeping village in minutes. Small of stature and simian in appearance, these creatures possess surprising strength and unnatural agility. Other than killing, the only act which gives them pleasure is breeding, so expect to encounter them in large packs.\n\nThe small size of these devils does fill them with cowardice, and they prefer to attack under the guise of darkness and in large numbers whenever possible.  Do not turn your back on them, though, for their appetite for destruction will eventually overcome their caution and they will attempt to strike again."
+      }
+    ]
+  },
+  "Dex" : 16,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_wplmss002",
+      "StructId" : 16
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 221
+    },
+    {
+      "Feat" : 41
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 50
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12566,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Devil Kin"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 15,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 15,
+  "NaturalAC" : 1,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 158,
+  "Race" : 12,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_ml1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 12,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 8,
+  "Str" : 13,
+  "Subrace" : "",
+  "Tag" : "D1_FALLENONEDO",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fallenone004",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

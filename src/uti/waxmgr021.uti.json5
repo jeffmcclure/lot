@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 18,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 145390,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This fearsome axe was the preferred weapon of the great minotaur champion Koth Uth-Kallin.  The blood of many heroes stained its blade before Koth himself was felled by Nasher Alagondar."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13930,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Slasher of Koth"
+      }
+    ]
+  },
+  "ModelPart1" : 44,
+  "ModelPart2" : 23,
+  "ModelPart3" : 44,
+  "PaletteID" : 32,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 9,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 9
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 43,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "SLASHEROFKOTH",
+  "TemplateResRef" : "waxmgr021"
+}

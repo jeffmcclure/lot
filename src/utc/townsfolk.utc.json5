@@ -1,0 +1,232 @@
+{
+  "AppearanceHead" : 13,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 4,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : 0,
+  "Cha" : 9,
+  "ChallengeRating" : 1.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 4
+    }
+  ],
+  "ColorHair" : 15,
+  "ColorSkin" : 0,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 12,
+  "Conversation" : "con_townsfolk",
+  "CurrentHitPoints" : 1,
+  "DecayTime" : 60000,
+  "Deity" : "",
+  "Description" : "Most of the townspeople of Tristram have packed their belongings and fled the village out of fear.  Yet there are still some townsfolk who value their way of life more than their actual lives - and there are quite a few who feel that death will come to them wherever they go, hence they prefer to meet it in the places they call home.",
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "townsfolkarmor1",
+      "StructId" : 2
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_wswss001",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_it_torch001",
+      "StructId" : 32
+    }
+  ],
+  "FactionID" : 4,
+  "FeatList" : [
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 106
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : "Townsfolk",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 100,
+  "HitPoints" : 1,
+  "Int" : 10,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "nw_it_mpotion003",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 3,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 44,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 6,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 16,
+  "Subrace" : "",
+  "Tag" : "D1_TOWNSFOLK1",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "townsfolk",
+  "WalkRate" : 4,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

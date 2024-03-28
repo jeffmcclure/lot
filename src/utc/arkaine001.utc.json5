@@ -1,0 +1,193 @@
+{
+  "AppearanceType" : 1257,
+  "BodyBag" : 3,
+  "CRAdjust" : -2,
+  "Cha" : 3,
+  "ChallengeRating" : 8.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 13
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 55,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "When the ancient hero Arkaine died, he was buried in a secret part of the catacombs that cannot be accessed except by those deemed worthy of gleaning the hero's remains.  His followers not only secured his tomb with arcane devices, but they also trapped ferocious creatures within the tomb, and employed their skills in creating formidable sentries that will stand guard and protect the secret burial grounds of their much-recognized hero.\n\nSome of these mechanized monstrosities proved too powerful for their creators to control, and thus they were locked into the burial chamber itself while they were slaughtering their progenitors - thus ensuring that whoever can succeed in a test of wits to enter Arkaine's tomb, must pass the final test of strength and endurance.  A worthy safeguard for one of the holiest of heroes.",
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_clanaxe005",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "sentryarmor001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 73
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 111
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 149
+    }
+  ],
+  "FirstName" : "Arkaine's Sentry",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 55,
+  "Int" : 10,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 75,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 254,
+  "Race" : 10,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_sentry",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 49,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 75,
+  "Str" : 22,
+  "Subrace" : "",
+  "Tag" : "D1_ARKAINESENTRY1",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "arkaine001",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

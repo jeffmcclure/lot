@@ -1,0 +1,278 @@
+{
+  "AppearanceType" : 89,
+  "BodyBag" : 3,
+  "CRAdjust" : -12,
+  "Cha" : 3,
+  "ChallengeRating" : 23.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 30,
+      "ClassX" : 13
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 110,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12575,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Created by the infernal blacksmiths of the Burning hells, these sentries stand guard over the Hellforge and were designed to be a sturdy opposition to any interloper who plans an assault to the fiery armories..."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "forgemasterslam1",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "forgemasterskin1",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 21
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 100
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 49
+    },
+    {
+      "Feat" : 290
+    },
+    {
+      "Feat" : 138
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12576,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Forge Taskmaster"
+      }
+    ]
+  },
+  "Fortbonus" : 32,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 110,
+  "Int" : 3,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 200,
+  "NaturalAC" : 22,
+  "NoPermDeath" : 0,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 229,
+  "Race" : 10,
+  "Refbonus" : 14,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_forgesentry2",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_ml1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 49,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 35,
+  "Subrace" : "",
+  "Tag" : "D1_FORGESENTRY",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "forgemaster001",
+  "WalkRate" : 3,
+  "Willbonus" : 9,
+  "Wings" : 0,
+  "Wis" : 11
+}

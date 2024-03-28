@@ -1,0 +1,22 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "con_cowtalk",
+      "Text" : "Moo."
+    }
+  ],
+  "NumWords" : 1,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [ ],
+  "StartingList" : [
+    0
+  ]
+}

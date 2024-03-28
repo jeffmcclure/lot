@@ -1,0 +1,70 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 1,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 40080,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [ ]
+  },
+  "Description" : "",
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14360,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Hope Slayer"
+      }
+    ]
+  },
+  "ModelPart1" : 41,
+  "ModelPart2" : 41,
+  "ModelPart3" : 51,
+  "PaletteID" : 36,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 4,
+      "Param1" : 0,
+      "Param1Value" : 10,
+      "PropertyName" : 17,
+      "Subtype" : 4
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 3,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 67,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 65,
+      "Subtype" : 2
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "NWN_HOPESLAYER",
+  "TemplateResRef" : "nwnhopeslayer"
+}

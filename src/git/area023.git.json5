@@ -1,0 +1,2866 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 85,
+    "AmbientSndDayVol" : 55,
+    "AmbientSndNight" : 85,
+    "AmbientSndNitVol" : 56,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 101,
+    "MusicDelay" : 10000,
+    "MusicNight" : 101
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 62,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707772,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_HELL3LAZARUS",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 15,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Lazarus to Hell 3"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "LAZARUS_2HELL3",
+      "TemplateResRef" : "nw_door_ttr_28",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 98.020004,
+      "Y" : 35.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 8,
+      "HP" : 15,
+      "Hardness" : 6,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Lazarus's Throne Room"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_LAZARUS4",
+      "TemplateResRef" : "nw_door_jeweled",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 50.0,
+      "Y" : 35.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : null,
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Lazarus Door 2"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_LAZARUS2",
+      "TemplateResRef" : "nw_door_evlstone",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 70.0,
+      "Y" : 45.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 8,
+      "HP" : 15,
+      "Hardness" : 6,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Lazarus's Throne Room"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_LAZARUS3",
+      "TemplateResRef" : "nw_door_jeweled",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 70.0,
+      "Y" : 35.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 11,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 2.2821714E-6,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "WallDoor",
+      "TemplateResRef" : "nw_door_ttr_07",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 45.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 11,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.141584,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "WallDoor",
+      "TemplateResRef" : "nw_door_ttr_07",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 45.0,
+      "Y" : 15.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : null,
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Lazarus Door 1"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_LAZARUS1",
+      "TemplateResRef" : "nw_door_evlstone",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 70.0,
+      "Y" : 25.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936157,
+          "Y" : -0.18325043,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.78138,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061080933,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 37.48406,
+          "Y" : 19.391045,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 65.41762,
+      "YPosition" : 15.872978,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936081,
+          "Y" : -0.18325043,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.7813835,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061080933,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 61.78305,
+          "Y" : 8.573387,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 64.65402,
+      "YPosition" : 15.934048,
+      "ZPosition" : -7.1525574E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936081,
+          "Y" : -0.18325043,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.7813835,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061080933,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 40.5619,
+          "Y" : 9.727913,
+          "Z" : 9.894371E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 63.535965,
+      "YPosition" : 15.967304,
+      "ZPosition" : -2.3841858E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936081,
+          "Y" : -0.18325424,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.78138,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061084747,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 36.55651,
+          "Y" : 49.609688,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 65.4386,
+      "YPosition" : 43.292614,
+      "ZPosition" : 1.4305115E-6
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936157,
+          "Y" : -0.18325424,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.78138,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061084747,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 57.592514,
+          "Y" : 59.7277,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 64.593994,
+      "YPosition" : 43.322704,
+      "ZPosition" : 9.536743E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936081,
+          "Y" : -0.18325424,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9547043,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061088562,
+          "Y" : 10.78138,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061088562,
+          "Y" : -0.061084747,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 45.38029,
+          "Y" : 58.27208,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 63.543602,
+      "YPosition" : 43.332355,
+      "ZPosition" : -9.536743E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.016735077,
+          "Y" : 6.2299995,
+          "Z" : 0.024999762
+        },
+        {
+          "X" : -2.2386513,
+          "Y" : 6.2299995,
+          "Z" : 0.025
+        },
+        {
+          "X" : -2.2837868,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.045173645,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 15.78994,
+          "Y" : 54.47651,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 47.424625,
+      "YPosition" : 31.880001,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025000006
+        },
+        {
+          "X" : 0.016735077,
+          "Y" : 6.2299995,
+          "Z" : 0.025000006
+        },
+        {
+          "X" : -2.2386513,
+          "Y" : 6.2299995,
+          "Z" : 0.025000006
+        },
+        {
+          "X" : -2.2837868,
+          "Y" : 0.0,
+          "Z" : 0.025000006
+        },
+        {
+          "X" : -0.045173645,
+          "Y" : 0.0,
+          "Z" : 0.025000006
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 15.642501,
+          "Y" : 14.211332,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 46.605927,
+      "YPosition" : 31.93245,
+      "ZPosition" : 0.17662
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : -0.0013809204,
+          "Y" : 0.026321411,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.4547119,
+          "Y" : 0.012535095,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.8003502,
+          "Y" : 6.2263985,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.19619751,
+          "Y" : 6.2263985,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 10.291016,
+          "Y" : 24.893265,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 43.296158,
+      "YPosition" : 31.873833,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : -0.0013809204,
+          "Y" : 0.026321411,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.4547119,
+          "Y" : 0.0125312805,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.8003502,
+          "Y" : 6.2263985,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.19619751,
+          "Y" : 6.2263985,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 9.777275,
+          "Y" : 44.099392,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 41.80275,
+      "YPosition" : 31.893848,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 31.0,
+          "ResRef" : "sucubus005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936157,
+          "Y" : -0.18325043,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.78138,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061080933,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Black Jade",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 66.19142,
+          "Y" : 63.44462,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BlackJade",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 61.637497,
+      "YPosition" : 43.404556,
+      "ZPosition" : 4.7683716E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 31.0,
+          "ResRef" : "sucubus006",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 1.8936157,
+          "Y" : -0.18325043,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.9546967,
+          "Y" : 10.903549,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : 10.78138,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.061080933,
+          "Y" : -0.061080933,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Red Vex",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : 1.5707942,
+          "X" : 64.682976,
+          "Y" : 6.7360153,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "RedVex",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 61.67961,
+      "YPosition" : 16.066032,
+      "ZPosition" : -2.3841858E-7
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707829,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 66.578865,
+      "Y" : 57.094578,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707829,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 66.599724,
+      "Y" : 59.169353,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707829,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 66.45256,
+      "Y" : 10.600601,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707829,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 66.47342,
+      "Y" : 12.675377,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "You look about you, suspicious, but see nothing."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "COLORS",
+      "TemplateResRef" : "invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 95.61867,
+      "Y" : 42.64284,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 46,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.570795,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_vilestand",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14540,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "A small altar rests before you. Age-old bloodstains have seeped into the stone, mingling with scorch marks left from a long-extinguished fire."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14541,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Vile Stand"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 404,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ALTAR_VILESTAND",
+      "TemplateResRef" : "plc_altrevil",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 8.210058,
+      "Y" : 35.083282,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2351,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.570795,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14723,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14724,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ShaftofLightPurple",
+      "TemplateResRef" : "plc_solpurple",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 7.991537,
+      "Y" : 35.097557,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 172,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_sanctum",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14723,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "A searing shaft of light descends from some unseen place above."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14724,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Sanctum Portal"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 530,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PORTAL_2UNHOLY",
+      "TemplateResRef" : "plc_solpurple",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 15.130858,
+      "Y" : 35.100864,
+      "Z" : 9.536743E-7
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 153,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14630,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14629,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 511,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Floor Designs - Style 2",
+      "TemplateResRef" : "plc_flrdesigns2",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 10.01,
+      "Y" : 10.01,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 153,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14630,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14629,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 511,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Floor Designs - Style 2",
+      "TemplateResRef" : "plc_flrdesigns2",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 9.953344,
+      "Y" : 59.962578,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 167,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_sanctum1",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14723,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14724,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Portal to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 525,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PORTAL_LAZ2TRISTRAM",
+      "TemplateResRef" : "plc_solpurple",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 10.01,
+      "Y" : 9.985853,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 167,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_sanctum2",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14723,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14724,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Portal to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 525,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PORTAL_LAZ2TRISTRAM",
+      "TemplateResRef" : "plc_solpurple",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 9.970427,
+      "Y" : 60.00488,
+      "Z" : 0.015000106
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 152,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.570795,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14628,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14629,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 510,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Floor Designs - Style 1",
+      "TemplateResRef" : "plc_flrdesigns1",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 7.9,
+      "Y" : 35.11,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2248,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810924,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812420,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 2446,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_PENTAGRAM002",
+      "TemplateResRef" : "zep_pentagram002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 15.177507,
+      "Y" : 35.13034,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 35.252068,
+      "Y" : 45.1364,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 35.17249,
+      "Y" : 64.85923,
+      "Z" : 0.6533526
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 64.75194,
+      "Y" : 64.89111,
+      "Z" : 0.59805894
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 94.74533,
+      "Y" : 44.86824,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 94.89187,
+      "Y" : 25.236528,
+      "Z" : 0.61514187
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 64.84222,
+      "Y" : 5.200452,
+      "Z" : 0.5922468
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 35.223953,
+      "Y" : 5.120434,
+      "Z" : 0.6145139
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 35.125137,
+      "Y" : 24.721796,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.1132007,
+      "Y" : 64.76308,
+      "Z" : 0.6071502
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.2229204,
+      "Y" : 55.0974,
+      "Z" : 0.6497593
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.763144,
+      "Y" : 64.88227,
+      "Z" : 0.6006115
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 24.833473,
+      "Y" : 54.82485,
+      "Z" : 0.6137674
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 24.89324,
+      "Y" : 15.266626,
+      "Z" : 0.5754584
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.841423,
+      "Y" : 5.188576,
+      "Z" : 0.60754067
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.2514653,
+      "Y" : 5.1370106,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.1073313,
+      "Y" : 14.78303,
+      "Z" : 0.643417
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.232602,
+      "Y" : 25.090471,
+      "Z" : 0.6464998
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 2337,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810848,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811800,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 508,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_BFLAME002",
+      "TemplateResRef" : "zep_bflame002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.1143126,
+      "Y" : 44.781334,
+      "Z" : 0.63083065
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67890,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_portal1"
+        }
+      ],
+      "Tag" : "MagicPortalNeutral",
+      "TemplateResRef" : "magicalportalneu",
+      "Times" : 3,
+      "Volume" : 97,
+      "VolumeVrtn" : 0,
+      "XPosition" : 10.018698,
+      "YPosition" : 10.058746,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67890,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_portal1"
+        }
+      ],
+      "Tag" : "MagicPortalNeutral",
+      "TemplateResRef" : "magicalportalneu",
+      "Times" : 3,
+      "Volume" : 97,
+      "VolumeVrtn" : 0,
+      "XPosition" : 9.954792,
+      "YPosition" : 59.989548,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67901,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 12.0,
+      "MinDistance" : 1.2,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_portal4"
+        }
+      ],
+      "Tag" : "MagicPortalEvil",
+      "TemplateResRef" : "magicportalevil",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 15.784697,
+      "YPosition" : 35.14029,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to Hell"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to Hell"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_LAZARUS2HELL3",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : -1.0,
+      "XPosition" : 96.05056,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 34.95041,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Inner Sanctum Waypoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_SANCTUM1",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.7071066,
+      "XPosition" : 10.601097,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 10.640152,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Inner Sanctum Waypoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_SANCTUM2",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.70710844,
+      "XPosition" : 10.873525,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 59.16182,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Sanctum Portal"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Sanctum Portal"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "MAP_UNHOLYALTAR",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : -1.0,
+      "XPosition" : 15.374637,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 35.16762,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

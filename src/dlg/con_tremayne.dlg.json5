@@ -1,0 +1,1459 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_diablo2",
+          "Index" : 39,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_shadowfang2",
+          "Index" : 32,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_shadowfang",
+          "Index" : 28,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroom",
+          "Index" : 26,
+          "IsChild" : 0
+        },
+        7,
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 6,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 4,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_11",
+          "Index" : 2,
+          "IsChild" : 0
+        },
+        1,
+        0
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "trem_greet",
+      "Text" : "May the light guide you, <FirstName>. How can I be of service?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        {
+          "Active" : "prq_lazarusx",
+          "Index" : 9,
+          "IsChild" : 0
+        },
+        8
+      ],
+      "Script" : "",
+      "Text" : "An inquisitive mind is always a divine quality.  What do you wish to know?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10,
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "trem_lazarus1",
+      "Text" : "The Archbishop Lazarus, once King Leoric's most trusted advisor - and a member of our order - has taken the path of evil...  Not long ago, Lazarus led a party of simple townsfolk into the labyrinth to find the King's missing son, Albrecht.  Only a few of them escaped with their lives..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 23,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 22,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowdeese",
+          "Index" : 21,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowfarnham",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgillian",
+          "Index" : 19,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgriswold",
+          "Index" : 18,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowlester",
+          "Index" : 17,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowogden",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 15,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowwirt",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        13,
+        12
+      ],
+      "Script" : "",
+      "Text" : "I'm afraid I don't come here often enough to get to know most of them, but I will try to answer your questions about them as best as I can."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "The boy that the blacksmith saved from the labyrinth is no longer the same boy who was taken by those creatures.  His heart and soul are now as black as the darkness that consumed him down there.  A very sad thing, indeed."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "The healer is an honorable and trustworthy man.  He fulfills the needs of others without expecting much in return.  I consider him a good friend."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I have not really visited the man's tavern in all of my trips to this town, but he and his wife are very important in keeping the spirits high for the people in Tristram.  May the light guide them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "That man is disturbing."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I heard that he was once a soldier.  I am glad that he has left the violence of war and decided to earn his keep by catering to his fellowmen's needs."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "A responsible young woman who puts the needs of her matriarch over her own.  Such kindness and devotion is rare nowadays..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "That man has a sad and tragic tale, and I pray that he finds peace."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I pray that Farnham has found the peace he seeks."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I don't know much about the farmer, but I once had to drive away his children from the graveyard.  Such unruly young men..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I heard what happened to the farmer's sons.  Although I feel sorry for him, I am hopeful that you will help us end these horrid events from happening to the other people in this town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Cain is a phenomenal scholar and much more knowledgeable than you think.  I consider him both a friend and a trusted colleague."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25,
+        24
+      ],
+      "Script" : "",
+      "Text" : "The witch's purpose in Tristram is unknown to me, but I believe she can help you find out what is going on."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        27,
+        {
+          "Active" : "",
+          "Index" : 7,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'm afraid I don't have much need for books that create magic."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        30,
+        29
+      ],
+      "Script" : "giv_shadowfang",
+      "Sound" : "trem_flshdm7",
+      "Text" : "Fleshdoom's demise is a great good to the world, yet Shadowfang remains!  It must be found and destroyed!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        31,
+        {
+          "Active" : "",
+          "Index" : 29,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "trem_flshdm8",
+      "Text" : "Do not attempt to use the demon blade, champion!  It will corrupt and madden any mortal who wields it.  I alone can end its dark evil!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 44,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        36,
+        33
+      ],
+      "Script" : "",
+      "Sound" : "trem_flshdm9",
+      "Text" : "Light be praised!  You found the cursed demon blade!  Only its destruction can ensure the safety of us all!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        35,
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        34
+      ],
+      "Script" : "con_evil1",
+      "Text" : "Oh.  I almost had my hopes up.  Please do not make jokes about these critical matters."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        38,
+        37
+      ],
+      "Script" : "vfx_tremaynedead",
+      "Sound" : "trem_flshdm10",
+      "Text" : "Wait.... what treachery is this?  Augh!!  It burns!!  Hellfire.... consuming me... You must take this... to the hellforge... and cast it in before....  NOOOO!!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        40
+      ],
+      "Script" : "",
+      "Sound" : "trem_lazarus2",
+      "Text" : "So, Lazarus has paid the price for his betrayal, and justice is served!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        42,
+        41
+      ],
+      "Script" : "giv_lightforge",
+      "Sound" : "trem_lazarus3",
+      "Text" : "For your services this day, I bestow this mace unto you.  Its name is Lightforge, and it is the holiest of our order's artifacts."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        43
+      ],
+      "Script" : "",
+      "Sound" : "trem_lazarus4",
+      "Text" : "As I am the last of this order, I entrust it to you.  May the light guide you, <FirstName>..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        46,
+        45
+      ],
+      "Script" : "",
+      "Text" : "Most definitely not!  I don't keep items that have a stain of Hell!  Throw that weapon away, or ask someone else.  It is not worth my time..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "end_tremaynex",
+      "Text" : "Noooooo!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        48,
+        47
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "trem_flshdm1",
+      "Text" : "I have had a most disturbing experience that I must share with you, my friend!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will tell it to you later then.  What do you need?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        49
+      ],
+      "Script" : "",
+      "Sound" : "trem_flshdm2",
+      "Text" : "Earlier today, I was called upon to help one of the men that escaped from the labyrinth!  He was deranged, violent, and kept lashing out at all of those who tried to calm him.  I suspected that he was possessed by some sort of demonic entity, and so began to drive the evil from within him!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        51,
+        50
+      ],
+      "Script" : "",
+      "Sound" : "trem_flshdm3",
+      "Text" : "After many hours, I was able to exorcise a demon who called himself Fleshdoom!  But the hellion fled into the labyrinth..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        53,
+        52
+      ],
+      "Script" : "",
+      "Sound" : "trem_flshdm4",
+      "Text" : "You may think that I am mad, but after speaking with the man and battling with Fleshdoom, I believe that the labyrinth has somehow become a gateway to the underworld!  As you descend deeper, you may find yourself upon the doorstep of Hell itself!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        55,
+        54
+      ],
+      "Script" : "",
+      "Sound" : "trem_flshdm5",
+      "Text" : "Finally, the man who possessed retained memories of an ancient demon blade named Shadowfang.  If you find the demon Fleshdoom, beware this foul sword!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        57,
+        56
+      ],
+      "Script" : "giv_fleshdoom",
+      "Sound" : "trem_flshdm6",
+      "Text" : "While I fear the dangers below grow even greater, you must find Fleshdoom and slay him!  Bring the sword to me and I can destroy it - but do not wield it, for its power can corrupt absolutely."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        60,
+        58
+      ],
+      "Script" : "end_virgin",
+      "Sound" : "trem_greet",
+      "Text" : "May the light guide you.  Are you new to this town?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        59
+      ],
+      "Script" : "con_evil1",
+      "Text" : "There is always time for pleasantries, my friend.  Are you this <FirstName> that Cain has been telling me about?  They said you left Tristram years ago.  It's nice to see you come back to your roots."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        62,
+        61
+      ],
+      "Script" : "",
+      "Text" : "Well, it is my pleasure to meet you, <FirstName>.  My name is Tremayne, and I am a priest who occasionally comes to this town to check up on who may be in need of my services and the holy objects I trade."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        64,
+        63
+      ],
+      "Script" : "",
+      "Text" : "Actually, not at this time.  There is an evil in this town that I have to investigate.  Maybe you can help us?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 7,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        65
+      ],
+      "Script" : "",
+      "Text" : "That is good to know, <FirstName>.  Is there anything you need from me?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        68,
+        67,
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        66
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "trem_greet",
+      "Text" : "May the light guide you, <FirstName>. How can I be of service?"
+    }
+  ],
+  "NumWords" : 1506,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am done, thank you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_selltremayne",
+      "Sound" : "",
+      "Text" : "I would like to sell some things to you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayneprem",
+      "Sound" : "",
+      "Text" : "I would like to see better items than what you're currently selling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayne4",
+      "Sound" : "",
+      "Text" : "I would like to see what you're selling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayne3",
+      "Sound" : "",
+      "Text" : "I would like to see what you're selling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayne2",
+      "Sound" : "",
+      "Text" : "I would like to see what you're selling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayne1",
+      "Sound" : "",
+      "Text" : "I would like to see what you're selling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I changed my mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Archbishop Lazarus?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Pretty much what everyone else is saying.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to know more about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions to ask you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Lester."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_islandxx",
+          "Index" : 11,
+          "IsChild" : 0
+        },
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "end_lostboys",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Deese."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to know about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I found a fungal tome in the caves.  Do you need it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have killed Fleshdoom, but he was not wielding this vile sword you speak of."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So much ado about a stupid sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why must it be destroyed?  If it is so powerful, why can't I use it to aid in my quest?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, I'll try to find it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have retrieved Shadowfang as you asked."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>Lie.</Start> Actually I lied.  I haven't found it yet."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 21,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "end_shadowfang",
+      "Sound" : "",
+      "Text" : "No actually, here it is! <StartAction>You hand the demon blade over to Tremayne.</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Script" : "end_shadowfang",
+      "Sound" : "",
+      "Text" : "<StartAction>Hand the demon blade over to Tremayne.</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_tremaynex",
+      "Sound" : "",
+      "Text" : "Oh hell..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_tremaynex",
+      "Sound" : "",
+      "Text" : "What's happening Tremayne?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have succeeded in killing Lazarus."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Well, I surely deserve this for all the trouble this town has caused me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "You really don't need to give it to me.  It was part of my job to slay that vile creature."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have this cleaver that the creature called the Butcher used to slaughter the people in the church.  Can I sell it to you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So much melodrama for a stupid axe.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well.  Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have time for your stories, priest!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What was it, Tremayne?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then what happened?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 31,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A demon that names himself and then leaves?  Sounds hard to believe..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Pretty far-fetched story there, priest...  Are you sure you didn't drink too much of your own potions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 32,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Really?  What else can you tell me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I already know this, Tremayne.  What else is important about this incident?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 33,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can handle myself just fine.  What else?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what do you want me to do?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This demon won't be any different from the other monsters I'll kill down there."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll see what I can do, Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Script" : "s_knowtremayne",
+      "Sound" : "",
+      "Text" : "Who cares... I have no time for pleasantries, especially with a priest..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 36,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Roots are hardly the reason why I came back here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Script" : "s_knowtremayne",
+      "Sound" : "",
+      "Text" : "Actually, I grew up here, but I left a few years ago and only came back today.  My name is <FirstName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Oh, so you're gonna do what all the other cowards are doing and flee town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you are leaving soon?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 38,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe, if it'll do more for me than it will for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "I have heard of this darkness, and I shall do my best to help Tristram."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Not at this time.  Thank you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am done, thank you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayneprem",
+      "Sound" : "",
+      "Text" : "I would like to see better items than what you're currently selling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_tremayne4",
+      "Sound" : "",
+      "Text" : "I would like to see what you're selling."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 39
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 34
+    },
+    {
+      "Active" : "prq_fleshdoom",
+      "Index" : 27
+    },
+    {
+      "Active" : "prq_endtremayne",
+      "Index" : 26
+    },
+    0
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "AppearanceType" : 1256,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 3,
+  "ChallengeRating" : 11.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 15,
+      "ClassX" : 26
+    }
+  ],
+  "Comment" : "",
+  "Con" : 12,
+  "Conversation" : "",
+  "CurrentHitPoints" : 70,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12719,
+    "Strings" : [ ]
+  },
+  "Dex" : 18,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "spider004",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "spider004",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "arachbite006",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "spider004b",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12720,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Spider Magus"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 1,
+  "GoodEvil" : 50,
+  "HitPoints" : 70,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 85,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 304,
+  "Race" : 25,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_sc1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 85,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 46,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 83,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 135,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 135,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 135,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 165,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 166,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 192,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 16,
+  "Subrace" : "",
+  "Tag" : "D1_SPIDERSM",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "spider004",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

@@ -1,0 +1,400 @@
+{
+  "AppearanceType" : 103,
+  "BodyBag" : 0,
+  "CRAdjust" : -2,
+  "Cha" : 30,
+  "ChallengeRating" : 27.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 35,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 90,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12420,
+    "Strings" : [ ]
+  },
+  "Dex" : 11,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_crewpb025",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_creitem029",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 293
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 13
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 35
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 172
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12421,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Elohim"
+      }
+    ]
+  },
+  "Fortbonus" : 6,
+  "Gender" : 4,
+  "GoodEvil" : 100,
+  "HitPoints" : 90,
+  "Int" : 30,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 90,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 0,
+  "PaletteID" : 23,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 171,
+  "Race" : 20,
+  "Refbonus" : 11,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_epic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_mag",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 2,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 323,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 5,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 6,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 11,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 11,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 11,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 14,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 366,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 366,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 41,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 61,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 65,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 76,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 76,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 76,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 79,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 80,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 114,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 133,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 153,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 167,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 183,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 194,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 194,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 5,
+  "Subrace" : "",
+  "Tag" : "EPIC_ELOHIM",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "elohim",
+  "WalkRate" : 5,
+  "Willbonus" : 11,
+  "Wings" : 0,
+  "Wis" : 30
+}

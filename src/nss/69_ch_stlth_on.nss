@@ -1,0 +1,17 @@
+//::///////////////////////////////////////////////
+//:: Turn On Stealth Mode
+//:: 69_CH_STLTH_ON.nss
+//:: Copyright (c) 2001 Bioware Corp.
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Preston Watamaniuk
+//:: Created On: Nov 19, 2001
+//:://////////////////////////////////////////////
+#include "NW_I0_GENERIC"
+
+void main()
+{
+    ActionUseSkill(SKILL_HIDE, OBJECT_SELF);
+    SetAssociateState(NW_ASC_AGGRESSIVE_STEALTH);
+}
+

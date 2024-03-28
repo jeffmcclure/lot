@@ -1,0 +1,226 @@
+{
+  "AppearanceType" : 161,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 8.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 26
+    },
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 16,
+  "Conversation" : "",
+  "CurrentHitPoints" : 23,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12721,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These vile creatures swarm over this defiled place.  These vermin seemed to have been the progenitors of the harmless ones you now know.  Of course, these ones are far from harmless..."
+      }
+    ]
+  },
+  "Dex" : 17,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "arachnonbite",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "arachnonbite",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "arachnonbite",
+      "StructId" : 65536
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12722,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Arachnon"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 1,
+  "GoodEvil" : 50,
+  "HitPoints" : 23,
+  "Int" : 7,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 65,
+  "NaturalAC" : 3,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 303,
+  "Race" : 19,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 53,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 86,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "D1_ARACHNON2",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "arachnon001",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 13
+}

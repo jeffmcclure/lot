@@ -1,0 +1,61 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "",
+  "EndConversation" : "",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "Nobody is sitting on it. What do you want to do with it?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "It is already occupied."
+    }
+  ],
+  "NumWords" : 26,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave it alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sei_pickup",
+      "Sound" : "",
+      "Text" : "Pick it up."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sei_sit",
+      "Sound" : "",
+      "Text" : "Sit on it."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "sei_ta_isoccu",
+      "Index" : 1
+    },
+    0
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 50,
+    "AmbientSndDayVol" : 39,
+    "AmbientSndNight" : 55,
+    "AmbientSndNitVol" : 52,
+    "EnvAudio" : 89,
+    "MusicBattle" : 39,
+    "MusicDay" : 99,
+    "MusicDelay" : 5000,
+    "MusicNight" : 103
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 65,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : "",
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_FOREST2CLEARING",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 61,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "A Clearing to Forest Area"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CLEARING_2FOREST",
+      "TemplateResRef" : "nw_door_ttr_29",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 35.0,
+      "Y" : 78.19,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 1,
+      "Appearance" : 65,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415496,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_TRISTRAM2CLEARING",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 64,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Clearing to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CLEARING_2TRISTRAM",
+      "TemplateResRef" : "nw_door_ttr_29",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 65.0,
+      "Y" : 1.8100002,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 1,
+      "Appearance" : 65,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.141577,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "RuralExit",
+      "TemplateResRef" : "nw_door_ttr_29",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 45.0,
+      "Y" : 2.2200003,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 1,
+      "Appearance" : 65,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "RuralExit",
+      "TemplateResRef" : "nw_door_ttr_29",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 2.22,
+      "Y" : 65.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1159,
+          "CR" : 0.25,
+          "ResRef" : "fallenone001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1160,
+          "CR" : 0.25,
+          "ResRef" : "fallenone002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.19754791,
+          "Y" : -0.064188,
+          "Z" : 0.025
+        },
+        {
+          "X" : 38.540997,
+          "Y" : 9.925579,
+          "Z" : 0.025
+        },
+        {
+          "X" : 31.193027,
+          "Y" : 25.6648,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Fallen One Group (low)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 42.250103,
+          "Y" : 41.955444,
+          "Z" : 0.010001659
+        }
+      ],
+      "Tag" : "FallenOneGrouplow",
+      "TemplateResRef" : "blueprint002",
+      "XPosition" : 35.218723,
+      "YPosition" : 14.982241,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1159,
+          "CR" : 0.25,
+          "ResRef" : "fallenone001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1160,
+          "CR" : 0.25,
+          "ResRef" : "fallenone002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 26,
+          "CR" : 4.0,
+          "ResRef" : "fallenonebrute",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.38347244,
+          "Y" : -0.15683746,
+          "Z" : 0.02812996
+        },
+        {
+          "X" : 3.4548283,
+          "Y" : -0.61198425,
+          "Z" : 0.025
+        },
+        {
+          "X" : 49.483543,
+          "Y" : 44.36933,
+          "Z" : 0.025
+        },
+        {
+          "X" : 44.88875,
+          "Y" : 45.195896,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02812996
+        }
+      ],
+      "LocalizedName" : "Fallen One Group (low)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 14.627553,
+          "Y" : 70.27356,
+          "Z" : 0.010001659
+        }
+      ],
+      "Tag" : "FallenOneGrouplow",
+      "TemplateResRef" : "blueprint002",
+      "XPosition" : 9.106567,
+      "YPosition" : 19.190083,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 109,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14550,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 1,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 33,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD001",
+          "TemplateResRef" : "nw_it_gold001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14551,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_mid",
+      "OnUsed" : "loot_normal_mid",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 467,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "OUTSKIRTS_CORPSE1",
+      "TemplateResRef" : "plc_arrowcorpse",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 42.424988,
+      "Y" : 42.663425,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 146,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14572,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5789,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 504,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bloodstain",
+      "TemplateResRef" : "plc_bloodstain",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 42.07729,
+      "Y" : 42.855984,
+      "Z" : 0.009981989
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 177,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14753,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14754,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 535,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Weathering / Scorch Mark",
+      "TemplateResRef" : "plc_weathmark",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 46.64681,
+      "Y" : 45.131805,
+      "Z" : 0.009981989
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 121,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14730,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "It's hard to tell if the spears killed him or if his enemies pierced the corpse as a means of defilement."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 1,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 26,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD001",
+          "TemplateResRef" : "nw_it_gold001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 20,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 1517,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 11,
+          "ModelPart2" : 11,
+          "ModelPart3" : 11,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 2,
+          "ReposPosy" : 0,
+          "StackSize" : 99,
+          "Stolen" : 0,
+          "Tag" : "NW_WAMAR001",
+          "TemplateResRef" : "nw_wamar001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 11,
+          "Charges" : 0,
+          "Cost" : 60,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 171,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 11,
+          "ModelPart2" : 11,
+          "ModelPart3" : 11,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 3,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_WBWSH001",
+          "TemplateResRef" : "nw_wbwsh001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14731,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_mid",
+      "OnUsed" : "loot_normal_mid",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 479,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "OUTSKIRTS_CORPSE2",
+      "TemplateResRef" : "plc_spearcorpse",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 45.527687,
+      "Y" : 46.775494,
+      "Z" : 0.009981989
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 146,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14572,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5789,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 504,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bloodstain",
+      "TemplateResRef" : "plc_bloodstain",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 45.650913,
+      "Y" : 47.020855,
+      "Z" : 0.009981989
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 84,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14707,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5727,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 442,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Rubble",
+      "TemplateResRef" : "plc_rubble",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 43.932346,
+      "Y" : 47.210426,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 177,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415834,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14753,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14754,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 535,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Weathering / Scorch Mark",
+      "TemplateResRef" : "plc_weathmark",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 41.01474,
+      "Y" : 41.66277,
+      "Z" : 0.010001659
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67984,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 0,
+      "Priority" : 2,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_stream1"
+        }
+      ],
+      "Tag" : "StreamSoft",
+      "TemplateResRef" : "streamsoft",
+      "Times" : 3,
+      "Volume" : 25,
+      "VolumeVrtn" : 0,
+      "XPosition" : 6.4105077,
+      "YPosition" : 25.149456,
+      "ZPosition" : 1.5100017
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_CLEARING2TRISTRAM",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 0.0,
+      "XPosition" : 64.971275,
+      "YOrientation" : 1.0,
+      "YPosition" : 7.7216144,
+      "ZPosition" : 0.019993782
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Forest Area"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Forest Area"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_CLEARING2FOREST",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 1.3264018E-5,
+      "XPosition" : 35.002415,
+      "YOrientation" : -1.0,
+      "YPosition" : 72.324554,
+      "ZPosition" : 0.019993782
+    }
+  ]
+}

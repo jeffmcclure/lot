@@ -1,0 +1,251 @@
+{
+  "AppearanceType" : 386,
+  "BodyBag" : 3,
+  "CRAdjust" : 8,
+  "Cha" : 3,
+  "ChallengeRating" : 25.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 12
+    },
+    {
+      "ClassLevel" : 25,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 40,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 3104,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These rats are not ones who do shopping..."
+      }
+    ]
+  },
+  "Dex" : 15,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "ratbite",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "ratbite",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "ratbite001",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "ratskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 3103,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Maul Rat"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 40,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 75,
+  "NaturalAC" : 1,
+  "NoPermDeath" : 0,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 602,
+  "Race" : 8,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_unique",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_mel",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 249,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 74,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_MID",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "maulrat",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 12
+}

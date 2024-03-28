@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 8,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 1510,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 67504,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Eliak, an elven ranger, was consumed with hatred for trolls.  As a child he had witnessed the death of his parents at the hands of marauding trolls.  The trolls killed, then ate his parents, while the young child cowered under a nearby bush.  Eliak spent the rest of his life trying to hunt the creatures to extinction.  Eventually his lifelong enemies caught him and tore him apart in the borderlands of the Silver March.  His magical bow was all that could be recovered from his remains."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 67503,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Eliak's Vengeance"
+      }
+    ]
+  },
+  "ModelPart1" : 22,
+  "ModelPart2" : 12,
+  "ModelPart3" : 22,
+  "PaletteID" : 44,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 56,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 3,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 74,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 63,
+      "Subtype" : 7
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "ELIAKSVENGEANCE",
+  "TemplateResRef" : "wbwmln017"
+}

@@ -1,0 +1,226 @@
+{
+  "AppearanceType" : 1141,
+  "BodyBag" : 3,
+  "CRAdjust" : 0,
+  "Cha" : 9,
+  "ChallengeRating" : 4.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 4,
+      "ClassX" : 4
+    },
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 14
+    }
+  ],
+  "Comment" : "",
+  "Con" : 16,
+  "Conversation" : "con_snotspill",
+  "CurrentHitPoints" : 40,
+  "DecayTime" : 10000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 12,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "uniquearmor002",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_wswss001",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_wswss001",
+      "StructId" : 32
+    }
+  ],
+  "FactionID" : 7,
+  "FeatList" : [
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 106
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : "<cÿÿ >Snotspill",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 40,
+  "Int" : 8,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "nw_it_torch001",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 1,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 3,
+      "ReposPosy" : 0
+    },
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "bookoftownportal",
+      "ReposPosX" : 4,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 55,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 8,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2002,
+  "Race" : 12,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_snotspill",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 8,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "snotspill",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

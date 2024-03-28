@@ -1,0 +1,245 @@
+{
+  "AppearanceHead" : 14,
+  "AppearanceType" : 1,
+  "ArmorPartRFoot" : 2,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 2,
+  "BodyPartLFArm" : 2,
+  "BodyPartLFoot" : 2,
+  "BodyPartLHand" : 2,
+  "BodyPartLShin" : 2,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 2,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 2,
+  "BodyPartRBicep" : 2,
+  "BodyPartRFArm" : 2,
+  "BodyPartRHand" : 2,
+  "BodyPartRShin" : 2,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 2,
+  "BodyPartTorso" : 2,
+  "CRAdjust" : 0,
+  "Cha" : 12,
+  "ChallengeRating" : 0.5,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 10,
+      "MemorizedList0" : [
+        {
+          "Spell" : 37,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 144,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList1" : [
+        {
+          "Spell" : 102,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 174,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    }
+  ],
+  "ColorHair" : 17,
+  "ColorSkin" : 2,
+  "ColorTattoo1" : 52,
+  "ColorTattoo2" : 45,
+  "Comment" : "",
+  "Con" : 8,
+  "Conversation" : "kirath_adjust",
+  "CurrentHitPoints" : 4,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 18,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "cloth042",
+      "StructId" : 2
+    }
+  ],
+  "FactionID" : 11,
+  "FeatList" : [
+    {
+      "Feat" : 944
+    },
+    {
+      "Feat" : 236
+    },
+    {
+      "Feat" : 235
+    },
+    {
+      "Feat" : 354
+    },
+    {
+      "Feat" : 244
+    },
+    {
+      "Feat" : 245
+    },
+    {
+      "Feat" : 246
+    },
+    {
+      "Feat" : 945
+    },
+    {
+      "Feat" : 303
+    },
+    {
+      "Feat" : 51
+    }
+  ],
+  "FirstName" : "Kirath",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 4,
+  "Int" : 16,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 1,
+  "MaxHitPoints" : 3,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 33,
+  "Race" : 4,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "kir_phy_attacked",
+  "ScriptDamaged" : "kirath_damaged",
+  "ScriptDeath" : "kirath_death",
+  "ScriptDialogue" : "kirath_convo",
+  "ScriptDisturbed" : "x0_ch_hen_distrb",
+  "ScriptEndRound" : "kirath_combatend",
+  "ScriptHeartbeat" : "kirath_heartbeat",
+  "ScriptOnBlocked" : "x0_ch_hen_block",
+  "ScriptOnNotice" : "x0_ch_hen_percep",
+  "ScriptRested" : "x0_ch_hen_rest",
+  "ScriptSpawn" : "kirath_on_spawn",
+  "ScriptSpellAt" : "kir_spll_attack",
+  "ScriptUserDefine" : "x0_ch_hen_usrdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 13
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 413,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 10,
+  "Str" : 11,
+  "Subrace" : "",
+  "Tag" : "kirath",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "murin015",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 13
+}

@@ -1,0 +1,272 @@
+{
+  "AppearanceType" : 50,
+  "BodyBag" : 3,
+  "CRAdjust" : -3,
+  "Cha" : 16,
+  "ChallengeRating" : 21.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 18
+    }
+  ],
+  "Comment" : "",
+  "Con" : 22,
+  "Conversation" : "",
+  "CurrentHitPoints" : 285,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12460,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The hulking denizen of this strange cave... "
+      }
+    ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps017",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "fangspeirskin",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12463,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Fangspeir"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 285,
+  "Int" : 15,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 425,
+  "NaturalAC" : 20,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 200,
+  "Race" : 11,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_fangspeir",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 29,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 237,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 237,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 237,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 237,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 237,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 30,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_MID",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fangspeir",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 15
+}

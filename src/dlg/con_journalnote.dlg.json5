@@ -1,0 +1,91 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "There is nothing of importance here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Sound" : "note_nakrul1a",
+      "Text" : "\"Whoever finds this scroll is charged with stopping the demonic creature that lies within these walls.  My time is over...  Even now, its hellish minions claw at the frail door behind which I hide!  I have hobbled the demon with arcane magic, and encased it within great walls, but I fear that will not be enough...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Sound" : "note_nakrul1b",
+      "Text" : "\"The spells found in my three grimoires will provide you protected entrance to his domain, but only if cast in their proper sequence.  The levers at the entryway will remove the barriers and free the demon.  Touch them not!\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "giv_nakrul",
+      "Sound" : "note_nakrul1c",
+      "Text" : "\"Use only these spells to gain entry, or his power may be too great for you to defeat...\""
+    }
+  ],
+  "NumWords" : 122,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    1,
+    0
+  ]
+}

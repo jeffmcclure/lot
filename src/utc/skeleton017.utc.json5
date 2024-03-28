@@ -1,0 +1,310 @@
+{
+  "AppearanceType" : 1288,
+  "BodyBag" : 5,
+  "CRAdjust" : 0,
+  "Cha" : 11,
+  "ChallengeRating" : 6.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 19
+    },
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 2,
+      "MemorizedList0" : [
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 151,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 151,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList1" : [
+        {
+          "Spell" : 6,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 32,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 155,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList2" : [
+        {
+          "Spell" : 9,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 83,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 83,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 163,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    }
+  ],
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 20,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12697,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These are the skeletal remains of warriors who either died as soldiers in some dark campaign, or were betrayed by those they most trusted.  Now animated by unnatural forces, these troops of the Damned forever seek new recruits to join their ranks.  If our greatest fears do prove to be true, the skeletal warriors that are rumored to haunt the town of Tristram might well be the corrupted remains of the valiant Horadrim monks laid to rest in the catacombs beneath the church.  Only an incredibly potent evil could have disturbed the peaceful slumber of these eremites.\n\nSkeletons are usually found in places where the dead are laid to rest or at the sites of great battles.  While physically fragile, they are never lacking in numbers, for those that fall to them in combat are damned to an eternal lust for living blood.  Coupled with their unthinking rage, this makes them a dangerous opponent."
+      }
+    ]
+  },
+  "Dex" : 12,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "horrormace001",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "skelmageshield2",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp026",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp026",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_horrorskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 294
+    },
+    {
+      "Feat" : 94
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 132
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12703,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Horror Priest"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 20,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "nw_it_mpotion009",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 20,
+  "NaturalAC" : 2,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2146,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_sc1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 81,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 2,
+  "Str" : 10,
+  "Subrace" : "",
+  "Tag" : "D1_SKELETONHP",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "skeleton017",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 18
+}

@@ -1,0 +1,131 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "<StartAction>You need to kill the Warlord of Blood before accessing this rack.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The armor rack contains a collection of incredible armor, but its sinister power only allows you to take one.  You must choose before you leave this place.  Which will it be?</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "<StartAction>You have already taken something from this armor rack.  Time to move on.</Start>"
+    }
+  ],
+  "NumWords" : 86,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can't decide."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armortwshld",
+      "Sound" : "",
+      "Text" : "Take a tower shield."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armorlgshld",
+      "Sound" : "",
+      "Text" : "Take a large shield."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armorsmshld",
+      "Sound" : "",
+      "Text" : "Take a small shield."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armorhelm",
+      "Sound" : "",
+      "Text" : "Take a helm."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armorcloth",
+      "Sound" : "",
+      "Text" : "Take a robe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armorlite",
+      "Sound" : "",
+      "Text" : "Take light armor."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armormed",
+      "Sound" : "",
+      "Text" : "Take medium armor."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_armorhvy",
+      "Sound" : "",
+      "Text" : "Take heavy armor."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "end_rackx",
+      "Index" : 2
+    },
+    {
+      "Active" : "prq_rackarmor",
+      "Index" : 1
+    },
+    {
+      "Active" : "prq_rackx",
+      "Index" : 0
+    }
+  ]
+}

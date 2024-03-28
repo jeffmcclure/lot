@@ -1,0 +1,83 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The altar pulses with evil energy, and a faint hum reverberates in your head as you touch it.  There are three depressed slots on its surface, each one meant to hold a stone of some sort.  You need all three runestones to see what this altar is supposed to do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The altar pulses with evil energy, and a faint hum reverberates in your head as you touch it.  There are three depressed slots on its surface, each one meant to hold a stone of some sort.  You remember that you have obtained three runestones on your way here.\n\nPerhaps it's time to see what these stones are supposed to do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The altar pulses with evil energy, and a faint hum reverberates in your head as you touch it.  Three runestones glow as one within the altar.\n\nThere is nothing else you can do with it."
+    }
+  ],
+  "NumWords" : 168,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the altar alone for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the altar alone for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_andyportx",
+      "Sound" : "",
+      "Text" : "Place the three stones onto the altar."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the altar alone."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_andyport",
+      "Index" : 2
+    },
+    {
+      "Active" : "prq_andyportx",
+      "Index" : 1
+    },
+    0
+  ]
+}

@@ -1,0 +1,1829 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        12,
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "The grace of the High Heavens be with you, mortal."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_grtconflict",
+          "Index" : 11,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_sinwar",
+          "Index" : 10,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_darkexile",
+          "Index" : 9,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_horadrim",
+          "Index" : 8,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_bindingthree",
+          "Index" : 7,
+          "IsChild" : 0
+        },
+        6,
+        5,
+        {
+          "Active" : "prq_farnhamdone",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        2
+      ],
+      "Script" : "",
+      "Text" : "Very well, what knowledge do you seek?  I will keep my answers simple and concise so that you can understand them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Text" : "He is now back with his friends.  I cannot tell you any more than that."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13
+      ],
+      "Script" : "",
+      "Text" : "Very good, mortal.  Let me take him from you - we have been waiting a long time for our friend to come back to us..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        14
+      ],
+      "Script" : "",
+      "Text" : "You can desire this knowledge, but you cannot ultimately understand it.  There are things in this world and beyond that you are not meant to know, and this is for your benefit.  Your frail mind will not be able to handle it.  Let us just take Farnham from you, and you will be rewarded."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Hadriel takes Farnham's still unconscious body from you.  He smiles at the prone body in his arms and makes a gesture.  Farnham seemed to wake up and when he saw Hadriel's face, smiled and whispered something you almost didn't catch... He said, \"Hello friend, I missed you...\"\n\nAnd as if like a memory, Farnham slowly vanished from Hadriel's arms...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18,
+        17
+      ],
+      "Script" : "",
+      "Text" : "Farnham is now back with us, where he belongs.  He has suffered long enough in his mortal coil.  You shall now get your reward for this task - our divine armories are now open to you.  Use the items you find wisely.  And may the light guide you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 41,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_corpsefarnm",
+          "Index" : 32,
+          "IsChild" : 0
+        },
+        20,
+        19
+      ],
+      "Script" : "",
+      "Text" : "The grace of the High Heavens be with you, mortal."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        {
+          "Active" : "prq_farnhamnope",
+          "Index" : 24,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_farnhamdone",
+          "Index" : 22,
+          "IsChild" : 0
+        },
+        21
+      ],
+      "Script" : "",
+      "Text" : "Very well, what knowledge do you seek?  I will keep my answers simple and concise so that you can understand them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        23
+      ],
+      "Script" : "",
+      "Text" : "He is now back with his friends.  I cannot tell you any more than that."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25
+      ],
+      "Script" : "",
+      "Text" : "These are hardly \"my\" armories...  These are the armories of light, the armories of those pure of heart and those willing to undergo suffering and sacrifice.  These are the divine armories, used by warriors of light to help in our struggle against the Burning Hells.  These armories are only open to those who we deem are worthy."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26
+      ],
+      "Script" : "",
+      "Text" : "However, since you endured such pains in order to get to this place, we only ask that you bring Farnham of Tristram to us.  Then, and only then, can you be deemed worthy to partake in the products of our divine blacksmiths..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        28,
+        27
+      ],
+      "Script" : "giv_island3",
+      "Text" : "Are you still pursuing answers to questions you will never understand?   Do what we ask, and we will reward you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        31,
+        30
+      ],
+      "Script" : "",
+      "Text" : "I have already told you what needs to be told.  Do you desire to hear it again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        33
+      ],
+      "Script" : "",
+      "Text" : "Very good, mortal.  Let me take him from you - we have been waiting a long time for our friend to come back to us..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        36,
+        34
+      ],
+      "Script" : "",
+      "Text" : "You can desire this knowledge, but you cannot ultimately understand it.  There are things in this world and beyond that you are not meant to know, and this is for your benefit.  Your frail mind will not be able to handle it.  Let us just take Farnham from you, and you will be rewarded."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        35
+      ],
+      "Script" : "",
+      "Text" : "I am sure he was.  I will take him off your hands now."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37
+      ],
+      "Script" : "end_island",
+      "Text" : "<StartAction>Hadriel takes Farnham's still unconscious body from you.  He smiles at the prone body in his arms and makes a gesture.  Farnham seemed to wake up and when he saw Hadriel's face, smiled and whispered something you almost didn't catch... He said \"Hello friend, I missed you...\"\n\nAnd as if like a memory, Farnham slowly vanished from Hadriel's arms...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        40,
+        39,
+        38
+      ],
+      "Script" : "",
+      "Text" : "Farnham is now back with us, where he belongs.  He has suffered long enough in his mortal coil.  You shall now get your reward for this task -  our divine armories are now open to you.  Use the items you find wisely.  And may the light guide you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        62,
+        42
+      ],
+      "Script" : "",
+      "Text" : "We have heard of your encounter with him - but I am afraid that you did not kill him.  For killing him is to liberate him from his infernal form, and thus freeing his spirit to rejoin us once more.  Alas, he is not with us, hence you did not kill him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        43
+      ],
+      "Script" : "",
+      "Text" : "The corruption that has overtaken Izual has weakened him considerably, and he is not as strong and determined as when he first left us.  I can go as far to believe that he may have given you the opportunity to free him - an opportunity that you failed to capitalize.  Izual is still in the Abyss - recuperating from whatever wounds you gave him, and will once again guard the plains of despair, stronger than before."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        60,
+        46,
+        45
+      ],
+      "Script" : "",
+      "Text" : "Ah, Senedib's handiwork, and Tyrael's craftmanship, come alive in cold steel.  Its potential power blinded Izual, but only he has the right to truly weild it.  Or the one that vanquished him.  Can't you use the runeblade to help in your quest?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 58,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 56,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Confidence can be a noble virtue, but only if used wisely.  We hope that your confidence will help you in the upcoming battles ahead."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        48,
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 47,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "I believe Tyrael will find some solace in having the sword back, now that its intended weilder has been taken from us once again.  Are you giving it back to us willingly?  Or are you like all other mortals, who want something in return?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 54,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 49,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "Very admirable.  A trait so rare among those of your kind, even long ago.  I will take it from you then, if you have no second thoughts."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 53,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 52,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 51,
+          "IsChild" : 0
+        },
+        50
+      ],
+      "Script" : "",
+      "Text" : "True to form, like all mortals.  Very well, we offer you gold, powerful items, or the means to improve yourself.  Which one would you prefer?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 58,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 56,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "trg_hadrielgiv3",
+      "Text" : "Ah, a wise decision.  Perhaps your motivation for self improvement may be enough to help you against the dark forces you face.  Perhaps.  \n\nDrink these two elixirs and to improve yourself, and I hope this improvement helps you in your journey."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 58,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 56,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "trg_hadrielgiv2",
+      "Text" : "To mortals, mere trinkets of power can be of vital importance.  take these then, and may it help you in your future dealings with the forces you move against."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 0,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 58,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 56,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "trg_hadrielgiv1",
+      "Text" : "Future battles indeed.  Then take this.  May it help you in your cause."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        55
+      ],
+      "Script" : "",
+      "Text" : "Azurewrath will now be sent back to the place where it was forged.  Tyrael will be pleased, even if the circumstances of its retrieval is troubling."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        58,
+        56
+      ],
+      "Script" : "trg_hadrielgivx",
+      "Text" : "For your selfless act, here's a little something to help you along your way..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        57
+      ],
+      "Script" : "",
+      "Text" : "Right and wrong are subjective things.  I would agree that your actions were - suitable for the circumstances.  We will be watching you... until you have come to the end of your... quest."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        59
+      ],
+      "Script" : "con_good1",
+      "Text" : "We appreciate your gratitude as well.  We will be watching you... until you have come to the end of your... quest."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        61
+      ],
+      "Script" : "",
+      "Text" : "Weapons better than the angelic runeblade forged by our heavenly blacksmiths?   This is the first time I've heard of it.  But I hope it serves you better than Izual's folly."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        67,
+        63
+      ],
+      "Script" : "end_virginx",
+      "Text" : "The grace of the High Heavens be with you, mortal.  What brings you to this place?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 67,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        64
+      ],
+      "Script" : "",
+      "Text" : "This little bird you speak of probably knows a great many things.  Normally, such uppity is frowned upon in our circle, but I will attribute that to your flawed mortality rather than take offense...  How did you come to know about this place?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 67,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        66,
+        65
+      ],
+      "Script" : "",
+      "Text" : "If you are unable to shed light on such a simple question coming from me, I don't feel compelled to answer any further questions coming from you.  Answer me, or leave."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 67,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Why do you insist on hiding the identity of the creature that told you about this island?  Are your intentions not noble?  Do you intend to have your way  with this place through villainy and deceit?   This is a place of respite and vigilance.  Such cloudy answers from you will not be permitted.  Answer me or leave."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        70,
+        68
+      ],
+      "Script" : "",
+      "Text" : "My real name is impossible for mere mortals to pronounce, but for the purpose of introduction, you can call me Hadriel...  I ask again, what brings you to this place?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        69
+      ],
+      "Script" : "",
+      "Text" : "Your blunt honesty is refreshing, but your purpose here is not.  If your sole desire in coming to this place is to pillage and steal what is not open to you, then you are more of a mortal than I ever thought you would be.  We will forgive your impure trespasses into this place.  You are, after all, only a mortal, and your frailty is your quality, not your shortcoming."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        71
+      ],
+      "Script" : "",
+      "Text" : "The plight of Tristram is known to us.  The evil that has descended onto your town was not unexpected, and not totally unnoticed.  But it is merely a small part in the grand scheme of things - one that is both insignificant yet very telltale to the future of your world."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        72
+      ],
+      "Script" : "",
+      "Text" : "Ah, but words are just words.  It is the meaning you should be hearing, not this awkward machination that you mortals call words.  I am telling you that the evil in Tristram is merely a catalyst to the beginning of the end of your world.  You cannot stop it - you can only hasten it or delay it, but you cannot stop the events from unfolding."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        73
+      ],
+      "Script" : "",
+      "Text" : "The Sin War never ended, the same way it was not clear when or where it began.  The High Heavens, which I serve, and the Burning Hells which I aspire to cleanse, are still at a stalemate, regardless of whatever your mortal sages have said or sung in their tales of victory and conquest."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        74
+      ],
+      "Script" : "",
+      "Text" : "It has nothing - and everything - to do with Tristram.  You may think that destroying the evil you seek within the labyrinth will end the plague of death that has come down upon this world, but in truth you may just be buying time."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        75
+      ],
+      "Script" : "",
+      "Text" : "This thing you call metaphor is very amusing.  You claim that I speak in riddles, yet it is you mortals who have made it a profession in hiding your words' true meaning inside this inept play of speech.  Yes, I said you are only buying time.  You are not doomed to fail in your quest, but neither are you bound to succeed."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        76
+      ],
+      "Script" : "",
+      "Text" : "You still do not understand.  What your mind and heart tells you is beyond our power - we cannot force you to do one thing, or ask you to do another.  Free will is overestimated within our circle, but there are times when you mortals use it better than we do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        77
+      ],
+      "Script" : "",
+      "Text" : "Why do mortals work and improve themselves when they know they'll die in the end, no matter what they do - rendering all they've done before irrelevant?  Why do trees bloom and have glorious fruit, when it will only shed those blossoms and dry up during a hard winter?  Why does the sun bother to set at dusk when it will have to rise up again at dawn?  Why do you go deeper into the labyrinth, when you do not know what kind of evil you face?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        78
+      ],
+      "Script" : "",
+      "Text" : "Mortals would like to believe they have a purpose - some even saying that they dictate their own purpose.  But does it matter?  The evil you move against is weak - and strong.  You are fated to defeat it - and also fated to lose.  If I tell you any more, you will start to question your own motives - and you will start double-guessing yourself.  This will hasten Tristram's destruction."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        79
+      ],
+      "Script" : "",
+      "Text" : "You do not know because you cannot comprehend.  You cannot comprehend because you cannot understand.  Understanding and accepting your fate is tantamount.  You can save Tristram, but you also cannot.  You can only save Tristram by losing your soul to the evil you move against - but that does not mean you have succeeded in your quest, or failed..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        80
+      ],
+      "Script" : "",
+      "Text" : "You said you are seeking enlightenment.  I am giving you that enlightenment in the simplest way I can.  If I light a torch in front of a blind man, will he know it is a torch?  Or will he assume it is just someone opening the window?  Or lighting a candle?  Or maybe he has been healed of his blindness and he does not know the difference?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 0,
+      "RepliesList" : [
+        81
+      ],
+      "Script" : "",
+      "Text" : "I am saying that you are moving against dark powers you do not understand, and perhaps this is one of your strengths.  Bravery in the face of the unknown is preferable to desperation of knowing one's own fate.  Did you really come to Tristram because you wanted to fight this evil?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        93,
+        85,
+        83,
+        82
+      ],
+      "Script" : "",
+      "Text" : "So are you doing this because you want to save Tristram?  Or is the thrill of adventure strong in your mortal veins and you seek challenges wherever they may appear?  Or maybe you are in it for the profit you will acquire from your conquests?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        84
+      ],
+      "Script" : "",
+      "Text" : "Material things matter so much in the material plane, do they?  It is only logical, I suppose.  And what will you do with these so-called riches?  What will you do with the most powerful armor forged by the most skillful blacksmith, or the most lethal weapon created by even the most powerful angelic weapon smiths?  Will attaining them be the end of your craving?  Or will you be using them to gather yet more riches, and find better armor and weapons than the ones you already have?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "The truth is, your goal to gather these riches and material implements is not actually the end to a means.  Rather, it is a means to a means - your desire to acquire better things for yourself is unlikely to end until you are either dead, or physically unable to walk up to the nearest treasure chest and peruse its contents.  But I will not pretend to understand your mortal longings, as it is absurdly beneath me.  As some of you will say, what you do with your free time is your business...  amusing little saying, even by mortal standards."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        86
+      ],
+      "Script" : "",
+      "Text" : "And what kinds of challenge do you like - a challenge that you can overcome?  A challenge that is impossible to conquer?  A challenge that leads to a stalemate?  Maybe even a challenge that will destroy you in the end?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        89,
+        87
+      ],
+      "Script" : "",
+      "Text" : "You are only beginning to see what you really delved into.  The darkness you want to conquer is only beginning to show itself to you.  The challenge you aspire for will not only be against things around you, but will also be against things inside you.  You desire for challenges will not be quenched until the last challenge you face is against yourself.  Do you understand this?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        88
+      ],
+      "Script" : "",
+      "Text" : "Ah, but you will.  Once you have finished facing your final challenge, will you begin to start facing your first one."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Only you can find that out for yourself.  Or die trying - although even that is not a reason to stop."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        90
+      ],
+      "Script" : "",
+      "Text" : "Do you really?  Are you even sure that you are thinking properly?  You rush into the darkness not knowing if the next thing you encounter will destroy you in a single blow.  Bravery is not a matter of thought - self-preservation is the emotion of the mind.  The less you think about what you're going to face, the more you will be able to face it.  So I ask you - why do you want to know the evil that you will face when your ignorance about it will help in your victory against it?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        92,
+        91
+      ],
+      "Script" : "",
+      "Text" : "How do you prepare yourself against a tidal wave?  How do you arm yourself against a meteor shower?  What sword will you use to fight the chilling force of a hard winter?  Will knowing what you face really make that much of a difference in the then and now?  Or are you just trying to see the face of your enemy so that you can determine if you will fight or flee?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "A very good answer.  A futile one, of course, but still better than most mortal standards.  You recognize what you do not know, yet still strive to know it in your own way.\n\nPerhaps there is still hope for your kind."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You cannot flee a battle if you have lost it before you know it.  How can you flee if your legs are no more?  How can you cry out if your tongue is no more?  Is this desire to run into battle really bravery?  Is it attempted martyrdom?  Or is it just plain desperation?\n\nBut I will not try and convince you to do something that violates what is in your heart.  You are free to die if you want.  You are free to live if you want.  And ultimately, you are free to fight whatever and whoever you want."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        94
+      ],
+      "Script" : "",
+      "Text" : "Are you really?  What could a mere mortal do to stop forces that have been roaming the earth way before your own sentience?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        95,
+        {
+          "Active" : "",
+          "Index" : 97,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "That is very noble.  It reminds me of a lost friend who thought he could defeat the forces of darkness by sheer will and determination.  But his fate has been sealed long before he even thought of making that choice.  And for this choice, and these actions, Izual paid the price.  The same price you would have to pay eventually."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        96
+      ],
+      "Script" : "",
+      "Text" : "Izual is just a name, the same way Hadriel is just a name.  Izual's story is a sad one, one that is still remembered in the High Heavens.  It has also served as a lesson to all of us - that you cannot change your fate, even if you already know it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        97
+      ],
+      "Script" : "",
+      "Text" : "He conquered, and he fell.  That is all I can tell you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Even I cannot tell you that.  You are your own person.  Your free will is the both your grindstone and your scabbard.  I cannot encourage or discourage you, or make your choices for you.  You are the master of your own actions.  You are mortal, hence you should act like a mortal and decide like a mortal.  I cannot make this decision for you because I am not you, and will never be."
+    }
+  ],
+  "NumWords" : 3865,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, Hadriel, I didn't want to talk to you, anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to ask you some questions, Hadriel."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind.  I shall take my leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What happened to Farnham?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What will I need to do in order to access your armories?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know what evil it is that I move against?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Three Brothers?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Horadrim?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Dark Exile."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Sin War?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Great Conflict?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have brought Farnham to you, Hadriel."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your friend?  How is that possible?  Is there something about Farnham I should know about?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Take Farnham then... he has been quite a burden to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, here is Farnham.  Take him."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But I have questions I need to ask you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, Hadriel, I didn't want to talk to you, anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to ask you some questions, Hadriel."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind.  I shall take my leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What happened to Farnham?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What will I need to do in order to access your armories?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Farnham?  The drunkard?  What possible reason would you have to have him to come here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "You are crazy, even for an angel.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Very well, I will see if I can bring him here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know what evil it is that I move against?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You have a point.  Goodbye then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I want to know once again about this evil that has been plaguing Tristram."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have brought Farnham to you, Hadriel."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your friend?  How is that possible?  Is there something about Farnham I should know about?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Take Farnham then... he has been quite a burden to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Take Farnham then.  I hope he gets the peace he deserves."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, this has been a \"thrilling\" discourse.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well.  Farewell then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But I have questions I need to ask you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have vanquished Izual."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What difference does it make?  I beat him - this angel that was supposed to take on the Burning Hells by himself!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, just thought I'd let you know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But I have his sword...  this... Azurewrath.  What will I do with it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I will use it to vanquish the evil below Tristram, the same way I vanquished this sword's owner."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am unable to weild it.  It's not my weapon of preference."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic5",
+      "Sound" : "",
+      "Text" : "I want something in exchange."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful5",
+      "Sound" : "",
+      "Text" : "I am giving it back to you willingly.  I have no need for it, and it belongs to you, anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic5",
+      "Sound" : "",
+      "Text" : "Wait a minute, I changed my mind.  I want something in exchange!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 29,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic5",
+      "Sound" : "",
+      "Text" : "Wait, I changed my mind again.  Just take the sword and speak none of it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 26,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like the experience to improve myself."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 27,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like the sacred item you mentioned."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 28,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "I would like gold - lots of gold!  To prepare me for future battles."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 29,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_good3",
+      "Sound" : "",
+      "Text" : "Yes, take the sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 30,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Not too bad, considering I did do the right thing, eh?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you Hadriel.  It is always my pleasure to serve the forces of good."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't need this sword.  I have better weapons in my arsenal."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 23,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then what just happened?  Did I not see him fall before my feet?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "A little bird told me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have to answer your questions.  I want you to answer mine first."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, I'll be on my way then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Someone from Tristram told me about an island where angels watched, which is why I am here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Farnham from Tristram has told me about this place.  Who are you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have come here to see what treasures I can get for myself.  The people who knows this place have said that I can find useful things here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have no time for this pompous banter.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have come here because of curiosity, and maybe enlightenment on what is happening to Tristram in these dark times."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't like riddles.  Can't you say what you mean in not so many words?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What events do you speak of?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What does this have to do with the evil in Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Buying time?  What do you mean?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you are saying that I should not waste my time saving Tristram?  That I should just pack my bags and leave Khanduras?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But you just said that I will just be buying time - that I will not succeed in my task... so what's the use of doing it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So I am better off not knowing what will happen for the sake of Tristram's safety."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This does not make sense.  Why can't I get a straight answer from you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I only learned of this when I came back."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 60,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "I don't know why I am here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        52
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "I am here because I want to be rich and get the best armor and weapons I can get."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        53
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        54
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful2",
+      "Sound" : "",
+      "Text" : "I am here because I like challenges."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        55
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        56
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No I don't."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        57
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is that supposed to mean?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think I do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know who or what I will face so that I can prepare against it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I do not know.  I will when I find out whom it is I face."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I will never flee any battle.  I will remain steadfast."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        62
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful2",
+      "Sound" : "",
+      "Text" : "I am here because I want to save Tristram."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am improving myself, and I have become stronger.  I will defeat this evil and save my friends and my town."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        64
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Izual?  Who is this Izual you speak of?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        65
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What happened to him?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        66
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So with everything you have said, do I still continue my quest?"
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_virgin",
+      "Index" : 34
+    },
+    7,
+    0
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "AppearanceHead" : 49,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : -3,
+  "Cha" : 12,
+  "ChallengeRating" : 18.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 15,
+      "ClassX" : 8
+    }
+  ],
+  "ColorHair" : 14,
+  "ColorSkin" : 3,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "con_jacho2",
+  "CurrentHitPoints" : 170,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 18,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "jachoarmor001",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "soulflay",
+      "StructId" : 16
+    }
+  ],
+  "FactionID" : 2,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 9
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 68
+    },
+    {
+      "Feat" : 16
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 20
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 193
+    },
+    {
+      "Feat" : 221
+    },
+    {
+      "Feat" : 345
+    },
+    {
+      "Feat" : 346
+    },
+    {
+      "Feat" : 347
+    },
+    {
+      "Feat" : 348
+    },
+    {
+      "Feat" : 349
+    },
+    {
+      "Feat" : 350
+    },
+    {
+      "Feat" : 41
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 106
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 50
+    },
+    {
+      "Feat" : 144
+    }
+  ],
+  "FirstName" : "<cÿÿ >Jacho",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 170,
+  "Int" : 14,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 1,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_trap001",
+      "ReposPosX" : 3,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "Carlias",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 200,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 44,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2303,
+  "Race" : 6,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_boss",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 172,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 8,
+  "Str" : 16,
+  "Subrace" : "",
+  "Tag" : "JACHO2",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "jacho_done",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 8
+}

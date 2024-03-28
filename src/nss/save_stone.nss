@@ -1,0 +1,17 @@
+//::///////////////////////////////////////////////
+//:: FileName:save_stone
+//:://////////////////////////////////////////////
+//::Characters are exported when the Save Stone is activated.
+//::
+//:://////////////////////////////////////////////
+//:: Created By: Devin Loiacano
+//:: Created On: February 27, 2004
+//:://////////////////////////////////////////////
+
+void main()
+{
+object oPC=GetItemActivator();
+
+ExportSingleCharacter(oPC);
+SendMessageToPC(oPC,"Character Exported.");
+}

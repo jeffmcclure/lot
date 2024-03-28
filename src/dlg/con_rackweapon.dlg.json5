@@ -1,0 +1,396 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "<StartAction>You need to kill the Warlord of Blood before accessing this rack.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The weapon rack contains an incredible variety of weapons, but its sinister power only allows you to take one.  You must choose before you leave this place.  Which will it be?</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The weapon rack contains an incredible variety of weapons, but its sinister power only allows you to take one.  Which will it be?</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        2
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The weapon rack contains an incredible variety of weapons, but its sinister power only allows you to take one.  Which will it be?</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "Script" : "",
+      "Text" : "<CUSTOM1006>The weapon rack contains an incredible variety of weapons, but its sinister power only allows you to take one.  Which will it be?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "<StartAction>You have already taken something from this weapon rack.  Time to move on.</Start>"
+    }
+  ],
+  "NumWords" : 238,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "See more of the weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "See more weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "See more weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "See previous weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapmaul",
+      "Sound" : "",
+      "Text" : "Take a maul."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapmgcstaff",
+      "Sound" : "",
+      "Text" : "Take a magic staff."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapsling",
+      "Sound" : "",
+      "Text" : "Take a sling."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weaplongbow",
+      "Sound" : "",
+      "Text" : "Take a longbow."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapxbow",
+      "Sound" : "",
+      "Text" : "Take a crossbow."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapkukri",
+      "Sound" : "",
+      "Text" : "Take a kukri."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "See previous weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapkama",
+      "Sound" : "",
+      "Text" : "Take a kama."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapspear",
+      "Sound" : "",
+      "Text" : "Take a spear."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapmornstar",
+      "Sound" : "",
+      "Text" : "Take a morning star."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapmace",
+      "Sound" : "",
+      "Text" : "Take a mace."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weaphammer",
+      "Sound" : "",
+      "Text" : "Take a war hammer."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weaphvyflail",
+      "Sound" : "",
+      "Text" : "Take a heavy flail."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapclub",
+      "Sound" : "",
+      "Text" : "Take a club."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_rackweapon",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "See previous weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapdblswrd",
+      "Sound" : "",
+      "Text" : "Take a two-bladed sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapdblaxe",
+      "Sound" : "",
+      "Text" : "Take a double axe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapscythe",
+      "Sound" : "",
+      "Text" : "Take a scythe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weaphalberd",
+      "Sound" : "",
+      "Text" : "Take a halberd."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weaprapier",
+      "Sound" : "",
+      "Text" : "Take a rapier."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapscimitar",
+      "Sound" : "",
+      "Text" : "Take a scimitar."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapkatana",
+      "Sound" : "",
+      "Text" : "Take a katana."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapshrtswrd",
+      "Sound" : "",
+      "Text" : "Take a short sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weaplongswrd",
+      "Sound" : "",
+      "Text" : "Take a long sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapgrtswrd",
+      "Sound" : "",
+      "Text" : "Take a great sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapdagger",
+      "Sound" : "",
+      "Text" : "Take a dagger."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapbstdswd",
+      "Sound" : "",
+      "Text" : "Take a bastard sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapbrdaxe",
+      "Sound" : "",
+      "Text" : "Take a battle axe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "rak_weapgrtaxe",
+      "Sound" : "",
+      "Text" : "Take a great axe."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "end_racky",
+      "Index" : 5
+    },
+    {
+      "Active" : "prq_rackweapon",
+      "Index" : 1
+    },
+    {
+      "Active" : "prq_rackx",
+      "Index" : 0
+    }
+  ]
+}

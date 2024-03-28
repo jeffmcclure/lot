@@ -1,0 +1,101 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "giv_cowmantalk",
+      "Sound" : "cow_jersey11",
+      "Text" : "Aahhhhh, that's MUCH better... Ah, at last some dignity!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "end_cowquest",
+      "Sound" : "cow_jersey12",
+      "Text" : "Good!  Look, thanks a lot for helping me out.  Here, take this as a gift and, you know, a little fashion tip?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey14",
+      "Text" : "You could use a little... you could use a new... you know what I mean? The whole adventurer motif, it's just so retro...  Just a word of advice, eh?  Ciao..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Sound" : "cow_greet",
+      "Text" : "Moo."
+    }
+  ],
+  "NumWords" : 74,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Y-you're not a cow anymore..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yeah... you look... different."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Now what?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "*sigh*"
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "ovr_cowmantalk",
+      "Index" : 3
+    },
+    0
+  ]
+}

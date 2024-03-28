@@ -1,0 +1,16 @@
+//::///////////////////////////////////////////////
+//:: FileName s_response2
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 1/31/2004 7:55:57 PM
+//:://////////////////////////////////////////////
+int StartingConditional()
+{
+
+    // Restrict based on the player's alignment
+    if(GetAlignmentGoodEvil(GetPCSpeaker()) == ALIGNMENT_GOOD)
+        return FALSE;
+
+    return TRUE;
+}

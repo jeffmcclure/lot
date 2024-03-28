@@ -1,0 +1,46 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 63,
+  "Charges" : 0,
+  "Comment" : "The chakram uses the axe appearance when flying through the air. Unfortunately, NWN currently does not allow for new thrown weapons so this is the best that can be currently done.",
+  "Cost" : 12005,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 16807830,
+    "Strings" : [ ]
+  },
+  "Description" : {
+    "StringRef" : 16807830,
+    "Strings" : [ ]
+  },
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 16807370,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Chakram +5"
+      }
+    ]
+  },
+  "ModelPart1" : 251,
+  "ModelPart2" : 253,
+  "ModelPart3" : 252,
+  "PaletteID" : 52,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 50,
+  "Stolen" : 0,
+  "Tag" : "ZEP_CHAKRAM5",
+  "TemplateResRef" : "zep_chakram005"
+}

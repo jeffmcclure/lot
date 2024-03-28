@@ -1,0 +1,261 @@
+{
+  "AppearanceHead" : 1,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : 0,
+  "Cha" : 12,
+  "ChallengeRating" : 5.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 6,
+      "ClassX" : 8
+    }
+  ],
+  "ColorHair" : 7,
+  "ColorSkin" : 0,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 14,
+  "Conversation" : "hench_rogue_01",
+  "CurrentHitPoints" : 33,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "The Sisters of the Sightless Eye are a loosely organized guild shrouded in mystery amongst the peoples of the West. These highly-skilled archers emply ancient Eastern philosophies to develop an \"inner-sight\" that they use both in combat and to circumvent dangerous traps that they may encounter. Known only as Wandering Rogues in the west, the Sisters conceal their secret affiliation by posing as simple travellers. Many pompous fools have made the mistake of underestimating these steel-nerved women in combat and paid a terrible price for their vanity. \n\nThe strange events transpiring in Khanduras have caught the attention of many of these Rogues. They have come from as far as the Eastern dunes to test their skills against the dark evil that is said to be lurking in Tristram. It is also believed that untold riches wait to be discovered among the ruins of the Horadrim monastery.",
+  "Dex" : 17,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_cloth027",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_wbwmsh002",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_wamar001",
+      "StructId" : 2048
+    }
+  ],
+  "FactionID" : 3,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 27
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 193
+    },
+    {
+      "Feat" : 346
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 50
+    }
+  ],
+  "FirstName" : "Rogue",
+  "Fortbonus" : 0,
+  "Gender" : 1,
+  "GoodEvil" : 50,
+  "HitPoints" : 33,
+  "Int" : 14,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "nw_it_torch001",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_picks001",
+      "ReposPosX" : 1,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_wswdg001",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_wswss001",
+      "ReposPosX" : 3,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "it_mpotion002",
+      "ReposPosX" : 4,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "it_mpotion007",
+      "ReposPosX" : 5,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 45,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 44,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 89,
+  "Race" : 6,
+  "Refbonus" : 2,
+  "ScriptAttacked" : "nw_ch_ac5",
+  "ScriptDamaged" : "nw_ch_ac6",
+  "ScriptDeath" : "nw_ch_ac7",
+  "ScriptDialogue" : "nw_ch_ac4",
+  "ScriptDisturbed" : "nw_ch_ac8",
+  "ScriptEndRound" : "nw_ch_ac3",
+  "ScriptHeartbeat" : "nw_ch_ac1",
+  "ScriptOnBlocked" : "nw_ch_ace",
+  "ScriptOnNotice" : "nw_ch_ac2",
+  "ScriptRested" : "",
+  "ScriptSpawn" : "nw_ch_ac9",
+  "ScriptSpellAt" : "nw_ch_acb",
+  "ScriptUserDefine" : "nw_ch_acd",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 13
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 12
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 12
+    },
+    {
+      "Rank" : 12
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 12
+    },
+    {
+      "Rank" : 11
+    },
+    {
+      "Rank" : 14
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 8,
+  "Str" : 12,
+  "Subrace" : "",
+  "Tag" : "HENCH_ROGUE6",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "rogue002",
+  "WalkRate" : 4,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 8
+}

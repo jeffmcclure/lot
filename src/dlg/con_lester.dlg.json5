@@ -1,0 +1,1206 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8,
+        {
+          "Active" : "prq_orchard",
+          "Index" : 7,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_cowmantalk",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_cowtalk",
+          "Index" : 2,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_orchardx",
+          "Index" : 0,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "lester_greet",
+      "Text" : "I see in you the potential for greatness, <FirstName>!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_cowtalk",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        1
+      ],
+      "Script" : "",
+      "Text" : "No, you have already helped me with my problem.  Thank you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        3
+      ],
+      "Script" : "",
+      "Text" : "They all talk to me!  Except for that feisty cow over there.  He's been giving me the cold shoulder and refuses to talk to me.  Something is bothering him, I think.  Talk to him for me, please."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6
+      ],
+      "Script" : "",
+      "Text" : "Yes, it does bother me, but just a little."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_cow",
+          "Index" : 23,
+          "IsChild" : 0
+        },
+        9,
+        {
+          "Active" : "prq_orchard",
+          "Index" : 7,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_cowtalk",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_orchardx",
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Really?  What?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 21,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowdeese",
+          "Index" : 19,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowfarnham",
+          "Index" : 18,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgillian",
+          "Index" : 17,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgriswold",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowogden",
+          "Index" : 15,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowtremayne",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowwirt",
+          "Index" : 12,
+          "IsChild" : 0
+        },
+        11,
+        10
+      ],
+      "Script" : "",
+      "Text" : "The others?  What others?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the.... who?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the priest?  I don't know him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the healer?  I don't know him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the tavern owner?  I don't know him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the blacksmith?  I don't know him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the barmaid?  I don't know her."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the drunk?  I don't know him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Oh yeah, I know him.  He hired me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "So sad, what happened to him.  He has left me his farm and his cattle to take care of.  Such a kind, generous chap."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the storyteller?  I don't know him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the witch?  I don't know her."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        24,
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Why are you asking me?  How am I supposed to know?  Why don't you try asking one of my cows..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25
+      ],
+      "Script" : "",
+      "Text" : "Yes I did.  They talk to me from time to time, except for that one over there.  I don't think he likes me very much."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        27,
+        26
+      ],
+      "Script" : "s_knowlester",
+      "Sound" : "lester_intro1",
+      "Text" : "So, you're the hero everyone's been talking about!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        30,
+        28
+      ],
+      "Script" : "s_knowlester",
+      "Text" : "My name is Lester, and I'm but a simple farmer here in Tristram trying to make ends meet, especially in light of all that trouble happening below the church.  And who might you be?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 30,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        29
+      ],
+      "Script" : "",
+      "Text" : "Is that so?  That's fine by me, but I wouldn't want to address you as \"hero\" all the time."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        31,
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "end_virgin",
+      "Text" : "It is a pleasure to meet you, <FirstName>!  Some of the townsfolk have been telling me about you!  Everyone says you're a hero!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        34,
+        33
+      ],
+      "Script" : "",
+      "Sound" : "lester_intro2",
+      "Text" : "I see in you the potential for greatness!  Perhaps sometime, while you are fulfilling your destiny, you could stop by and do a little favor for me?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        35,
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 36,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "lester_intro3",
+      "Text" : "Oh, such a trouble I have ... well maybe-- no, I couldn't impose on you, what with all the other troubles.  Maybe after you've cleansed the church of some of those creatures, you could come back and spare a little time to help a poor farmer?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37,
+        36
+      ],
+      "Script" : "",
+      "Sound" : "lester_intro4",
+      "Text" : "I need something done, but I couldn't impose on a perfect stranger.  Perhaps after you've been here a while, I might feel more comfortable asking you a favor..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 36,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "lester_intro5",
+      "Text" : "Oh, I could use your help... but perhaps after you've saved the catacombs from the desecration of those beasts..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        38
+      ],
+      "Script" : "",
+      "Sound" : "lester_givquest1",
+      "Text" : "Well, perhaps you can help a poor, simple farmer out of a terrible mess?  At the edge of my orchard, just south of here, there's a horrible thing swelling out of the ground!  I can't get to my crops, or my bales of hay, and my poor cows will starve!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        39,
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_orchard",
+      "Sound" : "lester_givquest2",
+      "Text" : "The witch gave this to me, and said that it would blast that thing out of my field!  If you could destroy it, I would be forever grateful..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41,
+        40
+      ],
+      "Script" : "",
+      "Sound" : "lester_givquest3",
+      "Text" : "I'd do it myself, but someone has to stay here with the cows?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        50,
+        {
+          "Active" : "end_cowbomb",
+          "Index" : 45,
+          "IsChild" : 0
+        },
+        42
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "lester_greet2",
+      "Text" : "Is it gone?  Did you send it back to the dark recesses of Hades that spawned it?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        44,
+        43
+      ],
+      "Script" : "",
+      "Sound" : "lester_lostbomb2",
+      "Text" : "You've got to find it, and then blast that horror out of our town!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 44,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        47,
+        46
+      ],
+      "Script" : "",
+      "Sound" : "lester_endquest1",
+      "Text" : "Yes!  I heard the explosion from here!  Many thanks to you, kind stranger!  What with all these things coming out of the ground, monsters taking over the church and so forth, these are trying times!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        49,
+        48
+      ],
+      "Script" : "end_orchard",
+      "Sound" : "lester_endquest2",
+      "Text" : "I'm but a poor farmer but, here, take this with my great thanks!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "end_cowbomb",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 42,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'm sorry, I couldn't help myself."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "con_tristramx",
+      "Text" : "Don't bother me, I'm sleeping!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "lester_greet",
+      "Text" : "I see in you the potential for greatness, <FirstName>!"
+    }
+  ],
+  "NumWords" : 1006,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Is there anything else I can help you with, Lester?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "All right, just asking."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Did you know that one of your cows could talk?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't know who is crazier - you or your cows.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess I will.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Did you know that that one of your cows is not an actual \"cow\"?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_orchardcaves",
+          "Index" : 27,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_orchardcats",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I notice that you seem distressed.  Are you sure you don't need my help with something?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know more about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "end_lostboys",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Deese."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What about the other townsfolk?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can't get inside the trapdoor in the orchard.  What do I need to do to get in?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Wait a minute, did you just tell me to \"ask\" one of your cows?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll go ask one of your... cows..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have no time to talk to you, farmer."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who are you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "My name is not important."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This conversation is getting boring anyway.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "My name is <FirstName>, and I grew up in this town."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 23,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Nonsense, I'm just a simple traveler who has come back home to Tristram."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, I guess I am.  Off to fulfill my destiny, as they say..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm too busy to do anything for anyone right now.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_orchardcaves",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_orchardcats",
+          "Index" : 26,
+          "IsChild" : 0
+        },
+        24
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "What seems to be the matter, Lester?  Can I be of some assistance?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why can't I help you right now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, suit yourself then!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, I'll come back later."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Since you already have the thing that could destroy it, why not do it yourself?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Such a lame excuse for being scared. Very well, but I'll see to it at my own leisure..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll see if I can blast that thing away.  I'll be back."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I haven't gone around to doing it yet."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Don't be so pushy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll get to it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I blew the overgrowth away with your little \"bomb\"."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 33,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Sure, sure.  Where's my reward?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I agree.  Is there anything else you need from me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A mere trinket for my troubles?  Thanks for nothing!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This should do nicely.  Thank you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Such melodrama coming from a \"poor\" farmer."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 36
+    },
+    {
+      "Active" : "prq_barnhouse",
+      "Index" : 35
+    },
+    {
+      "Active" : "prq_cowbomb",
+      "Index" : 30
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 19
+    },
+    0
+  ]
+}

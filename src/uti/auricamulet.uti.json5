@@ -1,0 +1,47 @@
+{
+  "AddCost" : 32767,
+  "BaseItem" : 19,
+  "Charges" : 0,
+  "Cost" : 33128,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : null,
+  "Identified" : 0,
+  "LocalizedName" : "Auric Amulet",
+  "ModelPart1" : 56,
+  "PaletteID" : 54,
+  "Plot" : 1,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 10,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 11,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 335
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 18,
+      "CostValue" : 4,
+      "Param1" : 9,
+      "Param1Value" : 1,
+      "PropertyName" : 44,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "spell_auric",
+  "TemplateResRef" : "auricamulet"
+}

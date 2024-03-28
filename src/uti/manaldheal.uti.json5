@@ -1,0 +1,47 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 52,
+  "Charges" : 0,
+  "Cost" : 224455,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : null,
+  "Identified" : 0,
+  "LocalizedName" : "Manald Heal",
+  "ModelPart1" : 130,
+  "PaletteID" : 22,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 1,
+      "CostValue" : 3,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 0,
+      "Subtype" : 2
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 13,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 335
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 51,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "spell_heal",
+  "TemplateResRef" : "manaldheal"
+}

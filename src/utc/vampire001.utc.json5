@@ -1,0 +1,266 @@
+{
+  "AppearanceType" : 289,
+  "BodyBag" : 0,
+  "CRAdjust" : -25,
+  "Cha" : 12,
+  "ChallengeRating" : 27.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 19
+    },
+    {
+      "ClassLevel" : 25,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "This is the respawn vampire. He is the only vampire to be used with the coffin and vampire_shad. \r\n\r\nIf any of the other vampires are used, when the vampire_shad spawns in a new vampire it will be this one. This would look bad.",
+  "Con" : 18,
+  "Conversation" : "",
+  "CurrentHitPoints" : 85,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 17,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "vampiresword001",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_crewpvbt",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "creitemvam001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 85
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 18
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 178
+    },
+    {
+      "Feat" : 181
+    },
+    {
+      "Feat" : 123
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 161
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 5637,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Vampire"
+      }
+    ]
+  },
+  "Fortbonus" : 4,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 85,
+  "Int" : 12,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 225,
+  "NaturalAC" : 6,
+  "NoPermDeath" : 0,
+  "PaletteID" : 29,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 310,
+  "Race" : 24,
+  "Refbonus" : 1,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_epic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_mel",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 9
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 96,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 45,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 4,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "EPIC_VAMPIREM",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "vampire001",
+  "WalkRate" : 7,
+  "Willbonus" : 2,
+  "Wings" : 205,
+  "Wis" : 16
+}

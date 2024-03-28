@@ -1,0 +1,176 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "end_snotspillx",
+      "Text" : "We kill all who try to pass!  Die!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "end_ogdensign3",
+      "Sound" : "snotspill4",
+      "Text" : "You give?  Yes, good!  Go now - we strong, we kill all with big magic!  Hahahahaha...."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_signgone",
+          "Index" : 4,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_magicbanner",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        2
+      ],
+      "Script" : "",
+      "Sound" : "snotspill3",
+      "Text" : "You kill uglies!  Get banner!  You bring to me or else!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6,
+        5
+      ],
+      "Script" : "",
+      "Text" : "W-what?!  You die!  YOU DIE!!!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        7
+      ],
+      "Script" : "",
+      "Sound" : "snotspill1",
+      "Text" : "Hey!  You that one that kill all, you give me magic banner, or we attack!  You no leave with life!  You kill big ugiles, and you give back magic!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8
+      ],
+      "Script" : "giv_ogdensign2",
+      "Sound" : "snotspill2",
+      "Text" : "Go past corner and door.  Find uglies!  You give, you go!"
+    }
+  ],
+  "NumWords" : 136,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_snotspillx",
+      "Sound" : "",
+      "Text" : "I can go now?  How generous of you..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_snotspillx",
+      "Sound" : "",
+      "Text" : "Alright, I'll be going now..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sure, whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think I have your \"magic banner\".  Is it this tavern sign?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think I gave your \"banner\" back to its rightful owner."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_signgone",
+      "Sound" : "",
+      "Text" : "Wait, maybe we can talk about this."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_signgone",
+      "Sound" : "",
+      "Text" : "Bring it on!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm, wait, what are you talking about?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Ooookay..."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_virgin",
+      "Index" : 4
+    },
+    2,
+    1,
+    {
+      "Active" : "prq_snotspill",
+      "Index" : 0
+    }
+  ]
+}

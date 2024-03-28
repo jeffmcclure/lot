@@ -1,0 +1,31 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Average Negative\r\nDetect DC: 10\r\nDisarm DC: 22\r\nSet DC: 20\r\nDamage / Effect: 3d6, -1 to Strength\r\nAverage Damage: 10.5\r\nArea of Effect: Single\r\nMin to Max player level: 1 - 5",
+  "Cursor" : 0,
+  "DisarmDC" : 22,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14769,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Average Negative Trap"
+      }
+    ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 12,
+  "PortraitId" : 0,
+  "Tag" : "D1_AVERAGEHOLYTRAP",
+  "TemplateResRef" : "anegatrap001",
+  "TrapDetectDC" : 10,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 33,
+  "Type" : 2
+}

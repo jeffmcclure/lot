@@ -1,0 +1,35 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The forge burns with hellfire, and you can feel the demonic energy rippling through it.  But there is nothing else you can do with it at this point.</Start>"
+    }
+  ],
+  "NumWords" : 31,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the hellforge."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "ovr_hellforge",
+      "Index" : 0
+    }
+  ]
+}

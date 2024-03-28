@@ -1,0 +1,361 @@
+{
+  "AppearanceType" : 239,
+  "BodyBag" : 4,
+  "CRAdjust" : 0,
+  "Cha" : 25,
+  "ChallengeRating" : 25.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 20
+    },
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 9,
+      "KnownList1" : [
+        {
+          "Spell" : 24,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 107,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList3" : [
+        {
+          "Spell" : 41,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 58,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 101,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList4" : [
+        {
+          "Spell" : 191,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList5" : [
+        {
+          "Spell" : 25,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    },
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 1,
+      "KnownList3" : [
+        {
+          "Spell" : 41,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 166,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList4" : [
+        {
+          "Spell" : 126,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 373,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    }
+  ],
+  "Comment" : "",
+  "Con" : 26,
+  "Conversation" : "",
+  "CurrentHitPoints" : 100,
+  "DecayTime" : 0,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 22,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_cloth023",
+      "Pickpocketable" : 1,
+      "StructId" : 2
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_it_mboots002",
+      "Pickpocketable" : 1,
+      "StructId" : 4
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_it_mbracer006",
+      "Pickpocketable" : 1,
+      "StructId" : 8
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_maarcl091",
+      "Pickpocketable" : 1,
+      "StructId" : 64
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_it_mring029",
+      "Pickpocketable" : 1,
+      "StructId" : 128
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_it_mring033",
+      "Pickpocketable" : 1,
+      "StructId" : 256
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_it_mneck015",
+      "Pickpocketable" : 1,
+      "StructId" : 512
+    },
+    {
+      "Dropable" : 1,
+      "EquippedRes" : "nw_it_mbelt014",
+      "Pickpocketable" : 1,
+      "StructId" : 1024
+    }
+  ],
+  "FactionID" : 2,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 300
+    },
+    {
+      "Feat" : 9
+    },
+    {
+      "Feat" : 217
+    },
+    {
+      "Feat" : 219
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 235
+    },
+    {
+      "Feat" : 248
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 39
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12670,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Mad"
+      }
+    ]
+  },
+  "Fortbonus" : 5,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 100,
+  "Int" : 20,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "nw_cloth022",
+      "Pickpocketable" : 1,
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "Allendry",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 370,
+  "NaturalAC" : 2,
+  "NoPermDeath" : 1,
+  "PaletteID" : 44,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 6,
+  "Refbonus" : 5,
+  "ScriptAttacked" : "nw_c2_default5",
+  "ScriptDamaged" : "nw_c2_default6",
+  "ScriptDeath" : "nw_c2_default7",
+  "ScriptDialogue" : "nw_c2_default4",
+  "ScriptDisturbed" : "nw_c2_default8",
+  "ScriptEndRound" : "nw_c2_default3",
+  "ScriptHeartbeat" : "nw_c2_default1",
+  "ScriptOnBlocked" : "nw_c2_defaulte",
+  "ScriptOnNotice" : "nw_c2_default2",
+  "ScriptRested" : "nw_c2_defaulta",
+  "ScriptSpawn" : "mp_spawn",
+  "ScriptSpellAt" : "nw_c2_defaultb",
+  "ScriptUserDefine" : "mp_user_def",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 12
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 152,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 24,
+  "Subrace" : "",
+  "Tag" : "madprophet",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "madprophet",
+  "WalkRate" : 4,
+  "Willbonus" : 5,
+  "Wings" : 0,
+  "Wis" : 23
+}

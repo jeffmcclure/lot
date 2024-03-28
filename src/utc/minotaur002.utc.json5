@@ -1,0 +1,206 @@
+{
+  "AppearanceType" : 775,
+  "BodyBag" : 6,
+  "CRAdjust" : 1,
+  "Cha" : 8,
+  "ChallengeRating" : 7.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 8,
+      "ClassX" : 15
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 31,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12644,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The lieutenants of Baal are bred for strength, endurance, and cunning. These demons constantly train themselves in the art of war, for battle is their bread and the blood of innocents, their water. There are several known \"clans\" of Goat Men, each given a different gift from their Dark Master. It is believed that to earn their powers they once held mock wars in Hell for the entertainment of the Three Brothers. Do not expect them to fight amongst themselves on the mortal realm, however, for they much prefer to slaughter the innocent.\n\nLike most of Baals spawn, the bestial Aries are incredibly strong and agile. Their prowess with their vicious weapons is something that adventurers must be wary of."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "stoneclanarmor",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "it_clanaxe002",
+      "StructId" : 16
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 149
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12648,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Stone Clan"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 31,
+  "Int" : 7,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 55,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2152,
+  "Race" : 13,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_mid",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 64,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 19,
+  "Subrace" : "",
+  "Tag" : "D1_STONECLAN",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "minotaur002",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

@@ -1,0 +1,195 @@
+{
+  "AppearanceType" : 185,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 3.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 23
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 20,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12819,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Wolfen are intelligent wolves that are influenced by evil within the forests.  These animals are much larger than normal wolves, and twice as ferocious."
+      }
+    ]
+  },
+  "Dex" : 15,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewps005",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewps005",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps005",
+      "StructId" : 65536
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12820,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Wolfen"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 2,
+  "GoodEvil" : 50,
+  "HitPoints" : 20,
+  "Int" : 6,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 30,
+  "NaturalAC" : 3,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 321,
+  "Race" : 19,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "nw_c2_default5",
+  "ScriptDamaged" : "nw_c2_default6",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "nw_c2_default4",
+  "ScriptDisturbed" : "nw_c2_default8",
+  "ScriptEndRound" : "nw_c2_default3",
+  "ScriptHeartbeat" : "nw_c2_default1",
+  "ScriptOnBlocked" : "nw_c2_defaulte",
+  "ScriptOnNotice" : "nw_c2_default2",
+  "ScriptRested" : "nw_c2_defaulta",
+  "ScriptSpawn" : "nw_c2_default9",
+  "ScriptSpellAt" : "nw_c2_defaultb",
+  "ScriptUserDefine" : "nw_c2_defaultd",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 9
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 9
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 106,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 17,
+  "Subrace" : "",
+  "Tag" : "D1_WOLFEN",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "wolfen001",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 14
+}

@@ -1,0 +1,49 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 25,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 4151,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : null,
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 1519,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Irvine's Ammo"
+      }
+    ]
+  },
+  "ModelPart1" : 23,
+  "ModelPart2" : 53,
+  "ModelPart3" : 33,
+  "PaletteID" : 59,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 5
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 26,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 82,
+      "Subtype" : 21
+    }
+  ],
+  "StackSize" : 25,
+  "Stolen" : 1,
+  "Tag" : "FF8_IRVINEAMMO",
+  "TemplateResRef" : "irvineammo"
+}

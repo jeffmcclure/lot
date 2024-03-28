@@ -1,0 +1,243 @@
+{
+  "AppearanceType" : 1175,
+  "BodyBag" : 3,
+  "CRAdjust" : -2,
+  "Cha" : 3,
+  "ChallengeRating" : 11.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 26
+    },
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 80,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "These vile creatures swarm over this defiled place.  These vermin seemed to have been the progenitors of the harmless ones you now know.  Of course, these ones are far from harmless...",
+  "Dex" : 10,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "stingerclaw002",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "stingerclaw002",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "stingerbite001",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitem005",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : "Giant Stinger",
+  "Fortbonus" : 12,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 80,
+  "Int" : 3,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 125,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2085,
+  "Race" : 25,
+  "Refbonus" : 5,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 254,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 234,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 234,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 86,
+  "Str" : 21,
+  "Subrace" : "",
+  "Tag" : "D1_GIANTSTINGER",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "stingergiant",
+  "WalkRate" : 7,
+  "Willbonus" : 5,
+  "Wings" : 0,
+  "Wis" : 10
+}

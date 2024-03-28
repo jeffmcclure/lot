@@ -1,0 +1,396 @@
+{
+  "AppearanceType" : 1418,
+  "BodyBag" : 3,
+  "CRAdjust" : -37,
+  "Cha" : 20,
+  "ChallengeRating" : 65.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 35,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 25,
+  "Conversation" : "",
+  "CurrentHitPoints" : 1386,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 3096,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This demon named Na-krul has been trapped here by a sorcerer who has overestimated his mortal abilities to control it."
+      }
+    ]
+  },
+  "Dex" : 20,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpsp022",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp022",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nakrulbitestrong",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nakrulskinstrong",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 9
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 16
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 171
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 3095,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Na-krul"
+      }
+    ]
+  },
+  "Fortbonus" : 4,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 1386,
+  "Int" : 20,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "nw_it_book031",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 1666,
+  "NaturalAC" : 20,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2199,
+  "Race" : 20,
+  "Refbonus" : 1,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_nakrul",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_cw3",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 255,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 36,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 39,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 41,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 46,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 57,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 57,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 58,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 58,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 79,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 79,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 87,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 116,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 116,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 191,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 35,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_ELITE",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "nakrulstrong",
+  "WalkRate" : 5,
+  "Willbonus" : 6,
+  "Wings" : 0,
+  "Wis" : 20
+}

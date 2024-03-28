@@ -1,0 +1,219 @@
+{
+  "AppearanceType" : 105,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 8,
+  "ChallengeRating" : 6.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 12
+    },
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 15,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12375,
+    "Strings" : [ ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "batbite001",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "batbite001",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "batbite002",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "batskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 293
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12376,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Firebat"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 2,
+  "GoodEvil" : 0,
+  "HitPoints" : 15,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 15,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 185,
+  "Race" : 8,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 6,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 74,
+  "Str" : 16,
+  "Subrace" : "",
+  "Tag" : "EPIC_FIREBAT",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "batouttahell",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 12
+}

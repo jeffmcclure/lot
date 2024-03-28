@@ -1,0 +1,41 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "<CUSTOM1006>The portal shimmers with dark energy, but it is strangely devoid of evil. Perhaps using this portal will give you some sort of sanctuary from the vileness of this place..."
+    }
+  ],
+  "NumWords" : 36,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave it alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_sanctuary",
+      "Sound" : "",
+      "Text" : "Enter the portal."
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Strong Spike\r\nDetect DC: 10\r\nDisarm DC: 22\r\nSet DC: 25\r\nDamage / Effect: 5d6\r\nAverage Damage: 17.5\r\nArea of Effect: Single\r\nMin to Max player level: 3 - 8",
+  "Cursor" : 0,
+  "DisarmDC" : 22,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14804,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Strong Spike Trap"
+      }
+    ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 13,
+  "PortraitId" : 0,
+  "Tag" : "D1_STRONGSPIKETRAP",
+  "TemplateResRef" : "sspiketrap001",
+  "TrapDetectDC" : 10,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 2,
+  "Type" : 2
+}

@@ -1,0 +1,958 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 35,
+    "AmbientSndDayVol" : 29,
+    "AmbientSndNight" : 35,
+    "AmbientSndNitVol" : 42,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 107,
+    "MusicDelay" : 10000,
+    "MusicNight" : 107
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 53,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_FOREST2DRAGON",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 62,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Forest"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DRAGON_2FOREST",
+      "TemplateResRef" : "nw_door_ttr_13",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 15.0,
+      "Y" : 46.01,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9070,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 5,
+      "HP" : 60,
+      "Hardness" : 10,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 28,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "MetalDoor",
+      "TemplateResRef" : "door_metal001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 50.0,
+      "Y" : 25.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1234,
+          "CR" : 6.0,
+          "ResRef" : "caveviper002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -2.3385792,
+          "Y" : -7.1854362,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.21804619,
+          "Y" : -6.402416,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.060060702
+        },
+        {
+          "X" : -0.13941765,
+          "Y" : 0.13934326,
+          "Z" : 0.0832847
+        },
+        {
+          "X" : -0.8148174,
+          "Y" : 1.57267,
+          "Z" : 0.275
+        }
+      ],
+      "LocalizedName" : "Forest Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 61.367985,
+          "Y" : 44.889324,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "FORESTVIPER",
+      "TemplateResRef" : "forestviper",
+      "XPosition" : 28.246334,
+      "YPosition" : 38.710365,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1234,
+          "CR" : 6.0,
+          "ResRef" : "caveviper002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -5.9466696,
+          "Y" : -10.00135,
+          "Z" : 0.025
+        },
+        {
+          "X" : 2.1044235,
+          "Y" : -9.931641,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.08293915,
+          "Y" : -0.10303497,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -4.99597,
+          "Y" : -0.06705856,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forest Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 57.094456,
+          "Y" : 34.897133,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "FORESTVIPER",
+      "TemplateResRef" : "forestviper",
+      "XPosition" : 17.511925,
+      "YPosition" : 45.21809,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1234,
+          "CR" : 6.0,
+          "ResRef" : "caveviper002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -5.3830833,
+          "Y" : 1.1431522,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : -0.029052734,
+          "Y" : 0.032274246,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : -2.4964752,
+          "Y" : 3.985201,
+          "Z" : 0.04331734
+        }
+      ],
+      "LocalizedName" : "Forest Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 67.731834,
+          "Y" : 3.9745889,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "FORESTVIPER",
+      "TemplateResRef" : "forestviper",
+      "XPosition" : 67.96829,
+      "YPosition" : 31.609957,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1234,
+          "CR" : 6.0,
+          "ResRef" : "caveviper002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 7.01313,
+          "Y" : 2.6361713,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 1.8987427,
+          "Y" : 7.165224,
+          "Z" : 0.025000239
+        },
+        {
+          "X" : 0.009231567,
+          "Y" : 0.033592224,
+          "Z" : 0.02499994
+        }
+      ],
+      "LocalizedName" : "Forest Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 33.823925,
+          "Y" : 3.7459657,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "FORESTVIPER",
+      "TemplateResRef" : "forestviper",
+      "XPosition" : 71.4288,
+      "YPosition" : 20.99323,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1234,
+          "CR" : 6.0,
+          "ResRef" : "caveviper002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.215805,
+          "Y" : 0.1649437,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : -0.910305,
+          "Y" : -1.921215,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.020427704,
+          "Y" : -1.7887402,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.04139328,
+          "Y" : 0.0023956299,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forest Viper",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 5,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 19.98766,
+          "Y" : 38.50257,
+          "Z" : 9.726733E-6
+        }
+      ],
+      "Tag" : "FORESTVIPER",
+      "TemplateResRef" : "forestviper",
+      "XPosition" : 49.627007,
+      "YPosition" : 25.902664,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 50,
+          "CR" : 21.0,
+          "ResRef" : "fangspeir",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.10870743,
+          "Y" : 5.0006495,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.122299194,
+          "Y" : 4.7683716E-7,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.1414566,
+          "Y" : 0.10870981,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.0191574,
+          "Y" : 5.0957694,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forest Drake",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 1,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 12.747851,
+          "Y" : 18.517351,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "FORESTDRAKE",
+      "TemplateResRef" : "forestdrake",
+      "XPosition" : 53.29482,
+      "YPosition" : 2.6441355,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2035,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813751,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811854,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_FOG002",
+      "TemplateResRef" : "zep_fog002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.52,
+      "Y" : 13.23,
+      "Z" : -0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2035,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813751,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811854,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_FOG002",
+      "TemplateResRef" : "zep_fog002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.88,
+      "Y" : 16.44,
+      "Z" : -0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2034,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813751,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811856,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_FOG003",
+      "TemplateResRef" : "zep_fog003",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 13.09,
+      "Y" : 15.36,
+      "Z" : -0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2034,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16813751,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811856,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 550,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_FOG003",
+      "TemplateResRef" : "zep_fog003",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 16.4,
+      "Y" : 14.95,
+      "Z" : -0.25
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : "",
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [
+              {
+                "Id" : 0,
+                "String" : "Gold Piece"
+              }
+            ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 5000,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD007",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "UNIQUE_LOW",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 4,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 30,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 57.70582,
+      "Y" : 25.024872,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 2.356192,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 4,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 30,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 5.88805,
+      "Y" : 6.203913,
+      "Z" : 0.25000572
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 0.7853982,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 4,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 30,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 6.4146714,
+      "Y" : 24.341755,
+      "Z" : 0.25000572
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 10000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67888,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_lizrdhiss2"
+        },
+        {
+          "Sound" : "as_an_lizrdhiss3"
+        }
+      ],
+      "Tag" : "LizardfolkHisses",
+      "TemplateResRef" : "lizardfolkhisses",
+      "Times" : 3,
+      "Volume" : 40,
+      "VolumeVrtn" : 0,
+      "XPosition" : 19.737734,
+      "YPosition" : 43.72177,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 13000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67842,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_dragonror1"
+        }
+      ],
+      "Tag" : "SND_FANGSPEIR",
+      "TemplateResRef" : "dragonroars",
+      "Times" : 3,
+      "Volume" : 43,
+      "VolumeVrtn" : 0,
+      "XPosition" : 10.756983,
+      "YPosition" : 43.499294,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to the Forest"
+          }
+        ]
+      },
+      "MapNote" : "Back to the Forest",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_DRAGON2FOREST",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 7.303553E-6,
+      "XPosition" : 15.024286,
+      "YOrientation" : -1.0,
+      "YPosition" : 43.84857,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

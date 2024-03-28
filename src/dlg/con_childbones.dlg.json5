@@ -1,0 +1,53 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>These bones seem to be the remains of a small child.  Judging from the tattered clothes, you surmised that the child probably fell into this well long ago, and died of starvation.   Part of you shudders at the thought of what this child might have endured, crying out in the darkness, unheard and unnoticed until the end...\n\nYou notice from the remains that the child seemed to have been clutching something close to her chest - but whatever it was, it is gone now...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>These bones seem to be the remains of a small child.  Judging from the tattered clothes, you surmised that the child probably fell into this well long ago, and died of starvation.\n\nYou notice from the remains that the child seems to be clutching something close to her chest - the tattered remains of what looked like a teddy bear, with a rusted collar that said \"Theodore\" on it.  You immediately realize who this child is - or was..."
+    }
+  ],
+  "NumWords" : 171,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the bones alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the bones alone."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_childbones",
+      "Index" : 1
+    },
+    0
+  ]
+}

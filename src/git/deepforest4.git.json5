@@ -1,0 +1,3401 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 34,
+    "AmbientSndDayVol" : 39,
+    "AmbientSndNight" : 34,
+    "AmbientSndNitVol" : 40,
+    "EnvAudio" : 17,
+    "MusicBattle" : 0,
+    "MusicDay" : 0,
+    "MusicDelay" : 10000,
+    "MusicNight" : 0
+  },
+  "CreatureList" : [
+    {
+      "AppearanceHead" : 13,
+      "AppearanceType" : 5,
+      "ArmorPartRFoot" : 1,
+      "BodyBag" : 0,
+      "BodyPartBelt" : 0,
+      "BodyPartLBicep" : 1,
+      "BodyPartLFArm" : 1,
+      "BodyPartLFoot" : 1,
+      "BodyPartLHand" : 1,
+      "BodyPartLShin" : 1,
+      "BodyPartLShoul" : 0,
+      "BodyPartLThigh" : 1,
+      "BodyPartNeck" : 1,
+      "BodyPartPelvis" : 1,
+      "BodyPartRBicep" : 1,
+      "BodyPartRFArm" : 1,
+      "BodyPartRHand" : 1,
+      "BodyPartRShin" : 1,
+      "BodyPartRShoul" : 0,
+      "BodyPartRThigh" : 1,
+      "BodyPartTorso" : 1,
+      "CRAdjust" : 0,
+      "Cha" : 10,
+      "ChallengeRating" : 15.0,
+      "ClassList" : [
+        {
+          "ClassLevel" : 10,
+          "ClassX" : 0
+        }
+      ],
+      "ColorHair" : 19,
+      "ColorSkin" : 52,
+      "ColorTattoo1" : 1,
+      "ColorTattoo2" : 1,
+      "Con" : 14,
+      "Conversation" : "con_grokko1",
+      "CurrentHitPoints" : 70,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : null,
+      "Dex" : 15,
+      "Disarmable" : 0,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 0,
+          "ArmorPartLBicep" : 1,
+          "ArmorPartLFArm" : 1,
+          "ArmorPartLFoot" : 9,
+          "ArmorPartLHand" : 1,
+          "ArmorPartLShin" : 159,
+          "ArmorPartLShoul" : 0,
+          "ArmorPartLThigh" : 156,
+          "ArmorPartNeck" : 1,
+          "ArmorPartPelvis" : 151,
+          "ArmorPartRBicep" : 1,
+          "ArmorPartRFArm" : 1,
+          "ArmorPartRFoot" : 9,
+          "ArmorPartRHand" : 1,
+          "ArmorPartRShin" : 159,
+          "ArmorPartRShoul" : 0,
+          "ArmorPartRThigh" : 156,
+          "ArmorPartRobe" : 0,
+          "ArmorPartTorso" : 6,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 23,
+          "Cloth2Color" : 0,
+          "Cost" : 96041,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "Leather1Color" : 3,
+          "Leather2Color" : 23,
+          "LocalizedName" : "Grokko's Armor",
+          "Metal1Color" : 24,
+          "Metal2Color" : 24,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 51,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 2,
+          "Tag" : "GrokkosArmor",
+          "TemplateResRef" : "grokkosarmor",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 18,
+          "Charges" : 0,
+          "Cost" : 1198090,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : "Grokko's Axe",
+          "ModelPart1" : 21,
+          "ModelPart2" : 31,
+          "ModelPart3" : 11,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 1,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 0,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 4,
+              "CostValue" : 10,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 16,
+              "Subtype" : 11
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 7,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 6,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 35,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 43,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 1,
+          "StructId" : 16,
+          "Tag" : "GROKKOAXE",
+          "TemplateResRef" : "grokkoaxe",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 4,
+      "FeatList" : [
+        {
+          "Feat" : 1
+        },
+        {
+          "Feat" : 3
+        },
+        {
+          "Feat" : 4
+        },
+        {
+          "Feat" : 194
+        },
+        {
+          "Feat" : 327
+        },
+        {
+          "Feat" : 228
+        },
+        {
+          "Feat" : 32
+        },
+        {
+          "Feat" : 41
+        },
+        {
+          "Feat" : 252
+        },
+        {
+          "Feat" : 45
+        },
+        {
+          "Feat" : 46
+        }
+      ],
+      "FirstName" : "<cÿÿ >Grokko",
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 50,
+      "HitPoints" : 70,
+      "Int" : 10,
+      "Interruptable" : 1,
+      "IsImmortal" : 1,
+      "IsPC" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 1,
+          "BaseItem" : 15,
+          "Charges" : 0,
+          "Cost" : 6,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 180,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 1,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_TORCH001",
+          "TemplateResRef" : "nw_it_torch001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 2,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 3,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "LastName" : "",
+      "LawfulChaotic" : 0,
+      "Lootable" : 0,
+      "MaxHitPoints" : 90,
+      "NaturalAC" : 0,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 2,
+      "Plot" : 0,
+      "PortraitId" : 137,
+      "Race" : 5,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 11
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 11
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 11
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 204,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 0,
+      "Str" : 18,
+      "Subrace" : "",
+      "Tag" : "GROKKO",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "grokko",
+      "WalkRate" : 4,
+      "Willbonus" : 0,
+      "Wings" : 0,
+      "Wis" : 10,
+      "XOrientation" : -0.70710844,
+      "XPosition" : 136.15923,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 10.372599,
+      "ZPosition" : 0.005075693
+    },
+    {
+      "AppearanceHead" : 142,
+      "AppearanceType" : 6,
+      "ArmorPartRFoot" : 1,
+      "BodyBag" : 0,
+      "BodyPartBelt" : 0,
+      "BodyPartLBicep" : 1,
+      "BodyPartLFArm" : 1,
+      "BodyPartLFoot" : 1,
+      "BodyPartLHand" : 1,
+      "BodyPartLShin" : 1,
+      "BodyPartLShoul" : 0,
+      "BodyPartLThigh" : 1,
+      "BodyPartNeck" : 1,
+      "BodyPartPelvis" : 1,
+      "BodyPartRBicep" : 1,
+      "BodyPartRFArm" : 1,
+      "BodyPartRHand" : 1,
+      "BodyPartRShin" : 1,
+      "BodyPartRShoul" : 0,
+      "BodyPartRThigh" : 1,
+      "BodyPartTorso" : 1,
+      "CRAdjust" : 0,
+      "Cha" : 9,
+      "ChallengeRating" : 6.0,
+      "ClassList" : [
+        {
+          "ClassLevel" : 5,
+          "ClassX" : 4
+        }
+      ],
+      "ColorHair" : 53,
+      "ColorSkin" : 1,
+      "ColorTattoo1" : 1,
+      "ColorTattoo2" : 1,
+      "Con" : 16,
+      "Conversation" : "con_maynard1",
+      "CurrentHitPoints" : 32,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : null,
+      "Dex" : 13,
+      "Disarmable" : 1,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 0,
+          "ArmorPartLBicep" : 159,
+          "ArmorPartLFArm" : 1,
+          "ArmorPartLFoot" : 12,
+          "ArmorPartLHand" : 1,
+          "ArmorPartLShin" : 153,
+          "ArmorPartLShoul" : 0,
+          "ArmorPartLThigh" : 151,
+          "ArmorPartNeck" : 1,
+          "ArmorPartPelvis" : 3,
+          "ArmorPartRBicep" : 159,
+          "ArmorPartRFArm" : 1,
+          "ArmorPartRFoot" : 12,
+          "ArmorPartRHand" : 1,
+          "ArmorPartRShin" : 153,
+          "ArmorPartRShoul" : 0,
+          "ArmorPartRThigh" : 151,
+          "ArmorPartRobe" : 0,
+          "ArmorPartTorso" : 173,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 12,
+          "Cloth2Color" : 14,
+          "Cost" : 33641,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "Leather1Color" : 3,
+          "Leather2Color" : 15,
+          "LocalizedName" : "Maynard's Armor",
+          "Metal1Color" : 0,
+          "Metal2Color" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 3,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 51,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 2,
+          "Tag" : "MaynardsArmor",
+          "TemplateResRef" : "maynardsarmor",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 1,
+          "Charges" : 0,
+          "Cost" : 392030,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13928,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 14359,
+            "Strings" : [
+              {
+                "Id" : 0,
+                "String" : "Maynard's Sword"
+              }
+            ]
+          },
+          "ModelPart1" : 72,
+          "ModelPart2" : 82,
+          "ModelPart3" : 72,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 8,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 6,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 83,
+              "Subtype" : 3
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 16,
+          "Tag" : "MAYNARDSWORD",
+          "TemplateResRef" : "maynardsword",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 4,
+      "FeatList" : [
+        {
+          "Feat" : 2
+        },
+        {
+          "Feat" : 3
+        },
+        {
+          "Feat" : 4
+        },
+        {
+          "Feat" : 6
+        },
+        {
+          "Feat" : 10
+        },
+        {
+          "Feat" : 26
+        },
+        {
+          "Feat" : 28
+        },
+        {
+          "Feat" : 258
+        },
+        {
+          "Feat" : 32
+        },
+        {
+          "Feat" : 106
+        },
+        {
+          "Feat" : 45
+        },
+        {
+          "Feat" : 46
+        },
+        {
+          "Feat" : 144
+        }
+      ],
+      "FirstName" : "<cÿÿ >Maynard",
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 50,
+      "HitPoints" : 32,
+      "Int" : 10,
+      "Interruptable" : 1,
+      "IsImmortal" : 0,
+      "IsPC" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 1,
+          "BaseItem" : 15,
+          "Charges" : 0,
+          "Cost" : 6,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 180,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 1,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_TORCH001",
+          "TemplateResRef" : "nw_it_torch001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 2,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 3,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "LastName" : "",
+      "LawfulChaotic" : 50,
+      "Lootable" : 0,
+      "MaxHitPoints" : 47,
+      "NaturalAC" : 0,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 0,
+      "Plot" : 0,
+      "PortraitId" : 100,
+      "Race" : 6,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 7
+        },
+        {
+          "Rank" : 6
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 7
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 189,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 4,
+      "Str" : 17,
+      "Subrace" : "",
+      "Tag" : "MAYNARD",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "creature004",
+      "WalkRate" : 4,
+      "Willbonus" : 0,
+      "Wings" : 0,
+      "Wis" : 10,
+      "XOrientation" : -0.7071066,
+      "XPosition" : 136.05382,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 8.297703,
+      "ZPosition" : 0.036594868
+    },
+    {
+      "AppearanceHead" : 33,
+      "AppearanceType" : 1,
+      "ArmorPartRFoot" : 1,
+      "BodyBag" : 0,
+      "BodyPartBelt" : 0,
+      "BodyPartLBicep" : 1,
+      "BodyPartLFArm" : 1,
+      "BodyPartLFoot" : 1,
+      "BodyPartLHand" : 1,
+      "BodyPartLShin" : 1,
+      "BodyPartLShoul" : 0,
+      "BodyPartLThigh" : 1,
+      "BodyPartNeck" : 1,
+      "BodyPartPelvis" : 1,
+      "BodyPartRBicep" : 1,
+      "BodyPartRFArm" : 1,
+      "BodyPartRHand" : 1,
+      "BodyPartRShin" : 1,
+      "BodyPartRShoul" : 0,
+      "BodyPartRThigh" : 1,
+      "BodyPartTorso" : 1,
+      "CRAdjust" : 0,
+      "Cha" : 10,
+      "ChallengeRating" : 9.0,
+      "ClassList" : [
+        {
+          "ClassLevel" : 7,
+          "ClassX" : 10,
+          "MemorizedList0" : [
+            {
+              "Spell" : 37,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 100,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 144,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 151,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList1" : [
+            {
+              "Spell" : 86,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 102,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 107,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 165,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 174,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList2" : [
+            {
+              "Spell" : 120,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 90,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 115,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 175,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList3" : [
+            {
+              "Spell" : 21,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 58,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 176,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList4" : [
+            {
+              "Spell" : 172,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ]
+        },
+        {
+          "ClassLevel" : 5,
+          "ClassX" : 8
+        }
+      ],
+      "ColorHair" : 44,
+      "ColorSkin" : 0,
+      "ColorTattoo1" : 27,
+      "ColorTattoo2" : 37,
+      "Con" : 14,
+      "Conversation" : "con_elimae1",
+      "CurrentHitPoints" : 36,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : null,
+      "Dex" : 16,
+      "Disarmable" : 0,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 0,
+          "ArmorPartLBicep" : 1,
+          "ArmorPartLFArm" : 1,
+          "ArmorPartLFoot" : 8,
+          "ArmorPartLHand" : 1,
+          "ArmorPartLShin" : 81,
+          "ArmorPartLShoul" : 0,
+          "ArmorPartLThigh" : 1,
+          "ArmorPartNeck" : 31,
+          "ArmorPartPelvis" : 29,
+          "ArmorPartRBicep" : 1,
+          "ArmorPartRFArm" : 1,
+          "ArmorPartRFoot" : 8,
+          "ArmorPartRHand" : 1,
+          "ArmorPartRShin" : 81,
+          "ArmorPartRShoul" : 0,
+          "ArmorPartRThigh" : 1,
+          "ArmorPartRobe" : 0,
+          "ArmorPartTorso" : 158,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 41,
+          "Cloth2Color" : 18,
+          "Cost" : 96041,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "Leather1Color" : 41,
+          "Leather2Color" : 41,
+          "LocalizedName" : "Elimae's Robe",
+          "Metal1Color" : 29,
+          "Metal2Color" : 29,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 51,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 2,
+          "Tag" : "ElimaesRobe",
+          "TemplateResRef" : "elimaesrobe",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 25,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 1519,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 11,
+          "ModelPart2" : 11,
+          "ModelPart3" : 11,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "StackSize" : 99,
+          "Stolen" : 0,
+          "StructId" : 8192,
+          "Tag" : "NW_WAMBO001",
+          "TemplateResRef" : "nw_wambo001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 4,
+      "FeatList" : [
+        {
+          "Feat" : 1
+        },
+        {
+          "Feat" : 3
+        },
+        {
+          "Feat" : 7
+        },
+        {
+          "Feat" : 11
+        },
+        {
+          "Feat" : 206
+        },
+        {
+          "Feat" : 12
+        },
+        {
+          "Feat" : 236
+        },
+        {
+          "Feat" : 235
+        },
+        {
+          "Feat" : 240
+        },
+        {
+          "Feat" : 354
+        },
+        {
+          "Feat" : 237
+        },
+        {
+          "Feat" : 238
+        },
+        {
+          "Feat" : 239
+        },
+        {
+          "Feat" : 346
+        },
+        {
+          "Feat" : 36
+        },
+        {
+          "Feat" : 303
+        },
+        {
+          "Feat" : 41
+        },
+        {
+          "Feat" : 195
+        },
+        {
+          "Feat" : 256
+        },
+        {
+          "Feat" : 50
+        },
+        {
+          "Feat" : 51
+        }
+      ],
+      "FirstName" : "<cÿÿ >Elimae",
+      "Fortbonus" : 0,
+      "Gender" : 1,
+      "GoodEvil" : 100,
+      "HitPoints" : 36,
+      "Int" : 17,
+      "Interruptable" : 1,
+      "IsImmortal" : 1,
+      "IsPC" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 1,
+          "BaseItem" : 15,
+          "Charges" : 0,
+          "Cost" : 6,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 180,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 1,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_TORCH001",
+          "TemplateResRef" : "nw_it_torch001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 2,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 3,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 75,
+          "Charges" : 0,
+          "Cost" : 72,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 6791,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13539,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 15,
+              "Subtype" : 284
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 2
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 6
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 9
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 10
+            }
+          ],
+          "ReposPosX" : 4,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_SPARSCR102",
+          "TemplateResRef" : "nw_it_sparscr102",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 75,
+          "Charges" : 0,
+          "Cost" : 72,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 6267,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13542,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 15,
+              "Subtype" : 262
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 2
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 3
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 7
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 9
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 10
+            }
+          ],
+          "ReposPosX" : 5,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_SPARSCR105",
+          "TemplateResRef" : "nw_it_sparscr105",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 75,
+          "Charges" : 0,
+          "Cost" : 72,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 6258,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13545,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 15,
+              "Subtype" : 251
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 3
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 63,
+              "Subtype" : 7
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 9
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 10
+            }
+          ],
+          "ReposPosX" : 6,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_SPARSCR108",
+          "TemplateResRef" : "nw_it_sparscr108",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 75,
+          "Charges" : 0,
+          "Cost" : 48,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 6204,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13546,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 15,
+              "Subtype" : 172
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 9
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 63,
+              "Subtype" : 10
+            }
+          ],
+          "ReposPosX" : 7,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_SPARSCR109",
+          "TemplateResRef" : "nw_it_sparscr109",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 0,
+          "ArmorPartLBicep" : 4,
+          "ArmorPartLFArm" : 16,
+          "ArmorPartLFoot" : 4,
+          "ArmorPartLHand" : 1,
+          "ArmorPartLShin" : 8,
+          "ArmorPartLShoul" : 15,
+          "ArmorPartLThigh" : 4,
+          "ArmorPartNeck" : 1,
+          "ArmorPartPelvis" : 8,
+          "ArmorPartRBicep" : 4,
+          "ArmorPartRFArm" : 16,
+          "ArmorPartRFoot" : 4,
+          "ArmorPartRHand" : 1,
+          "ArmorPartRShin" : 8,
+          "ArmorPartRShoul" : 15,
+          "ArmorPartRThigh" : 4,
+          "ArmorPartRobe" : 0,
+          "ArmorPartTorso" : 16,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 1,
+          "Cloth2Color" : 7,
+          "Cost" : 10,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 0,
+          "Leather1Color" : 1,
+          "Leather2Color" : 7,
+          "LocalizedName" : {
+            "StringRef" : 12835,
+            "Strings" : [ ]
+          },
+          "Metal1Color" : 0,
+          "Metal2Color" : 8,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 8,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_AARCL001",
+          "TemplateResRef" : "nw_aarcl001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 1,
+          "BaseItem" : 15,
+          "Charges" : 0,
+          "Cost" : 6,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 180,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 1,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 4,
+          "ReposPosy" : 1,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_TORCH001",
+          "TemplateResRef" : "nw_it_torch001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 0,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 106,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 11,
+          "ModelPart2" : 11,
+          "ModelPart3" : 11,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 5,
+          "ReposPosy" : 1,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_WSWSS001",
+          "TemplateResRef" : "nw_wswss001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 62,
+          "Charges" : 0,
+          "Cost" : 15,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13523,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 1,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 55,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 6,
+          "ReposPosy" : 1,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_PICKS001",
+          "TemplateResRef" : "nw_it_picks001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 7,
+          "ReposPosy" : 1,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 2,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 2,
+          "ReposPosy" : 2,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 64,
+          "Charges" : 0,
+          "Cost" : 7,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13667,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 9,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 17,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 70,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 5,
+          "ReposPosy" : 3,
+          "StackSize" : 1,
+          "Stolen" : 1,
+          "Tag" : "NW_IT_TRAP001",
+          "TemplateResRef" : "nw_it_trap001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "LastName" : "",
+      "LawfulChaotic" : 0,
+      "Lootable" : 0,
+      "MaxHitPoints" : 48,
+      "NaturalAC" : 0,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 0,
+      "Plot" : 0,
+      "PortraitId" : 2278,
+      "Race" : 1,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 10
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 10
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 15
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 10
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 5
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 194,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 10,
+      "Str" : 10,
+      "Subrace" : "",
+      "Tag" : "ELIMAE",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "creature003",
+      "WalkRate" : 4,
+      "Willbonus" : 0,
+      "Wings" : 0,
+      "Wis" : 12,
+      "XOrientation" : 0.7071066,
+      "XPosition" : 134.00725,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 8.305841,
+      "ZPosition" : 0.024667483
+    },
+    {
+      "AppearanceHead" : 21,
+      "AppearanceType" : 3,
+      "ArmorPartRFoot" : 1,
+      "BodyBag" : 0,
+      "BodyPartBelt" : 0,
+      "BodyPartLBicep" : 1,
+      "BodyPartLFArm" : 1,
+      "BodyPartLFoot" : 1,
+      "BodyPartLHand" : 1,
+      "BodyPartLShin" : 1,
+      "BodyPartLShoul" : 0,
+      "BodyPartLThigh" : 1,
+      "BodyPartNeck" : 1,
+      "BodyPartPelvis" : 1,
+      "BodyPartRBicep" : 1,
+      "BodyPartRFArm" : 1,
+      "BodyPartRHand" : 1,
+      "BodyPartRShin" : 1,
+      "BodyPartRShoul" : 0,
+      "BodyPartRThigh" : 1,
+      "BodyPartTorso" : 1,
+      "CRAdjust" : 0,
+      "Cha" : 14,
+      "ChallengeRating" : 9.0,
+      "ClassList" : [
+        {
+          "ClassLevel" : 10,
+          "ClassX" : 2,
+          "MemorizedList1" : [
+            {
+              "Spell" : 6,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 32,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 32,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 32,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 32,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 32,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList2" : [
+            {
+              "Spell" : 1,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 34,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 34,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 34,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 34,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList3" : [
+            {
+              "Spell" : 35,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 41,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 91,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 145,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 147,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList4" : [
+            {
+              "Spell" : 31,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 40,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 42,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 62,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 76,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "MemorizedList5" : [
+            {
+              "Spell" : 61,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 164,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ]
+        }
+      ],
+      "ColorHair" : 16,
+      "ColorSkin" : 0,
+      "ColorTattoo1" : 1,
+      "ColorTattoo2" : 1,
+      "Con" : 14,
+      "Conversation" : "con_gillette1",
+      "CurrentHitPoints" : 48,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : null,
+      "Dex" : 8,
+      "Disarmable" : 0,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 0,
+          "ArmorPartLBicep" : 1,
+          "ArmorPartLFArm" : 1,
+          "ArmorPartLFoot" : 7,
+          "ArmorPartLHand" : 1,
+          "ArmorPartLShin" : 1,
+          "ArmorPartLShoul" : 0,
+          "ArmorPartLThigh" : 1,
+          "ArmorPartNeck" : 1,
+          "ArmorPartPelvis" : 1,
+          "ArmorPartRBicep" : 1,
+          "ArmorPartRFArm" : 1,
+          "ArmorPartRFoot" : 7,
+          "ArmorPartRHand" : 1,
+          "ArmorPartRShin" : 1,
+          "ArmorPartRShoul" : 0,
+          "ArmorPartRThigh" : 1,
+          "ArmorPartRobe" : 3,
+          "ArmorPartTorso" : 1,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 3,
+          "Cloth2Color" : 3,
+          "Cost" : 96041,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "Leather1Color" : 0,
+          "Leather2Color" : 2,
+          "LocalizedName" : "Gillette's Armor",
+          "Metal1Color" : 19,
+          "Metal2Color" : 19,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 51,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 2,
+          "Tag" : "GillettesArmor",
+          "TemplateResRef" : "gillettesarmor",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 45,
+          "Charges" : 50,
+          "Cost" : 102011,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : "Gillette's Staff",
+          "ModelPart1" : 221,
+          "ModelPart2" : 221,
+          "ModelPart3" : 221,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 26,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 38,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 71,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 1,
+          "StructId" : 16,
+          "Tag" : "D1_GILLETTESTAFF",
+          "TemplateResRef" : "gillettestaff",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 4,
+      "FeatList" : [
+        {
+          "Feat" : 2
+        },
+        {
+          "Feat" : 3
+        },
+        {
+          "Feat" : 4
+        },
+        {
+          "Feat" : 233
+        },
+        {
+          "Feat" : 232
+        },
+        {
+          "Feat" : 231
+        },
+        {
+          "Feat" : 228
+        },
+        {
+          "Feat" : 13
+        },
+        {
+          "Feat" : 229
+        },
+        {
+          "Feat" : 230
+        },
+        {
+          "Feat" : 318
+        },
+        {
+          "Feat" : 29
+        },
+        {
+          "Feat" : 32
+        },
+        {
+          "Feat" : 234
+        },
+        {
+          "Feat" : 35
+        },
+        {
+          "Feat" : 166
+        },
+        {
+          "Feat" : 227
+        },
+        {
+          "Feat" : 322
+        },
+        {
+          "Feat" : 294
+        },
+        {
+          "Feat" : 46
+        }
+      ],
+      "FirstName" : "<cÿÿ >Gillette",
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 100,
+      "HitPoints" : 48,
+      "Int" : 10,
+      "Interruptable" : 1,
+      "IsImmortal" : 1,
+      "IsPC" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 1,
+          "BaseItem" : 15,
+          "Charges" : 0,
+          "Cost" : 6,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 180,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 0,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 1,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_TORCH001",
+          "TemplateResRef" : "nw_it_torch001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 2,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 49,
+          "Charges" : 0,
+          "Cost" : 20,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13410,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13411,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 21,
+          "ModelPart2" : 23,
+          "ModelPart3" : 32,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 3,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 15,
+              "Subtype" : 66
+            }
+          ],
+          "ReposPosX" : 3,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_MPOTION001",
+          "TemplateResRef" : "nw_it_mpotion001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "LastName" : "",
+      "LawfulChaotic" : 100,
+      "Lootable" : 0,
+      "MaxHitPoints" : 78,
+      "NaturalAC" : 0,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 2,
+      "Plot" : 0,
+      "PortraitId" : 16,
+      "Race" : 0,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 11
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 11
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 1
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 1
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 1
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 1
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 222,
+      "SpecAbilityList" : [
+        {
+          "Spell" : 79,
+          "SpellCasterLevel" : 3,
+          "SpellFlags" : 1
+        }
+      ],
+      "StartingPackage" : 2,
+      "Str" : 14,
+      "Subrace" : "",
+      "Tag" : "GILLETTE",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "gillette",
+      "WalkRate" : 7,
+      "Willbonus" : 0,
+      "Wings" : 0,
+      "Wis" : 18,
+      "XOrientation" : 0.70710844,
+      "XPosition" : 134.0052,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 10.430609,
+      "ZPosition" : 0.005785227
+    }
+  ],
+  "DoorList" : [ ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 58,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.141588,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14586,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5700,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 416,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "CAMP_GENERIKA1",
+      "TemplateResRef" : "plc_campfr",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 135.14233,
+      "Y" : 9.323512,
+      "Z" : 1.001358E-5
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67830,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 0,
+      "Priority" : 2,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_an_crickets1"
+        }
+      ],
+      "Tag" : "CricketsLoop",
+      "TemplateResRef" : "cricketsloop",
+      "Times" : 2,
+      "Volume" : 64,
+      "VolumeVrtn" : 0,
+      "XPosition" : 37.845085,
+      "YPosition" : 49.764507,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 25000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67796,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_birdflap1"
+        },
+        {
+          "Sound" : "as_an_birdflap2"
+        },
+        {
+          "Sound" : "as_an_birdsflap1"
+        },
+        {
+          "Sound" : "as_an_birdsflap2"
+        }
+      ],
+      "Tag" : "BirdFlaps",
+      "TemplateResRef" : "birdflaps",
+      "Times" : 1,
+      "Volume" : 63,
+      "VolumeVrtn" : 0,
+      "XPosition" : 39.684647,
+      "YPosition" : 48.295452,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 25000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67973,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_songbird1"
+        },
+        {
+          "Sound" : "as_an_songbird2"
+        },
+        {
+          "Sound" : "as_an_songbird3"
+        },
+        {
+          "Sound" : "as_an_songbirds1"
+        },
+        {
+          "Sound" : "as_an_songbirds2"
+        },
+        {
+          "Sound" : "as_an_songbirds3"
+        }
+      ],
+      "Tag" : "SongbirdChirps",
+      "TemplateResRef" : "songbirdchirps",
+      "Times" : 1,
+      "Volume" : 62,
+      "VolumeVrtn" : 30,
+      "XPosition" : 39.63837,
+      "YPosition" : 51.58933,
+      "ZPosition" : 1.5099815
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 1,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -0.02238679,
+          "PointY" : 3.5931091,
+          "PointZ" : 1.5877298
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 1.58773
+        },
+        {
+          "PointX" : 3.6714618,
+          "PointY" : 0.07835388,
+          "PointZ" : 1.5877298
+        },
+        {
+          "PointX" : 3.6714618,
+          "PointY" : 3.626686,
+          "PointZ" : 1.58773
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "WDFORESTX_2SDFORESTX",
+      "LinkedToFlags" : 1,
+      "LoadScreenID" : 58,
+      "LocalizedName" : {
+        "StringRef" : 14760,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Deep Forest - Western Area"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "SDFOREST_2WDFORESTX",
+      "TemplateResRef" : "newtransition",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 1,
+      "XOrientation" : 0.0,
+      "XPosition" : 3.1325524,
+      "YOrientation" : 0.0,
+      "YPosition" : 73.19771,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    },
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 1,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -3.686264,
+          "PointY" : -3.564331,
+          "PointZ" : 1.6438502
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : -3.611229,
+          "PointZ" : 1.6438502
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 1.6438502
+        },
+        {
+          "PointX" : 0.018753052,
+          "PointY" : -0.056282043,
+          "PointZ" : 1.6438497
+        },
+        {
+          "PointX" : -3.686264,
+          "PointY" : -0.028144836,
+          "PointZ" : 1.6438497
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "EDFORESTX_2SDFORESTX",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 58,
+      "LocalizedName" : {
+        "StringRef" : 14760,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Deep Forest - Eastern Area"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "SDFOREST_2EDFORESTX",
+      "TemplateResRef" : "newtransition",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 1,
+      "XOrientation" : 0.0,
+      "XPosition" : 146.81776,
+      "YOrientation" : 0.0,
+      "YPosition" : 76.85636,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : "To the Eastern Area",
+      "MapNote" : "To the Eastern Area",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_SDFOREST_2EDFORESTX",
+      "TemplateResRef" : "",
+      "XOrientation" : -1.0,
+      "XPosition" : 145.3861,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 75.00284,
+      "ZPosition" : 1.6188447
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : "To the Western Area",
+      "MapNote" : "To the Western Area",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_SDFOREST_2WDFORESTX",
+      "TemplateResRef" : "",
+      "XOrientation" : 1.0,
+      "XPosition" : 5.1915097,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 75.03041,
+      "ZPosition" : 1.5627289
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Cleared Waypoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_DARKFORESTSOUTHX",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 7.303553E-6,
+      "XPosition" : 65.03,
+      "YOrientation" : -1.0,
+      "YPosition" : 75.2478,
+      "ZPosition" : 1.620506
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : null,
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WP_GILLETTE_01",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.70710844,
+      "XPosition" : 133.93347,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 10.480366,
+      "ZPosition" : 0.006414175
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : null,
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WP_GROKKO_01",
+      "TemplateResRef" : "",
+      "XOrientation" : -0.70710844,
+      "XPosition" : 136.2224,
+      "YOrientation" : -0.7071051,
+      "YPosition" : 10.47382,
+      "ZPosition" : 0.006323099
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : null,
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WP_ELIMAE_01",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.7071066,
+      "XPosition" : 133.93497,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 8.201202,
+      "ZPosition" : 0.0100016
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : null,
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WP_MAYNARD_01",
+      "TemplateResRef" : "",
+      "XOrientation" : -0.7071066,
+      "XPosition" : 136.22368,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 8.207444,
+      "ZPosition" : 0.024793148
+    }
+  ]
+}

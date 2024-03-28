@@ -1,0 +1,70 @@
+{
+  "AnimationState" : 0,
+  "Appearance" : 9,
+  "AutoRemoveKey" : 0,
+  "BodyBag" : 0,
+  "CloseLockDC" : 0,
+  "Comment" : "Chest - 3 (Medium treasure script)",
+  "Conversation" : "",
+  "CurrentHP" : 18,
+  "Description" : {
+    "StringRef" : 14596,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
+      }
+    ]
+  },
+  "DisarmDC" : 15,
+  "Faction" : 1,
+  "Fort" : 18,
+  "HP" : 18,
+  "Hardness" : 8,
+  "HasInventory" : 1,
+  "Interruptable" : 0,
+  "KeyName" : "",
+  "KeyRequired" : 0,
+  "LocName" : {
+    "StringRef" : 5348,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Chest"
+      }
+    ]
+  },
+  "Lockable" : 0,
+  "Locked" : 0,
+  "OnClosed" : "",
+  "OnDamaged" : "",
+  "OnDeath" : "loot_normal_mid",
+  "OnDisarm" : "",
+  "OnHeartbeat" : "",
+  "OnInvDisturbed" : "",
+  "OnLock" : "",
+  "OnMeleeAttacked" : "",
+  "OnOpen" : "loot_normal_mid",
+  "OnSpellCastAt" : "",
+  "OnTrapTriggered" : "",
+  "OnUnlock" : "",
+  "OnUsed" : "",
+  "OnUserDefined" : "",
+  "OpenLockDC" : 18,
+  "PaletteID" : 4,
+  "Plot" : 1,
+  "PortraitId" : 367,
+  "Ref" : 0,
+  "Static" : 0,
+  "Tag" : "RDM_CHEST3",
+  "TemplateResRef" : "chest003",
+  "TrapDetectDC" : 0,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 0,
+  "TrapOneShot" : 1,
+  "TrapType" : 0,
+  "Type" : 0,
+  "Useable" : 1,
+  "Will" : 0
+}

@@ -1,0 +1,61 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 58,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 8948,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [ ]
+  },
+  "Description" : null,
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14247,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The Dragon Chang"
+      }
+    ]
+  },
+  "ModelPart1" : 33,
+  "ModelPart2" : 33,
+  "ModelPart3" : 13,
+  "PaletteID" : 51,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 7,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 10
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 8,
+      "Subtype" : 24
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 18,
+      "CostValue" : 3,
+      "Param1" : 9,
+      "Param1Value" : 1,
+      "PropertyName" : 44,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "D2_DRAGONCHANG",
+  "TemplateResRef" : "dragonchang"
+}

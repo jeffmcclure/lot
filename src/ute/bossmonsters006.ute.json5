@@ -1,0 +1,49 @@
+{
+  "Active" : 1,
+  "Comment" : "",
+  "CreatureList" : [
+    {
+      "Appearance" : 172,
+      "CR" : 6.0,
+      "ResRef" : "zombie007",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 172,
+      "CR" : 11.0,
+      "ResRef" : "zombie008",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 196,
+      "CR" : 11.0,
+      "ResRef" : "zombie009",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 197,
+      "CR" : 14.0,
+      "ResRef" : "zombie010",
+      "SingleSpawn" : 1
+    }
+  ],
+  "Difficulty" : 0,
+  "DifficultyIndex" : 0,
+  "Faction" : 1,
+  "LocalizedName" : "Zombie Boss",
+  "MaxCreatures" : 1,
+  "OnEntered" : "",
+  "OnExhausted" : "",
+  "OnExit" : "",
+  "OnHeartbeat" : "",
+  "OnUserDefined" : "",
+  "PaletteID" : 9,
+  "PlayerOnly" : 1,
+  "RecCreatures" : 1,
+  "Reset" : 1,
+  "ResetTime" : 3600,
+  "Respawns" : -1,
+  "SpawnOption" : 0,
+  "Tag" : "ZombieBoss",
+  "TemplateResRef" : "bossmonsters006"
+}

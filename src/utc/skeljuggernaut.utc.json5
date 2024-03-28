@@ -1,0 +1,263 @@
+{
+  "AppearanceType" : 24,
+  "BodyBag" : 0,
+  "CRAdjust" : -1,
+  "Cha" : 3,
+  "ChallengeRating" : 28.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 15,
+      "ClassX" : 13
+    },
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 19
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 195,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12569,
+    "Strings" : [ ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_crewpb020",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_creitemco008",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 183
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12570,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Skeletal Juggernaut"
+      }
+    ]
+  },
+  "Fortbonus" : 2,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 195,
+  "Int" : 5,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 300,
+  "NaturalAC" : 10,
+  "NoPermDeath" : 0,
+  "PaletteID" : 29,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 226,
+  "Race" : 10,
+  "Refbonus" : 4,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_unique",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_mel",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 45
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 47,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 269,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 269,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 269,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 75,
+  "Str" : 27,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_HI",
+  "Tail" : 68,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "skeljuggernaut",
+  "WalkRate" : 7,
+  "Willbonus" : 3,
+  "Wings" : 51,
+  "Wis" : 10
+}

@@ -1,0 +1,93 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "story_soulstone1",
+      "Text" : "So it came to be that the Three Prime Evils were banished in spirit form to the mortal realm, and after sowing chaos across the East for decades, they were hunted down by the cursed order of the mortal Horadrim."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Sound" : "story_soulstone2",
+      "Text" : "The Horadrim used artifacts called Soulstones, to contain the essence of Mephisto, the Lord of Hatred, and his brother Baal, the Lord of Destruction.  The youngest brother Diablo, the Lord of Terror, escaped to the West."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Sound" : "story_soulstone3",
+      "Text" : "Eventually, the Horadrim captured Diablo within a soulstone as well, and buried him under an ancient, forgotten cathedral.  There, the Lord of Terror sleeps, and awaits the time of his rebirth..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "book_soulstones",
+      "Sound" : "story_soulstone4",
+      "Text" : "Know ye that he will seek a body of youth and power to possess - one that is innocent, and easily controlled.  He will then arise to free his brothers, and once more fan the flames of the Sin War..."
+    }
+  ],
+  "NumWords" : 150,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "AppearanceType" : 26,
+  "BodyBag" : 6,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 4.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 19,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 3101,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Swarms of these impish terrors have been known to come out of the night and tear apart a sleeping village in minutes. Small of stature and simian in appearance, these creatures possess surprising strength and unnatural agility. Other than killing, the only act which gives them pleasure is breeding, so expect to encounter them in large packs.\n\nThese brutes are larger cousins of these Fallen Ones, and can cause considerably more harm than its smaller counterpart.  For inexperienced adventurers, they can prove lethal and are not to be underestimated."
+      }
+    ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_aarcl002",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_wswmls002",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "devilkinshield",
+      "StructId" : 32
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 3100,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Devil Kin Brute"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 19,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 25,
+  "NaturalAC" : 3,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 161,
+  "Race" : 12,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_ml1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 13,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 11,
+  "Subrace" : "",
+  "Tag" : "D1_FALLENONEDKB2",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fallenonebrute2",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

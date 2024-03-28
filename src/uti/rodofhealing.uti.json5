@@ -1,0 +1,75 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 44,
+  "Charges" : 50,
+  "Comment" : "1",
+  "Cost" : 2627,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 14169,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These devices are pleasant enough to look at, crafted of solid oak and highlighted with a modest gem or two. More importantly, the rods are potent magic items, capable of calming even the angriest of souls. In the hands of one with a quick tongue, the rods are more than worth their weight in gold."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 14170,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Rod of Healing"
+      }
+    ]
+  },
+  "ModelPart1" : 42,
+  "ModelPart2" : 42,
+  "ModelPart3" : 42,
+  "PaletteID" : 48,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 66
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 68
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 69
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 72
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "D1_RODOFHEALING",
+  "TemplateResRef" : "rodofhealing"
+}

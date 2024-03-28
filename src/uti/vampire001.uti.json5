@@ -1,0 +1,55 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 70,
+  "Charges" : 0,
+  "Cost" : 54078,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : null,
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 12944,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Vampire Bite"
+      }
+    ]
+  },
+  "ModelPart1" : 1,
+  "PaletteID" : 1,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 19,
+      "CostValue" : 18,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 77,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 7,
+      "Param1Value" : 0,
+      "PropertyName" : 72,
+      "Subtype" : 5
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 67,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "VAMPIREBITE1",
+  "TemplateResRef" : "vampire001"
+}

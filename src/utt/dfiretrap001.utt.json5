@@ -1,0 +1,31 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Deadly Fire\r\nDetect DC: 22\r\nDisarm DC: 36\r\nSet DC: 35\r\nDamage / Effect: 25d6\r\nAverage Damage: 87.5\r\nArea of Effect: Medium, Sphere\r\nMin to Max player level: 13 - 30",
+  "Cursor" : 0,
+  "DisarmDC" : 36,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14776,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Deadly Fire Trap"
+      }
+    ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 14,
+  "PortraitId" : 0,
+  "Tag" : "D1_DEADLYFIRETRAP",
+  "TemplateResRef" : "dfiretrap001",
+  "TrapDetectDC" : 22,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 19,
+  "Type" : 2
+}

@@ -1,0 +1,61 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Suck suck suck!!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "I may be old, but I don't look it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Do I look fat in this cape?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "This adventure SUCKS!"
+    }
+  ],
+  "NumWords" : 22,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [ ],
+  "StartingList" : [
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 3
+    },
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 2
+    },
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 1
+    },
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 0
+    }
+  ]
+}

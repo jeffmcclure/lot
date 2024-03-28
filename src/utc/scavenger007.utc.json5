@@ -1,0 +1,192 @@
+{
+  "AppearanceType" : 54,
+  "BodyBag" : 3,
+  "CRAdjust" : -1,
+  "Cha" : 5,
+  "ChallengeRating" : 4.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 12
+    }
+  ],
+  "Comment" : "",
+  "Con" : 12,
+  "Conversation" : "",
+  "CurrentHitPoints" : 48,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 3106,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Maleficus Vorax are the smallest of a related group of demonic creatures that feed upon carrion, mostly the remains of victims killed by their larger cousins. Unlike most scavengers, however, they are extremely aggressive and will not hesitate to attack anyone hapless enough to encounter them. They have powerful legs which they use for swift springing attacks, striking at vulnerable faces and throats. Their primary weakness is their voracious appetite; the smell of death may drive them into a feeding frenzy where they will stop their attacks to feast upon remains that are nearby."
+      }
+    ]
+  },
+  "Dex" : 17,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "scavengerbite002",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_scavenger003",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 3105,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Pulsecrawler"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 2,
+  "GoodEvil" : 50,
+  "HitPoints" : 48,
+  "Int" : 5,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 50,
+  "NaturalAC" : 1,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 178,
+  "Race" : 8,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_uniquex",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 11
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 250,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 10,
+  "Subrace" : "",
+  "Tag" : "BOSS_PULSECRAWLER",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "scavenger007",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 12
+}

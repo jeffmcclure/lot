@@ -1,0 +1,3483 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "This starting condition should only come up if the henchman is working for a player and it is NOT that player who is trying to talk to him (the script NW_CH_JOIN_NOT only checks to see if the henchman is working for ANY player, including the one he is currently serving).  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56196,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "Would you like some help in your mission?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_virgin",
+          "Index" : 6,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_tkron001",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        2
+      ],
+      "Script" : "",
+      "Text" : "I greet you, my child!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5,
+        4
+      ],
+      "Script" : "",
+      "Text" : "As much as I'd like to, I cannot join you in your quests you if you already have someone there to assist you.  Perhaps another time."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        12,
+        8,
+        7
+      ],
+      "Script" : "s_tkron001",
+      "Text" : "My name is T'kron, and I am a sorcerer from the order of the Vizjerei. I come here from the Far East after hearing some very fascinating things about this town.  Who might you be, child?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        9
+      ],
+      "Script" : "",
+      "Text" : "Why not?  Is it not customary to say your name after I have given you mine?  Or are there customs in this town that I did not quite understand."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        10
+      ],
+      "Script" : "",
+      "Text" : "I understand, but if you were not willing to name yourself from the start, you should not have asked me mine, not to mention my purpose here.  If your name is not my business to know, then I fear that my reason for being here is not your business either."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        14,
+        13
+      ],
+      "Script" : "end_virginx",
+      "Text" : "I am pleased to make your acquaintance, <FirstName>.  I hear from the people here that you grew up in this town.  I am sure you are somewhat thrilled by the interesting things happening here in Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17,
+        16
+      ],
+      "Script" : "",
+      "Text" : "Well, just the same, these events are worthy of my attention.  We the Vizjerei are always on the quest for knowledge, for knowledge is power, and what we know greatly reflects on what we can do.  We have been observing Tristram for some time now, and we felt that there is great knowledge to be gained here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_tkron001",
+          "Index" : 19,
+          "IsChild" : 0
+        },
+        18
+      ],
+      "Script" : "",
+      "Text" : "For the most part, yes.  But our training in the arcane arts has made us well suited to dealing with things we do not know.  And I can be a very useful ally to anyone I travel with as I learn the secrets that this town has to offer."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        21,
+        20
+      ],
+      "Script" : "",
+      "Text" : "I would like to, but I fear that I cannot work with someone as inexperienced as you.  Maybe after you have discovered what lies beneath the Cathedral and have become more experienced in your ways, I will consider joining you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        23,
+        22
+      ],
+      "Script" : "",
+      "Text" : "Really?  I would be extremely delighted to join you in your quest, if you will allow me to have an opportunity to study the mysteries of this town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26,
+        25,
+        24
+      ],
+      "Script" : "",
+      "Text" : "Well, I would first need to get a few things from that witch north of Tristram - Adria is her name, I think - and for that I would need a bit of... gold if it is not much trouble?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        {
+          "Active" : "hench_3000",
+          "Index" : 28,
+          "IsChild" : 0
+        },
+        27
+      ],
+      "Script" : "",
+      "Text" : "I only need three thousand gold to purchase the things I need.  I fear that I cannot join you unless I can procure those things.  Would you be able to accommodate my request?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 32,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 31,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Wonderful!  I will use my arcane knowledge to assist you in your quest!  Shall we go, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_3000",
+          "Index" : 28,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        30
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  Unfortunately, the things I need are very important.  I cannot join you until I have gotten the things I need."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        31
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "<StartAction>Success.</Start>  There is some wisdom in your words.  Very well, I will go with you, and purchase the things I need when we have accumulated enough treasure between us.  Shall we go, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        34,
+        33
+      ],
+      "Script" : "",
+      "Text" : "I greet you, my child!  Have you a need for my arcane powers once more?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "trg_tkrongohome",
+      "Text" : "As you wish, but think it over next time, my child."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Your intelligence on this matter impresses me."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        35
+      ],
+      "Script" : "",
+      "Text" : "Reports of my demise have been greatly exaggerated."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37,
+        36
+      ],
+      "Script" : "",
+      "Text" : "Well, my child, do you wish to make use of my knowledge in your journeys once again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish, but think it over next time, my child."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Your intelligence on this matter impresses me."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 30,
+      "Comment" : "Default dialogue when the henchman is a member of the player's party.  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        117,
+        116,
+        44,
+        40,
+        39,
+        38
+      ],
+      "Script" : "hench_unbusify",
+      "Text" : {
+        "StringRef" : 56145,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I greet you my child, how can I be of service?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56168,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Very well, my child."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        42,
+        41
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56150,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Was my knowledge and experience not enough for you?  Are you certain that I should part ways with you?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        43
+      ],
+      "Script" : "69_ch_remove",
+      "Text" : {
+        "StringRef" : 56169,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Very well, if that is what you wish.  I shall be at the good tavern owner's establishment should you need me again..."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        51,
+        {
+          "Active" : "69_ch_check_38",
+          "Index" : 49,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_check_39",
+          "Index" : 48,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 47,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 46,
+          "IsChild" : 0
+        },
+        45,
+        {
+          "Active" : "",
+          "Index" : 38,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I strive to work well with you.  What would have me do?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchpickemup",
+      "Text" : "Very confusing that you would ask an old man to do it for you, but very well."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_goranged",
+      "Text" : "Done!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 45,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchequipmelee",
+      "Text" : "I am at ready!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        50
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56222,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Give me a moment and I'll be ready to assist you."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 105,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 103,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 101,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_hen_castspell",
+          "Index" : 86,
+          "IsChild" : 0
+        },
+        79,
+        {
+          "Active" : "nw_ch_heal_0",
+          "Index" : 67,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_srch",
+          "Index" : 65,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_srch",
+          "Index" : 63,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_stlth",
+          "Index" : 61,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_stlth",
+          "Index" : 59,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchdual",
+          "Index" : 57,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackyes",
+          "Index" : 55,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackno",
+          "Index" : 54,
+          "IsChild" : 0
+        },
+        52
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56146,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I am open to any suggestions you can give me."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        53
+      ],
+      "Script" : "",
+      "Text" : "Very well, my child."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        56
+      ],
+      "Script" : "",
+      "Text" : "Very well, consider it done."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        58
+      ],
+      "Script" : "henchdoswap",
+      "Text" : "Oh, I apologize for that.  That skill is not one of my strong points.  I will correct it immediately!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        60
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56184,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "If you feel that I have a reason to be bold, I trust your judgment.  Consider it done."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        62
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56183,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I apologize, my child.  I did not know I was causing so much noise.  I will do as you ask."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        64
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56182,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        66
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56181,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 77,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 76,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 75,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 74,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 73,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 72,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal1",
+          "Index" : 70,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 68,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56149,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Of course my child, when do you want me to try healing you?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        69
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will try to heal you even if I am being attacked at close range."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        71
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will heal you only if I am not in hand-to-hand combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        78
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56180,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Very well."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        84,
+        82,
+        80
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56147,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "How far do you suggest I stay away?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        81
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56174,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Very well, I will keep a healthy distance from you so that you can move better."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        83
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56173,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Very well, I will try to maintain a moderate distance from you - not too close, yet not too far."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        85
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56172,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Very well. I shall stay as close as is reasonable."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        99,
+        97,
+        95,
+        93,
+        {
+          "Active" : "henchcast1",
+          "Index" : 90,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchcast2",
+          "Index" : 87,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "That area is my expertise!  What would you want me to change?!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        88
+      ],
+      "Script" : "",
+      "Text" : "Very well, but I will still refrain from healing you if I am in close-range combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        89
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will both cast attack spells and heal you whenever necessary."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        91
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will neither cast attack spells nor heal you if I'm in close-range combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        92
+      ],
+      "Script" : "",
+      "Text" : "Very well, but I will still try to heal you according to your instructions."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        94
+      ],
+      "Script" : "henchspell3",
+      "Text" : "Very well, I will not use spells unless we face a challenging adversary!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        96
+      ],
+      "Script" : "henchspell2",
+      "Text" : "I do not think I like your criticism of my spellcasting decisions.  But very well, I will do as you say."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        98
+      ],
+      "Script" : "henchspell1",
+      "Text" : "My arcane knowledge is the sword we need to slice through!  I will use them at every opportunity!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        100
+      ],
+      "Script" : "henchspell0",
+      "Text" : "Very wise suggestion, but not totally necessary.  I know what I am doing, my child."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        102
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62539,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Close combat is quite below me, but very well...  when the combat commences I will still use my spells, but when not using magic I will rush in and use melee weapons."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        104
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62540,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "My knowledge of missile weaponry is limited, but I will try my best.. When the combat begins I will still use my spells, but I will also stay back and attack with my ranged weapons from a distance. I'll switch weapons if the enemies get too close."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        114,
+        112,
+        110,
+        108,
+        106
+      ],
+      "Script" : "",
+      "Text" : "I have ample experience in that field, but what do you recommend?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        107
+      ],
+      "Script" : "henchrange4",
+      "Text" : "Very well. I will avoid engaging in close combat unless I am cornered."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        109
+      ],
+      "Script" : "henchrange3",
+      "Text" : "Bloodlust is an intriguing concept.  I can't wait to try it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        111
+      ],
+      "Script" : "henchrange2",
+      "Text" : "Difficult to ascertain that, but I will see what I can do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        113
+      ],
+      "Script" : "henchrange1",
+      "Text" : "Very well, I'll wait until the last possible moment!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        115
+      ],
+      "Script" : "henchrange0",
+      "Text" : "Very well. I will do what I feel is best."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "No need, there is nothing to fear here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 48,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Very well, my child."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_tkrontalkx",
+          "Index" : 164,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_tkrontalk3",
+          "Index" : 153,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_tkrontalk2",
+          "Index" : 139,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_tkrontalk1",
+          "Index" : 127,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_tkrontalk",
+          "Index" : 118,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "Why, of course <FirstName>!  If you have questions, I would definitely strive to answer them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        121,
+        120,
+        119
+      ],
+      "Script" : "",
+      "Text" : "As I have told you before, I come here from the Far East after hearing some very fascinating things about this town.  We the Vizjerei are always on the quest for knowledge, for knowledge is power, and what we know greatly reflects on what we can do.  We have been observing Tristram for some time now, and we felt that there is great knowledge to be gained here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        123,
+        122
+      ],
+      "Script" : "",
+      "Text" : "In my brief stay here I have gathered that the Archbishop Lazarus has seemingly betrayed the people of Tristram by luring the town's men into the labyrinth to be killed by its denizens.  He was also believed to be the perpetrator behind the abduction of King Leoric's son, Prince Albrecht.  The search for the missing prince was what he used to coerce the men to follow him down the church."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        124
+      ],
+      "Script" : "",
+      "Text" : "Well, I have also discovered that the Archbishop may not be acting alone.  He seems to be working with - or driven by - some sinister force from beneath the cathedral.  And the abduction of the king's son may be part of a grand scheme of some sort."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        126,
+        125,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I am afraid that I do not yet possess that information.  Perhaps as we go deeper into the labyrinth, we can find some ancient tomes that may shed some light on the current events, and provide me with some of the answers I am looking for.  Then I can answer your questions."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        129,
+        128
+      ],
+      "Script" : "",
+      "Text" : "None yet, apart from what I already told you.  We should gather more tomes in the labyrinth so that I can get a better idea of this sinister force we move against."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        130
+      ],
+      "Script" : "",
+      "Text" : "As a matter of fact I have, but it is still meager.  Yet this information will still prove very useful to the Vizjerei."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        131
+      ],
+      "Script" : "",
+      "Text" : "Your description of my order is very amusing, but I can excuse that ignorance and offer you an explanation as to exactly what the Vizjerei are.\n\nThe Vizjerei is an ancient brotherhood of mages who hail from the Far East, just within the boundaries of Kehjistan.  You can say that we are one of the clans of mages who practice the art of sorcery in the East.  Long ago, there were many mage-clans that proliferated due to the ravages of the Sin War.  The Vizjerei was just one of them.  Another notable one is the Zakarum, but they have different goals than we do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        132
+      ],
+      "Script" : "",
+      "Text" : "Our goal is to exterminate demonic influences that may have been left over during the Sin War.  The Brotherhood of the Vizjerei has continued to track down these demons and destroy them.  This is why I have been sent to Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        134,
+        133
+      ],
+      "Script" : "",
+      "Text" : "That is our suspicion.  I arrived here in Tristram with a fellow acolyte of the Vizjerei because our elders believed that the terrible events happening in this town were the work of demonic entities.  My colleague was the first to go down the labyrinth, but he has not yet come back, and I suspect he may have fallen to the creatures below the cathedral."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        136,
+        135,
+        {
+          "Active" : "",
+          "Index" : 137,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "On the contrary, I am only concerned with what he has learned - my priority is neither his safety nor retrieval.  The Vizjerei have made clear that the search for knowledge should take precedence over any personal concerns, especially considering the magnitude of the situation here in Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 136,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 137,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "K'tel was not my friend, he was just a fellow acolyte sent here with me.  Whatever has happened to him is beyond my control, and not really worth my time to consider.  We are here to find out the source of all these events in Tristram, and that is what I should do above all else."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        137,
+        {
+          "Active" : "",
+          "Index" : 135,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "It is not.. at least, that is what the brotherhood told me when they sent me here.  The events here in Tristram may be a turning point in our war with the  darkness."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        138,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_tkron",
+      "Text" : "I would like to tell you, but I'm afraid I am still searching for the answers myself.  Perhaps after we have gathered enough tomes from within the labyrinth, I can shed some light to your questions."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        140,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Alas, I still need to gather more information about this town's crisis.  We will need to retrieve more tomes from beneath the labyrinth in order for me to ascertain the magnitude of this threat to Sanctuary."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        141
+      ],
+      "Script" : "",
+      "Text" : "Hmmm, from the information I have gathered so far, I think I can tell you more details about what is happening, but no definite conclusions yet."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        152,
+        142
+      ],
+      "Script" : "",
+      "Text" : "Well, the suspicions of the Vizjerei are confirmed - the evil that is stirring below this town is an ancient horror that was hunted down by the Horadrim hundreds of years ago."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        143
+      ],
+      "Script" : "",
+      "Text" : "These demons were known as the Prime Evils, and there were three of them - Mephisto, the Lord of Hatred, Baal, the Lord of Destruction, and Diablo, the Lord of Terror.  The Horadrim were successful in capturing all of them and trapping them in some sort of arcane prison, where they should have remained all these years, unable to cause havoc on the mortal realm."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        144,
+        {
+          "Active" : "",
+          "Index" : 145,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Not all of them, only one.  It is still unclear to me which one of these demons have escaped, but just one of these Prime Evils loose upon the world already spells doom for mankind.  This is where the Vizjerei come in."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        145,
+        {
+          "Active" : "",
+          "Index" : 147,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "The last of the known Horadrim has died countless years ago, and their order died with him.  With the three brothers all trapped in their prisons, their purpose faded and diminished, and they were no longer considered relevant in the current state of the world.  But some of the mage clans of the East have taken up this task and strived to continue what the Horadrim started."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        146
+      ],
+      "Script" : "",
+      "Text" : "I wish that was so, but the Horadrim was composed of the most powerful mages in Sanctuary, and they were aided by the forces of the High Heavens.  The Vizjerei don't have this advantage, and we have contented ourselves to just emulate the knowledge of their ways, and pursue the secrets of these ancient evils so that we may better arm ourselves in the event that the Sin War begins anew.  This is why our order keeps sending scribes and scholars throughout Sanctuary to find clues about these demons and determine if - and when - they will once again walk the earth."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        147,
+        {
+          "Active" : "",
+          "Index" : 148,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "And this is where Tristram comes into the picture.  We have discovered long ago that the cathedral in this town was actually an ancient Horadrim monastery in the past, and we believe that one of these Prime Evils may have been trapped beneath it.  The last few tomes we discovered seem to give credence to this discovery, and now we must find out why the Archbishop Lazarus is being used as a tool, and why the king's son was kidnapped.  I suspect that the boy may be used in a demonic ritual of some sort, but I need to make sure what it is, and how to stop it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 145,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        148
+      ],
+      "Script" : "",
+      "Text" : "We have tried our best to study the ways of the Horadrim, but I fear that even that knowledge may not be enough.  I need to learn more about this ancient evil before I leave this town so that I can bring back the necessary information to my order that might help in defeating these creatures."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        150,
+        149,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_tkronx",
+      "Text" : "I am neither optimistic nor pessimistic.  Only uncertain.  We need to know more about our enemy before we can ever dare face it.  The only way to do this is to gather as much tomes as we can that tells of this ancient evil, so that we may better prepare ourselves."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        151
+      ],
+      "Script" : "",
+      "Text" : "Indeed, we should."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 142,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "The Horadrim was a secret order of mortal magi that worked with the forces of the High Heavens in dealing with the demonic interlopers from the Burning Hells during the Sin War.  It is said that the Horadrim hunted down what was believed to be the most powerful of these demons as they walked the earth long ago.  It was these Horadrim that influenced our order, the Vizjerei, in continuing their sacred task to keep these demons from tearing the mortal realm asunder."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        155,
+        154,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Let me see... no, this is not enough.  We need to look for more tomes!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 155,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 154,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Hmmm, it's almost complete, but we need to find one more tome in order for me to gather all the necessary information about the events in Tristram... It is very important that I obtain all the tomes.  The last one may be located deeper within the labyrinth.  Let's make haste and look for it!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        156
+      ],
+      "Script" : "",
+      "Text" : "Let me see...  ahh, yes!  I think we have collected a sufficient amount of tomes to come up with a way to fight these demons!  The Vizjerei will be pleased about this vast sea of knowledge we have gained!  And I could not have gotten it all if it weren't for you, my child."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        158,
+        157
+      ],
+      "Script" : "",
+      "Text" : "You already know most of it from what I have told you, but I now realize that the evil we face may be more formidable than I have previously believed.  It seems that one of these Prime Evils has indeed woken up and has almost escaped its prison - if it hasn't already.  It is using the Archbishop as a pawn in some ritual - what kind of ritual is still unclear, but I can surmise that it may be related to regaining its demonic powers and make its way out of the labyrinth - to torment mankind once more."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 158,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Perhaps.  I may have told you before that I am neither optimistic nor pessimistic, but from these recent findings I can feel a tinge of anxiety within me.  I would be lying if I told you that I look forward to meeting this demon, but I also know that I may not have any choice in the matter."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        159
+      ],
+      "Script" : "",
+      "Text" : "I honestly don't know.  It took a whole order of powerful magi to take this demon down, and I don't know if the Vizjerei, or any of the other mage clans, are powerful enough to stand against it.  Brute force may help, but a demon as powerful as this cannot be killed by mere force of arms - not permanently, anyway.  It needs to be sent back to its prison, and held there forever.  These tomes imply a grave sacrifice to be made in order to achieve it, but there are no details.  This is what is troubling me more than anything else."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        162,
+        160
+      ],
+      "Script" : "end_tkron",
+      "Text" : "As a token of my gratitude to you, I give you the sacred sigil of our order.  We do not use it unless we face the gravest of dangers, and from what I have learned so far, that time may be now.  Yet I think you might need it more than I will.  This is your town, and you should be the one to put a stop to it.  May the ring of our order help and protect you, as I will, as long as you need my services."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        161,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Our sacred ring is a treasure in itself.  I can give you nothing else, except my services for as long as you need it.  I will be jotting down my notes and sending it by courier later, so that it may reach the Vizjerei if I should fall.  For now, I think it is time for us to seek out this demon and put him back in his prison again - for the salvation of Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        163,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I am sure it will.  I will be jotting down my notes and sending it by courier later, so that it may reach the Vizjerei if I should fall.  For now, I think it is time for us to seek out this demon and put him back in his prison again - for the salvation of Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        165,
+        {
+          "Active" : "",
+          "Index" : 119,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I have sent my findings back to the Vizjerei via courier, so that they can receive the knowledge I have gleaned in this town in the event that I fall in battle.  For now, I shall be here to find out more about this ancient enemy, and stand by you in the event that you are in need of my services."
+    }
+  ],
+  "NumWords" : 4501,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Oops, sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_level8",
+          "Index" : 13,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am in need of a spellcaster for my journeys.  Would you like to join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_tkrongohome",
+      "Sound" : "",
+      "Text" : "As you wish, I'll go back to the tavern if I need you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "As you wish, but stay here just in case."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Judging from your clothes, am I to assume that you're not from around here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Script" : "s_tkron001",
+      "Sound" : "",
+      "Text" : "You don't need to know my name, old man."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "I just don't want to give my name to a stranger."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, suit yourself, old man.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 9,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, my name is <FirstName>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Script" : "s_tkron001",
+      "Sound" : "",
+      "Text" : "My name is <FirstName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sorry, I don't have the time to chat.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Annoyed would be the word.  All these people asking me to do things for them."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thrilled is hardly the word, T'kron.  People are dying everywhere."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm sorry, I have to run.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So your only reason for coming here is to observe and take notes?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have no need for spellcasters in my quest.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_level8",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Is that so?  Then why don't you join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I will return as soon as I feel I am experienced enough.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You are very shrewd in your choice of company.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I changed my mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchhire",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchrefuse",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That can be arranged.  So you would join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't like where this conversation is going.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 15,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How dare you ask me for money!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How much gold do you need?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You are asking too much gold.  I cannot honor this ludicrous request."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Script" : "giv_3000",
+      "Sound" : "",
+      "Text" : "Alright, here is three thousand gold.  Take it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 18,
+          "IsChild" : 0
+        },
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Are you sure that you cannot waive it until we can find the gold together?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't think you can join me then.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, you don't hide your enthusiasm very well, do you?  Let's go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, let's make haste."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        23
+      ],
+      "Quest" : "",
+      "Script" : "69_setdidiefalse",
+      "Sound" : "",
+      "Text" : "Indeed."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would like that."
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55688,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "henchmanshow",
+      "Sound" : "",
+      "Text" : "Please show me your inventory."
+    },
+    {
+      "Animation" : 40,
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55683,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 35,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55740,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55739,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Yes, I am certain. Go."
+          }
+        ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_tkrongohome",
+      "Sound" : "",
+      "Text" : "Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to give you some combat instructions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Could you pick up some of the items in the area."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Equip your ranged weapons"
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Equip your melee weapons"
+    },
+    {
+      "Animation" : 28,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 34,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55784,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I'd like you to level up. You'd be more useful to me with a little training."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55783,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "69_ch_action_17",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55682,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I think we need to change your fighting tactics."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55703,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_henchyeattack",
+      "Sound" : "",
+      "Text" : "Attack as soon as you see the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Script" : "69_henchnoattack",
+      "Sound" : "",
+      "Text" : "Do not attack until I initiate combat."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Script" : "henchswap",
+      "Sound" : "",
+      "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55700,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55699,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55698,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55697,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55693,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Script" : "henchhealyes",
+      "Sound" : "",
+      "Text" : "Heal me even if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45,
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchhealno",
+      "Sound" : "",
+      "Text" : "Do not heal me if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55738,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55737,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55736,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55696,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55695,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55694,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55684,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_18",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55687,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_12",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55686,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_6",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55685,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about how you use your combat spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 53,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 52,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastyes",
+      "Sound" : "",
+      "Text" : "I want you to cast combat spells even when in hand-to-hand combat with the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 55,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 54,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastno",
+      "Sound" : "",
+      "Text" : "I don't want you to cast any spells while you are in hand-to-hand combat with the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        56
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're doing fine, but I really want you to conserve your spells. I think you should save them for our tougher foes."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        57
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You are wasting your spells. Use them only if the enemy is somewhat challenging."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should be using your spells all the time! Don't refrain from using them unless the enemies are weak."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Forget anything I've said before. I want you to trust your instincts as to when to use spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_gomelee",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62537,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_goranged",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62538,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        62
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about your weapon-switching tactics."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        64
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Be aggressive. If you see enemies getting any closer than ten meters or so, charge with melee!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        65
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between four and five meters away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        66
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than 2 meters, before you switch to a melee weapon."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        67
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to trust your instinct as to when to switch between melee and missile weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 48,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchscoutyes",
+          "Index" : 69,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchscoutno",
+          "Index" : 68,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchscout",
+      "Sound" : "",
+      "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        70
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know more about you.  Can I ask you some questions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        71
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can you tell me again why you came to Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other things I need you to do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        72
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And can you tell me what you have found so far here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 73,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me something I don't know, old man.  What else?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        73
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, by now, that is common knowledge.  Found anything else significant?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        74
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And what grand scheme do you think it is?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll ask you later then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Good idea.  Let's go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_tkrontalk1x",
+          "Index" : 76,
+          "IsChild" : 0
+        },
+        75
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What have you found so far?  Any new information?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other things I need you to do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, we'll get moving then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        77
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What exactly is the Vizjerei - aside from being a bunch of old sorcerers?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        78
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And what exactly is the goal of the Vizjerei?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        79
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You think that demons may be the cause of all these strange events?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 81,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am guessing that rescuing your friend is not part of your mission."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        80
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And you want us to see if he's still alive?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        81
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're not the least bit concerned about your friend?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        82
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You make it seem as if this is no ordinary demon hunt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        83
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why do you think Tristram is that important?  What else do you know?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then what are we waiting for.  Let's push on!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_tkrontalk2x",
+          "Index" : 85,
+          "IsChild" : 0
+        },
+        84
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you ready to tell me why Tristram is so important to the Vizjerei?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, let's keep going then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        86
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me what you have found so far."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        87
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about these demons?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        88
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you're implying that these Prime Evils have escaped somehow?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        89
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why can't the Horadrim deal with these demons like they did in the past?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        90
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So the Vizjerei are doing what the Horadrim did long ago?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        91
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        92
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How will the Vizjerei fight these demons?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        93
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You don't sound optimistic about mankind's chances."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 94,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then enough talk, and more walk!  Let's go!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        94
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what are we waiting for?  Let's continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        95
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who are these Horadrim?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_tkrontalk3x",
+          "Index" : 98,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_tkrontalk3xx",
+          "Index" : 97,
+          "IsChild" : 0
+        },
+        96
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You think we've gathered enough tomes to bring back to the Vizjerei?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This is taking too long.  Fine then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, let's keep searching."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        99
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what have you learned so far from those tomes?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        100
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You don't sound optimistic at all."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        101
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you believe we have a chance at stopping it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        102
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        103
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A mere trinket for all that fetching?  Have you anything else to give?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Bah, alright.  You first."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        104
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you, T'kron, this will be very helpful."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well said.  Let's go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        105
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what are you going to do now, now that you have all the necessary information you need?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "69_ch_tactics2",
+      "Index" : 26
+    },
+    {
+      "Active" : "69_ch_check_36",
+      "Index" : 22
+    },
+    {
+      "Active" : "69_ch_check_37",
+      "Index" : 19
+    },
+    4,
+    {
+      "Active" : "henchhire",
+      "Index" : 1
+    },
+    {
+      "Active" : "mastercheck",
+      "Index" : 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "Active" : 1,
+  "Comment" : "",
+  "CreatureList" : [
+    {
+      "Appearance" : 6,
+      "CR" : 10.0,
+      "ResRef" : "vampire002",
+      "SingleSpawn" : 0
+    },
+    {
+      "Appearance" : 6,
+      "CR" : 10.0,
+      "ResRef" : "vampire003",
+      "SingleSpawn" : 0
+    },
+    {
+      "Appearance" : 288,
+      "CR" : 12.0,
+      "ResRef" : "vampire004",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 289,
+      "CR" : 12.0,
+      "ResRef" : "vampire007",
+      "SingleSpawn" : 1
+    }
+  ],
+  "Difficulty" : 0,
+  "DifficultyIndex" : 2,
+  "Faction" : 1,
+  "LocalizedName" : "Vampire Group (low)",
+  "MaxCreatures" : 6,
+  "OnEntered" : "",
+  "OnExhausted" : "",
+  "OnExit" : "",
+  "OnHeartbeat" : "",
+  "OnUserDefined" : "",
+  "PaletteID" : 1,
+  "PlayerOnly" : 1,
+  "RecCreatures" : 4,
+  "Reset" : 1,
+  "ResetTime" : 600,
+  "Respawns" : -1,
+  "SpawnOption" : 0,
+  "Tag" : "VampireGrouplow",
+  "TemplateResRef" : "vampiregroup001"
+}

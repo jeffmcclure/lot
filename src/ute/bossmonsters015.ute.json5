@@ -1,0 +1,49 @@
+{
+  "Active" : 1,
+  "Comment" : "",
+  "CreatureList" : [
+    {
+      "Appearance" : 5,
+      "CR" : 21.0,
+      "ResRef" : "knight006",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 5,
+      "CR" : 26.0,
+      "ResRef" : "knight007",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 5,
+      "CR" : 29.0,
+      "ResRef" : "knight009",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 5,
+      "CR" : 32.0,
+      "ResRef" : "knight008",
+      "SingleSpawn" : 1
+    }
+  ],
+  "Difficulty" : 0,
+  "DifficultyIndex" : 2,
+  "Faction" : 1,
+  "LocalizedName" : "Knight Boss",
+  "MaxCreatures" : 1,
+  "OnEntered" : "",
+  "OnExhausted" : "",
+  "OnExit" : "",
+  "OnHeartbeat" : "",
+  "OnUserDefined" : "",
+  "PaletteID" : 9,
+  "PlayerOnly" : 1,
+  "RecCreatures" : 1,
+  "Reset" : 1,
+  "ResetTime" : 3600,
+  "Respawns" : -1,
+  "SpawnOption" : 0,
+  "Tag" : "KnightBoss",
+  "TemplateResRef" : "bossmonsters015"
+}

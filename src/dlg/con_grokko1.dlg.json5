@@ -1,0 +1,61 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "GROKKO HUNGRY!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "GROKKO SLASH!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "GROKKO BASH!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "GROKKO SMASH!"
+    }
+  ],
+  "NumWords" : 8,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [ ],
+  "StartingList" : [
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 3
+    },
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 2
+    },
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 1
+    },
+    {
+      "Active" : "rdm_generika1",
+      "Index" : 0
+    }
+  ]
+}

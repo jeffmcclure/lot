@@ -1,0 +1,53 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "story_sinwar1a",
+      "Text" : "Take heed and bear witness to the truths that lie herein, for they are the last legacy of the Horadrim...\n\nWhen the eternal conflict between the High Heavens and the Burning Hells falls upon mortal soil, it is called the Sin War."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "book_sinwar",
+      "Sound" : "story_sinwar1b",
+      "Text" : "Angels and demons walk amongst humanity, in disguise, fighting in secret, away from the prying eyes of mortals.  Some daring, powerful mortals have even allied themselves with either side, and helped to dictate the course of the Sin War..."
+    }
+  ],
+  "NumWords" : 82,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

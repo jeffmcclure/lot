@@ -1,0 +1,227 @@
+{
+  "AppearanceType" : 70,
+  "BodyBag" : 5,
+  "CRAdjust" : 0,
+  "Cha" : 11,
+  "ChallengeRating" : 7.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 19
+    },
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "",
+  "Con" : 12,
+  "Conversation" : "",
+  "CurrentHitPoints" : 43,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12697,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These are the skeletal remains of warriors who either died as soldiers in some dark campaign, or were betrayed by those they most trusted.  Now animated by unnatural forces, these troops of the Damned forever seek new recruits to join their ranks.  If our greatest fears do prove to be true, the skeletal warriors that are rumored to haunt the town of Tristram might well be the corrupted remains of the valiant Horadrim monks laid to rest in the catacombs beneath the church.  Only an incredibly potent evil could have disturbed the peaceful slumber of these eremites.\n\nSkeletons are usually found in places where the dead are laid to rest or at the sites of great battles.  While physically fragile, they are never lacking in numbers, for those that fall to them in combat are damned to an eternal lust for living blood.  Coupled with their unthinking rage, this makes them a dangerous opponent."
+      }
+    ]
+  },
+  "Dex" : 14,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "horrorsword",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp010",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp010",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_horrorskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 69
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 107
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 145
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12704,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Horror"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 43,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 55,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 292,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 82,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "D1_SKELETONH1",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "skeleton011",
+  "WalkRate" : 7,
+  "Willbonus" : 1,
+  "Wings" : 205,
+  "Wis" : 10
+}

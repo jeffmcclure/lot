@@ -1,0 +1,61 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 41,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 237698,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [ ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 14345,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Katana of the Mummy Lord"
+      }
+    ]
+  },
+  "ModelPart1" : 43,
+  "ModelPart2" : 23,
+  "ModelPart3" : 24,
+  "PaletteID" : 37,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 24,
+      "CostValue" : 4,
+      "Param1" : 10,
+      "Param1Value" : 1,
+      "PropertyName" : 48,
+      "Subtype" : 19
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 62,
+      "Subtype" : 5
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "NWN_KATANAMUMMYLORD",
+  "TemplateResRef" : "katanamummylord"
+}

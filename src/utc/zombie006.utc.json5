@@ -1,0 +1,224 @@
+{
+  "AppearanceType" : 197,
+  "BodyBag" : 5,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 7.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 19
+    }
+  ],
+  "Comment" : "Boss Monster",
+  "Con" : 12,
+  "Conversation" : "",
+  "CurrentHitPoints" : 50,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "Worm-ridden and reeking of foul decay, Zombies are formed from the corpses of men executed for committing the most depraved and degenerate crimes against the innocent.  They are driven by both the hatred that consumed them in life and an insatiable hunger for the flesh of the living.\n\nTenacious and possessing stamina of infernal origin, Zombies and their ilk make for a difficult encounter.  Fortunately, these undead minions are lacking in both will and mobility which can be used to great affect against them.",
+  "Dex" : 8,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_wspmka002",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_wspmka002",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "nw_it_crewpb020",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitemunf",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 79
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 20
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 41
+    },
+    {
+      "Feat" : 117
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 155
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 56579,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Black Death"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 50,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 70,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 357,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_mid",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 111,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "D1_ZOMBIEBD",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "zombie006",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 10
+}

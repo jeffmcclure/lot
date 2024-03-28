@@ -1,0 +1,235 @@
+{
+  "AppearanceType" : 196,
+  "BodyBag" : 3,
+  "CRAdjust" : -1,
+  "Cha" : 10,
+  "ChallengeRating" : 11.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 12,
+      "ClassX" : 19
+    }
+  ],
+  "Comment" : "Boss Monster",
+  "Con" : 12,
+  "Conversation" : "",
+  "CurrentHitPoints" : 101,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "Worm-ridden and reeking of foul decay, Zombies are formed from the corpses of men executed for committing the most depraved and degenerate crimes against the innocent.  They are driven by both the hatred that consumed them in life and an insatiable hunger for the flesh of the living.\n\nTenacious and possessing stamina of infernal origin, Zombies and their ilk make for a difficult encounter.  Fortunately, these undead minions are lacking in both will and mobility which can be used to great affect against them.",
+  "Dex" : 8,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "wspmka010",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_wspmka009",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "nw_it_crewpb013",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "uniqueskin010",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 79
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 20
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 41
+    },
+    {
+      "Feat" : 117
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 155
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 56579,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Goretongue"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 101,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 125,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 356,
+  "Race" : 24,
+  "Refbonus" : 1,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_unique",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 111,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 169,
+      "SpellCasterLevel" : 9,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 172,
+      "SpellCasterLevel" : 9,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 20,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "zombie009",
+  "WalkRate" : 3,
+  "Willbonus" : 1,
+  "Wings" : 205,
+  "Wis" : 10
+}

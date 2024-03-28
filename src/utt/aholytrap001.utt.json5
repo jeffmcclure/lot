@@ -1,0 +1,31 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Average Holy\r\nDetect DC: 10\r\nDisarm DC: 22\r\nSet DC: 20\r\nDamage / Effect: 5d10 vs. Undead, 3d4 otherwise.\r\nAverage Damage: 27 / 7.5\r\nArea of Effect: Single\r\nMin to Max player level: 1 - 30",
+  "Cursor" : 0,
+  "DisarmDC" : 22,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14768,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Average Holy Trap"
+      }
+    ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 12,
+  "PortraitId" : 0,
+  "Tag" : "D_AVERAGEHOLYTRAP",
+  "TemplateResRef" : "aholytrap001",
+  "TrapDetectDC" : 10,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 5,
+  "Type" : 2
+}

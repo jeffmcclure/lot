@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 18,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 34484,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13928,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Along the edge of the Anauroch lived a tribe of nomads whose ferocity in battle became legend that told of a giant whirlwind of sand that would destroy caravans, leave nothing but corpses behind.  The truth behind the legend was that the shaman of this tribe was more powerful than he knew and crated this weapon that sprays sand with every swipe, often blinding opponents."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13929,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The Sandstorm"
+      }
+    ]
+  },
+  "ModelPart1" : 43,
+  "ModelPart2" : 23,
+  "ModelPart3" : 33,
+  "PaletteID" : 32,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 20,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 28,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 24,
+      "CostValue" : 1,
+      "Param1" : 1,
+      "Param1Value" : 1,
+      "PropertyName" : 48,
+      "Subtype" : 16
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "SANDSTORM",
+  "TemplateResRef" : "waxmgr022"
+}

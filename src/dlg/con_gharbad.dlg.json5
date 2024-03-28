@@ -1,0 +1,161 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Sound" : "gharbad3",
+      "Text" : "Nothing yet... almost done!  Very powerful, very strong!  Live!  Live!  No pain, and promise I keep!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3,
+        2
+      ],
+      "Script" : "",
+      "Sound" : "gharbad4",
+      "Text" : "This too good for you, very powerful!  You want?  You take!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5,
+        4
+      ],
+      "Script" : "",
+      "Sound" : "gharbad4",
+      "Text" : "This too good for you, very powerful!  You want?  You take!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        7,
+        6
+      ],
+      "Script" : "",
+      "Sound" : "gharbad1",
+      "Text" : "Please!  No hurt, no kill!  Keep alive, and next time, good bring to you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8
+      ],
+      "Script" : "giv_gharbad",
+      "Sound" : "gharbad2",
+      "Text" : "Something for you, I am making... again, not kill Gharbad!  Live and give good!  You take this as proof I give word!"
+    }
+  ],
+  "NumWords" : 124,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Alright, I'll come back later."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm getting impatient!  Cough it up!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_gharbad",
+      "Sound" : "",
+      "Text" : "Die then, you groveling idiot!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_gharbad",
+      "Sound" : "",
+      "Text" : "Surely, we can talk about this..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_gharbad",
+      "Sound" : "",
+      "Text" : "Die then, you groveling idiot!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_gharbad",
+      "Sound" : "",
+      "Text" : "Surely, we can talk about this..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me why I shouldn't kill you right now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Stop groveling!  What do you mean \"good\"?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_gharbad",
+      "Index" : 3
+    },
+    {
+      "Active" : "prq_gharbad2",
+      "Index" : 2
+    },
+    0
+  ]
+}

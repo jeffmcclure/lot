@@ -1,0 +1,264 @@
+{
+  "AppearanceType" : 787,
+  "BodyBag" : 3,
+  "CRAdjust" : 7,
+  "Cha" : 10,
+  "ChallengeRating" : 40.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 12
+    },
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 105,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12427,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This is no cow!"
+      }
+    ]
+  },
+  "Dex" : 18,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "bovinehalberd",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "hellcowskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 74
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 183
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 112
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 150
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12428,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Hell Bovine Champion"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 105,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 225,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 0,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 172,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_unique",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 40
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 253,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 74,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_EPIC",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "madcow009",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

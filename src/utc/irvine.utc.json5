@@ -1,0 +1,331 @@
+{
+  "AppearanceHead" : 35,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : 1,
+  "Cha" : 18,
+  "ChallengeRating" : 40.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 40,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 7,
+  "ColorSkin" : 0,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 18,
+  "Conversation" : "",
+  "CurrentHitPoints" : 55,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 30,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "irvinarmor",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "lagunacrossbo001",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "irvineammo",
+      "StructId" : 8192
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 223
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 249
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 54
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 27
+    },
+    {
+      "Feat" : 30
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 192
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 92
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 50
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 130
+    }
+  ],
+  "FirstName" : "<cÿÿ >Irvine Kinneas",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 55,
+  "Int" : 13,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "irvineammo",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "irvineammo",
+      "ReposPosX" : 1,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "irvineammo",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "irvineammo",
+      "ReposPosX" : 3,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "irvineammo",
+      "ReposPosX" : 4,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 255,
+  "NaturalAC" : 15,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 105,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_superepic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_bug",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 40
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 86,
+  "Str" : 20,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_EPIC",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "irvine",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

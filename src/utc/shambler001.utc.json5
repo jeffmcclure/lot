@@ -1,0 +1,245 @@
+{
+  "AppearanceType" : 205,
+  "BodyBag" : 3,
+  "CRAdjust" : 3,
+  "Cha" : 8,
+  "ChallengeRating" : 11.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 21
+    }
+  ],
+  "Comment" : "",
+  "Con" : 25,
+  "Conversation" : "",
+  "CurrentHitPoints" : 70,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 53073,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "At the same time both savage and maternal, the Gray Shambler is a deadly predator that often protects weaker creatures within its habitat."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "shambler002",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "shamber001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12579,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Shambler"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 4,
+  "GoodEvil" : 50,
+  "HitPoints" : 70,
+  "Int" : 3,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 150,
+  "NaturalAC" : 10,
+  "NoPermDeath" : 1,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 231,
+  "Race" : 9,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 51,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "D1_GRAYSHAMBLER",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "shambler001",
+  "WalkRate" : 2,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 12
+}

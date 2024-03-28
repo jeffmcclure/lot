@@ -1,0 +1,386 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "trg_nadineattack",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "Oh please, help!  Help me, brave warrior!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "con_lawful1",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        2
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Sobs.</Start>  You got to help me!  My father has been dragged into the cave by those monsters!  I don't know what to do, I can't help him by myself, the monsters are too strong and I am too afraid to go in there and save him!  Can you please help me?!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3,
+        {
+          "Active" : "con_lawful1",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "My father and I were on our way to Westmarch on a caravan, but we got waylaid on the road by those wolf-like creatures!  My father told me to hide behind the wagon while he battled those beasts, but they were too many!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "con_lawful1",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        4
+      ],
+      "Script" : "",
+      "Text" : "We did not want to wait any further from leaving town, so my father decided to pack up and leave immediately... We didn't know these woods would be so dangerous at night - we thought all this evil was only back in Tristram!  Oh please, you have to help my father - I don't know what those vile creatures are doing to him right now!  Please!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 33,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        12,
+        11,
+        {
+          "Active" : "con_evil1",
+          "Index" : 6,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "Oh, thank you brave warrior!  I will do anything - ANYTHING - if you save my father!  They dragged him into the cave behind me, behind the waterfall!  I am too scared to enter it myself.  Oh please, save him!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9,
+        8,
+        7
+      ],
+      "Script" : "",
+      "Text" : "WHAT?  A damsel in distress is asking for your help, and you refuse?  Are you a man, or a mouse?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'm sorry, but my father's predicament is very dire.  Please help him!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10
+      ],
+      "Script" : "trg_nadineattack",
+      "Text" : "I think I'll just take you right here!  Hahaha!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "trg_nadinehelp",
+      "Text" : "Oh, thank you, great hero!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "con_evil1",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Yes!  Yes, I will!  I'll be your servant, or your slave, or bear your child if you wish, just please, save my father now before it's too late!!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        14,
+        13
+      ],
+      "Script" : "",
+      "Text" : "Please, help my father!  There is no time to waste!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15
+      ],
+      "Script" : "",
+      "Text" : "Thank you, brave warrior!  I will do \"anything\" you ask if you save him!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 14,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 13,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Yes!  Yes, I will!  I'll be your servant, or your slave, or bear your child if you wish, just please, save my father now before it's too late!!!"
+    }
+  ],
+  "NumWords" : 496,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "What do you want, wench!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is the matter, young lady?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is a beautiful woman like you doing in these dark woods at night with your father?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why are you traveling these woods at night?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your story still sounds suspicious.  I will not help you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Do not fear, I will help you!  Where did you say these monsters took your father?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "On second thought, your story seems suspicious. I am afraid I cannot help you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Script" : "trg_nadineattack",
+      "Sound" : "",
+      "Text" : "Alright, I'm sorry.  No need to be so rude!  You are the one who needs my help!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 7,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "trg_nadineattack",
+      "Sound" : "",
+      "Text" : "I've had enough of your whining. I shall kill you where you stand!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Script" : "trg_nadineattack",
+      "Sound" : "",
+      "Text" : "Now wait just a minute!  I thought you wanted my help?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "I will go there now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You will do \"anything\" if I help you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Now that I thought about it, your story is suspicious.  I changed my mind - I will not help you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Script" : "trg_nadinehelp",
+      "Sound" : "",
+      "Text" : "I will go there now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You will do \"anything\" if I help you?"
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_nadine",
+      "Index" : 10
+    },
+    0
+  ]
+}

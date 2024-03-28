@@ -1,0 +1,302 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "s_npcattack",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1,
+        0
+      ],
+      "Script" : "s_npcdialogue1",
+      "Text" : "Halt mortal!  You shall not pass on my watch!  Prepare to die!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        3
+      ],
+      "Script" : "",
+      "Text" : "I was called Izual ages ago, but that name no longer means anything to me!  How did you come to know about this name?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6,
+        5
+      ],
+      "Script" : "",
+      "Text" : "Overwhelmed?!  Do not make me laugh mortal!  These tales you speak of are products of sentimental fools!  You have no inkling as to the magnitude of the Great Conflict - we have fought wars that surpass imagination - one that will drive mortals insane trying to comprehend it!  Those fools in the High Heavens think they can win this war - they cannot!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8,
+        7
+      ],
+      "Script" : "",
+      "Text" : "Hah, you claim to know me!  You claim to know of things for which you only have the barest knowledge - this miniscule knowledge passed onto you by weak old humans!  Tyrael was a fool to believe that you mortals can possess the comprehension of things happening around you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10,
+        9
+      ],
+      "Script" : "",
+      "Text" : "You still do not understand.  I am getting tired of explaining the ways of the world to a child!  Prepare to defend yourself!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11
+      ],
+      "Script" : "",
+      "Text" : "Back to the light?  What makes you think I want to go back to the light?  What makes you think that I revel in the task of defending the place I vowed to destroy?  Why do you think I led the assault on this Hellforge against Tyrael's orders?  Can you fathom the actions I have made a millennia before your kind has learned to walk on two legs?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13,
+        12
+      ],
+      "Script" : "",
+      "Text" : "You do not, and will not, understand the choices I made!  The forging of the demon blade I sought to destroy was already done by the time I came onto these hellish gates.  My initial purpose for being here no longer holds any meaning, so I have taken the mantle of this new purpose entrusted upon me.  I am not just here to defend this place - I am here to stop you and your ilk from going further!  You cannot continue on your path, you MUST not go deeper into the Burning Hells!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        14
+      ],
+      "Script" : "",
+      "Text" : "How much suffering, mortal, does it take before you lose your grace?\n\nNo, you are not ready to understand.  It will be like explaining the world to a microbe.  I cannot fail in my task!  I will not go back to the Abyss!  I WILL STOP YOU!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "s_hostileattack",
+      "Text" : "Enough talk, mortal!  Prepare to die!"
+    }
+  ],
+  "NumWords" : 546,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "Die by my hands!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you Izual?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who are you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I heard that the creatures in this place defeated you.  Really foolish, to get overwhelmed by these puny creatures."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your fate was legendary.  You led the assault on this place but you were overwhelmed by its evil."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "I'm here to kill you, not engage in a debate!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This place has clouded your mind and your senses.  Your perception has been skewed in favor of the very creatures that defeated you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "Whatever... you need to die!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then why don't you explain it to me?  Why do you defend the very place that corrupted you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "I'm getting tired of this discussion too.  You talk too much for someone I need to kill..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful2",
+      "Sound" : "",
+      "Text" : "Wait!  I can help you get back to the light if you give me a chance?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "This discussion is boring me.  I'll kill you now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful2",
+      "Sound" : "",
+      "Text" : "Why not?  Help me understand!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And into the Abyss I will send you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But--"
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

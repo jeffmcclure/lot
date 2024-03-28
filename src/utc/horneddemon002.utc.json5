@@ -1,0 +1,251 @@
+{
+  "AppearanceType" : 122,
+  "BodyBag" : 6,
+  "CRAdjust" : -1,
+  "Cha" : 17,
+  "ChallengeRating" : 9.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 22
+    }
+  ],
+  "Comment" : "",
+  "Con" : 17,
+  "Conversation" : "",
+  "CurrentHitPoints" : 75,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12663,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Used as living siege engines, there are numerous accounts of these juggernauts smashing into the lines of the Seraphim and leaving only death and ruin in their wake. These monstrosities are unnaturally durable. The Horned Demons prefer to wait until a clear path is available and then they charge towards their victims at incredible speeds. Some of these creatures have adapted and developed elemental attacks depending on their habitat."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "horndemonegore2",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "horndemonegore2",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "horndemonegore2",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "horneddmnskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12666,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Frost Charger"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 75,
+  "Int" : 15,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 115,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 0,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 256,
+  "Race" : 13,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 51,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 25,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 21,
+  "Subrace" : "",
+  "Tag" : "D1_HORNEDDEMONFC",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "horneddemon002",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 14
+}

@@ -1,0 +1,299 @@
+{
+  "AppearanceHead" : 30,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : 0,
+  "Cha" : 17,
+  "ChallengeRating" : 1.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 9,
+      "KnownList0" : [
+        {
+          "Spell" : 37,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 144,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 151,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList1" : [
+        {
+          "Spell" : 102,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 174,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    }
+  ],
+  "ColorHair" : 23,
+  "ColorSkin" : 7,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "con_tkron",
+  "CurrentHitPoints" : 5,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "item031",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "item032",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_wambo001",
+      "StructId" : 8192
+    }
+  ],
+  "FactionID" : 3,
+  "FeatList" : [
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 35
+    },
+    {
+      "Feat" : 166
+    },
+    {
+      "Feat" : 303
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : "<cÿÿÿ>T'kron",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 5,
+  "Int" : 11,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "nw_wbwxl001",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_torch001",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 3,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 4,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion001",
+      "ReposPosX" : 5,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_sparscr102",
+      "ReposPosX" : 6,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_sparscr105",
+      "ReposPosX" : 7,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_sparscr108",
+      "ReposPosX" : 8,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_sparscr109",
+      "ReposPosX" : 9,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_cloth008",
+      "ReposPosX" : 6,
+      "ReposPosy" : 1
+    },
+    {
+      "InventoryRes" : "nw_wswdg001",
+      "ReposPosX" : 8,
+      "ReposPosy" : 1
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 6,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 44,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 116,
+  "Race" : 6,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "69_hen_attacked",
+  "ScriptDamaged" : "69_hen_damaged",
+  "ScriptDeath" : "69_hen_death",
+  "ScriptDialogue" : "69_hen_dialog",
+  "ScriptDisturbed" : "69_hen_disturbed",
+  "ScriptEndRound" : "69_hen_combatend",
+  "ScriptHeartbeat" : "69_hen_heartbeat",
+  "ScriptOnBlocked" : "69_hen_blocked",
+  "ScriptOnNotice" : "69_hen_perceived",
+  "ScriptRested" : "",
+  "ScriptSpawn" : "69_hen_spawnin",
+  "ScriptSpellAt" : "69_hen_spellcast",
+  "ScriptUserDefine" : "69_hen_userdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 0,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 9,
+  "Str" : 10,
+  "Subrace" : "",
+  "Tag" : "HENCH_TKRON",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "tkron",
+  "WalkRate" : 4,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

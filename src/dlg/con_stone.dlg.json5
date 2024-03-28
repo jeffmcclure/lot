@@ -1,0 +1,385 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "con_trapdoorlstn",
+      "Text" : "Hey, we heard that!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        14,
+        12,
+        10,
+        {
+          "Active" : "qst_cow1",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        3,
+        1
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "You are changing the subject!  What is the secret password!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "Come back when you do.  Buh-bye."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "*groan* That is such a cliché. Try again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "You have uttered the correct password. I am so relieved."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9,
+        7
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "Would you like to go down?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8
+      ],
+      "Script" : "trapdoor_no",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "Suit yourself!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 0,
+      "RepliesList" : [ ],
+      "Script" : "trapdoor_yes",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : ""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "Sorry, wrong game. Try again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "No, there are no tigers here. Try again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "That is correct ... if you're a total retard! Try again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "Uhm, NO ... Try again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 16,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 14,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "qst_cow1",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Speaker" : "TRISTRAM_2COWLVL",
+      "Text" : "What is the secret password?"
+    }
+  ],
+  "NumWords" : 125,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "*sigh*"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't know the password!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "\"Open sesame!\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "\"The cows have come home.\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yay!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'd rather not."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "\"There is no cow level!\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "\"Here there be tigers!\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "\"All your base are belong to us!\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "\"Go metal no pass!\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue"
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

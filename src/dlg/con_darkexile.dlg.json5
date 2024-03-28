@@ -1,0 +1,53 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "story_darkexile1",
+      "Text" : "So it came to be that there was a great revolution within the Burning Hells, known as the Dark Exile.  The Lesser Evils overthrew the three Prime Evils, and banished their spirit forms to the mortal realm..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "book_darkexile",
+      "Sound" : "story_darkexile2",
+      "Text" : "The demons Belial, the Lord of Lies, and Asmodan, the Lord of Sin, fought to claim rulership of Hell during the absence of the Three Brothers.  All of Hell polarized between the factions of Belial and Asmodan, while the forces of the High Heavens continually battled upon the very gates of Hell..."
+    }
+  ],
+  "NumWords" : 90,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

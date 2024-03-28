@@ -1,0 +1,31 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 44,
+  "Charges" : 50,
+  "Cost" : 4,
+  "Cursed" : 0,
+  "DescIdentified" : "If cast on a player:\n- Display attributes \n- Change alignment \n- Give the player a full map of the area\n- Follow the player\n- Force the player to follow you\n- Cancel player's actions\n- Work with inventory: take items, destroy items, identify/unidentify items, examine items\n- Penguin the player - paralyze the player, and turn him into a penguin\n- Unpenguin the player\n- Boot the PC out of the game\n- Roll a skill or ability check\n- Join the PC's party\n- Leave the party\n\nIf cast on a creature:\n- Display attributes \n- Change alignment \n- Follow the creature\n- Force the creature to follow you\n- Tell the creature to run the \"nw_c2_default9\" script (resumes waypoint walking)\n- Kill creature, leaving a corpse\n- Change All Players or One Players faction with this creatures faction.\n\nIf cast on a creature or selectable object:\n- Destroy this object\n- Turn this object on or off \n- Work with inventory: take items, destroy items, identify/unidentify items, examine items\n\nIf cast without a target:\n- Reload the current running module \n- Advance the current time of day by one, three, or five hours\n- Advance to the next day or night period\n- Destroy an object that is close by (includes untargettable objects)\n- Turn an object that is close by on or off\n- List All Player Names with their Character Names.\n- Jump to a PC \n- Jump a PC to you\n- Jump PC's party to you\n\nBy Jhenne and Doppleganger",
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : "DMFI DM Wand",
+  "ModelPart1" : 22,
+  "ModelPart2" : 22,
+  "ModelPart3" : 32,
+  "PaletteID" : 53,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 13,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 329
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "dmfi_dmw",
+  "TemplateResRef" : "dmfi_dmw"
+}

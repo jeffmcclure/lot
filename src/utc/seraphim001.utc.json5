@@ -1,0 +1,379 @@
+{
+  "AppearanceHead" : 10,
+  "AppearanceType" : 3,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : -4,
+  "Cha" : 15,
+  "ChallengeRating" : 25.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 33,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 16,
+  "ColorSkin" : 8,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 150,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12420,
+    "Strings" : [ ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_creitem148",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "it_crewpb023",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_creitem030",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 62
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 21
+    },
+    {
+      "Feat" : 213
+    },
+    {
+      "Feat" : 343
+    },
+    {
+      "Feat" : 344
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 207
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 100
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 49
+    },
+    {
+      "Feat" : 290
+    },
+    {
+      "Feat" : 138
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12421,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Cherubim"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 4,
+  "GoodEvil" : 100,
+  "HitPoints" : 150,
+  "Int" : 15,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 150,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 1,
+  "PaletteID" : 23,
+  "PerceptionRange" : 9,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 318,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_epic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_cow",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 122,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 1,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 79,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 79,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 114,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 153,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 167,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "EPIC_CHERUBIM",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "seraphim001",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 2,
+  "Wis" : 15
+}

@@ -1,0 +1,70 @@
+{
+  "AnimationState" : 0,
+  "Appearance" : 111,
+  "AutoRemoveKey" : 0,
+  "BodyBag" : 0,
+  "CloseLockDC" : 0,
+  "Comment" : "Corpse - 2 (Low treasure script)",
+  "Conversation" : "",
+  "CurrentHP" : 15,
+  "Description" : {
+    "StringRef" : 14602,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Rats nibble on the corpse's fingers and scurry about his ears. It looks like the body has been here awhile."
+      }
+    ]
+  },
+  "DisarmDC" : 15,
+  "Faction" : 1,
+  "Fort" : 16,
+  "HP" : 15,
+  "Hardness" : 5,
+  "HasInventory" : 0,
+  "Interruptable" : 0,
+  "KeyName" : "",
+  "KeyRequired" : 0,
+  "LocName" : {
+    "StringRef" : 14601,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Rotten Corpse"
+      }
+    ]
+  },
+  "Lockable" : 0,
+  "Locked" : 0,
+  "OnClosed" : "",
+  "OnDamaged" : "",
+  "OnDeath" : "",
+  "OnDisarm" : "",
+  "OnHeartbeat" : "",
+  "OnInvDisturbed" : "",
+  "OnLock" : "",
+  "OnMeleeAttacked" : "",
+  "OnOpen" : "",
+  "OnSpellCastAt" : "",
+  "OnTrapTriggered" : "",
+  "OnUnlock" : "",
+  "OnUsed" : "lts_ambplc3_used",
+  "OnUserDefined" : "",
+  "OpenLockDC" : 18,
+  "PaletteID" : 7,
+  "Plot" : 1,
+  "PortraitId" : 469,
+  "Ref" : 0,
+  "Static" : 0,
+  "Tag" : "lordo_dcorpse",
+  "TemplateResRef" : "lordo_dcorpse",
+  "TrapDetectDC" : 0,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 0,
+  "TrapOneShot" : 1,
+  "TrapType" : 0,
+  "Type" : 0,
+  "Useable" : 1,
+  "Will" : 0
+}

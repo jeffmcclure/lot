@@ -1,0 +1,379 @@
+{
+  "AppearanceHead" : 33,
+  "AppearanceType" : 1,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 0,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : -3,
+  "Cha" : 25,
+  "ChallengeRating" : 50.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 40,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 16,
+  "ColorSkin" : 8,
+  "ColorTattoo1" : 37,
+  "ColorTattoo2" : 37,
+  "Comment" : "",
+  "Con" : 20,
+  "Conversation" : "",
+  "CurrentHitPoints" : 135,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 18,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "sephirotharmor",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "masamune",
+      "StructId" : 16
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 223
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 249
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 84
+    },
+    {
+      "Feat" : 16
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 260
+    },
+    {
+      "Feat" : 207
+    },
+    {
+      "Feat" : 243
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 35
+    },
+    {
+      "Feat" : 166
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 168
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 170
+    },
+    {
+      "Feat" : 171
+    },
+    {
+      "Feat" : 172
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 122
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 160
+    }
+  ],
+  "FirstName" : "<cÿÿ >Sephiroth",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 135,
+  "Int" : 20,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 375,
+  "NaturalAC" : 33,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 33,
+  "Race" : 11,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_superepic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_drg",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 5,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 366,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 56,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 159,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 190,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 193,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 86,
+  "Str" : 30,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_EPIC",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "sephiroth",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 30,
+  "Wis" : 18
+}

@@ -1,0 +1,480 @@
+{
+  "AppearanceType" : 392,
+  "BodyBag" : 3,
+  "CRAdjust" : -8,
+  "Cha" : 25,
+  "ChallengeRating" : 85.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 40,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 35,
+  "Conversation" : "",
+  "CurrentHitPoints" : 1146,
+  "DecayTime" : 600000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 3096,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The youngest of the Three Prime Evils. The Lord of Terror himself."
+      }
+    ]
+  },
+  "Dex" : 30,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_diablo005",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "it_diablo006",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_diablo007",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_diablo008",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 62
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 18
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 21
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 207
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 183
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 190
+    },
+    {
+      "Feat" : 192
+    },
+    {
+      "Feat" : 353
+    },
+    {
+      "Feat" : 221
+    },
+    {
+      "Feat" : 345
+    },
+    {
+      "Feat" : 346
+    },
+    {
+      "Feat" : 347
+    },
+    {
+      "Feat" : 348
+    },
+    {
+      "Feat" : 349
+    },
+    {
+      "Feat" : 350
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 171
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 100
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    },
+    {
+      "Feat" : 138
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 3095,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >DIABLO"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 1146,
+  "Int" : 30,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "sanctuaryitem",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 1666,
+  "NaturalAC" : 15,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 694,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "nw_c2_default5",
+  "ScriptDamaged" : "nw_c2_default6",
+  "ScriptDeath" : "dth_diablo",
+  "ScriptDialogue" : "nw_c2_default4",
+  "ScriptDisturbed" : "nw_c2_default8",
+  "ScriptEndRound" : "old_diablo_apoc1",
+  "ScriptHeartbeat" : "nw_c2_default1",
+  "ScriptOnBlocked" : "nw_c2_defaulte",
+  "ScriptOnNotice" : "old_diablo_apoc2",
+  "ScriptRested" : "nw_c2_defaulta",
+  "ScriptSpawn" : "diablo_spawnin",
+  "ScriptSpellAt" : "nw_c2_defaultb",
+  "ScriptUserDefine" : "nw_c2_defaultd",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 45
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 50
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 35
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 45
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 255,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 366,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 241,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 241,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 241,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 241,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 241,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 57,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 57,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 58,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 58,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 58,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 79,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 87,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 116,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 116,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 193,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 86,
+  "Str" : 35,
+  "Subrace" : "",
+  "Tag" : "NPC_DIABLO",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "diablo",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 25
+}

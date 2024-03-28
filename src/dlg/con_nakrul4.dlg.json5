@@ -1,0 +1,97 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "note_nakrul4a",
+      "Text" : "\"...My home is slowly becoming corrupted by the vileness of this unwanted prisoner.  The crypts are full of shadows that move just beyond the corners of my vision.  The faint scrabble of claws dances at the edges of my hearing.  They are searching, I think, for this journal...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>This is another journal written by Skulken, littered with arcane symbols and verses, but a part of it was intentionally written in a readable form.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        3
+      ],
+      "Script" : "s_tornjournal4",
+      "Sound" : "note_nakrul4a",
+      "Text" : "\"...my home is slowly becoming corrupted by the vileness of this unwanted prisoner.  The crypts are full of shadows that move just beyond the corners of my vision.  The faint scrabble of claws dances at the edges of my hearing.  They are searching, I think, for this journal...\""
+    }
+  ],
+  "NumWords" : 133,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the journal alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Read the journal."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Read the journal again."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_tornjournal4",
+      "Index" : 1
+    },
+    0
+  ]
+}

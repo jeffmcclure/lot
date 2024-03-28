@@ -1,0 +1,4081 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "Greetings to you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Text" : "My name is Janna, and I am a simple traveler from the Eastern Dunes.  I was sent here to complete my training with my guild, as well as to investigate the strange happenings here in Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Text" : "I am afraid I cannot tell you that - I barely know you, and it is not the way of our guild to announce ourselves in front of strangers.  Maybe if you tell me something about yourself, I'll tell you what I can of mine?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Text" : "I am pleased to meet you, <FirstName>.  I see that you probably know more of this place than I.  Are you on the same mission as most of the other adventurers who came here?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_janna001",
+          "Index" : 5,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "s_janna001",
+      "Text" : "Interesting.  My purpose here wasn't really for the adventure either, but to complete my training.  Once I have reached a point where I feel that my skills are sufficient, I shall be heading back East to be initiated."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        6
+      ],
+      "Script" : "",
+      "Text" : "At another time, I would have said yes without hesitation, but I have underestimated my traveling expenses for the journey to this town, and I cannot leave this tavern and journey far until I have paid the lady Garda what I owe her."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9,
+        7
+      ],
+      "Script" : "",
+      "Text" : "Right now, I only owe her five hundred gold, but I promised her that I will stay a few days more until I felt that my training was sufficient.  In addition to the supplies I have gotten from her, my total debt would be roughly a thousand gold."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8
+      ],
+      "Script" : "",
+      "Text" : "Oh, that's too bad.  But I cannot go with you unless I pay my dues.  Thank you for the chat anyway."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 15,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "hench_500",
+          "Index" : 11,
+          "IsChild" : 0
+        },
+        10
+      ],
+      "Script" : "",
+      "Text" : "Garda said that it was much lower before, but the recent exodus of people from this town because of what was happening under the church has really dealt a telling blow to their business.  She said their business thrives with people, and with so few people left, their business has suffered, and thus they were forced to increase costs just to compensate."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start> I am sorry, but I am honor-bound to settle all my debts, past and future, before I do anything else outside this tavern.  It would have to be a thousand gold."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        12
+      ],
+      "Script" : "giv_500",
+      "Text" : "<StartAction>Success.</Start>  Hmmm...  Maybe you are right.  Garda probably won't mind if I just pay what I owe for now.  She's a pretty understanding woman."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        14,
+        13
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "You are right.  Well, it seems that you got yourself a traveling companion!  How soon should we go?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Ah!  Thank you, <FirstName>!  I guess you now have a traveling companion!  How soon shall we go?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start> <FirstName>!  How dare you think of such a thing!  Our guild expressly prevents any kind of dishonorable act, despite our line of work.  I fear that I cannot wander far from the tavern until I am sure that all my debts are paid."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "This starting condition should only come up if the henchman is working for a player and it is NOT that player who is trying to talk to him (the script NW_CH_JOIN_NOT only checks to see if the henchman is working for ANY player, including the one he is currently serving).  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56196,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18,
+        17
+      ],
+      "Script" : "",
+      "Text" : "Would you like some help in your mission?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_virgin",
+          "Index" : 21,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_janna001",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        19
+      ],
+      "Script" : "",
+      "Text" : "Greetings to you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        23,
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        22
+      ],
+      "Script" : "",
+      "Text" : "My name is Janna, and I am a simple traveler from the Eastern Dunes.  I was sent here to complete my training with my guild, as well as to investigate the strange happenings here in Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        24,
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "s_janna001",
+      "Text" : "I am afraid I cannot tell you that - I barely know you, and it is not the way of our guild to announce ourselves in front of strangers.  Maybe I'll tell you later, maybe not.  But until I get to know you better, my purpose here is unimportant to you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "I am a little busy right now.  Why don't you come back later and we can talk about it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41,
+        26,
+        25
+      ],
+      "Script" : "",
+      "Text" : "At another time, I would have said yes without hesitation, but I have underestimated my traveling expenses for the journey to this town, and I cannot leave this tavern and journey far until I have paid the lady Garda what I owe her."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        30,
+        28,
+        27
+      ],
+      "Script" : "",
+      "Text" : "Right now, I only owe her five hundred gold, but I promised her that I will stay a few days more until I felt that my training was sufficient.  In addition to the supplies I have gotten from her, my total debt would be roughly a thousand gold."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 30,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        29
+      ],
+      "Script" : "",
+      "Text" : "Oh, that's too bad.  But I cannot go with you unless I pay my dues.  Thank you for the chat anyway."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 40,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "hench_500",
+          "Index" : 32,
+          "IsChild" : 0
+        },
+        31
+      ],
+      "Script" : "",
+      "Text" : "Garda said that it was much lower before, but the recent exodus of people from this town because of what was happening under the church has really dealt a telling blow to their business.  She said their business thrives with people, and with so few people left, their business has suffered, and thus they were forced to increase costs just to compensate."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        33
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  I am sorry, but I am honor-bound to settle all my debts, past and future, before I do anything else outside this tavern.  It would have to be a thousand gold."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        35,
+        34
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start>  Hmmm...  Maybe you are right.  Garda probably won't mind if I just pay what I owe for now.  She's a pretty understanding woman."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37,
+        36
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "You are right.  Well, it seems that you got yourself a traveling companion!  How soon should we go? And what is your name, by the way?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 38,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Oh, that's alright.  I already heard them call you by your name when you approached me.  <FirstName> is it?  Well, I am honored to work with you, <FirstName>.  How soon should we go?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        39,
+        38
+      ],
+      "Script" : "",
+      "Text" : "It's an honor to work with you, <FirstName>.  How soon should we go?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 36,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Ah!  Thank you, dear <sir/madam>!  I guess you now have a traveling companion!  May I know your name, by the way?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        42
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  <FirstName>!  How dare you think of such a thing!  Our guild expressly prevents any kind of dishonorable act, despite our line of work.  I fear that I cannot wander far from the tavern until I am sure that all my debts are paid."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        44,
+        43
+      ],
+      "Script" : "",
+      "Text" : "I wish you luck in your quests.  But you seem to already have a henchman at your disposal.  Sorry."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        46,
+        45
+      ],
+      "Script" : "",
+      "Text" : "Oh, it's you <FirstName>!  Would you like some company in your travels once again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "trg_jannagohome",
+      "Text" : "Oh... if that's your decision, I guess I'll just wait at the tavern until you need me then..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Excellent!  I'm glad you enjoy my company!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        47
+      ],
+      "Script" : "",
+      "Text" : "Dying is so painful, <FirstName>.  I wouldn't want to go through that again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        49,
+        48
+      ],
+      "Script" : "",
+      "Text" : "If you still trust my skills, can I rejoin you in your quest?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Oh... if that's your decision, I guess I'll just wait here until you need me then..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 30,
+      "Comment" : "Default dialogue when the henchman is a member of the player's party.  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        129,
+        128,
+        56,
+        52,
+        51,
+        50
+      ],
+      "Script" : "hench_unbusify",
+      "Text" : {
+        "StringRef" : 56145,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Yes, <FirstName>, how can I assist you?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56168,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Alright."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        54,
+        53
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56150,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Weren't you satisfied with my skills?  Oh well, if that is what you wish, I will part ways with you."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        55
+      ],
+      "Script" : "69_ch_remove",
+      "Text" : {
+        "StringRef" : 56169,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Alright. I'll be at the tavern for you <FirstName> if you ever change your mind.  Farewell."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        63,
+        {
+          "Active" : "69_ch_check_38",
+          "Index" : 61,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_check_39",
+          "Index" : 60,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 59,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 58,
+          "IsChild" : 0
+        },
+        57,
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "What do you need me to do?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchpickemup",
+      "Text" : "Alright... but can I keep what I like?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_goranged",
+      "Text" : "Done!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 45,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchequipmelee",
+      "Text" : "Done!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        62
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56222,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Hold on, then. Give me a moment and I'll be ready to assist you."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 117,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 115,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 113,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_hen_castspell",
+          "Index" : 98,
+          "IsChild" : 0
+        },
+        91,
+        {
+          "Active" : "nw_ch_heal_0",
+          "Index" : 79,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_srch",
+          "Index" : 77,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_srch",
+          "Index" : 75,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_stlth",
+          "Index" : 73,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_stlth",
+          "Index" : 71,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchdual",
+          "Index" : 69,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackyes",
+          "Index" : 67,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackno",
+          "Index" : 66,
+          "IsChild" : 0
+        },
+        64
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56146,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I always value your feedback on my combat strategies.  What do you suggest I change?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        65
+      ],
+      "Script" : "",
+      "Text" : "Alright."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        68
+      ],
+      "Script" : "",
+      "Text" : "Alright, that's not a problem, <FirstName>!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        70
+      ],
+      "Script" : "henchdoswap",
+      "Text" : "I'm not? How embarrassing. I'll fix that right away."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        72
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56184,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Does it creep you out?  Alright. I'll stop sneaking around then."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        74
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56183,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I'm sorry, I didn't know I was being too noisy,  Will do."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        76
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56182,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Don't want to overlook anything, huh?  Alright, I'll search when we are moving."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        78
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56181,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I'm sorry - do I look obsessive sometimes?  Anyway, I will no longer search while we are moving."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 89,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 88,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 87,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 86,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 85,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 84,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal1",
+          "Index" : 82,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 80,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56149,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        81
+      ],
+      "Script" : "",
+      "Text" : "I will try to heal you even if I am being attacked at close range."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        83
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will heal you only if I am not in hand-to-hand combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        90
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56180,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        96,
+        94,
+        92
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56147,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Aww, I like being near you.  Seriously, how far away do you need me?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        93
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56174,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Oh really?  I'm sure I took a bath today!  Fine, I'll keep my distance..."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        95
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56173,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Not too close to smother you, and not too far to get out of your sight, eh?  I get it!"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        97
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56172,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "So you like my company that much?  Alright, I'll stay close but give you some breathing space."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        111,
+        109,
+        107,
+        105,
+        {
+          "Active" : "henchcast1",
+          "Index" : 102,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchcast2",
+          "Index" : 99,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "I only have a few spells that can be helpful, but I'll try my best!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        100
+      ],
+      "Script" : "",
+      "Text" : "Are you sure?  Alright then, I won't cast spells or heal you, but don't blame me when you get in trouble!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        101
+      ],
+      "Script" : "",
+      "Text" : "Are you sure?  Alright then, I'll just heal you, but don't blame me when I make a mistake!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        103
+      ],
+      "Script" : "",
+      "Text" : "Good idea!  I tend to lose my concentration, so I won't cast spells or heal you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        104
+      ],
+      "Script" : "",
+      "Text" : "Good idea!  I tend to lose my concentration anyway, I'll just heal you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        106
+      ],
+      "Script" : "henchspell3",
+      "Text" : "I'm sorry, I get excited sometimes.  I'll try to save my spells for the big ones!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        108
+      ],
+      "Script" : "henchspell2",
+      "Text" : "I'm sorry.  I get excited sometimes - it's not everyday I can cast spells you know!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        110
+      ],
+      "Script" : "henchspell1",
+      "Text" : "I don't have a lot of spells, but I will try the cast the ones I do have as often as possible!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        112
+      ],
+      "Script" : "henchspell0",
+      "Text" : "I appreciate your confidence in me.  I won't let you down!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        114
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62539,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Nor exactly my first choice, but I can do that. When the combat begins I'll rush in and use melee weapons."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        116
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62540,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Excellent, that's my forte.  When the combat begins, I'll stay back and attack with my ranged weapons from a distance. I'll switch weapons if the enemies get too close."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        126,
+        124,
+        122,
+        120,
+        118
+      ],
+      "Script" : "",
+      "Text" : "Sure. What would you like me to do?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        119
+      ],
+      "Script" : "henchrange4",
+      "Text" : "That's the way I work best.  Keep shooting at them until I run out of elbowroom to shoot my weapon."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        121
+      ],
+      "Script" : "henchrange3",
+      "Text" : "Good tactic.  I will make them pay for trespassing our personal space!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        123
+      ],
+      "Script" : "henchrange2",
+      "Text" : "That is a bit tricky, but I'll see what I can do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        125
+      ],
+      "Script" : "henchrange1",
+      "Text" : "Alright, I will strike down from afar until they are down my throat!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        127
+      ],
+      "Script" : "henchrange0",
+      "Text" : "Alright.  I will do what I feel is best.  Thank you for trusting me."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "No need <FirstName>, we're pretty safe here ... for now."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 48,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Here I go!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_jannatalkx",
+          "Index" : 193,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jannatalk3",
+          "Index" : 173,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jannatalk2",
+          "Index" : 149,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jannatalk1",
+          "Index" : 135,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jannatalk",
+          "Index" : 131,
+          "IsChild" : 0
+        },
+        130,
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Really?  I'm flattered. What do you want to know?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        132
+      ],
+      "Script" : "",
+      "Text" : "I was sent here to complete my training with my guild, as well as to investigate the strange happenings here in Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        134,
+        133
+      ],
+      "Script" : "",
+      "Text" : "I am afraid I cannot tell you that until I have known you a little better - it is not the way of our guild to announce ourselves in front of strangers.  Maybe I'll tell you later, when we have traveled enough together."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        137,
+        136,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'm afraid I don't know you well enough to talk about it.  Maybe after we've spent more time traveling together.  I hope you don't mind!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        139,
+        138,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Well, I suppose I could... but I don't know if I know you well enough to tell you more about where I came from."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        141,
+        140
+      ],
+      "Script" : "",
+      "Text" : "I guess you're right... very well, I came from a guild called the Sisters of the Sightless Eye."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 144,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 143,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Not exactly.  Our guild is so informally organized that we get treated as such.  But we do answer to our elders and captains, and they give us our orders.  Our guild has also been regarded as eccentric, almost to the point of regarding us as isolationists - which is far from the truth.  We allow outsiders into our secret encampments, if they happen to stray near them, but we avoid discussing our internal affairs with them.  We even allow traders to regularly visit our camps, provided that they give an oath to keep our locations secret."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 0,
+      "RepliesList" : [
+        142
+      ],
+      "Script" : "",
+      "Text" : "We try to keep a low profile, due to our line of work and its unreasonable notoriety.  Some people think of us rogues as mere bandits, thieves and spies, but the Sisters answer to a different call.  We tend to better ourselves by honing our skills to their fullest.  We not only rely on the accuracy of our hands and eyes, but also of our minds.  We believe that our mastery of what we cannot see is as important as our mastery of what we can see, hear and feel."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        144,
+        143
+      ],
+      "Script" : "",
+      "Text" : "But our guild has been so misunderstood by many people that we don't volunteer the truth of our affiliation to anyone, anymore - except those we trust.  With our guild obviously being made up of only women, some people have made the mistake of regarding members of my guild as weak females who cannot defend themselves.  Most of them no longer walk this earth, if you know what I mean."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 144,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You are entitled to your own opinion, <FirstName>, but the Sisters do not plunder or engage in immoral acts, nor do our missions exist just for our own personal gain.  We uphold order in the land in our own way, and while our methods may be dubious to people like you, I can assure you that we do what we do not because we like it, but because we have to do it, but we don't feel we should share our intentions with anyone outside our guild."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        145
+      ],
+      "Script" : "",
+      "Text" : "When we are sent out by our elders to do missions for the Sisters, we are given sealed documents that contain our orders.  We make sure these documents stay sealed and protected until we reach our destined location.  Only then can we see what we are supposed to do.  So I only found out what I was supposed to be doing here in Tristram when I unsealed the documents containing my orders."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        146
+      ],
+      "Script" : "giv_janna",
+      "Text" : "They ordered me to complete my training here in Tristram.  But that was only a small part of why I was sent here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        148,
+        147,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I want to, but we still have some things to do here.  I would tell you about it once we have known each other a little bit more."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 147,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'm sorry, but the details are very confidential, and I have not known you long enough to trust you with it.  So if you don't mind, I'll have to tell you about it later."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        153,
+        150
+      ],
+      "Script" : "",
+      "Text" : "I guess I can trust you with this information, but I hope you won't tell anyone else about it.  I want you to give your oath that whatever I discuss with you will remain secret."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 153,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        151
+      ],
+      "Script" : "",
+      "Text" : "I insist that you give me your oath.  We do not readily discuss our orders to anyone but fellow Sisters, and I want to make sure that my trust in you is not unfounded."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 153,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        152
+      ],
+      "Script" : "",
+      "Text" : "Then I cannot discuss my mission with you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        154
+      ],
+      "Script" : "",
+      "Text" : "I trust you on your oath. then...\n\nAs I mentioned to you before,  I was sent here to Tristram by the Sisters of the Sightless Eye in order for me to complete my training.  But I was also entrusted with the task of finding out the nature of the troubling events that have been happening to this town recently.  Our elders have had some suspicions as to what it is, but I am here to verify these suspicions - or possibly debunk them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        156,
+        155
+      ],
+      "Script" : "",
+      "Text" : "Our high priestess, Akara, has informed our elders that an ancient evil has awakened deep within the labyrinth beneath the ancient monastery.  It is believed that the cathedral north of town was once the monastery of an ancient order called the Horadrim."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        157
+      ],
+      "Script" : "",
+      "Text" : "The Horadrim are ancient mages who were entrusted the task of capturing powerful demons, and preventing them from devastating the mortal plain.  It is said that these Horadrim succeeded in defeating and capturing all of them, and entrapped them in some sort of ancient device that was unknown to us.  It was then these Horadrim's task to make sure that these demons remained in their arcane prisons."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        160,
+        158
+      ],
+      "Script" : "",
+      "Text" : "But according to the elders, one of these demons has found a way to escape its prison.  They suspect that it is this demon that has commanded these foul creatures that have overrun the ancient monastery, which leads them to believe that its ancient prison lies deep within the labyrinth, and it is trying to get out.  The nearer we get to its prison, the stronger its influence, and the more dangerous the creatures we encounter will be!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        159
+      ],
+      "Script" : "",
+      "Text" : "You could say that.  One thing I learned in our guild is to exercise vigilance and initiative.  If I can accomplish more than what I am asked to do, I can provide an advantage for both the Sisters and myself when certain events arise."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        161
+      ],
+      "Script" : "",
+      "Text" : "Hah, they would not send only one Sister to encounter an ancient evil that took an entire order of magi to contain!  They sent me here because they want to know just how powerful this ancient evil is, and the amount of influence it has already caused to this town.  Once we have known what we will be facing, we will send our best rogues into this town and help destroy this evil once and for all!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        162,
+        {
+          "Active" : "",
+          "Index" : 158,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "From the horrors I have seen so far, I believe that even the best of the Sisters would not be able to put down this demon before he fully awakens, so I am gathering enough information about it so that I can lead these rogues myself in battle and slay this demon!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        165,
+        163
+      ],
+      "Script" : "",
+      "Text" : "I know it seems like an egotistic thing to do, especially since I haven't completed my training yet.  But I have always regarded the Sisters' way to be too passive and reactive.  I believe we need to be more active and aggressive against the forces that endanger our lands, and only armed with the sufficient knowledge will I be able to convince them to seek out this evil and help destroy it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        164
+      ],
+      "Script" : "",
+      "Text" : "I don't claim to be an all-powerful hero who thinks she can just kill everything that stands in her way.  My motivation to complete my training is largely fueled by my desire to help defeat this ancient evil we are facing.  I admit that I am not entirely in this without my own personal interests, but I feel that I can change how the Sisters think about passivity regarding this troubling events."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        167,
+        166
+      ],
+      "Script" : "",
+      "Text" : "If I gather enough information as to where this demon is, and how to defeat it, I may be able to use it as a bargaining chip for them to allow me to be a captain that will lead the rogues in the battle to save Tristram, and the rest of this world."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 170,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 169,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_jannax",
+      "Text" : "I can feel that my skill has improved significantly since the first time we met, so I guess it's not long now before I achieve the appropriate level of expertise.  In the excitement of battle I may overlook it, so you may need to remind me from time to time if I have achieved it.  Would that be a problem for you?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        168
+      ],
+      "Script" : "giv_jannax",
+      "Text" : "Then that will prove much better!  I can actually go home with distinction, and gladly inform them that the ancient evil will no longer trouble anyone in Sanctuary.  Hit two birds with one stone, as they say.  But my main objective is to first complete my training here and achieve the level of skill that I deem appropriate.  After that, well, I'll find out as much as I can about the enemy we face before going back to the encampment..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        170,
+        169
+      ],
+      "Script" : "",
+      "Text" : "I can feel that my skill has improved significantly since the first time we met, so I guess it's not long now before I achieve the appropriate level of expertise.  In the excitement of battle I may overlook it, so you may need to remind me from time to time if I have achieved it.  Would that be a problem for you?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        172,
+        171,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "That sounds good.  Shouldn't we continue with our quest then?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        175,
+        174,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Not yet, I'm afraid.  I still need to train some more."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        177,
+        176
+      ],
+      "Script" : "",
+      "Text" : "Let me see... oh yes, I think my skills are now adequate to complete my training.  Wow, I didn't notice it until you asked!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        178
+      ],
+      "Script" : "",
+      "Text" : "I don't really know.  Perhaps you think I should pack my bags now and go back to the encampment, but from the things I have seen in our travels, I feel that I should stay and find out more about this demon we are hunting down.  And you must admit that we make a pretty good team!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        180,
+        179
+      ],
+      "Script" : "",
+      "Text" : "I am glad you think so too.  I'm anxious to know more about what we face, and help you destroy it if we can!  I am sure the elders will recognize my skill  and knowledge about this evil and immediately promote me to captain!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 183,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 182,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 181,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You can make fun if you want, but that doesn't change the fact that I will accomplish my goals.  But I think I'll go under what the Sisters regard as a \"battle designation\" ... we usually name ourselves after all sorts of vicious animals once we have attained some level of recognition in our guild.  I think Raven would be a good name, don't you think?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        183,
+        182,
+        181
+      ],
+      "Script" : "",
+      "Text" : "Haha, thank you.  But I think I'll go under what the Sisters regard as a \"battle designation\" ... we usually name ourselves after all sorts of vicious animals once we have attained some level of recognition in our guild.  I think Raven would be a good name, don't you think?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 188,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 185,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 184,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Hmmm... perhaps Blood Raven would be better.  Yes, that's it!  I will tell them my ernom will be Blood Raven when I get promoted to captain!  It gives the impression of guile and aplomb!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        188,
+        185,
+        184
+      ],
+      "Script" : "",
+      "Text" : "Hmm, you may be right.  Perhaps Blood Raven would be better.  Yes, that's it!  I will tell them my ernom will be Blood Raven when I get promoted to captain!  It gives the impression of guile and aplomb!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        187,
+        186
+      ],
+      "Script" : "end_janna",
+      "Text" : "You could say all you want, but I'm going with it!  Anyway, I guess I owe you my thanks for allowing me to guard you back.  Accept this with my thanks.  It was a cloak given to me by my friend Kashya to wear after I have completed my training.  It's the least I can do for helping me attain my goal."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 187,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I am sorry I cannot give you more.  That's all I have that is of any value to you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 192,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 191,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Wonderful!  Well, I am here anytime you need me.  I wish both of us luck in our quest to save this town!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        190,
+        189
+      ],
+      "Script" : "end_janna",
+      "Text" : "Thank you, <FirstName>.  Please, accept this.  My friend Kashya gave me this to use after I have completed my training, but I feel that I should give this to you in gratitude and appreciation of your confidence in me for guarding your back.  I hope this suits you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        192,
+        191,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Now you're just teasing me!  Well, I am here anytime you need me.  I wish both of us luck in our quest to save this town!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        194,
+        {
+          "Active" : "",
+          "Index" : 133,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'll try to see more of Tristram and find out more about the troubles causing the strange events in this town before I make my final report to the Sisters of the Sightless Eye."
+    }
+  ],
+  "NumWords" : 5486,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Oops, sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who are you and what are you doing here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What guild is this that you are training for?  Do I know it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fair enough.  My name is <FirstName>, and I once lived here in Tristram.  I have come back after years of being away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess I am, although I hadn't really planned on seeking it until the townsfolk told me about it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You seem to be the perfect person to accompany me into the church.  Would you like to join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How much do you owe Garda?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A thousand gold?  That's a very high sum for just lodging in this tavern.  I am afraid I cannot give you that money!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, it's too bad.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A thousand gold?  I did not know lodging in the tavern has gone up that high!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have that kind of money.  I would have to see whom else I can hire."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_persmed",
+          "Index" : 10,
+          "IsChild" : 0
+        },
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Maybe you can convince her to accept just five hundred gold for now and pay the rest later?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I remember Garda as very accommodating.  She won't mind if you just pay half of what you owe - or will owe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You look relieved.  Let's go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let us go now.  I'm getting anxious."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Script" : "giv_1000",
+      "Sound" : "",
+      "Text" : "Very well, I have a thousand gold here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start> I don't see any guards at the door.  Why don't you just tell her that you will pay her later when you come back?  Or maybe just sneak out and deal with it later?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Oops, sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 33,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "henchhire",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You seem to be the perfect person to accompany me into the church.  Would you like to join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Script" : "end_virginx",
+      "Sound" : "",
+      "Text" : "You don't seem to be from around here.  May I know who you are?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "s_janna001",
+      "Sound" : "",
+      "Text" : "Alright, just asking."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What guild is this that you are training for?  Do I know it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 33,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchhire",
+          "Index" : 22,
+          "IsChild" : 0
+        },
+        21
+      ],
+      "Quest" : "",
+      "Script" : "s_janna001",
+      "Sound" : "",
+      "Text" : "You seem to be the perfect person to accompany me into the church.  Would you like to join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I changed my mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How much do you owe Garda, anyway?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's a bit too much for me to help you with.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A thousand gold?  That's a very high sum for just lodging in this tavern.  I am afraid I cannot give you that money!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, it's too bad.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A thousand gold, huh?  I did not know lodging in the tavern has gone up that high!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have that kind of money.  I would have to see whom else I can hire."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Maybe you can convince her to accept just five hundred gold for now and pay the rest later?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have that kind of money.  Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You know what, I changed my mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Script" : "giv_500",
+      "Sound" : "",
+      "Text" : "Yes, I remember Garda as very accommodating.  She won't mind if you just pay half of what you owe - or will owe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "You don't need to know my name."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "My name is <FirstName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You look relieved.  Let us go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let us go now.  I'm getting anxious."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Script" : "giv_1000",
+      "Sound" : "",
+      "Text" : "Very well, I have a thousand gold here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  I don't see any guards at the door.  Why don't you just tell her that you will pay her later when you come back?  Or maybe just sneak out and deal with it later?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, goodbye then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_jannagohome",
+      "Sound" : "",
+      "Text" : "Very well, I'll go back to the tavern if I need you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, wait here for me just in case."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 33,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 33,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        38
+      ],
+      "Quest" : "",
+      "Script" : "69_setdidiefalse",
+      "Sound" : "",
+      "Text" : "Yes, I bet you won't."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I decided that I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would like you to join me once again."
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55688,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "henchmanshow",
+      "Sound" : "",
+      "Text" : "Please show me your inventory."
+    },
+    {
+      "Animation" : 40,
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55683,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I think I'll do better off on my own.  I don't need you right now."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 35,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55740,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55739,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Yes, that is what I wish."
+          }
+        ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_jannagohome",
+      "Sound" : "",
+      "Text" : "Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to give you some combat instructions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Could you pick up some of the items in the area?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Equip your ranged weapons"
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Equip your melee weapons"
+    },
+    {
+      "Animation" : 28,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55784,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I'd like you to level up. You'd be more useful to me with a little training."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55783,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "69_ch_action_17",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55682,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I think we need to change your fighting tactics."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55703,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 52,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_henchyeattack",
+      "Sound" : "",
+      "Text" : "Attack as soon as you see the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        52
+      ],
+      "Quest" : "",
+      "Script" : "69_henchnoattack",
+      "Sound" : "",
+      "Text" : "Do not attack until I initiate combat."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        53
+      ],
+      "Quest" : "",
+      "Script" : "henchswap",
+      "Sound" : "",
+      "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        54
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55700,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Could you stop being so stealthy all the time?"
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        55
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55699,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        56
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55698,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        57
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55697,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55693,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Script" : "henchhealyes",
+      "Sound" : "",
+      "Text" : "Heal me even if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Script" : "henchhealno",
+      "Sound" : "",
+      "Text" : "Do not heal me if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55738,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55737,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55736,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55696,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55695,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55694,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        62
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55684,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_18",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55687,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        64
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_12",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55686,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        65
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_6",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55685,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        66
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about how you use your combat spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 68,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 67,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastyes",
+      "Sound" : "",
+      "Text" : "I want you to cast combat spells even when in hand-to-hand combat with the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 70,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 69,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastno",
+      "Sound" : "",
+      "Text" : "I don't want you to cast any spells while you are in hand-to-hand combat with the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        71
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're doing fine, but I really want you to conserve your spells. I think you should save them for our tougher foes."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        72
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You are wasting your spells. Use them only if the enemy is somewhat challenging."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        73
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should be using your spells all the time! Don't refrain from using them unless the enemies are weak."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        74
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Forget anything I've said before. I want you to trust your instincts as to when to use spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        75
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_gomelee",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62537,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        76
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_goranged",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62538,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        77
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about your weapon-switching tactics."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        78
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        79
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Be aggressive. If you see enemies getting any closer than ten meters or so, charge with melee!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        80
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between four and five meters away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        81
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than 2 meters, before you switch to a melee weapon."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        82
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to trust your instinct as to when to switch between melee and missile weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 50,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 48,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchscoutyes",
+          "Index" : 84,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchscoutno",
+          "Index" : 83,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchscout",
+      "Sound" : "",
+      "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        85
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know more about you.  Can I ask you some questions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You know what, I want you to do something else."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        86
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can you tell me once again why you came to Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        87
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is the name of the guild you are training for?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other things I need you to do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jannatalk1x",
+          "Index" : 89,
+          "IsChild" : 0
+        },
+        88
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So this guild of yours.  Can you tell me more about it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Bah, so much secrecy.  Fine then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, not at all.  I'll ask you later then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll ask you later then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        90
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would assume that we have had enough time together for you to trust me by now.  Or don't you find me trustworthy enough?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        91
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You mean the wandering rogues of the west?  I thought they worked independently?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        92
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sisters of the Sightless Eye?  I have not heard much about that particular guild."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        93
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        94
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "The Sisters of the Sightless Eye does not seem much different from any underworld group here in Khanduras."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        95
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you are saying that your guild's missions are of a secret nature.  Is your purpose here in Tristram the same way?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        96
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And what did it say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jannatalk2x",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        97
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Care to elaborate on that?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fair enough.  I'll ask you again later."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        98
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why can't you tell me now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jannatalk2x",
+          "Index" : 99,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 88,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you ready to tell me what your mission is here in Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        100
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever, tell me why you're here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        101
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "If you don't trust me well enough by now, I don't feel I should prove it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, let's not waste time with this chitchat then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        102
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright Janna, I give you my oath."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        103
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And what have your elders found out about the source of these events?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 104,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And what were these Horadrim supposed to do?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        104
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "The Horadrim?  Who are these Horadrim?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        105
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        106
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But aren't you doing something that is not part of your mission?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 107,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And you want to take the initiative by destroying this foul demon yourself?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        107
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you were entrusted to find out and destroy this foul demon?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        108
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        109
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Wait, you're saying you intend to lead the Sisters against this demon?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        110
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's an absurd amount of confidence for someone who is still in training, don't you think?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 111,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        111
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You seem very passionate about this.  You believe the elders will actually allow you to lead the rogues?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        112
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So how long before you complete your training?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        113
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And what if we defeat the demon before you get back to them?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        114
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So how long before you complete your training?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 115,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't really care what you do, as long as you do what I tell you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        115
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Not at all, I'll try to ask you about it later, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, enough talk.  More action."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Indeed we should."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jannatalk3x",
+          "Index" : 117,
+          "IsChild" : 0
+        },
+        116
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How goes your training?  Have you reached your goal yet?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Bah, you're taking too long."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll ask you later."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 118,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, lovely, ho-hum.  So what's next?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        118
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what will you do now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        119
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're right, of course.  You have been very helpful to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        120
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "I guess the qualificatons of leadership in your guild has dropped a notch if you are to become a captain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        121
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Captain Janna of the Sightless Eye.  Has a good ring to it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        122
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 123,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Raven is a dumb name."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        123
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Raven doesn't seem \"vicious\" enough."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 124,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        124
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Still sounds like a dumb name to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        125
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I help you complete your mission and this is all you give me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        126
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, I guess this will do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        127
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "I guess Blood Raven is an apt name for you, Janna."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 128,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "This should be sufficient for all the inconvenience you've caused me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        128
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you.  This is an excellent gift, Jann-- I mean, Blood Raven."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  Let's go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, let us continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        129
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What are you going to do now that you have completed your training?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "69_ch_tactics2",
+      "Index" : 41
+    },
+    {
+      "Active" : "69_ch_check_36",
+      "Index" : 37
+    },
+    {
+      "Active" : "69_ch_check_37",
+      "Index" : 34
+    },
+    18,
+    {
+      "Active" : "henchhire",
+      "Index" : 15
+    },
+    {
+      "Active" : "mastercheck",
+      "Index" : 14
+    },
+    0
+  ]
+}

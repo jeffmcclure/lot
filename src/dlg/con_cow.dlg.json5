@@ -1,0 +1,645 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "cow_greet",
+      "Text" : "Moo."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Sound" : "cow_greet2",
+      "Text" : "I said moo!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3,
+        2
+      ],
+      "Script" : "",
+      "Sound" : "cow_greet3",
+      "Text" : "Look, I'm just a cow, okay!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6,
+        4
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey1",
+      "Text" : "Alright, alright, I'm not really a cow! I don't normally go around like this but... I was sitting at home, minding my own business, and all of a sudden these bugs and vines and bulbs and stuff started coming out of the floor and ... it was horrible!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5
+      ],
+      "Script" : "",
+      "Text" : "Shut up, can't you see I'm stressed out!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_cow2",
+          "Index" : 14,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 9,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        7
+      ],
+      "Script" : "s_cowtalk",
+      "Sound" : "cow_jersey2",
+      "Text" : "If only I had something normal to wear, it wouldn't be so bad..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_graysuit",
+          "Index" : 30,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_brownsuit",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_suit",
+          "Index" : 25,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_cow2",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        9,
+        8
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "cow_greet4",
+      "Text" : "Quit bugging me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10,
+        {
+          "Active" : "prq_cow2",
+          "Index" : 14,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "cow_intro1",
+      "Text" : "Me? I'm a self-made cow. Make something of yourself and then we'll talk."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11
+      ],
+      "Script" : "",
+      "Sound" : "cow_intro2",
+      "Text" : "I don't have to explain myself to every tourist that walks by. Don't you have some monsters to kill? Maybe we'll talk later... if you live."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        12
+      ],
+      "Script" : "",
+      "Text" : "So?  You try standing here waiting for someone to walk by and squeeze your nipples, see if you don't get an attitude..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13
+      ],
+      "Script" : "",
+      "Sound" : "cow_intro3",
+      "Text" : "Look - I'm a cow. And you - you're monster bait. Get some experience under your belt, and we'll talk."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15
+      ],
+      "Script" : "",
+      "Sound" : "cow_greet5",
+      "Text" : "I'm looking for someone REALLY heroic - and you're not it! I can't trust you, you're gonna get eaten by monsters any day now. I need to find someone who's an EXPERIENCED hero..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16
+      ],
+      "Script" : "",
+      "Text" : "*sigh*"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey3",
+      "Text" : "Heyyy... could you go back to my place and get my suit for me? The brown one, not the gray one."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey4",
+      "Text" : "That's for eveningwear."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        20,
+        19
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey5",
+      "Text" : "I'll do it myself but... I don't want anyone seeing me like this!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        21
+      ],
+      "Script" : "giv_cow",
+      "Sound" : "cow_jersey6",
+      "Text" : "Here, take this, you might need it - to kill those things that have overgrown everything?  You can't miss my house. It's just south of the fork in the river?  You know, the one with the overgrown vegetable garden?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        24,
+        23
+      ],
+      "Script" : "",
+      "Text" : "Oh, and if the trapdoor asks for a password, tell it \"the cows have come home\" ... he's a bit impatient though, so please excuse him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey7",
+      "Text" : "What are you wasting time for!?  Go get my suit!  And hurry... that Holstein over there keeps winking at me..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        28
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey10",
+      "Text" : "Hey, have you got my suit there?  Quick, pass it over!  These ears itch like you wouldn't believe!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        31
+      ],
+      "Script" : "end_graysuit",
+      "Sound" : "cow_jersey8",
+      "Text" : "No, no, no, NO! This is my \"gray\" suit, it's for evening wear! Formal occasions! I can't wear this!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        33
+      ],
+      "Script" : "",
+      "Sound" : "cow_jersey9",
+      "Text" : "What are you, some kind of weirdo? I need the brown suit!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Sound" : "cow_greet",
+      "Text" : "Moo."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Sound" : "cow_greet",
+      "Text" : "Moo."
+    }
+  ],
+  "NumWords" : 615,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What the---"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "W-What manner of creature are you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 3,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Cows don't speak common tongue.  Tell me what you are or I'll have beef for dinner!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A talking cow?  Surely you can explain what you really are!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Frightened of a few bugs?  Are you sure you're a cow and not a chicken?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm yeah, that does sound... horrible... I think."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're crazy.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're a nut... Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me something about yourself."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why can't you talk to me now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_cowx",
+          "Index" : 10,
+          "IsChild" : 0
+        },
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can't believe I'm getting this much attitude from a talking cow..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_cow",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You sure you don't need any help with your ... uhm... problem?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Suit yourself then! ...hey, I made a pun, heh heh!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why do you need the brown one instead of the gray one?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "*sigh*  Why don't you get it yourself then, if you're so picky?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 16,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright I'll ride along with this.  Where's your house so I can get this stupid suit of yours?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Okay okay, where's your house so we can get this over with!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Is that all?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I should go now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Enough already, I'll do it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I haven't found your suit yet."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "..... okay."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Here, I found your brown suit."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Wait, I changed my mind.  I, err, don't have your brown suit.  Goodbye!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_brownsuit",
+      "Sound" : "",
+      "Text" : "<StartAction>Hand the brown suit over to the cow.</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Here, I found your gray suit."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll try to find your brown suit, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why can't you just wear the gray suit?  What difference does it make!?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright already..."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 23
+    },
+    {
+      "Active" : "ovr_cow",
+      "Index" : 22
+    },
+    {
+      "Active" : "prq_cowtalk",
+      "Index" : 6
+    },
+    0
+  ]
+}

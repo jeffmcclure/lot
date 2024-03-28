@@ -1,0 +1,4652 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "henchhire",
+          "Index" : 1,
+          "IsChild" : 0
+        },
+        0
+      ],
+      "Script" : "",
+      "Text" : "What do you want?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Text" : "Alright, <mister/missus> <LastName>.  As I said, my name is Jarulf, and I hail from a village in the western part of Khanduras, near the border of Westmarch.  We joined in the service of King Leoric's army in their attempted invasion of the northern kingdoms of Westmarch.  But it was a doomed battle for us, as the armies of Westmarch outnumbered us three to one, and we were not totally prepared for a long drawn out war..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Text" : "We lost, of course, and when we came back, we find Khanduras in shattered disarray.  Our king has gone mad and has been brutally deposed by his subjects, and the whole kingdom has gone in turmoil because of the void of leadership that King Leoric left in his death - especially with his son, Prince Albrecht, reportedly missing.  This left all of us without work, and without any purpose."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Text" : "Battle is in my blood, and glory is in my veins.  I cannot sit at home waiting for something to happen - if it ever does.  So I joined a group of warriors who were seeking fame and fortune in distant lands, and they ended up here in Tristram.  We heard that the Cathedral here was crawling with hellish foes - and teeming with glorious treasure!  So we boarded up in this tavern..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_jarulf001",
+          "Index" : 5,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "s_jarulf001",
+      "Text" : "They already had a party readied before I ever joined up with them on the way here.  They felt my company was, shall we say, unnecessary and insignificant, and would just reduce their share of the wealth.  So I was left here during the night when they sneaked out.  Anyway, I am planning to go in there myself once I am ready."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        7,
+        6
+      ],
+      "Script" : "",
+      "Text" : "Adventure is hardly the reason why I am here.  Why would you want my help?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_2000",
+          "Index" : 23,
+          "IsChild" : 0
+        },
+        9,
+        8
+      ],
+      "Script" : "",
+      "Text" : "As I said, I did not come here for adventure.  If you would like to pay for my services instead, I might be able to oblige.  Two thousand gold would be sufficient for my sword by your side until you are done with your little ... campaign."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        10
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  I know I am capable, but I don't know if 'you' are.  I would rather like something up front before I bother protecting you.  It's two thousand gold or nothing."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        12,
+        11
+      ],
+      "Script" : "",
+      "Text" : "Then I believe there is nothing more for us to talk about."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        15,
+        14
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start> You may think I look like a fool, but I am not.  It is either two thousand gold, or you leave and go ahead alone."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 18,
+          "IsChild" : 0
+        },
+        17
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start> All this haggling is boring me.  Alright, I'll take one thousand gold if you have it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        20,
+        19
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start> Come to think of it, you have a point.  Just make sure you split the treasure with me equally, or you'll have more things to worry about than things that go shrieking in the darkness."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        21
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Very well.  I am your sword, your shield and your armor for the next few days in your adventure, until you have finished whatever business you have there.  Or until you die, whichever comes first."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25,
+        24
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Ah!  Then I am your sword, your shield and your armor in your adventures!  It would be amusing to see the look on their faces to see me down there with you!  Let us go!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        51,
+        26
+      ],
+      "Script" : "",
+      "Text" : "I don't see why it is any of your business, stranger!  But if you have to ask, my name is Jarulf ... if you tell me you name, I'll tell you why I am here!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        27
+      ],
+      "Script" : "",
+      "Text" : "Alright, <mister/missus> <LastName>.  As I said, my name is Jarulf, and I hail from a village in the western part of Khanduras, near the border of Westmarch.  We joined in the service of King Leoric's army in their attempted invasion of the northern kingdoms of Westmarch.  But it was a doomed battle for us, as the armies of Westmarch outnumbered us three to one, and we were not totally prepared for a long drawn out war..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        28
+      ],
+      "Script" : "",
+      "Text" : "We lost, of course, and when we came back, we find Khanduras in shattered disarray.  Our king has gone mad and has been brutally deposed by his subjects, and the whole kingdom has gone in turmoil because of the void of leadership that King Leoric left in his death - especially with his son, Prince Albrecht, reportedly missing.  This left all of us without work, and without any purpose."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29
+      ],
+      "Script" : "",
+      "Text" : "Battle is in my blood, and glory is in my veins.  I cannot sit at home waiting for something to happen - if it ever does.  So I joined a group of warriors who were seeking fame and fortune in distant lands, and they ended up here in Tristram.  We heard that the Cathedral here was crawling with hellish foes - and teeming with glorious treasure!  So we boarded up in this tavern..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_jarulf001",
+          "Index" : 30,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "s_jarulf001",
+      "Text" : "They already had a party readied before I ever joined up with them on the way here.  They felt my company was, shall we say, unnecessary and insignificant, and would just reduce their share of the wealth.  So I was left here during the night when they sneaked out.  Anyway, I am planning to go in there myself once I am ready."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        31
+      ],
+      "Script" : "",
+      "Text" : "Adventure is hardly the reason why I am here.  Why would you want my help?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_2000",
+          "Index" : 48,
+          "IsChild" : 0
+        },
+        34,
+        33
+      ],
+      "Script" : "",
+      "Text" : "As I said, I did not come here for adventure.  If you would like to pay for my services instead, I might be able to oblige.  Two thousand gold would be sufficient for my sword by your side until you are done with your little ... campaign."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 38,
+          "IsChild" : 0
+        },
+        35
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  I know I am capable, but I don't know if 'you' are.  I would rather like something up front before I bother protecting you.  It's two thousand gold or nothing."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37,
+        36
+      ],
+      "Script" : "",
+      "Text" : "Then I believe there is nothing more for us to talk about."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41,
+        40,
+        39
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start> You may think I look like a fool, but I am not.  It is either two thousand gold, or you leave and go ahead alone."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 43,
+          "IsChild" : 0
+        },
+        42
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start> All this haggling is boring me.  Alright, I'll take one thousand gold if you have it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        45,
+        44
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start> Come to think of it, you have a point.  Just make sure you split the treasure with me equally, or you'll have more things to worry about than things that go shrieking in the darkness."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        47,
+        46
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Very well.  I am your sword, your shield and your armor for the next few days in your adventure, until you have finished whatever business you have there.  Or until you die, whichever comes first."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        50,
+        49
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Ah!  Then I am your sword, your shield and your armor in your adventures!  It would be amusing to see the look on their faces to see me down there with you!  Let us go!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        53,
+        52
+      ],
+      "Script" : "",
+      "Text" : "Then I believe there is nothing more for us to talk about."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "This starting condition should only come up if the henchman is working for a player and it is NOT that player who is trying to talk to him (the script NW_CH_JOIN_NOT only checks to see if the henchman is working for ANY player, including the one he is currently serving).  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56196,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        55,
+        54
+      ],
+      "Script" : "",
+      "Text" : "Would you like some help in your mission?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_virgin",
+          "Index" : 58,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jarulf001",
+          "Index" : 57,
+          "IsChild" : 0
+        },
+        56
+      ],
+      "Script" : "",
+      "Text" : "What do you want?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        63,
+        60,
+        59
+      ],
+      "Script" : "",
+      "Text" : "I don't see why it is any of your business, stranger!  But if you have to ask, my name is Jarulf ... if you tell me you name, I'll tell you why I am here!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        62,
+        61
+      ],
+      "Script" : "",
+      "Text" : "Then I believe there is nothing more for us to talk about."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        65,
+        64
+      ],
+      "Script" : "s_jarulf001",
+      "Text" : "Alright, <mister/missus> <LastName>.  As I said, my name is Jarulf, and I hail from a village in the western part of Khanduras, near the border of Westmarch.  I have come here to Tristram seeking untold riches that I heard can be found within the labyrinth."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "You know what, I'm busy!  Talk to me later - if I'm not busy, which I probably will be..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        68,
+        67,
+        66
+      ],
+      "Script" : "",
+      "Text" : "Adventure is hardly the reason why I am here.  Why would you want my help?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_2000",
+          "Index" : 85,
+          "IsChild" : 0
+        },
+        71,
+        70,
+        69
+      ],
+      "Script" : "",
+      "Text" : "As I said, I did not come here for adventure.  If you would like to pay for my services instead, I might be able to oblige.  Two thousand gold would be sufficient for my sword by your side until you are done with your little ... campaign."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 75,
+          "IsChild" : 0
+        },
+        72
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  I know I am capable, but I don't know if 'you' are.  I would rather like something up front before I bother protecting you.  It's two thousand gold or nothing."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_2000",
+          "Index" : 74,
+          "IsChild" : 0
+        },
+        73
+      ],
+      "Script" : "",
+      "Text" : "Then I believe there is nothing more for us to talk about."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_2000",
+          "Index" : 78,
+          "IsChild" : 0
+        },
+        77,
+        76
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  You may think I look like a fool, but I am not.  It is either two thousand gold, or you leave and go ahead alone."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "hench_1000",
+          "Index" : 80,
+          "IsChild" : 0
+        },
+        79
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start>  All this haggling is boring me.  Alright, I'll take one thousand gold if you have it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        82,
+        81
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start>  Come to think of it, you have a point.  Just make sure you split the treasure with me equally, or you'll have more things to worry about than things that go shrieking in the darkness."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        84,
+        83
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Very well.  I am your sword, your shield and your armor for the next few days in your adventure, until you have finished whatever business you have there.  Or until you die, whichever comes first."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        87,
+        86
+      ],
+      "Script" : "69_ch_join",
+      "Text" : "Ah!  Then I am your sword, your shield and your armor in your adventures!  It would be amusing to see the look on their faces to see me down there with you!  Let us go!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        89,
+        88
+      ],
+      "Script" : "",
+      "Text" : "Unfortunately, I cannot work for you - you seem to already have a lackey with you, you don't need another..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        91,
+        90
+      ],
+      "Script" : "",
+      "Text" : "I knew you could not survive without me.  Would you like my able sword to guard you back once again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "trg_jarulfgohome",
+      "Text" : "Is that so?  Then stop bothering me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Then let's push on, shall we?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        92
+      ],
+      "Script" : "",
+      "Text" : "Dying is always an annoying bit of business, but I rarely know it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        94,
+        93
+      ],
+      "Script" : "",
+      "Text" : "But I am here and ready to fight by your side once again if you want - if just to prove that my death was a fluke.  Do you want me to come along once more?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Bah, you'll be back anyway.  Don't die to often, y'hear..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, let's push on!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Comment" : "Default dialogue when the henchman is a member of the player's party.  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        163,
+        162,
+        101,
+        97,
+        96,
+        95
+      ],
+      "Script" : "hench_unbusify",
+      "Text" : {
+        "StringRef" : 56145,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "What do you want?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56168,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Yes, enough talk.  Let us kill things!"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        99,
+        98
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56150,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        100
+      ],
+      "Script" : "69_ch_remove",
+      "Text" : {
+        "StringRef" : 56169,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Suit yourself.  If you decide you cannot go on without me, you can find me in the tavern.  Goodbye."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        108,
+        {
+          "Active" : "69_ch_check_38",
+          "Index" : 106,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_check_39",
+          "Index" : 105,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 104,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 103,
+          "IsChild" : 0
+        },
+        102,
+        {
+          "Active" : "",
+          "Index" : 95,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "YOU give ME combat instructions?  Haha, this is something I should hear!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchpickemup",
+      "Text" : "Did you want a henchman or a pack mule?  Oh alright, I'll get to it!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Done!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 45,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchequipmelee",
+      "Text" : "With pleasure!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        107
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56222,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Is that so?  Are you that insecure of my abilities?  Very well..."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 151,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 149,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 147,
+          "IsChild" : 0
+        },
+        140,
+        {
+          "Active" : "nw_ch_heal_0",
+          "Index" : 128,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_srch",
+          "Index" : 126,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_srch",
+          "Index" : 124,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_stlth",
+          "Index" : 122,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_stlth",
+          "Index" : 120,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_no_locks",
+          "Index" : 118,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_yes_locks",
+          "Index" : 116,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchdual",
+          "Index" : 114,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackyes",
+          "Index" : 112,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackno",
+          "Index" : 111,
+          "IsChild" : 0
+        },
+        109
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56146,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I think my \"tactics\" are just fine, but if you think you know better, I'm listening!"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        110
+      ],
+      "Script" : "",
+      "Text" : "As it should be."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 113,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Like you actually need to tell me that!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        113
+      ],
+      "Script" : "",
+      "Text" : "Yeah, soften them up so I can kill them in quicker then..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        115
+      ],
+      "Script" : "henchdoswap",
+      "Text" : "What makes you the expert?   Fine, I'll change it so you won't bother me about it anymore."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        117
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56186,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        119
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56185,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Of course, I got my \"key\" right here..."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        121
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56184,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "And walk out in the open?  Alright, just make sure you're not hiding somewhere when I'm doing it."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        123
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56183,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "You're one to talk.  Very well, I'll try hard to keep my breathing quiet!"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        125
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56182,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "So you want me to be your bloodhound now?  Sure, fine, whatever."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        127
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56181,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Sure, whatever.  Boring task if you ask me..."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 138,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 137,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 136,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 135,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 134,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 133,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal1",
+          "Index" : 131,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 129,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56149,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        130
+      ],
+      "Script" : "",
+      "Text" : "That is seriously gonna cramp my fighting if I do that, but very well, I'll try to heal you even if I'm in the middle of getting my butt kicked!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        132
+      ],
+      "Script" : "",
+      "Text" : "Like you actually need to tell me that!  I'll heal you when I'm done doing my business."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        139
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56180,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Fine, whatever."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        145,
+        143,
+        141
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56147,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Really?  How far away do you need me?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        142
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56174,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        144
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56173,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        146
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56172,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        148
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62539,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "That's what I'm talking about!  When the combat begins, I'll rush in and use melee weapons, and give em hell!"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        150
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62540,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I work well at close quarters, but very well ... when the combat begins I'll also stay back and attack with my ranged weapons from a distance. I'll switch weapons if the enemies get too close."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        160,
+        158,
+        156,
+        154,
+        152
+      ],
+      "Script" : "",
+      "Text" : "Alright. what would you like me to do?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        153
+      ],
+      "Script" : "henchrange4",
+      "Text" : "I'm no coward!  But if you want to get yourself killed without my help, I have no problems with that."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        155
+      ],
+      "Script" : "henchrange3",
+      "Text" : "You don't have to tell me that!  Stay back, if you want, I'll spill some blood if I see them!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        157
+      ],
+      "Script" : "henchrange2",
+      "Text" : "I think I can clobber than any way I want!  But sure, I'll do what you say ... for now."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        159
+      ],
+      "Script" : "henchrange1",
+      "Text" : "I'm good at everything!  But if you feel safer with me doing that, I'll oblige."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        161
+      ],
+      "Script" : "henchrange0",
+      "Text" : "Of course, I always know best!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Don't be so scared.  We're pretty safe here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 48,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "I'll be the sacrificial meat then.  Here I go!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_jarulftalkx",
+          "Index" : 237,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jarulftalk3",
+          "Index" : 210,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jarulftalk2",
+          "Index" : 187,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jarulftalk1",
+          "Index" : 176,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_jarulftalk",
+          "Index" : 164,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 95,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I did not know chatting about mundane things was part of my job description.  But sure, ask what you want, and I'll decide if I want to answer it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        166,
+        165
+      ],
+      "Script" : "",
+      "Text" : "As I said, it is none of your business."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        168,
+        167
+      ],
+      "Script" : "",
+      "Text" : "Is that so?  Well, if you should know, I came here to Tristram seeking honor, glory, and most of all, gold!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        170,
+        169
+      ],
+      "Script" : "",
+      "Text" : "Sure, sure, you'll say, \"how can a warrior get gold in a town where everyone is leaving?\"  But I have heard that there is a vast amount of treasure hidden deep beneath the labyrinth, and I intend to get a sizeable portion of it before I am done!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        172,
+        171
+      ],
+      "Script" : "",
+      "Text" : "Me?  Get killed?  I doubt it.  I don't know how confident you are in your skills, but I have no doubts in mine!  My only goal is to get as much gold as I can!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        175,
+        174,
+        173
+      ],
+      "Script" : "",
+      "Text" : "Say what you will.  If you are not concerned with gaining wealth, then you are more than welcome to give them to me."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        177,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I am here in Tristram to seek fame, fortune, glory, and gold!  If you have any other stupid questions, let me know."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        180,
+        179,
+        178
+      ],
+      "Script" : "",
+      "Text" : "Are you deaf or something?  I told you I am here because I am looking for treasure and gold!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        181
+      ],
+      "Script" : "",
+      "Text" : "Well, you're wrong."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        184,
+        182
+      ],
+      "Script" : "",
+      "Text" : "Oh it doesn't?  Well, maybe not.  I also said I am here for fame and glory.  I have searched for the most dangerous place here in Khanduras and everyone pointed to this town.  So where else can I achieve fame and fortune than in the place where even the bravest of warriors are hesitant to go.  I am here to get rid of whatever bad mojo that has slipped its slimy tentacle into the orifice that is Tristram!  I will make my family proud!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        183
+      ],
+      "Script" : "",
+      "Text" : "I'm sorry, I tend to get carried away sometimes."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        185,
+        {
+          "Active" : "",
+          "Index" : 186,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 173,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "giv_jarulf",
+      "Text" : "What kind of a question is that?  Of course I do!  I have a wife and a son waiting for me back home. But they're----  well, that's not an important thing to discuss."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        186,
+        {
+          "Active" : "",
+          "Index" : 173,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I'd rather not.  Let's not speak about this any longer....  m-maybe later, when I am in the mood."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 179,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "No I'm not.  Mind your own business!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        188,
+        {
+          "Active" : "",
+          "Index" : 186,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Your constant badgering is getting on my nerves!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        189,
+        {
+          "Active" : "",
+          "Index" : 186,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Am I not?  Well, I don't really think you care about my tale, anyway."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        193,
+        190
+      ],
+      "Script" : "",
+      "Text" : "Oh alright!  Yes, I have a wife and a son waiting for me back home.  They are really the reason why I am here in Tristram."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        192,
+        191
+      ],
+      "Script" : "",
+      "Text" : "Do you want to hear my tale or not?  I don't have much patience for your gloating!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        194
+      ],
+      "Script" : "",
+      "Text" : "When King Leoric went insane, he mobilized the armies of Khanduras and declared war on the northern kingdoms of Westmarch.  He issued a decree to draft every able-bodied male in the kingdom to join his armies.  We knew that Westmarch had larger and more experienced soldiers than Khanduras, but we had no choice but to leave our homes and join the army, lest we face execution according to Leoric's decree."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        195
+      ],
+      "Script" : "",
+      "Text" : "I was a farmer living with a wife and a son in a small village near Duncraig.  We were near the boundary of Westmarch so it was either I join the army or be one of the first to be overwhelmed by the opposing forces to the west.  I had not choice but to join King Leoric's losing war.  Since most of the battles took place in the north, we were lucky to escape with our lives - it was a bloody, one-sided battle, and I was glad King Leoric was finally put down by his subjects...  but the damage has already been done."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        196
+      ],
+      "Script" : "",
+      "Text" : "Naturally, I went back to my family and tried to get our life back to normal.  But the war has taken its toll on the land - a severe depression has hit Khanduras.  Business and trade went down, and crops did not yield as much as they did in the past.  I was forced to sell my farm because maintaining it cost more than the crops I gathered from it.  We quickly went into debt, as I had to find a way to feed my family without some sort of reliable way earn money."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        198,
+        197
+      ],
+      "Script" : "",
+      "Text" : "I tried odd jobs, but a farmer only knows how to plant, and to sow, and I quickly ran out of options.  In the end I had to pawn my house off to pay off outstanding debts.  I didn't want my wife and son to live in the streets, so I searched for a place where they can live and have a hot meal every night."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 198,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "We wanted to, but we just didn't have enough gold to make the trip.  I have sold all my livestock at that time, and I fear my little son would not be able to endure a long journey to uncertain places, and there was no guarantee that we would find a place to live if we did take leave our village.  So we decided to stay and take our chances."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        200,
+        199
+      ],
+      "Script" : "",
+      "Text" : "Well, I did find an old woman who allowed my family to stay with her, but she turned out to be a miserable hag!  She treats my wife like her servant girl, and her dogs get better treatment than my son!  I badly want them to leave, but we don't know of anyone else who will take us in, and I don't have enough money to support my family on my own.  So I ... decided to take matters into my own hands."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        201
+      ],
+      "Script" : "",
+      "Text" : "Err ... NO!  I don't know what you think of me, but even I won't go as far as that!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        203,
+        202
+      ],
+      "Script" : "",
+      "Text" : "Well, I decided to use my training in the army.  I heard many adventurers in our village return with riches from far-away lands.  I realized that if I could get enough gold from similar quests they undertook, I may be able to restore my family's honor and take my wife and son out of that nasty old woman's house.  I want us to start a new life in a new land, and the only way I can do that is to get enough gold to pay off my debts and start that new life."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 204,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I wasn't lying to you when I said I came here for honor and gold.  I came here to Tristram in a caravan of adventurers who seek the same thing, because of rumors of treasure and riches beneath the cathedral for those brave enough to venture there.  All I am concerned with right now is getting as much gold as I can so that I can return to my village and restore my family's honor and way of life."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        204
+      ],
+      "Script" : "",
+      "Text" : "I wasn't lying to you when I said I came here for honor and gold.  I came here to Tristram in a caravan of adventurers who seek the same thing, but they left me during the night so they can set off for the labyrinth without me.  More dishonor, but I have endured worse...  All I am concerned with right now is getting as much gold as I can so that I can return to my village and restore my family's honor and way of life."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        206,
+        205
+      ],
+      "Script" : "",
+      "Text" : "Exact gold?  Haha, how much gold is \"as much as I can get\" anyway?  I don't really know yet."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        209,
+        208,
+        207
+      ],
+      "Script" : "giv_jarulfx",
+      "Text" : "Alright, I need five hundred thousand gold pieces!  Yes, laugh at me if you want, I know it's a ridiculous sum, but I want to move my family to a new place and build a house there and maybe plan some crops and raise livestock once more.  Five hundred thousand gold pieces might seem a kingly sum, but it's what I need to regain my honor and save my family.  It may take me a year, or maybe ten years to get that much, but I will get it eventually."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        212,
+        211,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "As I told you before, I need five hundred thousand gold pieces.  It should be enough my family and I to start over."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        214,
+        213,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "If you told me that, I would tell you to stop insulting me!  I was serious."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        215,
+        {
+          "Active" : "",
+          "Index" : 213,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "R-really?  Tell me you're not joking!  Tell me you're serious!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_jarulftalk3x",
+          "Index" : 225,
+          "IsChild" : 0
+        },
+        223,
+        216
+      ],
+      "Script" : "",
+      "Text" : "P-praise be your name!  I would be very grateful if you give it to me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        221,
+        217
+      ],
+      "Script" : "",
+      "Text" : "W-what?  You dare insult me this way?!  You should be thankful that I gave you my oath to be your henchman, or I would kill you where you stand!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        220,
+        218
+      ],
+      "Script" : "",
+      "Text" : "You have insulted me, and I fear I cannot continue working for you until you have considered and apologized for this insult."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        219
+      ],
+      "Script" : "69_ch_remove",
+      "Text" : "I'll see you back in the tavern once you have learned to put your boots in your mouth when it counts..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 101,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 97,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 96,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 95,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Very well, I forgive you.  Is there anything else you need from me?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        222
+      ],
+      "Script" : "69_ch_remove",
+      "Text" : "Then I guess I should not be working for an idiot like you.  Goodbye!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        224,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "V-very well.  I will look forward to your promise."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        227,
+        226
+      ],
+      "Script" : "end_jarulf",
+      "Text" : "Oh... oh... PRAISE THE LIGHT!  This is perfect!  Thank you thank you thank you, <FirstName>!  Please, accept this as payment.  It was my grandfather's old belt, and I kept it for good luck in my journeys.  The gold you just gave me is more than enough for my family and I to move to a city and begin our lives anew!  Yes, Atma will be very pleased with this!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 229,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Very funny!  Atma is my wife, and she will be overjoyed by this sudden good fortune, thanks to you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        229,
+        228
+      ],
+      "Script" : "",
+      "Text" : "Oh, Atma is my wife, and Faria is my son's name.  They will both be excited with this news, I'm sure of it.  They can finally leave that miserable old hag and be with me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        231,
+        230
+      ],
+      "Script" : "",
+      "Text" : "Well, as soon as I get home, we will pack our bags journey to the East.  Maybe buy a house in Luth Golein and work there as a trader.  Atma will like that.  She has always wanted to see the shining city.  We will finally be happy there - no more wars, no more dangers.  Just the three of us, living like a family once more!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        234,
+        232
+      ],
+      "Script" : "",
+      "Text" : "I still have the oath I made to you, so I will stay here as long as you need me.  After we have finished our travels, I will immediately take a caravan home and be with my family - we have a lot of packing to do!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        233,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "As usual, my friend.  Isn't it fun?  Let us go kill monsters, shall we?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        235,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Nice to you?  Don't count on it, haha!  But thanks, my friend."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        236,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Indeed we should."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        238,
+        {
+          "Active" : "",
+          "Index" : 178,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "After I get back home, I will take my wife Atma and my son Faria to Luth Golein, where we will start a new life and live as a family again."
+    }
+  ],
+  "NumWords" : 5955,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Oops, sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14,
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who are you and what are you doing here in Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what happened?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So why have you come to Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Where are your companions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchhire",
+          "Index" : 5,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can handle it fine by myself, but the two of us can go about it quicker.  So what do you say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Two capable pairs of hands are better than one, don't you think?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's preposterous!  I don't have the money you're asking for!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 11,
+          "IsChild" : 0
+        },
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Surely, you don't mean to charge me that much - you can profit all you want from the treasures we'll find in the labyrinth!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your price is too high for me.  I cannot pay you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe I'll be back to reconsider your offer.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 13,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, here's two thousand gold.  Just make sure you perform well and do as I tell you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_persmed",
+          "Index" : 10,
+          "IsChild" : 0
+        },
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Well, how about lowering your fee to, say, just one thousand gold?  I am sure that will be enough for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have the money you want.  I'll be back when I get it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I refuse to pay such a sum for your measly services."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 13,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, here is two thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I changed my mind.  Your price is too high."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 13,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "giv_1000",
+      "Sound" : "",
+      "Text" : "Here is one thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  Do what I tell you and you won't have to fear the same thing."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "We will do fine, as long as you do what I tell you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Shut up and follow me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let us go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Script" : "giv_2000",
+      "Sound" : "",
+      "Text" : "Alright, I have two thousand gold.  Here you go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Just remember to do as I tell you.  Let us go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I agree, let us go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fair enough.  My name is <FirstName> <LastName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what happened?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So why have you come to Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Where are your companions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can handle it fine by myself, but the two of us can go about it quicker.  So what do you say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Two capable pairs of hands are better than one, don't you think?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your asking price is too high for me.  I'll have to think about it.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 25,
+          "IsChild" : 0
+        },
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Surely, you don't mean to charge me that much - you can profit all you want from the treasures we'll find in the labyrinth!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your price is too high for me.  I cannot pay you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe I'll be back to reconsider your offer.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, here's two thousand gold.  Just make sure you perform well and do as I tell you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_persmed",
+          "Index" : 24,
+          "IsChild" : 0
+        },
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Well, how about lowering your fee to, say, just one thousand gold?  I am sure that will be enough for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have the money you want.  I'll be back when I get it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I refuse to pay such a sum for your measly services."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, here is two thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I changed my mind.  Your price is too high."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "giv_1000",
+      "Sound" : "",
+      "Text" : "Here is one thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  Do what I tell you and you won't have to fear the same thing."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "We will do fine, as long as you do what I tell you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Shut up and follow me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let us go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Script" : "giv_2000",
+      "Sound" : "",
+      "Text" : "Alright, I have two thousand gold.  Here you go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Just remember to do as I tell you.  Let us go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I agree, let us go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You don't need to know my name."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I believe there is none.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 15,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, my name is <FirstName> <LastName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Oops, sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 47,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "henchhire",
+          "Index" : 38,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Script" : "end_virginx",
+      "Sound" : "",
+      "Text" : "You don't look familiar to me.  Who are you?  Are you from this town too?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, never mind then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "You don't need to know my name."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I believe there is none.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 36,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, my name is <FirstName> <LastName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fair enough.  My name is <FirstName> <LastName>."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "s_jarulf001",
+      "Sound" : "",
+      "Text" : "Alright, that's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 47,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchhire",
+          "Index" : 38,
+          "IsChild" : 0
+        },
+        37
+      ],
+      "Quest" : "",
+      "Script" : "s_jarulf001",
+      "Sound" : "",
+      "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I changed my mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can handle it fine by myself, but the two of us can go about it quicker.  So what do you say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Two capable pairs of hands are better than one, don't you think?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sorry, I don't have the money you're asking for.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's preposterous!  I don't have the money the money you're asking for!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Surely, you don't mean to charge me that much - you can profit all you want from the treasures we'll find in the labyrinth!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your price is too high for me.  I cannot pay you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe I'll be back to reconsider your offer.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "giv_2000",
+      "Sound" : "",
+      "Text" : "Alright, here's two thousand gold.  Just make sure you perform well and do as I tell you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 43,
+          "IsChild" : 0
+        },
+        42
+      ],
+      "Quest" : "",
+      "Script" : "s_jarulf001",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Well, how about lowering your fee to, say, just one thousand gold?  I am sure that will be enough for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have the money you want.  I'll be back when I get it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I refuse to pay such a sum for your measly services."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "giv_2000",
+      "Sound" : "",
+      "Text" : "Alright, here is two thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I changed my mind.  Your price is too high."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "giv_1000",
+      "Sound" : "",
+      "Text" : "Here is one thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  Do what I tell you and you won't have to fear the same thing."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "We will do fine, as long as you do what I tell you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Shut up and follow me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let us go then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Script" : "giv_2000",
+      "Sound" : "",
+      "Text" : "Alright, I have two thousand gold.  Here you go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Just remember to do as I tell you.  Let us go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I agree, let us go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_jarulfgohome",
+      "Sound" : "",
+      "Text" : "Alright, I'll go back to the tavern if I need you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, wait here for me just in case."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 47,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchrefuse",
+          "Index" : 47,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        52
+      ],
+      "Quest" : "",
+      "Script" : "69_setdidiefalse",
+      "Sound" : "",
+      "Text" : "So you say."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        53
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        54
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        56
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55688,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "henchmanshow",
+      "Sound" : "",
+      "Text" : "Show me your inventory."
+    },
+    {
+      "Animation" : 40,
+      "Comment" : "",
+      "EntriesList" : [
+        57
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55683,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I think I'll do better off on my own.  I don't need you right now."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 35,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55740,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Actually, I changed my mind. Stay."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55739,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Yes, that is what I want. Go."
+          }
+        ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_jarulfgohome",
+      "Sound" : "",
+      "Text" : "Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to give you some combat instructions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Could you pick up some of the items in the area."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_goranged",
+      "Sound" : "",
+      "Text" : "Equip your ranged weapons"
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        62
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Equip your melee weapons"
+    },
+    {
+      "Animation" : 28,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 63,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55784,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I'd like you to level up. You'd be more useful to me with a little training."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55783,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "69_ch_action_17",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        64
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55682,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "I think we need to change your fighting tactics."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        65
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55703,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 55,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        66
+      ],
+      "Quest" : "",
+      "Script" : "69_henchyeattack",
+      "Sound" : "",
+      "Text" : "Attack as soon as you see the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        67
+      ],
+      "Quest" : "",
+      "Script" : "69_henchnoattack",
+      "Sound" : "",
+      "Text" : "Do not attack until I initiate combat."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        68
+      ],
+      "Quest" : "",
+      "Script" : "henchswap",
+      "Sound" : "",
+      "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        69
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55702,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        70
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55701,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        71
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55700,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        72
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55699,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        73
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55698,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        74
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55697,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 55,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        75
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55693,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        76
+      ],
+      "Quest" : "",
+      "Script" : "henchhealyes",
+      "Sound" : "",
+      "Text" : "Heal me even if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 55,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        77
+      ],
+      "Quest" : "",
+      "Script" : "henchhealno",
+      "Sound" : "",
+      "Text" : "Do not heal me if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55738,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55737,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55736,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55696,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55695,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        78
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55694,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 55,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        79
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55684,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        80
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_18",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55687,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        81
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_12",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55686,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        82
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_6",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55685,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        83
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_gomelee",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62537,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        84
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_goranged",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62538,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        85
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about your weapon-switching tactics."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        86
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        87
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Be aggressive. If you see enemies getting any closer than ten meters or so, charge with melee!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        88
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between four and five meters away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        89
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than two meters, before you switch to a melee weapon."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        90
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to trust your instinct as to when to switch between melee and missile weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 48,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchscoutyes",
+          "Index" : 92,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchscoutno",
+          "Index" : 91,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchscout",
+      "Sound" : "",
+      "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        93
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know more about you.  Can I ask you some questions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        94
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can you tell me once again why you came to Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 95,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, if you continue being such a pain, you shouldn't be traveling with me!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        95
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "If you expect to travel with me, I would need to know more about you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 96,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Gold?  In Tristram?  You don't seem to be thinking properly."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        96
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You seem to be in the wrong place to look for riches, Jarulf."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very greedy of you.  Are you sure that's the only reason you're in Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        97
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're pretty confident.  What if you get killed?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 98,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Not if you get killed first."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        98
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Such single-minded greed probably means you sleep better at night."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 55,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other things I need you to do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  Let's go.."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks for the, uhm, thoughts."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jarulftalk1x",
+          "Index" : 100,
+          "IsChild" : 0
+        },
+        99
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you ready to tell why you're \"really\" here in Tristram?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 55,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well, I have other things I need you to do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, just asking."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        101
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, you did tell me that, but I think there's more."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        102
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe.  But you don't strike me as someone who is just in it for the money."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        103
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Bad mojo?  Slimy tentacle?  Orifice?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 104,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll say ... you mentioned a family? You actually have one?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        104
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You actually have a family?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jarulftalk2x",
+          "Index" : 107,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        105
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think it is.  Please continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Suit yourself then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_jarulftalk2x",
+          "Index" : 107,
+          "IsChild" : 0
+        },
+        106
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you ready to tell me about this family of yours?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        108
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "It's because I don't think you're telling me the whole truth."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        109
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Try me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        110
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you DID lie!  Spill the rest of it!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 111,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever, Jarulf.  Just tell me why you are really here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 111,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I apologize.  Continue your tale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        111
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Really?  How so?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        112
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        113
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what happened after the war?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        114
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        115
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why didn't you and your family move to another town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        116
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Did you find a place for them to stay?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 118,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What did you do?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        117
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You killed the old woman and took her house for your own?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        118
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what did you do then?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        119
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why did you come to Tristram, when you know that people are dying here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        120
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So you went to Tristram."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        121
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How much gold exactly do you need to take home?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 122,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't believe that.  I'm sure you have an approximate amount in mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        122
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How about an estimate then?  Maybe I can help you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 124,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What if I told you I had five hundred thousand gold right here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Five hundred thousand?  Thanks for the laugh.  Let's go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Five hundred thousand?  Good luck.  You're gonna need it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        123
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can you tell me again how much gold you needed to take back with you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, just asking."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        124
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What if I told you I can give you this much gold?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Just thinking out loud.  Let's continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        125
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well guess what, I want to give you five hundred thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        126
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I am serious, I may want to give you five hundred thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        127
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Actually, I was pulling your leg.  I won't give you that gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        128
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm sorry, I was just kidding."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        129
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Suit yourself then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_jarulfgohome",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        130
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Come on, I apologize, and it won't happen again."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        131
+      ],
+      "Quest" : "",
+      "Script" : "con_evil5",
+      "Sound" : "",
+      "Text" : "Who cares... You're a fool to expect alms from me!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_jarulfgone",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        132
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have that much gold yet, but I'll consider your needs when I do."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "We'll see."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        133
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful5",
+      "Sound" : "",
+      "Text" : "Here you go.  Five hundred thousand gold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        134
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Atma?  Is this some sort of mistress?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        135
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who is Atma?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 136,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sure sure.  So what are you going to do now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        136
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm glad for you Jarulf.  Where will you go now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 137,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You still have a contract to fulfill, so I will tell you whether you can go home or not."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        137
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So when will you leave for home?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        138
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're still going to be a pain in the neck, are you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "*sigh* I guess we should."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        139
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So does that mean you're going to be nice to me from now on?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        140
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No problem.  We should push on."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        141
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Now that you have your gold, what do you plan to do now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "69_ch_tactics2",
+      "Index" : 55
+    },
+    {
+      "Active" : "69_ch_check_36",
+      "Index" : 51
+    },
+    {
+      "Active" : "69_ch_check_37",
+      "Index" : 48
+    },
+    33,
+    {
+      "Active" : "henchhire",
+      "Index" : 30
+    },
+    {
+      "Active" : "mastercheck",
+      "Index" : 29
+    },
+    0
+  ]
+}

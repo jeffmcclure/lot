@@ -1,0 +1,104 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The vile stand seems to contain a single item - a staff.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The vile stand is empty.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The vile stand is empty.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The vile stand is empty.</Start>"
+    }
+  ],
+  "NumWords" : 38,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "giv_staffoflaz",
+      "Sound" : "",
+      "Text" : "<StartAction>Take the staff from the vile stand.</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 3
+    },
+    {
+      "Active" : "prq_vilestandx",
+      "Index" : 2
+    },
+    {
+      "Active" : "prq_vilestand",
+      "Index" : 1
+    },
+    0
+  ]
+}

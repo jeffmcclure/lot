@@ -1,0 +1,70 @@
+{
+  "AnimationState" : 0,
+  "Appearance" : 70,
+  "AutoRemoveKey" : 0,
+  "BodyBag" : 0,
+  "CloseLockDC" : 0,
+  "Comment" : "Fountain",
+  "Conversation" : "",
+  "CurrentHP" : 15,
+  "Description" : {
+    "StringRef" : 14639,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This shrine seems to hold some arcane power within it, but its effects can be unpredictable..."
+      }
+    ]
+  },
+  "DisarmDC" : 15,
+  "Faction" : 1,
+  "Fort" : 16,
+  "HP" : 15,
+  "Hardness" : 5,
+  "HasInventory" : 0,
+  "Interruptable" : 1,
+  "KeyName" : "",
+  "KeyRequired" : 0,
+  "LocName" : {
+    "StringRef" : 5706,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Glowing Shrine"
+      }
+    ]
+  },
+  "Lockable" : 0,
+  "Locked" : 0,
+  "OnClosed" : "",
+  "OnDamaged" : "",
+  "OnDeath" : "rdm_shrine1d",
+  "OnDisarm" : "",
+  "OnHeartbeat" : "",
+  "OnInvDisturbed" : "",
+  "OnLock" : "",
+  "OnMeleeAttacked" : "",
+  "OnOpen" : "",
+  "OnSpellCastAt" : "",
+  "OnTrapTriggered" : "",
+  "OnUnlock" : "",
+  "OnUsed" : "shr_glowing4",
+  "OnUserDefined" : "",
+  "OpenLockDC" : 18,
+  "PaletteID" : 1,
+  "Plot" : 0,
+  "PortraitId" : 428,
+  "Ref" : 0,
+  "Static" : 0,
+  "Tag" : "SHR_GLOWING4",
+  "TemplateResRef" : "shr_glowing004",
+  "TrapDetectDC" : 0,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 0,
+  "TrapOneShot" : 1,
+  "TrapType" : 0,
+  "Type" : 0,
+  "Useable" : 1,
+  "Will" : 0
+}

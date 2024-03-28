@@ -1,0 +1,265 @@
+{
+  "AppearanceType" : 38,
+  "BodyBag" : 0,
+  "CRAdjust" : -26,
+  "Cha" : 16,
+  "ChallengeRating" : 26.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 36,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "Boss Monster",
+  "Con" : 20,
+  "Conversation" : "",
+  "CurrentHitPoints" : 39,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12442,
+    "Strings" : [ ]
+  },
+  "Dex" : 18,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_crewbs003",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "it_crewpb010",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "balrogskin005",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 85
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 123
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 161
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 56562,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Pit Lord"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 39,
+  "Int" : 20,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 255,
+  "NaturalAC" : 17,
+  "NoPermDeath" : 0,
+  "PaletteID" : 24,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 176,
+  "Race" : 20,
+  "Refbonus" : 2,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_megademon",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 25,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 323,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 30,
+  "Subrace" : "",
+  "Tag" : "EPIC_PITLORD",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "megademon002",
+  "WalkRate" : 5,
+  "Willbonus" : 1,
+  "Wings" : 0,
+  "Wis" : 20
+}

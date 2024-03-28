@@ -1,0 +1,912 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "I'm leaving in a few moments.  Did you need anything else?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "Script" : "end_virginx",
+      "Text" : "I'll be delighted to answer them, but make it quick - my ox is getting a little antsy..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Well, I know that Ogden the tavern owner has been the one greeting many of the adventurers who have been coming into town, since most of them seem to head straight into his establishment as soon as they arrive, so you might want to talk to him first.  Cain the storyteller is also quite a wordy chap, so if you're in need of conversation, he won't run out of tales for you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "That would be Cain the storyteller.  He seems to know a lot of things - even things I won't even dream of asking, so he may be able to help you with that."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Why, yes...  if you find any caped mercenaries in Tristram, they're only there to make sure nothing unpleasant finds its way into Tristram.  As far as I know, you can rest in the middle of the stream if you want, haha!  I don't really know if you can rest anywhere in the labyrinth, and I don't know why you would rest in such a dark place, anyway.  Beyond that, I cannot really tell you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You can sell to the merchants who are in town.  Not all of them will buy anything you try to sell them, except for Ogden, the owner of the Tavern of the Rising Sun, who will probably buy anything you sell him.  He is probably trading those items to those adventurers to earn a little extra for his dwindling business."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Magical devices have not really been common items of interest in Tristram, but since that witch Adria came to town, she has been selling some peculiar magical devices and spell scrolls to the adventurers who are pouring into town.  You should try out those town portal things she sells - I heard it's a very popular purchase among the adventurers..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 10,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Pepin the healer still sells his potions and healing kits to anyone who can afford them.  Tremayne the priest has brought some enhancement potions with him when he came back to town.  And then there's that strange witch north of town... Her name is Adria, and she also sells some potions.  I don't know how much better they are than what the priest sells, though."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        10
+      ],
+      "Script" : "",
+      "Text" : "Griswold the Blacksmith is the person to look for if you want the very best weapons and armor in the whole of Khanduras.  I think the priest Tremayne is back again in town to sell some holy items and some stuff for monks, if you know some.  The boy Wirt has recently started selling some really strange items - some said to be more interesting than what Griswold sells.  Be careful when you talk to that kid, though... He's been different since his little... experience."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        12
+      ],
+      "Script" : "",
+      "Text" : "Wait, I know you!  You once lived here didn't you?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        13
+      ],
+      "Script" : "",
+      "Text" : "Hmm, that can't be.  I don't forget a face.  Oh yes, you're <FirstName>!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        14
+      ],
+      "Script" : "",
+      "Text" : "Oh come now, don't be a stranger <FirstName>.  I have known you since you were a toddler."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17,
+        {
+          "Active" : "",
+          "Index" : 21,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Hmm, well, everyone else is leaving Tristram!  There have been so many bad things happening nowadays that most of the townspeople have fled from the village."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18
+      ],
+      "Script" : "",
+      "Text" : "All sorts of grisly stuff.  People being killed off by cloaked riders in the north - and some other creatures I can't even begin to describe.  And some time ago, we lost many of our good men in the cathedral. Such a tragic thing that was..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        19
+      ],
+      "Script" : "",
+      "Text" : "Oh, I see you have been gone too long...  Well, I'm sure you probably heard of King Leoric's son who disappeared, and the king's advisor, Archbishop Lazarus, leading a group of able-bodied men to find the prince below the church, where he says the King's son might be."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37,
+        21,
+        20
+      ],
+      "Script" : "",
+      "Text" : "Only a handful of men came back from there - all critically wounded, some dying.  My friend Farnham was one of the men who came back, and his sanity has not been the same since then.  He refuses to talk about what happened back there, especially about the Archbishop Lazarus - rumors had it that the archbishop either died in the labyrinth, or that he betrayed the town of Tristram and led those men to their deaths!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 21,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 22,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "King Leoric is dead.  He has gone mad at the loss of his son and has ordered the death of many innocent people.  The royal court had to depose him in the worst possible way...  These lands have really suffered hard times, indeed."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        {
+          "Active" : "",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "There are a handful of our people left there, I don't know if they would still be willing to stay after all this trouble that has happened in our town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        24,
+        {
+          "Active" : "prq_handout",
+          "Index" : 23,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "Actually, I am just giving away most of my belongings to lighten the load on my wagon before I head East!  Since there seems to be quite a few adventurers coming to Tristram all of a sudden, I saw it as an opportunity to be generous!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25
+      ],
+      "Script" : "",
+      "Text" : "I remember having already given you some stuff <FirstName>, sorry."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        28,
+        26
+      ],
+      "Script" : "",
+      "Text" : "Haha, that's the idea.  I am actually almost out of things I can give, with that last adventurer who passed by here being so demanding and all...  I can give you what I have left - apart from my own personal belongings of course.  Do you want them, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 29,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        27
+      ],
+      "Script" : "",
+      "Text" : "Bah, I would not give away things without setting aside something sizeable for myself.  Are you sure you don't want it?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 31,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "trg_startx",
+      "Text" : "Very well, then. I would have to be leaving in a moment.  Is there anything else I can help you with?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        31,
+        30
+      ],
+      "Script" : "trg_start",
+      "Text" : "Well then, here you go.  I would have to be leaving in a moment.  Is there anything else I can help you with?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        36,
+        34,
+        32
+      ],
+      "Script" : "",
+      "Text" : "I might.  Maybe I'll do a stop-over here and there... probably spend a night or two at Luth Golein before I take that ship over the Twin Seas.  Anyway, I am sure any place is better than here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        33
+      ],
+      "Script" : "end_virginx",
+      "Text" : "Whatever, my friend.  Just keep a look out for anything that goes bump in the darkness over there.  If you need to ask me more questions, just do so before you go to Tristram.  I'll be leaving in a few moments. May the light guide you, and farewell."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        35
+      ],
+      "Script" : "end_virginx",
+      "Text" : "May the light guide you as well.  Just keep a look out for anything that goes bump in the darkness over there.  If you need to ask me more questions, just do so before you go to Tristram.  I'll be leaving in a few moments.  Goodbye."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        40,
+        39,
+        38
+      ],
+      "Script" : "",
+      "Text" : "NO!  Please, don't ask Farnham about that day!  He cried and wailed the last time we asked him about it.  It would be better if you don't mention the Archbishop to him, for the sake of his own sanity...."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41
+      ],
+      "Script" : "trg_startmodule2",
+      "Text" : "Hey, you're back <FirstName>!  Forgot anything?  Well, never mind."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        42
+      ],
+      "Script" : "",
+      "Text" : "Hey, you're back <FirstName>!  Forgot anything?  Well, never mind."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        43
+      ],
+      "Script" : "trg_startmodulex",
+      "Text" : "I notice there's a mysterious portal over there that appeared right after you arrived.  Perhaps you should investigate it!"
+    }
+  ],
+  "NumWords" : 1555,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think I am ready.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to ask you a few questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, I think I am ready."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Is there anyone in Tristram who can tell me some more details about what is going on there?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who identifies items in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can I rest anywhere in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can I sell my things to everybody there?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who sells scrolls and other magic devices in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who sells potions and healing kits in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who sells weapons and armor in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "<StartAction>Lie.</Start> No, I am new to this place."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "<StartAction>Lie.</Start> I don't know this <FirstName> you're speaking of."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  What are you doing here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, that's my name.  What are you doing here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess I did.  It's been a long time. My name is <FirstName>.  What are you doing here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What things have been happening?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "The cathedral?  What happened there?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then what happened?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What did the King say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Is there anyone still left in town, then?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Then why are you still here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 21,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, I don't think I need anything right now, anyway . You probably need it more than I, with your long journey and all."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_handout",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, what do you have?  Maybe I can help you \"lessen\" your load?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't need anything right now.  You probably need it more than I, with your long journey and all."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "I'm fine."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 23,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Sure, give me a dole-out.  In fact, I demand it!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sure, I'll appreciate what you can give me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "I think you have done enough.  Why don't you stop by Luth Golein and avail yourself of some courtesan company before you sail?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "I think I can manage now.  I wish you luck on your trip.  Are you heading straight East from here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "I'll decide that for myself, I'm no coward, and I can face whatever comes my way.  You go and run."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Well, I guess this is farewell.  May the light guide you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Before you leave, maybe you can answer some questions for me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe I should ask Farnham more about what happened in the church."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 16,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Did the king do anything about these events?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll remember that ... Is there anyone else left in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Nonsense!  It'll be fun to see him crack.  So did scurry away like rats after that incident?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_cornerstonex",
+      "Index" : 29
+    },
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 28
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 9
+    },
+    0
+  ]
+}

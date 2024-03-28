@@ -1,0 +1,85 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 300,
+  "Charges" : 0,
+  "Comment" : "This is a new weapon for NWN. The only known issue with it is that it does not provide custom feats for weapon focus or weapon specialization.",
+  "Cost" : 231154,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : "",
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 16807740,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Kelpie Snare"
+      }
+    ]
+  },
+  "ModelPart1" : 12,
+  "ModelPart2" : 32,
+  "ModelPart3" : 12,
+  "PaletteID" : 105,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 1,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 0,
+      "Subtype" : 2
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 1,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 0,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 7,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 23,
+      "Subtype" : 10
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 4,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 43,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 24,
+      "CostValue" : 1,
+      "Param1" : 1,
+      "Param1Value" : 1,
+      "PropertyName" : 48,
+      "Subtype" : 9
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "D2_KELPIESNARE",
+  "TemplateResRef" : "kelpiesnare"
+}

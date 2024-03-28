@@ -1,0 +1,66 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_blowuphive",
+          "Index" : 1,
+          "IsChild" : 0
+        },
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>There seems to be overly thick vegetation covering this part of town.  The bushes are too thick for you to access the trapdoor.  You would have to find a way to get rid of this overgrowth...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "trg_blowuphive",
+      "Text" : "<StartAction>You put the bomb-like thing within the overgrowth.  It starts to hum.  Maybe you need to step back...</Start>"
+    }
+  ],
+  "NumWords" : 61,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Use the bomb given to you...."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_enterhive",
+      "Index" : 0
+    }
+  ]
+}

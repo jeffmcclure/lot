@@ -1,0 +1,261 @@
+{
+  "AppearanceType" : 1434,
+  "BodyBag" : 3,
+  "CRAdjust" : -6,
+  "Cha" : 16,
+  "ChallengeRating" : 14.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 18,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 19,
+  "Conversation" : "",
+  "CurrentHitPoints" : 85,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12442,
+    "Strings" : [ ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "reaperscythe",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "balrogslam001",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "balrogskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 83
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 121
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 159
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12443,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Reaper"
+      }
+    ]
+  },
+  "Fortbonus" : 2,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 85,
+  "Int" : 20,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 175,
+  "NaturalAC" : 20,
+  "NoPermDeath" : 0,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2230,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_balrogx",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 25,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "D1_REAPER",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "reaper001",
+  "WalkRate" : 7,
+  "Willbonus" : 1,
+  "Wings" : 0,
+  "Wis" : 20
+}

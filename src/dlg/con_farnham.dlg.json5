@@ -1,0 +1,2125 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 95,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_farnhamcarry",
+          "Index" : 78,
+          "IsChild" : 0
+        },
+        1,
+        0
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "farnm_greet",
+      "Text" : "Can't a fellow drink in peace?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        76,
+        {
+          "Active" : "s_alehave",
+          "Index" : 6,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "s_responseevil",
+          "Index" : 4,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "s_responsegood",
+          "Index" : 2,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "I will if you... give me something to drink... maybe some ale?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Text" : "Well, get some from Ogden's tavern... or go away and stop *hic* bothering me..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5
+      ],
+      "Script" : "",
+      "Text" : "Well, get some from Ogden's tavern... or go away and stop *hic* bothering me..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        53,
+        {
+          "Active" : "prq_butcherx",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_ogdensignx",
+          "Index" : 42,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_leoricx",
+          "Index" : 40,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_watersupplyx",
+          "Index" : 37,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_wormsx",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_magicrockx",
+          "Index" : 33,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_fleshdoomx",
+          "Index" : 31,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_arkainex",
+          "Index" : 29,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_chamberx",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hallsblindx",
+          "Index" : 25,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroomx",
+          "Index" : 23,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_anvilx",
+          "Index" : 21,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_warlordx",
+          "Index" : 19,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lachdananx",
+          "Index" : 17,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lazarusx",
+          "Index" : 12,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_izual3",
+          "Index" : 8,
+          "IsChild" : 0
+        },
+        7
+      ],
+      "Script" : "s_aletake",
+      "Text" : "Good... what did you want again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10,
+        9
+      ],
+      "Script" : "",
+      "Text" : "I-Izual?  You knew Izual too?  How is he these days?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Eh?  Why don't you go down there and ask him!  He's stubborn, though.  Now, he was a good friend who also liked to drink!  Too bad what happened to him..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        14,
+        13,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "La...  n-no ... I... I don't... please..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        {
+          "Active" : "",
+          "Index" : 16,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "No... no... dead... all his fault... "
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_lazarus1",
+      "Text" : "They stab, then bite, then they're all around you.  Liar! Liar!  They're all dead!  Dead!  Do you hear me?  They just keep falling and falling... their blood spilling out all over the floor... all his fault..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_lachdanan1",
+      "Text" : "Lachdanan is dead.  Everybody knows that, and you can't fool me into thinking any other way!  You can't talk to the dead. I know!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        20,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_warlord1",
+      "Text" : "Always you gotta talk about blood?  What about flowers, and sunshine, and that pretty girl that brings the drinks?  Listen here, friend  -  you're obsessive, you know that?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_anvil1",
+      "Text" : "Griswold can't sell his anvil!  What will he do then?  And I'd be angry too if someone took my anvil!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        24,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_mushroom1",
+      "Text" : "Odgen mixes a mean black mushroom,  but I get sick if I drink that.  Listen, listen... here's the secret - MODERATION IS THE KEY!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_blind1",
+      "Text" : "Look here...  That's pretty funny, huh?  Get it?  Blind - look here?!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        28,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_bone1",
+      "Text" : "Okay, so listen:  There's this chamber of wood, see, and his wife, you know - her - tells the tree... cause you gotta wait...  Then I says, that might work against him, but if you think I'm gonna pay for this... you... uhh... yeah!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        30
+      ],
+      "Script" : "s_boredzzz",
+      "Sound" : "farnm_valor1",
+      "Text" : "Zzzzzzzzzzzzzzzzzzzzzzz......"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32
+      ],
+      "Script" : "",
+      "Sound" : "farnm_flshdm1",
+      "Text" : "You're gonna hunt down a demon, is that what you said?  I know I didn't hear that... 'cause nobody hunts down demons... nobody..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        34,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_rock1",
+      "Text" : "I used to have a nice ring...  it was a really expensive one,  with blue and green and red and silver.,,  Don't remember what happened to it, though. I really miss that ring..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        36
+      ],
+      "Script" : "",
+      "Sound" : "farnm_worms1",
+      "Text" : "<StartAction>Throws up.</Start>  Listen, listen...  I don't even like worms!  Don't tell me about your worms!  I don't want your worms!  Nope, no thanks ... no worms for me!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        39,
+        38
+      ],
+      "Script" : "",
+      "Sound" : "farnm_water1",
+      "Text" : "Psh, do you drink water?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_leoric1",
+      "Text" : "I don't care about that!  Listen, no \"skeleton\" is gonna be my king.  Leoric is king.  King, so you hear me? Hail to the king!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        43
+      ],
+      "Script" : "",
+      "Sound" : "farnm_sign1",
+      "Text" : "You know what I think?  Somebody took that sign, and they're gonna want lots of money for it.  If I was Odgen - and I'm not, but if I was - I'd just buy a new sign with some pretty drawing on it.  Maybe a nice mug of ale or a piece of cheese..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        47,
+        45
+      ],
+      "Script" : "",
+      "Text" : "... the bu--- I don't want to... talk about it..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        46,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Farnham sobs, looks into his wine for a moment, and then takes a swig as if nothing happened.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        48,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "B-big... big..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        51,
+        49
+      ],
+      "Script" : "qst_butcher2",
+      "Sound" : "farnm_butcher1",
+      "Text" : "... big, big cleaver ... killing all my friends ... couldn't stop him, had to run away, couldn't save them ... trapped in a room with so many bodies ... so many friends ... no...."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        50,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Farnham sobs, looks into his wine for a moment, and then takes a swig as if nothing happened.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        52,
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "farnm_misc1",
+      "Text" : "No... you can't make me go back there... I won't let you take me... too much pain... too many dead... can't... get the blood... out of my eyes... or my mouth... no..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 73,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowdeese",
+          "Index" : 71,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 69,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgillian",
+          "Index" : 67,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgriswold",
+          "Index" : 65,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowlester",
+          "Index" : 63,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowogden",
+          "Index" : 61,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 59,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowtremayne",
+          "Index" : 57,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowwirt",
+          "Index" : 55,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        54
+      ],
+      "Script" : "",
+      "Text" : "Like who?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        56
+      ],
+      "Script" : "",
+      "Sound" : "farnm_wirt1",
+      "Text" : "Wirt is a kid with more problems than even me!  And I know all about problems...  Listen here - that kid is got a sweet deal,  but he's been there, you know?  Lost a leg...  gotta walk around on a piece of wood...  so sad... so sad..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        58
+      ],
+      "Script" : "",
+      "Sound" : "farnm_trem1",
+      "Text" : "I haven't ever seen a priest around here, if I did I'd kick him right in the *burp* ... can't even keep a church free of those hellspawn, bastard, what good are they, huh? Those \"holy\" men... Liars, liars!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        60
+      ],
+      "Script" : "",
+      "Sound" : "farnm_pepin1",
+      "Text" : "Hehehe, I like Pepin.  He really tries, you know.  Listen here, you should make sure you get to know him.  Good fella like that with people always wantin' help...  Hey, I guess that would be kinda like you, huh hero?  I was a hero too..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        62
+      ],
+      "Script" : "",
+      "Sound" : "farnm_ogden1",
+      "Text" : "Odgen is the best man in town.  I don't think his wife likes me much, but as long as she keeps tapping' kegs, I'll like her just fine... seems like I been spendin' more time with Odgen than most... but he's so good to me..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        64
+      ],
+      "Script" : "",
+      "Text" : "Lesterrr?  What I REALLY wanna know is what HE is drinking..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        66
+      ],
+      "Script" : "",
+      "Sound" : "farnm_gris1",
+      "Text" : "Griswold?  Good old Griswold! I love him like a brother!  We fought together, y'know, back when... we... Lazarus... Lazarus... LAZARUS!!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        68
+      ],
+      "Script" : "",
+      "Sound" : "farnm_gilln1",
+      "Text" : "The gal who brings the drinks?  Oh yeah, what a pretty lady.  So nice, too...."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        70
+      ],
+      "Script" : "",
+      "Sound" : "farnm_cain1",
+      "Text" : "Cain isn't what he says he is... sure, sure, he talks a good story... some of them are real scary, or funny... but I think he knows more than he knows he knows..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        72
+      ],
+      "Script" : "",
+      "Text" : "What?  Are his kids back again, where are they?!  The last drink they gave me tasted like...  something nasty..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 72,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "So sad...  so sad... "
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        75,
+        74
+      ],
+      "Script" : "",
+      "Sound" : "farnm_adria1",
+      "Text" : "Why don't that old crone do somethin' for a change...  sure, sure, she's got stuff, but you listen to me... she's unnatural...  I ain't never seen her eat or drink... and you can't trust somebody who doesn't drink at least a little...."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "s_alehave",
+          "Index" : 6,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "s_responseevil",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "s_responsegood",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>[Failure]</Start> Not a chance. So do you have any ale or don't ya?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 53,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_butcherx",
+          "Index" : 44,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_leoricx",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_watersupplyx",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_ogdensignx",
+          "Index" : 42,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_wormsx",
+          "Index" : 35,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_magicrockx",
+          "Index" : 33,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_fleshdoomx",
+          "Index" : 31,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_arkainex",
+          "Index" : 29,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_chamberx",
+          "Index" : 27,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_hallsblindx",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_mushroomx",
+          "Index" : 23,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_anvilx",
+          "Index" : 21,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_warlordx",
+          "Index" : 19,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_lachdananx",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_lazarusx",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_izual3",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        77
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>[Success]</Start> Oh alright! Make it quick before I change my mind!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        79
+      ],
+      "Script" : "",
+      "Text" : "Eh?   What is it?  I don't have any extra ale for you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        80
+      ],
+      "Script" : "",
+      "Text" : "Come with you?  Where?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        81
+      ],
+      "Script" : "",
+      "Text" : "B-back in t-there!?  No... NO... I won't"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        84,
+        83,
+        82
+      ],
+      "Script" : "",
+      "Sound" : "farnm_misc1",
+      "Text" : "No... you can't make me go back there... I won't let you take me... too much pain... too many dead... can't... get the blood... out of my eyes... or my mouth... no..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 84,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        85
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Failure.</Start>  No, I won't... I won't let you take me!  Leave me alone!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        87,
+        86
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Success.</Start>  You sure?  I won't see any more... blood... death... are my friends waiting for me?  Do they want to... see me?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        90,
+        88
+      ],
+      "Script" : "",
+      "Text" : "O-o-okay...  But I'm so t-tired... so tired... can you... I mean... do you like to... carry me there?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        89
+      ],
+      "Script" : "",
+      "Text" : "So tired....  so tired...  can't walk anymore ... so tired,,,"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        93,
+        91
+      ],
+      "Script" : "",
+      "Text" : "Y-you will?   You will carry me?   T-thank you!  I am not too heavy.  I will be quiet.  Yes, I will..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        92
+      ],
+      "Script" : "giv_farnhamdead",
+      "Text" : "Don't be mad...  I will be good."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        94
+      ],
+      "Script" : "giv_farnhamdead",
+      "Text" : "Yes... my friends... I miss them ...  very much..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        97,
+        96
+      ],
+      "Script" : "con_evil3",
+      "Text" : "N-No!  NO!  Take that away!  Keep that away from me!!!  I'm won't gonna go back there!!  I won't!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        99,
+        98
+      ],
+      "Script" : "giv_island",
+      "Sound" : "farnm_island1",
+      "Text" : "Hey you there, come here, listen up!  You know about the island where angels watched?  Pick the right rocks, but you better shield your eyes!  Shield everything!  I know, coz I've been there and... hmmm... ale..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        100
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>Farnham refuses to answer and seems to be preoccupied with playing with an ale bottle...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        102,
+        101
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "farnm_greet",
+      "Text" : "Can't a fellow drink in peace?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        104,
+        103
+      ],
+      "Script" : "s_knowfarnham",
+      "Text" : "Huh ... <FirstName>?  I knew a <FirstName> once.  Was a gooood person.  But <FirstName> left us long ago."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        106,
+        105
+      ],
+      "Script" : "",
+      "Text" : "<FirstName> could have helped us at the church.  <FirstName> would not abandon friends, right?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 70,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        108,
+        107
+      ],
+      "Script" : "",
+      "Text" : "Oh... you want a drink?  I don't have any extra ale but ... <FirstName> would have sat here and joined me... maybe <FirstName> will come back soon..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        109
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "farnm_greet",
+      "Text" : "Can't a fellow drink in peace?"
+    }
+  ],
+  "NumWords" : 1941,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can I ask you some questions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm sorry, I don't have any ale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have any ale for you, you damn drunk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Alright, here is some ale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about Izual?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You can't possibly know him.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't know him.  I'm asking what you know about him."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "What do you know about the Archbishop Lazarus?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Come on, drunk!  I need this information!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Script" : "con_evil3",
+      "Sound" : "",
+      "Text" : "I demand that you tell me now, damnit!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Goodbye then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know anything about this knight I met called Lachdanan?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, alright.  Good-bye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Does Warlord of Blood ring a bell?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Guess not."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I guess it is too much to hope that you know about an Anvil of Fury, huh?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I thought so.  Bye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know where I can find a black mushroom?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're one to speak. Good-bye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Halls of the Blind?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you ever seen a Chamber of Bone?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That didn't make any sense."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So Farnham, know anything about Valor?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "*sigh*"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm hunting down a demon called Fleshdoom.  Know him by any chance?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But I can, and I will... good-bye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know this \"heaven stone\" Griswold is talking about?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm, okay, whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about these worms Pepin is talking about... you're right beside the house where he says they are!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "*sigh* Never mind then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about the poisoned water here in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have more questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you heard of that curse on King Leoric?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you heard anything about Ogden's missing tavern sign?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Butcher?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Alright Farnham, I won't force you to talk about it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll leave now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "No, I want you to tell me!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "What's big? Tell me!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Alright Farnham, I am sorry. I won't force you to talk about it any further."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll be going now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "Tell me more!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>Leave the drunk alone.</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can you tell me something about the townsfolk here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Lester."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "end_lostboys",
+          "Index" : 39,
+          "IsChild" : 0
+        },
+        38
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Deese."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's enough for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 29,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "How about the others?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_pershigh",
+          "Index" : 42,
+          "IsChild" : 0
+        },
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartCheck>[Persuade]</Start> This is important, Farnham. I really need to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Farnham, I have something I need to ask of you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I don't want ale.  I want you to come with me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to come with me into the labyrinth.  There is someone who wants to see you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Come on Farnham, this is important."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright Farnham, I won't force you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 47,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  Come on, you damn drunk!  Come with me if you know what's good for you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_persmed",
+          "Index" : 48,
+          "IsChild" : 0
+        },
+        47
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "<StartCheck>Persuade.</Start>  You will not be hurt where I am taking you, Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Alright, suit yourself!  I've wasted enough time here!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, yes, they want to see you.  Now hurry up before I change my mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes Farnham, your friends are waiting for you.  Come with me and you'll get to meet them."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you kidding?  Can't you walk by yourself?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "If you can't walk by yourself, I cannot take you there.  Goodbye!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Alright, Farnham.  I will carry you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        52
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You better not cramp my style, drunk!  Let's go."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        53
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let us go, Farnham.  Your friends are waiting."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        54
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "Hey Farnham, do you recognize this blade?  It was used by your old friend, the Butcher..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Hah, stupid drunk..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm so sorry Farnham.  I don't know what I was doing..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever, Farnham..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        56
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What island?  Tell me more."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "s_sitrockstay",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 58,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "Hey you damn drunk!  It's <FirstName>!  Stop drooling!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "Farnham!  It's me <FirstName>!  Don't you remember me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 59,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Are you stupid or something?  I am right here!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But I \"am\" <FirstName>, and I've come back?  Don't you recognize me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 60,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Had too much to drink perhaps?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What happened to you, Farnham?  Why are you drinking?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Psh, to hell with you then..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I see .... goodbye Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sorry to bother you."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 61
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 57
+    },
+    {
+      "Active" : "prq_island",
+      "Index" : 55
+    },
+    0
+  ]
+}

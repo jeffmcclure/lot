@@ -1,0 +1,205 @@
+{
+  "AppearanceType" : 74,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 16,
+  "ChallengeRating" : 4.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 4,
+      "ClassX" : 19
+    }
+  ],
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 26,
+  "DecayTime" : 0,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12551,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "More deadly and cunning than their lesser kin, the Ghoul, these undead carrion eaters have the added ability to paralyze their victims."
+      }
+    ]
+  },
+  "Dex" : 15,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpsp024",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp024",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps026",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitemund",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12552,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Ravenous Ghast"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 4,
+  "GoodEvil" : 0,
+  "HitPoints" : 26,
+  "Int" : 13,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 26,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 0,
+  "PaletteID" : 27,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 211,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "nw_c2_default5",
+  "ScriptDamaged" : "nw_c2_default6",
+  "ScriptDeath" : "zombie_ondeath",
+  "ScriptDialogue" : "nw_c2_default4",
+  "ScriptDisturbed" : "nw_c2_default8",
+  "ScriptEndRound" : "nw_c2_default3",
+  "ScriptHeartbeat" : "nw_c2_default1",
+  "ScriptOnBlocked" : "nw_c2_defaulte",
+  "ScriptOnNotice" : "nw_c2_default2",
+  "ScriptRested" : "nw_c2_defaulta",
+  "ScriptSpawn" : "zombie_onspawn",
+  "ScriptSpellAt" : "nw_c2_defaultb",
+  "ScriptUserDefine" : "nw_c2_defaultd",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 40,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 306,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 13,
+  "Subrace" : "",
+  "Tag" : "RavenousGhast",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "ghast001",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 14
+}

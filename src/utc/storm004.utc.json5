@@ -1,0 +1,263 @@
+{
+  "AppearanceType" : 192,
+  "BodyBag" : 6,
+  "CRAdjust" : -1,
+  "Cha" : 12,
+  "ChallengeRating" : 14.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 15,
+      "ClassX" : 4
+    },
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 69,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12667,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Primitive and savage, these reptilian humanoids can be very dangerous if provoked. They are fiercely territorial, banding together to destroy any living thing that encroaches upon its domain."
+      }
+    ]
+  },
+  "Dex" : 15,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_storm002",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "it_storm002",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_storm005",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_storm006",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12671,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Maelstrom"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 69,
+  "Int" : 11,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 135,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 1,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 258,
+  "Race" : 15,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_maelstrom",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 58,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 14,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 14,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 4,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "D1_STORMM",
+  "Tail" : 1,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "storm004",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 11
+}

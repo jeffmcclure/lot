@@ -1,0 +1,917 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 35,
+    "AmbientSndDayVol" : 35,
+    "AmbientSndNight" : 35,
+    "AmbientSndNitVol" : 36,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 107,
+    "MusicDelay" : 14000,
+    "MusicNight" : 107
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 53,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_CAVES2PIT",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 21,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Caverns 2"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "PIT_2CAVES",
+      "TemplateResRef" : "nw_door_ttr_13",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 15.0,
+      "Y" : 96.01,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 41,
+          "CR" : 26.0,
+          "ResRef" : "lordofthepit",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.7578926,
+          "Y" : -1.1699591,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.21204,
+          "Y" : -1.8773041,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 5.1790314,
+          "Y" : -0.6645298,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : -0.047756195,
+          "Y" : -0.121637344,
+          "Z" : 0.02499994
+        }
+      ],
+      "LocalizedName" : "Lord of the Pit",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 1,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 56.086536,
+          "Y" : 42.663094,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviper",
+      "XPosition" : 43.206642,
+      "YPosition" : 13.824793,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1231,
+          "CR" : 9.0,
+          "ResRef" : "caveviper001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -2.0817108,
+          "Y" : -6.113228,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.32834435,
+          "Y" : -4.748848,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.1022892,
+          "Y" : 0.06284332,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : -1.7471104,
+          "Y" : -0.10707855,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Cave Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 44.77719,
+          "Y" : 78.63025,
+          "Z" : -0.71360207
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviperenc",
+      "XPosition" : 27.516047,
+      "YPosition" : 92.28304,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1231,
+          "CR" : 9.0,
+          "ResRef" : "caveviper001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.865261,
+          "Y" : -7.402527,
+          "Z" : 0.025
+        },
+        {
+          "X" : -2.2273598,
+          "Y" : -6.7267456,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : -0.054016113,
+          "Y" : 0.072517395,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.5166321,
+          "Y" : 0.7979431,
+          "Z" : 0.02500006
+        }
+      ],
+      "LocalizedName" : "Cave Viper",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 5,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 68.808426,
+          "Y" : 75.39807,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviperenc",
+      "XPosition" : 52.14852,
+      "YPosition" : 94.56338,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1231,
+          "CR" : 9.0,
+          "ResRef" : "caveviper001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.335972,
+          "Y" : 1.3158493,
+          "Z" : 0.025
+        },
+        {
+          "X" : -4.2726135,
+          "Y" : -0.45502472,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.10107567
+        },
+        {
+          "X" : -0.04272461,
+          "Y" : 0.10661316,
+          "Z" : 0.08973845
+        },
+        {
+          "X" : -0.33947563,
+          "Y" : 0.8889389,
+          "Z" : 0.02500006
+        }
+      ],
+      "LocalizedName" : "Cave Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 9.6121645,
+          "Y" : 44.39934,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviperenc",
+      "XPosition" : 22.295305,
+      "YPosition" : 72.97217,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1231,
+          "CR" : 9.0,
+          "ResRef" : "caveviper001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.4180217,
+          "Y" : 0.113983154,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.047455788,
+          "Y" : 0.108802795,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.27436733,
+          "Y" : 1.1041031,
+          "Z" : 0.025
+        },
+        {
+          "X" : -4.316634,
+          "Y" : 1.2223091,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Cave Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 27.636696,
+          "Y" : 13.894572,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviperenc",
+      "XPosition" : 11.968099,
+      "YPosition" : 38.569733,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1231,
+          "CR" : 9.0,
+          "ResRef" : "caveviper001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.11006355,
+          "Y" : 4.9411087,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.10463524,
+          "Y" : 0.079143524,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 1.367321,
+          "Y" : 0.9411354,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 1.7879181,
+          "Y" : 4.5317917,
+          "Z" : 0.02499994
+        }
+      ],
+      "LocalizedName" : "Cave Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 10.703342,
+          "Y" : 86.26549,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviperenc",
+      "XPosition" : 31.367447,
+      "YPosition" : 37.357346,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1231,
+          "CR" : 9.0,
+          "ResRef" : "caveviper001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.76342,
+          "Y" : 1.8384933,
+          "Z" : 0.025
+        },
+        {
+          "X" : -5.372528,
+          "Y" : 0.9106884,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.1703949,
+          "Y" : 0.14880371,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.0443192,
+          "Y" : 0.9960861,
+          "Z" : 0.02500006
+        }
+      ],
+      "LocalizedName" : "Cave Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 21.108456,
+          "Y" : 82.410614,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "CAVEVIPER",
+      "TemplateResRef" : "caveviperenc",
+      "XPosition" : 67.03861,
+      "YPosition" : 26.012087,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 24,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 8000,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD001",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "CHEST_BONE1",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 12,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 27,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 28.580597,
+      "Y" : 40.053253,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -2.1598437,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 7500,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD007",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "CHEST_BONE2",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 10,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 27,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 66.56,
+      "Y" : 17.49,
+      "Z" : -0.79
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.7853982,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 16,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "UNIQUE_LOW",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 8,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 26,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 71.1592,
+      "Y" : 81.06734,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -2.9024763,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "UNIQUE_LOW",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 8,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 26,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 46.04539,
+      "Y" : 74.62341,
+      "Z" : -0.01745987
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.141586,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "GRISWOLD_FORGE",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 8,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 26,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 40.1992,
+      "Y" : 2.4710903,
+      "Z" : 0.22629547
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 10000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67888,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_lizrdhiss2"
+        },
+        {
+          "Sound" : "as_an_lizrdhiss3"
+        }
+      ],
+      "Tag" : "LizardfolkHisses",
+      "TemplateResRef" : "lizardfolkhisses",
+      "Times" : 3,
+      "Volume" : 40,
+      "VolumeVrtn" : 0,
+      "XPosition" : 19.681225,
+      "YPosition" : 93.0677,
+      "ZPosition" : 1.5000005
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 13000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67842,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_dragonror1"
+        }
+      ],
+      "Tag" : "SND_LORDOFTHEPIT",
+      "TemplateResRef" : "dragonroars",
+      "Times" : 3,
+      "Volume" : 43,
+      "VolumeVrtn" : 0,
+      "XPosition" : 10.684556,
+      "YPosition" : 92.59023,
+      "ZPosition" : 1.50001
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to the Caverns"
+          }
+        ]
+      },
+      "MapNote" : "Back to the Caverns",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_PIT2CAVES",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 3.8941437E-7,
+      "XPosition" : 15.0,
+      "YOrientation" : -1.0,
+      "YPosition" : 93.42,
+      "ZPosition" : 0.0
+    }
+  ]
+}

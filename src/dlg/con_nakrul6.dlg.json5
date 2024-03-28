@@ -1,0 +1,97 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "note_nakrul6a",
+      "Text" : "\"...My time is quickly running out...  I must record the ways to weaken the demon, and then conceal that text, lest his minions find some way to use my knowledge to free their lord... I hope that whoever finds this journal, will seek the knowledge...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>This is another journal written by Skulken, littered with arcane symbols and verses, but a part of it was intentionally written in a readable form.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        3
+      ],
+      "Script" : "s_tornjournal6",
+      "Sound" : "note_nakrul6a",
+      "Text" : "\"...my time is quickly running out...  I must record the ways to weaken the demon, and then conceal that text, lest his minions find some way to use my knowledge to free their lord... I hope that whoever finds this journal, will seek the knowledge...\""
+    }
+  ],
+  "NumWords" : 127,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the journal alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Read the journal."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Read the journal again."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_tornjournal6",
+      "Index" : 1
+    },
+    0
+  ]
+}

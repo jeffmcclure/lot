@@ -1,0 +1,1891 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_cathedmap2",
+          "Index" : 70,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lights2",
+          "Index" : 68,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroom",
+          "Index" : 66,
+          "IsChild" : 0
+        },
+        1,
+        0
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gilln_greet",
+      "Text" : "G'day!  How may I serve you?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        42,
+        {
+          "Active" : "prq_butcherx",
+          "Index" : 39,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_watersupplyx",
+          "Index" : 37,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_leoricx",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_wormsx",
+          "Index" : 33,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_ogdensignx",
+          "Index" : 31,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_magicrockx",
+          "Index" : 29,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_arkainex",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_islandx",
+          "Index" : 25,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_fleshdoomx",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_chamberx",
+          "Index" : 18,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hallsblindx",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroomx",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_anvilx",
+          "Index" : 12,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_izual2",
+          "Index" : 9,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lachdananx",
+          "Index" : 7,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_warlordx",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lazarusx",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        2
+      ],
+      "Script" : "",
+      "Text" : "It would be my pleasure to answer them, <FirstName>."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_lazarus1",
+      "Text" : "I remember Lazarus as being a very kind and giving man.  He spoke at my mother's funeral, and was supportive of my grandmother and myself in a very troubled time.  I pray every night that, somehow, he is still alive and safe."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_warlord1",
+      "Text" : "If you are to battle such a fierce opponent, may light be your guide and your defender. I will keep you on my thoughts..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_lachdanan1",
+      "Text" : "I've never heard of a Lachdanan before.  I'm sorry, but I don't think that I can be of much help to you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        10
+      ],
+      "Script" : "",
+      "Sound" : "gilln_izual5",
+      "Text" : "Azurewrath and Izual...  I don't know why I didn't remember that story earlier - I've heard it often enough from my grandmother and Cain the storyteller!  Well, I hope my information was still more of a help than a hindrance.  May light guide you, my friend."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_anvil1",
+      "Text" : "Griswold's father used to tell some of use when we were growing up about a giant anvil that was used to make mighty weapons.  He said that when a hammer was struck upon this anvil, the ground would shake with a great fury.  Whenever the earth moves, I always remember that story."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_mushroom1",
+      "Text" : "I think Odgen might have some mushrooms in the storage cellar.  Why don't you ask him?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_blind1",
+      "Text" : "If you have questions about blindness, you should talk to Pepin. I know that he gave my grandmother a potion that helped clear her vision, so maybe he can help you, too."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        19,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_bone1",
+      "Text" : "I am afraid that I haven't heard anything about that.  Perhaps Cain the storyteller could be of some help."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        21
+      ],
+      "Script" : "",
+      "Sound" : "gilln_flshdm1",
+      "Text" : "I heard that the priest Tremayne was going to perform an exorcism - but I didn't go...  I don't see why we have to spend every moment captive to what is lurking underneath our town!  I know that many have died at the hands of these monsters, but we need to try to go on!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        24,
+        23
+      ],
+      "Script" : "",
+      "Sound" : "gilln_flshdm2",
+      "Text" : "I know that you have come here to free Tristram from the clutches of darkness, and I hope that one day we can live in peace again..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26
+      ],
+      "Script" : "",
+      "Sound" : "gilln_island1",
+      "Text" : "Those are the words of a drunkard!  I don't see how they could be true!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        28,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_valor1",
+      "Text" : "The story of the magic armor called Valor is something I often heard the boys talk about.  You had better ask one of the men in the village..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        30,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_rock1",
+      "Text" : "Well, a caravan of some very important people did stop here, but that was quite a while ago.  They had strange accents and were starting on a long journey, as I recall.  I don't see how you could hope to find anything that they would have been carrying."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        32,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_sign1",
+      "Text" : "Oh my!  Is that where the sign went?  My grandmother and I must have slept right through the whole thing.  Thank the light that those monsters didn't attack the inn!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        34,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_worms1",
+      "Text" : "Wait, before you say anything - my grandmother had a dream with giant, slithering creatures in it!  She also saw Pepin running from a house in the town!  Do you think this means anything?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        36,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_leoric1",
+      "Text" : "I don't like to think about how the king died.  I like to remember him for the kind and just ruler that he was.  His death was so sad and seemed very wrong, somehow..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        38,
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_water1",
+      "Text" : "My grandmother is very weak, and Garda says that we cannot drink the water from the wells.  Please, can you do something to help us?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41,
+        40
+      ],
+      "Script" : "",
+      "Sound" : "gilln_butcher1",
+      "Text" : "When Farnham said something about a butcher killing people, I immediately discounted it. But since you brought it up, maybe it is true."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 63,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 61,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowdeese",
+          "Index" : 59,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowfarnham",
+          "Index" : 57,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgriswold",
+          "Index" : 55,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowlester",
+          "Index" : 53,
+          "IsChild" : 0
+        },
+        51,
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 49,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowtremayne",
+          "Index" : 47,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowwirt",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "",
+          "Index" : 40,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        43
+      ],
+      "Script" : "",
+      "Text" : "Oh good, I always love talking about my friends here!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        45
+      ],
+      "Script" : "",
+      "Sound" : "gilln_wirt1",
+      "Text" : "I grew up with Wirt's mother, Canace.  Although she was only slightly hurt when those hideous creatures stole him, she never recovered.  I think she died of a broken heart."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        46
+      ],
+      "Script" : "",
+      "Sound" : "gilln_wirt2",
+      "Text" : "Wirt has become a mean-spirited youngster, looking only to profit from the sweat of others.  I know that he suffered and has seen horrors that I cannot even imagine, but some of that darkness hangs over him still..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        48
+      ],
+      "Script" : "",
+      "Sound" : "gilln_trem1",
+      "Text" : "I really don't know much about the priest Tremayne...  He never visits the tavern, preferring to keep to the company of Pepin and Cain.  Perhaps it is because they, too, have more scholarly pursuits."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        50
+      ],
+      "Script" : "",
+      "Sound" : "gilln_pepin1",
+      "Text" : "Pepin saved my grandmother's life, and I know that I can never repay him for that.  His ability to heal any sickness is more powerful than the mightiest sword and more mysterious than any spell you can name.  If you ever are in need of healing, Pepin can help you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        52
+      ],
+      "Script" : "",
+      "Sound" : "gilln_ogden1",
+      "Text" : "Odgen and his wife have taken me and my grandmother into their home and have even let me earn a few gold pieces by working at the inn.  I owe so much to them, and hope one day to leave this place and help them start a grand hotel in the East..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        54
+      ],
+      "Script" : "",
+      "Text" : "Who?  Oh, the man Deese hired, is that his name?  He's a strange one.  I don't think he's totally... there."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        56
+      ],
+      "Script" : "",
+      "Sound" : "gilln_gris1",
+      "Text" : "Our blacksmith is a point of pride to the people of Tristram.  Not only is he a master craftsman who has won many contests within his guild, but he received praises from our King Leoric himself - may his soul rest in peace.  Griswold is also a great hero; just ask Cain..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        58
+      ],
+      "Script" : "",
+      "Sound" : "gilln_farnm1",
+      "Text" : "Farnham is a drunkard who fills his belly with ale, and everyone else's ears with nonsense!  I know that both Pepin and Ogden feel sympathy for him, but I get so frustrated watching him slip farther and farther into a befuddled stupor every night..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 58,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Even though Farnham was a nuisance most of the time, I now miss him.  I hope he is alright, wherever he is..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        60
+      ],
+      "Script" : "",
+      "Text" : "Deese is a kind, dear man.  Sometimes I feel sorry for him when his sons ignore him, but he's a loving father and a hardworking man.  My grandmother told me Deese reminds her of my own father..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 60,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I feel so sorry for Deese.  He loved Inneas and Roof very much, regardless of how unruly they were.  I don't blame him for leaving Tristram - he has lost his whole family while living here, and I hope he finds peace far from here..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        62
+      ],
+      "Script" : "",
+      "Sound" : "gilln_cain1",
+      "Text" : "Cain has been the storyteller of Tristram for as long as I can remember.  He knows so much, and can tell you just about anything about almost everything."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        65,
+        64
+      ],
+      "Script" : "",
+      "Sound" : "gilln_adria1",
+      "Text" : "The woman at the edge of town is a witch!  She seems nice enough, and her name, Adria, is very pleasing to the ear, but I am very afraid of her.  It would take someone quite brave, like you, to see what she is doing out there..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        67,
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Don't you think Pepin or Cain would be the person to ask about this?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        69
+      ],
+      "Script" : "end_lights",
+      "Sound" : "gilln_andariel1",
+      "Text" : "Demons that assume the form of beautiful women, you say?  That's horrible!  Thank the light that you solved this mystery before any more of our men were lured to their deaths!  Thank you for keeping us safe from the powers of darkness once again..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        72,
+        71
+      ],
+      "Script" : "",
+      "Text" : "Really?  But what can I possibly know about an old map that even Cain does not know!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        73,
+        {
+          "Active" : "",
+          "Index" : 89,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 88,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gilln_graveyard1",
+      "Text" : "My grandmother often tells me stories about the strange forces that inhabit the graveyard outside of the church, and it may well interest you to hear one of them..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        75,
+        74
+      ],
+      "Script" : "giv_gravematters",
+      "Sound" : "gilln_graveyard2",
+      "Text" : "She said that if you were to leave the proper offering in the cemetery, enter the cathedral to pray for the dead, and then return, the offering will be altered in some strange way..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 77,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 76,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I don't know, <FirstName>.  Even she doesn't remember much of her own dreams, especially one as old as that."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        77,
+        76
+      ],
+      "Script" : "",
+      "Sound" : "gilln_graveyard3",
+      "Text" : "I don't know if this is just the talk of an old, sick woman, but anything seems possible these days..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        79,
+        78
+      ],
+      "Script" : "",
+      "Sound" : "gilln_graveyard4",
+      "Text" : "I know that my grandmother's stories seem strange, but the graveyard does have many mysteries surrounding it.  It couldn't hurt you to put something there and see what happens, could it?  Maybe you will find out something that would help us all..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        81,
+        80
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gilln_lostboys1",
+      "Text" : "I beg your pardon, but have you heard what's been happening?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        83,
+        82
+      ],
+      "Script" : "",
+      "Sound" : "gilln_lostboys2",
+      "Text" : "Some of the men have vanished from the village!  Deese's sons, Inneas and Roof, claimed to have seen strange lights glowing deep within the woods a few days ago, but no one has heard from them since!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        85,
+        84
+      ],
+      "Script" : "",
+      "Sound" : "gilln_lostboys3",
+      "Text" : "I too have seen a crimson shimmering from beyond the ash groves, but I have been too afraid to approach it.  I fear that Ogden or our healer Pepin may be next!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        87,
+        86
+      ],
+      "Script" : "giv_lights",
+      "Sound" : "gilln_lostboys4",
+      "Text" : "Won't you please find out what has happened?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        90,
+        89,
+        88
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gilln_izual1",
+      "Text" : "Pray your pardon, but I have something to tell you that you may find interesting!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        92,
+        91
+      ],
+      "Script" : "",
+      "Sound" : "gilln_izual2",
+      "Text" : "It was the strangest thing...  While drinking at the tavern, Farnham was rambling about something called Azurewrath...  He also said something about a fallen angel...  It was hard to understand and because he was very drunk and disoriented.  But I seem to remember something about a key in a barrel..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        94,
+        93
+      ],
+      "Script" : "",
+      "Sound" : "gilln_izual3",
+      "Text" : "He also kept covering his face and repeating the word \"Izual\" over and over again..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        96,
+        95
+      ],
+      "Script" : "giv_izual",
+      "Sound" : "gilln_izual4",
+      "Text" : "You know, now that I think about it, maybe it wasn't a key in a barrel... but a barrel that was the key!  Does that make any more sense?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        100,
+        97
+      ],
+      "Script" : "s_knowgillian",
+      "Sound" : "gilln_greet",
+      "Text" : "G'day!  How may I serve you?  Oh, it's you <FirstName>!  Oh my, this is a nice surprise!  I am so glad to see you are back in Tristram with all these strange things happening in our town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        99,
+        98
+      ],
+      "Script" : "con_evil2",
+      "Text" : "Oh, you're still the same rude person I knew from before!  Your travels have not changed your disposition I see!  Well, regardless, it is nice to see you again <FirstName>."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        103,
+        102,
+        101
+      ],
+      "Script" : "",
+      "Sound" : "gilln_ogden1",
+      "Text" : "Ogden and his wife have taken me and my grandmother into their home, and have even let me earn a few gold pieces by working at the inn.  I owe so much to them, and hope one day to leave this place and help them start a grand hotel in the East!"
+    }
+  ],
+  "NumWords" : 2466,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm done Gillian. Thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can I ask you some questions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Archbishop Lazarus."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you heard of the Warlord of Blood?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I appreciate that Gillian.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know of a knight named Lachdanan?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Cain has told me this story about Izual and Azurewrath.  Maybe Farnham's tale was true."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I can't expect an uneducated barmaid to know everything.  Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "It was helpful.  And thank you for telling me about it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know about this Anvil of Fury that Griswold wants me to find?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know where I can get a black mushroom?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe I will.  Thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you heard of the Halls of the Blind?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm, okay Gillian.  Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you familiar with a Chamber of Bone?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about this exorcism that Tremayne did?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 11,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "My, I think I struck a chord?  It doesn't matter to me - I will kill them all!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "I guess this is really an important thing to you?  Don't worry, I am helping the town deal with it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That is my wish too.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Farnham mentions \"an island where angels watched.\"  Any ideas?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks, anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about Valor?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I will. Thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know anything about the caravan Griswold told me about?  Or a heaven stone?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, thanks Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know anything about the monsters that stole Ogden's tavern sign?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Gillian, I just heard Pepin talking about worms, and---"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Uhm... yeah, never mind then.."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about King Leoric?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the tainted water in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Butcher?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Can I ask you some more questions?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I like to ask you about the townsfolk here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Lester."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_islandxx",
+          "Index" : 29,
+          "IsChild" : 0
+        },
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "end_lostboys",
+          "Index" : 31,
+          "IsChild" : 0
+        },
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Deese."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I need to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 20,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I like to know about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I found this fungal tome in the caves.  Do you need it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>You tell Gillian about the strange lights and the demons that lured men into the woods, and about how you have defeated the demonic temptress Andariel.</Start>"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Cain told me to ask you about this strange map I found."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 37,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Here's a hint:  graveyard, offering, grandmother, dreams.  Ring a bell?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "He mentions an offering at the graveyard, and one of your grandmother's dreams that tells of it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright Gillian, tell me one of these stories."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What offering do I need to place there?  Your grandmother's stories don't offer much details."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "An offering at the cemetery?  Sounds far-fetched, Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Probably just the senile ramblings of an old woman..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Your grandmother seems to like telling these weird tales."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sounds like another wild goose chase, but sure."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Alright, I'll check it out when I have the time."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "I don't have time for your trivial tales, wench.  Goodbye!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Huh?  No, what has been happening?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 44,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Stupid behavior from immature little scoundrels, if you ask me.  Those lights may not exist at all, for all we know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe they were just playing a prank on the townspeople?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have time for these fanciful tales, wench."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Sounds like something I should investigate, wouldn't you say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Maybe I will, maybe I won't..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Of course Gillian.  I'll see what is causing it.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have no time for this.  Sorry."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have had my fill of tales today.  I want to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is it, Gillian?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 48,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sounds like more drunken nonsense to me!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What else did he say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Izual, huh...  did he say anything else?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hmmm... interesting.  A key in a barrel you say?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Not much sense, really.  Perhaps I'll ask Cain about it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Actually it doesn't ... might just be another one of those stupid things Farnham says."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "Ah, if it isn't the wench who lives with her senile grandmother!  So how is your uptight self today?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, I'll be on my way then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever wench, I have some questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        52
+      ],
+      "Quest" : "",
+      "Script" : "end_virgin",
+      "Sound" : "",
+      "Text" : "It is nice to see you again Gillian.  How is your grandmother?  And since when did you move to this house near the tavern?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, I'll be on my way then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sounds like wishful thinking to me... anyway, I'd like to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That is very kind of them.  Can I ask you a few questions?"
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_virgin",
+      "Index" : 50
+    },
+    {
+      "Active" : "prq_izual",
+      "Index" : 46
+    },
+    {
+      "Active" : "prq_lostboys",
+      "Index" : 42
+    },
+    0
+  ]
+}

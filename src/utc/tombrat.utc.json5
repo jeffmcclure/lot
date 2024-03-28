@@ -1,0 +1,233 @@
+{
+  "AppearanceType" : 170,
+  "BodyBag" : 6,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 8.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 25
+    },
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 38,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12807,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Disgusting denizens of these crypts, these humanoid vermin infest the decaying foundations of the old monastery..."
+      }
+    ]
+  },
+  "Dex" : 17,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "tombratclaw",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "tombratclaw",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "tombratbite",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitem018",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12808,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Tombrat"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 2,
+  "GoodEvil" : 0,
+  "HitPoints" : 38,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 50,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 315,
+  "Race" : 23,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 99,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 15,
+  "Subrace" : "",
+  "Tag" : "D1_TOMBRAT",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "tombrat",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

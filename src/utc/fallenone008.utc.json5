@@ -1,0 +1,225 @@
+{
+  "AppearanceType" : 29,
+  "BodyBag" : 3,
+  "CRAdjust" : -3,
+  "Cha" : 8,
+  "ChallengeRating" : 7.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 3,
+      "ClassX" : 8
+    }
+  ],
+  "Comment" : "",
+  "Con" : 11,
+  "Conversation" : "",
+  "CurrentHitPoints" : 75,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12565,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Swarms of these impish terrors have been known to come out of the night and tear apart a sleeping village in minutes. Small of stature and simian in appearance, these creatures possess surprising strength and unnatural agility. Other than killing, the only act which gives them pleasure is breeding, so expect to encounter them in large packs.\n\nThe small size of these devils does fill them with cowardice, and they prefer to attack under the guise of darkness and in large numbers whenever possible.  Do not turn your back on them, though, for their appetite for destruction will eventually overcome their caution and they will attempt to strike again."
+      }
+    ]
+  },
+  "Dex" : 16,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "uniquearmor001",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_wswmss009",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 221
+    },
+    {
+      "Feat" : 41
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 50
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12566,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Bladeskin the Slasher"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 75,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "nw_wswmdg002",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 75,
+  "NaturalAC" : 2,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 158,
+  "Race" : 12,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_uniquex",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 12,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 8,
+  "Str" : 14,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fallenone008",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

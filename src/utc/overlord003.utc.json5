@@ -1,0 +1,279 @@
+{
+  "AppearanceType" : 1261,
+  "BodyBag" : 6,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 11.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 12,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 17,
+  "Conversation" : "",
+  "CurrentHitPoints" : 62,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12711,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These grotesque demons have considerable brawn and a viciousness that is almost unequalled even in the deepest bowels of Hell. Do not underestimate their strength or their intelligence for crossing swords with them is ill advised. You will be far better served to combat them with ranged weapons or magic."
+      }
+    ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "overlordclaw001",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "overlordclaw001",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "overlordbite001",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "overlordskin003",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12712,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Toad Demon"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 3,
+  "GoodEvil" : 0,
+  "HitPoints" : 62,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 110,
+  "NaturalAC" : 10,
+  "NoPermDeath" : 1,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 297,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_demonbrain",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 84,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 36,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 41,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 54,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 76,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 268,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 19,
+  "Subrace" : "",
+  "Tag" : "D1_OVERLORDTD",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "overlord003",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

@@ -1,0 +1,434 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 37,
+    "AmbientSndDayVol" : 32,
+    "AmbientSndNight" : 37,
+    "AmbientSndNitVol" : 33,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 92,
+    "MusicDelay" : 10000,
+    "MusicNight" : 92
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [ ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2492,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_wellx",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14705,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The chain disappears into some unseen recess above you where it presumably activates some hidden mechanism."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14706,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 389,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PullRopeChain",
+      "TemplateResRef" : "plc_pullrope",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 13.3992405,
+      "Y" : 12.225479,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.7853976,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_childbones",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Bones"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "BONES_CELIA",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 34.650234,
+      "Y" : 43.881264,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Day Point - Celia"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "DAY_CELIA",
+      "TemplateResRef" : "plc_invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 9.629402,
+      "Y" : 41.687256,
+      "Z" : 9.536743E-6
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 25000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67875,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.09,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_pl_lafspook1"
+        },
+        {
+          "Sound" : "as_pl_lafspook2"
+        },
+        {
+          "Sound" : "as_pl_lafspook3"
+        }
+      ],
+      "Tag" : "LaughingKidsSpooky",
+      "TemplateResRef" : "laughingkidsspoo",
+      "Times" : 3,
+      "Volume" : 63,
+      "VolumeVrtn" : 0,
+      "XPosition" : 30.319258,
+      "YPosition" : 41.244038,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 3000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 68013,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_na_drip1"
+        },
+        {
+          "Sound" : "as_na_drip2"
+        },
+        {
+          "Sound" : "as_na_drip3"
+        },
+        {
+          "Sound" : "as_na_drip4"
+        },
+        {
+          "Sound" : "as_na_drip5"
+        },
+        {
+          "Sound" : "as_na_drip6"
+        },
+        {
+          "Sound" : "as_na_drip7"
+        },
+        {
+          "Sound" : "as_na_dripstone1"
+        },
+        {
+          "Sound" : "as_na_dripstone2"
+        }
+      ],
+      "Tag" : "WaterDrips",
+      "TemplateResRef" : "waterdrips",
+      "Times" : 3,
+      "Volume" : 35,
+      "VolumeVrtn" : 0,
+      "XPosition" : 30.174223,
+      "YPosition" : 43.383453,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 68020,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 15.0,
+      "MinDistance" : 1.5,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_waterpool1"
+        }
+      ],
+      "Tag" : "WaterPoolSmall",
+      "TemplateResRef" : "waterpoolsmall",
+      "Times" : 3,
+      "Volume" : 33,
+      "VolumeVrtn" : 0,
+      "XPosition" : 8.595806,
+      "YPosition" : 33.282753,
+      "ZPosition" : 0.49999857
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 68018,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_waterfall1"
+        }
+      ],
+      "Tag" : "WaterfallSmall",
+      "TemplateResRef" : "waterfallsmal",
+      "Times" : 3,
+      "Volume" : 83,
+      "VolumeVrtn" : 0,
+      "XPosition" : 4.6182404,
+      "YPosition" : 34.95253,
+      "ZPosition" : 0.7413144
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNote" : "To Tristram",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_WELL",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.0,
+      "XPosition" : 14.765033,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 10.919725,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "01.90.W.A.Q.BORD"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "POST_CELIA",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : -1.0,
+      "XPosition" : 8.6,
+      "YOrientation" : 1.6252187E-6,
+      "YPosition" : 41.02,
+      "ZPosition" : 0.0
+    },
+    {
+      "Appearance" : 3,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "00.90.W.A.Q.SCRT"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_CELIA_01",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.0,
+      "XPosition" : 33.176506,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 42.566727,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

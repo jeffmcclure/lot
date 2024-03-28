@@ -1,0 +1,95 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 37,
+    "AmbientSndDayVol" : 32,
+    "AmbientSndNight" : 37,
+    "AmbientSndNitVol" : 47,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 0,
+    "MusicDelay" : 10000,
+    "MusicNight" : 0
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 53,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415899,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_WATERFALLSX",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Forest"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "TEMPTRESS_2FORESTX",
+      "TemplateResRef" : "nw_door_ttr_13",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 15.0,
+      "Y" : 3.99,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [ ],
+  "SoundList" : [ ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to the Forest"
+          }
+        ]
+      },
+      "MapNote" : "Back to the Forest",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_TEMPTRESSX",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.0,
+      "XPosition" : 15.011954,
+      "YOrientation" : 1.0,
+      "YPosition" : 6.225828,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

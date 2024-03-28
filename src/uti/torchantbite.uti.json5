@@ -1,0 +1,64 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 69,
+  "Charges" : 0,
+  "Cost" : 125610,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : null,
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13238,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Torchant Bite"
+      }
+    ]
+  },
+  "ModelPart1" : 1,
+  "PaletteID" : 55,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 56,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 10
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 19,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 77,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 6,
+      "Param1Value" : 5,
+      "PropertyName" : 72,
+      "Subtype" : 2
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "D1_TORCHANTBITE",
+  "TemplateResRef" : "torchantbite"
+}

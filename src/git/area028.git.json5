@@ -1,0 +1,3436 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 55,
+    "AmbientSndDayVol" : 71,
+    "AmbientSndNight" : 55,
+    "AmbientSndNitVol" : 72,
+    "EnvAudio" : 15,
+    "MusicBattle" : 0,
+    "MusicDay" : 103,
+    "MusicDelay" : 10000,
+    "MusicNight" : 103
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 6,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "BridgeDoor",
+      "TemplateResRef" : "nw_door_ttr_06",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 95.0,
+      "Z" : 1.88
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 6,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : "",
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_SDFOREST_2EDFOREST",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 62,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Deep Forest - Southern Pit"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EDFOREST_2SDFOREST",
+      "TemplateResRef" : "nw_door_ttr_06",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 5.0,
+      "Y" : 65.0,
+      "Z" : 1.88
+    },
+    {
+      "AnimationState" : 1,
+      "Appearance" : 54,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415865,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_DRAGON2FOREST",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 21,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Dragon Cave"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "FOREST_2DRAGON",
+      "TemplateResRef" : "nw_door_ttr_25",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 4.2,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.3107853,
+          "Y" : -3.544632,
+          "Z" : 1.6455101
+        },
+        {
+          "X" : -0.049041748,
+          "Y" : -3.471138,
+          "Z" : 1.6455101
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455101
+        },
+        {
+          "X" : -0.04606819,
+          "Y" : -0.0025405884,
+          "Z" : 1.6455101
+        },
+        {
+          "X" : -3.2556314,
+          "Y" : -0.22515869,
+          "Z" : 1.6455096
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 34.952957,
+          "Y" : 74.32059,
+          "Z" : 1.620506
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 16.774725,
+      "YPosition" : 66.78743,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.025279999,
+          "Y" : -0.13951874,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : -1.3160706E-4,
+          "Y" : -3.3730545,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.7366238,
+          "Y" : -3.3931236,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.778471,
+          "Y" : 0.04309082,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 25.054993,
+          "Y" : 75.0001,
+          "Z" : 1.620506
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 23.115358,
+      "YPosition" : 56.626274,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 158,
+          "CR" : 5.0,
+          "ResRef" : "spider001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 159,
+          "CR" : 7.0,
+          "ResRef" : "spider002",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -2.4736023,
+          "Y" : 0.24451542,
+          "Z" : 0.08117887
+        },
+        {
+          "X" : -2.4288788,
+          "Y" : -8.9604435,
+          "Z" : 0.027190113
+        },
+        {
+          "X" : 0.28337097,
+          "Y" : -7.986876,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.19176483,
+          "Y" : -0.1075964,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Spider Group (low)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 49.4629,
+          "Y" : 10.631109,
+          "Z" : 9.775162E-6
+        }
+      ],
+      "Tag" : "SpiderGrouplow",
+      "TemplateResRef" : "spidergroup001",
+      "XPosition" : 31.765015,
+      "YPosition" : 14.013782,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.69804,
+          "Y" : -3.5364838,
+          "Z" : 1.58773
+        },
+        {
+          "X" : -0.01858902,
+          "Y" : -3.4964142,
+          "Z" : 1.58773
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.5877303
+        },
+        {
+          "X" : 0.10317993,
+          "Y" : 0.037143707,
+          "Z" : 1.58773
+        },
+        {
+          "X" : -3.6762466,
+          "Y" : 0.021205902,
+          "Z" : 1.58773
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 64.52087,
+          "Y" : 54.795277,
+          "Z" : 1.5627289
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 46.750954,
+      "YPosition" : 56.794456,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.13834953,
+          "Y" : -0.14809418,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.19153404,
+          "Y" : -3.664238,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.8964443,
+          "Y" : -3.815445,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.6923065,
+          "Y" : 0.015266418,
+          "Z" : 1.6455101
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 51.461296,
+          "Y" : 81.73663,
+          "Z" : 9.536743E-6
+        },
+        {
+          "Orientation" : -0.0,
+          "X" : 51.270023,
+          "Y" : 96.439354,
+          "Z" : 0.040642023
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 23.039076,
+      "YPosition" : 76.890976,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.7134323,
+          "Y" : -3.5452194,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 0.088775635,
+          "Y" : -3.5775795,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : -0.031028748,
+          "Y" : 0.003665924,
+          "Z" : 1.6438497
+        },
+        {
+          "X" : -3.7129745,
+          "Y" : -0.024814606,
+          "Z" : 1.6438502
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 94.77539,
+          "Y" : 54.368927,
+          "Z" : 1.620506
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 76.81107,
+      "YPosition" : 56.77469,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 170,
+          "CR" : 4.0,
+          "ResRef" : "wererat001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 171,
+          "CR" : 6.0,
+          "ResRef" : "werewolf001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.12805176,
+          "Y" : -3.4910812,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.257347,
+          "Y" : -3.5234795,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.250122,
+          "Y" : -0.05971527,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : -0.10443115,
+          "Y" : -0.30734634,
+          "Z" : 1.6455101
+        }
+      ],
+      "LocalizedName" : "Werefolk Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 95.180756,
+          "Y" : 85.13121,
+          "Z" : 1.620506
+        }
+      ],
+      "Tag" : "WerefolkGrouplow",
+      "TemplateResRef" : "werefolk001",
+      "XPosition" : 93.44333,
+      "YPosition" : 56.72408,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.045578,
+          "Y" : -3.5789795,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 0.023849487,
+          "Y" : -3.7042809,
+          "Z" : 1.64385
+        },
+        {
+          "X" : 5.3355587E-4,
+          "Y" : -0.08285542,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : -3.995491,
+          "Y" : -0.24042511,
+          "Z" : 1.6438502
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 84.43931,
+          "Y" : 44.559795,
+          "Z" : 1.6188447
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 76.97883,
+      "YPosition" : 56.888836,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.552414,
+          "Y" : 3.6601906,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : -3.552353,
+          "Y" : -0.090789795,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : -0.024429321,
+          "Y" : 0.015449524,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : -0.06100464,
+          "Y" : 3.5826073,
+          "Z" : 1.6438502
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 95.238945,
+          "Y" : 13.162729,
+          "Z" : 0.53399557
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 86.770615,
+      "YPosition" : 33.251625,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.5877298
+        },
+        {
+          "X" : 0.023704529,
+          "Y" : -3.4249077,
+          "Z" : 1.5877298
+        },
+        {
+          "X" : 3.472435,
+          "Y" : -3.476818,
+          "Z" : 1.58773
+        },
+        {
+          "X" : 3.3859863,
+          "Y" : 0.090660095,
+          "Z" : 1.5877303
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 104.21237,
+          "Y" : 75.8047,
+          "Z" : 1.001358E-5
+        },
+        {
+          "Orientation" : -0.0,
+          "X" : 103.0617,
+          "Y" : 93.577415,
+          "Z" : -2.861023E-6
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 93.18393,
+      "YPosition" : 66.653915,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.5069122,
+          "Y" : -2.1279144,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : -0.025238037,
+          "Y" : -0.07549286,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 0.92007446,
+          "Y" : 16.972374,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : -0.48766327,
+          "Y" : 16.612099,
+          "Z" : 0.024999524
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (mid)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 95.66311,
+          "Y" : 84.94481,
+          "Z" : 1.620506
+        }
+      ],
+      "Tag" : "CursedBanditGroupmid",
+      "TemplateResRef" : "cursedbandit002",
+      "XPosition" : 82.27495,
+      "YPosition" : 78.30415,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.5646133,
+          "Y" : -3.432232,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : -7.6293945E-6,
+          "Y" : -3.3276253,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : -0.058547974,
+          "Y" : -0.04750824,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : -3.5132523,
+          "Y" : -0.024765015,
+          "Z" : 1.6455096
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 124.03088,
+          "Y" : 53.74254,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 106.78129,
+      "YPosition" : 66.75576,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1234,
+          "CR" : 6.0,
+          "ResRef" : "caveviper002",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -7.7496033,
+          "Y" : -1.7455254,
+          "Z" : 0.027190113
+        },
+        {
+          "X" : 0.6667938,
+          "Y" : -1.7464676,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.071395874,
+          "Y" : -0.036273956,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -6.836426,
+          "Y" : 0.21429443,
+          "Z" : 0.116660975
+        }
+      ],
+      "LocalizedName" : "Forest Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 133.98059,
+          "Y" : 6.9287815,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "FORESTVIPER",
+      "TemplateResRef" : "werefolk002",
+      "XPosition" : 143.58144,
+      "YPosition" : 42.736538,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 159,
+          "CR" : 7.0,
+          "ResRef" : "spider002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 0.0424881,
+          "Y" : -0.12065506,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 1.0508957,
+          "Y" : -1.8397865,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 9.341255,
+          "Y" : -6.0455627,
+          "Z" : 0.025
+        },
+        {
+          "X" : 8.864639,
+          "Y" : -3.256258,
+          "Z" : 0.20718184
+        }
+      ],
+      "LocalizedName" : "Spider Group (mid)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 121.582466,
+          "Y" : 38.68497,
+          "Z" : 0.005056381
+        }
+      ],
+      "Tag" : "SpiderGroupmid",
+      "TemplateResRef" : "spidergroup002",
+      "XPosition" : 104.52221,
+      "YPosition" : 25.551113,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.04460907,
+          "Y" : -0.17116547,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.056510925,
+          "Y" : -3.3074112,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.3830948,
+          "Y" : -3.3109283,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.3520126,
+          "Y" : 0.058525085,
+          "Z" : 1.6455096
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 93.31083,
+          "Y" : 116.06547,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 93.2585,
+      "YPosition" : 86.57791,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455101
+        },
+        {
+          "X" : 0.044677734,
+          "Y" : -0.05558777,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.060897827,
+          "Y" : -3.5039368,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.444748,
+          "Y" : -3.5464478,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.4588318,
+          "Y" : -0.03037262,
+          "Z" : 1.6455096
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (mid)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 76.48981,
+          "Y" : 126.67244,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "CursedBanditGroupmid",
+      "TemplateResRef" : "cursedbandit002",
+      "XPosition" : 93.2046,
+      "YPosition" : 106.74237,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.036735535,
+          "Y" : 3.5073318,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 0.03954315,
+          "Y" : 0.0059280396,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 3.4602432,
+          "Y" : 0.18825531,
+          "Z" : 1.6438502
+        },
+        {
+          "X" : 3.5751343,
+          "Y" : 3.4946213,
+          "Z" : 1.6438502
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (mid)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 49.552135,
+          "Y" : 82.38932,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "CursedBanditGroupmid",
+      "TemplateResRef" : "cursedbandit002",
+      "XPosition" : 73.31352,
+      "YPosition" : 103.2659,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 5.0,
+          "ResRef" : "wererat003",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.050785065,
+          "Y" : 3.2598572,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.5416222,
+          "Y" : -0.07430267,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.5391273,
+          "Y" : 3.4033737,
+          "Z" : 1.6455096
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (low)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 41.725277,
+          "Y" : 119.870224,
+          "Z" : 9.775162E-6
+        }
+      ],
+      "Tag" : "CursedBanditGrouplow",
+      "TemplateResRef" : "cursedbandit001",
+      "XPosition" : 63.181942,
+      "YPosition" : 93.34935,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 159,
+          "CR" : 7.0,
+          "ResRef" : "spider002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 0.030330658,
+          "Y" : 0.1427002,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 1.8112793,
+          "Y" : 0.77671814,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 2.7332764,
+          "Y" : 9.461975,
+          "Z" : 0.053949855
+        },
+        {
+          "X" : 0.5574722,
+          "Y" : 9.661438,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Spider Group (mid)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 10.698793,
+          "Y" : 139.84828,
+          "Z" : 0.0025633872
+        }
+      ],
+      "Tag" : "SpiderGroupmid",
+      "TemplateResRef" : "spidergroup002",
+      "XPosition" : 37.51105,
+      "YPosition" : 135.07945,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 11.0,
+          "ResRef" : "spider004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -15.399256,
+          "Y" : 17.19455,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : -0.1524353,
+          "Y" : 0.16535187,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.2902508,
+          "Y" : -1.5010071,
+          "Z" : 0.025
+        },
+        {
+          "X" : -13.647092,
+          "Y" : 17.860687,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Spider Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 18.346136,
+          "Y" : 89.679955,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "SpiderGrouphigh",
+      "TemplateResRef" : "spidergroup003",
+      "XPosition" : 20.981201,
+      "YPosition" : 125.1006,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 170,
+          "CR" : 4.0,
+          "ResRef" : "wererat001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 171,
+          "CR" : 6.0,
+          "ResRef" : "werewolf001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.18589,
+          "Y" : -7.2240677,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 1.434967,
+          "Y" : -7.217842,
+          "Z" : 0.09966292
+        },
+        {
+          "X" : 0.13104248,
+          "Y" : 0.031311035,
+          "Z" : 0.022447908
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.027190113
+        }
+      ],
+      "LocalizedName" : "Werefolk Group (mid)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 132.81833,
+          "Y" : 128.31569,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "WerefolkGroupmid",
+      "TemplateResRef" : "werefolk002",
+      "XPosition" : 129.95078,
+      "YPosition" : 114.30081,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 11.0,
+          "ResRef" : "spider004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -20.71872,
+          "Y" : 0.020942688,
+          "Z" : 0.025
+        },
+        {
+          "X" : -19.679802,
+          "Y" : -2.2975998,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.6251602,
+          "Y" : -2.3186264,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.06248474,
+          "Y" : 0.009895325,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Spider Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 120.55712,
+          "Y" : 104.81337,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "SpiderGrouphigh",
+      "TemplateResRef" : "spidergroup003",
+      "XPosition" : 125.05655,
+      "YPosition" : 92.473206,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 159,
+          "CR" : 7.0,
+          "ResRef" : "spider002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.08333588,
+          "Y" : 0.022331238,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 8.576668,
+          "Y" : 1.9314499,
+          "Z" : 0.025
+        },
+        {
+          "X" : 15.59288,
+          "Y" : 10.66552,
+          "Z" : 0.025
+        },
+        {
+          "X" : 13.012978,
+          "Y" : 11.222855,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Spider Group (mid)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 100.04948,
+          "Y" : 138.7244,
+          "Z" : 0.008865356
+        }
+      ],
+      "Tag" : "SpiderGroupmid",
+      "TemplateResRef" : "spidergroup002",
+      "XPosition" : 102.684814,
+      "YPosition" : 113.75361,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 269,
+          "CR" : 7.0,
+          "ResRef" : "werewolf004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.053024292,
+          "Y" : -3.681038,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.5822449,
+          "Y" : -3.6874886,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 3.4840393,
+          "Y" : -0.017753601,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.6455096
+        },
+        {
+          "X" : 0.05848694,
+          "Y" : -0.08299255,
+          "Z" : 1.6455101
+        }
+      ],
+      "LocalizedName" : "Cursed Bandit Group (mid)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 89.66934,
+          "Y" : 119.4851,
+          "Z" : 1.001358E-5
+        }
+      ],
+      "Tag" : "CursedBanditGroupmid",
+      "TemplateResRef" : "cursedbandit002",
+      "XPosition" : 133.20953,
+      "YPosition" : 66.78983,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 11.0,
+          "ResRef" : "spider004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.1854916,
+          "Y" : -8.125778,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.1369648,
+          "Y" : -7.061104,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.027190113
+        },
+        {
+          "X" : 0.0037078857,
+          "Y" : 0.023422241,
+          "Z" : 0.027190113
+        },
+        {
+          "X" : -0.95671844,
+          "Y" : -0.7015991,
+          "Z" : 0.027190113
+        }
+      ],
+      "LocalizedName" : "Spider Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 11.948469,
+          "Y" : 111.92604,
+          "Z" : 0.20015264
+        }
+      ],
+      "Tag" : "SpiderGrouphigh",
+      "TemplateResRef" : "spidergroup003",
+      "XPosition" : 28.138296,
+      "YPosition" : 93.049576,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1168,
+          "CR" : 9.0,
+          "ResRef" : "spider003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1256,
+          "CR" : 11.0,
+          "ResRef" : "spider004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -8.647858,
+          "Y" : 0.10087204,
+          "Z" : 0.024999524
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.028079892
+        },
+        {
+          "X" : 0.067474365,
+          "Y" : 0.15470695,
+          "Z" : 0.028079892
+        },
+        {
+          "X" : -0.45362854,
+          "Y" : 1.9162788,
+          "Z" : 0.032339714
+        },
+        {
+          "X" : -8.370499,
+          "Y" : 2.0555496,
+          "Z" : 0.033660553
+        }
+      ],
+      "LocalizedName" : "Spider Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 134.8245,
+          "Y" : 49.490208,
+          "Z" : 0.0021977425
+        }
+      ],
+      "Tag" : "SpiderGrouphigh",
+      "TemplateResRef" : "spidergroup003",
+      "XPosition" : 144.15564,
+      "YPosition" : 19.81935,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 113,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 2.3806274,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14603,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14601,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_mid",
+      "OnOpen" : "loot_normal_mid",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 471,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CORPSE4",
+      "TemplateResRef" : "corpse003",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 79.11726,
+      "Y" : 81.39539,
+      "Z" : 0.047228098
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 146,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14572,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5789,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 504,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bloodstain",
+      "TemplateResRef" : "plc_bloodstain",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 78.908424,
+      "Y" : 81.23329,
+      "Z" : 0.08030152
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 9,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 18,
+      "Description" : {
+        "StringRef" : 14596,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 18,
+      "Hardness" : 8,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Chest"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_mid",
+      "OnOpen" : "loot_normal_mid",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 367,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST3",
+      "TemplateResRef" : "chest003",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 76.264015,
+      "Y" : 80.55614,
+      "Z" : 0.0671494
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 9,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 18,
+      "Description" : {
+        "StringRef" : 14596,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 18,
+      "Hardness" : 8,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Chest"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_mid",
+      "OnOpen" : "loot_normal_mid",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 367,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST3",
+      "TemplateResRef" : "chest003",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 76.36453,
+      "Y" : 83.57981,
+      "Z" : 0.23478618
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -2.356192,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_low",
+      "OnOpen" : "loot_normal_low",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST2",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 53.88546,
+      "Y" : 4.5991044,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bones",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 51.58406,
+      "Y" : 10.279745,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.6283917,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bones",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 48.98,
+      "Y" : 7.25,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 0.7853982,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 125.735,
+      "Y" : 25.44113,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_low",
+      "OnOpen" : "loot_normal_low",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST2",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 53.180923,
+      "Y" : 80.240135,
+      "Z" : 0.03318386
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bones",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 50.70928,
+      "Y" : 80.69264,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 146,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14572,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5789,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 504,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bloodstain",
+      "TemplateResRef" : "plc_bloodstain",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 48.662617,
+      "Y" : 78.002464,
+      "Z" : 0.09567112
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 2.356192,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bones",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 49.79743,
+      "Y" : 78.19518,
+      "Z" : 1.001358E-5
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 113,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.679003,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14603,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14601,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_mid",
+      "OnOpen" : "loot_normal_mid",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 471,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CORPSE4",
+      "TemplateResRef" : "corpse003",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 29.908794,
+      "Y" : 92.06643,
+      "Z" : 0.088896155
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bones",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 28.718632,
+      "Y" : 93.69733,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 186,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 66888,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 52997,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 549,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bones",
+      "TemplateResRef" : "plc_bones",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 32.46383,
+      "Y" : 90.1994,
+      "Z" : 2.1290407E-4
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 146,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14572,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5789,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 504,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Bloodstain",
+      "TemplateResRef" : "plc_bloodstain",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 29.498241,
+      "Y" : 91.98921,
+      "Z" : 0.0021977425
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14672,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "MagicSparksBlue",
+      "TemplateResRef" : "plc_magicblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 133.75275,
+      "Y" : 148.89705,
+      "Z" : 0.14598203
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14672,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "MagicSparksBlue",
+      "TemplateResRef" : "plc_magicblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 133.21492,
+      "Y" : 147.98042,
+      "Z" : 0.20509744
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14672,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "MagicSparksBlue",
+      "TemplateResRef" : "plc_magicblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 126.450714,
+      "Y" : 148.93877,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14672,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "MagicSparksBlue",
+      "TemplateResRef" : "plc_magicblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 126.96475,
+      "Y" : 148.17462,
+      "Z" : 9.536743E-6
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 20000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 68023,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_wererat1"
+        },
+        {
+          "Sound" : "as_an_wererat2"
+        },
+        {
+          "Sound" : "as_an_wererat3"
+        }
+      ],
+      "Tag" : "WereratCaveGrunts",
+      "TemplateResRef" : "wereratcavegrunt",
+      "Times" : 3,
+      "Volume" : 33,
+      "VolumeVrtn" : 0,
+      "XPosition" : 99.140564,
+      "YPosition" : 138.17496,
+      "ZPosition" : 1.50001
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 15000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 68037,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_wolfhowl1"
+        },
+        {
+          "Sound" : "as_an_wolfhowl2"
+        },
+        {
+          "Sound" : "as_an_wolveshwl1"
+        },
+        {
+          "Sound" : "as_an_wolveshwl2"
+        }
+      ],
+      "Tag" : "WolfHowls",
+      "TemplateResRef" : "wolfhowls",
+      "Times" : 3,
+      "Volume" : 50,
+      "VolumeVrtn" : 0,
+      "XPosition" : 99.34798,
+      "YPosition" : 140.41153,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 25000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67948,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_pl_screamm1"
+        },
+        {
+          "Sound" : "as_pl_screamm2"
+        },
+        {
+          "Sound" : "as_pl_screamm3"
+        }
+      ],
+      "Tag" : "ScreamsMen",
+      "TemplateResRef" : "screamsmen",
+      "Times" : 3,
+      "Volume" : 32,
+      "VolumeVrtn" : 0,
+      "XPosition" : 101.48985,
+      "YPosition" : 140.9897,
+      "ZPosition" : 1.5183096
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 33000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67958,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_pl_shriekm3"
+        }
+      ],
+      "Tag" : "ShrieksMenOutside",
+      "TemplateResRef" : "shrieksmenoutsid",
+      "Times" : 3,
+      "Volume" : 37,
+      "VolumeVrtn" : 0,
+      "XPosition" : 101.21996,
+      "YPosition" : 138.8643,
+      "ZPosition" : 1.6185076
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67845,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_entrmyst1"
+        }
+      ],
+      "Tag" : "EntranceMysterious",
+      "TemplateResRef" : "entrancemysterio",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 134.68489,
+      "YPosition" : 4.666151,
+      "ZPosition" : 1.5599875
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 15000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 68030,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_wt_gustchasm1"
+        }
+      ],
+      "Tag" : "WindGustChasm",
+      "TemplateResRef" : "windgustchasm",
+      "Times" : 3,
+      "Volume" : 64,
+      "VolumeVrtn" : 0,
+      "XPosition" : 103.386215,
+      "YPosition" : 140.16232,
+      "ZPosition" : 1.5030079
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 1,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.030476952
+        },
+        {
+          "PointX" : 4.524105,
+          "PointY" : -0.017439842,
+          "PointZ" : 0.027190113
+        },
+        {
+          "PointX" : 4.545286,
+          "PointY" : 0.835531,
+          "PointZ" : 0.027190113
+        },
+        {
+          "PointX" : 0.06467247,
+          "PointY" : 0.88712096,
+          "PointZ" : 0.051128767
+        },
+        {
+          "PointX" : 0.035215378,
+          "PointY" : 1.206398E-4,
+          "PointZ" : 0.027752304
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "WP_FOREST_2EDFOREST",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 61,
+      "LocalizedName" : {
+        "StringRef" : 14760,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Forest Area"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "EDFOREST_2FOREST",
+      "TemplateResRef" : "newtransition",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 1,
+      "XOrientation" : 0.0,
+      "XPosition" : 17.481821,
+      "YOrientation" : 0.0,
+      "YPosition" : 0.17257929,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    },
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 0,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -0.0055236816,
+          "PointY" : -2.3035126,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 8.696426,
+          "PointY" : -3.276596,
+          "PointZ" : 0.029214406
+        },
+        {
+          "PointX" : 7.992981,
+          "PointY" : -1.8574677,
+          "PointZ" : 0.031058455
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 0.02495575,
+          "PointY" : -0.07330322,
+          "PointZ" : 0.025
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [ ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "trg_lightseast",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "TRG_EASTLIGHTS",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 125.6909,
+      "YOrientation" : 0.0,
+      "YPosition" : 143.77585,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    },
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 1,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -0.65470886,
+          "PointY" : -1.1850586,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 4.5566483,
+          "PointY" : -1.2364349,
+          "PointZ" : 0.17063835
+        },
+        {
+          "PointX" : 4.072365,
+          "PointY" : 0.009048462,
+          "PointZ" : 0.061035775
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : -0.040046692,
+          "PointY" : -0.11186218,
+          "PointZ" : 0.025
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "WP_NDFOREST_2EDFOREST",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 62,
+      "LocalizedName" : {
+        "StringRef" : 14760,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Deep Forest - Northern Area"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "EDFOREST_2NDFOREST",
+      "TemplateResRef" : "newtransition",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 1,
+      "XOrientation" : 0.0,
+      "XPosition" : 127.983604,
+      "YOrientation" : 0.0,
+      "YPosition" : 149.61646,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Northern Area"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Northern Area"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_EDFOREST_2NDFOREST",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 1.5171367E-5,
+      "XPosition" : 129.96304,
+      "YOrientation" : -1.0,
+      "YPosition" : 148.16335,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Southern Pit"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To the Southern Pit"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "EDFOREST_2SDFOREST",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 1.0,
+      "XPosition" : 6.8499994,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 64.97,
+      "ZPosition" : 1.6205053
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : "To the Forest Clearing",
+      "MapNote" : "To the Forest Clearing",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_EDFOREST_2FOREST",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.0,
+      "XPosition" : 19.975206,
+      "YOrientation" : 1.0,
+      "YPosition" : 1.5081754,
+      "ZPosition" : 4.5490265E-4
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Forest Cavern"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Forest Cavern"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_FOREST2DRAGON",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 0.0,
+      "XPosition" : 135.01506,
+      "YOrientation" : 1.0,
+      "YPosition" : 6.5713625,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

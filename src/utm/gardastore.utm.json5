@@ -1,0 +1,142 @@
+{
+  "BMMarkDown" : 25,
+  "BlackMarket" : 0,
+  "Comment" : "",
+  "ID" : 4,
+  "IdentifyPrice" : -1,
+  "LocName" : "Garda's Tavern Store",
+  "MarkDown" : 25,
+  "MarkUp" : 95,
+  "MaxBuyPrice" : -1,
+  "OnOpenStore" : "",
+  "OnStoreClosed" : "",
+  "ResRef" : "gardastore",
+  "StoreGold" : -1,
+  "StoreList" : [
+    {
+      "StructId" : 0
+    },
+    {
+      "StructId" : 4
+    },
+    {
+      "ItemList" : [
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_mpotion021",
+          "ReposPosX" : 0,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_mpotion022",
+          "ReposPosX" : 1,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_mpotion023",
+          "ReposPosX" : 2,
+          "ReposPosy" : 0
+        }
+      ],
+      "StructId" : 2
+    },
+    {
+      "StructId" : 3
+    },
+    {
+      "ItemList" : [
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_contain002",
+          "ReposPosX" : 0,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_contain003",
+          "ReposPosX" : 2,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_contain004",
+          "ReposPosX" : 4,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_contain005",
+          "ReposPosX" : 6,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_torch001",
+          "ReposPosX" : 8,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "nw_it_contain001",
+          "ReposPosX" : 0,
+          "ReposPosy" : 2
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanternblue",
+          "ReposPosX" : 9,
+          "ReposPosy" : 0
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanterngreen",
+          "ReposPosX" : 2,
+          "ReposPosy" : 2
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanternrorange",
+          "ReposPosX" : 3,
+          "ReposPosy" : 2
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanternrpurple",
+          "ReposPosX" : 4,
+          "ReposPosy" : 2
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanternred",
+          "ReposPosX" : 5,
+          "ReposPosy" : 2
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanternwhite",
+          "ReposPosX" : 6,
+          "ReposPosy" : 2
+        },
+        {
+          "Infinite" : 1,
+          "InventoryRes" : "lanternyellow",
+          "ReposPosX" : 7,
+          "ReposPosy" : 2
+        }
+      ],
+      "StructId" : 1
+    }
+  ],
+  "Tag" : "STO_GARDASTORE",
+  "WillNotBuy" : [ ],
+  "WillOnlyBuy" : [
+    {
+      "BaseItem" : 77
+    },
+    {
+      "BaseItem" : 49
+    }
+  ]
+}

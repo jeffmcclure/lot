@@ -1,0 +1,289 @@
+{
+  "AppearanceType" : 168,
+  "BodyBag" : 3,
+  "CRAdjust" : -18,
+  "Cha" : 13,
+  "ChallengeRating" : 16.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 8,
+      "ClassX" : 11
+    },
+    {
+      "ClassLevel" : 17,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 19,
+  "Conversation" : "",
+  "CurrentHitPoints" : 125,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12789,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Subterranean monsters that look like a cross between a great ape and a beetle, Hork Demons are one of the strongest of the swarming brood.  The Hork Demon Lord is their undisputed master."
+      }
+    ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp016",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp016",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "horkdemonbite",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "horkdemonhide",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12790,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Hork Demon Lord"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 2,
+  "GoodEvil" : 0,
+  "HitPoints" : 125,
+  "Int" : 9,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "theodore",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 250,
+  "NaturalAC" : 7,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 309,
+  "Race" : 7,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_uniquex",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 95,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 251,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 252,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 259,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 261,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 262,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 73,
+  "Str" : 23,
+  "Subrace" : "",
+  "Tag" : "D1_HORKDEMONLORD",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "horkdemonlord",
+  "WalkRate" : 5,
+  "Willbonus" : 1,
+  "Wings" : 0,
+  "Wis" : 11
+}

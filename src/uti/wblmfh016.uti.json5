@@ -1,0 +1,75 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 35,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 76352,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This is Valen's flail, its dual spiked heads carved from a black bone-like material that is extremely cold to the touch.  The weapon was with valen throughout the many years that he spent in the Abyss fighting the Blood Wars... it specializes in dealing death to devils and other outsiders, but is still very effective against other opponents.  Even if valen was to be given another weapon, he would still not relinquish this one."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13974,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Devil's Bane"
+      }
+    ]
+  },
+  "ModelPart1" : 23,
+  "ModelPart2" : 23,
+  "ModelPart3" : 44,
+  "PaletteID" : 40,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 3,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 8,
+      "Subtype" : 20
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 43,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 9,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 74,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "DEVILSBANE",
+  "TemplateResRef" : "wblmfh016"
+}

@@ -1,0 +1,46 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 10,
+  "Charges" : 0,
+  "Comment" : "By making it a halberd, the naginata does not require the Exotic Weapon feat but it fits more easily into the existing weapon classes this way.\r\n\r\nPurists would do well to rename the wplhb_ models to wplna_ and to create a new entry in the baseitems.2da file for the naginata (you will have to review both the katana entry and the halberd entry and merge the two to get the right damage as well as the Exotic Weapon proficiency).",
+  "Cost" : 7238,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 16807838,
+    "Strings" : [ ]
+  },
+  "Description" : {
+    "StringRef" : 16807838,
+    "Strings" : [ ]
+  },
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 16807600,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Naginata +2"
+      }
+    ]
+  },
+  "ModelPart1" : 13,
+  "ModelPart2" : 21,
+  "ModelPart3" : 253,
+  "PaletteID" : 51,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "ZEP_NAGINATA2",
+  "TemplateResRef" : "zep_naginata002"
+}

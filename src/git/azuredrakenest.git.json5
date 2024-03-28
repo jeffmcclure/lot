@@ -1,0 +1,1308 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 85,
+    "AmbientSndDayVol" : 44,
+    "AmbientSndNight" : 85,
+    "AmbientSndNitVol" : 44,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 107,
+    "MusicDelay" : 11000,
+    "MusicNight" : 107
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 1,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyName" : "KEY_AZUREDRAKE1",
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CorriDoor",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 55.0,
+      "Y" : 45.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 1,
+      "Bearing" : -3.1415844,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyName" : "KEY_AZUREDRAKE2",
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CorriDoor",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 45.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 1,
+      "Appearance" : 61,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_HELL2AZURE",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 15,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Hell 2"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "AZURE_2HELL2",
+      "TemplateResRef" : "nw_door_ttr_27",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 78.37,
+      "Y" : 65.28,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9074,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 10,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 28,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EvilStoneDoor",
+      "TemplateResRef" : "door_evlstone001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 10.0,
+      "Y" : 45.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415844,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9074,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 10,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 28,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EvilStoneDoor",
+      "TemplateResRef" : "door_evlstone001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 45.0,
+      "Y" : 10.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 14,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CorriDoor",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 25.0,
+      "Y" : 65.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 14,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415858,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "CorriDoor",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 65.0,
+      "Y" : 25.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1225,
+          "CR" : 13.0,
+          "ResRef" : "azureviper",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.0715027,
+          "Y" : 5.85804,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.10076904,
+          "Y" : -0.021781921,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.204422,
+          "Y" : -0.6281433,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : -2.7105637,
+          "Y" : 7.4635925,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Azure Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 12.057971,
+          "Y" : 64.36011,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREVIPER",
+      "TemplateResRef" : "azureviper",
+      "XPosition" : 37.301136,
+      "YPosition" : 63.465378,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1225,
+          "CR" : 13.0,
+          "ResRef" : "azureviper",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -5.7472878,
+          "Y" : 7.0379486,
+          "Z" : 0.025
+        },
+        {
+          "X" : -5.445362,
+          "Y" : 3.7777634,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.112724304,
+          "Y" : 0.079940796,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 2.1589432,
+          "Y" : 1.401619,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Azure Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 64.5673,
+          "Y" : 9.632124,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREVIPER",
+      "TemplateResRef" : "azureviper",
+      "XPosition" : 68.86987,
+      "YPosition" : 33.26124,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1225,
+          "CR" : 13.0,
+          "ResRef" : "azureviper",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.042804718,
+          "Y" : 7.1857376,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.06603241,
+          "Y" : 0.028800964,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.5741806,
+          "Y" : 0.07880783,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.4918938,
+          "Y" : 7.126816,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Azure Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 4.9698954,
+          "Y" : 44.674603,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREVIPER",
+      "TemplateResRef" : "azureviper",
+      "XPosition" : 56.65184,
+      "YPosition" : 41.44222,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1225,
+          "CR" : 13.0,
+          "ResRef" : "azureviper",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -7.257019,
+          "Y" : 1.3048859,
+          "Z" : 0.025
+        },
+        {
+          "X" : -7.1825333,
+          "Y" : -0.054721832,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0035552979,
+          "Y" : 0.082588196,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.062274933,
+          "Y" : 1.223835,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Azure Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 44.61068,
+          "Y" : 5.148929,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREVIPER",
+      "TemplateResRef" : "azureviper",
+      "XPosition" : 48.60332,
+      "YPosition" : 56.75395,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 42,
+          "CR" : 36.0,
+          "ResRef" : "fangskin",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -11.479317,
+          "Y" : 11.479317,
+          "Z" : 0.025
+        },
+        {
+          "X" : -11.300575,
+          "Y" : 6.931282,
+          "Z" : 0.025
+        },
+        {
+          "X" : -4.1111107,
+          "Y" : -0.0993042,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.059577942,
+          "Y" : -0.019863129,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.19860077,
+          "Y" : 6.3553314,
+          "Z" : 0.025
+        },
+        {
+          "X" : -5.580776,
+          "Y" : 5.858822,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : -4.6870575,
+          "Y" : 11.519035,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Azure Drake",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 1,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 22.508686,
+          "Y" : 22.21763,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREDRAKE",
+      "TemplateResRef" : "azuredrake",
+      "XPosition" : 53.058292,
+      "YPosition" : 41.924866,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1225,
+          "CR" : 13.0,
+          "ResRef" : "azureviper",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.1319466,
+          "Y" : 1.6085901,
+          "Z" : 0.025
+        },
+        {
+          "X" : -2.5257683,
+          "Y" : -0.0914669,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.04416275,
+          "Y" : 0.04361725,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.47621536,
+          "Y" : 1.7050219,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Azure Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 68.593956,
+          "Y" : 45.21374,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREVIPER",
+      "TemplateResRef" : "azureviper",
+      "XPosition" : 46.333786,
+      "YPosition" : 10.829664,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1225,
+          "CR" : 13.0,
+          "ResRef" : "azureviper",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.02485466,
+          "Y" : -0.024856567,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.4913254,
+          "Y" : -1.4499016,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.3753338,
+          "Y" : 3.0240746,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.15875626,
+          "Y" : 2.7044868,
+          "Z" : 0.02500012
+        }
+      ],
+      "LocalizedName" : "Azure Viper",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 0,
+      "RecCreatures" : 4,
+      "Reset" : 0,
+      "ResetTime" : 60,
+      "Respawns" : 0,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 46.566097,
+          "Y" : 72.27898,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "AZUREVIPER",
+      "TemplateResRef" : "azureviper",
+      "XPosition" : 10.692566,
+      "YPosition" : 43.65123,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415844,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 18,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 50000,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD007",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_unique",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_unique",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "CHEST_BONE1",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 10,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 23,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 44.992188,
+      "Y" : 2.349374,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 20,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 35000,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD007",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_unique",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_unique",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "CHEST_BONE2",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 10,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 23,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 2.4514441,
+      "Y" : 45.06233,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 20,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 65,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : "Azure Key",
+          "ModelPart1" : 52,
+          "ModelPart2" : 52,
+          "ModelPart3" : 52,
+          "Plot" : 1,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "KEY_AZUREDRAKE1",
+          "TemplateResRef" : "azurekey001",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 10000,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD007",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "UNIQUE_MID",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 10,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 23,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 5.279772,
+      "Y" : 64.9536,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415844,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 17,
+      "Description" : {
+        "StringRef" : 14595,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 20,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 17,
+      "Hardness" : 7,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 65,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : "Azure Key",
+          "ModelPart1" : 62,
+          "ModelPart2" : 52,
+          "ModelPart3" : 42,
+          "Plot" : 1,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "KEY_AZUREDRAKE2",
+          "TemplateResRef" : "azurekey002",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 76,
+          "Charges" : 0,
+          "Cost" : 0,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 535,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 10000,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GOLD001",
+          "TemplateResRef" : "it_gold007",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnDisarm" : "s_xptrapdisarm",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "UNIQUE_MID",
+      "TemplateResRef" : "chest002",
+      "TrapDetectDC" : 10,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 1,
+      "TrapOneShot" : 1,
+      "TrapType" : 23,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 65.03694,
+      "Y" : 5.4771967,
+      "Z" : 9.536743E-6
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67873,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 15.0,
+      "MinDistance" : 1.5,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_jacobs1"
+        }
+      ],
+      "Tag" : "JacobsLadder",
+      "TemplateResRef" : "jacobsladder",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 17.54,
+      "YPosition" : 17.62,
+      "ZPosition" : 2.5
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 10000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67888,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_lizrdhiss2"
+        },
+        {
+          "Sound" : "as_an_lizrdhiss3"
+        }
+      ],
+      "Tag" : "LizardfolkHisses",
+      "TemplateResRef" : "lizardfolkhisses",
+      "Times" : 3,
+      "Volume" : 40,
+      "VolumeVrtn" : 0,
+      "XPosition" : 74.9623,
+      "YPosition" : 61.737328,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 18000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67842,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 35.0,
+      "MinDistance" : 3.5,
+      "PitchVariation" : 0.2,
+      "Positional" : 1,
+      "Priority" : 20,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_dragonror1"
+        },
+        {
+          "Sound" : "as_an_dragonror2"
+        },
+        {
+          "Sound" : "as_an_dragonror3"
+        }
+      ],
+      "Tag" : "SND_FANGSKIN",
+      "TemplateResRef" : "dragonroars",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 20,
+      "XPosition" : 37.516724,
+      "YPosition" : 38.379654,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to Hell"
+          }
+        ]
+      },
+      "MapNote" : "Back to Hell",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_AZURE2HELL2",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : -1.0,
+      "XPosition" : 75.944336,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 65.27994,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

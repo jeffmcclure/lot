@@ -1,0 +1,223 @@
+{
+  "AppearanceType" : 113,
+  "BodyBag" : 3,
+  "CRAdjust" : -3,
+  "Cha" : 15,
+  "ChallengeRating" : 7.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 3,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 12,
+  "Conversation" : "",
+  "CurrentHitPoints" : 72,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12635,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Some people are so hungry for power and knowledge that they are willing to sacrifice their humanity to the Lords of Hell in exchange for gifts that inevitably turn against them. One such group, a dark cabal of wizards, decided to take the power of creation into their own hands and magically created a race of creatures to act as servants and messengers. Using infernal abilities granted to them through their arcane pact, they formed small bat-winged imps that they believed would prove useful in carrying out deeds that were too trivial for their own efforts. Each of the sorcerers created an entity that reflected his magical specialization. The creatures thus created were small, nimble and possessed an unnatural cunning.\n\nAt first the corrupt sorcerers were overjoyed at the success of their experiment, but they soon began to notice that the Alae\ndid not serve them as loyally as they had hoped. The creatures had taken to secretly feeding from the very essence of their masters, weakening them and eventually killing them. The sorcerers tried to destroy their creations, but the fiends banded together to combat them. The Winged Fiends had been secretly breeding outside of the sorcerers domains, and swarms of them attacked, killing their former masters. To this day, the descendants of these creations terrorize the countryside.\n\nDo not underestimate these foul demons. They are physically weak, but posses great speed. Many of them possess unearthly abilities reflecting the powers of their creators and they also enjoy using their razor sharp claws and hooked wings to tear the flesh from the faces of their victims."
+      }
+    ]
+  },
+  "Dex" : 8,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp015",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp015",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "uniqueskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 178
+    },
+    {
+      "Feat" : 221
+    },
+    {
+      "Feat" : 289
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12638,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Moonbender"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 72,
+  "Int" : 12,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 75,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 251,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_uniquex",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 63,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 88,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 90,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 90,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 90,
+      "SpellCasterLevel" : 5,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 15,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "imp005",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

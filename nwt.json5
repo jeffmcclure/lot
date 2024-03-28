@@ -1,0 +1,36 @@
+[
+  {
+    "description" : "Module Description",
+    "group" : "default",
+    "id" : "1",
+    "name" : "Module Name",
+    "rules" : {
+      "*.are" : "src/are",
+      "*.dlg" : "src/dlg",
+      "*.gic" : "src/gic",
+      "*.git" : "src/git",
+      "*.itp" : "src/itp",
+      "*.nss" : "src/nss",
+      "*.utc" : "src/utc",
+      "*.utd" : "src/utd",
+      "*.ute" : "src/ute",
+      "*.uti" : "src/uti",
+      "*.utm" : "src/utm",
+      "*.utp" : "src/utp",
+      "*.uts" : "src/uts",
+      "*.utt" : "src/utt",
+      "*.utw" : "src/utw",
+      "*.fac" : "src/fac",
+      "module.*" : "src",
+      "*ncs" : "target/ncs",
+      "*" : "src/other"
+    },
+    "source" : "/Users/jeffmcclure/Documents/Neverwinter Nights/modules/lot_1_06_fix4.mod",
+    "sources" : {
+      "src/**/*.{nss,json}" : "include",
+      "src/**/*.txt" : "exclude"
+    },
+    "target" : "/Users/jeffmcclure/Documents/Neverwinter Nights/modules/lot_1_06_fix4a.mod",
+    "version" : "0.0.1"
+  }
+]

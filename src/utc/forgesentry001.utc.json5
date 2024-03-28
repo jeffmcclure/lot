@@ -1,0 +1,221 @@
+{
+  "AppearanceType" : 90,
+  "BodyBag" : 3,
+  "CRAdjust" : -7,
+  "Cha" : 3,
+  "ChallengeRating" : 18.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 13
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 95,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12692,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Created by the infernal blacksmiths of the Burning hells, these sentries stand guard over the Hellforge and were designed to be a sturdy opposition to any interloper who plans an assault to the fiery armories..."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpb017",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitemco8",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12693,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Forge Sentry"
+      }
+    ]
+  },
+  "Fortbonus" : 22,
+  "Gender" : 4,
+  "GoodEvil" : 50,
+  "HitPoints" : 95,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 155,
+  "NaturalAC" : 15,
+  "NoPermDeath" : 0,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 285,
+  "Race" : 10,
+  "Refbonus" : 9,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_forgesentry1",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_shd",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 49,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "D1_FORGESENTRY",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "forgesentry001",
+  "WalkRate" : 3,
+  "Willbonus" : 4,
+  "Wings" : 205,
+  "Wis" : 10
+}

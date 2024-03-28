@@ -1,0 +1,116 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "note_nakrul1a",
+      "Text" : "\"Whoever finds this scroll is charged with stopping the demonic creature that lies within these walls.  My time is over...  Even now, its hellish minions claw at the frail door behind which I hide!  I have hobbled the demon with arcane magic, and encased it within great walls, but I fear that will not be enough...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>This seems to be a journal written by someone named Skulken.  It is filled with arcane writings that you find hard to read, although there is a passage that you can understand - perhaps intended by whoever left this journal.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Sound" : "note_nakrul1a",
+      "Text" : "\"Whoever finds this scroll is charged with stopping the demonic creature that lies within these walls.  My time is over...  Even now, its hellish minions claw at the frail door behind which I hide!  I have hobbled the demon with arcane magic, and encased it within great walls, but I fear that will not be enough...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5,
+        4
+      ],
+      "Script" : "giv_nakrul",
+      "Text" : "<StartAction>The rest of the pages in this book has been torn off.  Maybe the other pages are somewhere within these crypts, and perhaps they can shed light on the demon that is said to be trapped here.</Start>"
+    }
+  ],
+  "NumWords" : 202,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the journal alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Read the journal."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 2,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Read the journal again."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_tornjournal1",
+      "Index" : 1
+    },
+    0
+  ]
+}

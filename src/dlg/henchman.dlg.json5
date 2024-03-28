@@ -1,0 +1,4456 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Comment" : "This starting condition should only come up if the henchman is working for a player and it is NOT that player who is trying to talk to him (the script NW_CH_JOIN_NOT only checks to see if the henchman is working for ANY player, including the one he is currently serving).  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56196,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "Would you like some help in your mission?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3,
+        2
+      ],
+      "Script" : "",
+      "Text" : "Hello, would you like to join up together again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Text" : "Death took me from your side, <Sir/Madam>. "
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6,
+        5
+      ],
+      "Script" : "",
+      "Text" : "Would you like to join up together again?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Very good, <mister/missus> <LastName>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "I am afraid that I cannot work for you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 30,
+      "Comment" : "Default dialogue when the henchman is a member of the player's party.  ",
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 166,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 163,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 131,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 130,
+          "IsChild" : 0
+        },
+        95,
+        {
+          "Active" : "69_ch_check_38",
+          "Index" : 93,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_check_39",
+          "Index" : 92,
+          "IsChild" : 0
+        },
+        91,
+        {
+          "Active" : "x1_hen_canid",
+          "Index" : 90,
+          "IsChild" : 0
+        },
+        89,
+        {
+          "Active" : "69_hen_castspell",
+          "Index" : 19,
+          "IsChild" : 0
+        },
+        18,
+        {
+          "Active" : "henchbod1",
+          "Index" : 17,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchbod2",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchbod3",
+          "Index" : 15,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchbod4",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        13,
+        12,
+        {
+          "Active" : "x0_d2_hasrage",
+          "Index" : 10,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassong",
+          "Index" : 8,
+          "IsChild" : 0
+        },
+        7
+      ],
+      "Script" : "hench_unbusify",
+      "Text" : {
+        "StringRef" : 56145,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Yes, what could I do for you?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56168,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9
+      ],
+      "Script" : "",
+      "Text" : "Yes, I shall sing!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11
+      ],
+      "Script" : "",
+      "Text" : "<Deity>!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 45,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchequipmelee",
+      "Text" : "WOOF!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchpickemup",
+      "Text" : "Yes, <Sir/Madam>!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchbodunsumani",
+      "Text" : "Very well."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchbodsumani",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchbodunsumfam",
+      "Text" : "Vey well."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchbodsumfam",
+      "Text" : "As you wish."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchheall",
+      "Text" : "As you wish, <FirstName>."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "x0_d2_hasaid",
+          "Index" : 88,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasandead",
+          "Index" : 87,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasbless",
+          "Index" : 86,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasbulls",
+          "Index" : 85,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hascatsg",
+          "Index" : 84,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasclarity",
+          "Index" : 83,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hascontfl",
+          "Index" : 82,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hascrgrund",
+          "Index" : 81,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hascreund",
+          "Index" : 80,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasdthward",
+          "Index" : 79,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasdivfav",
+          "Index" : 78,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_haseagles",
+          "Index" : 77,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasendur",
+          "Index" : 76,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasendelem",
+          "Index" : 75,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasenergyb",
+          "Index" : 74,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasentshld",
+          "Index" : 73,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasether",
+          "Index" : 72,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasetherv",
+          "Index" : 71,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasfindtr",
+          "Index" : 70,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasfoxcun",
+          "Index" : 69,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasfreemov",
+          "Index" : 68,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasghostv",
+          "Index" : 67,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasgrrest",
+          "Index" : 66,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasgrstone",
+          "Index" : 65,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hashaste",
+          "Index" : 64,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasimpinv",
+          "Index" : 63,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasinvis",
+          "Index" : 62,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasinvissp",
+          "Index" : 61,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasknock",
+          "Index" : 60,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_haslmindbl",
+          "Index" : 59,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_haslesrest",
+          "Index" : 58,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_haslight",
+          "Index" : 57,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasmagearm",
+          "Index" : 56,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasmhaste",
+          "Index" : 55,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasmindbl",
+          "Index" : 54,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasnegenpr",
+          "Index" : 53,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasneutpoi",
+          "Index" : 52,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasowlwis",
+          "Index" : 51,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasplanall",
+          "Index" : 50,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_haspremon",
+          "Index" : 49,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasprelem",
+          "Index" : 48,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasprspell",
+          "Index" : 47,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasrembldf",
+          "Index" : 46,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasremcurs",
+          "Index" : 45,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasremdis",
+          "Index" : 44,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasremfear",
+          "Index" : 43,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasreselem",
+          "Index" : 42,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasresist",
+          "Index" : 41,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasrestor",
+          "Index" : 40,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassanctry",
+          "Index" : 39,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasseeinv",
+          "Index" : 38,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasshdshld",
+          "Index" : 37,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasshield",
+          "Index" : 36,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasshldfth",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasspelres",
+          "Index" : 34,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasstskin",
+          "Index" : 33,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm1",
+          "Index" : 32,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm2",
+          "Index" : 31,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm3",
+          "Index" : 30,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm4",
+          "Index" : 29,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm5",
+          "Index" : 28,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm6",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm7",
+          "Index" : 26,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm8",
+          "Index" : 25,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hassumm9",
+          "Index" : 24,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hastruesee",
+          "Index" : 23,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasultra",
+          "Index" : 22,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "x0_d2_hasvirtue",
+          "Index" : 21,
+          "IsChild" : 0
+        },
+        20
+      ],
+      "Script" : "",
+      "Text" : "I suppose I can accomodate you.  Which spell do you want me to cast?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "I think we're safe enough here."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 48,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Very well."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        94
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56222,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Hold on, then. Give me a moment and I'll be ready to assist you."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "henchlvl_barbta",
+          "Index" : 128,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_bardta",
+          "Index" : 126,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_clercta",
+          "Index" : 124,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_druidta",
+          "Index" : 122,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_fightta",
+          "Index" : 120,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_monkta",
+          "Index" : 118,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_palata",
+          "Index" : 116,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_rangeta",
+          "Index" : 114,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_rogta",
+          "Index" : 112,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_sorceta",
+          "Index" : 110,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_wizarta",
+          "Index" : 108,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_arcanta",
+          "Index" : 106,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_assasta",
+          "Index" : 104,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_blackta",
+          "Index" : 102,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_harpeta",
+          "Index" : 100,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchlvl_shadota",
+          "Index" : 98,
+          "IsChild" : 0
+        },
+        96
+      ],
+      "Script" : "",
+      "Text" : "Yes, There's nothing like experience on the road to progress your training."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        97
+      ],
+      "Script" : "",
+      "Text" : "Very well."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        99
+      ],
+      "Script" : "henchlvl_shadowd",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        101
+      ],
+      "Script" : "henchlvl_harper",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        103
+      ],
+      "Script" : "henchlvl_blackgd",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        105
+      ],
+      "Script" : "henchlvl_assassn",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        107
+      ],
+      "Script" : "henchlvl_arcane",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        109
+      ],
+      "Script" : "henchlvl_wizard",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        111
+      ],
+      "Script" : "henchlvl_sorcer",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        113
+      ],
+      "Script" : "henchlvl_rogue",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        115
+      ],
+      "Script" : "henchlvl_ranger",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        117
+      ],
+      "Script" : "henchlvl_paldn",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        119
+      ],
+      "Script" : "henchlvl_monk",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        121
+      ],
+      "Script" : "henchlvl_fighter",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        123
+      ],
+      "Script" : "henchlvl_druid",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        125
+      ],
+      "Script" : "henchlvl_cleric",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        127
+      ],
+      "Script" : "henchlvl_bard",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        129
+      ],
+      "Script" : "henchlvl_barbrn",
+      "Text" : "Yes, that seems reasonable."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 162,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 161,
+          "IsChild" : 0
+        },
+        154,
+        {
+          "Active" : "nw_ch_heal_0",
+          "Index" : 153,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_srch",
+          "Index" : 152,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_srch",
+          "Index" : 151,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_stlth",
+          "Index" : 150,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_stlth",
+          "Index" : 149,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_no_locks",
+          "Index" : 148,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_yes_locks",
+          "Index" : 147,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchdual",
+          "Index" : 146,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_hen_castspell",
+          "Index" : 139,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 133,
+          "IsChild" : 0
+        },
+        132
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56170,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        138,
+        137,
+        136,
+        135,
+        134
+      ],
+      "Script" : "",
+      "Text" : "Sure. What would you like me to do?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchrange4",
+      "Text" : "Very well. I will avoid melee combat unless I am cornered."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchrange3",
+      "Text" : "They will not catch me off-guard!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchrange2",
+      "Text" : "Hard to judge, but I'll see what I can do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchrange1",
+      "Text" : "OK, I'll wait until the last possible moment!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchrange0",
+      "Text" : "OK. I will do what I feel is best."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        145,
+        144,
+        143,
+        142,
+        {
+          "Active" : "henchcast1",
+          "Index" : 141,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchcast2",
+          "Index" : 140,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "Why, what is the matter with what I'm doing now?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Very well, but I will still refrain from healing you if I am in close-range combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Very well, I will both cast attack spells and heal you whenver necessary."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Very well, I will neither cast attack spells nor heal you if I'm in close-range combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "Very well, but I will still try to heal you according to your instructions."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchspell3",
+      "Text" : "Very well, I won't use spells unless we face a challenging fight!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchspell2",
+      "Text" : "I'll try to do a better job at conserving them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchspell1",
+      "Text" : "Magic is an effective way to deal with our enemies. I'll do as you say."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchspell0",
+      "Text" : "Sounds good. I'll cast when I feel comfortable doing so."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "henchdoswap",
+      "Text" : "How embarassing. I'll fix that right away."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        159,
+        157,
+        155
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56147,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "How far away do you want me to stay?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        156
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56174,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        158
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56173,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        160
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56172,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56176,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56175,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Is there anything else?"
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        165,
+        164
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56150,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 35,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "69_ch_remove",
+      "Text" : {
+        "StringRef" : 56169,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 38,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 228,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 226,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 224,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_hen_castspell",
+          "Index" : 209,
+          "IsChild" : 0
+        },
+        202,
+        {
+          "Active" : "nw_ch_heal_0",
+          "Index" : 190,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_srch",
+          "Index" : 188,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_srch",
+          "Index" : 186,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_no_stlth",
+          "Index" : 184,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_ch_yes_stlth",
+          "Index" : 182,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_no_locks",
+          "Index" : 180,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_yes_locks",
+          "Index" : 178,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_no_disable",
+          "Index" : 176,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_yes_disable",
+          "Index" : 174,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchdual",
+          "Index" : 172,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackyes",
+          "Index" : 170,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "69_henchatackno",
+          "Index" : 169,
+          "IsChild" : 0
+        },
+        167
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56146,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        168
+      ],
+      "Script" : "",
+      "Text" : "Very well."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        171
+      ],
+      "Script" : "",
+      "Text" : "Yes <Sir/Madam>!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        173
+      ],
+      "Script" : "henchdoswap",
+      "Text" : "How embarassing. I'll fix that right away."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        175
+      ],
+      "Script" : "",
+      "Text" : "Very well, <FirstName>."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        177
+      ],
+      "Script" : "",
+      "Text" : "Very well, <FirstName>."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        179
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56186,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        181
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56185,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        183
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56184,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        185
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56183,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        187
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56182,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        189
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56181,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 200,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 199,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 198,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 197,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 196,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 195,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal1",
+          "Index" : 193,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 191,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56149,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        192
+      ],
+      "Script" : "",
+      "Text" : "I will try to heal you even if I am being attacked at close range."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        194
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will heal you only if I am not in hand-to-hand combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        201
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56180,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        207,
+        205,
+        203
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56147,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        204
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56174,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        206
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56173,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        208
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 56172,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        222,
+        220,
+        218,
+        216,
+        {
+          "Active" : "henchcast1",
+          "Index" : 213,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchcast2",
+          "Index" : 210,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "Why, what is the matter with what I'm doing now?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        211
+      ],
+      "Script" : "",
+      "Text" : "Very well, but I will still refrain from healing you if I am in close-range combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        212
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will both cast attack spells and heal you whenever necessary."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        214
+      ],
+      "Script" : "",
+      "Text" : "Very well, I will neither cast attack spells nor heal you if I'm in close-range combat."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        215
+      ],
+      "Script" : "",
+      "Text" : "Very well, but I will still try to heal you according to your instructions."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        217
+      ],
+      "Script" : "henchspell3",
+      "Text" : "Very well, I won't use spells unless we face a challenging fight!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        219
+      ],
+      "Script" : "henchspell2",
+      "Text" : "I'll try to do a better job at conserving them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        221
+      ],
+      "Script" : "henchspell1",
+      "Text" : "Magic is an effective way to deal with our enemies. I'll do as you say."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        223
+      ],
+      "Script" : "henchspell0",
+      "Text" : "Sounds good. I'll cast when I feel comfortable doing so."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        225
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62539,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        227
+      ],
+      "Script" : "",
+      "Text" : {
+        "StringRef" : 62540,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Of course. When the combat begins I'll still use my spells, but I'll also stay back and attack with my ranged weapons from a distance. I'll switch weapons if the enemies get too close."
+          }
+        ]
+      }
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        237,
+        235,
+        233,
+        231,
+        229
+      ],
+      "Script" : "",
+      "Text" : "Sure. What would you like me to do?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        230
+      ],
+      "Script" : "henchrange4",
+      "Text" : "Very well. I will avoid melee combat unless I am cornered."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        232
+      ],
+      "Script" : "henchrange3",
+      "Text" : "They will not catch me off-guard!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        234
+      ],
+      "Script" : "henchrange2",
+      "Text" : "Hard to judge, but I'll see what I can do."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        236
+      ],
+      "Script" : "henchrange1",
+      "Text" : "OK, I'll wait until the last possible moment!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        238
+      ],
+      "Script" : "henchrange0",
+      "Text" : "OK. I will do what I feel is best."
+    }
+  ],
+  "NumWords" : 2116,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Script" : "69_setdidiefalse",
+      "Sound" : "",
+      "Text" : "Yes, an unfortunate fate indeed."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, I would."
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55688,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to use your Bard Song."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_usesong",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to use your Barbarian Rage."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_userage",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Equip your melee weapons"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Could you pick up some of the items in the area."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Unsummon your animal companion, please."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Summon your animal companion, please."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Unsummon your familiar, please."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Summon your familiar, please."
+    },
+    {
+      "Animation" : 39,
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Heal whoever has the most injuries in the party."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I need you to cast a spell."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Nevermind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castvirtue",
+      "Sound" : "",
+      "Text" : "Virtue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castultra",
+      "Sound" : "",
+      "Text" : "Ultravision."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_casttruese",
+      "Sound" : "",
+      "Text" : "True Seeing."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm9",
+      "Sound" : "",
+      "Text" : "Summon Creature IX."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm8",
+      "Sound" : "",
+      "Text" : "Summon Creature VIII."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm7",
+      "Sound" : "",
+      "Text" : "Summon Creature VII."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm6",
+      "Sound" : "",
+      "Text" : "Summon Creature VI."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm5",
+      "Sound" : "",
+      "Text" : "Summon Creature V."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm4",
+      "Sound" : "",
+      "Text" : "Summon Creature IV."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm3",
+      "Sound" : "",
+      "Text" : "Summon Creature III."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm2",
+      "Sound" : "",
+      "Text" : "Summon Creature II."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsumm1",
+      "Sound" : "",
+      "Text" : "Summon Creature I."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_caststonsk",
+      "Sound" : "",
+      "Text" : "Stoneskin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsplres",
+      "Sound" : "",
+      "Text" : "Spell Resistance."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castshdfth",
+      "Sound" : "",
+      "Text" : "Shield of Faith."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castshield",
+      "Sound" : "",
+      "Text" : "Shield."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castshadsh",
+      "Sound" : "",
+      "Text" : "Shadow Shield."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castseeinv",
+      "Sound" : "",
+      "Text" : "See Invisibility."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castsancry",
+      "Sound" : "",
+      "Text" : "Sanctuary."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castrestor",
+      "Sound" : "",
+      "Text" : "Restoration."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castresist",
+      "Sound" : "",
+      "Text" : "Resistance."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castresele",
+      "Sound" : "",
+      "Text" : "Resist Elements."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castremfr",
+      "Sound" : "",
+      "Text" : "Remove Fear."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castremdis",
+      "Sound" : "",
+      "Text" : "Remove Disease."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castremcur",
+      "Sound" : "",
+      "Text" : "Remove Curse."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castrembdf",
+      "Sound" : "",
+      "Text" : "Remove Blindness/Deafness."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castprspel",
+      "Sound" : "",
+      "Text" : "Protection From Spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castprelem",
+      "Sound" : "",
+      "Text" : "Protection From Elements."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castpremon",
+      "Sound" : "",
+      "Text" : "Premonition."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castplally",
+      "Sound" : "",
+      "Text" : "Planar Ally."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castowlwis",
+      "Sound" : "",
+      "Text" : "Owl's Wisdom."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castneupoi",
+      "Sound" : "",
+      "Text" : "Neutralize Poison."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castngenpr",
+      "Sound" : "",
+      "Text" : "Negative Energy Protection."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castmindbl",
+      "Sound" : "",
+      "Text" : "Mind Blank."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castmhaste",
+      "Sound" : "",
+      "Text" : "Mass Haste."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castmagear",
+      "Sound" : "",
+      "Text" : "Mage Armor."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castlight",
+      "Sound" : "",
+      "Text" : "Light."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castlesres",
+      "Sound" : "",
+      "Text" : "Lesser Restoration."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castlmindb",
+      "Sound" : "",
+      "Text" : "Lesser Mind Blank."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castknock",
+      "Sound" : "",
+      "Text" : "Knock."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castinvsph",
+      "Sound" : "",
+      "Text" : "Invisibility Sphere."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castinvis",
+      "Sound" : "",
+      "Text" : "Invisibility"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castimpinv",
+      "Sound" : "",
+      "Text" : "Improved Invisibility."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_casthaste",
+      "Sound" : "",
+      "Text" : "Haste."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castgrston",
+      "Sound" : "",
+      "Text" : "Greater Stoneskin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castgrrest",
+      "Sound" : "",
+      "Text" : "Greater Restoration."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castghovis",
+      "Sound" : "",
+      "Text" : "Ghostly Visage."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castfremov",
+      "Sound" : "",
+      "Text" : "Freedom of Movement."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castfoxcun",
+      "Sound" : "",
+      "Text" : "Fox's Cunning."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castfindtr",
+      "Sound" : "",
+      "Text" : "Find Traps."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castethvis",
+      "Sound" : "",
+      "Text" : "Ethereal Visage."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castether",
+      "Sound" : "",
+      "Text" : "Etherealness"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castentshd",
+      "Sound" : "",
+      "Text" : "Entropic Shield."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castenbuff",
+      "Sound" : "",
+      "Text" : "Energy Buffer."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castendele",
+      "Sound" : "",
+      "Text" : "Endure Elements."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castendur",
+      "Sound" : "",
+      "Text" : "Endurance."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_casteagles",
+      "Sound" : "",
+      "Text" : "Eagle's Splendour."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castdivfav",
+      "Sound" : "",
+      "Text" : "Divine Favor."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castdthwrd",
+      "Sound" : "",
+      "Text" : "Death Ward."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castcrund",
+      "Sound" : "",
+      "Text" : "Create Undead."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castcrgrun",
+      "Sound" : "",
+      "Text" : "Create Greater Undead."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castcontfl",
+      "Sound" : "",
+      "Text" : "Continual Flame."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castclarit",
+      "Sound" : "",
+      "Text" : "Clarity."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castcatgr",
+      "Sound" : "",
+      "Text" : "Cat's Grace."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castbullst",
+      "Sound" : "",
+      "Text" : "Bull's Strength."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castbless",
+      "Sound" : "",
+      "Text" : "Bless."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castandead",
+      "Sound" : "",
+      "Text" : "Animate Dead"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "x0_d1_castaid",
+      "Sound" : "",
+      "Text" : "Aid."
+    },
+    {
+      "Animation" : 48,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchscoutyes",
+          "Index" : 25,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchscoutno",
+          "Index" : 24,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchscout",
+      "Sound" : "",
+      "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "henchidentify",
+      "Sound" : "",
+      "Text" : "Please try to identify my items."
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "henchmanshow",
+      "Sound" : "",
+      "Text" : "Please show me your inventory."
+    },
+    {
+      "Animation" : 28,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 26,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55784,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55783,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "69_ch_action_17",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "x0_d2_level0",
+          "Index" : 27,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to discuss your training."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Nevermind, keep your current class training."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a shadowdancer.]</Start> Concentrate on shadowdancer training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a harper scout.]</Start> Concentrate on harper scout training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a blackguard.]</Start> Concentrate on blackguard training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as an assassin.]</Start> Concentrate on assassin training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as an arcane archer.]</Start> Concentrate on arcane archer training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a wizard.]</Start> Concentrate on wizard training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a sorcerer.]</Start> Concentrate on sorcerer training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a rogue.]</Start> Concentrate on rogue training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a ranger.]</Start> Concentrate on ranger training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a paladin.]</Start> Concentrate on paladin training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a monk.]</Start> Concentrate on monk training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a fighter.]</Start> Concentrate on fighter training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a druid.]</Start> Concentrate on druid training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a cleric.]</Start> Concentrate on cleric training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a bard.]</Start> Concentrate on bard training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Henchman will only gain levels as a barbarian.]</Start> Concentrate on barbarian training only."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 68,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55706,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55705,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55732,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Must talk about weapon-switch...stuff."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No grapple combat. Move from the enemy if enemy get too close!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Aggressive! When enemy get closer than 6 meters, charge!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Switch to melee if the enemy is at medium distance,  between 4 and 5 meters away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You good with missile weapon, wait until the enemy get close, less than 3 meters, before switch to melee weapon."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Trust mind when to switch betwen melee and missile weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        52
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Me want talk how you use combat spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 54,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 53,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastyes",
+      "Sound" : "",
+      "Text" : "Cast combat spells when you grapple with enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 56,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 55,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastno",
+      "Sound" : "",
+      "Text" : "No cast spells while you grapple with enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        57
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "All is good, but save spells. Use them for stronger enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You waste spells. Use them when enemy is medium strong."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Use spells all time! Don't stop unless enemy is weak."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Forget before talk.You do good when use spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Script" : "henchswap",
+      "Sound" : "",
+      "Text" : "Ummm...Me think you dual-wield weapon not good."
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 76,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55731,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 77,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55730,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 79,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_stlth_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55729,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55728,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 80,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55727,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 81,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55726,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 82,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55725,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        62
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55723,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_18",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55687,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        64
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_12",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55686,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        65
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_6",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55685,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "nw_d2_intn",
+          "Index" : 67,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_d2_intl",
+          "Index" : 66,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 99,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_gomelee",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62535,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "In fight you use grapple weapon, not far weapon."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 100,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_goranged",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62536,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "In fight you use far weapon, not grapple weapon."
+          }
+        ]
+      }
+    },
+    {
+      "Animation" : 40,
+      "Comment" : "",
+      "EntriesList" : [
+        68
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55683,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 35,
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55740,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 34,
+      "Comment" : "",
+      "EntriesList" : [
+        69
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55739,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 38,
+      "Comment" : "",
+      "EntriesList" : [
+        70
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55682,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        71
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55703,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 72,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "69_henchyeattack",
+      "Sound" : "",
+      "Text" : "Attack as soon as you see the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        72
+      ],
+      "Quest" : "",
+      "Script" : "69_henchnoattack",
+      "Sound" : "",
+      "Text" : "Do not attack until I initiate combat."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        73
+      ],
+      "Quest" : "",
+      "Script" : "henchswap",
+      "Sound" : "",
+      "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        74
+      ],
+      "Quest" : "",
+      "Script" : "69_disable_off",
+      "Sound" : "",
+      "Text" : "Could you please not disable traps?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        75
+      ],
+      "Quest" : "",
+      "Script" : "69_disable_on",
+      "Sound" : "",
+      "Text" : "Could you please disable traps?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        76
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55702,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        77
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55701,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        78
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55700,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        79
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_stlth_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55699,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        80
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_on",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55698,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        81
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_srch_off",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55697,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        82
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55693,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        83
+      ],
+      "Quest" : "",
+      "Script" : "henchhealyes",
+      "Sound" : "",
+      "Text" : "Heal me even if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        84,
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchhealno",
+      "Sound" : "",
+      "Text" : "Do not heal me if there are enemies near you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55738,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55737,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55736,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55696,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55695,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        85
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55694,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "69_ch_tactics2",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        86
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55684,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        87
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_18",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55687,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        88
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_12",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55686,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        89
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_6",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 55685,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        90
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about how you use your combat spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 92,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 91,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastyes",
+      "Sound" : "",
+      "Text" : "I want you to cast combat spells even when in hand-to-hand combat with the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "henchheal1",
+          "Index" : 94,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "henchheal2",
+          "Index" : 93,
+          "IsChild" : 0
+        }
+      ],
+      "Quest" : "",
+      "Script" : "henchcastno",
+      "Sound" : "",
+      "Text" : "I don't want you to cast any spells while you are in hand-to-hand combat with the enemy."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        95
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You're doing fine, but I really want you to conserve your spells. I think you should save them for our tougher foes."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        96
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You are wasting your spells. Use them only if the enemy is somewhat challenging."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        97
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should be using your spells all the time! Don't refrain from using them unless the enemies's just a joke."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        98
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Forget anything I've said before. I want you to trust your instincts as to when to use spells."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        99
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_gomelee",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62537,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        100
+      ],
+      "Quest" : "",
+      "Script" : "69_ch_goranged",
+      "Sound" : "",
+      "Text" : {
+        "StringRef" : 62538,
+        "Strings" : [ ]
+      }
+    },
+    {
+      "Animation" : 1,
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : null
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        101
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's talk about your weapon-switching tactics."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        102
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        103
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Be aggressive. If you see enemies getting any closer than 10 meters or so, charge with melee!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        104
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between 4 and 5 meters away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        105
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than 2 meters, before you switch to a melee weapon."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        106
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want you to trust your instinct as to when to switch betwen melee and missile weapons."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 70,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "69_ch_tactics2",
+      "Index" : 12
+    },
+    {
+      "Active" : "henchrefuse",
+      "Index" : 11
+    },
+    {
+      "Active" : "69_ch_check_36",
+      "Index" : 7
+    },
+    {
+      "Active" : "69_ch_check_37",
+      "Index" : 4
+    },
+    {
+      "Active" : "henchhire",
+      "Index" : 1
+    },
+    {
+      "Active" : "mastercheck",
+      "Index" : 0
+    }
+  ]
+}

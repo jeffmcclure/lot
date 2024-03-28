@@ -1,0 +1,1394 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "qst_lostboys",
+          "Index" : 2,
+          "IsChild" : 0
+        },
+        1,
+        0,
+        {
+          "Active" : "",
+          "Index" : 27,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "con_tristramx",
+      "Text" : "Have you found my boys yet?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10,
+        {
+          "Active" : "prq_lostboys2",
+          "Index" : 3,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "You've found them?!  B-but, what bad news?  What happened to my sons?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5,
+        4
+      ],
+      "Script" : "",
+      "Text" : "What!?  Those boys have always been undisciplined from the moment they learned how to walk!  Oh well...  Did they say when they were coming back?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        7,
+        6
+      ],
+      "Script" : "trg_deesefinal",
+      "Text" : "I guess they thought it was best to leave and stay alive, rather than stay here and face the uncertainty of death.  But know this, my boys are not cowards!  They just want to see the world and make their old man proud!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        9,
+        8
+      ],
+      "Script" : "end_lostboys3",
+      "Text" : "I guess you're right.  Please accept this as payment for all your troubles.  Perhaps it is also time for me to leave Tristram and all this death behind.  I have never been to the East - maybe I'll get a chance to see my sons there.  Why don't you come with us?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_lostboys2",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lostboys2x",
+          "Index" : 12,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lostboys2",
+          "Index" : 11,
+          "IsChild" : 0
+        }
+      ],
+      "Script" : "",
+      "Text" : "W-what?!  M-my sons are d-dead?  This can't be true!  Please, by the light, tell me this is not true!!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 18,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "trg_deesefinal",
+      "Text" : "N-No, no!!  NO!  My sons!!  *sob*  I-I'm sure you tried your best...  this town has brought nothing but death.  It's just a pity you couldn't bring back my sons' bodies so I can give them a decent burial... oh my sons... my dead boys..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 18,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "trg_deesefinal",
+      "Text" : "N-No, no!!  NO!  My sons!!  *sob*  I-I'm sure you tried your best...  this town has brought nothing but death.  It's just a pity you couldn't bring back my sons' bodies so I can give them a decent burial... oh my sons... my dead boys..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        18,
+        17,
+        14
+      ],
+      "Script" : "trg_deesefinal",
+      "Text" : "N-No, no!!  NO!  My sons!!  *sob*  I-I'm sure you tried your best... this town has brought us nothing but death... there is no reason for my to stay here anymore... My sons are gone... my dear boys..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15
+      ],
+      "Script" : "",
+      "Text" : "Your words are harsh, <FirstName>, but I fear I no longer have the strength or the will to get angry at you.  My sons are dead, and there is nothing I can do to bring them back.  But I am still grateful that you have taken the time to look for them, and for that I owe you something."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 16,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "end_lostboys2",
+      "Text" : "Please accept this.  Without a decent burial, my sons are damned to an unholy death.  It's a pity I can't see my sons' faces for the last time before I leave this place.  I will go with the other townspeople and set off for the East.  There is so much pain in this place.  You should go with me and leave this cursed town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        16,
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "end_lostboys1",
+      "Text" : "Please accept this.  Without a decent burial, my sons are damned to an unholy death.  It's a pity I can't see my sons' faces for the last time before I leave this place.  I will go with the other townspeople and set off for the East.  There is so much pain in this place.  You should go with me and leave this cursed town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        19,
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "end_lostboys2",
+      "Text" : "T-thank you for your words.  Please accept this.  Without a decent burial, my sons are damned to an unholy death.  It's a pity I can't see my sons' faces for the last time before I leave this place.  I will go with the other townspeople and set off for the East.  There is so much pain in this place.  You should go with me and leave this cursed town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        20,
+        {
+          "Active" : "",
+          "Index" : 8,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "end_lostboys1",
+      "Text" : "T-thank you for your words.  Please accept this, it is all the money I own.  I will take my sons' bodies and bury them now, then the other townsfolk and I will leave this cursed town and never come back...  You should come with us, y'know, lest you also meet the fate of my sons."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        22,
+        21
+      ],
+      "Script" : "trg_deesefinal",
+      "Text" : "Hello <FirstName>... why don't you join us in leaving this place?  This town has brought us nothing but death..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        27,
+        24,
+        23
+      ],
+      "Script" : "con_tristramx",
+      "Text" : "Hello there, <FirstName>.  Anything I can do for you?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26,
+        25
+      ],
+      "Script" : "",
+      "Text" : "No, not yet.  I'll probably go look for them soon.  They've been gone a little too long..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        {
+          "Active" : "",
+          "Index" : 24,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        28
+      ],
+      "Script" : "",
+      "Text" : "Sure, what do you want to know?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 40,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 39,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowfarnham",
+          "Index" : 38,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgillian",
+          "Index" : 37,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgriswold",
+          "Index" : 36,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowlester",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowogden",
+          "Index" : 34,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 33,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowtremayne",
+          "Index" : 32,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowwirt",
+          "Index" : 31,
+          "IsChild" : 0
+        },
+        30
+      ],
+      "Script" : "",
+      "Text" : "I thought you knew all of them already?  But okay, whom do you want to know more about?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I am glad Canace did not live long enough to see what her son has become.  I feel sorry for the boy, and what happened to his leg, but he has become more troublesome than my sons combined.  Roof and Inneas have stopped talking to him.  They sometimes think that whomever it was that Griswold saved from the labyrinth, it wasn't Wirt..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "That priest is an eccentric fellow - not even stopping by and saying hello.  He spends more time praying at the graveyard than anywhere else.  Creepy old man, if you ask me."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I feel sorry for Pepin.  After those men came back from the church - well, the few that's left, anyway - he tried his best to heal their wounds.  But whatever it was that got those men, it was beyond Pepin's skills.  Almost all of them died after a couple of days, and the few we didn't still remain in Pepin's house, their wounds not completely healing despite our healer's efforts.  I am glad I am not in Pepin's position right now."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Ogden and his wife Garda are a blessing to everyone here in Tristram!  I am thankful that they have not decided to leave town like all the others.  Even when my crops were dying, they made sure everyone had something to eat in his tavern.  Bless them both."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I hired Lester a few weeks ago because I needed some help tending my livestock.  He's been a great help so far, but... I don't think he has all his eggs in the same bushel, if you know what I mean..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Griswold was a soldier once, did you know that?  He got injured during our war with Westmarch and decided to manage his smithy fulltime after his leg healed.  If you're ever in need of the finest weapons, our blacksmith is the person to talk to, no matter what that boy Wirt says..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Such a sweet young woman!  Roof once attempted to lock his brother in the barn so that he could take Gillian out to the festival years ago.  Inneas was, of course, on the roof with a bucket of cow manure..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Such a sad thing it is, what happened to Farnham.  I tell my sons not to bother him, but as usual, they never listen."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I don't know where Farnham went.  He just sort of disappeared!  There are several rumors circulating around town, but I don't pay them much heed.  I just hope Farnham is alright."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 41,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Yes, the storyteller Cain.  I once made the mistake of asking him what is up with the weather... several hours later of explaining the origin of the desert winds of Aranoch, I think he finally noticed me snoring and left..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        41,
+        {
+          "Active" : "",
+          "Index" : 25,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "You mean the witch across the river?  She's strange...  I don't come near her hut, and I tell my sons to do the same if they know what's good for them."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "con_tristramx",
+      "Text" : "Can you come back tomorrow?  I'm really tired and I need some sleep..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        44,
+        42
+      ],
+      "Script" : "s_knowdeese",
+      "Text" : "<FirstName>!  You've come back to Tristram!  Good heavens, how long has it been?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        43
+      ],
+      "Script" : "",
+      "Text" : "You have always been like that, <FirstName>.  I think my sons learned most of their unruliness from you!  But my boys are all grown up now, but only in body.  Sometimes I wish their mother were still alive so that I can get some help keeping them in line.  But boys will be boys, as they say."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        45,
+        {
+          "Active" : "",
+          "Index" : 43,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Well, they've grown bigger but unfortunately, not wiser.  Still giving me headaches everyday.  Sometimes I wish their mother were still alive so that I can get some help keeping them in line.  But boys will be boys, as they say."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        46
+      ],
+      "Script" : "end_virgin",
+      "Text" : "Well, I'm not really sure.  I haven't seen them for a couple days, but this is not the first time they did it - a couple of months ago they were gone for a week because they climbed up on a wagon heading for the East and hid under stacks of hay - just because they wanted to see the world for themselves!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        48,
+        47
+      ],
+      "Script" : "",
+      "Text" : "But the wagon owner discovered them after Roof climbed out from his hiding place and asked for some food - thank goodness that kindly man asked a few of his people to accompany my sons back here.  Imagine if my sons have actually reached Luth Golein!  *sigh*  Well, they've learned their lesson then after a few beatings, but I think they're off to their old antics again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 27,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        50,
+        49
+      ],
+      "Script" : "",
+      "Text" : "Hahaha, maybe.  I just hope they haven't gone too far into the woods.  The cloaked riders have been gone for months, but there may still be some of them there.  I hope they're safe - until I see them, that is."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 39,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        52,
+        51
+      ],
+      "Script" : "con_tristramx",
+      "Text" : "<FirstName>!  I hope you're not too busy right now...  I was wondering if you can maybe help me out?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        54,
+        53
+      ],
+      "Script" : "",
+      "Text" : "Normally I wouldn't be worried but...  Roof and Inneas have been gone for too long!  I have looked everywhere, even venturing as far as the woods but I can't seem to find them!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        55
+      ],
+      "Script" : "",
+      "Text" : "I would like to think that what you are saying is true, but the circumstances are a little different this time."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        56
+      ],
+      "Script" : "",
+      "Text" : "A few days ago, my boys told me of strange lights in the forest.  I have told them to not go there anymore, what with all the death and violence that has beset this town, but I am afraid they have not listened to me again."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        58,
+        57
+      ],
+      "Script" : "",
+      "Text" : "I am afraid that they have gone back to the forest to see those strange lights again.  Oh, I hope nothing bad has happened to my sons."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        60,
+        59
+      ],
+      "Script" : "giv_lostboys",
+      "Text" : "I don't really know more than what the sons told me.  But I think they mentioned it to Gillian, and Gillian says she has been seeing those lights, too!  Perhaps you should ask her.  I have given up searching and I only pray that they are safe."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        61
+      ],
+      "Script" : "giv_deese",
+      "Text" : "Thank you <FirstName>.  Maybe your return is indeed good news."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        62
+      ],
+      "Script" : "",
+      "Text" : "Why, hello there <FirstName>!  So glad to see you!  I hope you don't mind, but I have some duties to fulfill.  Goodbye!."
+    }
+  ],
+  "NumWords" : 2388,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Don't rush me!  I'll look for your boys when I find the time!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "I'm sorry, I'm still looking.  I'll let you know when I find something."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have found your sons, Deese, but I have some bad news."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "<StartAction>[Lie]</Start>  Roof and Inneas told me that they wanted to see the world outside Tristram, and have now left for the East.  They did not tell you because they knew you would not let them leave town."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 5,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Actually Deese, I lied...  I found your sons dead in the caves beyond the forest.  I was too late to save them..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "<StartAction>[Lie]</Start>  They told me they might not be coming back for a long time, or until the evil that has fallen upon this town has ended."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Probably causing some other people a whole lot of trouble."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I... I am sure they will be happy where they are right now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think I'm gonna stay... the rest of you cowards can leave..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_corpsegone",
+      "Sound" : "",
+      "Text" : "I still have things to do here, Deese, but good luck in your journey."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful2",
+      "Sound" : "",
+      "Text" : "I was too late, Deese... I found Roof and Inneas dead in the caves."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "<StartAction>Lie.</Start> I was too late to save them Deese.  I did not even get to pick up their bodies in my haste to get out of that place."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I was too late to save them Deese.  I did not even get to pick up their bodies in my haste to get out of that place."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful2",
+      "Sound" : "",
+      "Text" : "I am sorry Deese.  I did not save them in time.   I brought their bodies with me so you can give them a decent burial..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Script" : "con_evil3",
+      "Sound" : "",
+      "Text" : "You should be happy!  Your stupid sons will trouble you no more!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11,
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_corpsegone",
+      "Sound" : "",
+      "Text" : "I guess I should thank you.  But I prefer to stay here and face my own demons.  Goodbye,"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_lostboys2",
+          "Index" : 13,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 12,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think we should focus our attention on the one that killed them.  Your boys are gone, and there's nothing we can do except find the culprits."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_lostboys2",
+          "Index" : 13,
+          "IsChild" : 0
+        },
+        12
+      ],
+      "Quest" : "",
+      "Script" : "con_good3",
+      "Sound" : "",
+      "Text" : "I swear I will avenge their deaths, Deese.  Whoever did this will not survive for long."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_corpsegone",
+      "Sound" : "",
+      "Text" : "I still have things to do here, Deese.  But good luck in your journey."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I still have things to do here, Deese.  But good luck in your journey."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "I don't feel like joining your cowardly pursuits, farmer.  Begone then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "I still have things to do here, Deese.  But good luck in your journey."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have your boys come home yet?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_barnhouse",
+          "Index" : 30,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 17,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions to ask you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_barnhouse",
+          "Index" : 30,
+          "IsChild" : 0
+        },
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I like to know more about the townspeople."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Lester."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_islandxx",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 18,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to know about the other townsfolk."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Not long enough, Deese.  I see you're still alive.  Your sons still as stupid as they were when I left?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 34,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So where are these boys?  I can't wait to welcome them in my own way, if you know what I mean."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        33
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Too long, Deese.  I'm glad you're still holding up.  Your sons still giving you grief?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's good to know.  So where are those two rascals now?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        35
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 36,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Your boys always were stupid, Deese.  Maybe they got it from their father?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So can I expect some fatherly flogging anytime soon?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_evil1",
+      "Sound" : "",
+      "Text" : "Okay, I'm getting bored here.  We'll talk again when I have time to waste."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Well, I should be going Deese.  I'll talk to you again soon."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 38,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is it?  Is it worth my time?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        38
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Why Deese, what seems to be the problem?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 39,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "If I were you, I would just sit back in your barn and wait for those brats to come back.  They're playing a joke on you, as usual."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Maybe they're just up to their old tricks again.  I remember when we were all playing pranks on our elders, and growing up hasn't made them less unruly, you know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Really? how so?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 42,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Strange lights?  I think it's a prank."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know of these strange lights?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 43,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Fine, I'll go ask Gillian about it.  I still think you should give both of them a good whipping when they return."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Don't worry, I'll get to the bottom of this.  I'll go ask Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 44
+    },
+    {
+      "Active" : "prq_deese",
+      "Index" : 37
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 31
+    },
+    {
+      "Active" : "prq_deesex",
+      "Index" : 15
+    },
+    {
+      "Active" : "end_lostboys",
+      "Index" : 14
+    },
+    0
+  ]
+}

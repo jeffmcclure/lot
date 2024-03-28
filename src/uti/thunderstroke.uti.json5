@@ -1,0 +1,91 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 61,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 1885546,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This magic weapon has an enhancement bonus to attack and damage, but it doesn't bear the hallmarks of any specific maker."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14082,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Thunderstroke"
+      }
+    ]
+  },
+  "ModelPart1" : 41,
+  "PaletteID" : 62,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 56,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 13,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 20
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 35,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 5,
+      "CostValue" : 5,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 20,
+      "Subtype" : 9
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 7,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 45,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 14,
+      "CostValue" : 4,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 61,
+      "Subtype" : 2
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "D2_THUNDERSTROKE",
+  "TemplateResRef" : "thunderstroke"
+}

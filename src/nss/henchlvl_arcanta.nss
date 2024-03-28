@@ -1,0 +1,7 @@
+int StartingConditional()
+{
+    int iResult;
+
+    iResult = (GetClassByPosition(1, OBJECT_SELF) == CLASS_TYPE_ARCANE_ARCHER || GetClassByPosition(2, OBJECT_SELF) == CLASS_TYPE_ARCANE_ARCHER || GetClassByPosition(3, OBJECT_SELF) == CLASS_TYPE_ARCANE_ARCHER || GetClassByPosition(3, OBJECT_SELF) == CLASS_TYPE_INVALID) && (GetRacialType(OBJECT_SELF) == RACIAL_TYPE_ELF || GetRacialType(OBJECT_SELF) == RACIAL_TYPE_HALFELF) && (GetBaseAttackBonus(OBJECT_SELF) >= 6) && (GetHasFeat(FEAT_WEAPON_FOCUS_LONGBOW, OBJECT_SELF) || GetHasFeat(FEAT_WEAPON_FOCUS_SHORTBOW, OBJECT_SELF)) && (GetHasFeat(FEAT_POINT_BLANK_SHOT, OBJECT_SELF)) && (GetLevelByClass(CLASS_TYPE_SORCERER, OBJECT_SELF) >= 1 || GetLevelByClass(CLASS_TYPE_WIZARD, OBJECT_SELF) >= 1) && (GetLevelByClass(CLASS_TYPE_ARCANE_ARCHER, OBJECT_SELF) != 10);
+    return iResult;
+}

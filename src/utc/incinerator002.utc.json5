@@ -1,0 +1,230 @@
+{
+  "AppearanceType" : 61,
+  "BodyBag" : 0,
+  "CRAdjust" : -1,
+  "Cha" : 11,
+  "ChallengeRating" : 16.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 25,
+      "ClassX" : 16
+    }
+  ],
+  "Comment" : "",
+  "Con" : 18,
+  "Conversation" : "",
+  "CurrentHitPoints" : 50,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12530,
+    "Strings" : [ ]
+  },
+  "Dex" : 29,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewpb018",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitemel7",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 42
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12531,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Greater Incinerator"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 4,
+  "GoodEvil" : 50,
+  "HitPoints" : 50,
+  "Int" : 6,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 175,
+  "NaturalAC" : 8,
+  "NoPermDeath" : 1,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 209,
+  "Race" : 16,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_magma3",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_shd",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 34,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 22,
+  "Subrace" : "",
+  "Tag" : "D1_INCINERATORG",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "incinerator002",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

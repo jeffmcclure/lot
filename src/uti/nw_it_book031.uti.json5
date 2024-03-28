@@ -1,0 +1,45 @@
+{
+  "AddCost" : 750,
+  "BaseItem" : 74,
+  "Charges" : 1,
+  "Cost" : 752,
+  "Cursed" : 0,
+  "DescIdentified" : "This rare tome harnesses the power of the abyss and the essence of the heavens and allows you to unleash it unto your foes.  The resulting damage is made up of both fire and divine energy.  Since this power does not come from you, you do not gain any experience from anything destroyed by the spell evoked by this tome.\n\nThe tome of apocalypse can only be used once - after you use it,  this tome will disappear.",
+  "Description" : {
+    "StringRef" : 13062,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : ""
+      }
+    ]
+  },
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13061,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Tome of Apocalypse"
+      }
+    ]
+  },
+  "ModelPart1" : 4,
+  "PaletteID" : 60,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 6,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 329
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "staff_apoc",
+  "TemplateResRef" : "nw_it_book031"
+}

@@ -1,0 +1,71 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The portal shimmers with a light that warms your soul.  Perhaps this is a way out of this place.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3,
+        2
+      ],
+      "Script" : "trg_sanct2trist",
+      "Text" : "<StartAction>The portal shimmers with a light that warms your soul.  Perhaps this is a way out of this place.</Start>"
+    }
+  ],
+  "NumWords" : 44,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_lazarusport2",
+      "Sound" : "",
+      "Text" : "Enter portal."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_lazarusport2",
+      "Sound" : "",
+      "Text" : "Enter portal."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_sanct2trist",
+      "Index" : 1
+    },
+    0
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "AppearanceType" : 1263,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 9,
+  "ChallengeRating" : 10.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 26
+    },
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 14,
+  "Conversation" : "",
+  "CurrentHitPoints" : 25,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12402,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These vile creatures swarm over this defiled place.  These vermin seemed to have been the progenitors of the harmless ones you now know.  Of course, these ones are far from harmless..."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_crewps032",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "bugskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12403,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Death Beetle"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 2,
+  "GoodEvil" : 50,
+  "HitPoints" : 25,
+  "Int" : 3,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 55,
+  "NaturalAC" : 6,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 155,
+  "Race" : 25,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 9,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 229,
+      "SpellCasterLevel" : 1,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 86,
+  "Str" : 20,
+  "Subrace" : "",
+  "Tag" : "D1_DEATHBEETLE",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "deathbeetle",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

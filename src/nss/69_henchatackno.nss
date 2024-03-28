@@ -1,0 +1,17 @@
+//::///////////////////////////////////////////////
+//:: FileName 69_henchatackno
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 7/15/03 4:18:08 PM
+//:://////////////////////////////////////////////
+#include "69_inc_henai"
+int StartingConditional()
+{
+
+    // Inspect local variables
+    if(!GetLocalInt(OBJECT_SELF, MH_MODE_ATTACK))
+        return TRUE;
+
+    return FALSE;
+}

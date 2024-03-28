@@ -1,0 +1,62 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The altar pulses with the vile essence of evil.  But there is nothing inside it important enough to merit your attention...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The altar pulses with the vile essence of evil.  Laying on top of it is one thing - a darkened blade, stained with hellish muck, and seems to be whispering your name - imploring you to take it... to wield it.  This must be the cursed demon blade, Shadowfang.</Start>"
+    }
+  ],
+  "NumWords" : 84,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave it alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave it alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "acq_shadowfang",
+      "Sound" : "",
+      "Text" : "Take the cursed demon blade from the altar."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_shadowfang3",
+      "Index" : 1
+    },
+    0
+  ]
+}

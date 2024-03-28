@@ -1,0 +1,83 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 40,
+  "Charges" : 0,
+  "Cost" : 1028314,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This weapon is a kama, even thought it doesn't look like one..."
+      }
+    ]
+  },
+  "Description" : null,
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14260,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Chaos"
+      }
+    ]
+  },
+  "ModelPart1" : 19,
+  "ModelPart2" : 19,
+  "ModelPart3" : 19,
+  "PaletteID" : 47,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 12,
+      "Subtype" : 29
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 5
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 7,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 43,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 26,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 82,
+      "Subtype" : 4
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "D2_CHAOS",
+  "TemplateResRef" : "chaos"
+}

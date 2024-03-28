@@ -1,0 +1,31 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Minor Acid Splash\r\nDetect DC: 10\r\nDisarm DC: 22\r\nSet DC: 15\r\nDamage / Effect: 2d8\r\nAverage Damage: 9\r\nArea of Effect: Single\r\nMin to Max player level: 1 - 3",
+  "Cursor" : 0,
+  "DisarmDC" : 22,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14784,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Minor Acid Splash Trap"
+      }
+    ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 11,
+  "PortraitId" : 0,
+  "Tag" : "D1_MINORACIDTRAP",
+  "TemplateResRef" : "macidstrap001",
+  "TrapDetectDC" : 10,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 40,
+  "Type" : 2
+}

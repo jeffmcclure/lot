@@ -1,0 +1,58 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 300,
+  "Charges" : 0,
+  "Comment" : "This is a new weapon for NWN. The only known issue with it is that it does not provide custom feats for weapon focus or weapon specialization.",
+  "Cost" : 25948,
+  "Cursed" : 0,
+  "DescIdentified" : null,
+  "Description" : "",
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 16807740,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Razortine"
+      }
+    ]
+  },
+  "ModelPart1" : 12,
+  "ModelPart2" : 22,
+  "ModelPart3" : 12,
+  "PaletteID" : 105,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 1,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 0,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 1,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 24,
+      "CostValue" : 1,
+      "Param1" : 1,
+      "Param1Value" : 0,
+      "PropertyName" : 48,
+      "Subtype" : 9
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 1,
+  "Tag" : "D2_RAZORTINE",
+  "TemplateResRef" : "razortine"
+}

@@ -1,0 +1,70 @@
+{
+  "AnimationState" : 0,
+  "Appearance" : 48,
+  "AutoRemoveKey" : 0,
+  "BodyBag" : 0,
+  "CloseLockDC" : 0,
+  "Comment" : "Altar / Shrine - Neutral",
+  "Conversation" : "",
+  "CurrentHP" : 15,
+  "Description" : {
+    "StringRef" : 14543,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This anvil is burning wildly, but strangely you feel no heat from it..."
+      }
+    ]
+  },
+  "DisarmDC" : 15,
+  "Faction" : 1,
+  "Fort" : 16,
+  "HP" : 15,
+  "Hardness" : 5,
+  "HasInventory" : 0,
+  "Interruptable" : 1,
+  "KeyName" : "",
+  "KeyRequired" : 0,
+  "LocName" : {
+    "StringRef" : 14541,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Burning Anvil"
+      }
+    ]
+  },
+  "Lockable" : 0,
+  "Locked" : 0,
+  "OnClosed" : "",
+  "OnDamaged" : "",
+  "OnDeath" : "",
+  "OnDisarm" : "",
+  "OnHeartbeat" : "",
+  "OnInvDisturbed" : "",
+  "OnLock" : "",
+  "OnMeleeAttacked" : "",
+  "OnOpen" : "",
+  "OnSpellCastAt" : "",
+  "OnTrapTriggered" : "",
+  "OnUnlock" : "",
+  "OnUsed" : "acq_anvil",
+  "OnUserDefined" : "",
+  "OpenLockDC" : 18,
+  "PaletteID" : 0,
+  "Plot" : 1,
+  "PortraitId" : 406,
+  "Ref" : 0,
+  "Static" : 0,
+  "Tag" : "PLC_ANVILOFFURY",
+  "TemplateResRef" : "altar_anvilfury",
+  "TrapDetectDC" : 0,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 0,
+  "TrapOneShot" : 1,
+  "TrapType" : 0,
+  "Type" : 0,
+  "Useable" : 1,
+  "Will" : 0
+}

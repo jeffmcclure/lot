@@ -1,0 +1,15 @@
+#include "nw_i0_tool"
+//#include "pqj_inc"
+void main()
+{
+
+object oPC = GetPCSpeaker();
+
+//RewardPartyXP(500, oPC, FALSE);
+//RewardPartyGP(1000, oPC, FALSE);
+//AddPersistentJournalQuestEntry("QST_JOURNAL", 4, oPC, FALSE, FALSE);
+AddJournalQuestEntry("QST_JOURNAL", 4, oPC, TRUE, FALSE);
+//ExecuteScript("sav_lastspeaker", OBJECT_SELF);
+
+}
+

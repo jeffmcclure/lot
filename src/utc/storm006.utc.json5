@@ -1,0 +1,259 @@
+{
+  "AppearanceType" : 192,
+  "BodyBag" : 3,
+  "CRAdjust" : -6,
+  "Cha" : 11,
+  "ChallengeRating" : 16.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 12,
+      "ClassX" : 4
+    },
+    {
+      "ClassLevel" : 5,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 106,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12667,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Primitive and savage, these reptilian humanoids can be very dangerous if provoked. They are fiercely territorial, banding together to destroy any living thing that encroaches upon its domain."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "it_storm001",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "it_storm001",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_storm004",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "stormskin",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12671,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Brokenstorm"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 1,
+  "GoodEvil" : 0,
+  "HitPoints" : 106,
+  "Int" : 9,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 125,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 0,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 258,
+  "Race" : 15,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_ustorm",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 62,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 14,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 4,
+  "Str" : 18,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_MID",
+  "Tail" : 1,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "storm006",
+  "WalkRate" : 6,
+  "Willbonus" : 1,
+  "Wings" : 205,
+  "Wis" : 9
+}

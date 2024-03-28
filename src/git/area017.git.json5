@@ -1,0 +1,6558 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 28,
+    "AmbientSndDayVol" : 58,
+    "AmbientSndNight" : 28,
+    "AmbientSndNitVol" : 59,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 87,
+    "MusicDelay" : 5000,
+    "MusicNight" : 87
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 3"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT3D",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 55.0,
+      "Y" : 45.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 3"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT3A",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 15.0,
+      "Y" : 45.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.748432E-7,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 3"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT3B",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 35.0,
+      "Y" : 25.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415534,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 3"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT3C",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 35.0,
+      "Y" : 65.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 8,
+      "HP" : 15,
+      "Hardness" : 6,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 2"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT2B",
+      "TemplateResRef" : "nw_door_jeweled",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 110.0,
+      "Y" : 115.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 8,
+      "HP" : 15,
+      "Hardness" : 6,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 2 Lever Room"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT2C",
+      "TemplateResRef" : "nw_door_jeweled",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 1,
+      "Will" : 0,
+      "X" : 140.0,
+      "Y" : 145.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 4"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT4A",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 165.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415584,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 4"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT4B",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 35.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 4"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT4D",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 105.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 13,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415584,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 4"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT4C",
+      "TemplateResRef" : "nw_door_ttr_08",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 75.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : null,
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 1,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Quadrant 2"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 1,
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "DOOR_QUADRANT2A",
+      "TemplateResRef" : "nw_door_evlstone",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 110.0,
+      "Y" : 175.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415813,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9074,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EvilStoneDoor",
+      "TemplateResRef" : "door_evlstone001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 175.0,
+      "Y" : 10.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415813,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9074,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EvilStoneDoor",
+      "TemplateResRef" : "door_evlstone001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 10.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9074,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EvilStoneDoor",
+      "TemplateResRef" : "door_evlstone001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 90.0,
+      "Y" : 15.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 0,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415858,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 60,
+      "Description" : {
+        "StringRef" : 9074,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 28,
+      "Faction" : 1,
+      "Fort" : 28,
+      "GenericType" : 6,
+      "HP" : 60,
+      "Hardness" : 8,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "trg_closedoor",
+      "OpenLockDC" : 28,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "EvilStoneDoor",
+      "TemplateResRef" : "door_evlstone001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 2,
+      "Will" : 0,
+      "X" : 85.0,
+      "Y" : 20.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415858,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "BridgeDoor",
+      "TemplateResRef" : "nw_door_ttr_06",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 85.0,
+      "Y" : 95.0,
+      "Z" : 0.71
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.46068612
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 40.1971,
+          "Y" : 167.27232,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 65.43731,
+      "YPosition" : 141.17064,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.46068612
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 39.983025,
+          "Y" : 113.21449,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 65.232414,
+      "YPosition" : 107.5543,
+      "ZPosition" : 4.7683716E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.22793579,
+          "Y" : 20.676971,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.07785416,
+          "Y" : 0.0073394775,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 2.2203102,
+          "Y" : 0.2460022,
+          "Z" : 0.025
+        },
+        {
+          "X" : 2.6375465,
+          "Y" : 20.875595,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (first)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 19.67117,
+          "Y" : 143.0271,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamefirst",
+      "TemplateResRef" : "blueprint033",
+      "XPosition" : 37.827522,
+      "YPosition" : 153.89272,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.052006,
+          "Y" : 2.8351593,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : -0.83019257,
+          "Y" : 11.981247,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.04078293,
+          "Y" : -0.02078247,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 11.024281,
+          "Y" : 142.97546,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 18.434633,
+      "YPosition" : 164.57645,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1291,
+          "CR" : 22.0,
+          "ResRef" : "balrog008",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -8.698559,
+          "Y" : -0.54730225,
+          "Z" : 0.025
+        },
+        {
+          "X" : -8.575211,
+          "Y" : -6.1178436,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : -0.44901657,
+          "Y" : -6.557007,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : -0.13256073,
+          "Y" : -0.013977051,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (third)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 14.681827,
+          "Y" : 141.36906,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamethird",
+      "TemplateResRef" : "blueprint035",
+      "XPosition" : 37.649647,
+      "YPosition" : 147.99864,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.46068612
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 8.162838,
+          "Y" : 126.72463,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 33.032543,
+      "YPosition" : 105.22758,
+      "ZPosition" : 4.7683716E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -7.6293445,
+          "Y" : -16.540405,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.07824421,
+          "Y" : -14.144409,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.2038154E-4,
+          "Y" : -0.057953663,
+          "Z" : 0.025
+        },
+        {
+          "X" : -7.5092487,
+          "Y" : 1.4903107,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (second)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 34.61462,
+          "Y" : 145.41235,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamesecond",
+      "TemplateResRef" : "blueprint034",
+      "XPosition" : 15.156027,
+      "YPosition" : 146.7644,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.46068612
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 151.6789,
+          "Y" : 174.28499,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 99.85437,
+      "YPosition" : 143.4618,
+      "ZPosition" : 2.8609861E-8
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.46068612
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 143.38057,
+          "Y" : 114.38714,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 99.97982,
+      "YPosition" : 106.81714,
+      "ZPosition" : 1.1920929E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.05041504,
+          "Y" : -6.145447,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.0451813,
+          "Y" : -5.6779327,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.024231,
+          "Y" : -0.5445938,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 178.59428,
+          "Y" : 119.357056,
+          "Z" : 9.894371E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 149.01265,
+      "YPosition" : 118.08802,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.05041504,
+          "Y" : -6.145447,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.0451813,
+          "Y" : -5.6779327,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.024231,
+          "Y" : -0.5445938,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 179.5107,
+          "Y" : 167.88684,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 149.90703,
+      "YPosition" : 177.79652,
+      "ZPosition" : 7.1525574E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -9.0026855E-4,
+          "Y" : -3.4679718,
+          "Z" : 0.025
+        },
+        {
+          "X" : 11.332703,
+          "Y" : -4.073227,
+          "Z" : 0.025
+        },
+        {
+          "X" : 11.313675,
+          "Y" : -0.04650879,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.0692749,
+          "Y" : -0.09237671,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (second)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 171.18587,
+          "Y" : 164.8721,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamesecond",
+      "TemplateResRef" : "blueprint034",
+      "XPosition" : 174.25967,
+      "YPosition" : 136.5978,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.03479767,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 6.803154,
+          "Y" : -1.8269348,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.819618,
+          "Y" : 4.2280426,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 115.61418,
+          "Y" : 124.24872,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 111.45634,
+      "YPosition" : 164.19753,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.824379,
+          "Y" : 5.1878204,
+          "Z" : 0.025
+        },
+        {
+          "X" : -6.810478,
+          "Y" : -0.058670044,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.06430054,
+          "Y" : 0.019607544,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.09554291,
+          "Y" : 5.027069,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 125.63949,
+          "Y" : 123.81607,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 118.26737,
+      "YPosition" : 142.6234,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -7.980957,
+          "Y" : 5.012787,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.041870117,
+          "Y" : -0.07102966,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -5.842804,
+          "Y" : 7.1526184,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 164.7257,
+          "Y" : 153.58313,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 168.28743,
+      "YPosition" : 122.43028,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.824379,
+          "Y" : 5.1878204,
+          "Z" : 0.025
+        },
+        {
+          "X" : -6.810478,
+          "Y" : -0.058670044,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.06430054,
+          "Y" : 0.019607544,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.09554291,
+          "Y" : 5.027069,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 150.86665,
+          "Y" : 155.50385,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 168.44928,
+      "YPosition" : 141.26817,
+      "ZPosition" : 0.7340121
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.785965,
+          "Y" : -8.033066,
+          "Z" : 0.025
+        },
+        {
+          "X" : 7.996704,
+          "Y" : -4.943207,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.037864685,
+          "Y" : -0.04827881,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 131.47385,
+          "Y" : 134.62381,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 121.93547,
+      "YPosition" : 157.5953,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.041152954,
+          "Y" : 0.0068359375,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 7.565071,
+          "Y" : 5.7789154,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.034828,
+          "Y" : 8.75882,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 147.7694,
+          "Y" : 135.23495,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 122.407646,
+      "YPosition" : 132.06093,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.23306274,
+          "Y" : -0.40348816,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 6.272217,
+          "Y" : 4.2364197,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.966629,
+          "Y" : 6.2573853,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.033172607,
+          "Y" : -0.034729004,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (second)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 136.02623,
+          "Y" : 144.49084,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamesecond",
+      "TemplateResRef" : "blueprint034",
+      "XPosition" : 151.86092,
+      "YPosition" : 141.92702,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1291,
+          "CR" : 22.0,
+          "ResRef" : "balrog008",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.11717224,
+          "Y" : 0.0234375,
+          "Z" : 0.025
+        },
+        {
+          "X" : 5.4600983,
+          "Y" : 0.18746948,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.8661194,
+          "Y" : 2.1324768,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.8661346,
+          "Y" : 4.639908,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 5.4600983,
+          "Y" : 6.3740234,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.11715698,
+          "Y" : 6.3740234,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (third)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 147.7397,
+          "Y" : 134.78633,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamethird",
+      "TemplateResRef" : "blueprint035",
+      "XPosition" : 132.15388,
+      "YPosition" : 141.67503,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025000446
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.025000505
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 42.826523,
+          "Y" : 54.174084,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 64.2732,
+      "YPosition" : 28.418652,
+      "ZPosition" : 5.0E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.166151,
+          "Y" : -5.4505205,
+          "Z" : 0.025
+        },
+        {
+          "X" : 33.398933,
+          "Y" : -6.058131,
+          "Z" : 0.025
+        },
+        {
+          "X" : 31.05458,
+          "Y" : 0.15119267,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.22349358,
+          "Y" : -0.09298611,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 44.82723,
+          "Y" : 36.852615,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 17.703655,
+      "YPosition" : 15.852965,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.18043518,
+          "Y" : 31.888489,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 0.052337646,
+          "Y" : 0.4979248,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 5.189789,
+          "Y" : -1.299118,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 5.56678,
+          "Y" : 33.87845,
+          "Z" : 0.025000505
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 26.274128,
+          "Y" : 33.99296,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 2.3915014,
+      "YPosition" : 29.007782,
+      "ZPosition" : 3.754085
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.166151,
+          "Y" : -5.4505205,
+          "Z" : 0.025
+        },
+        {
+          "X" : 33.398933,
+          "Y" : -6.058131,
+          "Z" : 0.025
+        },
+        {
+          "X" : 31.05458,
+          "Y" : 0.15119267,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.22349358,
+          "Y" : -0.09298611,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 0,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 34.631527,
+          "Y" : 93.31792,
+          "Z" : 0.9999943
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 19.311,
+      "YPosition" : 79.21132,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 1291,
+          "CR" : 22.0,
+          "ResRef" : "balrog008",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -7.49432,
+          "Y" : -0.42749405,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.03646469,
+          "Y" : 0.04667282,
+          "Z" : 0.025
+        },
+        {
+          "X" : -1.0999031,
+          "Y" : 6.719776,
+          "Z" : 0.025
+        },
+        {
+          "X" : -6.706196,
+          "Y" : 6.7860107,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Endgame (third)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 36.13528,
+          "Y" : 78.45534,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamethird",
+      "TemplateResRef" : "blueprint035",
+      "XPosition" : 38.926693,
+      "YPosition" : 53.266167,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 1291,
+          "CR" : 22.0,
+          "ResRef" : "balrog008",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.07166481,
+          "Y" : -0.09172821,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.48794365,
+          "Y" : -6.7193985,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 5.9696407,
+          "Y" : -6.789757,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.5558453,
+          "Y" : 0.14810944,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (third)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 34.9286,
+          "Y" : 13.343757,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamethird",
+      "TemplateResRef" : "blueprint035",
+      "XPosition" : 31.615366,
+      "YPosition" : 37.427666,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -8.506363,
+          "Y" : -5.999649,
+          "Z" : 0.025
+        },
+        {
+          "X" : -1.2416649,
+          "Y" : -7.0302887,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.031196594,
+          "Y" : 0.040023804,
+          "Z" : 0.025
+        },
+        {
+          "X" : -8.102442,
+          "Y" : -0.2381134,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 98.61085,
+          "Y" : 144.56746,
+          "Z" : 9.655952E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 37.83858,
+      "YPosition" : 148.16179,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.6543655,
+          "Y" : -0.059265137,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.07901001,
+          "Y" : 0.13825989,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.21727753,
+          "Y" : 1.7185364,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : -3.595108,
+          "Y" : 1.7382812,
+          "Z" : 1.0250001
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 62.284214,
+          "Y" : 135.79704,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 86.86538,
+      "YPosition" : 147.05756,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.7335052,
+          "Y" : 3.607048,
+          "Z" : 1.025
+        },
+        {
+          "X" : -3.7243729,
+          "Y" : -0.0013885498,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.045677185,
+          "Y" : 0.062309265,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 84.30459,
+          "Y" : 62.64985,
+          "Z" : 1.0000002
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 86.999214,
+      "YPosition" : 113.243935,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.5787582,
+          "Y" : 1.0681,
+          "Z" : 1.025
+        },
+        {
+          "X" : -3.4912643,
+          "Y" : -0.011016846,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : 0.010406494,
+          "Y" : 0.03302002,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.00504303,
+          "Y" : 1.1004639,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Endgame (first)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 64.03395,
+          "Y" : 143.26697,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamefirst",
+      "TemplateResRef" : "blueprint033",
+      "XPosition" : 86.7716,
+      "YPosition" : 148.88435,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 41.0,
+          "ResRef" : "bossgorash",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.5332718,
+          "Y" : 1.4284439,
+          "Z" : 1.025
+        },
+        {
+          "X" : -3.4574585,
+          "Y" : 0.0332489,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.0250002
+        },
+        {
+          "X" : 0.023468018,
+          "Y" : 1.3851166,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Sir Gorash",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 2400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 108.79868,
+          "Y" : 54.630394,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SirGorash",
+      "TemplateResRef" : "sirgorash",
+      "XPosition" : 86.73432,
+      "YPosition" : 91.00454,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.6368484,
+          "Y" : 1.8766022,
+          "Z" : 1.025
+        },
+        {
+          "X" : -3.5289154,
+          "Y" : -0.047317505,
+          "Z" : 1.0250002
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.11917114,
+          "Y" : 0.14186859,
+          "Z" : 1.0249999
+        },
+        {
+          "X" : -0.06703949,
+          "Y" : 1.7835312,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Endgame (first)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 61.527065,
+          "Y" : 65.11305,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamefirst",
+      "TemplateResRef" : "blueprint033",
+      "XPosition" : 86.859116,
+      "YPosition" : 97.28081,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.7017899,
+          "Y" : 1.2896595,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : -2.5793152,
+          "Y" : 0.023881912,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.05971527,
+          "Y" : 0.04776573,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 1.1224899,
+          "Y" : 1.2777195,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 119.92458,
+          "Y" : 3.4962196,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 86.37195,
+      "YPosition" : 20.940226,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.3824844,
+          "Y" : 1.3446503,
+          "Z" : 1.025
+        },
+        {
+          "X" : -3.3215866,
+          "Y" : 0.03647995,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.01789856,
+          "Y" : 0.10942459,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.08805084,
+          "Y" : 1.3627472,
+          "Z" : 1.0250001
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 117.973015,
+          "Y" : 3.578479,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 86.668144,
+      "YPosition" : 32.41533,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.7734375,
+          "Y" : -1.7402573,
+          "Z" : 0.025
+        },
+        {
+          "X" : -4.443489,
+          "Y" : -71.634,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.48145294,
+          "Y" : -71.16611,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.8870697,
+          "Y" : -0.31045532,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 8,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 5,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 134.76573,
+          "Y" : 38.56634,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 122.38397,
+      "YPosition" : 74.06471,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.047782898,
+          "Y" : 22.405384,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.43598938,
+          "Y" : -0.10681534,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.185135,
+          "Y" : -0.9702606,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.6238174,
+          "Y" : 24.032833,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Endgame (second)",
+      "MaxCreatures" : 8,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 5,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 144.97841,
+          "Y" : 54.6535,
+          "Z" : 0.08000552
+        }
+      ],
+      "Tag" : "Endgamesecond",
+      "TemplateResRef" : "blueprint034",
+      "XPosition" : 114.428154,
+      "YPosition" : 43.708622,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1291,
+          "CR" : 22.0,
+          "ResRef" : "balrog008",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.6007233,
+          "Y" : 65.40136,
+          "Z" : 0.024997974
+        },
+        {
+          "X" : -4.30233,
+          "Y" : -0.50969625,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.079940796,
+          "Y" : 0.13509393,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.07993317,
+          "Y" : 62.460808,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Balrog Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 134.75551,
+          "Y" : 66.543755,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BalrogGroupextra",
+      "TemplateResRef" : "bloodknightgr011",
+      "XPosition" : 102.29998,
+      "YPosition" : 2.925856,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.7404175,
+          "Y" : -1.3022699,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.7624207,
+          "Y" : -1.6842527,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 3.006546,
+          "Y" : -0.16007805,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 182.11322,
+          "Y" : 39.795227,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 173.63158,
+      "YPosition" : 9.153534,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -9.614174,
+          "Y" : -6.6490326,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.21917343,
+          "Y" : 0.026519775,
+          "Z" : 0.025
+        },
+        {
+          "X" : -9.379993,
+          "Y" : 0.61434937,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 43.825752,
+          "Y" : 151.351,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 62.447853,
+      "YPosition" : 146.4329,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.20142365,
+          "Y" : -7.4104767,
+          "Z" : 0.025
+        },
+        {
+          "X" : 9.797497,
+          "Y" : -6.0760956,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.033592224,
+          "Y" : -0.06770325,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 36.425858,
+          "Y" : 124.35834,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 52.841034,
+      "YPosition" : 139.8179,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.030677795,
+          "Y" : 4.3760605,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : 0.07946777,
+          "Y" : 0.05701828,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.395668,
+          "Y" : 4.380039,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 22.9704,
+          "Y" : 43.884865,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 83.356766,
+      "YPosition" : 52.826756,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.028968811,
+          "Y" : 0.02607727,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.205307,
+          "Y" : -0.080379486,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.2236633,
+          "Y" : 4.3082924,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 44.150963,
+          "Y" : 44.039673,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 83.5712,
+      "YPosition" : 52.740524,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.819374,
+          "Y" : 3.700943,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.02961731,
+          "Y" : 0.009864807,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.039482117,
+          "Y" : 3.6121216,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Blood Knight Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 101.95798,
+          "Y" : 68.62391,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BloodKnightGroupextra",
+      "TemplateResRef" : "bloodknightgr003",
+      "XPosition" : 87.06823,
+      "YPosition" : 113.234375,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 1291,
+          "CR" : 22.0,
+          "ResRef" : "balrog008",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.6007233,
+          "Y" : 65.40136,
+          "Z" : 0.025
+        },
+        {
+          "X" : -4.30233,
+          "Y" : -0.50969625,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.079940796,
+          "Y" : 0.13509393,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.07993317,
+          "Y" : 62.460808,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Balrog Group (extra)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 139.6662,
+          "Y" : 55.20926,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "BalrogGroupextra",
+      "TemplateResRef" : "bloodknightgr011",
+      "XPosition" : 172.00713,
+      "YPosition" : 2.951819,
+      "ZPosition" : 9.536743E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -2.1296844,
+          "Y" : -1.064846,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.028778076,
+          "Y" : 0.1438942,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.17268372,
+          "Y" : 9.583588,
+          "Z" : 0.025
+        },
+        {
+          "X" : -2.0145721,
+          "Y" : 10.475754,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (first)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 128.24104,
+          "Y" : 54.403175,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamefirst",
+      "TemplateResRef" : "blueprint033",
+      "XPosition" : 156.50624,
+      "YPosition" : 50.222645,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.015594482,
+          "Y" : -0.15596771,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.31192017,
+          "Y" : -2.8541718,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.7845,
+          "Y" : -2.8385773,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 7.1432343,
+          "Y" : 0.14037323,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Endgame (first)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 150.17326,
+          "Y" : 100.7009,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamefirst",
+      "TemplateResRef" : "blueprint033",
+      "XPosition" : 131.4467,
+      "YPosition" : 73.20616,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 31.0,
+          "ResRef" : "bossvizier",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.46347046,
+          "Y" : 0.115859985,
+          "Z" : 0.025
+        },
+        {
+          "X" : 8.342381,
+          "Y" : 0.5793228,
+          "Z" : 0.025
+        },
+        {
+          "X" : 9.73278,
+          "Y" : 68.82461,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 1.8538666,
+          "Y" : 68.94047,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Boss",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 3600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 12.090315,
+          "Y" : 135.54387,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiBoss",
+      "TemplateResRef" : "bossmonsters017",
+      "XPosition" : 40.6482,
+      "YPosition" : 105.42785,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 21.0,
+          "ResRef" : "knight004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 5,
+          "CR" : 23.0,
+          "ResRef" : "knight005",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -9.020142,
+          "Y" : 6.434433,
+          "Z" : 0.025
+        },
+        {
+          "X" : -8.922562,
+          "Y" : -0.22125244,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.034835815,
+          "Y" : 0.015625,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.07762146,
+          "Y" : 6.1726074,
+          "Z" : 0.024999881
+        }
+      ],
+      "LocalizedName" : "Endgame (first)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 181.58176,
+          "Y" : 161.05612,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Endgamefirst",
+      "TemplateResRef" : "blueprint033",
+      "XPosition" : 149.11687,
+      "YPosition" : 161.89629,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 23,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14634,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14633,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Quadrant 1 Lever"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "dor_quadrant1x",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 381,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "LEVER_QUADRANT1",
+      "TemplateResRef" : "quadlever1",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 33.63421,
+      "Y" : 144.4883,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 23,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14634,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14633,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Quadrant 2 Lever"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "dor_quadrant2x",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 381,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "LEVER_QUADRANT2",
+      "TemplateResRef" : "quadlever2",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 135.18495,
+      "Y" : 145.08777,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 23,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14634,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14633,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Quadrant 3 Lever"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "dor_quadrant3x",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 381,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "LEVER_QUADRANT3A",
+      "TemplateResRef" : "quadlever3",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 34.847363,
+      "Y" : 55.077217,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 23,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14634,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14633,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Quadrant 3 Lever"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "dor_quadrant4x",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 381,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "LEVER_QUADRANT3B",
+      "TemplateResRef" : "quadlever3",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 34.688686,
+      "Y" : 34.758446,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Diablo Spawnpoint"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "INV_DIABLO",
+      "TemplateResRef" : "invisobj001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 98.593025,
+      "Y" : 65.64689,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2248,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707955,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 16810924,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16812420,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 2446,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_PENTAGRAM002",
+      "TemplateResRef" : "zep_pentagram002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 172,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707955,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_diabloport",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "This portal leads to the lair of the Lord of Terror himself..."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Diablo's Lair"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 530,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PORTAL_DIABLOPORT",
+      "TemplateResRef" : "plc_solblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.1993704,
+      "Y" : 164.71666,
+      "Z" : 0.6562194
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 15.184131,
+      "Y" : 174.76521,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 74.77766,
+      "Y" : 174.88622,
+      "Z" : 0.6264912
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 95.14202,
+      "Y" : 174.81245,
+      "Z" : 0.6332851
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 184.74353,
+      "Y" : 164.83862,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 184.93138,
+      "Y" : 115.23504,
+      "Z" : 0.675207
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 184.78386,
+      "Y" : 94.80232,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 184.95158,
+      "Y" : 15.218723,
+      "Z" : 0.7274572
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 74.9393,
+      "Y" : 5.223112,
+      "Z" : 0.7033644
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 15.23598,
+      "Y" : 5.096843,
+      "Z" : 0.63248
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.231596,
+      "Y" : 15.096853,
+      "Z" : 0.6385352
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.115849,
+      "Y" : 74.752,
+      "Z" : 0.5879073
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 15.115528,
+      "Y" : 84.7713,
+      "Z" : 0.61514187
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 5.211646,
+      "Y" : 115.10637,
+      "Z" : 0.6522138
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 55.279686,
+      "Y" : 55.13949,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 45.248505,
+      "Y" : 65.12534,
+      "Z" : 0.57329845
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 24.910181,
+      "Y" : 65.23653,
+      "Z" : 0.642021
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.892796,
+      "Y" : 55.25891,
+      "Z" : 0.58549213
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.813542,
+      "Y" : 34.85769,
+      "Z" : 0.6343454
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 24.801641,
+      "Y" : 24.894987,
+      "Z" : 0.6726151
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 45.157272,
+      "Y" : 24.748604,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 55.10727,
+      "Y" : 34.791046,
+      "Z" : 0.65462893
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 104.89518,
+      "Y" : 65.23686,
+      "Z" : 0.61954075
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 104.7521,
+      "Y" : 44.873802,
+      "Z" : 0.5728665
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 165.10928,
+      "Y" : 44.75294,
+      "Z" : 0.59886396
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 165.17854,
+      "Y" : 65.14588,
+      "Z" : 0.640079
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 154.78156,
+      "Y" : 74.907005,
+      "Z" : 0.66242427
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 145.11856,
+      "Y" : 74.760635,
+      "Z" : 0.595899
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 124.77882,
+      "Y" : 74.87966,
+      "Z" : 0.6184799
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 115.137764,
+      "Y" : 74.74085,
+      "Z" : 0.5699997
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 115.25754,
+      "Y" : 35.09391,
+      "Z" : 0.6069145
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 124.90826,
+      "Y" : 35.24167,
+      "Z" : 0.63208735
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 145.2484,
+      "Y" : 35.110287,
+      "Z" : 0.59554553
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 154.90132,
+      "Y" : 35.21859,
+      "Z" : 0.65387464
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 104.88806,
+      "Y" : 105.240685,
+      "Z" : 0.6038015
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1001,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Medium",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T05A",
+      "TemplateResRef" : "flamelavalarg001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 22.467617,
+      "Y" : 157.6713,
+      "Z" : 4.7683716E-7
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1001,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Medium",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T05A",
+      "TemplateResRef" : "flamelavalarg001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 57.62028,
+      "Y" : 157.64151,
+      "Z" : 2.3841858E-7
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1001,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Medium",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T05A",
+      "TemplateResRef" : "flamelavalarg001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 57.65808,
+      "Y" : 122.569984,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1001,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Medium",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T05A",
+      "TemplateResRef" : "flamelavalarg001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 22.532423,
+      "Y" : 122.58527,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1002,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Small",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T06A",
+      "TemplateResRef" : "flamelavalarg002",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 42.184784,
+      "Y" : 132.19225,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 15.233817,
+      "Y" : 105.05598,
+      "Z" : 0.6954709
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 154.78255,
+      "Y" : 104.87781,
+      "Z" : 0.620954
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 1000,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : null,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Flame NL Large",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "PLC_T04A",
+      "TemplateResRef" : "flamelavalarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 125.09526,
+      "Y" : 104.79914,
+      "Z" : 0.6834539
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14678,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Magic Sparks - Red",
+      "TemplateResRef" : "plc_magicred",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 135.0,
+      "Y" : 55.0,
+      "Z" : 0.0
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 25000,
+      "IntervalVrtn" : 0,
+      "LocName" : "Diablo Howl",
+      "Looping" : 0,
+      "MaxDistance" : 40.0,
+      "MinDistance" : 4.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 20,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "diablo1"
+        }
+      ],
+      "Tag" : "SND_DIABLOHOWL",
+      "TemplateResRef" : "diablohowl",
+      "Times" : 3,
+      "Volume" : 18,
+      "VolumeVrtn" : 0,
+      "XPosition" : 134.83894,
+      "YPosition" : 54.907265,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67901,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 7.5,
+      "MinDistance" : 0.8,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_portal4"
+        }
+      ],
+      "Tag" : "SND_DIABLOPORTAL",
+      "TemplateResRef" : "magicportalevil",
+      "Times" : 3,
+      "Volume" : 66,
+      "VolumeVrtn" : 0,
+      "XPosition" : 135.3839,
+      "YPosition" : 54.87093,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 25000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67878,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 7.5,
+      "MinDistance" : 0.8,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_na_lavaburst1"
+        },
+        {
+          "Sound" : "as_na_lavaburst2"
+        }
+      ],
+      "Tag" : "LavaBursts",
+      "TemplateResRef" : "lavabursts",
+      "Times" : 3,
+      "Volume" : 79,
+      "VolumeVrtn" : 0,
+      "XPosition" : 87.17987,
+      "YPosition" : 172.23395,
+      "ZPosition" : 1.5000095
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 0,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -6.288376,
+          "PointY" : 0.12370682,
+          "PointZ" : 0.02500044
+        },
+        {
+          "PointX" : -6.2883606,
+          "PointY" : -6.577011,
+          "PointZ" : 0.0250005
+        },
+        {
+          "PointX" : 0.041229248,
+          "PointY" : -6.5151596,
+          "PointZ" : 0.0250005
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.0250005
+        },
+        {
+          "PointX" : -0.14431763,
+          "PointY" : -0.020618439,
+          "PointZ" : 0.02500044
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Diablotalk Trigger"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "spk_diablotalk",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "TRG_DIABLOTALK",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 138.53993,
+      "YOrientation" : 0.0,
+      "YPosition" : 57.974033,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Hell 4 Waypoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_HELL4",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 3.2337502E-5,
+      "XPosition" : 84.89892,
+      "YOrientation" : -1.0,
+      "YPosition" : 170.91832,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Hell 4 Return Portal"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_HELL4TRIST",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 4.6809487E-6,
+      "XPosition" : 84.99436,
+      "YOrientation" : -1.0,
+      "YPosition" : 165.15012,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "First Quadrant"
+          }
+        ]
+      },
+      "MapNote" : "First Quadrant",
+      "MapNoteEnabled" : 1,
+      "Tag" : "MAP_QUADRANT1",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.0,
+      "XPosition" : 40.016808,
+      "YOrientation" : 1.0,
+      "YPosition" : 139.80435,
+      "ZPosition" : 3.0000038
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Second Quadrant"
+          }
+        ]
+      },
+      "MapNote" : "Second Quadrant",
+      "MapNoteEnabled" : 1,
+      "Tag" : "MAP_QUADRANT2",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.0,
+      "XPosition" : 135.08553,
+      "YOrientation" : 1.1483816E-6,
+      "YPosition" : 145.08067,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Third Quadrant"
+          }
+        ]
+      },
+      "MapNote" : "Third Quadrant",
+      "MapNoteEnabled" : 1,
+      "Tag" : "MAP_QUADRANT3",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.0,
+      "XPosition" : 35.250835,
+      "YOrientation" : 1.0,
+      "YPosition" : 45.03521,
+      "ZPosition" : 3.0000038
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Fourth Quadrant"
+          }
+        ]
+      },
+      "MapNote" : "Fourth Quadrant",
+      "MapNoteEnabled" : 1,
+      "Tag" : "MAP_QUADRANT4",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : -1.0,
+      "XPosition" : 135.41,
+      "YOrientation" : 1.1483816E-6,
+      "YPosition" : 54.82,
+      "ZPosition" : 0.0
+    }
+  ]
+}

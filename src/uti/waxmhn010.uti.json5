@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 38,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 531390,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13912,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "When the barbarian tribes north of Icewind dale encountered a fierce band of fire giants, lost and alone, their Ice Reaver hand axes made short work of them.  Finding a vast sum of gold on the giants, the chieftain commemorated the battle by having new, more powerful warriors.  Over time, most of these axes disappeared, and occasionally a young warrior will set off to quest for one of the legendary items."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13942,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Ice Reaver +8"
+      }
+    ]
+  },
+  "ModelPart1" : 32,
+  "ModelPart2" : 42,
+  "ModelPart3" : 42,
+  "PaletteID" : 30,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 7,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 16,
+      "Subtype" : 7
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 7,
+      "CostValue" : 3,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 23,
+      "Subtype" : 7
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "NW_WAXMHN009",
+  "TemplateResRef" : "waxmhn010"
+}

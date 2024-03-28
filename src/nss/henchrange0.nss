@@ -1,0 +1,16 @@
+//::///////////////////////////////////////////////
+//:: FileName henchrange0
+//:://////////////////////////////////////////////
+//:://////////////////////////////////////////////
+//:: Created By: Script Wizard
+//:: Created On: 7/12/2002 10:24:04
+//:: Modified: 69MEH69 21Jun2003
+//:://////////////////////////////////////////////
+void main()
+{
+    // Set the variables
+    int nRoll = Random(10);
+    float fRoll = IntToFloat(nRoll);
+    SetLocalFloat(OBJECT_SELF, "HenchRange", fRoll);
+
+}

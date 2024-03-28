@@ -1,0 +1,135 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "story_corners1",
+      "Text" : "And in the year of the golden light, it was so decreed that a great cathedral be raised.  The cornerstone of this holy place was to be carved from the translucent stone, Antyrael - named for the angel who shared his power with the Horadrim..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Sound" : "story_corners2",
+      "Text" : "In the year of drawing shadows, the ground shook, and the cathedral shattered and fell.  As the building of catacombs and castles began, and man stood against the ravages of the Sin War, the ruins were scavenged for their stones.  And so it was that the cornerstone vanished from the eyes of man..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "giv_cornerstone",
+      "Sound" : "story_corners3",
+      "Text" : "The stone was of this world, and of all worlds, as the light is both within all things and beyond all things.  Light and unity are the products of this holy foundation - a unity of purpose, and a unity of possession..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Sound" : "story_corners1",
+      "Text" : "And in the year of the golden light, it was so decreed that a great cathedral be raised.  The cornerstone of this holy place was to be carved from the translucent stone, Antyrael - named for the angel who shared his power with the Horadrim..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Sound" : "story_corners2",
+      "Text" : "In the year of drawing shadows, the ground shook, and the cathedral shattered and fell.  As the building of catacombs and castles began, and man stood against the ravages of the Sin War, the ruins were scavenged for their stones.  And so it was that the cornerstone vanished from the eyes of man..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5
+      ],
+      "Script" : "",
+      "Sound" : "story_corners3",
+      "Text" : "The stone was of this world, and of all worlds, as the light is both within all things and beyond all things.  Light and unity are the products of this holy foundation - a unity of purpose, and a unity of possession..."
+    }
+  ],
+  "NumWords" : 284,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_cornerstonez",
+      "Index" : 3
+    },
+    0
+  ]
+}

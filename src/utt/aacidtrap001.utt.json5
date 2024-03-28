@@ -1,0 +1,31 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Average Blob of Acid\r\nDetect DC: 14\r\nDisarm DC: 26\r\nSet DC: 25\r\nDamage / Effect: 5d6, paralyze for 3 rounds.\r\nAverage Damage: 17.5\r\nArea of Effect: Single\r\nMin to Max player level: 3 - 6",
+  "Cursor" : 0,
+  "DisarmDC" : 26,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14763,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Average Blob of Acid Trap"
+      }
+    ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 12,
+  "PortraitId" : 0,
+  "Tag" : "D1_AVERAGEACIDTRAP",
+  "TemplateResRef" : "aacidtrap001",
+  "TrapDetectDC" : 14,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 13,
+  "Type" : 2
+}

@@ -1,0 +1,1193 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 51,
+    "AmbientSndDayVol" : 64,
+    "AmbientSndNight" : 54,
+    "AmbientSndNitVol" : 65,
+    "EnvAudio" : 92,
+    "MusicBattle" : 0,
+    "MusicDay" : 99,
+    "MusicDelay" : 10000,
+    "MusicNight" : 99
+  },
+  "CreatureList" : [
+    {
+      "AppearanceHead" : 40,
+      "AppearanceType" : 6,
+      "ArmorPartRFoot" : 1,
+      "BodyBag" : 0,
+      "BodyPartBelt" : 0,
+      "BodyPartLBicep" : 1,
+      "BodyPartLFArm" : 1,
+      "BodyPartLFoot" : 1,
+      "BodyPartLHand" : 1,
+      "BodyPartLShin" : 1,
+      "BodyPartLShoul" : 0,
+      "BodyPartLThigh" : 1,
+      "BodyPartNeck" : 1,
+      "BodyPartPelvis" : 1,
+      "BodyPartRBicep" : 1,
+      "BodyPartRFArm" : 1,
+      "BodyPartRHand" : 1,
+      "BodyPartRShin" : 1,
+      "BodyPartRShoul" : 0,
+      "BodyPartRThigh" : 1,
+      "BodyPartTorso" : 1,
+      "CRAdjust" : 0,
+      "Cha" : 10,
+      "ChallengeRating" : 0.5,
+      "ClassList" : [
+        {
+          "ClassLevel" : 1,
+          "ClassX" : 20
+        }
+      ],
+      "ColorHair" : 49,
+      "ColorSkin" : 1,
+      "ColorTattoo1" : 1,
+      "ColorTattoo2" : 1,
+      "Con" : 12,
+      "Conversation" : "con_startmodule",
+      "CurrentHitPoints" : 4,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : "This person looks familiar to you.  He may be one of the townsfolk in Tristram who are leaving town.  Maybe he can provide some answers as to what is going on...",
+      "Dex" : 10,
+      "Disarmable" : 1,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 0,
+          "ArmorPartLBicep" : 11,
+          "ArmorPartLFArm" : 1,
+          "ArmorPartLFoot" : 6,
+          "ArmorPartLHand" : 152,
+          "ArmorPartLShin" : 158,
+          "ArmorPartLShoul" : 0,
+          "ArmorPartLThigh" : 15,
+          "ArmorPartNeck" : 1,
+          "ArmorPartPelvis" : 18,
+          "ArmorPartRBicep" : 11,
+          "ArmorPartRFArm" : 1,
+          "ArmorPartRFoot" : 6,
+          "ArmorPartRHand" : 152,
+          "ArmorPartRShin" : 158,
+          "ArmorPartRShoul" : 0,
+          "ArmorPartRThigh" : 15,
+          "ArmorPartRobe" : 0,
+          "ArmorPartTorso" : 41,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 35,
+          "Cloth2Color" : 51,
+          "Cost" : 10,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "Leather1Color" : 35,
+          "Leather2Color" : 18,
+          "LocalizedName" : {
+            "StringRef" : 12925,
+            "Strings" : [ ]
+          },
+          "Metal1Color" : 15,
+          "Metal2Color" : 15,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 2,
+          "Tag" : "NW_CLOTH024",
+          "TemplateResRef" : "nw_cloth024",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 7,
+      "FeatList" : [
+        {
+          "Feat" : 2
+        },
+        {
+          "Feat" : 3
+        },
+        {
+          "Feat" : 4
+        },
+        {
+          "Feat" : 258
+        },
+        {
+          "Feat" : 32
+        },
+        {
+          "Feat" : 45
+        }
+      ],
+      "FirstName" : "<cÿÿÿ>TheeMon",
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 50,
+      "HitPoints" : 4,
+      "Int" : 10,
+      "Interruptable" : 0,
+      "IsImmortal" : 1,
+      "IsPC" : 0,
+      "LastName" : "",
+      "LawfulChaotic" : 50,
+      "Lootable" : 0,
+      "MaxHitPoints" : 5,
+      "NaturalAC" : 0,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 0,
+      "Plot" : 1,
+      "PortraitId" : 2310,
+      "Race" : 6,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 4
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 170,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 82,
+      "Str" : 10,
+      "Subrace" : "",
+      "Tag" : "NPC_THEEMON",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "theemon",
+      "WalkRate" : 4,
+      "Willbonus" : 0,
+      "Wings" : 0,
+      "Wis" : 10,
+      "XOrientation" : 0.7071071,
+      "XPosition" : 18.75,
+      "YOrientation" : -0.7071065,
+      "YPosition" : 29.0,
+      "ZPosition" : 0.0
+    },
+    {
+      "AppearanceType" : 1022,
+      "BodyBag" : 0,
+      "CRAdjust" : 0,
+      "Cha" : 6,
+      "ChallengeRating" : 3.0,
+      "ClassList" : [
+        {
+          "ClassLevel" : 4,
+          "ClassX" : 12
+        }
+      ],
+      "Con" : 15,
+      "Conversation" : "",
+      "CurrentHitPoints" : 32,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : {
+        "StringRef" : 12677,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "These heavy draft animals are prized possessions that not all farmers can afford. Oxen are well suited to pulling plows and milling grain."
+          }
+        ]
+      },
+      "Dex" : 9,
+      "Disarmable" : 0,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 70,
+          "Charges" : 0,
+          "Cost" : 500,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 0,
+          "LocalizedName" : {
+            "StringRef" : 13230,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 1,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 19,
+              "CostValue" : 8,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 77,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 65536,
+          "Tag" : "NW_IT_CREWPP005",
+          "TemplateResRef" : "nw_it_crewpp005",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 7,
+      "FeatList" : [
+        {
+          "Feat" : 289
+        }
+      ],
+      "FirstName" : {
+        "StringRef" : 12678,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Pack Ox"
+          }
+        ]
+      },
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 50,
+      "HitPoints" : 32,
+      "Int" : 3,
+      "Interruptable" : 1,
+      "IsImmortal" : 0,
+      "IsPC" : 0,
+      "LastName" : "",
+      "LawfulChaotic" : 50,
+      "Lootable" : 0,
+      "MaxHitPoints" : 40,
+      "NaturalAC" : 2,
+      "NoPermDeath" : 0,
+      "PerceptionRange" : 11,
+      "Phenotype" : 0,
+      "Plot" : 1,
+      "PortraitId" : 279,
+      "Race" : 8,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 2
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 22,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 0,
+      "Str" : 18,
+      "Subrace" : "",
+      "Tag" : "START_OX",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "zep_packox",
+      "WalkRate" : 7,
+      "Willbonus" : 0,
+      "Wings" : 0,
+      "Wis" : 11,
+      "XOrientation" : 0.65077466,
+      "XPosition" : 19.069239,
+      "YOrientation" : -0.7592709,
+      "YPosition" : 32.01076,
+      "ZPosition" : 0.010001659
+    }
+  ],
+  "DoorList" : [
+    {
+      "AnimationState" : 1,
+      "Appearance" : 65,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_TRISTRAM2ENTRANCE",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 64,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Town Entrance"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnClick" : "s_restrictmodule",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "ENTRANCE",
+      "TemplateResRef" : "nw_door_ttr_29",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 1.81,
+      "Y" : 25.0,
+      "Z" : 0.0
+    }
+  ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "You look about you, suspicious, but see nothing."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "COLORS",
+      "TemplateResRef" : "invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 19.097908,
+      "Y" : 33.664093,
+      "Z" : 0.010000017
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 58,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 0.73303723,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14586,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5700,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 416,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "START_CAMPFIRE",
+      "TemplateResRef" : "plc_campfr",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 19.250505,
+      "Y" : 28.10667,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2560,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : "This wagon has been parked and unpacked.",
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : "Wagon. Covered, Ladder Down",
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 1,
+      "PortraitId" : 398,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "START_WAGON",
+      "TemplateResRef" : "zep_wagon001",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 14.09413,
+      "Y" : 31.578781,
+      "Z" : 0.010001659
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_beginning",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Return to Tristram"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 2632,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "BEGINNING",
+      "TemplateResRef" : "plc_invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.0,
+      "Y" : 12.0,
+      "Z" : 0.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2520,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 2.1598437,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 10,
+      "Description" : {
+        "StringRef" : 16810854,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Fort" : 5,
+      "HP" : 10,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 16811658,
+        "Strings" : [ ]
+      },
+      "Lockable" : 1,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 0,
+      "Plot" : 0,
+      "PortraitId" : 453,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "ZEP_DIRT03",
+      "TemplateResRef" : "zep_dirt03",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 9.126322,
+      "Y" : 9.508574,
+      "Z" : 0.010001659
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 68018,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 15.0,
+      "MinDistance" : 1.5,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_waterfall1"
+        }
+      ],
+      "Tag" : "WaterfallSmall",
+      "TemplateResRef" : "waterfallsmal",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 35.352795,
+      "YPosition" : 6.0215135,
+      "ZPosition" : -0.64190006
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67983,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 25.0,
+      "MinDistance" : 2.5,
+      "PitchVariation" : 0.0,
+      "Positional" : 0,
+      "Priority" : 2,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_stream3"
+        }
+      ],
+      "Tag" : "StreamMediumSoft",
+      "TemplateResRef" : "streammediumsoft",
+      "Times" : 3,
+      "Volume" : 15,
+      "VolumeVrtn" : 0,
+      "XPosition" : 29.758093,
+      "YPosition" : 28.944027,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 5000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67973,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_an_songbird1"
+        },
+        {
+          "Sound" : "as_an_songbird2"
+        },
+        {
+          "Sound" : "as_an_songbird3"
+        },
+        {
+          "Sound" : "as_an_songbirds1"
+        },
+        {
+          "Sound" : "as_an_songbirds2"
+        },
+        {
+          "Sound" : "as_an_songbirds3"
+        }
+      ],
+      "Tag" : "SongbirdChirps",
+      "TemplateResRef" : "songbirdchirps",
+      "Times" : 1,
+      "Volume" : 28,
+      "VolumeVrtn" : 0,
+      "XPosition" : 27.338032,
+      "YPosition" : 28.864355,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67830,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 0,
+      "Priority" : 2,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_an_crickets1"
+        }
+      ],
+      "Tag" : "CricketsLoop",
+      "TemplateResRef" : "cricketsloop",
+      "Times" : 2,
+      "Volume" : 31,
+      "VolumeVrtn" : 0,
+      "XPosition" : 28.458916,
+      "YPosition" : 31.393272,
+      "ZPosition" : 1.5
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67899,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 5.0,
+      "MinDistance" : 0.5,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_sourceston"
+        }
+      ],
+      "Tag" : "SND_COWPORTAL",
+      "TemplateResRef" : "magiccrystalsour",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 9.098221,
+      "YPosition" : 9.523338,
+      "ZPosition" : 1.5100001
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 1,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -5.348713,
+          "PointY" : 1.6184235,
+          "PointZ" : 5.025
+        },
+        {
+          "PointX" : -4.7407436,
+          "PointY" : 0.065983295,
+          "PointZ" : 5.025
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 5.025
+        },
+        {
+          "PointX" : -0.078754425,
+          "PointY" : 0.044676304,
+          "PointZ" : 5.025
+        },
+        {
+          "PointX" : 0.624321,
+          "PointY" : 1.4675848,
+          "PointZ" : 5.025
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "No Entry"
+          }
+        ]
+      },
+      "OnClick" : "trg_noentry",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "TRG_NOENTRY",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 27.616032,
+      "YOrientation" : 0.0,
+      "YPosition" : 0.27011967,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    },
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 0,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 10.345911,
+          "PointY" : 4.196167E-5,
+          "PointZ" : 0.020209813
+        },
+        {
+          "PointX" : 8.26005,
+          "PointY" : 3.82654,
+          "PointZ" : 0.02500006
+        },
+        {
+          "PointX" : 1.8472958,
+          "PointY" : 3.7473717,
+          "PointZ" : 0.02500006
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Cow Level Portal Trigger"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "trg_cowlevelport",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "TRG_COWLEVELPORTAL",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 19.858028,
+      "YOrientation" : 0.0,
+      "YPosition" : 9.217302,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Tristram"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_ENTRANCE2TRISTRAM",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 1.0,
+      "XPosition" : 8.887888,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 25.037561,
+      "ZPosition" : 0.019993782
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Portal to Cow Level"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_COWLEVELPORTAL",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.7071066,
+      "XPosition" : 8.968056,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 9.455154,
+      "ZPosition" : 0.010001659
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : null,
+      "MapNote" : null,
+      "MapNoteEnabled" : 0,
+      "Tag" : "WP_NPC_THEEMON_01",
+      "TemplateResRef" : "",
+      "XOrientation" : 0.7071071,
+      "XPosition" : 18.75,
+      "YOrientation" : -0.7071065,
+      "YPosition" : 29.0,
+      "ZPosition" : 0.0
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Sound" : "story_horadrim1",
+      "Text" : "Many demons travel to the mortal realm in search of the Three Brothers.  These demons were followed to the mortal plain by angels, who hunted them throughout the vast cities of the East."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Sound" : "story_horadrim2",
+      "Text" : "The angels allied themselves with a secretive order of mortal magi, named the Horadrim, who quickly became adept at hunting demons.  They also made many dark enemies in the underworlds..."
+    }
+  ],
+  "NumWords" : 64,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

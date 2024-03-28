@@ -1,0 +1,62 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The portal shimmers with evil energy.  Its essence reeks of anger and loathing that almost turns your stomach... But it seems you cannot enter until you know fully what you'll be facing beyond this portal...\n\nMaybe asking Cain about this 'Andariel' would enlighten you as to the danger you face beyond... </Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The portal shimmers with evil energy.  Its essence reeks of anger and loathing that almost turns your stomach... Entering it would lead you to the vile temptress, Andariel, but you must make sure you are prepared to face her...  \n\nYou may not be able to escape her lair using a portal, so it would be best to cast it before entering...</Start>"
+    }
+  ],
+  "NumWords" : 128,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the portal."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am not yet ready."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_gotoandy",
+      "Sound" : "",
+      "Text" : "I am ready to enter the portal."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_andarielport",
+      "Index" : 1
+    },
+    0
+  ]
+}

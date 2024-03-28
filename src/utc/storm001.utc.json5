@@ -1,0 +1,239 @@
+{
+  "AppearanceType" : 135,
+  "BodyBag" : 6,
+  "CRAdjust" : -2,
+  "Cha" : 11,
+  "ChallengeRating" : 8.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 12,
+      "ClassX" : 4
+    },
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 55,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12667,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Primitive and savage, these reptilian humanoids can be very dangerous if provoked. They are fiercely territorial, banding together to destroy any living thing that encroaches upon its domain."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "it_storm001",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "it_storm002",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_storm004",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "it_storm003",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12671,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Red Storm"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 55,
+  "Int" : 9,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 70,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 1,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 268,
+  "Race" : 15,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_storm",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 60,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 101,
+      "SpellCasterLevel" : 8,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 4,
+  "Str" : 16,
+  "Subrace" : "",
+  "Tag" : "D1_STORMRS",
+  "Tail" : 1,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "storm001",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 9
+}

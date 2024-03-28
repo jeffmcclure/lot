@@ -1,0 +1,309 @@
+{
+  "AppearanceHead" : 1,
+  "AppearanceType" : 5,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 6,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : 2,
+  "Cha" : 11,
+  "ChallengeRating" : 19.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 1,
+  "ColorSkin" : 1,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 19,
+  "Conversation" : "",
+  "CurrentHitPoints" : 60,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12458,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The cursed, hellish corruptions of fallen warriors, these infernal knights are the scourge of all that is good, and the mighty defenders of the Burning Hells."
+      }
+    ]
+  },
+  "Dex" : 14,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "blackknighthe001",
+      "StructId" : 1
+    },
+    {
+      "EquippedRes" : "blackknightar002",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "blackknightsw002",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "blackknightsh002",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "it_creitem050",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 18
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 192
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 123
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 161
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12459,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Steel Lord"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 60,
+  "Int" : 12,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "sanctuaryitem",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion002",
+      "ReposPosX" : 1,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "nw_it_mpotion003",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 160,
+  "NaturalAC" : 3,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_bloodknight",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 28,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 86,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "D1_KNIGHTSL",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "knight003",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 13
+}

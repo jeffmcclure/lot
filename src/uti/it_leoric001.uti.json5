@@ -1,0 +1,61 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 13,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 15500,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [ ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 14316,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "King Leoric's Sword"
+      }
+    ]
+  },
+  "ModelPart1" : 19,
+  "ModelPart2" : 19,
+  "ModelPart3" : 19,
+  "PaletteID" : 0,
+  "Plot" : 1,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 5
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 2,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 83,
+      "Subtype" : 6
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "D1_LEORIC1",
+  "TemplateResRef" : "it_leoric001"
+}

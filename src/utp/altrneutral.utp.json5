@@ -1,0 +1,70 @@
+{
+  "AnimationState" : 0,
+  "Appearance" : 45,
+  "AutoRemoveKey" : 0,
+  "BodyBag" : 0,
+  "CloseLockDC" : 0,
+  "Comment" : "Altar / Shrine - Neutral",
+  "Conversation" : "con_hellforge",
+  "CurrentHP" : 15,
+  "Description" : {
+    "StringRef" : 14543,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "A small altar rests before you. The heavy stone seems stoic and firmly rooted, leaving you wondering how long it has been there."
+      }
+    ]
+  },
+  "DisarmDC" : 15,
+  "Faction" : 1,
+  "Fort" : 16,
+  "HP" : 15,
+  "Hardness" : 5,
+  "HasInventory" : 1,
+  "Interruptable" : 0,
+  "KeyName" : "",
+  "KeyRequired" : 0,
+  "LocName" : {
+    "StringRef" : 14541,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Hellforge"
+      }
+    ]
+  },
+  "Lockable" : 0,
+  "Locked" : 0,
+  "OnClosed" : "",
+  "OnDamaged" : "",
+  "OnDeath" : "",
+  "OnDisarm" : "",
+  "OnHeartbeat" : "",
+  "OnInvDisturbed" : "s_dstrbhforge",
+  "OnLock" : "",
+  "OnMeleeAttacked" : "",
+  "OnOpen" : "loot_unique",
+  "OnSpellCastAt" : "",
+  "OnTrapTriggered" : "",
+  "OnUnlock" : "",
+  "OnUsed" : "s_hellforge",
+  "OnUserDefined" : "",
+  "OpenLockDC" : 18,
+  "PaletteID" : 3,
+  "Plot" : 1,
+  "PortraitId" : 403,
+  "Ref" : 0,
+  "Static" : 0,
+  "Tag" : "ALTAR_HELLFORGE",
+  "TemplateResRef" : "altrneutral",
+  "TrapDetectDC" : 0,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 0,
+  "TrapOneShot" : 1,
+  "TrapType" : 0,
+  "Type" : 0,
+  "Useable" : 1,
+  "Will" : 0
+}

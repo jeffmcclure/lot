@@ -1,0 +1,226 @@
+{
+  "AppearanceType" : 1213,
+  "BodyBag" : 3,
+  "CRAdjust" : -1,
+  "Cha" : 16,
+  "ChallengeRating" : 13.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 8,
+      "ClassX" : 11
+    },
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "",
+  "Con" : 17,
+  "Conversation" : "",
+  "CurrentHitPoints" : 30,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 84401,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These hideous aberrations seem to be defiled mutations of humans and vermin.  They are the vicious soldier-like beings protecting the monstrosity called the Defiler..."
+      }
+    ]
+  },
+  "Dex" : 15,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "broodsword",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "broodshield002",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "zep_cre_d4poib",
+      "StructId" : 65536
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 20
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 41
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 16808888,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The Brood"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 1,
+  "GoodEvil" : 0,
+  "HitPoints" : 30,
+  "Int" : 15,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 90,
+  "NaturalAC" : 6,
+  "NoPermDeath" : 1,
+  "PaletteID" : 2,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2079,
+  "Race" : 7,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_mid",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 6
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 9
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 9
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 97,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 36,
+      "SpellCasterLevel" : 6,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 4,
+  "Str" : 19,
+  "Subrace" : "",
+  "Tag" : "D1_BROOD3",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "brood003",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 16
+}

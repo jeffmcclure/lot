@@ -1,0 +1,215 @@
+{
+  "AppearanceType" : 1424,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 10,
+  "ChallengeRating" : 10.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 13
+    }
+  ],
+  "Comment" : "",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 53,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 16816541,
+    "Strings" : [ ]
+  },
+  "Dex" : 12,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewps010",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewps010",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps017",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "nw_it_creitemcon",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 16808744,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Chest"
+      }
+    ]
+  },
+  "Fortbonus" : 2,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 53,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 60,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 8,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 365,
+  "Race" : 10,
+  "Refbonus" : 2,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_mid",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 850,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 16,
+  "Subrace" : "",
+  "Tag" : "D1_CHESTMONSTER",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "chestmonster",
+  "WalkRate" : 5,
+  "Willbonus" : 3,
+  "Wings" : 0,
+  "Wis" : 10
+}

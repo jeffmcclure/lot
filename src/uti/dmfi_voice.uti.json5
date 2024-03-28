@@ -1,0 +1,31 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 44,
+  "Charges" : 50,
+  "Cost" : 4,
+  "Cursed" : 0,
+  "DescIdentified" : "This wand allows you to:\n1) Record and Playback up to 63 different phrases\n2) Throw your voice to a place or an object (using a character prefix)\n3) Mute NPCs\n\nIf you target yourself:\n-Record Mode (record a phrase... make sure you are visible and an NPC is nearby)\n-Mute All NPCs (Toggle)\n-Ditto Mode (creates a voice)\n\nIf you are targeting a creature:\n- Playback mode (the creature speaks a pre-recorded phrase)\n- Mute this NPC (Toggle)\n- Ditto Mode (the NPC will repeat what you say prefixed by a colon)\n\nIf you are targeting nothing:\n- Loiter Mode (creates a voice that will wait until a PC gets near, and then say a pre-recorded phrase. They will destroy themselves in the process)\n- Turn On/Off DM Spy (Toggle)\n- Ditto Mode\n\nBy Hahnsoo (hahns_shin@hotmail.com)",
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : "DMFI Voice Wand",
+  "ModelPart1" : 22,
+  "ModelPart2" : 12,
+  "ModelPart3" : 22,
+  "PaletteID" : 53,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 3,
+      "CostValue" : 13,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 15,
+      "Subtype" : 329
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "dmfi_voice",
+  "TemplateResRef" : "dmfi_voice"
+}

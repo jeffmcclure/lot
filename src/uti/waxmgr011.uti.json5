@@ -1,0 +1,57 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 18,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 576340,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13928,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The head of this great axe is hot to the touch, which explains why the shaft is made of ironwood and is immensely long.  Though the origins of this axe are long forgotten, the power inhabiting the axe is obviously that of a master craftsman."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 13929,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Stonefire Axe +8"
+      }
+    ]
+  },
+  "ModelPart1" : 41,
+  "ModelPart2" : 41,
+  "ModelPart3" : 13,
+  "PaletteID" : 32,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 10,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 16,
+      "Subtype" : 10
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "NW_WAXMGR010",
+  "TemplateResRef" : "waxmgr011"
+}

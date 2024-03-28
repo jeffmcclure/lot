@@ -1,0 +1,41 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Text" : "The mysterious shaft of light pulses with green energy.  It seems to be a portal to a parallel world.  Who knows what dangers await you on the other side..."
+    }
+  ],
+  "NumWords" : 37,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the portal alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "trg_cornerstone",
+      "Sound" : "",
+      "Text" : "Go into the portal."
+    }
+  ],
+  "StartingList" : [
+    0
+  ]
+}

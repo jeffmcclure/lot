@@ -1,0 +1,573 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        21,
+        {
+          "Active" : "tm_levcheck",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        0
+      ],
+      "Script" : "",
+      "Text" : "How may I serve you, <master/mistress>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "nw_ch_comrange",
+          "Index" : 17,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_commelee",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        12,
+        {
+          "Active" : "nw_ch_heal_0",
+          "Index" : 8,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_yes_srch",
+          "Index" : 7,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_no_srch",
+          "Index" : 6,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_no_stlth",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_yes_stlth",
+          "Index" : 4,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_no_locks",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "nw_ch_yes_locks",
+          "Index" : 2,
+          "IsChild" : 0
+        },
+        1
+      ],
+      "Script" : "",
+      "Text" : "How should I behave?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        10,
+        9
+      ],
+      "Script" : "",
+      "Text" : "As you wish.  When should I heal?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        14,
+        13
+      ],
+      "Script" : "",
+      "Text" : "Alright.  How close do you want me?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        19,
+        18
+      ],
+      "Script" : "",
+      "Text" : "Done.  Anything else?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "tm_henchlev",
+      "Text" : "Absolutely!  I am always eager to learn."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        23,
+        22
+      ],
+      "Script" : "",
+      "Text" : "I'm sorry you feel that way, but I shall leave if that is your desire."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "I am sorry, I serve another and have no time to speak with you."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25,
+        24
+      ],
+      "Script" : "",
+      "Text" : "Greetings, do you have need of a henchman?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "",
+      "Text" : "As you wish. Speak to me if you change your mind."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [ ],
+      "Script" : "nw_ch_action_13",
+      "Text" : "Excellent, I shall"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        27,
+        26
+      ],
+      "Script" : "",
+      "Text" : "Well, hello there."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        28
+      ],
+      "Script" : "",
+      "Text" : "I would like to, but now is not the time or the place for me to join you. Thank you for the offer, anyway."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 27,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        30
+      ],
+      "Script" : "",
+      "Text" : "I am a rogue from the Sisters of the Sightless Eye, who has found her way into Tristram searching for adventure."
+    }
+  ],
+  "NumWords" : 350,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Let's discuss our adventuring plans."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all for now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_off",
+      "Sound" : "",
+      "Text" : "Opening doors and chests is a tricky business.  Let me handle them."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_lock_on",
+      "Sound" : "",
+      "Text" : "I'm inept with mechanical things.  Help me with doors and chests."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_stlth_off",
+      "Sound" : "",
+      "Text" : "I favor the direct approach.  Stop sneaking."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_stlth_on",
+      "Sound" : "",
+      "Text" : "Let's try to surprise the enemy.  You sneak around."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_srch_on",
+      "Sound" : "",
+      "Text" : "We're missing important clues.  I think you should search."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_srch_off",
+      "Sound" : "",
+      "Text" : "Stop searching all the time!  It is getting on my nerves."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think you need to change your healing strategies."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_25",
+      "Sound" : "",
+      "Text" : "Wait until I'm near death. (25%)"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_50",
+      "Sound" : "",
+      "Text" : "Heal when I'm moderately wounded. (50%)"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_heal_75",
+      "Sound" : "",
+      "Text" : "Heal when I'm slightly wounded. (75%)"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Change your following distance."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_18",
+      "Sound" : "",
+      "Text" : "I don't want to be seen with you.  Stay far away."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_12",
+      "Sound" : "",
+      "Text" : "Keep a moderate distance."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_dist_6",
+      "Sound" : "",
+      "Text" : "Stick close to me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 4,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_goranged",
+      "Sound" : "",
+      "Text" : "I want you to fight from range."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Script" : "nw_ch_gomelee",
+      "Sound" : "",
+      "Text" : "I want you to fight hand to hand."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, that's all."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, there's more."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I wish you to undergo some training."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I no longer have need of your services."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Aw, if it makes you feel that badly, you can stay."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "nw_ch_remove",
+      "Sound" : "",
+      "Text" : "Aye, it is."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sorry, not at this time."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, please join me."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Oops, sorry to bother you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Hey, you look like a capable person. Would you like to join me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well. I bid you farewell."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Who are you and what are you doing here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, that's all I need to know."
+    }
+  ],
+  "StartingList" : [
+    11,
+    {
+      "Active" : "tm_hirecheck",
+      "Index" : 8
+    },
+    {
+      "Active" : "tm_othercheck",
+      "Index" : 7
+    },
+    0
+  ]
+}

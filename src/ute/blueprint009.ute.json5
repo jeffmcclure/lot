@@ -1,0 +1,43 @@
+{
+  "Active" : 1,
+  "Comment" : "",
+  "CreatureList" : [
+    {
+      "Appearance" : 198,
+      "CR" : 1.0,
+      "ResRef" : "zombie002",
+      "SingleSpawn" : 0
+    },
+    {
+      "Appearance" : 195,
+      "CR" : 1.0,
+      "ResRef" : "zombie003",
+      "SingleSpawn" : 0
+    },
+    {
+      "Appearance" : 199,
+      "CR" : 2.0,
+      "ResRef" : "ghoul001",
+      "SingleSpawn" : 1
+    }
+  ],
+  "Difficulty" : 0,
+  "DifficultyIndex" : 1,
+  "Faction" : 1,
+  "LocalizedName" : "Zombie Group (low)",
+  "MaxCreatures" : 8,
+  "OnEntered" : "",
+  "OnExhausted" : "",
+  "OnExit" : "",
+  "OnHeartbeat" : "",
+  "OnUserDefined" : "",
+  "PaletteID" : 1,
+  "PlayerOnly" : 1,
+  "RecCreatures" : 2,
+  "Reset" : 1,
+  "ResetTime" : 300,
+  "Respawns" : -1,
+  "SpawnOption" : 0,
+  "Tag" : "ZombieGrouplow",
+  "TemplateResRef" : "blueprint009"
+}

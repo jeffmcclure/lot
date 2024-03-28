@@ -1,0 +1,216 @@
+{
+  "AppearanceType" : 1280,
+  "BodyBag" : 3,
+  "CRAdjust" : -1,
+  "Cha" : 10,
+  "ChallengeRating" : 5.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 2,
+      "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 42,
+  "DecayTime" : 10000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 3101,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This creature seems to be the leader of the hideous little things that were contaminating the town's water supply.  Killing it might save Tristram from being poisoned by whatever thing it was that these creatures have done to the underground spring that serves the town..."
+      }
+    ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "augaarmor",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_wswmls010",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "augashield",
+      "StructId" : 32
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 3100,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Auga Ruoy No Tips"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 42,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "bookoftownportal",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 60,
+  "NaturalAC" : 1,
+  "NoPermDeath" : 0,
+  "PaletteID" : 45,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2141,
+  "Race" : 12,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_augaruoy",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_aug",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 7
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 253,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 15,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fallenonebrut001",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 10
+}

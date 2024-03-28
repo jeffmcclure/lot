@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 22,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 378128,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "This weapon is thoroughly evil, a quality undiminished by the number of duplicates that have been found in the past.  It pulses with a sickening energy, and its moist and yielding grip seems almost alive in the hand.  All of this adds to the discomforting thought that it may have been grown, not forged.  There is no indication what the source of these items might be."
+      }
+    ]
+  },
+  "Description" : null,
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14315,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Bloodsucker"
+      }
+    ]
+  },
+  "ModelPart1" : 24,
+  "ModelPart2" : 34,
+  "ModelPart3" : 44,
+  "PaletteID" : 34,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 6,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 43,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 6,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 67,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "BLOODSUCKER",
+  "TemplateResRef" : "wswmdg014"
+}

@@ -1,0 +1,78 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "giv_arkaine",
+      "Sound" : "war_valor1",
+      "Text" : "\"And so, locked beyond the gateway of blood and past the hall of fire, Valor awaits for the hero of light to awaken...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Sound" : "war_valor1",
+      "Text" : "\"And so, locked beyond the gateway of blood and past the hall of fire, Valor awaits for the hero of light to awaken...\""
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Sound" : "war_valor1",
+      "Text" : "\"And so, locked beyond the gateway of blood and past the hall of fire, Valor awaits for the hero of light to awaken...\""
+    }
+  ],
+  "NumWords" : 69,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "s_askcain",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 2
+    },
+    {
+      "Active" : "prq_arkaine3",
+      "Index" : 1
+    },
+    0
+  ]
+}

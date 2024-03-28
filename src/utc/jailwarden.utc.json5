@@ -1,0 +1,237 @@
+{
+  "AppearanceType" : 279,
+  "BodyBag" : 4,
+  "CRAdjust" : 2,
+  "Cha" : 15,
+  "ChallengeRating" : 15.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 15,
+      "ClassX" : 4
+    }
+  ],
+  "Comment" : "This bandit changes into a Werewolf when hit.  This is also the Jail Warden of this area.  /tr",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 105,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 15,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "wardensword",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "lupusclaw1",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "lupusclaw1",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps016",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "wardenskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 123
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 161
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12367,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Jail Warden"
+      }
+    ]
+  },
+  "Fortbonus" : 1,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 105,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 150,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 9,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 6,
+  "Refbonus" : 1,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_warden",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "warden_spawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "nw_c2_lywolf_d",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 228,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 4,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "jailwarden",
+  "WalkRate" : 7,
+  "Willbonus" : 1,
+  "Wings" : 0,
+  "Wis" : 12
+}

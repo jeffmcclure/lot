@@ -1,0 +1,350 @@
+{
+  "AppearanceType" : 241,
+  "BodyBag" : 0,
+  "CRAdjust" : -2,
+  "Cha" : 10,
+  "ChallengeRating" : 23.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 13,
+      "ClassX" : 24
+    },
+    {
+      "ClassLevel" : 12,
+      "ClassX" : 19
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 125,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : null,
+  "Dex" : 15,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_maarcl015",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "nw_it_mboots004",
+      "StructId" : 4
+    },
+    {
+      "EquippedRes" : "nw_it_mbracer011",
+      "StructId" : 8
+    },
+    {
+      "EquippedRes" : "wswmbs012",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_maarcl056",
+      "StructId" : 64
+    },
+    {
+      "EquippedRes" : "nw_it_mring029",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "nw_it_mring029",
+      "StructId" : 256
+    },
+    {
+      "EquippedRes" : "nw_it_mneck037",
+      "StructId" : 512
+    },
+    {
+      "EquippedRes" : "nw_it_mbelt006",
+      "StructId" : 1024
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 85
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 18
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 183
+    },
+    {
+      "Feat" : 192
+    },
+    {
+      "Feat" : 221
+    },
+    {
+      "Feat" : 345
+    },
+    {
+      "Feat" : 346
+    },
+    {
+      "Feat" : 347
+    },
+    {
+      "Feat" : 348
+    },
+    {
+      "Feat" : 349
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 255
+    },
+    {
+      "Feat" : 123
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 44
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 161
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12634,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The Damned"
+      }
+    ]
+  },
+  "Fortbonus" : 21,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 125,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 175,
+  "NaturalAC" : 2,
+  "NoPermDeath" : 0,
+  "PaletteID" : 29,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 169,
+  "Race" : 6,
+  "Refbonus" : 6,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_hi",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_mel",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 121,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 86,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "D1_DAMNEDB",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "damnedboy",
+  "WalkRate" : 6,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 10
+}

@@ -1,0 +1,49 @@
+{
+  "Active" : 1,
+  "Comment" : "",
+  "CreatureList" : [
+    {
+      "Appearance" : 172,
+      "CR" : 5.0,
+      "ResRef" : "wight001",
+      "SingleSpawn" : 0
+    },
+    {
+      "Appearance" : 196,
+      "CR" : 7.0,
+      "ResRef" : "zombie005",
+      "SingleSpawn" : 0
+    },
+    {
+      "Appearance" : 23,
+      "CR" : 7.0,
+      "ResRef" : "bodak001",
+      "SingleSpawn" : 1
+    },
+    {
+      "Appearance" : 123,
+      "CR" : 8.0,
+      "ResRef" : "mohrg001",
+      "SingleSpawn" : 1
+    }
+  ],
+  "Difficulty" : 0,
+  "DifficultyIndex" : 1,
+  "Faction" : 1,
+  "LocalizedName" : "Zombie Group (extra)",
+  "MaxCreatures" : 8,
+  "OnEntered" : "",
+  "OnExhausted" : "",
+  "OnExit" : "",
+  "OnHeartbeat" : "",
+  "OnUserDefined" : "",
+  "PaletteID" : 1,
+  "PlayerOnly" : 1,
+  "RecCreatures" : 3,
+  "Reset" : 1,
+  "ResetTime" : 300,
+  "Respawns" : -1,
+  "SpawnOption" : 0,
+  "Tag" : "ZombieGroupextra",
+  "TemplateResRef" : "blueprint012"
+}

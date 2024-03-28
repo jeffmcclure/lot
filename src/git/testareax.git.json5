@@ -1,0 +1,1548 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 31,
+    "AmbientSndDayVol" : 32,
+    "AmbientSndNight" : 31,
+    "AmbientSndNitVol" : 32,
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 88,
+    "MusicDelay" : 10000,
+    "MusicNight" : 88
+  },
+  "CreatureList" : [
+    {
+      "AppearanceHead" : 20,
+      "AppearanceType" : 6,
+      "ArmorPartRFoot" : 1,
+      "BodyBag" : 0,
+      "BodyPartBelt" : 0,
+      "BodyPartLBicep" : 1,
+      "BodyPartLFArm" : 1,
+      "BodyPartLFoot" : 1,
+      "BodyPartLHand" : 1,
+      "BodyPartLShin" : 1,
+      "BodyPartLShoul" : 0,
+      "BodyPartLThigh" : 1,
+      "BodyPartNeck" : 1,
+      "BodyPartPelvis" : 1,
+      "BodyPartRBicep" : 1,
+      "BodyPartRFArm" : 1,
+      "BodyPartRHand" : 1,
+      "BodyPartRShin" : 1,
+      "BodyPartRShoul" : 0,
+      "BodyPartRThigh" : 1,
+      "BodyPartTorso" : 1,
+      "CRAdjust" : 0,
+      "Cha" : 50,
+      "ChallengeRating" : 550.0,
+      "ClassList" : [
+        {
+          "ClassLevel" : 20,
+          "ClassX" : 4
+        },
+        {
+          "ClassLevel" : 20,
+          "ClassX" : 9,
+          "KnownList0" : [
+            {
+              "Spell" : 37,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 100,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 144,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 151,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList1" : [
+            {
+              "Spell" : 86,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 102,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 107,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 165,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 174,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList2" : [
+            {
+              "Spell" : 120,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 90,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 93,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 115,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 175,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList3" : [
+            {
+              "Spell" : 21,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 58,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 78,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 176,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList4" : [
+            {
+              "Spell" : 47,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 375,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 368,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 172,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList5" : [
+            {
+              "Spell" : 23,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 71,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 99,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 179,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList6" : [
+            {
+              "Spell" : 14,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 72,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 180,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList7" : [
+            {
+              "Spell" : 123,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 135,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 169,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList8" : [
+            {
+              "Spell" : 69,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 367,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 134,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ],
+          "KnownList9" : [
+            {
+              "Spell" : 116,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 185,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            },
+            {
+              "Spell" : 193,
+              "SpellFlags" : 1,
+              "SpellMetaMagic" : 0
+            }
+          ]
+        }
+      ],
+      "ColorHair" : 23,
+      "ColorSkin" : 31,
+      "ColorTattoo1" : 1,
+      "ColorTattoo2" : 1,
+      "Con" : 50,
+      "Conversation" : "",
+      "CurrentHitPoints" : 4200,
+      "DecayTime" : 5000,
+      "Deity" : "",
+      "Description" : null,
+      "Dex" : 50,
+      "Disarmable" : 0,
+      "EquipItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 10,
+          "ArmorPartLBicep" : 7,
+          "ArmorPartLFArm" : 18,
+          "ArmorPartLFoot" : 5,
+          "ArmorPartLHand" : 5,
+          "ArmorPartLShin" : 12,
+          "ArmorPartLShoul" : 20,
+          "ArmorPartLThigh" : 10,
+          "ArmorPartNeck" : 1,
+          "ArmorPartPelvis" : 6,
+          "ArmorPartRBicep" : 7,
+          "ArmorPartRFArm" : 18,
+          "ArmorPartRFoot" : 5,
+          "ArmorPartRHand" : 5,
+          "ArmorPartRShin" : 12,
+          "ArmorPartRShoul" : 20,
+          "ArmorPartRThigh" : 10,
+          "ArmorPartRobe" : 34,
+          "ArmorPartTorso" : 21,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 45,
+          "Cloth2Color" : 45,
+          "Cost" : 10648643,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 1,
+          "Leather1Color" : 45,
+          "Leather2Color" : 45,
+          "LocalizedName" : {
+            "StringRef" : 13144,
+            "Strings" : [
+              {
+                "Id" : 0,
+                "String" : "Fallen Izual's Armor 2"
+              }
+            ]
+          },
+          "Metal1Color" : 3,
+          "Metal2Color" : 3,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 1,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 27,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 84,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 6,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 22,
+              "Subtype" : 2
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 22,
+              "CostValue" : 3,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 24,
+              "Subtype" : 6
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 22,
+              "CostValue" : 3,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 24,
+              "Subtype" : 10
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 22,
+              "CostValue" : 3,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 24,
+              "Subtype" : 12
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 75,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 35,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 5,
+              "CostValue" : 7,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 20,
+              "Subtype" : 7
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 5,
+              "CostValue" : 7,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 20,
+              "Subtype" : 8
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 8
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 9
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 4
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 5
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 6
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 2
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 7
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 3
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 16,
+              "CostValue" : 69,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 53,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 6,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 2,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 51,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 3,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 40,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 11,
+              "CostValue" : 3,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 39,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 71,
+              "Subtype" : 0
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "StructId" : 2,
+          "Tag" : "D1_IZUALARMOR3",
+          "TemplateResRef" : "izualarmor002",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 13,
+          "Charges" : 0,
+          "Cost" : 14603502,
+          "Cursed" : 0,
+          "DescIdentified" : "This is Azurewrath, the angelic rune blade once wielded by Izual, the angel who fell to the denizens of the Burning Hells a millenia ago.",
+          "Description" : "",
+          "Identified" : 1,
+          "LocalizedName" : "Azurewrath",
+          "ModelPart1" : 28,
+          "ModelPart2" : 28,
+          "ModelPart3" : 28,
+          "Plot" : 1,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 4,
+              "CostValue" : 10,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 16,
+              "Subtype" : 7
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 4,
+              "CostValue" : 10,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 16,
+              "Subtype" : 8
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 13,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 6,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 43,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 18,
+              "CostValue" : 4,
+              "Param1" : 9,
+              "Param1Value" : 6,
+              "PropertyName" : 44,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 24,
+              "CostValue" : 6,
+              "Param1" : 5,
+              "Param1Value" : 20,
+              "PropertyName" : 48,
+              "Subtype" : 21
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 24,
+              "CostValue" : 6,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 48,
+              "Subtype" : 24
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 83,
+              "Subtype" : 6
+            }
+          ],
+          "StackSize" : 1,
+          "Stolen" : 1,
+          "StructId" : 16,
+          "Tag" : "D1_AZUREWRATH",
+          "TemplateResRef" : "azurewrath",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "FactionID" : 1,
+      "FeatList" : [
+        {
+          "Feat" : 311
+        },
+        {
+          "Feat" : 0
+        },
+        {
+          "Feat" : 1
+        },
+        {
+          "Feat" : 312
+        },
+        {
+          "Feat" : 2
+        },
+        {
+          "Feat" : 3
+        },
+        {
+          "Feat" : 4
+        },
+        {
+          "Feat" : 300
+        },
+        {
+          "Feat" : 194
+        },
+        {
+          "Feat" : 293
+        },
+        {
+          "Feat" : 326
+        },
+        {
+          "Feat" : 327
+        },
+        {
+          "Feat" : 328
+        },
+        {
+          "Feat" : 5
+        },
+        {
+          "Feat" : 6
+        },
+        {
+          "Feat" : 222
+        },
+        {
+          "Feat" : 196
+        },
+        {
+          "Feat" : 332
+        },
+        {
+          "Feat" : 333
+        },
+        {
+          "Feat" : 334
+        },
+        {
+          "Feat" : 228
+        },
+        {
+          "Feat" : 310
+        },
+        {
+          "Feat" : 223
+        },
+        {
+          "Feat" : 8
+        },
+        {
+          "Feat" : 313
+        },
+        {
+          "Feat" : 214
+        },
+        {
+          "Feat" : 215
+        },
+        {
+          "Feat" : 9
+        },
+        {
+          "Feat" : 217
+        },
+        {
+          "Feat" : 219
+        },
+        {
+          "Feat" : 10
+        },
+        {
+          "Feat" : 374
+        },
+        {
+          "Feat" : 314
+        },
+        {
+          "Feat" : 304
+        },
+        {
+          "Feat" : 340
+        },
+        {
+          "Feat" : 341
+        },
+        {
+          "Feat" : 206
+        },
+        {
+          "Feat" : 13
+        },
+        {
+          "Feat" : 249
+        },
+        {
+          "Feat" : 316
+        },
+        {
+          "Feat" : 204
+        },
+        {
+          "Feat" : 250
+        },
+        {
+          "Feat" : 14
+        },
+        {
+          "Feat" : 331
+        },
+        {
+          "Feat" : 329
+        },
+        {
+          "Feat" : 330
+        },
+        {
+          "Feat" : 230
+        },
+        {
+          "Feat" : 318
+        },
+        {
+          "Feat" : 235
+        },
+        {
+          "Feat" : 85
+        },
+        {
+          "Feat" : 73
+        },
+        {
+          "Feat" : 69
+        },
+        {
+          "Feat" : 68
+        },
+        {
+          "Feat" : 16
+        },
+        {
+          "Feat" : 212
+        },
+        {
+          "Feat" : 17
+        },
+        {
+          "Feat" : 18
+        },
+        {
+          "Feat" : 19
+        },
+        {
+          "Feat" : 20
+        },
+        {
+          "Feat" : 21
+        },
+        {
+          "Feat" : 22
+        },
+        {
+          "Feat" : 240
+        },
+        {
+          "Feat" : 213
+        },
+        {
+          "Feat" : 343
+        },
+        {
+          "Feat" : 344
+        },
+        {
+          "Feat" : 23
+        },
+        {
+          "Feat" : 299
+        },
+        {
+          "Feat" : 24
+        },
+        {
+          "Feat" : 320
+        },
+        {
+          "Feat" : 26
+        },
+        {
+          "Feat" : 260
+        },
+        {
+          "Feat" : 207
+        },
+        {
+          "Feat" : 216
+        },
+        {
+          "Feat" : 27
+        },
+        {
+          "Feat" : 28
+        },
+        {
+          "Feat" : 209
+        },
+        {
+          "Feat" : 258
+        },
+        {
+          "Feat" : 29
+        },
+        {
+          "Feat" : 30
+        },
+        {
+          "Feat" : 31
+        },
+        {
+          "Feat" : 32
+        },
+        {
+          "Feat" : 33
+        },
+        {
+          "Feat" : 243
+        },
+        {
+          "Feat" : 234
+        },
+        {
+          "Feat" : 173
+        },
+        {
+          "Feat" : 175
+        },
+        {
+          "Feat" : 177
+        },
+        {
+          "Feat" : 178
+        },
+        {
+          "Feat" : 179
+        },
+        {
+          "Feat" : 180
+        },
+        {
+          "Feat" : 181
+        },
+        {
+          "Feat" : 182
+        },
+        {
+          "Feat" : 183
+        },
+        {
+          "Feat" : 187
+        },
+        {
+          "Feat" : 189
+        },
+        {
+          "Feat" : 192
+        },
+        {
+          "Feat" : 193
+        },
+        {
+          "Feat" : 225
+        },
+        {
+          "Feat" : 259
+        },
+        {
+          "Feat" : 301
+        },
+        {
+          "Feat" : 353
+        },
+        {
+          "Feat" : 221
+        },
+        {
+          "Feat" : 345
+        },
+        {
+          "Feat" : 346
+        },
+        {
+          "Feat" : 347
+        },
+        {
+          "Feat" : 348
+        },
+        {
+          "Feat" : 349
+        },
+        {
+          "Feat" : 350
+        },
+        {
+          "Feat" : 351
+        },
+        {
+          "Feat" : 352
+        },
+        {
+          "Feat" : 35
+        },
+        {
+          "Feat" : 166
+        },
+        {
+          "Feat" : 167
+        },
+        {
+          "Feat" : 168
+        },
+        {
+          "Feat" : 169
+        },
+        {
+          "Feat" : 170
+        },
+        {
+          "Feat" : 171
+        },
+        {
+          "Feat" : 172
+        },
+        {
+          "Feat" : 36
+        },
+        {
+          "Feat" : 37
+        },
+        {
+          "Feat" : 307
+        },
+        {
+          "Feat" : 39
+        },
+        {
+          "Feat" : 303
+        },
+        {
+          "Feat" : 40
+        },
+        {
+          "Feat" : 201
+        },
+        {
+          "Feat" : 323
+        },
+        {
+          "Feat" : 294
+        },
+        {
+          "Feat" : 41
+        },
+        {
+          "Feat" : 195
+        },
+        {
+          "Feat" : 251
+        },
+        {
+          "Feat" : 252
+        },
+        {
+          "Feat" : 253
+        },
+        {
+          "Feat" : 254
+        },
+        {
+          "Feat" : 255
+        },
+        {
+          "Feat" : 42
+        },
+        {
+          "Feat" : 123
+        },
+        {
+          "Feat" : 111
+        },
+        {
+          "Feat" : 107
+        },
+        {
+          "Feat" : 106
+        },
+        {
+          "Feat" : 44
+        },
+        {
+          "Feat" : 45
+        },
+        {
+          "Feat" : 49
+        },
+        {
+          "Feat" : 50
+        },
+        {
+          "Feat" : 46
+        },
+        {
+          "Feat" : 51
+        },
+        {
+          "Feat" : 161
+        },
+        {
+          "Feat" : 149
+        },
+        {
+          "Feat" : 145
+        },
+        {
+          "Feat" : 144
+        },
+        {
+          "Feat" : 211
+        },
+        {
+          "Feat" : 339
+        },
+        {
+          "Feat" : 335
+        },
+        {
+          "Feat" : 336
+        },
+        {
+          "Feat" : 337
+        },
+        {
+          "Feat" : 338
+        }
+      ],
+      "FirstName" : "<cÿÿ >Crinos Lupus",
+      "Fortbonus" : 0,
+      "Gender" : 0,
+      "GoodEvil" : 50,
+      "HitPoints" : 4200,
+      "Int" : 50,
+      "Interruptable" : 1,
+      "IsImmortal" : 1,
+      "IsPC" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "ArmorPartBelt" : 8,
+          "ArmorPartLBicep" : 6,
+          "ArmorPartLFArm" : 13,
+          "ArmorPartLFoot" : 5,
+          "ArmorPartLHand" : 4,
+          "ArmorPartLShin" : 17,
+          "ArmorPartLShoul" : 11,
+          "ArmorPartLThigh" : 12,
+          "ArmorPartNeck" : 4,
+          "ArmorPartPelvis" : 4,
+          "ArmorPartRBicep" : 6,
+          "ArmorPartRFArm" : 13,
+          "ArmorPartRFoot" : 5,
+          "ArmorPartRHand" : 4,
+          "ArmorPartRShin" : 17,
+          "ArmorPartRShoul" : 11,
+          "ArmorPartRThigh" : 12,
+          "ArmorPartRobe" : 0,
+          "ArmorPartTorso" : 53,
+          "BaseItem" : 16,
+          "Charges" : 0,
+          "Cloth1Color" : 0,
+          "Cloth2Color" : 0,
+          "Cost" : 836421,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : null,
+          "Identified" : 0,
+          "Leather1Color" : 9,
+          "Leather2Color" : 23,
+          "LocalizedName" : "Demon Plate Armor",
+          "Metal1Color" : 24,
+          "Metal2Color" : 19,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 5,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 1,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 7,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 4,
+              "Subtype" : 20
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 7,
+              "CostValue" : 10,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 23,
+              "Subtype" : 10
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 26,
+              "Subtype" : 0
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 4
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 5
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 0,
+              "CostValue" : 0,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 37,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 40,
+              "Subtype" : 1
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 2,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 40,
+              "Subtype" : 9
+            },
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 40,
+              "Subtype" : 12
+            }
+          ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 1,
+          "Tag" : "D1_DEMONPLATEARMOR",
+          "TemplateResRef" : "demonplatearmor",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
+      "LastName" : "",
+      "LawfulChaotic" : 50,
+      "Lootable" : 0,
+      "MaxHitPoints" : 5040,
+      "NaturalAC" : 0,
+      "NoPermDeath" : 1,
+      "PerceptionRange" : 11,
+      "Phenotype" : 0,
+      "Plot" : 1,
+      "PortraitId" : 99,
+      "Race" : 6,
+      "Refbonus" : 0,
+      "ScriptAttacked" : "nw_c2_default5",
+      "ScriptDamaged" : "nw_c2_default6",
+      "ScriptDeath" : "nw_c2_default7",
+      "ScriptDialogue" : "nw_c2_default4",
+      "ScriptDisturbed" : "nw_c2_default8",
+      "ScriptEndRound" : "nw_c2_default3",
+      "ScriptHeartbeat" : "nw_c2_default1",
+      "ScriptOnBlocked" : "nw_c2_defaulte",
+      "ScriptOnNotice" : "nw_c2_default2",
+      "ScriptRested" : "nw_c2_defaulta",
+      "ScriptSpawn" : "nw_c2_default9",
+      "ScriptSpellAt" : "nw_c2_defaultb",
+      "ScriptUserDefine" : "nw_c2_defaultd",
+      "SkillList" : [
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 22
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 22
+        },
+        {
+          "Rank" : 21
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 22
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 22
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 20
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        },
+        {
+          "Rank" : 0
+        }
+      ],
+      "SoundSetFile" : 65535,
+      "SpecAbilityList" : [ ],
+      "StartingPackage" : 4,
+      "Str" : 50,
+      "Subrace" : "",
+      "Tag" : "D1_CANISLUPUSDESTROYER",
+      "Tail" : 0,
+      "TemplateList" : [ ],
+      "TemplateResRef" : "canislupus",
+      "WalkRate" : 6,
+      "Willbonus" : 0,
+      "Wings" : 34,
+      "Wis" : 50,
+      "XOrientation" : -0.7071066,
+      "XPosition" : 12.188673,
+      "YOrientation" : 0.70710695,
+      "YPosition" : 7.9809637,
+      "ZPosition" : 9.536743E-6
+    }
+  ],
+  "DoorList" : [ ],
+  "EncounterList" : [ ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Jump Object"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "INVIS_JUMPPOINT",
+      "TemplateResRef" : "plc_invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 7.956805,
+      "Y" : 10.701134,
+      "Z" : 2.3841858E-7
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -2.5525434,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Deathjump Object"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PLC_DEATHJUMP",
+      "TemplateResRef" : "plc_invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 9.963076,
+      "Y" : 10.378576,
+      "Z" : 9.536743E-6
+    }
+  ],
+  "SoundList" : [ ],
+  "StoreList" : [ ],
+  "TriggerList" : [ ],
+  "WaypointList" : [
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Waypoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_DEATHJUMP",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.0,
+      "XPosition" : 7.978077,
+      "YOrientation" : 1.0,
+      "YPosition" : 11.762369,
+      "ZPosition" : 9.536743E-6
+    }
+  ]
+}

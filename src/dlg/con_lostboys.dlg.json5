@@ -1,0 +1,127 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>You find nothing interesting among these scattered corpses...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5,
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>The corpses here have been mutilated badly, but your heart sinks as you recognize two of them - the half-eaten remains of Deese's two sons, Roof and Inneas.  You came too late.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        2
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>As much as you want to bring back proof, you can't bear to show Deese the slaughtered remains of his sons.  This will surely break the old man's heart.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "giv_corpses",
+      "Text" : "<StartAction>Maybe you should give these boys a decent burial after all, and think about whether you'll tell Deese about the fate of his sons.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6
+      ],
+      "Script" : "giv_corpses",
+      "Text" : "<StartAction>You pick up the corpses of the Roof and Inneas.  Their father will be heartbroken if he knew his sons are dead, and a grisly death at that.</Start>"
+    }
+  ],
+  "NumWords" : 145,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave the corpses alone."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You change your mind and pick up the corpses"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "lev_corpses",
+      "Sound" : "",
+      "Text" : "Leave the corpses."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Pick up the two corpses."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Leave."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_corpses1",
+      "Index" : 1
+    },
+    0
+  ]
+}

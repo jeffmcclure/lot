@@ -1,0 +1,295 @@
+{
+  "AppearanceType" : 753,
+  "BodyBag" : 5,
+  "CRAdjust" : -4,
+  "Cha" : 11,
+  "ChallengeRating" : 14.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 19
+    },
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 95,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "These monstrosities patrol the depths of the Crypts, and are able to cast a variety of magical spells at the wary adventurer who has the misfortune of encountering them. Although not as deadly as the other denizens of the Crypts, skeleton demons still deal a significant amount of damage if the player does not have ample Magic resistance. They prefer to blind their enemies using Darkness, and then move in for the kill.",
+  "Dex" : 15,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp027",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps016",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "skeldemonskin",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 226
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : "Skeletal Demon",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 95,
+  "Int" : 11,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 135,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 3500,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_skeldemon",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 13
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 23
+    },
+    {
+      "Rank" : 23
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 23
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 23
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 65535,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 4,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 27,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 36,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 36,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 46,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 107,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 107,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 107,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 107,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 107,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 81,
+  "Str" : 21,
+  "Subrace" : "",
+  "Tag" : "D1_SKELETALDEMON",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "bonedemon",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}

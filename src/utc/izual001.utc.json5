@@ -1,0 +1,320 @@
+{
+  "AppearanceHead" : 141,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 3,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : -86,
+  "Cha" : 20,
+  "ChallengeRating" : 55.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 4
+    },
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 9
+    },
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 24
+    }
+  ],
+  "ColorHair" : 16,
+  "ColorSkin" : 5,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "",
+  "Con" : 30,
+  "Conversation" : "con_izual",
+  "CurrentHitPoints" : 310,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "Izual was an angel who was given charge of a holy rune blade called Azurewrath.  The angel led a daring assault on the Hellforge, but was overwhelmed and fatally wounded.  The demons cast the dying angel into a fiery pit, where the powers of chaos transformed into a creature of evil.\n\nThe fallen angel was once again given charge of his blade, Azurewrath, and is now entrusted to defend the very place he attempted to destroy, and sworn to use Azurewrath to defend the very creatures it was meant to slay...",
+  "Dex" : 25,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "izualarmor002",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "azurewrath001",
+      "StructId" : 16
+    }
+  ],
+  "FactionID" : 7,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 249
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 69
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 183
+    },
+    {
+      "Feat" : 192
+    },
+    {
+      "Feat" : 167
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 107
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 145
+    }
+  ],
+  "FirstName" : "<cÿÿ >Izual the Fallen",
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 310,
+  "Int" : 20,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "Dropable" : 1,
+      "InventoryRes" : "azurewrath",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 100,
+  "Lootable" : 0,
+  "MaxHitPoints" : 750,
+  "NaturalAC" : 7,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2217,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "nw_c2_default5",
+  "ScriptDamaged" : "nw_c2_default6",
+  "ScriptDeath" : "dth_izual",
+  "ScriptDialogue" : "nw_c2_default4",
+  "ScriptDisturbed" : "nw_c2_default8",
+  "ScriptEndRound" : "nw_c2_default3",
+  "ScriptHeartbeat" : "nw_c2_default1",
+  "ScriptOnBlocked" : "nw_c2_defaulte",
+  "ScriptOnNotice" : "nw_c2_default2",
+  "ScriptRested" : "nw_c2_defaulta",
+  "ScriptSpawn" : "s_izualspawn",
+  "ScriptSpellAt" : "nw_c2_defaultb",
+  "ScriptUserDefine" : "s_npcuserdefined",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 40
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 56,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 71,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 76,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 77,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 4,
+  "Str" : 30,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_HI",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "izual001",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 35,
+  "Wis" : 25
+}

@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 7,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 420570,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13213,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "\"Load faster!  Aim faster!  Fire faster!\"  These are the words that haunted the dreams of Lord Bishik, whose training in the militia seemed a never-ending nightmare.  Putting all of his energies into overcoming slowness in combat, Bishik finally accepted a magical solution to his problems.  The mage who created Bishik's crossbow appeared from nowhere, gave the weapon to Bishik and disappeared into the night.  Only the powerful magic of the crossbow was left behind to prove that Bishik hadn't simply dreamed up the wizard."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 14108,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Crossbow of Lightning Strike"
+      }
+    ]
+  },
+  "ModelPart1" : 21,
+  "ModelPart2" : 41,
+  "ModelPart3" : 42,
+  "PaletteID" : 43,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 255,
+      "PropertyName" : 56,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 35,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 14,
+      "CostValue" : 4,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 61,
+      "Subtype" : 1
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "XBOWLIGHTNINGSTRIKE",
+  "TemplateResRef" : "wbwmxl014"
+}

@@ -1,0 +1,255 @@
+{
+  "AppearanceType" : 269,
+  "BodyBag" : 4,
+  "CRAdjust" : -1,
+  "Cha" : 8,
+  "ChallengeRating" : 7.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 7
+    }
+  ],
+  "Comment" : "This bandit changes into a Werewolf when hit.",
+  "Con" : 15,
+  "Conversation" : "",
+  "CurrentHitPoints" : 40,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "Lycanthropes are rarely seen in Khanduras, but the presence of so many of these shapeshifters is a complete mystery to you.  Perhaps they are brought about by a curse in these woodlands.  Who and why is also a mystery....",
+  "Dex" : 14,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_wbwmln012",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "horrorarrow1",
+      "StructId" : 2048
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp010",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp010",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewps015",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "werewolf001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 2
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 63
+    },
+    {
+      "Feat" : 27
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 30
+    },
+    {
+      "Feat" : 32
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 101
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 50
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 139
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12367,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Cursed Bandit"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 40,
+  "Int" : 10,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "horrorarrow1",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "horrorarrow1",
+      "ReposPosX" : 1,
+      "ReposPosy" : 0
+    },
+    {
+      "InventoryRes" : "horrorarrow1",
+      "ReposPosX" : 2,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 70,
+  "NaturalAC" : 4,
+  "NoPermDeath" : 0,
+  "PaletteID" : 0,
+  "PerceptionRange" : 9,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 129,
+  "Race" : 6,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_generic_low",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "nw_c2_lycan_9",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "nw_c2_lywolf_d",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 228,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 7,
+  "Str" : 20,
+  "Subrace" : "",
+  "Tag" : "D1_WEREWOLFBANDITB",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "werewolf004",
+  "WalkRate" : 7,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 12
+}

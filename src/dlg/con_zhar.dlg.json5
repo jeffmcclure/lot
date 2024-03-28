@@ -1,0 +1,120 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "end_zhar",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1,
+        0
+      ],
+      "Script" : "",
+      "Sound" : "zhar1",
+      "Text" : "What?  Why are you here?   All these interruptions are enough to make one insane!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 40,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        2
+      ],
+      "Script" : "giv_zhar",
+      "Sound" : "zhar2",
+      "Text" : "Here, take this and leave me to my work!  Trouble me no more!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "",
+      "Sound" : "zhar3",
+      "Text" : "Aaah... your curiosity will be the death of you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5
+      ],
+      "Script" : "",
+      "Sound" : "zhar3",
+      "Text" : "Aaah... your curiosity will be the death of you!"
+    }
+  ],
+  "NumWords" : 88,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I am here to pilfer through this place for treasure.  You have a problem with that?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What are you doing in a place like this?  You're pretty far down to be studying..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "But I have questions to ask you!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_zhar",
+      "Sound" : "",
+      "Text" : "But---"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "end_zhar",
+      "Sound" : "",
+      "Text" : "But---"
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_zhar",
+      "Index" : 3
+    },
+    0
+  ]
+}

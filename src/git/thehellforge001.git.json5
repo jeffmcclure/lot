@@ -1,0 +1,3285 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 28,
+    "AmbientSndDayVol" : 72,
+    "AmbientSndNight" : 28,
+    "AmbientSndNitVol" : 73,
+    "EnvAudio" : 0,
+    "MusicBattle" : 47,
+    "MusicDay" : 106,
+    "MusicDelay" : 1000,
+    "MusicNight" : 106
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "AnimationState" : 2,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707942,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 80,
+      "Description" : null,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "GenericType" : 0,
+      "HP" : 80,
+      "Hardness" : 5,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LinkedTo" : "WP_HELL3HELLFORGE",
+      "LinkedToFlags" : 2,
+      "LoadScreenID" : 0,
+      "LocName" : {
+        "StringRef" : 5349,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door to Hell"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Tag" : "HELLFORGE_2HELL3",
+      "TemplateResRef" : "nw_door_ttr_06",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Will" : 0,
+      "X" : 5.0,
+      "Y" : 45.0,
+      "Z" : 0.71
+    }
+  ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -10.09133,
+          "Y" : -10.10619,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.007757187,
+          "Y" : -9.964146,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.079021454,
+          "Y" : -0.054782867,
+          "Z" : 0.025
+        },
+        {
+          "X" : -9.991297,
+          "Y" : -0.10012436,
+          "Z" : 0.025000505
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 24.907188,
+          "Y" : 64.80194,
+          "Z" : 0.9999943
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 30.046343,
+      "YPosition" : 50.07534,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "magii003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.5908775,
+          "Y" : 0.20452881,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.5547256,
+          "Y" : 3.535305,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (high)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 4.168575,
+          "Y" : 64.9429,
+          "Z" : 2.089999
+        }
+      ],
+      "Tag" : "MagiiGrouphigh",
+      "TemplateResRef" : "bloodknightgr014",
+      "XPosition" : 23.13414,
+      "YPosition" : 63.280773,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.02148819,
+          "Y" : 3.5838165,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.04286003,
+          "Y" : 0.001411438,
+          "Z" : 1.025
+        },
+        {
+          "X" : 2.5804024,
+          "Y" : 0.043628693,
+          "Z" : 1.025
+        },
+        {
+          "X" : 2.6651459,
+          "Y" : 3.6344604,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 25.114313,
+          "Y" : 54.705093,
+          "Z" : 0.63105965
+        }
+      ],
+      "Tag" : "SuccubusGrouphigh",
+      "TemplateResRef" : "bloodknightgr006",
+      "XPosition" : 15.479107,
+      "YPosition" : 63.110832,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -2.9762611,
+          "Y" : 4.4959984,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.01158905,
+          "Y" : 0.15726852,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.19797516,
+          "Y" : 4.549221,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 54.412445,
+          "Y" : 34.55683,
+          "Z" : 1.9932916
+        }
+      ],
+      "Tag" : "SuccubusGrouphigh",
+      "TemplateResRef" : "bloodknightgr006",
+      "XPosition" : 37.637413,
+      "YPosition" : 37.715927,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "magii003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.7884903,
+          "Y" : -3.6177063,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : 0.0,
+          "Y" : -3.6313095,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        },
+        {
+          "X" : -0.078063965,
+          "Y" : -0.020202637,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : -1.7695465,
+          "Y" : -0.06046295,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (high)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 38.613297,
+          "Y" : 34.578796,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGrouphigh",
+      "TemplateResRef" : "bloodknightgr014",
+      "XPosition" : 48.184288,
+      "YPosition" : 36.843884,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.5537643,
+          "Y" : -4.1758842,
+          "Z" : 1.8138975
+        },
+        {
+          "X" : -0.112831116,
+          "Y" : -4.1416206,
+          "Z" : 2.107717
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 2.107717
+        },
+        {
+          "X" : -0.04240036,
+          "Y" : -0.0026550293,
+          "Z" : 2.107717
+        },
+        {
+          "X" : -1.4726181,
+          "Y" : 0.07483673,
+          "Z" : 1.8453091
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 39.28348,
+          "Y" : 23.045956,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 55.45473,
+      "YPosition" : 37.001976,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 90,
+          "CR" : 18.0,
+          "ResRef" : "forgesentry001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -5.402645,
+          "Y" : -6.284683,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : 1.1269417,
+          "Y" : -6.2077713,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.0633812,
+          "Y" : -1.8887348,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.1606369,
+          "Y" : -1.8505249,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : -4.350525,
+          "Y" : 0.05260849,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : -4.4020042,
+          "Y" : -1.8134956,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : -5.3382607,
+          "Y" : -1.815834,
+          "Z" : 0.024629975
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 60.1708,
+          "Y" : 20.56998,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint001",
+      "XPosition" : 42.173508,
+      "YPosition" : 24.065632,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.4403152,
+          "Y" : -4.1599083,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.1426773,
+          "Y" : -4.3322277,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024630094
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 66.368614,
+          "Y" : 52.52899,
+          "Z" : 0.409991
+        },
+        {
+          "Orientation" : -0.0,
+          "X" : 73.26556,
+          "Y" : 52.73737,
+          "Z" : 0.409991
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint036",
+      "XPosition" : 72.34359,
+      "YPosition" : 32.096596,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 90,
+          "CR" : 18.0,
+          "ResRef" : "forgesentry001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.018096924,
+          "Y" : -0.08381271,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 0.005935669,
+          "Y" : -2.1005058,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.5652466,
+          "Y" : -2.2145882,
+          "Z" : 0.02500006
+        },
+        {
+          "X" : 4.5423355,
+          "Y" : 0.033550262,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forge Group (mid)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 73.51399,
+          "Y" : 29.126762,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "ForgeGroupmid",
+      "TemplateResRef" : "blueprint001",
+      "XPosition" : 67.72286,
+      "YPosition" : 44.95796,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -4.3742523,
+          "Y" : -4.127182,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : 0.026756287,
+          "Y" : 0.0061416626,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : -4.3261185,
+          "Y" : -0.6389618,
+          "Z" : 0.02499994
+        }
+      ],
+      "LocalizedName" : "Succubus Group (high)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 78.01451,
+          "Y" : 52.54555,
+          "Z" : 8.3539635E-6
+        }
+      ],
+      "Tag" : "SuccubusGrouphigh",
+      "TemplateResRef" : "bloodknightgr006",
+      "XPosition" : 72.26712,
+      "YPosition" : 32.206642,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.04496765,
+          "Y" : 0.01940155,
+          "Z" : 0.025
+        },
+        {
+          "X" : 4.188751,
+          "Y" : 3.1063766,
+          "Z" : 0.024629975
+        },
+        {
+          "X" : 4.1444626,
+          "Y" : 0.5240364,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.016944885,
+          "Y" : 0.04442787,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 61.970444,
+          "Y" : 52.39217,
+          "Z" : 9.059906E-6
+        }
+      ],
+      "Tag" : "SuccubusGrouplow",
+      "TemplateResRef" : "bloodknightgr004",
+      "XPosition" : 67.97769,
+      "YPosition" : 31.870426,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.09688187,
+          "Y" : -4.4994183,
+          "Z" : 0.024629975
+        },
+        {
+          "X" : 5.751541,
+          "Y" : -0.09688187,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.039585114,
+          "Y" : -0.06462097,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.024630094
+        }
+      ],
+      "LocalizedName" : "Succubus Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 25.125433,
+          "Y" : 14.375091,
+          "Z" : 0.6793518
+        }
+      ],
+      "Tag" : "SuccubusGrouplow",
+      "TemplateResRef" : "bloodknightgr004",
+      "XPosition" : 36.7294,
+      "YPosition" : 22.211155,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.6039467,
+          "Y" : 4.3072414,
+          "Z" : 0.024630094
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.090724945,
+          "Y" : 4.3532276,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 45.234276,
+          "Y" : 4.217291,
+          "Z" : 2.089999
+        }
+      ],
+      "Tag" : "SuccubusGrouplow",
+      "TemplateResRef" : "bloodknightgr004",
+      "XPosition" : 43.53881,
+      "YPosition" : 17.878368,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.5739765,
+          "Y" : 7.286028,
+          "Z" : 1.025
+        },
+        {
+          "X" : -3.566578,
+          "Y" : -0.016875267,
+          "Z" : 1.027717
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.027717
+        },
+        {
+          "X" : 0.016023636,
+          "Y" : 0.049640656,
+          "Z" : 1.027717
+        },
+        {
+          "X" : -0.045236588,
+          "Y" : 3.386773,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 7.1048465,
+          "Y" : 25.060032,
+          "Z" : 0.9999943
+        }
+      ],
+      "Tag" : "SuccubusGrouplow",
+      "TemplateResRef" : "bloodknightgr004",
+      "XPosition" : 16.775589,
+      "YPosition" : 9.472805,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 16.0,
+          "ResRef" : "magii001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.5056963,
+          "Y" : 3.7202063,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : 0.035699844,
+          "Y" : 0.04347706,
+          "Z" : 1.025
+        },
+        {
+          "X" : 2.1396217,
+          "Y" : 0.11568451,
+          "Z" : 1.025
+        },
+        {
+          "X" : 2.251377,
+          "Y" : 3.7280855,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 14.904539,
+          "Y" : 5.3401103,
+          "Z" : 2.089958
+        }
+      ],
+      "Tag" : "MagiiGrouplow",
+      "TemplateResRef" : "bloodknightgr012",
+      "XPosition" : 16.84169,
+      "YPosition" : 13.065331,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 90,
+          "CR" : 18.0,
+          "ResRef" : "forgesentry001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -5.2485504,
+          "Y" : -4.3762364,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : 0.10573578,
+          "Y" : -4.3671913,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.12284088,
+          "Y" : -0.005706787,
+          "Z" : 0.025
+        },
+        {
+          "X" : -5.1177216,
+          "Y" : -0.102440834,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 119.09895,
+          "Y" : 27.756248,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint001",
+      "XPosition" : 110.41333,
+      "YPosition" : 12.008761,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -6.6039467,
+          "Y" : 4.3072414,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -0.090724945,
+          "Y" : 4.3532276,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Succubus Group (low)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 119.935005,
+          "Y" : 36.238937,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGrouplow",
+      "TemplateResRef" : "bloodknightgr004",
+      "XPosition" : 121.76894,
+      "YPosition" : 7.699727,
+      "ZPosition" : -1.1920929E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 90,
+          "CR" : 18.0,
+          "ResRef" : "forgesentry001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.071372986,
+          "Y" : -3.0364113,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.2916489,
+          "Y" : -3.1012573,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.3181152,
+          "Y" : 0.028808594,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.037246704,
+          "Y" : -0.046649933,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forge Group (mid)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 114.81619,
+          "Y" : 63.011864,
+          "Z" : 1.446101
+        }
+      ],
+      "Tag" : "ForgeGroupmid",
+      "TemplateResRef" : "blueprint001",
+      "XPosition" : 113.33615,
+      "YPosition" : 41.177986,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "magii003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.06764984,
+          "Y" : -1.8283691,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.5063095,
+          "Y" : -1.8695946,
+          "Z" : 1.025
+        },
+        {
+          "X" : 3.4684982,
+          "Y" : -0.017116547,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 114.67958,
+          "Y" : 41.757584,
+          "Z" : 9.655952E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 113.234924,
+      "YPosition" : 54.150814,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.04468918,
+          "Y" : -0.028625488,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.0290222,
+          "Y" : -0.6974106,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.219738,
+          "Y" : 7.40958,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.030433655,
+          "Y" : 6.7699013,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 45.080414,
+          "Y" : 54.50231,
+          "Z" : 2.089999
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint036",
+      "XPosition" : 59.479652,
+      "YPosition" : 51.581676,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.04468918,
+          "Y" : -0.028625488,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.0290222,
+          "Y" : -0.6974106,
+          "Z" : 0.025
+        },
+        {
+          "X" : 1.219738,
+          "Y" : 7.40958,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.030433655,
+          "Y" : 6.7699013,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 94.51166,
+          "Y" : 54.77215,
+          "Z" : 2.0320394
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint036",
+      "XPosition" : 79.48695,
+      "YPosition" : 51.707478,
+      "ZPosition" : -0.0010697842
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.77954865,
+          "Y" : -4.428501,
+          "Z" : 1.9310452
+        },
+        {
+          "X" : -0.05570221,
+          "Y" : -4.395897,
+          "Z" : 2.107717
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 2.107717
+        },
+        {
+          "X" : -0.0015182495,
+          "Y" : -0.029064178,
+          "Z" : 2.107717
+        },
+        {
+          "X" : -0.7309494,
+          "Y" : 0.045001984,
+          "Z" : 1.949858
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 75.67681,
+          "Y" : 50.385063,
+          "Z" : 8.3539635E-6
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint036",
+      "XPosition" : 94.98315,
+      "YPosition" : 57.20885,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.011936188,
+          "Y" : 4.5429726,
+          "Z" : 2.107717
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 2.107717
+        },
+        {
+          "X" : 0.030384064,
+          "Y" : -0.0040893555,
+          "Z" : 2.107717
+        },
+        {
+          "X" : 0.7476845,
+          "Y" : 0.0286026,
+          "Z" : 1.931193
+        },
+        {
+          "X" : 0.77143097,
+          "Y" : 4.5181236,
+          "Z" : 1.9220005
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 64.72986,
+          "Y" : 50.07467,
+          "Z" : 9.059906E-6
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint036",
+      "XPosition" : 45.048336,
+      "YPosition" : 52.752567,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 89,
+          "CR" : 23.0,
+          "ResRef" : "forgemaster001",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.9743042,
+          "Y" : -4.273262,
+          "Z" : 1.9488152
+        },
+        {
+          "X" : -0.1306839,
+          "Y" : -4.3562393,
+          "Z" : 2.107717
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 2.107717
+        },
+        {
+          "X" : -0.81192017,
+          "Y" : -0.013872147,
+          "Z" : 2.0116737
+        }
+      ],
+      "LocalizedName" : "Forge Group (high)",
+      "MaxCreatures" : 2,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 87.59388,
+          "Y" : 20.412003,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "ForgeGrouphigh",
+      "TemplateResRef" : "blueprint036",
+      "XPosition" : 105.22381,
+      "YPosition" : 27.194542,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "magii003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.3834763,
+          "Y" : -0.039749146,
+          "Z" : 1.025
+        },
+        {
+          "X" : -1.3735237,
+          "Y" : -3.563221,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.010303497,
+          "Y" : -3.5836182,
+          "Z" : 0.82879287
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.8317286
+        },
+        {
+          "X" : -0.041153908,
+          "Y" : 0.008930206,
+          "Z" : 0.84345406
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 4,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 25.386238,
+          "Y" : 53.106815,
+          "Z" : 0.17388916
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 14.678345,
+      "YPosition" : 46.784554,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 14.0,
+          "ResRef" : "sucubus001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 18.0,
+          "ResRef" : "sucubus003",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 2,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.4282227,
+          "Y" : 0.04657364,
+          "Z" : 1.025
+        },
+        {
+          "X" : -1.3661251,
+          "Y" : -3.5550308,
+          "Z" : 1.025
+        },
+        {
+          "X" : 9.536743E-7,
+          "Y" : -3.523983,
+          "Z" : 1.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 1.0250001
+        },
+        {
+          "X" : -0.10866928,
+          "Y" : 0.07762146,
+          "Z" : 1.0250001
+        }
+      ],
+      "LocalizedName" : "Succubus Group (high)",
+      "MaxCreatures" : 5,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 3,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 33.837624,
+          "Y" : 39.38172,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGrouphigh",
+      "TemplateResRef" : "bloodknightgr006",
+      "XPosition" : 11.825161,
+      "YPosition" : 46.73049,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 0,
+      "Appearance" : 10,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_hi",
+      "OnOpen" : "loot_normal_hi",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 368,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : -1.0,
+      "Y" : -1.0,
+      "Z" : -1.0
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 45,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_hellforge",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14543,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The hellforge burns with infernal heat - no doubt needed to craft the hellish weapons used by the demons in this realm.  Touching it is inadvisable unless you plan to put something in it."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 1,
+      "LocName" : {
+        "StringRef" : 14541,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Hellforge"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnInvDisturbed" : "end_shadowfang2a",
+      "OnOpen" : "trg_forgedmg",
+      "OnUsed" : "loot_unique",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 403,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ALTAR_HELLFORGE",
+      "TemplateResRef" : "altrneutral",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 70.079865,
+      "Y" : 53.256657,
+      "Z" : 0.4100031
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 70.096954,
+      "Y" : 53.36869,
+      "Z" : 0.4100031
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 70.84525,
+      "Y" : 53.380283,
+      "Z" : 0.4100031
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 69.35792,
+      "Y" : 53.38735,
+      "Z" : 0.41001064
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 69.59422,
+      "Y" : 52.976196,
+      "Z" : 0.39999133
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 70.55531,
+      "Y" : 52.969135,
+      "Z" : 0.39999133
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14678,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Magic Sparks - Red",
+      "TemplateResRef" : "plc_magicred",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 70.13717,
+      "Y" : 53.279945,
+      "Z" : 0.4100031
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 66.8239,
+      "Y" : 55.936375,
+      "Z" : 0.41001064
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 73.399254,
+      "Y" : 56.035572,
+      "Z" : 0.42000005
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 172,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "A searing shaft of blue light descends from some unseen place above."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Izual's Portal"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 530,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PORTAL_IZUAL",
+      "TemplateResRef" : "solblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 84.93197,
+      "Y" : 25.115051,
+      "Z" : 1.5700048
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 106.117966,
+      "Y" : 25.049067,
+      "Z" : 2.089999
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 84.98115,
+      "Y" : 13.555925,
+      "Z" : 0.399992
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.051409,
+      "Y" : 46.712906,
+      "Z" : 0.399992
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 149,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14624,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14625,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 507,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Flame - Large",
+      "TemplateResRef" : "plc_flamelarge",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 30.331787,
+      "Y" : 10.08022,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 84,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14707,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5727,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 442,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "Rubble",
+      "TemplateResRef" : "plc_rubble",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 29.888012,
+      "Y" : 9.598607,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415908,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 15.107654,
+      "Y" : 4.0747614,
+      "Z" : 2.089999
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -3.1415908,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 44.98974,
+      "Y" : 4.1115,
+      "Z" : 2.089999
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 55.58739,
+      "Y" : 35.121758,
+      "Z" : 2.0827236
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 95.77476,
+      "Y" : 54.99497,
+      "Z" : 2.089999
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707957,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 44.210663,
+      "Y" : 54.923187,
+      "Z" : 2.089999
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : 1.5707957,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 4.198025,
+      "Y" : 64.94379,
+      "Z" : 2.089999
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 20,
+      "Description" : {
+        "StringRef" : 14597,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 18,
+      "HP" : 20,
+      "Hardness" : 10,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnDeath" : "loot_normal_boss",
+      "OnOpen" : "loot_normal_boss",
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "RDM_CHEST4",
+      "TemplateResRef" : "chest004",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 115.008,
+      "Y" : 65.71294,
+      "Z" : 2.089999
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 1,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 15000,
+      "IntervalVrtn" : 5000,
+      "LocName" : {
+        "StringRef" : 67878,
+        "Strings" : [ ]
+      },
+      "Looping" : 0,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.2,
+      "Positional" : 0,
+      "Priority" : 19,
+      "Random" : 1,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 10.0,
+      "RandomRangeY" : 10.0,
+      "Sounds" : [
+        {
+          "Sound" : "as_na_lavaburst1"
+        },
+        {
+          "Sound" : "as_na_lavaburst2"
+        }
+      ],
+      "Tag" : "LavaBursts",
+      "TemplateResRef" : "lavabursts",
+      "Times" : 3,
+      "Volume" : 63,
+      "VolumeVrtn" : 45,
+      "XPosition" : 19.116087,
+      "YPosition" : 38.77742,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67883,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 0,
+      "Priority" : 2,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_lavapillr1"
+        }
+      ],
+      "Tag" : "LavaPillar",
+      "TemplateResRef" : "lavapillar",
+      "Times" : 3,
+      "Volume" : 37,
+      "VolumeVrtn" : 0,
+      "XPosition" : 21.485481,
+      "YPosition" : 38.80613,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67852,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_firelarge2"
+        }
+      ],
+      "Tag" : "FireLarge2",
+      "TemplateResRef" : "firelarge2",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 70.13086,
+      "YPosition" : 53.228153,
+      "ZPosition" : 1.9100031
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67851,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 7.0,
+      "MinDistance" : 0.7,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_firelarge1"
+        }
+      ],
+      "Tag" : "FireLarge1",
+      "TemplateResRef" : "firelarge1",
+      "Times" : 3,
+      "Volume" : 89,
+      "VolumeVrtn" : 0,
+      "XPosition" : 25.115513,
+      "YPosition" : 46.654167,
+      "ZPosition" : 1.899992
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67851,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 7.0,
+      "MinDistance" : 0.7,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_firelarge1"
+        }
+      ],
+      "Tag" : "FireLarge1",
+      "TemplateResRef" : "firelarge1",
+      "Times" : 3,
+      "Volume" : 89,
+      "VolumeVrtn" : 0,
+      "XPosition" : 85.211105,
+      "YPosition" : 13.552859,
+      "ZPosition" : 1.899992
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67851,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 7.0,
+      "MinDistance" : 0.7,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_na_firelarge1"
+        }
+      ],
+      "Tag" : "FireLarge1",
+      "TemplateResRef" : "firelarge1",
+      "Times" : 3,
+      "Volume" : 89,
+      "VolumeVrtn" : 0,
+      "XPosition" : 30.536844,
+      "YPosition" : 10.057215,
+      "ZPosition" : 1.5000095
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67893,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_chntmagic1"
+        }
+      ],
+      "Tag" : "MagicChants",
+      "TemplateResRef" : "magicchants",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 85.09168,
+      "YPosition" : 25.062698,
+      "ZPosition" : 3.0700002
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 0,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -0.09751892,
+          "PointY" : 0.19365692,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.02499994
+        },
+        {
+          "PointX" : 0.066833496,
+          "PointY" : -10.643002,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 12.957115,
+          "PointY" : -10.754283,
+          "PointZ" : 0.025
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "New Generic"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "ent_spawnizual",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "TRG_IZUALSPAWN1",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 78.77965,
+      "YOrientation" : 0.0,
+      "YPosition" : 19.372238,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Hellforge"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Hellforge"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 1,
+      "Tag" : "NW_MAPNOTE_HELLFORGE",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 0.0,
+      "XPosition" : 70.02621,
+      "YOrientation" : 1.0,
+      "YPosition" : 50.567818,
+      "ZPosition" : 8.3539635E-6
+    },
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Izual Spawnpoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_IZUAL",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : -0.47716334,
+      "XPosition" : 85.07,
+      "YOrientation" : -0.87881464,
+      "YPosition" : 25.12,
+      "ZPosition" : 1.57
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 1,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Back to Hell - Third Level"
+          }
+        ]
+      },
+      "MapNote" : "Back to Hell - Third Level",
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_HELLFORGE2HELL3",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.0,
+      "XPosition" : 6.13616,
+      "YOrientation" : 2.1020558E-6,
+      "YPosition" : 45.044727,
+      "ZPosition" : 0.9999943
+    }
+  ]
+}

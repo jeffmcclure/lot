@@ -1,0 +1,131 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "nw_walk_wp",
+  "EndConversation" : "nw_walk_wp",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        0
+      ],
+      "Script" : "trg_stopcowsound",
+      "Text" : "<StartAction>You wipe the sweat off your brow, as you reach the outskirts of Tristram... the place of your birth... the town you grew up in, before you decided that your life was empty without a sense of adventure... after your parents died many years ago, you left this town seeking more than just a dreary life in a small town...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        1
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>You do not exactly recall why you have decided to come back here.  You have enjoyed the past few years away from Tristram, seeing and discovering more of the world than what was told in casual tales shared by occasional peddlers who have visited the town when you were a child.\n\nIt seems as if something has drawn you back here... maybe it was a sense of nostalgia, or maybe even the desire to share your experiences with the people you have known for so long, but something has beckoned you to return... back to the place of your birth... back to Tristram...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        2
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>These thoughts have played around in your head when you noticed a curious exodus of people from the town on your way here...  perhaps the man sitting by the campfire can tell you what has been happening...</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        3
+      ],
+      "Script" : "trg_stopcowsound",
+      "Text" : "<StartAction>As you wipe the sweat off your brow, you realize that you have come back to Tristram.  But you get the eerie feeling that you have been here before.  A part of you remembers the horrible battles you have endured to save the town, and its inhabitants.  Yet you are here, again, off to fulfill some unfinished business.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>As you wipe the sweat off your brow, you realize that you have come back to Tristram.  But you get the eerie feeling that you have been here before.  A part of you remembers the horrible battles you have endured to save the town, and its inhabitants.  Yet you are here, again, off to fulfill some unfinished business.</Start>"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        5
+      ],
+      "Script" : "",
+      "Text" : "<StartAction>You look around and things seem familiar - like the first time you came back here - except for the mysterious portal to your left.  You wonder what strange things may be beyond it.\n\nPerhaps it is worth investigating...</Start>"
+    }
+  ],
+  "NumWords" : 355,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_cornerstonex",
+      "Index" : 4
+    },
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 3
+    },
+    0
+  ]
+}

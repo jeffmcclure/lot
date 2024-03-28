@@ -1,0 +1,26 @@
+{
+  "AutoRemoveKey" : 0,
+  "Comment" : "Strong Tangle\r\nDetect DC: 14\r\nDisarm DC: 26\r\nSet DC: 25\r\nDamage / Effect: Movement reduced by half for 4 rounds.\r\nAverage Damage: 0\r\nArea of Effect: Medium,  Sphere\r\nMin to Max player level: 6 - 15",
+  "Cursor" : 0,
+  "DisarmDC" : 26,
+  "Faction" : 1,
+  "HighlightHeight" : 0.0,
+  "LinkedToFlags" : 0,
+  "LoadScreenID" : 0,
+  "LocalizedName" : {
+    "StringRef" : 14805,
+    "Strings" : [ ]
+  },
+  "OnDisarm" : "s_xptrapdisarm",
+  "PaletteID" : 13,
+  "PortraitId" : 0,
+  "Tag" : "D1_STRONGTANGETRAP",
+  "TemplateResRef" : "stangltrap001",
+  "TrapDetectDC" : 14,
+  "TrapDetectable" : 1,
+  "TrapDisarmable" : 1,
+  "TrapFlag" : 1,
+  "TrapOneShot" : 1,
+  "TrapType" : 10,
+  "Type" : 2
+}

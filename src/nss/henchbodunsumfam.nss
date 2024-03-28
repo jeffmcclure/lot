@@ -1,0 +1,6 @@
+void main()
+{
+    ActionMoveToObject(GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, OBJECT_SELF), FALSE, 0.5);
+    ActionCastFakeSpellAtObject(SPELL_SUMMON_CREATURE_I, OBJECT_SELF, PROJECTILE_PATH_TYPE_DEFAULT);
+    DestroyObject(GetAssociate(ASSOCIATE_TYPE_FAMILIAR), 2.0);
+}

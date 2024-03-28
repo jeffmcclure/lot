@@ -1,0 +1,2787 @@
+{
+  "DelayEntry" : 0,
+  "DelayReply" : 0,
+  "EndConverAbort" : "npcact_wrapca",
+  "EndConversation" : "npcact_wrapcn",
+  "EntryList" : [
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_butchcleaver",
+          "Index" : 119,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_hadrielgiv",
+          "Index" : 116,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_anvil2",
+          "Index" : 87,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_magicrock2",
+          "Index" : 82,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroom",
+          "Index" : 80,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 79,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 78,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 77,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 76,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_10_19",
+          "Index" : 75,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_storq_20",
+          "Index" : 74,
+          "IsChild" : 0
+        },
+        73,
+        1,
+        0
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gris_greet",
+      "Text" : "Well, what can I do for ya, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        46,
+        {
+          "Active" : "prq_butcherx",
+          "Index" : 42,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_watersupplyx",
+          "Index" : 40,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_leoricx",
+          "Index" : 38,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_wormsx",
+          "Index" : 36,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_ogdensignx",
+          "Index" : 34,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_islandx",
+          "Index" : 30,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lightsx",
+          "Index" : 27,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_shadowfangx",
+          "Index" : 24,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_arkainex",
+          "Index" : 22,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_magicrockx",
+          "Index" : 20,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_chamberx",
+          "Index" : 18,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_blindx",
+          "Index" : 16,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_mushroomx",
+          "Index" : 14,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_anvilx",
+          "Index" : 12,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_izual3",
+          "Index" : 9,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_warlordx",
+          "Index" : 7,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lachdananx",
+          "Index" : 5,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_lazarusx",
+          "Index" : 3,
+          "IsChild" : 0
+        },
+        2
+      ],
+      "Script" : "",
+      "Text" : "I'm not much of a storyteller like Cain over there, but I'll tell you what I know."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        4,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_lazarus1",
+      "Text" : "I was there when Lazarus led us into the labyrinth.  He spoke of holy retribution, but when we started fighting those hellspawn, he did not so much as lift his mace against them.  He just ran deeper into the dim, endless chambers that were filled with the servants of darkness!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        6,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_lachdanan1",
+      "Text" : "If it is actually Lachdanan that you have met, then I would advise that you aid him.  I dealt with him on several occasions and found him to be honest and loyal in nature.  The curse that fell upon the followers of King Leoric, would fall especially hard upon him..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        8,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_warlord1",
+      "Text" : "Dark and wicked legends surround the one Warlord of Blood.  Be well prepared, my friend, for he shows no mercy or quarter."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        10
+      ],
+      "Script" : "",
+      "Sound" : "gris_izual1",
+      "Text" : "The blade Azurewrath, hah, it's legend!  It was cast by the angelic weaponsmith, Senedib, and tempered within the fires of judgement!   Whoever wields this weapon, will find the legions of Hell at its feet!  "
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        11,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_izual2",
+      "Text" : "If you found this blade, I would begin to truly believe that you can end the nightmare that has befallen our town!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        13,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_anvil5",
+      "Text" : "Nothing yet, eh?  Well, keep searching.  A weapon forged upon the anvil could be your best hope, and I am sure that I can make you one of legendary proportions..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        15,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_mushroom1",
+      "Text" : "If Adria doesn't have one of these, you can bet that's a rare thing indeed.  I can offer you no more help than that, but it sounds like...  a huge, gargantuan, swollen, bloated mushroom!  Well, good hunting, I suppose."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        17,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_blind1",
+      "Text" : "I am afraid that I have neither heard nor seen a place that matches your vivid description, my friend.  Perhaps Cain the storyteller could be of some help."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        19,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_bone1",
+      "Text" : "I know nothing of this place, but you may try asking Cain.  He talks about many things, and it would not surprise me if he had some answers to your question."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        21,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_rock4",
+      "Text" : "I am still waiting for you to bring me that stone from the Heavens.  I know that I can make something powerful out of it."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        23,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_valor1",
+      "Text" : "The armor known as Valor could be what tips the scale in your favor.  I will tell you that many have looked for it - including myself.  Arkaine hid it well, my friend, and it will take more than a bit of luck to unlock the secrets that have kept it concealed all o'er these many years..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        25
+      ],
+      "Script" : "",
+      "Sound" : "gris_flshdm1",
+      "Text" : "Ahhh, you speak of an ancient and evil weapon!  Tread lightly in this area - the legends of Shadowfang are as black as a moonless winter night!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        26,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_flshdm2",
+      "Text" : "Crafted within the Hellforge, Shadowfang can rend the very soul from whoever it strikes!  Ahh, I do not envy you if it is in your mind to defeat the one who wields it...  May light protect you, brave hero..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        29,
+        28,
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Sound" : "gris_lostboys1",
+      "Text" : "I admit that I too have seen these strange lights - but I have not felt pulled towards them.  I'll be sure to steer clear of them, and will tell everyone that visits here to do likewise..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_island2",
+          "Index" : 32,
+          "IsChild" : 0
+        },
+        31
+      ],
+      "Script" : "",
+      "Sound" : "gris_island1",
+      "Text" : "A bold tale, indeed!  My limited time beneath the Cathedral leaves me poorly equipped to offer you any help with this.  But, as always, you'll find Cain well versed in legends and folklore..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        33
+      ],
+      "Script" : "",
+      "Sound" : "gris_island2",
+      "Text" : "Farnham speaks of a place that exists - at least in legend.  Warriors would go to a place at the edge of Hell to gear themselves for battle against the armies of darkness!  If the stories are true, untold treasures could lay upon this \"island of the sunless sea\"..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        35
+      ],
+      "Script" : "",
+      "Sound" : "gris_sign1",
+      "Text" : "Demons stole Odgen's sign, you say?  That doesn't sound much like the atrocities I've heard of - or seen.  Demons are concerned with ripping out your heart, not your signpost!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        37
+      ],
+      "Script" : "",
+      "Sound" : "gris_worms1",
+      "Text" : "I've seen no such things in my shop, but I will keep a close watch for them.  Perhaps if they come this way they won't take kindly to the fires of my forge!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        39
+      ],
+      "Script" : "",
+      "Sound" : "gris_leoric1",
+      "Text" : "I made many of the weapons and most of the armor that King Leoric used to outfit his knights.  I even crafted a huge two-handed sword of the finest mithril for him, as well as a field crown to match.  I still cannot believe how he died, but it must have been some sinister force that drove him insane!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        41
+      ],
+      "Script" : "",
+      "Sound" : "gris_water1",
+      "Text" : "Pepin has told you the truth.  We will need fresh water badly, and soon.  I have tried to clear one of the smaller wells, but it reeks of stagnant filth!  It must be getting clogged at the source..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        43
+      ],
+      "Script" : "",
+      "Sound" : "gris_butcher1",
+      "Text" : "I saw what Farnham calls the \"butcher\" as it swathed a path through the bodies of my friends. He swung a cleaver as large as an axe, hewing limbs and cutting down brave men where they stood."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        45,
+        44
+      ],
+      "Script" : "",
+      "Sound" : "gris_butcher2",
+      "Text" : "I was separated from the fray by a host of small screeching demons and somehow found the stairway leading out. I never saw that hideous beast again, but his bloodstained visage haunts me to this day..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_knowadria",
+          "Index" : 71,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowcain",
+          "Index" : 69,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowdeese",
+          "Index" : 66,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowfarnham",
+          "Index" : 63,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowgillian",
+          "Index" : 61,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowlester",
+          "Index" : 59,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowogden",
+          "Index" : 56,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowpepin",
+          "Index" : 54,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowtremayne",
+          "Index" : 52,
+          "IsChild" : 0
+        },
+        {
+          "Active" : "prq_knowwirt",
+          "Index" : 49,
+          "IsChild" : 0
+        },
+        48,
+        47
+      ],
+      "Script" : "",
+      "Text" : "Who do you want me to talk about?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        50
+      ],
+      "Script" : "",
+      "Sound" : "gris_wirt1",
+      "Text" : "That lad is going to get himself into SERIOUS trouble... or I guess I should say, AGAIN.  I tried to interest him in working here and learning an honest trade, but he prefers the high profits of dealing in goods of devious origin."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        51
+      ],
+      "Script" : "",
+      "Sound" : "gris_wirt2",
+      "Text" : "I cannot hold that against him after what happened to him, but I do wish he would at least be careful..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        53
+      ],
+      "Script" : "",
+      "Sound" : "gris_trem1",
+      "Text" : "The priest, Tremayne?  Well... he's a solitary fellow, who has no time for most of us.  He seems to prefer the company of Pepin and Cain.  Ah, that's fine by me... I respect his passion and his commitment to his order, but I have no time for his prattling..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        55
+      ],
+      "Script" : "",
+      "Sound" : "gris_pepin1",
+      "Text" : "A good man who puts the needs of others above  his own.  You won't find anyone left in Tristram - or anywhere else  for that matter - who has a bad thing to say about the healer."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        57
+      ],
+      "Script" : "",
+      "Sound" : "gris_ogden1",
+      "Text" : "The innkeeper has little business and no real way of turning a profit.  He manages to make ends meet by providing food and lodging for those who occasionally drift through the village, but they are a likely to sneak off into the night as they are to pay him."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        58
+      ],
+      "Script" : "",
+      "Sound" : "gris_ogden2",
+      "Text" : "If it weren't for the stores of grains and dried meats he kept in his cellar, why, most of us would have starved during that first year when the entire countryside was overrun by demons."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        60
+      ],
+      "Script" : "",
+      "Text" : "Don't ask me about that man!  I don't know where Deese managed to find him, but the more I talk to him, the dumber I get!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        62
+      ],
+      "Script" : "",
+      "Sound" : "gris_gilln1",
+      "Text" : "Ah, Gillian is a nice lass. Shame that her gammer is in such poor health, or I would arrange to get both of them out of here on one of the trading caravans..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        64
+      ],
+      "Script" : "",
+      "Sound" : "gris_farnm1",
+      "Text" : "I was with Farnham that night that Lazarus led us into the labyrinth.  I never saw the Archbishop again, and I may not have survived if Farnham was not at my side.  I fear that the attack left his soul as crippled as, well, another did my leg."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        65
+      ],
+      "Script" : "",
+      "Sound" : "gris_farnm2",
+      "Text" : "I cannot fight this battle for him now, but... I would if I could!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 65,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Ah, Farnham was a great friend, and I will miss him.  Such a tragedy was probably too much for him, and I don't blame him for leaving town..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        67
+      ],
+      "Script" : "",
+      "Text" : "Deese is a great man, and a very good friend.  He wanted to join us when we went with the archbishop down into the church, but I convinced him to stay because his sons did not want him to go.  Fortunate thing, indeed, considering what happened afterwards."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        68
+      ],
+      "Script" : "",
+      "Text" : "Deese values his family, and his work, more than anything else in the world.  If only his damn sons can help him make the most of both..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 68,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "I appreciate your role in trying to help out Deese find his sons.  It's too bad he had to lose his sons that way.  I almost agreed to go with him in leaving this town, but I have the feeling that whatever it is that happens to9 me in the future, it should be here in Tristram..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        70
+      ],
+      "Script" : "",
+      "Sound" : "gris_cain1",
+      "Text" : "Sometimes  I think that Cain talks too much, but I guess that is his calling in life.  If I could bend steel as well as he can bend your ear, I could make a suit of court plate good enough for an emperor!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        72
+      ],
+      "Script" : "",
+      "Sound" : "gris_adria1",
+      "Text" : "While I have to practically smuggle in the metals and tools I need from caravans that skirt the edges of our damned town, that witch, Adria, always seems to get whatever she needs.  If I knew even the smallest bit about how to harness magic as she did, I could make some truly incredible things!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        81,
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "Haha, that's funny <FirstName>!  Asking a blacksmith if he needs a book... a good laugh indeed!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 44,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        84,
+        83
+      ],
+      "Script" : "",
+      "Sound" : "gris_rock5",
+      "Text" : "Let me see that... Aye! Aye it is as I believed! Gimme a moment..."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        86,
+        85
+      ],
+      "Script" : "end_magicrock",
+      "Sound" : "gris_rock6",
+      "Text" : "Ahh, here you are!  I arranged pieces of the stone within a silver ring that my father left me.  Ahh, I hope it serves you well!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 45,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        89,
+        88
+      ],
+      "Script" : "",
+      "Sound" : "gris_anvil6",
+      "Text" : "Augh, I can hardly believe it!  This is the Anvil of Fury!  Good work, m'friend!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 28,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        113,
+        112,
+        111,
+        110,
+        109,
+        108,
+        91,
+        90
+      ],
+      "Script" : "",
+      "Sound" : "gris_anvil7",
+      "Text" : "Now, we'll show those bastards that there are no weapons in hell more deadly than those made by men!  \n\nWhat weapon would you like me to forge from this anvil, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        107,
+        106,
+        105,
+        104,
+        103,
+        102,
+        101,
+        93,
+        92,
+        {
+          "Active" : "",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "What other weapon would you like me to forge from this anvil, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 113,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 112,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 111,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 110,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 109,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 108,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 91,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "What other weapon would you like me to forge from this anvil, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        100,
+        99,
+        98,
+        97,
+        96,
+        95,
+        94,
+        {
+          "Active" : "",
+          "Index" : 90,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "What other weapon would you like me to forge from this anvil, <FirstName>?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        115,
+        114
+      ],
+      "Script" : "",
+      "Sound" : "gris_anvil8",
+      "Text" : "Take this, and may light protect you!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        118,
+        117
+      ],
+      "Script" : "",
+      "Text" : "Azurewrath you say?  Well, that is indeed a very fine piece of weaponry, forged by the angels themselves!  Unfortunately, there is not enough gold in this entire town to pay for what that sword is worth!  That sword is very powerful, and I can't bear the burden of owning it.  I am sorry, my friend."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        120,
+        {
+          "Active" : "",
+          "Index" : 122,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "",
+      "Text" : "S-surely you jest, <FirstName>...  If that is indeed the cleaver that this monster used in killing my friends, it would be a very bad joke to expect me to buy it from you...  Get rid of it now!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        122,
+        121
+      ],
+      "Script" : "con_evil1",
+      "Text" : "Bah, I refuse to take part in your twisted pranks, my friend.  Very bad form to show that cleaver here in town.  Get rid of it now!  I will not buy it from you, not now, not ever!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        125,
+        123
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gris_rock1",
+      "Text" : "Stay for a moment!  I have a story you might find interesting!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 79,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_6_10",
+          "Index" : 78,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_11_15",
+          "Index" : 77,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_16",
+          "Index" : 76,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_10_19",
+          "Index" : 75,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_20",
+          "Index" : 74,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 73,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        124
+      ],
+      "Script" : "",
+      "Text" : "Well, what can I do for ya?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        126
+      ],
+      "Script" : "",
+      "Sound" : "gris_rock2",
+      "Text" : "A caravan that was bound for the Eastern kingdoms passed through here some time ago.  It was supposedly carrying a piece of the heavens that had fallen to earth!  The caravan was ambushed by cloaked riders just north of here along the roadway."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        129,
+        128,
+        127
+      ],
+      "Script" : "giv_magicrock",
+      "Sound" : "gris_rock3",
+      "Text" : "I searched the wreckage for this \"sky rock\", but it was nowhere to be found!  If you should find it, I believe that I can fashion something useful from it!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        133,
+        130
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gris_anvil1",
+      "Text" : "Greetings!  It's always a pleasure to see one of my best customers!  I know that you have been venturing deeper into the labyrinth, and there's a story I was told that you may find worth the time to listen to!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        132,
+        131
+      ],
+      "Script" : "",
+      "Text" : "But I really need to tell you this, for it might be helpful in your journey into the labyrinth!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        134
+      ],
+      "Script" : "",
+      "Sound" : "gris_anvil2",
+      "Text" : "One of the men who returned from the labyrinth told me about a mystic anvil that he came across during his escape.  His description reminded me of legends I had heard in my youth, about the burning Hellforge, where powerful weapons of magic are crafted."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        136,
+        135
+      ],
+      "Script" : "",
+      "Sound" : "gris_anvil3",
+      "Text" : "The legend had it that deep within the Hellforge rested the Anvil of Fury!  This anvil contained within it the very essence of the demonic underworld!  It was said that any weapon crafted upon the burning anvil is imbued with great power!  If this anvil is indeed the Anvil of Fury, I may be able to make you a weapon capable of defeating even the darkest lord of Hell!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        138,
+        137
+      ],
+      "Script" : "giv_anvil",
+      "Sound" : "gris_anvil4",
+      "Text" : "Find the anvil for me, and I'll get to work!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 29,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        140,
+        139
+      ],
+      "Script" : "end_virgin",
+      "Sound" : "gris_greet",
+      "Text" : "Well, what can I do for ya... <FirstName>!?   Well, I see that the prodigal child has returned!  I have heard stories of your journeys from the couriers that come here - that is, before all hell broke loose under the church!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 41,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 143,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Script" : "con_evil1",
+      "Text" : "Haha, surely you jest, <FirstName>!  You were always a pain to teach, but seeing you now, I see that my lessons have not gone ignored, even if you say you didn't like them.  Maybe you can do something to find out the cause of all these things that have been happening to our town."
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_1_5",
+          "Index" : 79,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "prq_storq_20",
+          "Index" : 74,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        {
+          "Active" : "",
+          "Index" : 73,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        141
+      ],
+      "Script" : "",
+      "Text" : "Aye, fond memories indeed.  So, what can I do for ya?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        143,
+        142
+      ],
+      "Script" : "",
+      "Text" : "Bah, you make me look old, my friend!  So what brought you back to Tristram?  Have you caught news about what's been happening here?"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        144
+      ],
+      "Script" : "",
+      "Text" : "Well, I'm sure you have heard about the fall of our king, and the debacle we encountered during our war with the northern kingdoms of Westmarch.  But all that is nothing compared to what is happening right now under the church!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        146,
+        145
+      ],
+      "Script" : "",
+      "Text" : "Well, I think that our storyteller Cain can tell it better than I can, in more flowery words and better detail.  Which reminds me - Ogden has been waving at me ever since he saw you talking to me.  I figure that he has something to say to you.  \n\nAnyway, if you need anything, just go into my shop and take whatever weapon you need!  Treat it as my welcome gift to you for coming back to Tristram, <FirstName>!  It is really nice to see you again!"
+    },
+    {
+      "AnimLoop" : 1,
+      "Animation" : 34,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        149,
+        148,
+        {
+          "Active" : "",
+          "Index" : 73,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        },
+        147
+      ],
+      "Script" : "con_tristramx",
+      "Sound" : "gris_greet",
+      "Text" : "Well, what can I do for ya, <FirstName>?"
+    }
+  ],
+  "NumWords" : 3328,
+  "PreventZoomIn" : 0,
+  "ReplyList" : [
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        1
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I would like to ask you some questions."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have no more questions for you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        2
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the Archbishop Lazarus?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "A vile creature indeed.  Thank you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        3
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I met a knight named Lachdanan, Do you know of him?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        4
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about the Warlord of Blood?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you for the warning.  Good-bye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        5
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about a blade called Azurewrath?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        6
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : ""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll try.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        7
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I haven't found the Anvil of Fury yet."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm looking forward to it.  I'll search harder..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        8
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Do you know where I can find a black mushroom?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thanks anyway."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        9
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Have you heard about a place called the Halls of the Blind?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll ask him then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        10
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about a Chamber of Bone?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll ask him then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        11
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What more can you tell me about this magic rock you want me to find?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, I'll get on it."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        12
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about Valor?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, thank you for the information."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        13
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about a demon blade called Shadowfang?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        14
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What is so fearsome about this weapon?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        15
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Gillian mentioned something about strange lights coming from the woods that seem to be causing the disappearance of men in town.  Have you seen them?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever, just thought I'd let you know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Yes, that would be helpful.  Thank you Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        16
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Farnham mentions \"an island where angels watched\" ... any thoughts?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll go ask him then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        17
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Cain has confirmed Farnham's tale about this \"island of the sunless sea.\""
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        18
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about Ogden's stolen tavern sign?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        19
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Pepin says there are worms under the cellar in that house over there.  Have you seen any in yours?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        20
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about King Leoric?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        21
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What can you tell me about the poisoned water here in town?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        22
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What do you know about the \"butcher\"?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        23
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "You were there? What did you do?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have some more questions to ask you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        24
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'd like to know more about the townspeople here."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 1,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other questions to ask you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        25
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Wirt."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        26
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        27
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Tremayne."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        28
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Pepin."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        29
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Ogden."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        30
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        31
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Lester."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        32
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "prq_islandxx",
+          "Index" : 35,
+          "IsChild" : 0
+        },
+        33
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        34
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "end_lostboys",
+          "Index" : 38,
+          "IsChild" : 0
+        },
+        36
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Deese."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        37
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        39
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Cain."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        40
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Tell me about Adria."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "That's all I needed to know."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_sellgriswold",
+      "Sound" : "",
+      "Text" : "I would like to sell some things to you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisprem2",
+      "Sound" : "",
+      "Text" : "I would like to see the premium items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisprem1",
+      "Sound" : "",
+      "Text" : "I would like to see the premium items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisbasc4",
+      "Sound" : "",
+      "Text" : "I would like to see the items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisbasc3",
+      "Sound" : "",
+      "Text" : "I would like to see the items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisbasc2",
+      "Sound" : "",
+      "Text" : "I would like to see the items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisbasc1",
+      "Sound" : "",
+      "Text" : "I would like to see the items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        41
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I found this fungal tome in the caves.  Do you need it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Never mind, then."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        42
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Is this the heaven stone you were looking for?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 43,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Make it quick, I don't have all day."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        43
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "Take your time."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Wow, that was fast..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        44
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I now have the Anvil of Fury that you were looking for."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 45,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "Yes yes, whatever.  Now give me my weapon!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        45
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "It was not a problem.  Now what will you do with it?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'll have to think it over first."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        46
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What other weapons can you make for me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        47
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to see the previous choices."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        48
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What other weapons can you make for me?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 46,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I want to see the previous choices."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_sickle",
+      "Sound" : "",
+      "Text" : "I want a sickle."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_kukri",
+      "Sound" : "",
+      "Text" : "I want a kukri."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_kama",
+      "Sound" : "",
+      "Text" : "I want a kama."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_katana",
+      "Sound" : "",
+      "Text" : "I want a katana."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_rapier",
+      "Sound" : "",
+      "Text" : "I want a rapier."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_scimitar",
+      "Sound" : "",
+      "Text" : "I want a scimitar."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_scythe",
+      "Sound" : "",
+      "Text" : "I want a scythe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_halberd",
+      "Sound" : "",
+      "Text" : "I want a halberd."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_doubleaxe",
+      "Sound" : "",
+      "Text" : "I want a double axe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_greataxe",
+      "Sound" : "",
+      "Text" : "I want a greataxe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_waraxe",
+      "Sound" : "",
+      "Text" : "I want a dwarven waraxe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_battleaxe",
+      "Sound" : "",
+      "Text" : "I want a battleaxe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_handaxe",
+      "Sound" : "",
+      "Text" : "I want a handaxe."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_twobladed",
+      "Sound" : "",
+      "Text" : "I want a two-bladed sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_greatsword",
+      "Sound" : "",
+      "Text" : "I want a great sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_bastardsword",
+      "Sound" : "",
+      "Text" : "I want a bastard sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_dagger",
+      "Sound" : "",
+      "Text" : "I want a dagger."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 49,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "anv_shortsword",
+      "Sound" : "",
+      "Text" : "I want a short sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        49
+      ],
+      "Quest" : "",
+      "Script" : "anv_longsword",
+      "Sound" : "",
+      "Text" : "I want a long sword."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Whatever,  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Thank you Griswold."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        50
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have Izual's sword, Azurewrath.  Can I sell it to you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have other things I need from you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Very well then.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        51
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I have the cleaver that the Butcher used to slaughter the townsfolk.  Can I sell it to you?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        52
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic2",
+      "Sound" : "",
+      "Text" : "Come on, blacksmith, I'll sell it to you cheap!"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Psh, suit yourself, blacksmith."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I'm very sorry about that.  I'll take my leave now."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        54
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "I can listen to more worthwhile stories from Cain.  I just want to see your services..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        55
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Sure, I have time for a story."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        56
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 0,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I need something else from you."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "My trouble better be worth it..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "To the north you say?  I'll see if I can find it..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        58
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I don't have time for stories."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 54,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "No, I don't want to listen to your stories.  I just want to see your services..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 59,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Alright, tell me this story."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        59
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Really? What story is this?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        60
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Continue."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 61,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "So what do you want me to do?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        61
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "Are you suggesting that I find the Anvil for you so you can forge me a weapon?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "This had better be good..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "con_lawful1",
+      "Sound" : "",
+      "Text" : "Alright, I'll see if I can find it..."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        63
+      ],
+      "Quest" : "",
+      "Script" : "s_knowgriswold",
+      "Sound" : "",
+      "Text" : "Your lessons on weaponry were always boring, blacksmith.  You were one of the reasons I did not miss this town."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        65,
+        64
+      ],
+      "Quest" : "",
+      "Script" : "s_knowgriswold",
+      "Sound" : "",
+      "Text" : "It's good to see you again, Griswold.  I have always missed your lessons on weaponry when I was a child."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 66,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_chaotic1",
+      "Sound" : "",
+      "Text" : "You want me to guess?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        66
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "What exactly has been happening here?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        67
+      ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "And that is?"
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "I think I'll go talk to Ogden.  Goodbye."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [
+        {
+          "Active" : "",
+          "Index" : 64,
+          "IsChild" : 1,
+          "LinkComment" : ""
+        }
+      ],
+      "Quest" : "",
+      "Script" : "con_good1",
+      "Sound" : "",
+      "Text" : "The same to you, blacksmith.  Your lessons have helped me in my journeys, as you always told me it will.  But I need your services first."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Sound" : "",
+      "Text" : "No, thanks."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisprem2",
+      "Sound" : "",
+      "Text" : "I would like to see the premium items you have for sale."
+    },
+    {
+      "Comment" : "",
+      "EntriesList" : [ ],
+      "Quest" : "",
+      "Script" : "sto_grisbasc4",
+      "Sound" : "",
+      "Text" : "I would like to see the items you have for sale."
+    }
+  ],
+  "StartingList" : [
+    {
+      "Active" : "prq_soulstonex",
+      "Index" : 68
+    },
+    {
+      "Active" : "prq_virgin",
+      "Index" : 62
+    },
+    {
+      "Active" : "prq_anvil",
+      "Index" : 57
+    },
+    {
+      "Active" : "prq_magicrock",
+      "Index" : 53
+    },
+    0
+  ]
+}

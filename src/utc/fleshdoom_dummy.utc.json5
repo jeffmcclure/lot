@@ -1,0 +1,265 @@
+{
+  "AppearanceType" : 779,
+  "BodyBag" : 0,
+  "CRAdjust" : 0,
+  "Cha" : 15,
+  "ChallengeRating" : 25.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 25,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "",
+  "Con" : 20,
+  "Conversation" : "",
+  "CurrentHitPoints" : 175,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "This seems to be the demon that was exorcised by Tremayne from a possessed townsfolk.  You must try to apprehend it and dispose of the demonic blade it is said to possess...",
+  "Dex" : 18,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "nw_it_crewpsp016",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp016",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "fleshdoomslam",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "fleshdummyskin",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 17
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 23
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : "<cÿÿ >Fleshdoom",
+  "Fortbonus" : 2,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 175,
+  "Int" : 15,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : "",
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 325,
+  "NaturalAC" : 0,
+  "NoPermDeath" : 1,
+  "PaletteID" : 45,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2150,
+  "Race" : 20,
+  "Refbonus" : 3,
+  "ScriptAttacked" : "nw_c2_default5",
+  "ScriptDamaged" : "hit_fleshdoom1",
+  "ScriptDeath" : "nw_c2_default7",
+  "ScriptDialogue" : "nw_c2_default4",
+  "ScriptDisturbed" : "nw_c2_default8",
+  "ScriptEndRound" : "nw_c2_default3",
+  "ScriptHeartbeat" : "nw_c2_default1",
+  "ScriptOnBlocked" : "nw_c2_defaulte",
+  "ScriptOnNotice" : "nw_c2_default2",
+  "ScriptRested" : "nw_c2_defaulta",
+  "ScriptSpawn" : "nw_c2_default9_g",
+  "ScriptSpellAt" : "hit_fleshdoom1",
+  "ScriptUserDefine" : "nw_c2_defaultd",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 239,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 236,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 239,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 245,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 245,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 86,
+  "Str" : 25,
+  "Subrace" : "",
+  "Tag" : "NPC_FLESHDOOM1",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fleshdoom_dummy",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 15
+}

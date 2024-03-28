@@ -1,0 +1,66 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 10,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 521664,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13928,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "The guards upon the walls of the evil fortress, Darkhold carry halberds of ancient demonic creation.  The halberds were purchased from the forges of hell in trade for the souls of captured heroes, so each halberd is a valued possession.  Those who wield these weapons outside the walls of Darkhold do so at their own peril, for the master of the hold is said to be linked to each one."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 1,
+  "LocalizedName" : {
+    "StringRef" : 14215,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Ravager +8"
+      }
+    ]
+  },
+  "ModelPart1" : 22,
+  "ModelPart2" : 42,
+  "ModelPart3" : 32,
+  "PaletteID" : 51,
+  "Plot" : 0,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 4,
+      "CostValue" : 7,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 16,
+      "Subtype" : 13
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 8,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 6,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 24,
+      "CostValue" : 0,
+      "Param1" : 1,
+      "Param1Value" : 3,
+      "PropertyName" : 48,
+      "Subtype" : 5
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "NW_WPLMHB010",
+  "TemplateResRef" : "wplmhb010"
+}

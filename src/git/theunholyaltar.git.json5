@@ -1,0 +1,1300 @@
+{
+  "AreaProperties" : {
+    "AmbientSndDay" : 85,
+    "AmbientSndDayVol" : 43,
+    "AmbientSndNight" : 85,
+    "AmbientSndNitVol" : 43,
+    "Comment" : "",
+    "EnvAudio" : 0,
+    "MusicBattle" : 0,
+    "MusicDay" : 105,
+    "MusicDelay" : 1000,
+    "MusicNight" : 105
+  },
+  "CreatureList" : [ ],
+  "DoorList" : [ ],
+  "EncounterList" : [
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.053476334,
+          "Y" : -7.1657434,
+          "Z" : 0.025
+        },
+        {
+          "X" : 3.511568,
+          "Y" : -5.8288507,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.8092365,
+          "Y" : -7.2548695,
+          "Z" : 0.025
+        },
+        {
+          "X" : 6.755762,
+          "Y" : 0.017825127,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : -1.9073486E-6,
+          "Y" : -0.05347538,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 24.9339,
+          "Y" : 29.854185,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 21.548925,
+      "YPosition" : 15.14746,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 50.0,
+          "ResRef" : "lazarus",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 3,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -9.802752,
+          "Y" : -27.166895,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.29073238,
+          "Y" : -27.097626,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.34610462,
+          "Y" : -37.199768,
+          "Z" : 0.025
+        },
+        {
+          "X" : 17.682594,
+          "Y" : -36.9952,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 17.83413,
+          "Y" : -27.097628,
+          "Z" : 0.025
+        },
+        {
+          "X" : 27.650082,
+          "Y" : -27.097628,
+          "Z" : 0.025
+        },
+        {
+          "X" : 27.78862,
+          "Y" : -9.68235,
+          "Z" : 0.025
+        },
+        {
+          "X" : 18.119762,
+          "Y" : -9.753532,
+          "Z" : 0.025
+        },
+        {
+          "X" : 17.778416,
+          "Y" : 0.3614006,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.06950283,
+          "Y" : 0.28910446,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.19488621,
+          "Y" : -9.611156,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : -9.757144,
+          "Y" : -9.539967,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Lazarus",
+      "MaxCreatures" : 1,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 1800,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 25.140427,
+          "Y" : 50.678383,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "Lazarus",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 15.916514,
+      "YPosition" : 53.363625,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.5769861,
+          "Y" : 5.098297,
+          "Z" : -0.17500004
+        },
+        {
+          "X" : -0.26454902,
+          "Y" : 0.089466095,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 44.420467,
+          "Y" : 0.26859856,
+          "Z" : 0.025
+        },
+        {
+          "X" : 44.278255,
+          "Y" : 5.5881195,
+          "Z" : 0.02500012
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 11.905951,
+          "Y" : 41.808117,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 2.8202164,
+      "YPosition" : 15.995134,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.5769861,
+          "Y" : 5.098297,
+          "Z" : -0.17500004
+        },
+        {
+          "X" : -0.26454902,
+          "Y" : 0.089466095,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 44.420467,
+          "Y" : 0.26859856,
+          "Z" : 0.025
+        },
+        {
+          "X" : 44.278255,
+          "Y" : 5.5881195,
+          "Z" : 0.02500012
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 39.256813,
+          "Y" : 43.904987,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 2.8883576,
+      "YPosition" : 15.225477,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "magii003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 40.32138,
+          "Y" : 0.12889099,
+          "Z" : 0.025
+        },
+        {
+          "X" : 40.170647,
+          "Y" : 9.838343,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.22517109,
+          "Y" : 9.998903,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.09720278,
+          "Y" : 0.064395905,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (high)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 45.97468,
+          "Y" : 51.423313,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGrouphigh",
+      "TemplateResRef" : "bloodknightgr014",
+      "XPosition" : 4.2146378,
+      "YPosition" : 29.995707,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "magii003",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 40.32138,
+          "Y" : 0.12889099,
+          "Z" : 0.025
+        },
+        {
+          "X" : 40.170647,
+          "Y" : 9.838343,
+          "Z" : 0.024999881
+        },
+        {
+          "X" : 0.22517109,
+          "Y" : 9.998903,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.09720278,
+          "Y" : 0.064395905,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (high)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 4.6823325,
+          "Y" : 54.5581,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "MagiiGrouphigh",
+      "TemplateResRef" : "bloodknightgr014",
+      "XPosition" : 4.1722317,
+      "YPosition" : 28.300114,
+      "ZPosition" : 5.9604645E-7
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 20.0,
+          "ResRef" : "sucubus004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -1.9073486E-6,
+          "Y" : -0.03388214,
+          "Z" : 0.0250005
+        },
+        {
+          "X" : 0.0,
+          "Y" : -9.893181,
+          "Z" : 0.02500056
+        },
+        {
+          "X" : 9.994822,
+          "Y" : -9.960945,
+          "Z" : 0.025
+        },
+        {
+          "X" : 9.82542,
+          "Y" : 0.0,
+          "Z" : 0.02500044
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.0250005
+        }
+      ],
+      "LocalizedName" : "Succubus Group (extra)",
+      "MaxCreatures" : 6,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 4,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 25.094269,
+          "Y" : 16.126242,
+          "Z" : 9.536743E-6
+        }
+      ],
+      "Tag" : "SuccubusGroupextra",
+      "TemplateResRef" : "bloodknightgr007",
+      "XPosition" : 20.006578,
+      "YPosition" : 39.908894,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 39.910034,
+          "Y" : 0.022575378,
+          "Z" : 0.025
+        },
+        {
+          "X" : 39.83731,
+          "Y" : 4.022091,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 0.6420913,
+          "Y" : 3.7312126,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.27849674,
+          "Y" : 0.022575378,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 1,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 5.943753,
+          "Y" : 23.442053,
+          "Z" : 9.894371E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 4.277506,
+      "YPosition" : 39.98448,
+      "ZPosition" : 0.0
+    },
+    {
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 6,
+          "CR" : 23.0,
+          "ResRef" : "magii004",
+          "SingleSpawn" : 0
+        }
+      ],
+      "Difficulty" : 1,
+      "DifficultyIndex" : 1,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -0.11282778,
+          "Y" : 3.1591988,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0,
+          "Y" : 0.0,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.2603402,
+          "Y" : -0.26001358,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 40.32556,
+          "Y" : -0.44379807,
+          "Z" : 0.02500012
+        },
+        {
+          "X" : 40.325565,
+          "Y" : 3.0481224,
+          "Z" : 0.025
+        }
+      ],
+      "LocalizedName" : "Magii Group (extra)",
+      "MaxCreatures" : 3,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 2,
+      "Reset" : 1,
+      "ResetTime" : 600,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 43.533344,
+          "Y" : 22.673758,
+          "Z" : 9.894371E-6
+        }
+      ],
+      "Tag" : "MagiiGroupextra",
+      "TemplateResRef" : "bloodknightgr015",
+      "XPosition" : 4.224624,
+      "YPosition" : 41.747574,
+      "ZPosition" : 0.0
+    }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "AnimationState" : 4,
+      "Appearance" : 168,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_unholyaltar",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 526,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ShaftofLightBlue",
+      "TemplateResRef" : "plc_solblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 24.991196,
+      "Y" : 45.021206,
+      "Z" : 0.5999999
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 170,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_unholyaltar",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "A searing shaft of blue light descends from some unseen place above."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 528,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ShaftofLightBlue",
+      "TemplateResRef" : "plc_solblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 34.975914,
+      "Y" : 35.02856,
+      "Z" : 0.60000086
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 173,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_unholyaltar",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 531,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ShaftofLightBlue",
+      "TemplateResRef" : "plc_solblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 14.981723,
+      "Y" : 35.04547,
+      "Z" : 0.59999275
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 169,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_unholyaltar",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 527,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "ShaftofLightBlue",
+      "TemplateResRef" : "plc_solblue",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 24.97571,
+      "Y" : 24.951237,
+      "Z" : 0.6000118
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 2814,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14540,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14541,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 0,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "AltarShrineEvil",
+      "TemplateResRef" : "plc_altrevil",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.035341,
+      "Y" : 52.956627,
+      "Z" : 9.536743E-7
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 164,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14680,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14673,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 522,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "MagicSparksYellow",
+      "TemplateResRef" : "plc_magicyellow",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.100588,
+      "Y" : 52.68388,
+      "Z" : 9.536743E-6
+    },
+    {
+      "AnimationState" : 4,
+      "Appearance" : 172,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_lazarusport",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14718,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "A searing shaft of blue light descends from some unseen place above."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14719,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Mysterious Portal"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "s_onusedconverse",
+      "OpenLockDC" : 18,
+      "Plot" : 1,
+      "PortraitId" : 530,
+      "Ref" : 0,
+      "Static" : 0,
+      "Tag" : "PORTAL_HELL4",
+      "TemplateResRef" : "lazarusportal",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "Will" : 0,
+      "X" : 24.96,
+      "Y" : 35.02,
+      "Z" : 1.5700048
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 115,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -1.5707942,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14640,
+        "Strings" : [ ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 14641,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 473,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "FlyCladPlagueVictimCorpse",
+      "TemplateResRef" : "plc_fplaguecrpse",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.12,
+      "Y" : 52.78,
+      "Z" : 1.18
+    },
+    {
+      "AnimationState" : 0,
+      "Appearance" : 157,
+      "AutoRemoveKey" : 0,
+      "Bearing" : -0.0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "Conversation" : "con_lazarus",
+      "CurrentHP" : 15,
+      "Description" : {
+        "StringRef" : 14662,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "You look about you, suspicious, but see nothing."
+          }
+        ]
+      },
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 0,
+      "Interruptable" : 1,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5800,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Archbishop Lazarus"
+          }
+        ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnUsed" : "",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 515,
+      "Ref" : 0,
+      "Static" : 1,
+      "Tag" : "INVIS_UNHOLYALTAR",
+      "TemplateResRef" : "plc_invisobj",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 0,
+      "Will" : 0,
+      "X" : 25.04989,
+      "Y" : 8.762824,
+      "Z" : 9.536743E-6
+    }
+  ],
+  "SoundList" : [
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.5,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67901,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 10.0,
+      "MinDistance" : 1.0,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_portal4"
+        }
+      ],
+      "Tag" : "MagicPortalEvil",
+      "TemplateResRef" : "magicportalevil",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 24.921621,
+      "YPosition" : 34.97562,
+      "ZPosition" : 3.0699997
+    },
+    {
+      "Active" : 1,
+      "Continuous" : 0,
+      "Elevation" : 1.0,
+      "GeneratedType" : 0,
+      "Hours" : 0,
+      "Interval" : 0,
+      "IntervalVrtn" : 0,
+      "LocName" : {
+        "StringRef" : 67900,
+        "Strings" : [ ]
+      },
+      "Looping" : 1,
+      "MaxDistance" : 3.5,
+      "MinDistance" : 0.4,
+      "PitchVariation" : 0.0,
+      "Positional" : 1,
+      "Priority" : 3,
+      "Random" : 0,
+      "RandomPosition" : 0,
+      "RandomRangeX" : 0.0,
+      "RandomRangeY" : 0.0,
+      "Sounds" : [
+        {
+          "Sound" : "al_mg_ballmagic1"
+        }
+      ],
+      "Tag" : "MagicGlowingBall",
+      "TemplateResRef" : "magicglowingball",
+      "Times" : 3,
+      "Volume" : 127,
+      "VolumeVrtn" : 0,
+      "XPosition" : 24.985485,
+      "YPosition" : 52.942425,
+      "ZPosition" : 1.0
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 0,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -0.083343506,
+          "PointY" : -0.07733536,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 2.3268223,
+          "PointY" : -5.0116844,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 7.775303,
+          "PointY" : -5.054142,
+          "PointZ" : 0.025
+        },
+        {
+          "PointX" : 10.741602,
+          "PointY" : -0.025806427,
+          "PointZ" : 0.02500012
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.025
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Fake Albrecht Trigger"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "spk_fakealtalk",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "TRG_FAKEALBRECHT",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 19.649313,
+      "YOrientation" : 0.0,
+      "YPosition" : 55.132545,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Appearance" : 4,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Unholy Altar Startpoint"
+          }
+        ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "START_UNHOLYALTAR",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 0.0,
+      "XPosition" : 25.02943,
+      "YOrientation" : 1.0,
+      "YPosition" : 4.91104,
+      "ZPosition" : 9.536743E-6
+    },
+    {
+      "Appearance" : 2,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14814,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Diablo's Lair"
+          }
+        ]
+      },
+      "MapNote" : {
+        "StringRef" : 14815,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "To Diablo's Lair"
+          }
+        ]
+      },
+      "MapNoteEnabled" : 0,
+      "Tag" : "MAP_DIABLOLAIR",
+      "TemplateResRef" : "nw_mapnote001",
+      "XOrientation" : 0.0,
+      "XPosition" : 25.007463,
+      "YOrientation" : 1.0,
+      "YPosition" : 34.79715,
+      "ZPosition" : 1.5700048
+    }
+  ]
+}

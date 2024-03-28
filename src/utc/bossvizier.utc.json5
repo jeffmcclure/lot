@@ -1,0 +1,462 @@
+{
+  "AppearanceHead" : 3,
+  "AppearanceType" : 6,
+  "ArmorPartRFoot" : 1,
+  "BodyBag" : 3,
+  "BodyPartBelt" : 0,
+  "BodyPartLBicep" : 1,
+  "BodyPartLFArm" : 1,
+  "BodyPartLFoot" : 1,
+  "BodyPartLHand" : 1,
+  "BodyPartLShin" : 1,
+  "BodyPartLShoul" : 0,
+  "BodyPartLThigh" : 1,
+  "BodyPartNeck" : 1,
+  "BodyPartPelvis" : 1,
+  "BodyPartRBicep" : 1,
+  "BodyPartRFArm" : 1,
+  "BodyPartRHand" : 1,
+  "BodyPartRShin" : 1,
+  "BodyPartRShoul" : 0,
+  "BodyPartRThigh" : 1,
+  "BodyPartTorso" : 1,
+  "CRAdjust" : -69,
+  "Cha" : 25,
+  "ChallengeRating" : 31.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 25,
+      "ClassX" : 9,
+      "KnownList1" : [
+        {
+          "Spell" : 107,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList3" : [
+        {
+          "Spell" : 41,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 58,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 370,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList5" : [
+        {
+          "Spell" : 369,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList6" : [
+        {
+          "Spell" : 14,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 121,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 113,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList8" : [
+        {
+          "Spell" : 367,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList9" : [
+        {
+          "Spell" : 51,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    },
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 19
+    }
+  ],
+  "ColorHair" : 16,
+  "ColorSkin" : 16,
+  "ColorTattoo1" : 1,
+  "ColorTattoo2" : 1,
+  "Comment" : "Boss Monster",
+  "Con" : 13,
+  "Conversation" : "",
+  "CurrentHitPoints" : 130,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12628,
+    "Strings" : [ ]
+  },
+  "Dex" : 11,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "bossvizierrobe",
+      "StructId" : 2
+    },
+    {
+      "EquippedRes" : "bossvizierstaff",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "magiiskin001",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 194
+    },
+    {
+      "Feat" : 5
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 10
+    },
+    {
+      "Feat" : 206
+    },
+    {
+      "Feat" : 212
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 22
+    },
+    {
+      "Feat" : 24
+    },
+    {
+      "Feat" : 26
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 258
+    },
+    {
+      "Feat" : 243
+    },
+    {
+      "Feat" : 173
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 193
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 171
+    },
+    {
+      "Feat" : 36
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 195
+    },
+    {
+      "Feat" : 251
+    },
+    {
+      "Feat" : 252
+    },
+    {
+      "Feat" : 253
+    },
+    {
+      "Feat" : 254
+    },
+    {
+      "Feat" : 51
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12629,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >The Vizier"
+      }
+    ]
+  },
+  "Fortbonus" : 30,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 130,
+  "Int" : 15,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "sanctuaryitem",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 200,
+  "NaturalAC" : 3,
+  "NoPermDeath" : 0,
+  "PaletteID" : 4,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 241,
+  "Race" : 24,
+  "Refbonus" : 26,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_umage",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 25
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 30
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 56,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 77,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 87,
+      "SpellCasterLevel" : 10,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 370,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 185,
+      "SpellCasterLevel" : 15,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 9,
+  "Str" : 10,
+  "Subrace" : "Lich",
+  "Tag" : "UNIQUE_HI",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "bossvizier",
+  "WalkRate" : 6,
+  "Willbonus" : 9,
+  "Wings" : 205,
+  "Wis" : 14
+}

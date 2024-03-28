@@ -1,0 +1,280 @@
+{
+  "AppearanceType" : 148,
+  "BodyBag" : 3,
+  "CRAdjust" : -4,
+  "Cha" : 11,
+  "ChallengeRating" : 12.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 19
+    },
+    {
+      "ClassLevel" : 7,
+      "ClassX" : 10,
+      "MemorizedList0" : [
+        {
+          "Spell" : 37,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 144,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList1" : [
+        {
+          "Spell" : 10,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 10,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 107,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList2" : [
+        {
+          "Spell" : 9,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 90,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList3" : [
+        {
+          "Spell" : 58,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
+    }
+  ],
+  "Comment" : "",
+  "Con" : 10,
+  "Conversation" : "",
+  "CurrentHitPoints" : 100,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12697,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "These are the skeletal remains of warriors who either died as soldiers in some dark campaign, or were betrayed by those they most trusted.  Now animated by unnatural forces, these troops of the Damned forever seek new recruits to join their ranks.  If our greatest fears do prove to be true, the skeletal warriors that are rumored to haunt the town of Tristram might well be the corrupted remains of the valiant Horadrim monks laid to rest in the catacombs beneath the church.  Only an incredibly potent evil could have disturbed the peaceful slumber of these eremites.\n\nSkeletons are usually found in places where the dead are laid to rest or at the sites of great battles.  While physically fragile, they are never lacking in numbers, for those that fall to them in combat are damned to an eternal lust for living blood.  Coupled with their unthinking rage, this makes them a dangerous opponent."
+      }
+    ]
+  },
+  "Dex" : 13,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "burningdeaddagge",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "burningdeaddagge",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp026",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpsp026",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "it_bdeadskin01",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 7
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 189
+    },
+    {
+      "Feat" : 169
+    },
+    {
+      "Feat" : 303
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 51
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12702,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Skullfire"
+      }
+    ]
+  },
+  "Fortbonus" : 0,
+  "Gender" : 0,
+  "GoodEvil" : 50,
+  "HitPoints" : 100,
+  "Int" : 20,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 50,
+  "Lootable" : 0,
+  "MaxHitPoints" : 100,
+  "NaturalAC" : 2,
+  "NoPermDeath" : 0,
+  "PaletteID" : 1,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 290,
+  "Race" : 24,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_unique",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_umg",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 2
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 81,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 10,
+  "Str" : 10,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_LOW",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "skeleton020",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 205,
+  "Wis" : 10
+}

@@ -1,0 +1,238 @@
+{
+  "AppearanceType" : 120,
+  "BodyBag" : 3,
+  "CRAdjust" : -4,
+  "Cha" : 17,
+  "ChallengeRating" : 13.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 10,
+      "ClassX" : 22
+    }
+  ],
+  "Comment" : "",
+  "Con" : 17,
+  "Conversation" : "",
+  "CurrentHitPoints" : 95,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : {
+    "StringRef" : 12663,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "Used as living siege engines, there are numerous accounts of these juggernauts smashing into the lines of the Seraphim and leaving only death and ruin in their wake. These monstrosities are unnaturally durable. The Horned Demons prefer to wait until a clear path is available and then they charge towards their victims at incredible speeds. Some of these creatures have adapted and developed elemental attacks depending on their habitat."
+      }
+    ]
+  },
+  "Dex" : 10,
+  "Disarmable" : 0,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "breakspinehammer",
+      "StructId" : 16
+    },
+    {
+      "EquippedRes" : "ringofmiscimmune",
+      "StructId" : 128
+    },
+    {
+      "EquippedRes" : "horndemonegore1",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "breakspineskin",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 77
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 175
+    },
+    {
+      "Feat" : 40
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 115
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 45
+    },
+    {
+      "Feat" : 46
+    },
+    {
+      "Feat" : 290
+    },
+    {
+      "Feat" : 153
+    }
+  ],
+  "FirstName" : {
+    "StringRef" : 12666,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "<cÿÿ >Breakspine the Cruel"
+      }
+    ]
+  },
+  "Fortbonus" : 2,
+  "Gender" : 0,
+  "GoodEvil" : 0,
+  "HitPoints" : 95,
+  "Int" : 15,
+  "Interruptable" : 1,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 135,
+  "NaturalAC" : 5,
+  "NoPermDeath" : 0,
+  "PaletteID" : 3,
+  "PerceptionRange" : 11,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 255,
+  "Race" : 13,
+  "Refbonus" : 1,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_unique",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn_uq1",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 51,
+  "SpecAbilityList" : [ ],
+  "StartingPackage" : 0,
+  "Str" : 21,
+  "Subrace" : "",
+  "Tag" : "UNIQUE_MID",
+  "Tail" : 205,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "horneddemon004",
+  "WalkRate" : 5,
+  "Willbonus" : 1,
+  "Wings" : 205,
+  "Wis" : 14
+}

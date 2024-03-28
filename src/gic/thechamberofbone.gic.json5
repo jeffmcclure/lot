@@ -1,0 +1,198 @@
+{
+  "CreatureList" : [ ],
+  "DoorList" : [
+    {
+      "Comment" : "FenceDoor"
+    },
+    {
+      "Comment" : "CorridorDoor"
+    },
+    {
+      "Comment" : "Jeweled Door"
+    },
+    {
+      "Comment" : "Evil Stone Door"
+    },
+    {
+      "Comment" : "Evil Stone Door"
+    },
+    {
+      "Comment" : "Jeweled Door"
+    },
+    {
+      "Comment" : "Jeweled Door"
+    },
+    {
+      "Comment" : "Evil Stone Door"
+    },
+    {
+      "Comment" : "Stone Door"
+    },
+    {
+      "Comment" : "Stone Door"
+    },
+    {
+      "Comment" : "Stone Door"
+    }
+  ],
+  "EncounterList" : [
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { },
+    { }
+  ],
+  "List" : [ ],
+  "PlaceableList" : [
+    {
+      "Comment" : "Floor Lever - 2"
+    },
+    {
+      "Comment" : "Floor Lever - 2"
+    },
+    {
+      "Comment" : "Chest - 4 (High treasure script)"
+    },
+    {
+      "Comment" : "Chest - 4 (High treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Chest - 4 (High treasure script)"
+    },
+    {
+      "Comment" : "Chest - 4 (High treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : "Floor Lever - 2"
+    },
+    {
+      "Comment" : "Chest - 4 (High treasure script)"
+    },
+    {
+      "Comment" : "Chest - 4 (High treasure script)"
+    },
+    {
+      "Comment" : "Chest - 3 (Medium treasure script)"
+    },
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : "Source: Placeable Lightshafts with pwk by Demigog"
+    },
+    {
+      "Comment" : "Source: Placeable Lightshafts with pwk by Demigog"
+    }
+  ],
+  "SoundList" : [
+    {
+      "Comment" : "",
+      "PlayInToolset" : 1
+    },
+    {
+      "Comment" : "",
+      "PlayInToolset" : 1
+    },
+    {
+      "Comment" : "",
+      "PlayInToolset" : 1
+    },
+    {
+      "Comment" : "",
+      "PlayInToolset" : 1
+    },
+    {
+      "Comment" : "",
+      "PlayInToolset" : 1
+    },
+    {
+      "Comment" : "",
+      "PlayInToolset" : 1
+    }
+  ],
+  "StoreList" : [ ],
+  "TriggerList" : [
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : "Generic trigger that controls a CEP trap placeble.  The following setup is required:\r\n\r\nNote: This trigger and scripts were designed for a generic trigger, not a trap trigger.  A trap trigger cannot be reset after a disarm or recover.\r\n\r\nIf you do set it up as a trap trigger, move the OnEnter script from the OnEnter event to the OnTriggered event.  It should work until it has been disarmed or recovered.\r\n\r\nSetup required:\r\n1. Place a generic trigger in your area\r\n2. Place the script cs_oe_trapcep in the OnEnter event of the trigger\r\n3. Place the script cs_ox_trapcep in the OnExit event\r\n4. Place the CEP trap placeable on or above the trigger (unless you want the trap to remain \"hidden\" prior to being triggered, in which case the HiddenTrap parameter needs to be set to TRUE and the TrapResRef parameter requires the resref of the trap.\r\n5. Configure the trap \"parameters\" using local variables stored on the trigger. Local variables are set from the \"variables\" button on the Advanced\" tab of the trigger.\r\n\r\n\r\n\r\n\r\n(Continued...)\r\n\r\nThe following parameters are configurable and can be setup as local variables on the trigger.  The variable name must match the string name listed down the left side of the list below:\r\n\r\nTrapTag        : tag of trap placeable (expressed as a string) (required)\r\n                        (Defaults to an empty string)\r\n\r\nTrapReflexDC   : DC required to avoid the trap (expressed as an integer)\r\n                           (Defaults to 15)\r\n\r\nDamageType     : DAMAGE_TYPE_* (expressed as an integer)\r\n                           (Defaults to 1 = DAMAGE_TYPE_BLUDGEONING)\r\n\r\n                           1    =  DAMAGE_TYPE_BLUDGEONING\r\n                           2    =  DAMAGE_TYPE_PIERCING\r\n                           4    =  DAMAGE_TYPE_SLASHING\r\n                           8    =  DAMAGE_TYPE_MAGICAL\r\n                           16   = DAMAGE_TYPE_ACID\r\n                           32   = DAMAGE_TYPE_COLD\r\n                           64   = DAMAGE_TYPE_DIVINE\r\n                           128  = DAMAGE_TYPE_ELECTRICAL\r\n                           256  = DAMAGE_TYPE_FIRE\r\n                           512  = DAMAGE_TYPE_NEGATIVE\r\n                           1024 = DAMAGE_TYPE_POSITIVE\r\n                           2048 = DAMAGE_TYPE_SONIC\r\n\r\nNoKnockdown    : TRUE/FALSE (expressed as an integer)\r\n                           (Defaults to FALSE = Knockdown occurs)\r\n\r\nSoundObjectTag : tag of sound that plays during trigger of trap\r\n                           (Defaults to empty string = no sound)\r\n\r\nMaxDamage      : the maximum damage distributed (expressed as an                                   integer)\r\n                           (Defaults to 10)\r\n\r\nMinDamage      : the minimum damage distributed (expressed as an                                    integer)\r\n                           (Defaults to 1)\r\n\r\nResetTime      : number of seconds after \"trap is triggered\" that the\r\n                           trap can be triggered again\r\n                           (Defaults to 120 seconds)\r\n\r\nDeactivateTime : number of seconds after \"trigger\" that the trap is\r\n                           repositioned in its \"ready\" state (this value should\r\n                           be equal to or less than ResetTime)\r\n                           (Defaults to 110 seconds)\r\n\r\nIncludeNonPC   : TRUE/FALSE (expressed as an integer) whether the                              trap can be triggered by a non-PC\r\n                           (Defaults to TRUE = dooes trigger on non-PC's)\r\n\r\nContinuousDmg  : TRUE/FALSE (expressed as an integer) a value of                                   TRUE causes damage to the PC every 2 seconds                                   until they exit the trigger\r\n                           (Defaults to FALSE = no continuous damage)\r\n\r\nHiddenTrap     : TRUE/FALSE (expressed as an integer) a value of                                    TRUE assumes the trap is \"hidden\" (not actually placed                           in the area), so when the trap is triggered, the script\r\n                          actually creates the trap placeable, then activates it.                            On deactivate, the trap is destroyed.\r\n                          (Defaults to FALSE = which requires placement of the                            trap)\r\n\r\nTrapResRef     : the resref of the trap being triggered - only required\r\n                           if HiddenTrap is set to TRUE.\r\n                           (Defaults to empty string)\r\n"
+    },
+    {
+      "Comment" : "Generic trigger that controls a CEP trap placeble.  The following setup is required:\r\n\r\nNote: This trigger and scripts were designed for a generic trigger, not a trap trigger.  A trap trigger cannot be reset after a disarm or recover.\r\n\r\nIf you do set it up as a trap trigger, move the OnEnter script from the OnEnter event to the OnTriggered event.  It should work until it has been disarmed or recovered.\r\n\r\nSetup required:\r\n1. Place a generic trigger in your area\r\n2. Place the script cs_oe_trapcep in the OnEnter event of the trigger\r\n3. Place the script cs_ox_trapcep in the OnExit event\r\n4. Place the CEP trap placeable on or above the trigger (unless you want the trap to remain \"hidden\" prior to being triggered, in which case the HiddenTrap parameter needs to be set to TRUE and the TrapResRef parameter requires the resref of the trap.\r\n5. Configure the trap \"parameters\" using local variables stored on the trigger. Local variables are set from the \"variables\" button on the Advanced\" tab of the trigger.\r\n\r\n\r\n\r\n\r\n(Continued...)\r\n\r\nThe following parameters are configurable and can be setup as local variables on the trigger.  The variable name must match the string name listed down the left side of the list below:\r\n\r\nTrapTag        : tag of trap placeable (expressed as a string) (required)\r\n                        (Defaults to an empty string)\r\n\r\nTrapReflexDC   : DC required to avoid the trap (expressed as an integer)\r\n                           (Defaults to 15)\r\n\r\nDamageType     : DAMAGE_TYPE_* (expressed as an integer)\r\n                           (Defaults to 1 = DAMAGE_TYPE_BLUDGEONING)\r\n\r\n                           1    =  DAMAGE_TYPE_BLUDGEONING\r\n                           2    =  DAMAGE_TYPE_PIERCING\r\n                           4    =  DAMAGE_TYPE_SLASHING\r\n                           8    =  DAMAGE_TYPE_MAGICAL\r\n                           16   = DAMAGE_TYPE_ACID\r\n                           32   = DAMAGE_TYPE_COLD\r\n                           64   = DAMAGE_TYPE_DIVINE\r\n                           128  = DAMAGE_TYPE_ELECTRICAL\r\n                           256  = DAMAGE_TYPE_FIRE\r\n                           512  = DAMAGE_TYPE_NEGATIVE\r\n                           1024 = DAMAGE_TYPE_POSITIVE\r\n                           2048 = DAMAGE_TYPE_SONIC\r\n\r\nNoKnockdown    : TRUE/FALSE (expressed as an integer)\r\n                           (Defaults to FALSE = Knockdown occurs)\r\n\r\nSoundObjectTag : tag of sound that plays during trigger of trap\r\n                           (Defaults to empty string = no sound)\r\n\r\nMaxDamage      : the maximum damage distributed (expressed as an                                   integer)\r\n                           (Defaults to 10)\r\n\r\nMinDamage      : the minimum damage distributed (expressed as an                                    integer)\r\n                           (Defaults to 1)\r\n\r\nResetTime      : number of seconds after \"trap is triggered\" that the\r\n                           trap can be triggered again\r\n                           (Defaults to 120 seconds)\r\n\r\nDeactivateTime : number of seconds after \"trigger\" that the trap is\r\n                           repositioned in its \"ready\" state (this value should\r\n                           be equal to or less than ResetTime)\r\n                           (Defaults to 110 seconds)\r\n\r\nIncludeNonPC   : TRUE/FALSE (expressed as an integer) whether the                              trap can be triggered by a non-PC\r\n                           (Defaults to TRUE = dooes trigger on non-PC's)\r\n\r\nContinuousDmg  : TRUE/FALSE (expressed as an integer) a value of                                   TRUE causes damage to the PC every 2 seconds                                   until they exit the trigger\r\n                           (Defaults to FALSE = no continuous damage)\r\n\r\nHiddenTrap     : TRUE/FALSE (expressed as an integer) a value of                                    TRUE assumes the trap is \"hidden\" (not actually placed                           in the area), so when the trap is triggered, the script\r\n                          actually creates the trap placeable, then activates it.                            On deactivate, the trap is destroyed.\r\n                          (Defaults to FALSE = which requires placement of the                            trap)\r\n\r\nTrapResRef     : the resref of the trap being triggered - only required\r\n                           if HiddenTrap is set to TRUE.\r\n                           (Defaults to empty string)\r\n"
+    },
+    {
+      "Comment" : "Generic trigger that controls a CEP trap placeble.  The following setup is required:\r\n\r\nNote: This trigger and scripts were designed for a generic trigger, not a trap trigger.  A trap trigger cannot be reset after a disarm or recover.\r\n\r\nIf you do set it up as a trap trigger, move the OnEnter script from the OnEnter event to the OnTriggered event.  It should work until it has been disarmed or recovered.\r\n\r\nSetup required:\r\n1. Place a generic trigger in your area\r\n2. Place the script cs_oe_trapcep in the OnEnter event of the trigger\r\n3. Place the script cs_ox_trapcep in the OnExit event\r\n4. Place the CEP trap placeable on or above the trigger (unless you want the trap to remain \"hidden\" prior to being triggered, in which case the HiddenTrap parameter needs to be set to TRUE and the TrapResRef parameter requires the resref of the trap.\r\n5. Configure the trap \"parameters\" using local variables stored on the trigger. Local variables are set from the \"variables\" button on the Advanced\" tab of the trigger.\r\n\r\n\r\n\r\n\r\n(Continued...)\r\n\r\nThe following parameters are configurable and can be setup as local variables on the trigger.  The variable name must match the string name listed down the left side of the list below:\r\n\r\nTrapTag        : tag of trap placeable (expressed as a string) (required)\r\n                        (Defaults to an empty string)\r\n\r\nTrapReflexDC   : DC required to avoid the trap (expressed as an integer)\r\n                           (Defaults to 15)\r\n\r\nDamageType     : DAMAGE_TYPE_* (expressed as an integer)\r\n                           (Defaults to 1 = DAMAGE_TYPE_BLUDGEONING)\r\n\r\n                           1    =  DAMAGE_TYPE_BLUDGEONING\r\n                           2    =  DAMAGE_TYPE_PIERCING\r\n                           4    =  DAMAGE_TYPE_SLASHING\r\n                           8    =  DAMAGE_TYPE_MAGICAL\r\n                           16   = DAMAGE_TYPE_ACID\r\n                           32   = DAMAGE_TYPE_COLD\r\n                           64   = DAMAGE_TYPE_DIVINE\r\n                           128  = DAMAGE_TYPE_ELECTRICAL\r\n                           256  = DAMAGE_TYPE_FIRE\r\n                           512  = DAMAGE_TYPE_NEGATIVE\r\n                           1024 = DAMAGE_TYPE_POSITIVE\r\n                           2048 = DAMAGE_TYPE_SONIC\r\n\r\nNoKnockdown    : TRUE/FALSE (expressed as an integer)\r\n                           (Defaults to FALSE = Knockdown occurs)\r\n\r\nSoundObjectTag : tag of sound that plays during trigger of trap\r\n                           (Defaults to empty string = no sound)\r\n\r\nMaxDamage      : the maximum damage distributed (expressed as an                                   integer)\r\n                           (Defaults to 10)\r\n\r\nMinDamage      : the minimum damage distributed (expressed as an                                    integer)\r\n                           (Defaults to 1)\r\n\r\nResetTime      : number of seconds after \"trap is triggered\" that the\r\n                           trap can be triggered again\r\n                           (Defaults to 120 seconds)\r\n\r\nDeactivateTime : number of seconds after \"trigger\" that the trap is\r\n                           repositioned in its \"ready\" state (this value should\r\n                           be equal to or less than ResetTime)\r\n                           (Defaults to 110 seconds)\r\n\r\nIncludeNonPC   : TRUE/FALSE (expressed as an integer) whether the                              trap can be triggered by a non-PC\r\n                           (Defaults to TRUE = dooes trigger on non-PC's)\r\n\r\nContinuousDmg  : TRUE/FALSE (expressed as an integer) a value of                                   TRUE causes damage to the PC every 2 seconds                                   until they exit the trigger\r\n                           (Defaults to FALSE = no continuous damage)\r\n\r\nHiddenTrap     : TRUE/FALSE (expressed as an integer) a value of                                    TRUE assumes the trap is \"hidden\" (not actually placed                           in the area), so when the trap is triggered, the script\r\n                          actually creates the trap placeable, then activates it.                            On deactivate, the trap is destroyed.\r\n                          (Defaults to FALSE = which requires placement of the                            trap)\r\n\r\nTrapResRef     : the resref of the trap being triggered - only required\r\n                           if HiddenTrap is set to TRUE.\r\n                           (Defaults to empty string)\r\n"
+    },
+    {
+      "Comment" : "Generic trigger that controls a CEP trap placeble.  The following setup is required:\r\n\r\nNote: This trigger and scripts were designed for a generic trigger, not a trap trigger.  A trap trigger cannot be reset after a disarm or recover.\r\n\r\nIf you do set it up as a trap trigger, move the OnEnter script from the OnEnter event to the OnTriggered event.  It should work until it has been disarmed or recovered.\r\n\r\nSetup required:\r\n1. Place a generic trigger in your area\r\n2. Place the script cs_oe_trapcep in the OnEnter event of the trigger\r\n3. Place the script cs_ox_trapcep in the OnExit event\r\n4. Place the CEP trap placeable on or above the trigger (unless you want the trap to remain \"hidden\" prior to being triggered, in which case the HiddenTrap parameter needs to be set to TRUE and the TrapResRef parameter requires the resref of the trap.\r\n5. Configure the trap \"parameters\" using local variables stored on the trigger. Local variables are set from the \"variables\" button on the Advanced\" tab of the trigger.\r\n\r\n\r\n\r\n\r\n(Continued...)\r\n\r\nThe following parameters are configurable and can be setup as local variables on the trigger.  The variable name must match the string name listed down the left side of the list below:\r\n\r\nTrapTag        : tag of trap placeable (expressed as a string) (required)\r\n                        (Defaults to an empty string)\r\n\r\nTrapReflexDC   : DC required to avoid the trap (expressed as an integer)\r\n                           (Defaults to 15)\r\n\r\nDamageType     : DAMAGE_TYPE_* (expressed as an integer)\r\n                           (Defaults to 1 = DAMAGE_TYPE_BLUDGEONING)\r\n\r\n                           1    =  DAMAGE_TYPE_BLUDGEONING\r\n                           2    =  DAMAGE_TYPE_PIERCING\r\n                           4    =  DAMAGE_TYPE_SLASHING\r\n                           8    =  DAMAGE_TYPE_MAGICAL\r\n                           16   = DAMAGE_TYPE_ACID\r\n                           32   = DAMAGE_TYPE_COLD\r\n                           64   = DAMAGE_TYPE_DIVINE\r\n                           128  = DAMAGE_TYPE_ELECTRICAL\r\n                           256  = DAMAGE_TYPE_FIRE\r\n                           512  = DAMAGE_TYPE_NEGATIVE\r\n                           1024 = DAMAGE_TYPE_POSITIVE\r\n                           2048 = DAMAGE_TYPE_SONIC\r\n\r\nNoKnockdown    : TRUE/FALSE (expressed as an integer)\r\n                           (Defaults to FALSE = Knockdown occurs)\r\n\r\nSoundObjectTag : tag of sound that plays during trigger of trap\r\n                           (Defaults to empty string = no sound)\r\n\r\nMaxDamage      : the maximum damage distributed (expressed as an                                   integer)\r\n                           (Defaults to 10)\r\n\r\nMinDamage      : the minimum damage distributed (expressed as an                                    integer)\r\n                           (Defaults to 1)\r\n\r\nResetTime      : number of seconds after \"trap is triggered\" that the\r\n                           trap can be triggered again\r\n                           (Defaults to 120 seconds)\r\n\r\nDeactivateTime : number of seconds after \"trigger\" that the trap is\r\n                           repositioned in its \"ready\" state (this value should\r\n                           be equal to or less than ResetTime)\r\n                           (Defaults to 110 seconds)\r\n\r\nIncludeNonPC   : TRUE/FALSE (expressed as an integer) whether the                              trap can be triggered by a non-PC\r\n                           (Defaults to TRUE = dooes trigger on non-PC's)\r\n\r\nContinuousDmg  : TRUE/FALSE (expressed as an integer) a value of                                   TRUE causes damage to the PC every 2 seconds                                   until they exit the trigger\r\n                           (Defaults to FALSE = no continuous damage)\r\n\r\nHiddenTrap     : TRUE/FALSE (expressed as an integer) a value of                                    TRUE assumes the trap is \"hidden\" (not actually placed                           in the area), so when the trap is triggered, the script\r\n                          actually creates the trap placeable, then activates it.                            On deactivate, the trap is destroyed.\r\n                          (Defaults to FALSE = which requires placement of the                            trap)\r\n\r\nTrapResRef     : the resref of the trap being triggered - only required\r\n                           if HiddenTrap is set to TRUE.\r\n                           (Defaults to empty string)\r\n"
+    },
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : ""
+    },
+    {
+      "Comment" : "Strong Spike\r\nDetect DC: 10\r\nDisarm DC: 22\r\nSet DC: 25\r\nDamage / Effect: 5d6\r\nAverage Damage: 17.5\r\nArea of Effect: Single\r\nMin to Max player level: 3 - 8"
+    },
+    {
+      "Comment" : "Strong Spike\r\nDetect DC: 10\r\nDisarm DC: 22\r\nSet DC: 25\r\nDamage / Effect: 5d6\r\nAverage Damage: 17.5\r\nArea of Effect: Single\r\nMin to Max player level: 3 - 8"
+    }
+  ],
+  "WaypointList" : [
+    {
+      "Comment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive."
+    },
+    {
+      "Comment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive."
+    }
+  ]
+}

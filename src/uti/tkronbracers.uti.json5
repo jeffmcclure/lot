@@ -1,0 +1,91 @@
+{
+  "AddCost" : 0,
+  "BaseItem" : 78,
+  "Charges" : 0,
+  "Comment" : "1",
+  "Cost" : 464188,
+  "Cursed" : 0,
+  "DescIdentified" : {
+    "StringRef" : 13351,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "A gift given to you by T'kron for helping him gather enough books to broaden his knowledge about the evil behind Tristram's plight."
+      }
+    ]
+  },
+  "Description" : "",
+  "Identified" : 0,
+  "LocalizedName" : {
+    "StringRef" : 13350,
+    "Strings" : [
+      {
+        "Id" : 0,
+        "String" : "T'kron's Cuffs"
+      }
+    ]
+  },
+  "ModelPart1" : 56,
+  "PaletteID" : 54,
+  "Plot" : 1,
+  "PropertiesList" : [
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 37,
+      "Subtype" : 1
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 0,
+      "CostValue" : 0,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 37,
+      "Subtype" : 2
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 18,
+      "CostValue" : 4,
+      "Param1" : 9,
+      "Param1Value" : 6,
+      "PropertyName" : 44,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 2,
+      "CostValue" : 3,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 40,
+      "Subtype" : 0
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 25,
+      "CostValue" : 13,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 52,
+      "Subtype" : 1
+    },
+    {
+      "ChanceAppear" : 100,
+      "CostTable" : 11,
+      "CostValue" : 7,
+      "Param1" : 255,
+      "Param1Value" : 0,
+      "PropertyName" : 39,
+      "Subtype" : 0
+    }
+  ],
+  "StackSize" : 1,
+  "Stolen" : 0,
+  "Tag" : "D1_TKRONCUFFS",
+  "TemplateResRef" : "tkronbracers"
+}

@@ -1,0 +1,247 @@
+{
+  "AppearanceType" : 1054,
+  "BodyBag" : 3,
+  "CRAdjust" : -2,
+  "Cha" : 10,
+  "ChallengeRating" : 13.0,
+  "ClassList" : [
+    {
+      "ClassLevel" : 20,
+      "ClassX" : 24
+    }
+  ],
+  "Comment" : "Stats based upon the Elder Xorn in the Monster Manual. Substituted Improved Knockdown for Great Cleave and Ambidexterity for Multi-Attack. Xorn skin item contains the immunities and resistances plus ? for tremorsense and no flanking.",
+  "Con" : 20,
+  "Conversation" : "",
+  "CurrentHitPoints" : 50,
+  "DecayTime" : 5000,
+  "Deity" : "",
+  "Description" : "A strange beast  with a wide pebbly, stone-like body and three long arms tipped with sharp talons. Between these arms sit large stone- lidded eyes peering in all directions. Strangest of all are the three legs and a ample sized mouth resting on top of its head.",
+  "Dex" : 10,
+  "Disarmable" : 1,
+  "EquipItemList" : [
+    {
+      "EquippedRes" : "fleshclaw001",
+      "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "fleshclaw001",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "fleshbite001",
+      "StructId" : 65536
+    },
+    {
+      "EquippedRes" : "zep_cre_xornh",
+      "StructId" : 131072
+    }
+  ],
+  "FactionID" : 1,
+  "FeatList" : [
+    {
+      "Feat" : 0
+    },
+    {
+      "Feat" : 1
+    },
+    {
+      "Feat" : 6
+    },
+    {
+      "Feat" : 196
+    },
+    {
+      "Feat" : 332
+    },
+    {
+      "Feat" : 333
+    },
+    {
+      "Feat" : 334
+    },
+    {
+      "Feat" : 228
+    },
+    {
+      "Feat" : 292
+    },
+    {
+      "Feat" : 19
+    },
+    {
+      "Feat" : 28
+    },
+    {
+      "Feat" : 291
+    },
+    {
+      "Feat" : 289
+    },
+    {
+      "Feat" : 290
+    }
+  ],
+  "FirstName" : "Flesh Thing",
+  "Fortbonus" : 0,
+  "Gender" : 3,
+  "GoodEvil" : 0,
+  "HitPoints" : 50,
+  "Int" : 10,
+  "Interruptable" : 0,
+  "IsImmortal" : 0,
+  "IsPC" : 0,
+  "LastName" : null,
+  "LawfulChaotic" : 0,
+  "Lootable" : 0,
+  "MaxHitPoints" : 150,
+  "NaturalAC" : 11,
+  "NoPermDeath" : 1,
+  "PaletteID" : 4,
+  "PerceptionRange" : 10,
+  "Phenotype" : 0,
+  "Plot" : 0,
+  "PortraitId" : 2038,
+  "Race" : 20,
+  "Refbonus" : 0,
+  "ScriptAttacked" : "j_ai_onphiattack",
+  "ScriptDamaged" : "j_ai_ondamaged",
+  "ScriptDeath" : "dth_fleshdeath",
+  "ScriptDialogue" : "j_ai_onconversat",
+  "ScriptDisturbed" : "j_ai_ondisturbed",
+  "ScriptEndRound" : "j_ai_oncombatrou",
+  "ScriptHeartbeat" : "j_ai_onheartbeat",
+  "ScriptOnBlocked" : "j_ai_onblocked",
+  "ScriptOnNotice" : "j_ai_onpercieve",
+  "ScriptRested" : "j_ai_onrest",
+  "ScriptSpawn" : "j_ai_onspawn",
+  "ScriptSpellAt" : "j_ai_onspellcast",
+  "ScriptUserDefine" : "j_ai_onuserdef",
+  "SkillList" : [
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 15
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 5
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 10
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 20
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    }
+  ],
+  "SoundSetFile" : 33,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 27,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 240,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 240,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 803,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 54,
+      "SpellCasterLevel" : 13,
+      "SpellFlags" : 1
+    },
+    {
+      "Spell" : 260,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 28,
+  "Subrace" : "",
+  "Tag" : "D1_FLESHTHING",
+  "Tail" : 0,
+  "TemplateList" : [ ],
+  "TemplateResRef" : "fleshthing",
+  "WalkRate" : 5,
+  "Willbonus" : 0,
+  "Wings" : 0,
+  "Wis" : 11
+}
