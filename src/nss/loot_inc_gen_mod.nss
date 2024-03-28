@@ -1,4 +1,5 @@
 #include "loot_inc_data"
+#include "inc_jeff"
 
 //::///////////////////////////////////////////////
 //:: LOOT_INC_MAIN - Based off of the BioWare
@@ -4368,6 +4369,7 @@ void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn, s
      else
       dbSpeak("other stuff");
 
+      MessageAll("limitAcquire='" + limitAcquire + "'");
       if (limitAcquire != "") {
         SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
       }
