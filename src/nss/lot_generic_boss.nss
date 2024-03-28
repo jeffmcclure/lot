@@ -1,6 +1,13 @@
+#include "nw_i0_tool"
+
 void main() {
-    ExecuteScript("xp_partyextra", OBJECT_SELF);
-    //ExecuteScript("loot_normal_hi", OBJECT_SELF);
+    object oPC = GetLastKiller();
+    int xp = GetLocalInt(OBJECT_SELF, "xp");
+    if (xp > 0) {
+        RewardPartyXP(2500, oPC, TRUE);
+    } else {
+        ExecuteScript("xp_partyextra", OBJECT_SELF);
+    }
 
     //location loc = GetLocation(OBJECT_SELF);
 
@@ -22,15 +29,19 @@ void main() {
     SetName(oChest, "Loot");
     string monsterIdTag = GetTag(OBJECT_SELF);
 
+    int any = FALSE;
     int i;
     for (i = 0; i < 5; i++) {
         string loot = GetLocalString(OBJECT_SELF, "loot" + IntToString(i));
         if (loot != "") {
+            any = TRUE;
             SetLocalString(oChest, "loot" + IntToString(i), loot);
         }
     }
 
-    //object oPC = GetLastKiller();
+    if (!any)
+        ExecuteScript("loot_normal_hi", OBJECT_SELF);
+
     //SendMessageToPC(oPC, "1 loot1 = '" + loot1 + "'");
 
     SetLocalString(oChest, "monsterIdTag", monsterIdTag);
