@@ -33,9 +33,8 @@ docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd)
 #
 # nginx
 #
-cd /Users/jeffmcclure/lot/webserver
 docker run -dit -p 192.168.7.229:8000:80 --name nwn_nginx -v $(pwd):/usr/share/nginx/html nginx
 
-~/d/nwn/nwsync/bin/nwsync_write --description="My Cool Module Server Data V1" /Users/jeffmcclure/tmp/t/32586 modules/lot_2_0_0.mod
+~/d/nwn/nwsync/bin/nwsync_write --description="My Cool Module Server Data V1" out_dir modules/lot_2_0_0.mod
 
 issue may have been in the source directory that docker is run from
