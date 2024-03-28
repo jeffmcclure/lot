@@ -24,6 +24,7 @@
 * Quests: New quest "Find Remy"
 * Quests: New section of cathedral "The Rectory" with map point for the entry in Tristram (for Find Remy)
 * Quests: New quest "Should old acquaintance be forgot..." - designed to encourage players to meet the key town NPC and collect free XP
+* Quests: Butcher - fixed issue where NPC can open butcher door, suppressing spawning of The Butcher
 * Add starting chests with loot in the tavern chest room
 * Added new chests that must be picked and cannot be bashed open
 * Gift to player Cloak of Fast Feet during game opening conversation with TheeMon

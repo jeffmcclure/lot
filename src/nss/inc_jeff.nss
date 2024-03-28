@@ -98,9 +98,13 @@ void JeffCreateObjectOnAllPartyMembers(
 }
 
 void DestroyAllByTag(string sTag) {
-    while (TRUE) {
-        object oTarget = GetObjectByTag("KEY_BUTCHER");
-        if (oTarget == OBJECT_INVALID) return;
-        DestroyObject(oTarget, 0.5);
+    object oPC = GetFirstPC();
+    object oMember = GetFirstFactionMember(oPC, TRUE);
+    while (GetIsObjectValid(oMember)) {
+        object oTarget = GetItemPossessedBy(oMember, sTag);
+        if (GetIsObjectValid(oTarget)) {
+            DestroyObject(oTarget, 0.5);
+        }
+        oMember = GetNextFactionMember(oPC, TRUE);
     }
 }

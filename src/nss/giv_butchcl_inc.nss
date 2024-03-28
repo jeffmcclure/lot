@@ -26,7 +26,7 @@ object GetFirstObjectFromInventory(object oPC, string sItemTag) {
 
 void SellButcherCleaver(int amount, object oPC) {
     object oItem = GetItemPossessedBy(oPC, "D1_BUTCHERSCLEAVER");
-    if (oItem != OBJECT_INVALID) {
+    if (GetIsObjectValid(oItem)) {
         DestroyObject(oItem, 0.0);
         RewardPartyGP(amount, oPC, TRUE);
         AdjustAlignment(oPC, ALIGNMENT_CHAOTIC, 2);
