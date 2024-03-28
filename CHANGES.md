@@ -1,8 +1,15 @@
 [Back to README.md](README.md)
 
 # Changelog
+## 2.0.1 &mdash; 2024-03-24
+* Fixed issue where some monsters were not dropping loot
+* Do not zoom conversations for henchmen, Ogden, or Griswold
+* Balancing: Reduce King Leoric back to original class levels and STR, but retain HP scale based on party size
+
 ## 2.0.0 &mdash; 2024-03-22
+* Multi-player: Party-Loot system - loot is generated for each party member and must first be picked-up by the intended player
 * Multi-player: Chests create private loot for each player
+* Multi-player: Monsters drop private loot for each player
 * Multi-player: Don't destroy TheeMon ; allow him to remain for late joiners
 * Multi-player: Allow late joiners to receive free loot from TheeMon, but don't distribute double nor greeting xp
 * Multi-player: Each player must speak to TheeMon to get free loot
@@ -11,7 +18,6 @@
 * Multi-player, Bosses: For the butcher encounter, spawn one butcher for each member of the party
 * Multi-player, Bosses: Scale King Leoric hit points for party size.
 * Multi-player: Reward all party members with gold/xp instead of just one player
-* Multi-player: Party-Loot system - loot is generated for each party member and must first be picked-up by the intended player
 * Bosses: New mini-boss Death Clean Leader in Catacomb I
 * Bosses: Scale King Leoric to 200% size
 * Bosses: Butcher and Leoric now immune to critical hits
