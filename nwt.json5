@@ -1,12 +1,14 @@
 [
   {
     "description" : "The Lord of Terror",
+    "dirPath" : [ ],
+    "erfPath" : [ ],
     "overwrite" : true,
     "rules" : {
       "module.*" : "src",
-      "*.ncs" : "target/ncs",
+      "*.ncs" : "target/ncs"
     },
     "source" : "${nwnHome}/modules/lot_2_0_0.mod",
-    "target" : "${nwnHome}/modules/lot_2_0_0.mod",
+    "target" : "${nwnHome}/modules/lot_2_0_0.mod"
   }
 ]
