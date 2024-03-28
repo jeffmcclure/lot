@@ -2,27 +2,29 @@
 #include "inc_jeff"
 
 object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
-    SendMessageToPC(GetFirstPC(), "CreateLoot() 1");
+    //SendMessageToPC(GetFirstPC(), "CreateLoot() 1");
     if (!GetIsPC(oPC)) {
-        MessageAll("CreateLoot(): non-PC parameter passed");
+        MessageAll("CreateLoot(): non-PC parameter passed resref " + sItemTemplate);
+        MessageAll("CreateLoot(): non-PC parameter passed oPC name   " + GetName(oPC));
+        MessageAll("CreateLoot(): non-PC parameter passed oContainer name   " + GetName(oContainer));
         return OBJECT_INVALID;
     }
-    SendMessageToPC(GetFirstPC(), "CreateLoot() 2");
+    //SendMessageToPC(GetFirstPC(), "CreateLoot() 2");
     string charName = GetName(oPC);
     if (charName == "") {
         MessageAll("CreateLoot() : charName is blank");
         return OBJECT_INVALID;
     }
-    SendMessageToPC(GetFirstPC(), "CreateLoot() 3");
+    //SendMessageToPC(GetFirstPC(), "CreateLoot() 3");
 
     object treasure;
 
     // if Loot Genie
     if (GetItemPossessedBy(oPC, "D1_LOOT_GENIE") != OBJECT_INVALID) {
-        SendMessageToPC(GetFirstPC(), "CreateLoot() 4");
+       //SendMessageToPC(GetFirstPC(), "CreateLoot() Loot Genie");
         treasure = CreateItemOnObject(sItemTemplate, oPC, nStackSize);
     } else {
-        SendMessageToPC(GetFirstPC(), "CreateLoot() 5");
+       //SendMessageToPC(GetFirstPC(), "CreateLoot() party Loot");
         // normal loot
         treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
 
@@ -205,17 +207,19 @@ object dbCreateItemOnObject(string sItemTemplate, object oTarget, object oPC, in
 
 // * Returns the object that either last opened the container or destroyed it
 object GetLastOpenerOrKiller() {
-    if (GetIsObjectValid(GetLastOpenedBy()) == TRUE) {
-        dbSpeak("LastOpener: GetLastOpenedBy " + GetTag(GetLastOpenedBy()));
-        return GetLastOpenedBy();
-    } else if (GetIsObjectValid(GetLastKiller()) == TRUE) {
-        dbSpeak("LastOpener: GetLastAttacker");
-        return GetLastKiller();
-    } else {
-        return GetFirstPC();
-    }
-    //dbSpeak("LastOpener: The Object is Invalid you weenie!");
-    //return OBJECT_INVALID;
+    object oPC = GetLastOpenedBy();
+    if (GetIsPC(oPC) == TRUE)
+        return oPC;
+
+    oPC = GetLastKiller();
+    if (GetIsPC(oPC) == TRUE)
+        return oPC;
+
+    oPC = GetMaster(oPC);
+    if (GetIsPC(oPC) == TRUE)
+        return oPC;
+
+    return GetFirstPC();
 }
 
 //::///////////////////////////////////////////////
@@ -4688,16 +4692,16 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     if (oPC == OBJECT_INVALID)
         oPC = GetLastOpenerOrKiller();
 
-    SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 1");
-    int i;
-    for (i = 0; i < 5; i++) {
-        string lootResRef = GetLocalString(target, "loot" + IntToString(i));
-        if (lootResRef == "") continue;
-        SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 2 " + lootResRef);
+   //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 1");
+    int lootNum;
+    for (lootNum = 1; lootNum < 8; lootNum++) {
+        string lootResRef = GetLocalString(target, "loot" + IntToString(lootNum));
+        if (lootResRef == "") break;
+       //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 2 " + lootResRef);
 
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
-            SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 3");
+            //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 3");
             CreateLoot(lootResRef, target, oPC);
             oMember = GetNextFactionMember(oPC, TRUE);
         }
@@ -4707,7 +4711,7 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     if (gold > 0) {
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
-            SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold");
+           //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold");
             CreateLoot("nw_it_gold001", target, oPC, gold);
             oMember = GetNextFactionMember(oPC, TRUE);
         }
@@ -4718,32 +4722,29 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
 // for each item in the current inventory set "loot.*" properties
 // then PopulateLootForParty() will create items for each party member based on loot.* properties
 void MoveInventoryLootToProperties() {
-    SendMessageToPC(GetFirstPC(), "loot_partyfi1 1");
+    //SendMessageToPC(GetFirstPC(), "loot_partyfi1 1");
     if (GetLocalInt(OBJECT_SELF, "ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "ONCE", 1);
 
     // destroy container contents and create properties
     object oItem = GetFirstItemInInventory(OBJECT_SELF);
-    int loop = 0;
+    int loop = 1;
     int isDeadCreature = IsDeadCreature();
-    SendMessageToPC(GetFirstPC(), "loot_partyfi1 2 isDeadCreature=" + IntToString(isDeadCreature));
+    //SendMessageToPC(GetFirstPC(), "loot_partyfi1 2 isDeadCreature=" + IntToString(isDeadCreature));
     while (GetIsObjectValid(oItem)) {
         string resref = GetResRef(oItem);
-        SendMessageToPC(GetFirstPC(), "loot_partyfi1 3 " + resref);
-        SendMessageToPC(GetFirstPC(), "loot_partyfi1 4 " + GetName(oItem));
+        //SendMessageToPC(GetFirstPC(), "loot_partyfi1 3 " + resref + " " + GetName(oItem));
         if (!isDeadCreature || GetDroppableFlag(oItem)) {
-            SendMessageToPC(GetFirstPC(), "loot_partyfi1 5 DROPPABLE");
+            //SendMessageToPC(GetFirstPC(), "loot_partyfi1 5 DROPPABLE");
             if (resref == "nw_it_gold001") {
-                SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetGoldPieceValue " + IntToString(GetGoldPieceValue(oItem)));
-                SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetItemStackSize " + IntToString(GetItemStackSize(oItem)));
-                SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetGold " + IntToString(GetGold(oItem)));
+                //SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetItemStackSize " + IntToString(GetItemStackSize(oItem)));
                 SetLocalInt(OBJECT_SELF, "loot_gold",  GetItemStackSize(oItem));
             } else {
                 SetLocalString(OBJECT_SELF, "loot" + IntToString(loop), resref);
+                loop = loop + 1;
             }
             DestroyObject(oItem);
         }
         oItem = GetNextItemInInventory(OBJECT_SELF);
-        loop = loop + 1;
     }
 }

@@ -5766,6 +5766,7 @@
       "YPosition" : 123.3984,
       "ZPosition" : 0.0
     },
+
     {
       "Active" : 1,
       "CreatureList" : [
@@ -5794,7 +5795,7 @@
         {
           "X" : 0.0,
           "Y" : 0.0,
-          "Z" : 0.02500006
+          "Z" : 0.025
         },
         {
           "X" : -0.5262909,
@@ -5821,91 +5822,61 @@
       "SpawnPointList" : [ ],
       "Tag" : "NW_UndeadAll",
       "TemplateResRef" : "nw_undeadall",
-      "XPosition" : 7.1174,
-      "YPosition" : 123.5665,
+      "XPosition" : 48,
+      "YPosition" : 123,
       "ZPosition" : 0.0
     },
     {
       "Active" : 1,
       "CreatureList" : [
         {
-          "Appearance" : 302,
-          "CR" : 0.33333334,
-          "ResRef" : "kobold001",
-          "SingleSpawn" : 0
-        },
-        {
-          "Appearance" : 305,
-          "CR" : 0.33333334,
-          "ResRef" : "kobold002",
-          "SingleSpawn" : 0
-        },
-        {
-          "Appearance" : 303,
-          "CR" : 2.0,
-          "ResRef" : "kobold004",
-          "SingleSpawn" : 0
-        },
-        {
-          "Appearance" : 304,
-          "CR" : 2.0,
-          "ResRef" : "kobold006",
-          "SingleSpawn" : 1
-        },
-        {
-          "Appearance" : 301,
-          "CR" : 2.0,
-          "ResRef" : "kobold005",
-          "SingleSpawn" : 1
-        },
-        {
-          "Appearance" : 300,
-          "CR" : 2.0,
-          "ResRef" : "kobold003",
+          "Appearance" : 39,
+          "CR" : 10.0,
+          "ResRef" : "lich003",
           "SingleSpawn" : 0
         }
       ],
-      "Difficulty" : 0,
-      "DifficultyIndex" : 2,
+      "Difficulty" : 5,
+      "DifficultyIndex" : 3,
       "Faction" : 1,
       "Geometry" : [
+        {
+          "X" : -6.6838923,
+          "Y" : 0.052627563,
+          "Z" : 0.025
+        },
         {
           "X" : 0.0,
           "Y" : 0.0,
           "Z" : 0.025
         },
         {
-          "X" : 0.0043,
-          "Y" : -2.0319,
+          "X" : -0.5262909,
+          "Y" : 3.078804,
           "Z" : 0.025
         },
         {
-          "X" : 3.8581,
-          "Y" : -2.1618,
-          "Z" : 0.025
-        },
-        {
-          "X" : 3.6086,
-          "Y" : -0.3288,
+          "X" : -6.683892,
+          "Y" : 1.6315002,
           "Z" : 0.025
         }
       ],
       "LocalizedName" : {
-        "StringRef" : 91348,
+        "StringRef" : 14513,
         "Strings" : [ ]
       },
-      "MaxCreatures" : 4,
+      "MaxCreatures" : 1,
       "PlayerOnly" : 1,
-      "RecCreatures" : 4,
+      "RecCreatures" : 1,
       "Reset" : 0,
       "ResetTime" : 60,
       "Respawns" : 0,
       "SpawnOption" : 1,
       "SpawnPointList" : [ ],
-      "Tag" : "X2_KOBOLD001",
-      "TemplateResRef" : "x2_kobold001",
-      "XPosition" : 3.2921,
-      "YPosition" : 161.8595,
+      "Tag" : "NW_UndeadAll",
+      "TemplateResRef" : "nw_undeadall",
+      "XPosition" : 10.982696,
+      "YPosition" : 122.939705,
       "ZPosition" : 0.0
     },
     {
@@ -15884,23 +15855,25 @@
       "Useable" : 1,
       "VarTable" : [
         {
-          "Comment" : "",
           "Name" : "loot1",
           "Type" : 3,
           "Value" : "nw_it_mpotion005"
         },
         {
-          "Comment" : "",
-          "Name" : "loot1",
+          "Name" : "loot2",
           "Type" : 3,
           "Value" : "nw_it_mpotion005"
         },
         {
-          "Comment" : "",
-          "Name" : "loot4",
+          "Name" : "loot3",
           "Type" : 3,
           "Value" : "nw_it_mpotion009"
         },
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 1
+        }
       ],
       "Will" : 0,
       "X" : 60.0744,
@@ -15933,8 +15906,8 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "x0_o2_potnmed",
-      "OnOpen" : "x0_o2_potnmed",
+      "OnDeath" : "",
+      "OnOpen" : "loot_normal_mid",
       "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
@@ -16093,20 +16066,22 @@
       "Useable" : 1,
       "VarTable" : [
         {
-          "Comment" : "",
           "Name" : "loot1",
           "Type" : 3,
           "Value" : "nw_it_book001"
         },
         {
-          "Comment" : "",
-          "Name" : "loot1",
+          "Name" : "loot2",
           "Type" : 3,
           "Value" : "nw_it_book001"
         },
         {
-          "Comment" : "",
-          "Name" : "loot4",
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 1
+        },
+        {
+          "Name" : "loot3",
           "Type" : 3,
           "Value" : "nw_it_book001"
         },
