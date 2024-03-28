@@ -16071,154 +16071,20 @@
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 0,
-      "ItemList" : [
-        {
-          "AddCost" : 0,
-          "BaseItem" : 49,
-          "Charges" : 0,
-          "Cost" : 40,
-          "Cursed" : 0,
-          "DescIdentified" : {
-            "StringRef" : 13426,
-            "Strings" : [ ]
-          },
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 13427,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 21,
-          "ModelPart2" : 12,
-          "ModelPart3" : 11,
-          "Plot" : 0,
-          "PropertiesList" : [
-            {
-              "ChanceAppear" : 100,
-              "CostTable" : 3,
-              "CostValue" : 1,
-              "Param1" : 255,
-              "Param1Value" : 255,
-              "PropertyName" : 15,
-              "Subtype" : 11
-            }
-          ],
-          "ReposPosX" : 0,
-          "ReposPosy" : 0,
-          "StackSize" : 1,
-          "Stolen" : 0,
-          "Tag" : "NW_IT_MPOTION009",
-          "TemplateResRef" : "nw_it_mpotion009",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
-        },
-        {
-          "AddCost" : 0,
-          "BaseItem" : 49,
-          "Charges" : 0,
-          "Cost" : 80,
-          "Cursed" : 0,
-          "DescIdentified" : {
-            "StringRef" : 13418,
-            "Strings" : [ ]
-          },
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 13419,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 22,
-          "ModelPart2" : 33,
-          "ModelPart3" : 11,
-          "Plot" : 0,
-          "PropertiesList" : [
-            {
-              "ChanceAppear" : 100,
-              "CostTable" : 3,
-              "CostValue" : 1,
-              "Param1" : 255,
-              "Param1Value" : 255,
-              "PropertyName" : 15,
-              "Subtype" : 5
-            }
-          ],
-          "ReposPosX" : 1,
-          "ReposPosy" : 0,
-          "StackSize" : 1,
-          "Stolen" : 0,
-          "Tag" : "NW_IT_MPOTION005",
-          "TemplateResRef" : "nw_it_mpotion005",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
-        },
-        {
-          "AddCost" : 0,
-          "BaseItem" : 49,
-          "Charges" : 0,
-          "Cost" : 80,
-          "Cursed" : 0,
-          "DescIdentified" : {
-            "StringRef" : 13418,
-            "Strings" : [ ]
-          },
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 13419,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 22,
-          "ModelPart2" : 33,
-          "ModelPart3" : 11,
-          "Plot" : 0,
-          "PropertiesList" : [
-            {
-              "ChanceAppear" : 100,
-              "CostTable" : 3,
-              "CostValue" : 1,
-              "Param1" : 255,
-              "Param1Value" : 255,
-              "PropertyName" : 15,
-              "Subtype" : 5
-            }
-          ],
-          "ReposPosX" : 2,
-          "ReposPosy" : 0,
-          "StackSize" : 1,
-          "Stolen" : 0,
-          "Tag" : "NW_IT_MPOTION005",
-          "TemplateResRef" : "nw_it_mpotion005",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
-        }
-      ],
+      "ItemList" : [ ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 66694,
-        "Strings" : [ ]
-      },
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "",
-      "OnOpen" : "loot_normal_book",
+      "OnOpen" : "loot_partyfi",
       "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 359,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "X0_TRES_BOOKUNIQ",
-      "TemplateResRef" : "x0_tres_bookuniq",
+      "Tag" : "BOOKCASE_REC1",
+      "TemplateResRef" : "plc_bookshelf",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -16227,6 +16093,26 @@
       "TrapType" : 0,
       "Type" : 0,
       "Useable" : 1,
+      "VarTable" : [
+        {
+          "Comment" : "",
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "nw_it_mpotion005"
+        },
+        {
+          "Comment" : "",
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "nw_it_mpotion005"
+        },
+        {
+          "Comment" : "",
+          "Name" : "loot4",
+          "Type" : 3,
+          "Value" : "nw_it_mpotion009"
+        },
+      ],
       "Will" : 0,
       "X" : 60.0744,
       "Y" : 168.0839,
@@ -16395,22 +16281,19 @@
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 0,
+      "ItemList" : [ ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14576,
-        "Strings" : [ ]
-      },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "loot_normal_book",
-      "OnOpen" : "loot_normal_book",
+      "OnDeath" : "",
+      "OnOpen" : "loot_partyfi",
       "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 359,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Bookshelf",
+      "Tag" : "BOOKSHELF_REC2A",
       "TemplateResRef" : "plc_bookshelf",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
@@ -16420,6 +16303,26 @@
       "TrapType" : 0,
       "Type" : 0,
       "Useable" : 1,
+      "VarTable" : [
+        {
+          "Comment" : "",
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "nw_it_book001"
+        },
+        {
+          "Comment" : "",
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "nw_it_book001"
+        },
+        {
+          "Comment" : "",
+          "Name" : "loot4",
+          "Type" : 3,
+          "Value" : "nw_it_book001"
+        },
+      ],
       "Will" : 0,
       "X" : 62.5348,
       "Y" : 168.0802,
@@ -16444,6 +16347,52 @@
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 0,
+      "ItemList" : [
+        {
+          "AddCost" : 0,
+          "BaseItem" : 22,
+          "Charges" : 0,
+          "Cost" : 1622,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 13213,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 14303,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 13,
+          "ModelPart2" : 13,
+          "ModelPart3" : 23,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 2,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 255,
+              "PropertyName" : 6,
+              "Subtype" : 0
+            }
+          ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_WSWMDG002",
+          "TemplateResRef" : "nw_wswmdg002",
+          "XModelPart1" : 13,
+          "XOrientation" : 4.1504612E-19,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        }
+      ],
       "KeyRequired" : 0,
       "LocName" : {
         "StringRef" : 14576,
@@ -16451,15 +16400,15 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "loot_normal_book",
-      "OnOpen" : "loot_normal_book",
+      "OnDeath" : "",
+      "OnOpen" : "loot_partyfi1",
       "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 359,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Bookshelf",
+      "Tag" : "BOOKCASE_REC3",
       "TemplateResRef" : "plc_bookshelf",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,

@@ -4661,3 +4661,21 @@ void TreasureChestBook() {
 void TreasureChestUnique() {
     TreasureChest(TREASURE_UNIQUE, OBJECT_SELF);
 }
+
+void PopulateLootForParty(object oPC, object target) {
+    int i;
+    for (i = 0; i < 5; i++) {
+        string lootResRef = GetLocalString(target, "loot" + IntToString(i));
+        if (lootResRef == "") continue;
+
+        object oMember = GetFirstFactionMember(oPC, TRUE);
+        while (GetIsObjectValid(oMember)) {
+            string charName = GetName(oMember);
+            if (charName != "") {
+                object treasure = CreateItemOnObject(lootResRef, target);
+                SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
+            }
+            oMember = GetNextFactionMember(oPC, TRUE);
+        }
+    }
+}
