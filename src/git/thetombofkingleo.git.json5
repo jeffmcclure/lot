@@ -821,69 +821,6 @@
       "Active" : 1,
       "CreatureList" : [
         {
-          "Appearance" : 39,
-          "CR" : 15.0,
-          "ResRef" : "kingleoric",
-          "SingleSpawn" : 1
-        }
-      ],
-      "Difficulty" : 0,
-      "DifficultyIndex" : 0,
-      "Faction" : 1,
-      "Geometry" : [
-        {
-          "X" : 0.0,
-          "Y" : 0.0,
-          "Z" : 0.22270992
-        },
-        {
-          "X" : 0.024856567,
-          "Y" : -14.973433,
-          "Z" : 0.22598007
-        },
-        {
-          "X" : 2.9189758,
-          "Y" : -12.558533,
-          "Z" : 0.22598007
-        },
-        {
-          "X" : 2.955841,
-          "Y" : -2.3860474,
-          "Z" : 0.22271004
-        },
-        {
-          "X" : 0.017753601,
-          "Y" : -0.03557968,
-          "Z" : 0.22271004
-        }
-      ],
-      "LocalizedName" : "King Leoric",
-      "MaxCreatures" : 1,
-      "OnEntered" : "enc_leoric_onent",
-      "PlayerOnly" : 1,
-      "RecCreatures" : 1,
-      "Reset" : 1,
-      "ResetTime" : 1200,
-      "Respawns" : -1,
-      "SpawnOption" : 1,
-      "SpawnPointList" : [
-        {
-          "Orientation" : -0.0,
-          "X" : 95.83515,
-          "Y" : 34.36469,
-          "Z" : 0.20000994
-        }
-      ],
-      "Tag" : "KingLeoric",
-      "TemplateResRef" : "kingleoric",
-      "XPosition" : 81.00615,
-      "YPosition" : 37.29262,
-      "ZPosition" : 0.0
-    },
-    {
-      "Active" : 1,
-      "CreatureList" : [
-        {
           "Appearance" : 63,
           "CR" : 0.5,
           "ResRef" : "skeleton001",
@@ -1847,7 +1784,78 @@
     }
   ],
   "StoreList" : [ ],
-  "TriggerList" : [ ],
+  "TriggerList" : [
+    {
+      "AutoRemoveKey" : 0,
+      "Cursor" : 0,
+      "DisarmDC" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "PointX" : -3.5477142,
+          "PointY" : -3.0570717,
+          "PointZ" : 0.2227098
+        },
+        {
+          "PointX" : -3.4777374,
+          "PointY" : -16.92757,
+          "PointZ" : 0.22597995
+        },
+        {
+          "PointX" : -0.75455475,
+          "PointY" : -19.058437,
+          "PointZ" : 0.22598007
+        },
+        {
+          "PointX" : -0.45290375,
+          "PointY" : -2.000309,
+          "PointZ" : 0.22271004
+        },
+        {
+          "PointX" : 0.0,
+          "PointY" : 0.0,
+          "PointZ" : 0.22271004
+        }
+      ],
+      "HighlightHeight" : 0.0,
+      "KeyName" : "",
+      "LinkedTo" : "",
+      "LinkedToFlags" : 0,
+      "LoadScreenID" : 0,
+      "LocalizedName" : {
+        "StringRef" : 14759,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "TRIGGER2"
+          }
+        ]
+      },
+      "OnClick" : "",
+      "OnDisarm" : "",
+      "OnTrapTriggered" : "",
+      "PortraitId" : 0,
+      "ScriptHeartbeat" : "",
+      "ScriptOnEnter" : "enc_leoric_onent",
+      "ScriptOnExit" : "",
+      "ScriptUserDefine" : "",
+      "Tag" : "GenericTrigger",
+      "TemplateResRef" : "newgeneric",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "XOrientation" : 0.0,
+      "XPosition" : 84.33003,
+      "YOrientation" : 0.0,
+      "YPosition" : 39.844532,
+      "ZOrientation" : 0.0,
+      "ZPosition" : 0.0
+    }
+  ],
   "WaypointList" : [
     {
       "Appearance" : 2,
@@ -1872,6 +1880,25 @@
       "YOrientation" : 2.1020558E-6,
       "YPosition" : 29.996862,
       "ZPosition" : 3.000004
+    },
+    {
+      "Appearance" : 1,
+      "Description" : null,
+      "HasMapNote" : 0,
+      "LinkedTo" : "",
+      "LocalizedName" : {
+        "StringRef" : 14817,
+        "Strings" : [ ]
+      },
+      "MapNote" : null,
+      "MapNoteEnabled" : 1,
+      "Tag" : "WP_LEORIC_C",
+      "TemplateResRef" : "nw_waypoint001",
+      "XOrientation" : 1.54E-43,
+      "XPosition" : 96.10307,
+      "YOrientation" : 1.0,
+      "YPosition" : 34.706356,
+      "ZPosition" : 0.19999932
     }
   ]
 }
