@@ -4622,8 +4622,19 @@ void GenTreasure(int nTreasureType, object oLastOpener, object oCreateOn, string
 }
 
 void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
-    //SendMessageToPC(GetFirstPC(), "TreasureChest()");
+    //SendMessageToPC(GetFirstPC(), "TreasureChest() enter");
     object oLastOpener = GetLastOpenedBy();
+
+    // this script is called on both OnUsed, OnOpen, and OnDeath events
+    if (!GetIsObjectValid(oLastOpener)) {
+        oLastOpener = GetLastKiller();
+    }
+
+    // failsafe
+    if (!GetIsObjectValid(oLastOpener)) {
+        oLastOpener = GetFirstPC();
+    }
+
     string charName = GetName(oLastOpener);
 
     //if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE"+charName) != 0) {
@@ -4638,7 +4649,7 @@ void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
 
     while (GetIsObjectValid(oMember)) {
       string charName = GetName(oMember);
-      GenTreasure(nTreasureType, oLastOpener, oCreateOn, charName);
+      GenTreasure(nTreasureType, oMember, oCreateOn, charName);
       oMember = GetNextFactionMember(oLastOpener, TRUE);
     }
 }

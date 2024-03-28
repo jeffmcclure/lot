@@ -3,6 +3,7 @@
 void forDebug(object oPC) {
     JeffGiveStuff(oPC);
     CreateItemOnObject("key_butcher", oPC);
+    CreateItemOnObject("tavernsign", oPC);
     AddJournalQuestEntry("QST_BUTCHER", 1, oPC, TRUE, FALSE);
     SetLocked(GetObjectByTag("CHURCH3_2LEORIC"), FALSE);
 }
