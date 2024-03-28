@@ -1,5 +1,6 @@
 # Changelog
 ## 2.0.0 &mdash; 2024-02-14
+* todo Multi-player: on entry copy all quests from other players
 * Multi-player: Chests create private loot for each player
 * Don't destroy TheeMon ; allow him to remain for late joiners
 * Multi-player: Allow late joiners to receive free loot from TheeMon, but don't distribute double nor greeting xp
