@@ -108,5 +108,5 @@ void jeffAppraiseOpenStore(object oStore, object oPC, int nBonusMarkUp = 0, int 
     nBonusMarkUp = nBonusMarkUp + nAdjust;
 
     SetLocalInt(oPC, "X0_APPRAISEADJUST"+ sTag, nAdjust);
-    OpenStore(oStore, oPC, nBonusMarkUp, nBonusMarkDown);
+    OpenStore(oStore, oPC, nBonusMarkUp, -1*nBonusMarkDown);
 }
