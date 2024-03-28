@@ -9,7 +9,7 @@ object oPC = GetEnteringObject();
 
 if (!GetIsPC(oPC)) return;
 
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_LOSTBOYS");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_LOSTBOYS");
 
 if (GetHitDice(oPC) <= 7)
    {

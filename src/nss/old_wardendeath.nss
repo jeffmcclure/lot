@@ -12,7 +12,7 @@ while (GetIsObjectValid(GetMaster(oPC)))
 if (!GetIsPC(oPC)) return;
 
 int nInt;
-nInt=GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_LOSTBOYS");
+nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_LOSTBOYS");
 
 if (!(nInt == 2))
    return;
