@@ -12,7 +12,7 @@
 # NWN_DIR
 
 DOWNLOADS=$HOME/Downloads/lot
-LOT_VERSION="1.7.4"
+LOT_VERSION="2.0.0"
 LOT_MOD_NAME="lot_${LOT_VERSION:gs/./_}"
 
 if [ -z "$LOT_DIR" ]; then
@@ -34,7 +34,7 @@ function setup1 {
 	echo /bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
 	mkdir modules &>/dev/null
 	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/ || exit
-	md5sum modules/lot_1_7_4.mod ~/Documents/Neverwinter\ Nights/modules/lot_1_7_4.mod
+	md5sum modules/lot_2_0_0.mod ~/Documents/Neverwinter\ Nights/modules/lot_2_0_0.mod
 }
 
 function supporting {
@@ -77,8 +77,8 @@ function supporting {
 
 }
 
-function webserver {
-	header "webserver"
+function web {
+	header "web"
 	cd ../webserver || exit
 
 	echo stopping nwn_nginx
@@ -153,7 +153,7 @@ for i in "$@"; do
 	case $i in
 
 	web)
-		webserver
+		web
 		;;
 
 	nwn)
@@ -167,4 +167,4 @@ for i in "$@"; do
 	esac
 done
 
-md5sum ../lot_docker/modules/lot_1_7_4.mod ~/Documents/Neverwinter\ Nights/modules/lot_1_7_4.mod
+md5sum ../lot_docker/modules/lot_2_0_0.mod ~/Documents/Neverwinter\ Nights/modules/lot_2_0_0.mod

@@ -18,10 +18,10 @@ apt-get install file
 #
 docker run --rm -it  -p 5121:5121/udp -e NWN_PORT=5121 -e NWN_SERVERNAME='myserver' --name mycoolserver -v $(pwd):/nwn/home -e NWN_MODULE=module002 -e NWN_PUBLICSERVER=1  beamdog/nwserver:8193.34.1-arm64
 docker run -dit  -p 5121:5121/udp -e NWN_PORT=5121 -e NWN_SERVERNAME='myserver' --name mycoolserver -v $(pwd):/nwn/home -e NWN_MODULE=module002 -e NWN_PUBLICSERVER=1  beamdog/nwserver:8193.34.1-arm64
-docker run -dit  -p 5121:5121/udp -e NWN_PORT=5121 -e NWN_SERVERNAME='myserver' --name mycoolserver -v $(pwd):/nwn/home -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=1  -e NWN_NWSYNCURL=http://192.168.7.229:8000 beamdog/nwserver:8193.34.1-arm64
-docker run -dit  -p 5121:5121/udp -e NWN_PORT=5121 -e NWN_SERVERNAME='myserver' --name nwn -v $(pwd):/nwn/home -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=0 -e NWN_NWSYNCURL=http://192.168.7.229:8000 beamdog/nwserver:8193.34.1-arm64
-docker run -dit -p 5125:5121/udp --name nwn_lotc -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 1.7.4c' urothis/nwserver:8193-buster
-docker run -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 1.7.4' -e NWN_NWSYNCURL='http://192.168.7.229:8000' urothis/nwserver:8193-buster
+docker run -dit  -p 5121:5121/udp -e NWN_PORT=5121 -e NWN_SERVERNAME='myserver' --name mycoolserver -v $(pwd):/nwn/home -e NWN_MODULE=lot_2_0_0 -e NWN_PUBLICSERVER=1  -e NWN_NWSYNCURL=http://192.168.7.229:8000 beamdog/nwserver:8193.34.1-arm64
+docker run -dit  -p 5121:5121/udp -e NWN_PORT=5121 -e NWN_SERVERNAME='myserver' --name nwn -v $(pwd):/nwn/home -e NWN_MODULE=lot_2_0_0 -e NWN_PUBLICSERVER=0 -e NWN_NWSYNCURL=http://192.168.7.229:8000 beamdog/nwserver:8193.34.1-arm64
+docker run -dit -p 5125:5121/udp --name nwn_lotc -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_2_0_0 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 2.0.0c' urothis/nwserver:8193-buster
+docker run -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_2_0_0 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 2.0.0' -e NWN_NWSYNCURL='http://192.168.7.229:8000' urothis/nwserver:8193-buster
 
 
 #
@@ -29,8 +29,8 @@ docker run -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0
 #
 # the above arm images result in a buggy nwn server; use amd64 image for now
 #
-docker run --platform linux/amd64 --rm -it -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 1.7.4' nwnxee/unified:build8193.36.11
-docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_1_7_4 -e NWN_PUBLICSERVER=0 -e NWN_SERVERNAME='The Lord of Terror 1.7.4' nwnxee/unified:build8193.36.11
+docker run --platform linux/amd64 --rm -it -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_2_0_0 -e NWN_PUBLICSERVER=1 -e NWN_SERVERNAME='The Lord of Terror 2.0.0' nwnxee/unified:build8193.36.11
+docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd):/nwn/home -e NWN_ILR=0 -e NWN_PORT=5121 -e NWN_MODULE=lot_2_0_0 -e NWN_PUBLICSERVER=0 -e NWN_SERVERNAME='The Lord of Terror 2.0.0' nwnxee/unified:build8193.36.11
 
 #
 # nginx
@@ -38,6 +38,6 @@ docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v $(pwd)
 cd /Users/jeffmcclure/lot/webserver
 docker run -dit -p 192.168.7.229:8000:80 --name nwn_nginx -v $(pwd):/usr/share/nginx/html nginx
 
-~/d/nwn/nwsync/bin/nwsync_write --description="My Cool Module Server Data V1" /Users/jeffmcclure/tmp/t/32586 modules/lot_1_7_4.mod
+~/d/nwn/nwsync/bin/nwsync_write --description="My Cool Module Server Data V1" /Users/jeffmcclure/tmp/t/32586 modules/lot_2_0_0.mod
 
 issue may have been in the source directory that docker is run from
