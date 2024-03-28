@@ -19,13 +19,26 @@ if [ -z "$LOT_DIR" ]; then
 	LOT_DIR=$HOME/lot
 fi
 
-mkdir "$LOT_DIR" 2>/dev/null
-echo cd "$LOT_DIR"
-cd "$LOT_DIR" || exit
-mkdir lot_docker webserver 2>/dev/null
-cd webserver || exit
+function header {
+	figlet "$@"
+}
+
+function setup1 {
+  header "setup1"
+	mkdir "$LOT_DIR" 2>/dev/null
+	echo cd "$LOT_DIR"
+	cd "$LOT_DIR" || exit
+	mkdir lot_docker webserver 2>/dev/null
+	cd webserver || exit
+	echo copy ${LOT_MOD_NAME}.mod
+	echo /bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
+	mkdir modules &>/dev/null
+	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/ || exit
+	md5sum modules/lot_1_7_4.mod ~/Documents/Neverwinter\ Nights/modules/lot_1_7_4.mod
+}
 
 function supporting {
+	header "supporting"
 	cd ../lot_docker || exit
 
 	if [ ! -e hak/lothak.hak ] || [ ! -e hak/lotcephak1.hak ] || [ ! -e hak/lotwav.hak ]; then
@@ -65,7 +78,7 @@ function supporting {
 }
 
 function webserver {
-	printf "\n\n%s\n\n\n" "webserver"
+	header "webserver"
 	cd ../webserver || exit
 
 	echo stopping nwn_nginx
@@ -76,9 +89,9 @@ function webserver {
 
 	echo creating nwn_nginx
 	#docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" abevoelker/docker-nginx: -c "${LOT_DIR}/nginx.conf"
-#	docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/nginx.conf":/etc/nginx/nginx.conf:ro nginx
+	#	docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/nginx.conf":/etc/nginx/nginx.conf:ro nginx
 
-  cat<<EOF >../default.conf
+	cat <<EOF >../default.conf
 server {
     listen       80;
     listen  [::]:80;
@@ -99,7 +112,7 @@ EOF
 }
 
 function nwn {
-	printf "\n\n%s\n\n\n" "nwn"
+	header "nwn"
 	cd ../lot_docker || exit
 	cat <<EOF >env.txt
     NWN_ILR=0
@@ -119,16 +132,12 @@ EOF
 	echo removing nwn_lot
 	docker rm nwn_lot &>/dev/null
 
-	echo copy ${LOT_MOD_NAME}.mod
-	mkdir modules &>/dev/null
-	/bin/cp "${NWN_DIR}/modules/${LOT_MOD_NAME}.mod" modules/
-
 	echo creating nwn_lot
 	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.36.11
 }
 
 function nwsync {
-	printf "\n\n%s\n\n\n" "nwsync"
+	header "nwsync"
 	cd ../lot_docker || exit
 	nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
@@ -136,6 +145,9 @@ function nwsync {
 if [ $# -eq 0 ]; then
 	set -- sync web nwn
 fi
+
+setup1
+supporting
 
 for i in "$@"; do
 	case $i in
@@ -145,7 +157,6 @@ for i in "$@"; do
 		;;
 
 	nwn)
-		supporting
 		nwn
 		;;
 
@@ -155,3 +166,5 @@ for i in "$@"; do
 
 	esac
 done
+
+md5sum modules/lot_1_7_4.mod ~/Documents/Neverwinter\ Nights/modules/lot_1_7_4.mod
