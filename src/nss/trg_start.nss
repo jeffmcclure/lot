@@ -14,7 +14,7 @@ void main() {
 
     if (GetItemPossessedBy(oPC, "CloakofFastFeet") != OBJECT_INVALID) return; // only allow one time
 
-    RewardPartyGP(500, oPC, FALSE); // reward just player, not party
+    //RewardPartyGP(500, oPC, FALSE); // reward just player, not party
 
     CreateItemOnObject("nw_it_mpotion002", oPC);
     CreateItemOnObject("nw_it_mpotion020", oPC);
