@@ -1,5 +1,6 @@
 #include "loot_inc_data"
 #include "inc_jeff"
+#include "x0_i0_corpses"
 
 object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
     //SendMessageToPC(GetFirstPC(), "CreateLoot() 1");
@@ -207,18 +208,26 @@ object dbCreateItemOnObject(string sItemTemplate, object oTarget, object oPC, in
 
 // * Returns the object that either last opened the container or destroyed it
 object GetLastOpenerOrKiller() {
+    //SendMessageToPC(GetFirstPC(), "GetLastOpenerOrKiller() enter");
     object oPC = GetLastOpenedBy();
-    if (GetIsPC(oPC) == TRUE)
+    if (GetIsPC(oPC) == TRUE) {
+        //SendMessageToPC(GetFirstPC(), "GetLastOpenerOrKiller() opened by pc");
         return oPC;
+    }
 
     oPC = GetLastKiller();
-    if (GetIsPC(oPC) == TRUE)
+    if (GetIsPC(oPC) == TRUE) {
+        //SendMessageToPC(GetFirstPC(), "GetLastOpenerOrKiller() killed by pc");
         return oPC;
+    }
 
     oPC = GetMaster(oPC);
-    if (GetIsPC(oPC) == TRUE)
+    if (GetIsPC(oPC) == TRUE) {
+        //SendMessageToPC(GetFirstPC(), "GetLastOpenerOrKiller() killed by henchman");
         return oPC;
+    }
 
+    //SendMessageToPC(GetFirstPC(), "GetLastOpenerOrKiller() failsafe");
     return GetFirstPC();
 }
 
@@ -4652,7 +4661,6 @@ void GenTreasure(int nTreasureType, object oCreateOn, object oLastOpener) {
 
 void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
     //SendMessageToPC(GetFirstPC(), "TreasureChest() enter");
-    object oLastOpener = GetLastOpenerOrKiller();
 
     if (GetLocalInt(OBJECT_SELF, "NW_DO_ONCE") != 0) {
         return;
@@ -4660,6 +4668,7 @@ void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
 
     SetLocalInt(OBJECT_SELF, "NW_DO_ONCE", 1);
 
+    object oLastOpener = GetLastOpenerOrKiller();
     object oMember = GetFirstFactionMember(oLastOpener, TRUE);
 
     while (GetIsObjectValid(oMember)) {
@@ -4725,7 +4734,7 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
 // for each item in the current inventory set "loot.*" properties
 // then PopulateLootForParty() will create items for each party member based on loot.* properties
 void MoveInventoryLootToProperties() {
-    //SendMessageToPC(GetFirstPC(), "loot_partyfi1 1");
+    //SendMessageToPC(GetFirstPC(), "loot_partyfi1 1 " + GetResRef(OBJECT_SELF));
     if (GetLocalInt(OBJECT_SELF, "ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "ONCE", 1);
 
@@ -4749,5 +4758,27 @@ void MoveInventoryLootToProperties() {
             DestroyObject(oItem);
         }
         oItem = GetNextItemInInventory(OBJECT_SELF);
+    }
+
+    int slot;
+    for (slot = 0; slot < NUM_INVENTORY_SLOTS; ++slot) {
+        oItem = GetItemInSlot(slot, OBJECT_SELF);
+        string resref = GetResRef(oItem);
+        string name = GetName(oItem);
+
+        //if (resref != "" || name != "")
+            //SendMessageToPC(GetFirstPC(), "loot_partyfi1 equip '" + resref + "' '" + name + "' drop:" + IntToString(GetDroppableFlag(oItem)));
+
+        if (GetIsObjectValid(oItem) && GetDroppableFlag(oItem)) {
+            SetDroppableFlag(oItem, FALSE); // DestroyObject not working, but this prevents duplicate loot distribution.
+            SetLocalString(OBJECT_SELF, "loot" + IntToString(loop), GetResRef(oItem));
+            loop = loop + 1;
+            //SendMessageToPC(GetFirstPC(), "loot_partyfi1 destroy " + GetResRef(oItem) + " " + GetName(oItem) + " drop:" + IntToString(GetDroppableFlag(oItem)));
+            //AssignCommand(OBJECT_SELF, ActionUnequipItem(oItem));
+            //SetObjectIsDestroyable(oItem, TRUE);
+            //DestroyObject(oItem, 1.0);
+            //SetItemCursedFlag(oItem, TRUE);
+            //SetLocalString(oItem, "LIMIT_ACQUIRE", "---===---"); // don't let anyone pick up
+        }
     }
 }

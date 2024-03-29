@@ -1,5 +1,7 @@
 void main() {
-    ExecuteScript("ac_"+GetTag (GetModuleItemAcquired()), OBJECT_SELF); // original script
+    string script = "ac_"+GetTag (GetModuleItemAcquired());
+    //SendMessageToPC(GetFirstPC(), "script = " + script);
+    ExecuteScript(script, OBJECT_SELF); // original script
 
     object oItem = GetModuleItemAcquired();
     object oPC =  GetItemPossessor(oItem);
