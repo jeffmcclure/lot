@@ -1,13 +1,11 @@
 [Back to README.md](README.md)
 
 # Changelog
-## 2.0.2 &mdash; 2024-03-25
+## 2.0.2 &mdash; 2024-03-28
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  For sale from the Witch
-* [ ] todo: items in inventory when monster killed, will use loot genie
-* [ ] todo: Dark Souls death recovery system
 * Added Achievement Dude Perfect
 * Added Achievement Raw Deal
-
+* Use nwt (Neverwinter Toolkit) version 0.0.4
 
 ## 2.0.1 &mdash; 2024-03-24
 * Fixed issue where some monsters were not dropping loot
