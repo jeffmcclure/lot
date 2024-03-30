@@ -5771,11 +5771,17 @@
       "Active" : 1,
       "CreatureList" : [
         {
-          "Appearance" : 39,
-          "CR" : 17.0,
-          "ResRef" : "lich003",
-          "SingleSpawn" : 0
+          "Appearance" : 85,
+          "CR" : 3.0,
+          "ResRef" : "gobwizb001",
+          "SingleSpawn" : 1
         },
+        {
+          "Appearance" : 82,
+          "CR" : 4.0,
+          "ResRef" : "gobchiefa001",
+          "SingleSpawn" : 1
+        }
 //        {
 //          "Appearance" : 39,
 //          "CR" : 28.0,
@@ -5830,10 +5836,40 @@
       "Active" : 1,
       "CreatureList" : [
         {
-          "Appearance" : 39,
-          "CR" : 10.0,
-          "ResRef" : "lich003",
+          "Appearance" : 86,
+          "CR" : 0.25,
+          "ResRef" : "goblina001",
           "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 87,
+          "CR" : 0.25,
+          "ResRef" : "goblinb001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 83,
+          "CR" : 3.0,
+          "ResRef" : "gobchiefb001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 84,
+          "CR" : 3.0,
+          "ResRef" : "gobwiza001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 85,
+          "CR" : 3.0,
+          "ResRef" : "gobwizb001",
+          "SingleSpawn" : 1
+        },
+        {
+          "Appearance" : 82,
+          "CR" : 4.0,
+          "ResRef" : "gobchiefa001",
+          "SingleSpawn" : 1
         }
       ],
       "Difficulty" : 5,
@@ -5865,9 +5901,9 @@
         "StringRef" : 14513,
         "Strings" : [ ]
       },
-      "MaxCreatures" : 1,
+      "MaxCreatures" : 3,
       "PlayerOnly" : 1,
-      "RecCreatures" : 1,
+      "RecCreatures" : 3,
       "Reset" : 0,
       "ResetTime" : 60,
       "Respawns" : 0,
@@ -16610,7 +16646,7 @@
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "",
-      "OnOpen" : "loot_normal_hi",
+      "OnOpen" : "dth_generic_hi",
       "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 1,
@@ -16692,7 +16728,7 @@
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "",
-      "OnOpen" : "loot_normal_hi",
+      "OnOpen" : "dth_generic_hi",
       "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,

@@ -5,6 +5,8 @@
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  For sale from the Witch
 * Added Achievement Dude Perfect
 * Added Achievement Raw Deal
+* Do not destroy town portal when player uses it to return to dungeon
+* Start adding green [Quest] indicators in conversations for dialog that leads to quests
 * Use nwt (Neverwinter Toolkit) version 0.0.4
 
 ## 2.0.1 &mdash; 2024-03-24

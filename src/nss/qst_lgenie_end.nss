@@ -3,7 +3,6 @@ void main() {
 
     // Complete loot genie quest
     AddJournalQuestEntry("QST_LOOT_GENIE", 2, GetPCSpeaker(), FALSE, FALSE); // only give to player not party
-    SendMessageToPC(oPC, "Here is your loot genie");
 
     // Give loot genie
     object obj = CreateItemOnObject("lootgenie", oPC);

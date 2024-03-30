@@ -4692,6 +4692,9 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     if (oPC == OBJECT_INVALID)
         oPC = GetLastOpenerOrKiller();
 
+    if (!GetIsPC(oPC))
+        oPC = GetFirstPC();
+
    //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 1");
     int lootNum;
     for (lootNum = 1; lootNum < 8; lootNum++) {
