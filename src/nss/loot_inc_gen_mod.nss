@@ -4714,7 +4714,7 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
             //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 3");
-            CreateLoot(lootResRef, target, oPC);
+            CreateLoot(lootResRef, target, oMember);
             oMember = GetNextFactionMember(oPC, TRUE);
         }
     }
