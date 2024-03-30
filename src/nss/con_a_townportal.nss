@@ -10,10 +10,12 @@ void main()
 
   // oTownPortal is invalid when oPC has selected "Cancel" or
   // has aborted the dialog (nToken == 0)
-  if (GetIsObjectValid(oTownPortal))
-  {
+  if (GetIsObjectValid(oTownPortal) && nToken > 0) {
     AssignCommand(oPC,JumpToObject(oTownPortal));
   }
+
+  // do not destroy town portal when user returns to dungeon via portal
+  return;
 
   // delete local variables
   int nTokenMax = GetLocalInt(oPC,"TokenMax");

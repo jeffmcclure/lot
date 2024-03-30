@@ -1,7 +1,7 @@
 {
   "DelayEntry" : 0,
   "DelayReply" : 0,
-  "EndConverAbort" : "con_a_townportal",
+  "EndConverAbort" : "con_can_townport",
   "EndConversation" : "con_a_townportal",
   "EntryList" : [
     {
@@ -90,9 +90,10 @@
     }
   ],
   "NumWords" : 37,
-  "PreventZoomIn" : 0,
+  "PreventZoomIn" : 1,
   "ReplyList" : [
     {
+      "Script" : "con_can_townport",
       "Text" : "Cancel."
     },
     {
