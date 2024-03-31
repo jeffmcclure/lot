@@ -1,0 +1,59 @@
+{
+  "ResponseId" : "npc-1",
+  "NpcSays" : "Ah, that is what I am here for, <FirstName>. I will try my best to tell you everything I know.",
+  "UserChoices" : [
+    {
+      "UserSays" : "Tell me about the Archbishop Lazarus.",
+      "AppearIfScript" : "prq_lazarusx2",
+      "IncludeResponseId" : "pc-1",
+    },
+    {
+      "UserSays" : "<StartAction>[Quest]</Start> Tell me about the Archbishop Lazarus.",
+      "AppearIfScript" : "prq_lazarusx",
+      "Response" : {
+        "ResponseId" : "pc-1",
+        "NpcSays" : "Yes, you speak of Lazarus. One who was once well respected in our land. Even before King Leoric descended into madness and lost his son, the Archbishop Lazarus was acting... strangely.",
+        "UserChoices" : [
+          {
+            "UserSays" : "What do you mean?",
+            "Response" : {
+              "NpcSays" : "Lazarus seemed to be motivated by unseen forces clinging to shadows.  And acting out some dark plan that was not his own.",
+              "OnAppearSound" : "cain_lazarus2",
+              "UserChoices" : [
+                {
+                  "UserSays" : "Yet he was still able to convince the townspeople to follow him?",
+                  "Response" : {
+                    "NpcSays" : "It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the labyrinth to find the King's missing son. He played upon their fears, and whipped them into a frenzied mob!  None of them were prepared for what lay within the cold earth...",
+                    "UserChoices" : [
+                      {
+                        "UserSays" : "Continue...",
+                        "Response" : {
+                          "NpcSays" : "Lazarus abandoned them down there, left in the clutches of unspeakable horrors... to die...",
+                          "OnAppearScript" : "qst_lazarus",
+                          "OnAppearSound" : "cain_lazarus4",
+                          "UserChoices" : [
+                            {
+                              "UserSays" : "Thank you, that's all I need to know."
+                            },
+                            {
+                              "UserSays" : "I have other questions I need to ask",
+                              "IncludeResponseId" : "npc-1"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "UserSays" : "I have other questions I need to ask.",
+                  "IncludeResponseId" : "npc-1"
+                },
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

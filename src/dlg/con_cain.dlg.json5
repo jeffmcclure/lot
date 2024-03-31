@@ -5,68 +5,69 @@
   "EndConversation" : "npcact_wrapcn",
   "EntryList" : [
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 29,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 154,
           "Active" : "prq_cathedmap1",
-          "Index" : 160,
           "IsChild" : false
         },
         {
+          "Index" : 149,
           "Active" : "prq_diablo",
-          "Index" : 155,
           "IsChild" : false
         },
         {
-          "Active" : "prq_lazarus",
-          "Index" : 147,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_warlord",
           "Index" : 141,
+          "Active" : "prq_lazarus",
           "IsChild" : false
         },
         {
+          "Index" : 135,
+          "Active" : "prq_warlord",
+          "IsChild" : false
+        },
+        {
+          "Index" : 128,
           "Active" : "prq_izual4",
-          "Index" : 134,
           "IsChild" : false
         },
         {
-          "Active" : "prq_mushroom",
-          "Index" : 131,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_andariel2",
           "Index" : 125,
+          "Active" : "prq_mushroom",
           "IsChild" : false
         },
         {
+          "Index" : 119,
+          "Active" : "prq_andariel2",
+          "IsChild" : false
+        },
+        {
+          "Index" : 114,
           "Active" : "prq_chamber2",
-          "Index" : 120,
           "IsChild" : false
         },
         {
+          "Index" : 107,
           "Active" : "prq_blind2",
-          "Index" : 113,
           "IsChild" : false
         },
         {
-          "Active" : "prq_island3",
-          "Index" : 109,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_arkaine2",
           "Index" : 103,
+          "Active" : "prq_island3",
           "IsChild" : false
         },
         {
+          "Index" : 97,
+          "Active" : "prq_arkaine2",
+          "IsChild" : false
+        },
+        {
+          "Index" : 89,
           "Active" : "prq_identify",
-          "Index" : 95,
           "IsChild" : false
         },
         1,
@@ -77,79 +78,75 @@
       "Text" : "Hello <FirstName>!  Stay a while and listen!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        67,
+        61,
         {
+          "Index" : 57,
           "Active" : "prq_butcherx",
-          "Index" : 63,
           "IsChild" : false
         },
         {
+          "Index" : 54,
           "Active" : "prq_butchcleaver",
-          "Index" : 60,
           "IsChild" : false
         },
         {
+          "Index" : 47,
           "Active" : "prq_watersupplyx",
-          "Index" : 53,
           "IsChild" : false
         },
         {
+          "Index" : 43,
           "Active" : "prq_wormsx",
-          "Index" : 49,
           "IsChild" : false
         },
         {
+          "Index" : 38,
           "Active" : "prq_fleshdoomx",
-          "Index" : 44,
           "IsChild" : false
         },
         {
+          "Index" : 33,
           "Active" : "prq_leoricx",
-          "Index" : 39,
           "IsChild" : false
         },
         {
-          "Active" : "prq_ogdensignx",
-          "Index" : 34,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_magicrockx",
-          "Index" : 30,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_lightsx",
           "Index" : 28,
+          "Active" : "prq_ogdensignx",
           "IsChild" : false
         },
         {
+          "Index" : 24,
+          "Active" : "prq_magicrockx",
+          "IsChild" : false
+        },
+        {
+          "Index" : 22,
+          "Active" : "prq_lightsx",
+          "IsChild" : false
+        },
+        {
+          "Index" : 17,
           "Active" : "prq_andarielx",
-          "Index" : 23,
           "IsChild" : false
         },
         {
+          "Index" : 14,
           "Active" : "prq_mushroomx",
-          "Index" : 20,
           "IsChild" : false
         },
         {
-          "Active" : "prq_anvilx",
-          "Index" : 15,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_lachdananx",
           "Index" : 9,
+          "Active" : "prq_anvilx",
           "IsChild" : false
         },
         {
-          "Active" : "prq_lazarusx",
           "Index" : 3,
+          "Active" : "prq_lachdananx",
           "IsChild" : false
         },
         2
@@ -157,85 +154,38 @@
       "Text" : "Ah, that is what I am here for, <FirstName>. I will try my best to tell you everything I know."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         4
       ],
-      "Sound" : "cain_lazarus1",
-      "Text" : "Yes, you speak of Lazarus. One who was once well respected in our land. Even before King Leoric descended into madness and lost his son, the Archbishop Lazarus was acting... strangely."
+      "Sound" : "cain_lachdanan1",
+      "Text" : "You claim to have spoken with Lachdanan? He was a great hero during his life. Lachdanan was an honorable and just man, who served his king faithfully for years. But of course, you already know that."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         6,
-        5,
-        {
-          "Index" : 41,
-          "IsChild" : true
-        }
-      ],
-      "Sound" : "cain_lazarus2",
-      "Text" : "Lazarus seemed to be motivated by unseen forces clinging to shadows.  And acting out some dark plan that was not his own."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        7
-      ],
-      "Sound" : "cain_lazarus3",
-      "Text" : "It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the labyrinth to find the King's missing son. He played upon their fears, and whipped them into a frenzied mob!  None of them were prepared for what lay within the cold earth..."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        8,
-        {
-          "Index" : 41,
-          "IsChild" : true
-        }
-      ],
-      "Script" : "qst_lazarus",
-      "Sound" : "cain_lazarus4",
-      "Text" : "Lazarus abandoned them down there, left in the clutches of unspeakable horrors... to die..."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        10
-      ],
-      "Sound" : "cain_lachdanan1",
-      "Text" : "You claim to have spoken with Lachdanan? He was a great hero during his life. Lachdanan was an honorable and just man, who served his king faithfully for years. But of course, you already know that."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        12,
-        11
+        5
       ],
       "Sound" : "cain_lachdanan2",
       "Text" : "For those who were caught within the grasp of the King's curse, Lachdanan would be the least likely to submit to the darkness without a fight. So I suppose that your story \"could\" be true."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        14,
-        13,
+        8,
+        7,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -243,34 +193,37 @@
       "Text" : "If I were in your place, my friend, I would find a way to release him from his torture..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        16
+        10
       ],
       "Sound" : "cain_anvil1",
       "Text" : "Griswold speaks of the Anvil of Fury, a legendary artifact long searched for, but never found.  Crafted from the metallic bones of the razor pit demons, the Anvil of Fury was smelt around the skulls of the five most powerful magi of the Underworld."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        17
+        11
       ],
       "Sound" : "cain_anvil2",
       "Text" : "Carved with runes of power and chaos, any weapon or armor forged upon this anvil will be immersed upon the realm of chaos, embedding it with magical properties."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        19,
-        18,
+        13,
+        12,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -278,14 +231,15 @@
       "Text" : "It is said that the unpredictable nature of chaos makes it difficult to know what the outcome of this smithing would be."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        22,
-        21,
+        16,
+        15,
         {
-          "Index" : 65,
+          "Index" : 59,
           "IsChild" : true
         }
       ],
@@ -293,34 +247,37 @@
       "Text" : "The witch Adria seeks a black mushroom?   I know as much about black mushrooms as I do about red herrings.  Perhaps Pepin the healer could tell you more, but this is something that cannot be found in any of my stories or books."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        24
+        18
       ],
       "Sound" : "cain_andariel3",
       "Text" : "Known as the Maiden of Anguish, her thirst for mortal blood was so great, that she sought to learn a spell to breach the mortal realm."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        25
+        19
       ],
       "Sound" : "cain_andariel4",
       "Text" : "By seducing one of the dark sorcerers of the netherworld, Andariel took the knowledge she needed and so began to lure mortal men into her dark corner of hell!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        27,
-        26,
+        21,
+        20,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -328,38 +285,41 @@
       "Text" : "If these legends are true, she is not a creature to be taken lightly..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 133,
+          "Index" : 127,
           "IsChild" : true
         },
-        29
+        23
       ],
       "Sound" : "cain_andariel1",
       "Text" : "While the barmaid may seem a bit confused at times, it is true that men have been disappearing from the village!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        31
+        25
       ],
       "Sound" : "cain_rock1",
       "Text" : "Griswold speaks of the Heaven stone that was destined for the enclave located in the east.  It was being taken there for further study.  This stone glowed with an energy that somehow granted vision beyond that which a normal man could possess."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        33,
-        32,
+        27,
+        26,
         {
-          "Index" : 65,
+          "Index" : 59,
           "IsChild" : true
         }
       ],
@@ -367,34 +327,37 @@
       "Text" : "I do not know what secrets it holds, my friend, but finding this stone would certainly prove most valuable."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        35
+        29
       ],
       "Sound" : "cain_sign1",
       "Text" : "I see that this strange behavior puzzles you as well."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        36
+        30
       ],
       "Sound" : "cain_sign2",
       "Text" : "I would surmise that since many demons fear the light of the sun, and believe that it holds great power. It may be that the rising sun depicted on the sign you speak of has led them to believe that it, too, holds some arcane powers."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        38,
-        37,
+        32,
+        31,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -402,103 +365,112 @@
       "Text" : "Hmm... perhaps they are not all as smart as we had feared..."
     },
     {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        34
+      ],
+      "Sound" : "cain_leoric1",
+      "Text" : "Ah, the story of our king, is it? The tragic fall of Leoric was a harsh blow to this land. The people always loved the king, and now they live in mortal fear of him!"
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        37,
+        36,
+        35
+      ],
+      "Sound" : "cain_leoric2",
+      "Text" : "The question that I keep asking myself, is how he could have fallen so far from the light?  As Leoric had always been the holiest of men, only the vilest powers of hell could so utterly destroy a man from within..."
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        39
+      ],
+      "Sound" : "cain_flshdm1",
+      "Text" : "The priest Tremayne is a holy man from an ancient order.  Their dealings with the evil forces at work are well respected and well documented."
+    },
+    {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         40
       ],
-      "Sound" : "cain_leoric1",
-      "Text" : "Ah, the story of our king, is it? The tragic fall of Leoric was a harsh blow to this land. The people always loved the king, and now they live in mortal fear of him!"
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        43,
-        42,
-        41
-      ],
-      "Sound" : "cain_leoric2",
-      "Text" : "The question that I keep asking myself, is how he could have fallen so far from the light?  As Leoric had always been the holiest of men, only the vilest powers of hell could so utterly destroy a man from within..."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        45
-      ],
-      "Sound" : "cain_flshdm1",
-      "Text" : "The priest Tremayne is a holy man from an ancient order.  Their dealings with the evil forces at work are well respected and well documented."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        46
-      ],
       "Sound" : "cain_flshdm2",
       "Text" : "I, too, have heard legends that speak of the cursed demon blade called Shadowfang.  It is said to consume the tortured souls of its victims.  These souls are trapped within its ebon blade, and augment its unholy power..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        48,
-        47
+        42,
+        41
       ],
       "Sound" : "cain_flshdm3",
       "Text" : "I have also read of a great hellforge, where even the mightiest weapon could be created - or destroyed!  Tread carefully when dealing with Shadowfang and its master - lest you be drawn into the sword as well!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        50
+        44
       ],
       "Sound" : "cain_worms1",
       "Text" : "Worms that rise up from the ground?  Many of the ancient writings speak of poisonous insects, and foul creatures of the skies and seas plaguing mankind."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        52,
-        51
+        46,
+        45
       ],
       "Sound" : "cain_worms2",
       "Text" : "It is no surprise that the very earth would offer up a similar peril - now that the denizens of the underworld are upon us."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        57,
-        54
+        51,
+        48
       ],
       "Sound" : "cain_water1",
       "Text" : "Hmmm... I don't know what I can really tell you about this that would be of any help. The water that fills our wells comes from an underground spring."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        56,
-        55,
+        50,
+        49,
         {
-          "Index" : 57,
+          "Index" : 51,
           "IsChild" : true
         },
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -506,18 +478,19 @@
       "Text" : "Unfortunately, I do not know what would cause our water supply to be tainted."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        59,
-        58,
+        53,
+        52,
         {
-          "Index" : 54,
+          "Index" : 48,
           "IsChild" : true
         },
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -525,117 +498,123 @@
       "Text" : "I have heard of a tunnel that leads to a great lake. Perhaps they are one and the same!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        62,
-        61
+        56,
+        55
       ],
       "Text" : "That thing you hold reeks of the vile stench of evil!  The smell of dried blood on its blade makes me sick to my stomach.  I fear that you won't find anyone here in Tristram who will agree to take it off your hands!  It would be better if you just dropped that thing somewhere, so that the people of this town would not be reminded of the slaughter caused by that dark weapon..."
     },
     {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        58
+      ],
+      "Sound" : "cain_lazarus3",
+      "Text" : "It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the labyrinth to find the king's missing son. He played upon their fears, and whipped them into a frenzied mob. None of them were prepared for what lay within the cold earth..."
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        60,
+        59
+      ],
+      "Sound" : "cain_lazarus4",
+      "Text" : "Lazarus abandoned them down there - left in the clutches of unspeakable horrors ... to die."
+    },
+    {
+      "ActionParams" : [ ],
+      "AnimLoop" : 1,
+      "Animation" : 0,
+      "Delay" : 4294967295,
+      "RepliesList" : [
+        {
+          "Index" : 87,
+          "Active" : "prq_knowadria",
+          "IsChild" : false
+        },
+        {
+          "Index" : 85,
+          "Active" : "prq_knowdeese",
+          "IsChild" : false
+        },
+        {
+          "Index" : 82,
+          "Active" : "prq_knowfarnham",
+          "IsChild" : false
+        },
+        {
+          "Index" : 79,
+          "Active" : "prq_knowgillian",
+          "IsChild" : false
+        },
+        {
+          "Index" : 76,
+          "Active" : "prq_knowgriswold",
+          "IsChild" : false
+        },
+        {
+          "Index" : 74,
+          "Active" : "prq_knowlester",
+          "IsChild" : false
+        },
+        {
+          "Index" : 71,
+          "Active" : "prq_knowogden",
+          "IsChild" : false
+        },
+        {
+          "Index" : 69,
+          "Active" : "prq_knowpepin",
+          "IsChild" : false
+        },
+        {
+          "Index" : 66,
+          "Active" : "prq_knowtremayne",
+          "IsChild" : false
+        },
+        {
+          "Index" : 63,
+          "Active" : "prq_knowwirt",
+          "IsChild" : false
+        },
+        {
+          "Index" : 59,
+          "IsChild" : true
+        },
+        62
+      ],
+      "Text" : "It would be a pleasure to share what I know about my friends in Tristram."
+    },
+    {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         64
       ],
-      "Sound" : "cain_lazarus3",
-      "Text" : "It seems that the Archbishop Lazarus goaded many of the townsmen into venturing into the labyrinth to find the king's missing son. He played upon their fears, and whipped them into a frenzied mob. None of them were prepared for what lay within the cold earth..."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        66,
-        65
-      ],
-      "Sound" : "cain_lazarus4",
-      "Text" : "Lazarus abandoned them down there - left in the clutches of unspeakable horrors ... to die."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        {
-          "Active" : "prq_knowadria",
-          "Index" : 93,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowdeese",
-          "Index" : 91,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowfarnham",
-          "Index" : 88,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowgillian",
-          "Index" : 85,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowgriswold",
-          "Index" : 82,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowlester",
-          "Index" : 80,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowogden",
-          "Index" : 77,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowpepin",
-          "Index" : 75,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowtremayne",
-          "Index" : 72,
-          "IsChild" : false
-        },
-        {
-          "Active" : "prq_knowwirt",
-          "Index" : 69,
-          "IsChild" : false
-        },
-        {
-          "Index" : 65,
-          "IsChild" : true
-        },
-        68
-      ],
-      "Text" : "It would be a pleasure to share what I know about my friends in Tristram."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [
-        70
-      ],
       "Sound" : "cain_wirt1",
       "Text" : "The story of Wirt is a frightening and tragic one.  He was taken from the arms of his mother and dragged into the labyrinth by the small, foul demons that wield wicked spears. There were many other children taken that day, including the son of King Leoric."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        71,
+        65,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -643,23 +622,25 @@
       "Text" : "The knights of the palace went below, but never returned.  The blacksmith found the boy, but only after the foul beasts had begun to torture him for their sadistic pleasures..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        73
+        67
       ],
       "Sound" : "cain_trem1",
       "Text" : "Tremayne is an occasional visitor to our town - and seems to have little problem coming and going. It is strange how at times anyone who tries to leave Tristram is hunted down and slain by the cloaked riders... and at other times, it is a simple matter to leave."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        74,
+        68,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -667,13 +648,14 @@
       "Text" : "I think it is that uncertain fear that keep some of us here. But we are glad for Tremayne's bravery and luck in keeping some contact with the rest of the kingdom."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        76,
+        70,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -681,23 +663,25 @@
       "Text" : "Ah, Pepin.  I count him as a true friend - perhaps the closest I have here.  He is a bit addled at times, but never a more caring or considerate soul has existed.  His knowledge and skills are equaled by few, and his door is always open."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        78
+        72
       ],
       "Sound" : "cain_ogden1",
       "Text" : "Odgen has owned and run the Rising Sun Inn and Tavern for almost four years now.  He purchased it just a few short months before everything here went to hell."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        79,
+        73,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -705,36 +689,39 @@
       "Text" : "He and his wife Garda do not have the money to leave as they invested all they had in making a life for themselves here.  He is a good man with a deep sense of responsibility."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        81,
+        75,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
       "Text" : "That man bothers me.  I have never seen such overwhelming fiddle-faddle in my entire life."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        83
+        77
       ],
       "Sound" : "cain_gris1",
       "Text" : "Griswold - a man of great action and great courage.  I bet he never told you about the time he went into the labyrinth to save Wirt, did he?  He knows his fair share of the dangers to be found there,  but then again - so do you."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        84,
+        78,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -742,23 +729,25 @@
       "Text" : "He is a skilled craftsman, and if he claims to be able to help you in any way, you can count on his honesty and his skill."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        86
+        80
       ],
       "Sound" : "cain_gilln1",
       "Text" : "Ah, Gillian is a fine woman!  Much adored for her high spirits and her quick laugh - she holds a special place in my heart.  She stays on at the tavern to support her elderly grandmother who is too sick to travel."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        87,
+        81,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -766,82 +755,88 @@
       "Text" : "I sometimes fear for her safety, but I know that any man in the village would rather die than see her harmed."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        89
+        83
       ],
       "Sound" : "cain_farnm1",
       "Text" : "Poor Farnham...  He is a disquieting reminder of the doomed assembly that entered into the cathedral with Lazarus on that dark day.  He escaped with his life, but his courage and much of his sanity were left in some dark pit."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         },
-        90
+        84
       ],
       "Sound" : "cain_farnm2",
       "Text" : "He finds comfort only at the bottom of his tankard nowadays, but there are occasional bits of truth buried within his constant ramblings..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         },
         {
-          "Index" : 90,
+          "Index" : 84,
           "IsChild" : true
         }
       ],
       "Text" : "There are several rumors about Farnham's disappearance.  Some said he left town, others said he went back into the dungeon to get his revenge for the betrayal the Archbishop has wrought upon the townsfolk.  I just hope he is fine wherever he is.  I admit he a source of exasperation for most of the people in this town, but such tragedy is too much for one man to handle..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        92,
+        86,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
       "Text" : "Deese is a man of great dedication, and a father of great leniency.  He has managed to take care of both his crops and his children despite the loss of his wife years ago.  He is a valuable asset in this town."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 92,
+          "Index" : 86,
           "IsChild" : true
         },
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
       "Text" : "Such a sad thing that was, what happened to Deese's sons.  We are grateful that you tried your best to save them, it's just a pity you were too late.  In leaving Tristram, I hope Deese finds solace in his life that has been filled with so much sadness..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        94,
+        88,
         {
-          "Index" : 67,
+          "Index" : 61,
           "IsChild" : true
         }
       ],
@@ -849,83 +844,90 @@
       "Text" : "The witch, Adria, is an anomaly here in Tristram.  She arrived shortly after the cathedral was desecrated while most everyone else was fleeing.  She had a small hut constructed at the edge of town, seemingly overnight, and has access to many strange and arcane artifacts and tomes of knowledge that even I have never seen before."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 96,
           "Active" : "prq_100gold",
-          "Index" : 102,
           "IsChild" : false
         },
-        97,
-        96
+        91,
+        90
       ],
       "Text" : "I could discern the magical properties of items for only 100 gold pieces."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 39,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 93,
           "Active" : "prq_100gold",
-          "Index" : 99,
           "IsChild" : false
         },
-        98
+        92
       ],
       "Text" : "<StartAction>[Failure]</Start>  Surely <FirstName>, a small sum for the valuable help of an old man is worth it, don't you think?"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 48,
       "Delay" : 4294967295,
       "RepliesList" : [
-        101,
-        100
+        95,
+        94
       ],
       "Text" : "<StartAction>[Success]</Start>  Well... I suppose you are right.  Coming to Tristram's aid is indeed payment enough for my services."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        104
+        98
       ],
       "Sound" : "cain_valor1",
       "Text" : "The gateway of blood and the halls of fire are landmarks of mystic origin.  Wherever this book you read from resides it is surely a place of great power.  Legends speak of a pedestal that is carved from obsidian stone and has a pool of boiling blood atop its bone encrusted surface."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        105
+        99
       ],
       "Sound" : "cain_valor2",
       "Text" : "There are also allusions to stones of blood that will open the door that guards an ancient treasure... The nature of this treasure is shrouded in speculation, my friend, but it is said that the ancient hero Arkaine placed the holy armor Valor in a secret vault."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        106
+        100
       ],
       "Sound" : "cain_valor3",
       "Text" : "Arkaine was the first mortal to turn the tide of the Sin War and chase the legions of darkness back to the Burning Hells.  Just before Arkaine died, his armor was hidden away in a secret vault."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        108,
-        107,
+        102,
+        101,
         {
-          "Index" : 65,
+          "Index" : 59,
           "IsChild" : true
         }
       ],
@@ -934,71 +936,77 @@
       "Text" : "It is said that when this holy armor is again needed, a hero will arise to don Valor once more... Perhaps you are that hero..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        110
+        104
       ],
       "Sound" : "cain_island1",
       "Text" : "Hmmm...  An island where angels watched?  Although Farnham's memory is often cloudy these days, that does seem familiar...  Perhaps the ancient chronicles of the Sin War can help us..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        111
+        105
       ],
       "Sound" : "cain_island2",
       "Text" : "Ah yes, here is something...\n\n\"In a time long forgotten, a sea of blue rested on the edge of a fiery netherworld.  This was an oasis for those who acted as the watchmen over the gates of Hell.  Angels and warriors of light could use this place to heal themselves and gather their strength.  It was also a staging area where they could train and prepare for the Sin War.\""
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         },
-        112
+        106
       ],
       "Script" : "giv_island2",
       "Sound" : "cain_island3",
       "Text" : "\"Legends speak of a trinity of rocks that hide the path to this 'island of the sunless sea'...\""
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        114
+        108
       ],
       "Sound" : "cain_blind1",
       "Text" : "You recite an interesting rhyme written in a style that reminds me of other works."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        117,
-        116,
-        115
+        111,
+        110,
+        109
       ],
       "Sound" : "cain_blind2",
       "Text" : "Let me think now.. what was it?"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        119,
-        118,
+        113,
+        112,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -1007,34 +1015,37 @@
       "Text" : "\"Darkness shrouds the hidden, \nEyes glowing unseen, \nWith only the sounds of razor claws briefly scraping, \nTo torment those poor souls, \nWho have been made sightless for all eternity... \n\nThe prison for those so damned is named, \nthe Halls of the Blind...\""
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        121
+        115
       ],
       "Sound" : "cain_bone1",
       "Text" : "A book that speaks of a chamber of human bones?!  Well, a chamber of bone \"is\" mentioned in certain archaic writings that I studied in the libraries of the East."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        122
+        116
       ],
       "Sound" : "cain_bone2",
       "Text" : "These tomes inferred that when the lords of the Underworld desired to protect great treasures, they would create domains, where those who died in the attempt to steal that treasure, would be forever bound to defend it."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        124,
-        123,
+        118,
+        117,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -1043,44 +1054,48 @@
       "Text" : "A twisted, but strangely fitting, end..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        126
+        120
       ],
       "Sound" : "cain_andariel2",
       "Text" : "Hmmm... It reminds me of ancient writings about a demonic temptress called Andariel."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        127
+        121
       ],
       "Sound" : "cain_andariel3",
       "Text" : "Known as the Maiden of Anguish, her thirst for mortal blood was so great, that she sought to learn a spell to breach the mortal realm."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        128
+        122
       ],
       "Sound" : "cain_andariel4",
       "Text" : "By seducing one of the dark sorcerers of the netherworld, Andariel took the knowledge she needed and so began to lure mortal men into her dark corner of hell!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        130,
-        129,
+        124,
+        123,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -1089,55 +1104,60 @@
       "Text" : "If these legends are true, she is not a creature to be taken lightly..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        133,
-        132
+        127,
+        126
       ],
       "Text" : "Hmmm, I'm afraid I don't have much need for a book of ingredients.  Maybe Pepin or the witch can use it."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        136,
-        135
+        130,
+        129
       ],
       "Sound" : "cain_izual1",
       "Text" : "Farnham has taken to drinking quite heavily since his encounters in the labyrinth.  But within the ramblings of this drunken man rests a legend well steeped in myth and mystery.  Sit for a moment, my friend, and let me tell you of Izual, and Azurewrath..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        137
+        131
       ],
       "Sound" : "cain_izual2",
       "Text" : "The saga of Izual takes place during the lost battles in Hell...  Izual was an angel, who was given charge of a holy rune blade, Azurewrath.  Leading a daring assault on the Hellforge, Izual was set upon by hundreds of blackened demons - and was fatally wounded..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        138
+        132
       ],
       "Sound" : "cain_izual3",
       "Text" : "The fiends cast the dying angel into a dark pit, where the powers of chaos transformed him, as he drowned in a whirlpool of burning blood!  Evil possessed Izual - the feathers of his wings burned away to reveal leathery skin, and horns ripped through the flesh of his head!  When he finally arose from that black pit, Izual was an angel no more... transformed into a creature of evil!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        140,
-        139,
+        134,
+        133,
         {
-          "Index" : 41,
+          "Index" : 35,
           "IsChild" : true
         }
       ],
@@ -1146,35 +1166,38 @@
       "Text" : "He was once again given charge of Azurewrath, assuring that the blade will never again be used against the denizens of Hell..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        143,
-        142
+        137,
+        136
       ],
       "Sound" : "cain_warlord1",
       "Text" : "I know of only one legend that speaks of such a warrior as you describe.  His story is found within the ancient chronicles of the Sin War..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        144
+        138
       ],
       "Sound" : "cain_warlord2",
       "Text" : "\"Stained by a thousand years of war, blood and death, the Warlord of Blood stands upon a mountain of his tattered victims.  His dark blade screams a black curse to the living; a tortured invitation to any who would stand before this executioner of hell.\""
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
-        146,
-        145,
+        140,
+        139,
         {
-          "Index" : 65,
+          "Index" : 59,
           "IsChild" : true
         }
       ],
@@ -1183,339 +1206,336 @@
       "Text" : "It is also written that although he was once a mortal who fought beside the legion of darkness during the Sin War, he lost his humanity to his insatiable hunger for blood..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        148
+        142
       ],
       "Sound" : "cain_lazarus5",
       "Text" : "This does not bode well, for it confirms my darkest fears...  While I did not allow myself to believe the ancient legends, I cannot deny them now.  Perhaps the time has come to reveal who I am..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        149
+        143
       ],
       "Sound" : "cain_lazarus6",
       "Text" : "My true name is Deckard Cain, the Elder, and I am the last descendant of an ancient brotherhood that was dedicated to safeguarding the secrets when the time was evil.  An evil that quite obviously has now been released..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        150
+        144
       ],
       "Sound" : "cain_lazarus7",
       "Text" : "The Archbishop Lazarus, once King Leoric's trusted advisor, led a party of simple townsfolk into the labyrinth to find the King's missing son, Albrecht.  Quite some time passed before they returned, and only a few of them escaped with their lives..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        151
+        145
       ],
       "Sound" : "cain_lazarus8",
       "Text" : "Curse me for a fool!  I should have suspected his vile treachery then!  It must have been Lazarus himself who kidnapped Albrecht and has since hidden him within the labyrinth."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        152
+        146
       ],
       "Sound" : "cain_lazarus9",
       "Text" : "I do not understand why the Archbishop turned to the darkness, or what his interest is in the child.  Unless... he means to sacrifice him to his dark masters!  That must be what he has planned!  The survivors of his rescue party say that Lazarus was last seen running into the deepest bowels of the labyrinth..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        154,
-        153
+        148,
+        147
       ],
       "Script" : "giv_lazarus",
       "Sound" : "cain_lazarus10",
       "Text" : "You must hurry, and save the Prince from the sacrificial blade of this demented fiend!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        156
+        150
       ],
       "Sound" : "cain_lazarus11",
       "Text" : "Your story is quite grim, my friend...  Lazarus will surely burn in hell for his horrific deed!  The boy that you described is not our prince, but I believe that Albrecht may yet be in danger..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        157
+        151
       ],
       "Sound" : "cain_lazarus12",
       "Text" : "The symbol of power that you speak of must be a portal to the very heart of the labyrinth!  Know this, my friend the evil that you move against is the dark Lord of Terror!  He is known to mortal men as Diablo."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        159,
-        158
+        153,
+        152
       ],
       "Script" : "giv_diablo",
       "Sound" : "cain_lazarus13",
       "Text" : "It was he who was imprisoned within the labyrinth many centuries ago, and I fear that he seeks to once again sow chaos in the realm of mankind!  You must venture through the portal, and destroy Diablo... before it is too late!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        162,
-        161
+        156,
+        155
       ],
       "Text" : "Hmmm, let me see that... strange, it seems to be a map of this entire town, but there are structures in this map that are not supposed to be there!  This one specifically points to the graveyard beside our church...  Hmmm, that does seem familiar... Let me see if I can remember..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        164,
-        163
+        158,
+        157
       ],
       "Script" : "giv_cathedint",
       "Text" : "Ah yes, I once heard Gillian's grandmother mention something about a dream regarding the graveyard... something about putting an offering there.  I can't quite recall what she said exactly, only that that was a dream and nothing more.  Perhaps there is something about that dream that may help you!  I suggest you ask Gillian or her grandmother about it, maybe one of them can shed some light on this."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 29,
       "Delay" : 4294967295,
       "RepliesList" : [
-        169,
-        165
+        163,
+        159
       ],
       "Script" : "end_virgin",
       "Sound" : "cain_greet",
       "Text" : "Hello, my friend!  Stay a while and listen!  Wait, it is you, <FirstName>!  I see that you have come back after your long journey.  Has Ogden told you what has been going on here since you've been gone?"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        166
+        160
       ],
       "Text" : "I am sure they all have their reasons for continuing to tell you and remind you of what is going on.  The evil that lurks below our town is something that we have never encountered before, even during our king's madness that tore our kingdom apart!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 171,
+          "Index" : 165,
           "IsChild" : true
         },
         {
+          "Index" : 33,
           "Active" : "prq_leoricx",
-          "Index" : 39,
           "IsChild" : true
         },
         {
+          "Index" : 162,
           "Active" : "prq_identify",
-          "Index" : 168,
           "IsChild" : false
         },
-        167
+        161
       ],
       "Text" : "As much as I would like to tell you about it, Ogden has expressly told me that he should be the one to share that tale to whoever comes into town.  If you wish to know the events that transpired during that fateful time, ask the innkeeper.  I can only tell you about King Leoric, but not his recent deeds - for it is still hard for me to accept what had happened to him."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        171,
+        165,
         {
+          "Index" : 89,
           "Active" : "prq_identify",
-          "Index" : 95,
           "IsChild" : true
         },
         {
           "Index" : 1,
           "IsChild" : true
         },
-        170
+        164
       ],
       "Text" : "That is good to hear, my friend.  If anyone can help us through these dark times, it would be you."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        173,
+        167,
         {
+          "Index" : 89,
           "Active" : "prq_identify",
-          "Index" : 95,
           "IsChild" : true
         },
         {
           "Index" : 1,
           "IsChild" : true
         },
-        172
+        166
       ],
       "Sound" : "cain_info1",
       "Text" : "While you are venturing deeper into the labyrinth, you may find tomes of great knowledge hidden there.  Read them carefully, for they can tell you things that even I cannot..."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 89,
           "Active" : "prq_identify",
-          "Index" : 95,
           "IsChild" : true
         },
         {
           "Index" : 1,
           "IsChild" : true
         },
-        174
+        168
       ],
       "Sound" : "cain_info2",
       "Text" : "I know of many myths and legends that may contain answers to questions that may arise in your journeys into the labyrinth.  If you come across challenges and questions to which you seek knowledge, seek me out!  And I will tell you what I can."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 29,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 170,
           "Active" : "prq_identify",
-          "Index" : 176,
           "IsChild" : false
         },
-        175
+        169
       ],
       "Script" : "con_tristramx",
       "Sound" : "cain_greet",
       "Text" : "Hello <FirstName>!  Stay a while and listen!"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 71,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 177,
           "Active" : "prq_100gold",
-          "Index" : 183,
           "IsChild" : false
         },
-        178,
-        177
+        172,
+        171
       ],
       "Text" : "I could discern the magical properties of items for only 100 gold pieces."
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 39,
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 174,
           "Active" : "prq_100gold",
-          "Index" : 180,
           "IsChild" : false
         },
-        179
+        173
       ],
       "Text" : "<StartAction>[Failure]</Start>  Surely <FirstName>, a small sum for the valuable help of an old man is worth it, don't you think?"
     },
     {
+      "ActionParams" : [ ],
       "AnimLoop" : 1,
       "Animation" : 48,
       "Delay" : 4294967295,
       "RepliesList" : [
-        182,
-        181
+        176,
+        175
       ],
       "Text" : "<StartAction>[Success]</Start>  Well... I suppose you are right.  Coming to Tristram's aid is indeed payment enough for my services."
     }
   ],
-  "NumWords" : 4727,
+  "NumWords" : 4577,
   "PreventZoomIn" : 0,
   "ReplyList" : [
     {
+      "ActionParams" : [ ],
       "Text" : "I'm done, thank you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         1
       ],
       "Text" : "I would like to ask you some questions."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Never mind, old man."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         2
-      ],
-      "Text" : "<StartAction>[Quest]</Start> Tell me about the Archbishop Lazarus."
-    },
-    {
-      "EntriesList" : [
-        3
-      ],
-      "Text" : "What do you mean?"
-    },
-    {
-      "Text" : "That's all I need to know."
-    },
-    {
-      "EntriesList" : [
-        4
-      ],
-      "Text" : "Yet he was still able to convince the townspeople to follow him?"
-    },
-    {
-      "EntriesList" : [
-        5
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "Text" : "Thank you, that's all I need to know."
-    },
-    {
-      "EntriesList" : [
-        6
       ],
       "Text" : "Tell me about Lachdanan."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        7
+        3
       ],
       "Text" : "He said that I should release him from the curse he incurred from the same king he claimed to serve."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 8,
+          "Index" : 4,
           "IsChild" : true
         }
       ],
@@ -1523,143 +1543,173 @@
       "Text" : "I don't think he is worthy of my time."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        8
+        4
       ],
       "Script" : "con_lawful1",
       "Text" : "Perhaps I should help him then."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I'll decide that."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        9
+        5
       ],
       "Text" : "Tell me about the Anvil of Fury."
     },
     {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        6
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        7
+      ],
+      "Text" : "So if I get it for Griswold, I can have whatever powerful magical item I want?"
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "I hope it's not as inferior as the other stuff he sells.  Goodbye."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "Thank you, that's all I need to know."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        8
+      ],
+      "Text" : "Do you know where I can find a black mushroom? Adria wants me to find one.."
+    },
+    {
+      "ActionParams" : [ ],
+      "Script" : "con_evil1",
+      "Text" : "Big surprise there.  Thanks for nothing."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "Alright, thanks anyway."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        9
+      ],
+      "Text" : "Tell me about Andariel."
+    },
+    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         10
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         11
       ],
-      "Text" : "So if I get it for Griswold, I can have whatever powerful magical item I want?"
+      "Text" : "Continue."
     },
     {
-      "Text" : "I hope it's not as inferior as the other stuff he sells.  Goodbye."
+      "ActionParams" : [ ],
+      "Text" : "Just another bitch to slay, if you ask me."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         12
       ],
-      "Text" : "Do you know where I can find a black mushroom? Adria wants me to find one.."
+      "Text" : "Gillian has mentioned that men are disappearing mysteriously from Tristram."
     },
     {
-      "Script" : "con_evil1",
-      "Text" : "Big surprise there.  Thanks for nothing."
+      "ActionParams" : [ ],
+      "Text" : "That's all I need to know."
     },
     {
-      "Text" : "Alright, thanks anyway."
-    },
-    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         13
       ],
-      "Text" : "Tell me about Andariel."
+      "Text" : "Do you know anything about this \"magic rock\" Griswold wants me to find?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         14
       ],
       "Text" : "Continue."
     },
     {
-      "EntriesList" : [
-        15
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "Text" : "Just another bitch to slay, if you ask me."
-    },
-    {
-      "Text" : "Thank you, that's all I need to know."
-    },
-    {
-      "EntriesList" : [
-        16
-      ],
-      "Text" : "Gillian has mentioned that men are disappearing mysteriously from Tristram."
-    },
-    {
-      "Text" : "That's all I need to know."
-    },
-    {
-      "EntriesList" : [
-        17
-      ],
-      "Text" : "Do you know anything about this \"magic rock\" Griswold wants me to find?"
-    },
-    {
-      "EntriesList" : [
-        18
-      ],
-      "Text" : "Continue."
-    },
-    {
+      "ActionParams" : [ ],
       "Text" : "Yes - valuable to me!  Might be worth hunting for..."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that information was very valuable."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        19
+        15
       ],
       "Text" : "Can you tell me why monsters would steal such a mundane thing like Ogden's tavern sign?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        20
+        16
       ],
       "Text" : "Yes it does. Any thoughts?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        21
+        17
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Stupid is as stupid does, huh?  Thanks anyway."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        22
+        18
       ],
       "Text" : "Tell me about King Leoric."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        23
+        19
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 1,
@@ -1669,110 +1719,134 @@
       "Text" : "I have other questions I need to ask."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "He was weak, that's all you have to admit.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        24
+        20
       ],
       "Text" : "What can you tell me about Tremayne's recent exorcism - and about this demon Fleshdoom and the blade Shadowfang he presumably wields?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        25
+        21
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        26
+        22
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "We'll see.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        27
+        23
       ],
       "Text" : "Pepin told me of monstrous worms coming out of the ground here in Tristram."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        28
+        24
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_evil1",
       "Text" : "So you don't know about them either?  Stupid old man."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you for your insights."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        29
+        25
       ],
       "Text" : "What can you tell me about the poisoned water supply?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        30
+        26
       ],
       "Text" : "What do you think could be causing this?"
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_evil1",
       "Text" : "And here I thought you were actually smart.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        31
+        27
       ],
       "Text" : "Do you know where this underground spring can be found?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Perhaps you don't know.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        32
+        28
       ],
       "Text" : "I have the cleaver used by that monster who killed many of the townsfolk who went into the church.  Can you tell me who I can sell it to?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thanks for nothing."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "My apologies.  I will see what I can do with it somehow."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        33
+        29
       ],
       "Text" : "Can you tell me why the townspeople went on that futile quest into the labyrinth?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        34
+        30
       ],
       "Text" : "What happened to them?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 1,
@@ -1782,264 +1856,315 @@
       "Text" : "I have other questions to ask you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        35
+        31
       ],
       "Text" : "Can you tell me about the townsfolk here?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Never mind."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        36
+        32
       ],
       "Text" : "Tell me about Wirt."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        37
+        33
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        38
+        34
       ],
       "Text" : "Tell me about Tremayne."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        39
+        35
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        40
+        36
       ],
       "Text" : "Tell me about Pepin."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        41
+        37
       ],
       "Text" : "Tell me about Ogden."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        42
+        38
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        43
+        39
       ],
       "Text" : "Tell me about Lester."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        44
+        40
       ],
       "Text" : "Tell me about Griswold."
     },
     {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        41
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "That's all I need to know."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        42
+      ],
+      "Text" : "Tell me about Gillian."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        43
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "That's all I need to know."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        {
+          "Index" : 46,
+          "Active" : "prq_islandxx",
+          "IsChild" : false
+        },
+        44
+      ],
+      "Text" : "Tell me about Farnham."
+    },
+    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         45
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
-      "EntriesList" : [
-        46
-      ],
-      "Text" : "Tell me about Gillian."
-    },
-    {
-      "EntriesList" : [
-        47
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "Text" : "That's all I need to know."
-    },
-    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Active" : "prq_islandxx",
-          "Index" : 50,
-          "IsChild" : false
-        },
-        48
-      ],
-      "Text" : "Tell me about Farnham."
-    },
-    {
-      "EntriesList" : [
-        49
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "Text" : "That's all I need to know."
-    },
-    {
-      "EntriesList" : [
-        {
+          "Index" : 48,
           "Active" : "end_lostboys",
-          "Index" : 52,
           "IsChild" : false
         },
-        51
+        47
       ],
       "Text" : "Tell me about Deese."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        53
+        49
       ],
       "Text" : "Tell me about Adria."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        54
+        50
       ],
       "Text" : "Can you identify some items for me?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "No thanks."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 52,
           "Active" : "nw_d2_persmed",
-          "Index" : 56,
           "IsChild" : false
         },
-        55
+        51
       ],
       "Text" : "<StartCheck>[Persuade]</Start> You don't really mean to charge me for such a simple service, do you?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Never mind."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 71,
       "Script" : "s_identifyall",
       "Text" : "Very well, here is 100 gold pieces. Identify them please."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I changed my mind."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 71,
       "Script" : "s_identifyall2",
       "Text" : "Thank you. Identify my items please."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 71,
       "Script" : "s_identifyall",
       "Text" : "Here is 100 gold pieces. Identify them please."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        57
+        53
       ],
       "Text" : "<StartAction>You tell Cain about the book that mentioned Valor, and the hero of light it awaits.</Start>"
     },
     {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        54
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        55
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        56
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "A powerful armor, huh?  I'll get to it!"
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "Thank you for the information. Goodbye now."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        57
+      ],
+      "Text" : "Farnham said something about \"an island where angels watched\" ... might be nothing, but I thought I should ask you..."
+    },
+    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         58
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         59
       ],
       "Text" : "Continue."
     },
     {
-      "EntriesList" : [
-        60
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "Text" : "A powerful armor, huh?  I'll get to it!"
-    },
-    {
-      "Text" : "Thank you for the information. Goodbye now."
-    },
-    {
-      "EntriesList" : [
-        61
-      ],
-      "Text" : "Farnham said something about \"an island where angels watched\" ... might be nothing, but I thought I should ask you..."
-    },
-    {
-      "EntriesList" : [
-        62
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "EntriesList" : [
-        63
-      ],
-      "Text" : "Continue."
-    },
-    {
+      "ActionParams" : [ ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        64
+        60
       ],
       "Text" : "I found this cryptic poem about the Halls of the Blind.  <StartAction>You recite poem.</Start>"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        65
+        61
       ],
       "Text" : "Like what?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Never mind, you're taking too long.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 66,
+          "Index" : 62,
           "IsChild" : true
         }
       ],
@@ -2047,83 +2172,100 @@
       "Text" : "Come on, old man, I don't have all day!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        66
+        62
       ],
       "Script" : "con_good1",
       "Text" : "Take your time."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_evil1",
       "Text" : "Stupid poem, if you ask me.  Thanks anyway."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        67
+        63
       ],
       "Text" : "What do you know about a \"Chamber of Bone\"?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        68
+        64
       ],
       "Text" : "What did they say about it?"
     },
     {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        65
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "One that would not happen to me."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "Thank you, that's all I need to know."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        66
+      ],
+      "Text" : "<StartAction>You tell Cain about the forest caverns, and the name uttered by one of the creatures within - the name Andariel...</Start>"
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        67
+      ],
+      "Text" : "Who exactly is this Andariel?"
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        68
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         69
       ],
       "Text" : "Continue."
     },
     {
-      "Text" : "One that would not happen to me."
-    },
-    {
-      "Text" : "Thank you, that's all I need to know."
-    },
-    {
-      "EntriesList" : [
-        70
-      ],
-      "Text" : "<StartAction>You tell Cain about the forest caverns, and the name uttered by one of the creatures within - the name Andariel...</Start>"
-    },
-    {
-      "EntriesList" : [
-        71
-      ],
-      "Text" : "Who exactly is this Andariel?"
-    },
-    {
-      "EntriesList" : [
-        72
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "EntriesList" : [
-        73
-      ],
-      "Text" : "Continue."
-    },
-    {
+      "ActionParams" : [ ],
       "Text" : "Just another bitch to slay, if you ask me."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        74
+        70
       ],
       "Text" : "I found this fungal tome in the caves.  Do you need it?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 1,
@@ -2133,148 +2275,176 @@
       "Text" : "Alright. I have other questions to ask you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        75
+        71
       ],
       "Text" : "Gillian told me about a tale Farnham was rambling on about in the tavern ... about an angel called Izual underneath the labyrinth, and something called Azurewrath. What do you know about this?"
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_chaotic1",
       "Text" : "Another convoluted tale.  I have no time for this.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        76
+        72
       ],
       "Text" : "I would like to hear this story, old man."
     },
     {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        73
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        74
+      ],
+      "Text" : "Continue."
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "I am intrigued by this Azurewrath you speak of.  Maybe I'll go there just for the opportunity to get it from him."
+    },
+    {
+      "ActionParams" : [ ],
+      "Script" : "con_lawful1",
+      "Text" : "Thank you for the story.  I will see what I can do to give this fallen angel his salvation."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        75
+      ],
+      "Text" : "What can you tell me about the Warlord of Blood?"
+    },
+    {
+      "ActionParams" : [ ],
+      "Text" : "Never mind, I don't have the time."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        76
+      ],
+      "Text" : "Tell me about it, storyteller."
+    },
+    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         77
       ],
       "Text" : "Continue."
     },
     {
-      "EntriesList" : [
-        78
-      ],
-      "Text" : "Continue."
-    },
-    {
-      "Text" : "I am intrigued by this Azurewrath you speak of.  Maybe I'll go there just for the opportunity to get it from him."
-    },
-    {
-      "Script" : "con_lawful1",
-      "Text" : "Thank you for the story.  I will see what I can do to give this fallen angel his salvation."
-    },
-    {
-      "EntriesList" : [
-        79
-      ],
-      "Text" : "What can you tell me about the Warlord of Blood?"
-    },
-    {
-      "Text" : "Never mind, I don't have the time."
-    },
-    {
-      "EntriesList" : [
-        80
-      ],
-      "Text" : "Tell me about it, storyteller."
-    },
-    {
-      "EntriesList" : [
-        81
-      ],
-      "Text" : "Continue."
-    },
-    {
+      "ActionParams" : [ ],
       "Script" : "con_chaotic1",
       "Text" : "Sounds like a worthy adversary.  Maybe I can pillage his armories afterwards.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Sounds like a tough customer.  Thank you for the story."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        82
+        78
       ],
       "Text" : "<StartAction>You show Cain the staff you found in the Archbishop's Inner Sanctum.</Start>"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        83
+        79
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        84
+        80
       ],
       "Text" : "What are you talking about?  What evil is this?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        85
+        81
       ],
       "Text" : "I already know this story.  What's the significance of it?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        86
+        82
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        87
+        83
       ],
       "Text" : "So what must I do now?"
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_evil1",
       "Text" : "This boy may already be dead for all we know.  I'll take my time."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_lawful1",
       "Text" : "I will do what I can.  Thank you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        88
+        84
       ],
       "Text" : "I have killed Lazarus, but I was too late to save the boy..."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        89
+        85
       ],
       "Text" : "I found a mysterious red portal in the middle of the Archbishop's altar.  Do you know what it could be?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        90
+        86
       ],
       "Text" : "Diablo? What do you know of him?"
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_chaotic1",
       "Text" : "I will take my time and think it over.  I don't see any rush."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "con_lawful1",
       "Text" : "I will not allow this vile demon to terrorize Tristram!  I shall go now!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        91
+        87
       ],
       "Text" : "I found this cathedral map, and I don't know what it's supposed to do.  Can you take a look at it?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 92,
+          "Index" : 88,
           "IsChild" : true
         }
       ],
@@ -2282,110 +2452,132 @@
       "Text" : "Hurry up, I haven't got all day!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        92
+        88
       ],
       "Text" : "Take your time."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "So much for knowing everything, huh?  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you, I will go to them, now."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        94
+        90
       ],
       "Script" : "s_knowcain",
       "Text" : "People have been telling me what's been going on here since the first time I set foot back here!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        95
+        91
       ],
       "Text" : "Our king's madness?  You mean King Leoric?  What has happened?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 54,
+          "Index" : 50,
           "IsChild" : true
         }
       ],
       "Text" : "Enough talk, I would like to see what services you offer."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        96
+        92
       ],
       "Script" : "s_knowcain",
       "Text" : "I know that something terrible has been happening under the church, and I'll get to the bottom of it."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        97
+        93
       ],
       "Text" : "Is there any advice you can share before I go there?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        98
+        94
       ],
       "Text" : "Any other advice you can share?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thank you.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I'm done, thank you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        100
+        96
       ],
       "Text" : "Can you identify some items for me?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "No thanks."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 98,
           "Active" : "nw_d2_persmed",
-          "Index" : 102,
           "IsChild" : false
         },
-        101
+        97
       ],
       "Text" : "<StartCheck>[Persuade]</Start> You don't really mean to charge me for such a simple service, do you?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Never mind."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 71,
       "Script" : "s_identifyall",
       "Text" : "Very well, here is 100 gold pieces. Identify them please."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I changed my mind."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 71,
       "Script" : "s_identifyall2",
       "Text" : "Thank you. Identify my items please."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 71,
       "Script" : "s_identifyall",
       "Text" : "Here is 100 gold pieces. Identify them please."
@@ -2394,11 +2586,11 @@
   "StartingList" : [
     {
       "Active" : "prq_soulstonex",
-      "Index" : 99
+      "Index" : 95
     },
     {
       "Active" : "prq_virgin",
-      "Index" : 93
+      "Index" : 89
     },
     0
   ]
