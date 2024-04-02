@@ -24,7 +24,7 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    forDebug(oPC);
+    //forDebug(oPC);
     //CreateItemOnObject("lootgenie", oPC);
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.2 with enhancements by Jeff McClure\n";

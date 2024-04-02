@@ -2,12 +2,15 @@
 
 # Changelog
 ## 2.0.2 &mdash; 2024-03-28
+### Player
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  For sale from the Witch
 * New Quest "Loot Genie" available from Adria
+* Monster corpses that are empty are not clickable and cannot be opened
 * Added Achievement Dude Perfect
 * Added Achievement Raw Deal
 * Do not destroy town portal when player uses it to return to dungeon
 * Start adding green [Quest] indicators in conversations for dialog that leads to quests
+### Developer
 * Use nwt (Neverwinter Toolkit) version 0.0.4
 * Remove nw_i0_generic.nss
 * Start using new simplified dialog format .dlgs

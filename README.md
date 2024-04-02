@@ -24,6 +24,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * New starting item "Cloak of Fast Feet" - walk around quicker
 * Portal location moved to center of town
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase.
+* When a monster dies, and there is no loot, the corpse is not clickable and cannot be opened
 
 ### Multi-player Focused
 * Quests shared with party

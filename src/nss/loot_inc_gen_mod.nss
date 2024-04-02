@@ -3,7 +3,7 @@
 #include "x0_i0_corpses"
 
 object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
-    //SendMessageToPC(GetFirstPC(), "CreateLoot() 1");
+    //SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' stack:" + IntToString(nStackSize));
     if (!GetIsPC(oPC)) {
         MessageAll("CreateLoot(): non-PC parameter passed resref " + sItemTemplate);
         MessageAll("CreateLoot(): non-PC parameter passed oPC name   " + GetName(oPC));
@@ -22,12 +22,17 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
 
     // if Loot Genie
     if (GetItemPossessedBy(oPC, "D1_LOOT_GENIE") != OBJECT_INVALID) {
-       //SendMessageToPC(GetFirstPC(), "CreateLoot() Loot Genie");
+        //SendMessageToPC(GetFirstPC(), "CreateLoot() Loot Genie");
         treasure = CreateItemOnObject(sItemTemplate, oPC, nStackSize);
     } else {
-       //SendMessageToPC(GetFirstPC(), "CreateLoot() party Loot");
+        //SendMessageToPC(GetFirstPC(), "CreateLoot() party Loot " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
         // normal loot
         treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
+        CreateObject(OBJECT_TYPE_ALL, sItemTemplate, GetLocation(oContainer), TRUE);
+        //if (treasure == OBJECT_INVALID)
+            //SendMessageToPC(GetFirstPC(), "CreateLoot() INVALID " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
+        //else
+            //SendMessageToPC(GetFirstPC(), "CreateLoot() GOOD " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
 
         // if party loot system
         SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
@@ -4696,7 +4701,41 @@ void TreasureChestUnique() {
     TreasureChest(TREASURE_UNIQUE, OBJECT_SELF);
 }
 
+object CreateLootChest() {
+    // Locate the area we are in
+    object oArea = GetArea(OBJECT_SELF);
+
+    // Locate where in the are we are
+    vector vPosition = GetPosition(OBJECT_SELF);
+
+    // Identify the direction we are facing
+    float fOrientation = GetFacing(OBJECT_SELF) - 180.0;
+    if (fOrientation < 0.0) fOrientation = fOrientation + 360.0;
+
+    // Create a new location with this information
+    location loc = Location(oArea, vPosition, fOrientation);
+
+    // 2, 4, 6
+    // plc_lootbag4     // 16
+    // x0_treasure_high // 10
+    // x0_tres_anyhigh
+    // plc_chest4
+    // x3_plc_chest001
+    // plc_treasurelrg / 191
+    // x0_tres_goldlow // 189
+    // x0_tres_goldmid // 190
+    //object oChest = CreateObject(OBJECT_TYPE_PLACEABLE, "x0_treasure_high", loc);
+    object oChest = CreateObject(OBJECT_TYPE_PLACEABLE, "x0_tres_goldmed", loc);
+    SetObjectVisualTransform(oChest, OBJECT_VISUAL_TRANSFORM_SCALE, 3.0);
+    SetLocked(oChest, FALSE);
+    SetName(oChest, "Loot");
+    SetHardness(0, oChest);
+    return oChest;
+}
+
 void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
+    if (GetLocalInt(OBJECT_SELF, "POPULATE_LOOT_ONCE") > 0) return;
+    SetLocalInt(OBJECT_SELF, "POPULATE_LOOT_ONCE", 1);
 
     if (oPC == OBJECT_INVALID)
         oPC = GetLastOpenerOrKiller();
@@ -4704,28 +4743,57 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     if (!GetIsPC(oPC))
         oPC = GetFirstPC();
 
-   //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 1");
+    int is_creature = IsDeadCreature();
+
+    object oChest;
+    if (is_creature)
+        oChest = CreateLootChest();
+    else
+        oChest = target;
+
+    //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 1");
     int lootNum;
     for (lootNum = 1; lootNum < 8; lootNum++) {
         string lootResRef = GetLocalString(target, "loot" + IntToString(lootNum));
         if (lootResRef == "") break;
        //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 2 " + lootResRef);
+        int nStackSize = GetLocalInt(target, "loot" + IntToString(lootNum) + "_size");
+        if (nStackSize < 1) nStackSize = 1;
 
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
             //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 3");
-            CreateLoot(lootResRef, target, oMember);
+            CreateLoot(lootResRef, oChest, oMember, nStackSize);
             oMember = GetNextFactionMember(oPC, TRUE);
         }
     }
 
     int gold = GetLocalInt(target, "loot_gold");
+    //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold = " + IntToString(gold));
     if (gold > 0) {
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
-           //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold");
-            CreateLoot("nw_it_gold001", target, oPC, gold);
+            //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold #2");
+            CreateLoot("nw_it_gold001", oChest, oMember, gold);
             oMember = GetNextFactionMember(oPC, TRUE);
+        }
+    }
+
+    if (is_creature) {
+        //SendMessageToPC(GetFirstPC(), "Dead Creature " + GetName(target) + " " + GetResRef(target));
+        // make corpse unselectable/unclickable if it is empty
+        if (!GetIsObjectValid(GetFirstItemInInventory(OBJECT_SELF)) && GetGold(OBJECT_SELF) < 1) {
+            //SendMessageToPC(GetFirstPC(), "FLUSH CORPSE - no inventory for " + GetName(target) + " " + GetTag(target) + " " + GetResRef(target));
+            SetIsDestroyable(FALSE, FALSE, FALSE);
+            //DestroyObject(OBJECT_SELF);
+        } else {
+            //SendMessageToPC(GetFirstPC(), "DEAD ITEM " + GetName(GetFirstItemInInventory(OBJECT_SELF)) + " drop:" + IntToString(GetDroppableFlag(GetFirstItemInInventory(OBJECT_SELF))));
+            //SendMessageToPC(GetFirstPC(), "DEAD GOLD " + IntToString(GetGold(OBJECT_SELF)));
+        }
+
+        // destroy loot bag if no loot added
+        if (!GetIsObjectValid(GetFirstItemInInventory(oChest)) && GetGold(oChest) < 1) {
+            DestroyObject(oChest);
         }
     }
 }
@@ -4735,8 +4803,15 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
 // then PopulateLootForParty() will create items for each party member based on loot.* properties
 void MoveInventoryLootToProperties() {
     //SendMessageToPC(GetFirstPC(), "loot_partyfi1 1 " + GetResRef(OBJECT_SELF));
-    if (GetLocalInt(OBJECT_SELF, "ONCE") > 0) return;
-    SetLocalInt(OBJECT_SELF, "ONCE", 1);
+    if (GetLocalInt(OBJECT_SELF, "MOVE_LOOT_ONCE") > 0) return;
+    SetLocalInt(OBJECT_SELF, "MOVE_LOOT_ONCE", 1);
+
+    int gold = GetGold();
+    if (gold > 0) {
+        //SendMessageToPC(GetFirstPC(), "found gold " + IntToString(gold));
+        TakeGold(gold, OBJECT_SELF);
+        SetLocalInt(OBJECT_SELF, "loot_gold",  gold);
+    }
 
     // destroy container contents and create properties
     object oItem = GetFirstItemInInventory(OBJECT_SELF);
@@ -4745,14 +4820,18 @@ void MoveInventoryLootToProperties() {
     //SendMessageToPC(GetFirstPC(), "loot_partyfi1 2 isDeadCreature=" + IntToString(isDeadCreature));
     while (GetIsObjectValid(oItem)) {
         string resref = GetResRef(oItem);
-        //SendMessageToPC(GetFirstPC(), "loot_partyfi1 3 " + resref + " " + GetName(oItem));
+        //SendMessageToPC(GetFirstPC(), "loot_partyfi1 3 " + resref + " " + GetName(oItem) + " droppable:" + IntToString(GetDroppableFlag(oItem)));
         if (!isDeadCreature || GetDroppableFlag(oItem)) {
-            //SendMessageToPC(GetFirstPC(), "loot_partyfi1 5 DROPPABLE");
             if (resref == "nw_it_gold001") {
-                //SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetItemStackSize " + IntToString(GetItemStackSize(oItem)));
-                SetLocalInt(OBJECT_SELF, "loot_gold",  GetItemStackSize(oItem));
+                if (gold < 1) {
+                    // gold = GetLocalInt(OBJECT_SELF, "loot_gold");
+                    //SendMessageToPC(GetFirstPC(), "loot_partyfi1 GetItemStackSize " + IntToString(GetItemStackSize(oItem)) + " gold2:" + IntToString(gold2));
+                    SetLocalInt(OBJECT_SELF, "loot_gold",  GetItemStackSize(oItem));
+                }
             } else {
+                //SendMessageToPC(GetFirstPC(), "loot_partyfi1 5 DROPPABLE " + GetName(oItem));
                 SetLocalString(OBJECT_SELF, "loot" + IntToString(loop), resref);
+                SetLocalInt(OBJECT_SELF, "loot" + IntToString(loop) + "_size", GetItemStackSize(oItem));
                 loop = loop + 1;
             }
             DestroyObject(oItem);
@@ -4772,6 +4851,7 @@ void MoveInventoryLootToProperties() {
         if (GetIsObjectValid(oItem) && GetDroppableFlag(oItem)) {
             SetDroppableFlag(oItem, FALSE); // DestroyObject not working, but this prevents duplicate loot distribution.
             SetLocalString(OBJECT_SELF, "loot" + IntToString(loop), GetResRef(oItem));
+            SetLocalInt(OBJECT_SELF, "loot" + IntToString(loop) + "_size", GetItemStackSize(oItem));
             loop = loop + 1;
             //SendMessageToPC(GetFirstPC(), "loot_partyfi1 destroy " + GetResRef(oItem) + " " + GetName(oItem) + " drop:" + IntToString(GetDroppableFlag(oItem)));
             //AssignCommand(OBJECT_SELF, ActionUnequipItem(oItem));
