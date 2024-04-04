@@ -5766,7 +5766,6 @@
       "YPosition" : 123.3984,
       "ZPosition" : 0.0
     },
-
     {
       "Active" : 1,
       "CreatureList" : [
@@ -5782,12 +5781,12 @@
           "ResRef" : "gobchiefa001",
           "SingleSpawn" : 1
         }
-//        {
-//          "Appearance" : 39,
-//          "CR" : 28.0,
-//          "ResRef" : "lich001",
-//          "SingleSpawn" : 0
-//        }
+        //        {
+        //          "Appearance" : 39,
+        //          "CR" : 28.0,
+        //          "ResRef" : "lich001",
+        //          "SingleSpawn" : 0
+        //        }
       ],
       "Difficulty" : 5,
       "DifficultyIndex" : 3,
@@ -11984,7 +11983,7 @@
         ]
       },
       "Lockable" : 0,
-      "Locked" : 0,
+      "Locked" : 1,
       "OnDeath" : "loot_normal_low",
       "OnOpen" : "loot_normal_low",
       "OnUsed" : "",
@@ -12043,7 +12042,7 @@
         ]
       },
       "Lockable" : 0,
-      "Locked" : 0,
+      "Locked" : 1,
       "OnDeath" : "loot_normal_low",
       "OnOpen" : "loot_normal_low",
       "OnUsed" : "",
@@ -12102,7 +12101,7 @@
         ]
       },
       "Lockable" : 0,
-      "Locked" : 0,
+      "Locked" : 1,
       "OnDeath" : "loot_normal_low",
       "OnOpen" : "loot_normal_low",
       "OnUsed" : "",
@@ -16636,12 +16635,48 @@
           "YOrientation" : 1.0,
           "YPosition" : -1.0,
           "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 3000,
+          "BaseItem" : 77,
+          "Charges" : 0,
+          "Cost" : 3000,
+          "Cursed" : 0,
+          "DescIdentified" : null,
+          "Description" : {
+            "StringRef" : 13301,
+            "Strings" : [ ]
+          },
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 13300,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 6,
+          "Plot" : 0,
+          "PropertiesList" : [ ],
+          "ReposPosX" : 0,
+          "ReposPosy" : 0,
+          "StackSize" : 1,
+          "Stolen" : 0,
+          "Tag" : "NW_IT_GEM006",
+          "TemplateResRef" : "nw_it_gem006",
+          "XOrientation" : 0.0,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
         }
       ],
       "KeyRequired" : 0,
       "LocName" : {
         "StringRef" : 5348,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Rectory Library Chest 2"
+          }
+        ]
       },
       "Lockable" : 0,
       "Locked" : 1,
@@ -16723,10 +16758,15 @@
       "KeyRequired" : 0,
       "LocName" : {
         "StringRef" : 5348,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Rectory Library Chest 1"
+          }
+        ]
       },
       "Lockable" : 0,
-      "Locked" : 0,
+      "Locked" : 1,
       "OnDeath" : "",
       "OnOpen" : "dth_generic_hi",
       "OnUsed" : "",

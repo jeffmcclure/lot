@@ -4733,6 +4733,34 @@ object CreateLootChest() {
     return oChest;
 }
 
+void FixDeadCreature(object creature) {
+    //SetIsDestroyable(FALSE, FALSE, FALSE);
+    SetIsDestroyable(TRUE, FALSE, FALSE);
+    //DestroyObject(creature);
+    return;
+
+    object oItem = GetFirstItemInInventory(creature);
+    int any = FALSE;
+    while (GetIsObjectValid(oItem)) {
+        string resref = GetResRef(oItem);
+        int droppable = GetDroppableFlag(oItem);
+        if (droppable) {
+            any = TRUE;
+        }
+        SendMessageToPC(GetFirstPC(), "DEAD ITEM " + GetName(oItem) + " drop:" + IntToString(droppable));
+        oItem = GetNextItemInInventory(OBJECT_SELF);
+    }
+
+    int gold = GetGold(creature);
+
+    if (gold > 0) {
+        any = TRUE;
+        SendMessageToPC(GetFirstPC(), "DEAD GOLD " + IntToString(gold));
+    }
+
+    if (!any) SetIsDestroyable(FALSE, FALSE, FALSE);
+}
+
 void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     if (GetLocalInt(OBJECT_SELF, "POPULATE_LOOT_ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "POPULATE_LOOT_ONCE", 1);
@@ -4780,16 +4808,7 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     }
 
     if (is_creature) {
-        //SendMessageToPC(GetFirstPC(), "Dead Creature " + GetName(target) + " " + GetResRef(target));
-        // make corpse unselectable/unclickable if it is empty
-        if (!GetIsObjectValid(GetFirstItemInInventory(OBJECT_SELF)) && GetGold(OBJECT_SELF) < 1) {
-            //SendMessageToPC(GetFirstPC(), "FLUSH CORPSE - no inventory for " + GetName(target) + " " + GetTag(target) + " " + GetResRef(target));
-            SetIsDestroyable(FALSE, FALSE, FALSE);
-            //DestroyObject(OBJECT_SELF);
-        } else {
-            //SendMessageToPC(GetFirstPC(), "DEAD ITEM " + GetName(GetFirstItemInInventory(OBJECT_SELF)) + " drop:" + IntToString(GetDroppableFlag(GetFirstItemInInventory(OBJECT_SELF))));
-            //SendMessageToPC(GetFirstPC(), "DEAD GOLD " + IntToString(GetGold(OBJECT_SELF)));
-        }
+        FixDeadCreature(OBJECT_SELF);
 
         // destroy loot bag if no loot added
         if (!GetIsObjectValid(GetFirstItemInInventory(oChest)) && GetGold(oChest) < 1) {
@@ -4816,6 +4835,10 @@ void MoveInventoryLootToProperties() {
     // destroy container contents and create properties
     object oItem = GetFirstItemInInventory(OBJECT_SELF);
     int loop = 1;
+    while (GetLocalString(OBJECT_SELF, "loot" + IntToString(loop)) != "") {
+        loop = loop + 1;
+    }
+
     int isDeadCreature = IsDeadCreature();
     //SendMessageToPC(GetFirstPC(), "loot_partyfi1 2 isDeadCreature=" + IntToString(isDeadCreature));
     while (GetIsObjectValid(oItem)) {

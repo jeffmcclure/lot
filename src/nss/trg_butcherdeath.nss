@@ -1,13 +1,26 @@
-#include "nw_i0_tool"
-void main() {
+#include "loot_inc_gen_mod"
 
+void main() {
     object oPC = GetFirstPC();
 
-    RewardPartyXP(750, oPC, TRUE);
-    object cleaver = CreateItemOnObject("butcherscleaver", OBJECT_SELF);
-    SetLocalString(cleaver, "LIMIT_ACQUIRE", GetLocalString(OBJECT_SELF, "LIMIT_ACQUIRE"));
+    string limitAcquire = GetLocalString(OBJECT_SELF, "LIMIT_ACQUIRE");
+    object oChest = CreateLootChest();
+
+    object oMember = GetFirstFactionMember(oPC, TRUE);
+    while (GetIsObjectValid(oMember)) {
+        if (GetName(oMember) == limitAcquire) {
+            CreateLoot("butcherscleaver", oChest, oMember);
+        }
+        AssignCommand(oMember, ActionSpeakString("The spirits of the dead are now avenged..."));
+        GiveXPToCreature(oMember, 750);
+        oMember = GetNextFactionMember(oPC, TRUE);
+    }
+
+    if (!GetIsObjectValid(GetFirstItemInInventory(oChest)) && GetGold(oChest) < 1) {
+        DestroyObject(oChest);
+    }
+
     AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE);
-    AssignCommand(oPC, ActionSpeakString("The spirits of the dead are now avenged..."));
 
     DestroyObject(GetObjectByTag("D1_WOUNDEDMAN"), 0.0);
     DestroyObject(GetObjectByTag("BUTCHER_BLOOD"), 0.0);
