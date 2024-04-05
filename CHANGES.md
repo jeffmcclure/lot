@@ -1,13 +1,13 @@
 [Back to README.md](README.md)
 
 # Changelog
-## 2.0.2 &mdash; 2024-03-28
+## 2.0.2 &mdash; 2024-04-04
 ### Player
-* New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  For sale from the Witch
+* New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase
 * New Quest "Loot Genie" available from Adria
 * Monster corpses that are empty are not clickable and cannot be opened
-* Added Achievement Dude Perfect
-* Added Achievement Raw Deal
+* Added Achievement "Dude Perfect"
+* Added Achievement "Raw Deal"
 * Do not destroy town portal when player uses it to return to dungeon
 * Start adding green [Quest] indicators in conversations for dialog that leads to quests
 ### Developer
