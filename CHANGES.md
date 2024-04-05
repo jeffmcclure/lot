@@ -1,6 +1,8 @@
 [Back to README.md](README.md)
 
 # Changelog
+## 2.0.3 &mdash; 2024-04-xx
+
 ## 2.0.2 &mdash; 2024-04-04
 ### Player
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase
