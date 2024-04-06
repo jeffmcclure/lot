@@ -3,7 +3,7 @@ A module for Neverwinter Nights Enhanced Edition
 
 Based on [The Lord of Terror](https://neverwintervault.org/project/nwn1/module/lord-terror-diablo-campaign) by [Tolitz Rosel](mailto:tolitzrosel@gmail.com)
 
-The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff Mcclure](mailto:jeff.mcclure.jr@gmail.com)
+The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff McClure](mailto:jeffmcclure.github@gmail.com)
 
 Current Version 2.0.3 - April 4, 2024
 
@@ -40,7 +40,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
   * New early quest "Should old acquaintance be forgot..." to help players find all key NPCs in town
 
 ### Role Playing
-* New haggling/appraise system for all stores (makes use of Appraise skill and Persuade attribute)
+* New haggling/appraise system for all stores (makes use of Appraise skill and Charisma bonus modifier)
 * Some chests must now be picked open, and may not be bashed open (makes use of Lockpick skill)
 
 ## Roadmap / Future Enhancements

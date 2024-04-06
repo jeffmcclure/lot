@@ -126,9 +126,25 @@ function nwsync {
 	nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
+# if no parameters are passed, then use these
 if [ $# -eq 0 ]; then
 	set -- sync web nwn
 fi
+
+# pre check options
+for i in "$@"; do
+	case $i in
+
+	web|nwn|sync)
+		;;
+
+  *)
+    echo unknown option $i
+    exit 1
+    ;;
+
+	esac
+done
 
 setup1
 supporting
