@@ -3,7 +3,11 @@
 
 void forDebug(object oPC) {
     JeffGiveStuff(oPC);
+
     CreateItemOnObject("key_butcher", oPC);
+    //CreateItemOnObject("rectorykey", oPC);
+    CreateItemOnObject("key_rectory_outs", oPC);
+
     CreateItemOnObject("tavernsign", oPC);
     CreateItemOnObject("lootgenie", oPC);
     AddJournalQuestEntry("QST_BUTCHER", 1, oPC, TRUE, FALSE);

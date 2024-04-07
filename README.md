@@ -5,7 +5,7 @@ Based on [The Lord of Terror](https://neverwintervault.org/project/nwn1/module/l
 
 The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff McClure](mailto:jeffmcclure.github@gmail.com)
 
-Current Version 2.0.3 - April 4, 2024
+Current Version 2.0.3 - April 7, 2024
 
 ## Stay a while and listen
 This module is mostly the same as Tolitz Rosel's last released version 1.06 from November 27, 2004.
@@ -27,6 +27,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase.
 * When a monster dies, and there is no loot, the corpse is not clickable and cannot be opened
 * Killed monsters disappear shortly after death to improve visibility and reduce memory/processing
+* Conversation options with NPCs that lead to quests are prefixed with green [Quest] text
 
 ### Multi-player Focused
 * Quests shared with party
@@ -35,18 +36,21 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * Keep TheeMon around for late joiners
  
 ### Gameplay
-* Bug squashed that would sometimes prevent henchmen Jarulf and Jenna from joining
+* Souls-like death system where lost gold and XP can be recovered at your most recent death location
+* Harsher death penalty, but loss can be fully recovered via soulslike death system
 * A few new minor quests at game opening
-  * New early quest "Should old acquaintance be forgot..." to help players find all key NPCs in town
-
+* New early quest "Should old acquaintance be forgot..." to help players find all key NPCs in town
+* Bug squashed that would sometimes prevent henchmen Jarulf and Jenna from joining
+ 
 ### Role Playing
 * New haggling/appraise system for all stores (makes use of Appraise skill and Charisma bonus modifier)
 * Some chests must now be picked open, and may not be bashed open (makes use of Lockpick skill)
 
 ## Roadmap / Future Enhancements
-* Souls-like death system where gold and XP can be recovered at your most recent death location
-* Harsher death penalty
-
+* Journal entry recording location of dead henchman
+* Map pin for location of dead henchman
+* Cain offer one no-cost identify
+ 
 ## See also
 * [CHANGES.md](CHANGES.md)
 * [INSTALL.md](INSTALL.md)

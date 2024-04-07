@@ -1,11 +1,13 @@
 [Back to README.md](README.md)
 
 # Changelog
-## 2.0.3 &mdash; 2024-04-xx
-* Quest: "Should old acquaintance be forgot..." now shows names of NPC that remain to speak to.
+## 2.0.3 &mdash; 2024-04-07
+* Quest: "Should old acquaintance be forgot..." now shows the names of NPCs remaining to speak with
 * Souls-like death system where gold and XP can be recovered at your most recent death location
 * Harsher death penalty
 * Griswold's "free" items are marked as plot items to prevent sale-for-profit
+* Improve looting of corpses
+* Do not loot henchmen
 
 ## 2.0.2 &mdash; 2024-04-04
 ### Player

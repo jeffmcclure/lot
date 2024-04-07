@@ -1,15 +1,6 @@
-void main()
-{
+void main() {
+    object oPC = GetLastUsedBy();
+    if (!GetIsPC(oPC)) return;
 
-object oPC = GetLastUsedBy();
-
-if (!GetIsPC(oPC)) return;
-
-object oTarget;
-oTarget = OBJECT_SELF;
-
-AssignCommand(oTarget, ActionStartConversation(oPC, "", TRUE));
-
+    AssignCommand(OBJECT_SELF, ActionStartConversation(oPC, "", TRUE));
 }
-
-

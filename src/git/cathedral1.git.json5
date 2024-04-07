@@ -7223,8 +7223,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14531,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 001"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse3",
+      "OnDeath" : "nw_o2_generalmed",
+      "OnOpen" : "nw_o2_generalmed",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -7239,16 +7250,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generalmed",
-      "OnOpen" : "nw_o2_generalmed",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 470,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 3",
-      "TemplateResRef" : "plc_corpse3",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -7272,8 +7278,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14602,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 005"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse2",
+      "OnDeath" : "nw_o2_generallow",
+      "OnOpen" : "nw_o2_generallow",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -7288,16 +7305,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generallow",
-      "OnOpen" : "nw_o2_generallow",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 469,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 2",
-      "TemplateResRef" : "plc_corpse2",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -7368,8 +7380,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14531,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 002"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse3",
+      "OnDeath" : "nw_o2_generalmed",
+      "OnOpen" : "nw_o2_generalmed",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -7384,16 +7407,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generalmed",
-      "OnOpen" : "nw_o2_generalmed",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 470,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 3",
-      "TemplateResRef" : "plc_corpse3",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -9444,8 +9462,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14531,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 003"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse3",
+      "OnDeath" : "nw_o2_generalmed",
+      "OnOpen" : "nw_o2_generalmed",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9460,16 +9489,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generalmed",
-      "OnOpen" : "nw_o2_generalmed",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 470,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 3",
-      "TemplateResRef" : "plc_corpse3",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -9493,8 +9517,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14603,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 006"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse4",
+      "OnDeath" : "nw_o2_generalhig",
+      "OnOpen" : "nw_o2_generalhig",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9509,16 +9544,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generalhig",
-      "OnOpen" : "nw_o2_generalhig",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 471,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 4",
-      "TemplateResRef" : "plc_corpse4",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -9542,8 +9572,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14602,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 007"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse2",
+      "OnDeath" : "nw_o2_generallow",
+      "OnOpen" : "nw_o2_generallow",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9558,16 +9599,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generallow",
-      "OnOpen" : "nw_o2_generallow",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 469,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 2",
-      "TemplateResRef" : "plc_corpse2",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -9591,8 +9627,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14600,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 008"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse1",
+      "OnDeath" : "nw_o2_generallow",
+      "OnOpen" : "nw_o2_generallow",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9607,16 +9654,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generallow",
-      "OnOpen" : "nw_o2_generallow",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 468,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 1",
-      "TemplateResRef" : "plc_corpse1",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -9922,8 +9964,17 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14550,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Arrow Corpse 001"
+          }
+        ]
       },
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
+      "Tag" : "Arrow-filled corpse",
+      "TemplateResRef" : "plc_arrowcorpse",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9938,14 +9989,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 467,
       "Ref" : 0,
       "Static" : 1,
-      "Tag" : "Arrow-filled corpse",
-      "TemplateResRef" : "plc_arrowcorpse",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -10204,7 +10252,12 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14550,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Arrow Corpse 002"
+          }
+        ]
       },
       "DisarmDC" : 15,
       "Faction" : 1,
@@ -10216,12 +10269,10 @@
       "ItemList" : [
         {
           "AddCost" : 0,
-          "BaseItem" : 76,
+          "BaseItem" : 20,
           "Charges" : 0,
           "Cost" : 0,
           "Cursed" : 0,
-          "DescIdentified" : null,
-          "Description" : null,
           "Identified" : 1,
           "LocalizedName" : {
             "StringRef" : 535,
@@ -10234,8 +10285,8 @@
           "ReposPosy" : 0,
           "StackSize" : 199,
           "Stolen" : 0,
-          "Tag" : "NW_IT_GOLD001",
-          "TemplateResRef" : "nw_it_gold001",
+          "Tag" : "",
+          "TemplateResRef" : "nw_wammar009",
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
@@ -10325,6 +10376,13 @@
           "ZPosition" : -1.0
         }
       ],
+      "VarTable" : [
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 199
+        }
+      ],
       "KeyRequired" : 0,
       "LocName" : {
         "StringRef" : 14551,
@@ -10339,7 +10397,8 @@
       "Locked" : 0,
       "OnDeath" : "loot_partyfi1",
       "OnOpen" : "loot_partyfi1",
-      "OnUsed" : "",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 467,
@@ -10417,8 +10476,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14600,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 009"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse1",
+      "OnDeath" : "loot_normal_low",
+      "OnOpen" : "loot_normal_low",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -10433,16 +10503,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "loot_normal_low",
-      "OnOpen" : "loot_normal_low",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 468,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse1",
-      "TemplateResRef" : "plc_corpse1",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -10752,8 +10817,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14603,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 010"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse4",
+      "OnDeath" : "nw_o2_generalhig",
+      "OnOpen" : "nw_o2_generalhig",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -10768,16 +10844,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generalhig",
-      "OnOpen" : "nw_o2_generalhig",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 471,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 4",
-      "TemplateResRef" : "plc_corpse4",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11083,8 +11154,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14600,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 011"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse1",
+      "OnDeath" : "nw_o2_generallow",
+      "OnOpen" : "nw_o2_generallow",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -11099,16 +11181,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generallow",
-      "OnOpen" : "nw_o2_generallow",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 468,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 1",
-      "TemplateResRef" : "plc_corpse1",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11179,8 +11256,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14600,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 012"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse1",
+      "OnDeath" : "nw_o2_generallow",
+      "OnOpen" : "nw_o2_generallow",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -11195,16 +11283,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generallow",
-      "OnOpen" : "nw_o2_generallow",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 468,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 1",
-      "TemplateResRef" : "plc_corpse1",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11373,8 +11456,19 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14531,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 004"
+          }
+        ]
       },
+      "Tag" : "CORPSE",
+      "TemplateResRef" : "plc_corpse3",
+      "OnDeath" : "nw_o2_generalmed",
+      "OnOpen" : "nw_o2_generalmed",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -11389,16 +11483,11 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "nw_o2_generalmed",
-      "OnOpen" : "nw_o2_generalmed",
-      "OnUsed" : "",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 470,
       "Ref" : 0,
       "Static" : 0,
-      "Tag" : "Corpse - 3",
-      "TemplateResRef" : "plc_corpse3",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -15892,22 +15981,22 @@
         {
           "Name" : "loot1",
           "Type" : 3,
-          "Value" : "nw_it_mpotion005"
+          "Value" : "nw_it_mpotion005" // Potion of Barkskin
         },
         {
           "Name" : "loot2",
           "Type" : 3,
-          "Value" : "nw_it_mpotion005"
+          "Value" : "nw_it_mpotion005" // Potion of Barkskin
         },
         {
           "Name" : "loot3",
           "Type" : 3,
-          "Value" : "nw_it_mpotion009"
+          "Value" : "nw_it_mpotion009" // Potion of Bless
         },
         {
           "Name" : "loot_gold",
           "Type" : 1,
-          "Value" : 1
+          "Value" : 11
         }
       ],
       "Will" : 0,
@@ -16103,23 +16192,23 @@
         {
           "Name" : "loot1",
           "Type" : 3,
-          "Value" : "nw_it_book001"
+          "Value" : "nw_it_book001" // town portal
         },
         {
           "Name" : "loot2",
           "Type" : 3,
-          "Value" : "nw_it_book001"
-        },
-        {
-          "Name" : "loot_gold",
-          "Type" : 1,
-          "Value" : 1
+          "Value" : "nw_it_book001" // town portal
         },
         {
           "Name" : "loot3",
           "Type" : 3,
-          "Value" : "nw_it_book001"
+          "Value" : "nw_it_book001" // town portal
         },
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 13
+        }
       ],
       "Will" : 0,
       "X" : 62.5348,
@@ -16145,6 +16234,13 @@
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 0,
+      "VarTable" : [
+        {
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "nw_it_mneck023" // glittering necklace
+        }
+      ],
       "ItemList" : [
         {
           "AddCost" : 0,
@@ -16182,8 +16278,52 @@
           "StackSize" : 1,
           "Stolen" : 0,
           "Tag" : "NW_WSWMDG002",
-          "TemplateResRef" : "nw_wswmdg002",
+          "TemplateResRef" : "nw_wswmdg002", // dagger +1
           "XModelPart1" : 13,
+          "XOrientation" : 4.1504612E-19,
+          "XPosition" : -1.0,
+          "YOrientation" : 1.0,
+          "YPosition" : -1.0,
+          "ZPosition" : -1.0
+        },
+        {
+          "AddCost" : 0,
+          "BaseItem" : 20,
+          "Charges" : 0,
+          "Cost" : 154,
+          "Cursed" : 0,
+          "DescIdentified" : {
+            "StringRef" : 12432,
+            "Strings" : [ ]
+          },
+          "Description" : null,
+          "Identified" : 1,
+          "LocalizedName" : {
+            "StringRef" : 40583,
+            "Strings" : [ ]
+          },
+          "ModelPart1" : 32,
+          "ModelPart2" : 21,
+          "ModelPart3" : 12,
+          "Plot" : 0,
+          "PropertiesList" : [
+            {
+              "ChanceAppear" : 100,
+              "CostTable" : 4,
+              "CostValue" : 1,
+              "Param1" : 255,
+              "Param1Value" : 0,
+              "PropertyName" : 16,
+              "Subtype" : 1
+            }
+          ],
+          "ReposPosX" : 1,
+          "ReposPosy" : 0,
+          "StackSize" : 77,
+          "Stolen" : 0,
+          "Tag" : "NW_WAMMAR009",
+          "TemplateResRef" : "nw_wammar009",
+          "XModelPart1" : 32,
           "XOrientation" : 4.1504612E-19,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
