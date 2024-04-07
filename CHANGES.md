@@ -5,6 +5,7 @@
 * Quest: "Should old acquaintance be forgot..." now shows names of NPC that remain to speak to.
 * Souls-like death system where gold and XP can be recovered at your most recent death location
 * Harsher death penalty
+* Griswold's "free" items are marked as plot items to prevent sale-for-profit
 
 ## 2.0.2 &mdash; 2024-04-04
 ### Player
