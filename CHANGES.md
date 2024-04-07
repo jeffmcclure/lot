@@ -1,6 +1,9 @@
 [Back to README.md](README.md)
 
 # Changelog
+## 2.0.4 &mdash; 2024-04-xx
+* 
+
 ## 2.0.3 &mdash; 2024-04-07
 * Quest: "Should old acquaintance be forgot..." now shows the names of NPCs remaining to speak with
 * Souls-like death system where gold and XP can be recovered at your most recent death location
