@@ -127,17 +127,16 @@ void bleed(int iBleedAmt)
 }
 
 
-void main()
-{
-   object oDying = GetLastPlayerDying();
-   if(PC_BLEEDING == 0)
-   {
+void main() {
+    object oDying = GetLastPlayerDying();
+    int points = GetCurrentHitPoints(oDying);
+
+   if(PC_BLEEDING == 0) {
     effect eDeath = EffectDeath(FALSE, FALSE);
     ApplyEffectToObject(DURATION_TYPE_INSTANT, eDeath, GetLastPlayerDying());
-   }
-   else if(PC_BLEEDING == 1)
-   {
+   } else if(PC_BLEEDING == 1) {
     AssignCommand(oDying, ClearAllActions());
     AssignCommand(oDying, bleed(1));
    }
+
 }

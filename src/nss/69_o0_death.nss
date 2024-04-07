@@ -53,8 +53,7 @@ void Raise(object oPlayer)
         ApplyEffectToObject(DURATION_TYPE_INSTANT, eVisual, oPlayer);
 }
 
-void main()
-{
+void main() {
 
     object oPlayer = GetLastPlayerDied();
     string sPlayer = GetName(oPlayer);
@@ -109,34 +108,55 @@ void main()
     }
 
     // * BK: Automation Control. Autopcs ignore death
-    if (GetLocalInt(oPlayer, "NW_L_AUTOMATION") == 10)
-    {
+    if (GetLocalInt(oPlayer, "NW_L_AUTOMATION") == 10) {
+        SendMessageToPC(GetFirstPC(), "raising....");
         Raise(oPlayer);
         DelayCommand(1.0, ExecuteScript("crawl", OBJECT_SELF));
         return; // Raise and return
     }
+
     string sArea = GetTag(GetArea(oPlayer));
 
-    if (sArea == "M4Q1D2" || sArea == "M3Q3C" || sArea == "MAP_M1Q6A")
-    {
+    //if (sArea == "M4Q1D2" || sArea == "M3Q3C" || sArea == "MAP_M1Q6A") {
+        ////Raise(oPlayer);
+        ////string sDestTag = "M4QD07_ENTER";
+        ////object oSpawnPoint = GetObjectByTag(sDestTag);
+        ////AssignCommand(oPlayer, DelayCommand(1.0, JumpToLocation(GetLocation(oSpawnPoint))));
+        //// * MAY 2002: Just popup the YOU ARE DEAD panel at this point
+        ////DelayCommand(2.5, PopUpDeathGUIPanel(oPlayer,FALSE, TRUE, 66487));
+        //return;
+    //}
 
-        //Raise(oPlayer);
-        //string sDestTag = "M4QD07_ENTER";
-        //object oSpawnPoint = GetObjectByTag(sDestTag);
-        //AssignCommand(oPlayer, DelayCommand(1.0, JumpToLocation(GetLocation(oSpawnPoint))));
-        // * MAY 2002: Just popup the YOU ARE DEAD panel at this point
-        DelayCommand(2.5, PopUpDeathGUIPanel(oPlayer,FALSE, TRUE, 66487));
+    int points = GetCurrentHitPoints(oPlayer);
+    if (points > 0) {
         return;
-    }
+    } else {
+        FloatingTextStringOnCreature("YOU DIED", oPlayer, FALSE);
 
-    if(GetCurrentHitPoints(oPlayer) > 0)
-    {
-     return;
-    }
-    else
-    {
-     DelayCommand(5.0,MusicBattleStop(GetArea(oPlayer))); // ***
-     DelayCommand(10.0, PopUpDeathGUIPanel(oPlayer,TRUE,TRUE,64521));
+        object soulsDeath = GetLocalObject(oPlayer, "DEATH_LOCATION");
+        if (GetIsObjectValid(soulsDeath)) DestroyObject(soulsDeath);
+
+        // Locate the area we are in
+        object oArea = GetArea(oPlayer);
+
+        // Locate where in the are we are
+        vector vPosition = GetPosition(oPlayer);
+
+        // Identify the direction we are facing
+        //float fOrientation = GetFacing(OBJECT_SELF) - 180.0;
+        //if (fOrientation < 0.0) fOrientation = fOrientation + 360.0;
+
+        // Create a new location with this information
+        location lTarget = Location(oArea, vPosition, 0.0);
+        //location lTarget = GetLocation(oPlayer);
+
+        object obj = CreateObject(OBJECT_TYPE_PLACEABLE, "soulsdeath", lTarget);
+        SetName(obj, GetName(oPlayer) + " bought it here.  RIP.");
+        SetLocalString(obj, "PLAYER_NAME", GetName(oPlayer));
+        SetLocalObject(oPlayer, "DEATH_LOCATION", obj);
+
+        DelayCommand(0.1, MusicBattleStop(GetArea(oPlayer)));
+        DelayCommand(5.0, PopUpDeathGUIPanel(oPlayer,TRUE,TRUE,64521));
     }
 
 }

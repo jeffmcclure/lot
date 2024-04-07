@@ -45,6 +45,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 
 ## Roadmap / Future Enhancements
 * Souls-like death system where gold and XP can be recovered at your most recent death location
+* Harsher death penalty
 
 ## See also
 * [CHANGES.md](CHANGES.md)
