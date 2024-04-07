@@ -26,7 +26,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * Portal does not despawn when player returns to dungeon
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase.
 * When a monster dies, and there is no loot, the corpse is not clickable and cannot be opened
-* Killed monsters disappear shortly after death to improve visibility and reduce memory/processing
+* Killed monsters and corpses disappear shortly after looting to improve visibility and reduce memory/processing
 * Conversation options with NPCs that lead to quests are prefixed with green [Quest] text
 
 ### Multi-player Focused
@@ -52,8 +52,8 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * Cain offer one no-cost identify
  
 ## See also
-* [CHANGES.md](CHANGES.md)
-* [INSTALL.md](INSTALL.md)
+* [CHANGES.md](https://github.com/jeffmcclure/lot/blob/master/CHANGES.md)
+* [INSTALL.md](https://github.com/jeffmcclure/lot/blob/master/INSTALL.md)
 
 ## For reference
 * [The Lord of Terror 1.06](https://neverwintervault.org/project/nwn1/module/lord-terror-diablo-campaign)
