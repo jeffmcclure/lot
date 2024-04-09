@@ -1,0 +1,13 @@
+{
+  "NpcSays" : "Hello <FirstName>!  Stay a while and listen!",
+  "UserChoices" : [
+    {
+      "UserSays" : "Can you identify some items for me?",
+      "AppearIfScript" : "prq_identify",
+      "IncludeResponseId" : "xx-1",
+    },
+    {
+      "UserSays" : "I'm done, thank you."
+    }
+  ]
+}

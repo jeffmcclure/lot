@@ -19,13 +19,14 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * All media resources are part of the new lot2.hak, no need for separate music or video files
 * Improved graphics due to upgraded [CEP 3.1.1c](https://neverwintervault.org/project/nwnee/hakpak/combined/cep-3-community-expansion-pack)
 * Module version number uses [Semantic Versioning Standard](https://semver.org)
+* Only tested on NWN:EE - likely does not work on older versions
 
 ### Quality of Life
 * New starting item "Cloak of Fast Feet" - walk around quicker
 * Portal location moved to center of town
 * Portal does not despawn when player returns to dungeon
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase.
-* When a monster dies, and there is no loot, the corpse is not clickable and cannot be opened
+* Dead monsters containing no loot are not clickable and cannot be opened
 * Killed monsters and corpses disappear shortly after looting to improve visibility and reduce memory/processing
 * Conversation options with NPCs that lead to quests are prefixed with green [Quest] text
 

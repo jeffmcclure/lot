@@ -10,6 +10,10 @@ void forDebug(object oPC) {
 
     CreateItemOnObject("tavernsign", oPC);
     CreateItemOnObject("lootgenie", oPC);
+    CreateItemOnObject("it_mneck026", oPC);
+
+    GiveGoldToCreature(oPC, 543);
+
     AddJournalQuestEntry("QST_BUTCHER", 1, oPC, TRUE, FALSE);
     SetLocked(GetObjectByTag("CHURCH3_2LEORIC"), FALSE);
     int grant = 16000 - GetXP(oPC);
@@ -28,8 +32,7 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    //forDebug(oPC);
-    //CreateItemOnObject("lootgenie", oPC);
+    forDebug(oPC);
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.4 with enhancements by Jeff McClure\n";
     // Send welcome message to joining player

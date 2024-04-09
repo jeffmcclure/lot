@@ -1,8 +1,3 @@
-int StartingConditional()
-{
-object oPC = GetPCSpeaker();
-if (GetItemPossessedBy(oPC, "spell_soulstone") == OBJECT_INVALID) return FALSE;
-
-return TRUE;
+int StartingConditional() {
+    return GetItemPossessedBy(GetPCSpeaker(), "spell_soulstone") != OBJECT_INVALID;
 }
-

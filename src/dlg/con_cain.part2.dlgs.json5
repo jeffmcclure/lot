@@ -1,0 +1,57 @@
+{
+  "NpcSays" : "Hello <FirstName>!  Stay a while and listen!",
+  "AppearIfScript" : "prq_soulstonex",
+  "UserChoices" : [
+    {
+      "UserSays" : "Can you identify some items for me?",
+      "AppearIfScript" : "prq_identify",
+      "Response" : [
+        {
+          "ResponseId" : "xx-1",
+          "NpcSays" : "I could discern the magical properties of items for only 100 gold pieces.",
+          "UserChoices" : [
+            {
+              "UserSays" : "Here is 100 gold pieces. Identify them please.",
+              "AppearIfScript" : "prq_100gold",
+              "OnSelectScript" : "s_identifyall",
+            },
+            {
+              "UserSays" : "<StartCheck>[Persuade]</Start> You don't really mean to charge me for such a simple service, do you?",
+              "Response" : [
+                {
+                  "NpcSays" : "<StartAction>[Success]</Start>  Well... I suppose you are right.  Coming to Tristram's aid is indeed payment enough for my services.",
+                  "AppearIfScript" : "nw_d2_pers_low",
+                  "OnAppearScript" : "s_identifyall2",
+                  "UserChoices" : [
+                    {
+                      "UserSays" : "Goodbye."
+                    }
+                  ]
+                },
+                {
+                  "NpcSays" : "<StartAction>[Failure]</Start>  Surely <FirstName>, a small sum for the valuable help of an old man is worth it, don't you think?",
+                  "UserChoices" : [
+                    {
+                      "UserSays" : "Very well, here is 100 gold pieces. Identify them please.",
+                      "AppearIfScript" : "prq_100gold",
+                      "OnSelectScript" : "s_identifyall"
+                    },
+                    {
+                      "UserSays" : "Never mind."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "UserSays" : "No thanks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "UserSays" : "I'm done, thank you."
+    }
+  ]
+}

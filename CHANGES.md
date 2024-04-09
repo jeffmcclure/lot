@@ -2,7 +2,7 @@
 
 # Changelog
 ## 2.0.4 &mdash; 2024-04-xx
-* 
+* Reduce difficulty of Cain's persuasion check for a free identify to make it possible (but still difficult) for level 1 characters to get a free identify
 
 ## 2.0.3 &mdash; 2024-04-07
 * Quest: "Should old acquaintance be forgot..." now shows the names of NPCs remaining to speak with

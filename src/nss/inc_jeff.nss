@@ -1,6 +1,8 @@
 #include "x2_inc_itemprop"
 #include "nw_i0_plot"
 
+int AutoDC3(int DC, int nSkill, object oTarget);
+
 void MessageAll(string sMessage) {
     object oPlayer = GetFirstPC();
     while(GetIsObjectValid(oPlayer)) {
@@ -106,5 +108,75 @@ void DestroyAllByTag(string sTag) {
             DestroyObject(oTarget, 0.5);
         }
         oMember = GetNextFactionMember(oPC, TRUE);
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+//
+//  AutoDC
+//
+///////////////////////////////////////////////////////////////////////////////
+//  Returns a pass value based on the object's level and the suggested DC
+// December 20 2001: Changed so that the difficulty is determined by the
+// NPC's Hit Dice
+// November 2002 (Brent): Adding a higher upper range for level 15+ campaigns.
+// August 2003 (Georg): Fixed bug not adding up DCs in the correct order
+///////////////////////////////////////////////////////////////////////////////
+//  Created By: Brent, September 13 2001
+///////////////////////////////////////////////////////////////////////////////
+int AutoDC3(int DC, int nSkill, object oTarget)
+{
+    /*
+    Easy = Lvl/4 ...rounded up
+    Moderate = 3/Lvl + Lvl ...rounded up
+    Difficult = Lvl * 1.5 + 6 ...rounded up
+    */
+    int nLevel = GetHitDice(OBJECT_SELF);
+    int nTest = 0;
+
+    // * July 2
+    // * If nLevel is less than 0 or 0 then set it to 1
+    if (nLevel <= 0)
+    {
+        nLevel = 1;
+    }
+
+    switch (DC)
+    {
+        case DC_EASY: nTest = nLevel / 4 + 1; break;
+            // * minor tweak to lower the values a little
+        case DC_MEDIUM: nTest = (3 / nLevel + nLevel) - abs( (nLevel/2) -2); break;
+        case DC_HARD: nTest = FloatToInt(nLevel * 1.5 + 6) - abs( ( FloatToInt(nLevel/1.5) -2)); break;
+        case DC_SUPERIOR: nTest = 7+ FloatToInt(nLevel * 1.5 + 6) - abs( ( FloatToInt(nLevel/1.5) -2)); break;
+        case DC_MASTER: nTest = 14 + FloatToInt(nLevel * 1.5 + 6) - abs( ( FloatToInt(nLevel/1.5) -2)); break;
+        case DC_LEGENDARY: nTest = 21 + FloatToInt(nLevel * 1.5 + 6) - abs( ( FloatToInt(nLevel/1.5) -2)); break;
+        case DC_EPIC: nTest = 28 + FloatToInt(nLevel * 1.5 + 6) - abs( ( FloatToInt(nLevel/1.5) -2)); break;
+    }
+
+
+
+    // *********************************
+    // * CHARM/DOMINATION
+    // * If charmed or dominated the NPC
+    // * will be at a disadvantage
+    // *********************************
+    int nCharmMod = 0;
+
+    if (nSkill == SKILL_PERSUADE || nSkill == SKILL_BLUFF || nSkill == SKILL_INTIMIDATE)
+        nCharmMod = GetNPCEasyMark(oTarget);
+    int nDC = nTest + 10 - nCharmMod ;
+    if (nDC < 1 )
+        nDC = 1;
+
+    int d20Roll = d20();
+    int skillRank = GetSkillRank(nSkill, oTarget);
+    string rollMessage = "(skillRank " + IntToString(skillRank) + ") + (d20 roll " + IntToString(d20Roll) + ") vs (DC " + IntToString(nDC) + ")";
+    // * Roll d20 + skill rank vs. DC + 10
+    if ((skillRank + d20Roll) >= nDC) {
+       SendMessageToPC(oTarget, "SUCCESS " + rollMessage);
+       return TRUE;
+    } else {
+       SendMessageToPC(oTarget, "FAIL " + rollMessage);
+       return FALSE;
     }
 }
