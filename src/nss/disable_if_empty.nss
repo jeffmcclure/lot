@@ -1,6 +1,6 @@
-void DestroyIfEmptyV1(object creature) {
+void DisableIfEmptyV1(object creature) {
     //SendMessageToPC(GetFirstPC(), "DestroyIfEmpty()");
-    SetIsDestroyable(TRUE, FALSE, FALSE);
+    //SetIsDestroyable(TRUE, FALSE, FALSE);
 
     object oItem = GetFirstItemInInventory(creature);
     int any = FALSE;
@@ -22,20 +22,22 @@ void DestroyIfEmptyV1(object creature) {
     }
 
     //if (!any) SetUseableFlag(creature, FALSE);
-    if (!any) DestroyObject(creature);
+    if (!any)
+        SetUseableFlag(OBJECT_SELF, FALSE);
 }
 
-void DestroyIfEmptyV2() {
+void DisableIfEmptyV2() {
     //SendMessageToPC(GetFirstPC(), "destroy_if_empty ENTER");
     SetIsDestroyable(TRUE, FALSE, FALSE);
 
     if (!GetIsObjectValid(GetFirstItemInInventory(OBJECT_SELF)) && GetGold(OBJECT_SELF) < 1) {
         //SendMessageToPC(GetFirstPC(), "destroy_if_empty DESTROY");
-        DestroyObject(OBJECT_SELF);
+        SetUseableFlag(OBJECT_SELF, FALSE);
     }
 }
 
+// recommended use OnClosed event
 void main() {
-    //SendMessageToPC(GetFirstPC(), "destroy_if_empty ENTER");
-    DestroyIfEmptyV1(OBJECT_SELF);
+    //SendMessageToPC(GetFirstPC(), "disable_if_empty ENTER");
+    DisableIfEmptyV1(OBJECT_SELF);
 }

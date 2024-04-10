@@ -4785,16 +4785,21 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() is_creature:" + IntToString(is_creature));
     int lootNum;
     for (lootNum = 1; lootNum < 8; lootNum++) {
-        string lootResRef = GetLocalString(target, "loot" + IntToString(lootNum));
+        string lootKey = "loot" + IntToString(lootNum);
+        string lootResRef = GetLocalString(target, lootKey);
         if (lootResRef == "") break;
        //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 2 " + lootResRef);
-        int nStackSize = GetLocalInt(target, "loot" + IntToString(lootNum) + "_size");
+        int nStackSize = GetLocalInt(target, lootKey + "_size");
         if (nStackSize < 1) nStackSize = 1;
 
         object oMember = GetFirstFactionMember(oPC, TRUE);
+        int plot = GetLocalInt(target, lootKey + "_plot");
+        int ident = GetLocalInt(target, lootKey + "_identified");
         while (GetIsObjectValid(oMember)) {
             //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() 3");
-            CreateLoot(lootResRef, oChest, oMember, nStackSize);
+            object loot = CreateLoot(lootResRef, oChest, oMember, nStackSize);
+            if(ident) SetIdentified(loot, TRUE);
+            if(plot) SetPlotFlag(loot, TRUE);
             oMember = GetNextFactionMember(oPC, TRUE);
         }
     }

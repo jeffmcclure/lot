@@ -6,11 +6,26 @@ void forDebug(object oPC) {
 
     CreateItemOnObject("key_butcher", oPC);
     //CreateItemOnObject("rectorykey", oPC);
-    CreateItemOnObject("key_rectory_outs", oPC);
+    CreateItemOnObject("key_rectory_outs", oPC); // rectory outdoor key
 
-    CreateItemOnObject("tavernsign", oPC);
-    CreateItemOnObject("lootgenie", oPC);
-    CreateItemOnObject("it_mneck026", oPC);
+    //CreateItemOnObject("tavernsign", oPC);
+    CreateItemOnObject("lootgenie", oPC);   // loot genie
+    CreateItemOnObject("it_mneck026", oPC); // natural armor +1
+
+    CreateItemOnObject("nw_wswls001", oPC); // long sword
+    CreateItemOnObject("nw_waxbt001", oPC); // battle axe
+    CreateItemOnObject("nw_ashlw001", oPC); // large shield
+
+    //CreateItemOnObject("nw_it_mring009", oPC); // Ring of cyan
+    CreateItemOnObject("nw_it_mring013", oPC); // Ring of scholors - lore white light
+
+    CreateItemOnObject("nw_it_book001", oPC); // Tome of town portal
+    CreateItemOnObject("nw_it_book002", oPC); // Tome of town portal
+    CreateItemOnObject("nw_it_book010", oPC); // Tome of town portal
+    CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
+    CreateItemOnObject("nw_it_book020", oPC); // Tome of identify
+    CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
+    CreateItemOnObject("nw_it_book030", oPC); // Tome of healing
 
     GiveGoldToCreature(oPC, 543);
 
