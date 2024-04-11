@@ -5,7 +5,7 @@ int StartingConditional() {
     object formerMaster = GetFormerMaster();
 
     if (GetFormerMaster() == GetPCSpeaker()) {
-        SendMessageToPC(GetPCSpeaker(),"GetFormerMaster() == GetPCSpeaker()");
+        //SendMessageToPC(GetPCSpeaker(),"GetFormerMaster() == GetPCSpeaker()");
         return TRUE;
     }
 
@@ -17,7 +17,7 @@ int StartingConditional() {
 
     // Failsafe - trying to resolve bug where henchmen will not rejoin after separation
     if (GetIsObjectValid(formerMaster) == FALSE) {
-        SendMessageToPC(GetPCSpeaker(),"GetIsObjectValid(formerMaster) == FALSE");
+        //SendMessageToPC(GetPCSpeaker(),"GetIsObjectValid(formerMaster) == FALSE");
         return TRUE;
     }
 

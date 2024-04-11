@@ -14,6 +14,7 @@
 //:: Modified By: 69MEH69 AUG2003 Added LevelUp option at hire
 //:://////////////////////////////////////////////
 #include "69_inc_henai"
+#include "inc_map"
 
 void main()
 {
@@ -59,4 +60,7 @@ void main()
       DoLevelUp(GetPCSpeaker());
     }
 //ExecuteScript("giv_henchhealkit", OBJECT_SELF);
+
+    DeleteHenchmanDeath(OBJECT_SELF);
+    //SendMessageToPC(GetFirstPC(), "69_ch_join");
 }

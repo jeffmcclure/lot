@@ -431,7 +431,7 @@ int DoSearchLoop()
                  // TK should this be done or just leave opened things alone?
                  // maybe just use speak string (i.e. "something has been left behind" ?
                 /*
-                if (GetIsValidObject(GetFirstItemInIventory())
+                if (GetIsObjectValid(GetFirstItemInIventory())
                     {
                         if (fDistance < fDistanceToDoorOrPlaceable)
                         {

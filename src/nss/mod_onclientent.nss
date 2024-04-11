@@ -27,7 +27,7 @@ void forDebug(object oPC) {
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
     CreateItemOnObject("nw_it_book030", oPC); // Tome of healing
 
-    GiveGoldToCreature(oPC, 543);
+    GiveGoldToCreature(oPC, 76543);
 
     AddJournalQuestEntry("QST_BUTCHER", 1, oPC, TRUE, FALSE);
     SetLocked(GetObjectByTag("CHURCH3_2LEORIC"), FALSE);

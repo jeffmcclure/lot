@@ -11,6 +11,7 @@
 //:: Created By: 69MEH69 Jul2003 Henchman Death Option
 //:://////////////////////////////////////////////
 #include "69_inc_henai"
+#include "inc_map"
 
 void BringBack();
 void HenchmanBleed(object oHench = OBJECT_SELF);
@@ -203,6 +204,7 @@ void HenchmanBleed(object oHench = OBJECT_SELF)
    }
    else if(GetLocalInt(oArea, "nCHP" +sTag) <= -10)
    {
+    RecordHenchmanDeath(oHench);
     SetDidDie(TRUE, oHench);
     SetHenchmanDying(oHench, FALSE);
     SendMessageToPC(oPC, sName+ " is beyond healing!");
@@ -247,14 +249,15 @@ void HenchHeal(object oHench = OBJECT_SELF)
 
 }
 
-void HenchmanDeath(object oHench = OBJECT_SELF)
-{
+void HenchmanDeath(object oHench = OBJECT_SELF) {
+    //SendMessageToPC(GetFirstPC(), "war_hen_death HenchmanDeath() ENTER");
             object myMaster = GetMaster(oHench);
             object myHenchman = GetHenchman(oHench);
             object oPC = GetRealMaster(oHench);
             // Henchman death notification
             string sHenchName = GetName(oHench);
             SendMessageToPC(oPC, sHenchName+ " has fallen!");
+
             // Decrement number of henchmen
             int nHench = GetLocalInt(oPC, "nHench");
             string sHench = IntToString(nHench);

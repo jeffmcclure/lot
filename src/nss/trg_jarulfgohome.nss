@@ -1,5 +1,6 @@
-void main()
-{
+#include "inc_map"
+
+void main() {
 
 object oPC = GetPCSpeaker();
 
@@ -15,5 +16,7 @@ object oPC = GetPCSpeaker();
 //ActionWait(3.0f);
 ActionJumpToObject(GetObjectByTag("INVIS_JARULF"));
 
+    DeleteHenchmanDeath(OBJECT_SELF);
+    //SendMessageToPC(GetFirstPC(), "trg_jarulfgohome");
 }
 

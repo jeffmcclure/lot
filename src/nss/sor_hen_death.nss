@@ -11,6 +11,7 @@
 //:: Created By: 69MEH69 Jul2003 Henchman Death Option
 //:://////////////////////////////////////////////
 #include "69_inc_henai"
+#include "inc_map"
 
 void BringBack();
 void HenchmanBleed(object oHench = OBJECT_SELF);
@@ -203,6 +204,7 @@ void HenchmanBleed(object oHench = OBJECT_SELF)
    }
    else if(GetLocalInt(oArea, "nCHP" +sTag) <= -10)
    {
+    RecordHenchmanDeath(oHench);
     SetDidDie(TRUE, oHench);
     SetHenchmanDying(oHench, FALSE);
     SendMessageToPC(oPC, sName+ " is beyond healing!");
