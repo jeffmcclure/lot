@@ -2,4 +2,7 @@
 
 void main() {
     TreasureChestBoss();
+    MoveInventoryLootToProperties();
+    PopulateLootForParty(OBJECT_SELF, GetLastOpenerOrKiller());
+    ShoutDisturbed();
 }

@@ -2,4 +2,6 @@
 
 void main() {
     TreasureChestBook();
+    MoveInventoryLootToProperties();
+    PopulateLootForParty(OBJECT_SELF, GetLastOpenerOrKiller());
 }

@@ -17,9 +17,12 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * Using github for [hak source code](https://github.com/jeffmcclure/lothak)
 * Only one module-specific hak file needed, lot2.hak
 * All media resources are part of the new lot2.hak, no need for separate music or video files
-* Improved graphics due to upgraded [CEP 3.1.1c](https://neverwintervault.org/project/nwnee/hakpak/combined/cep-3-community-expansion-pack)
 * Module version number uses [Semantic Versioning Standard](https://semver.org)
 * Only tested on NWN:EE - likely does not work on older versions
+
+### Visual / Graphics
+* Updated henchmen portraits
+* Improved graphics due to upgraded [CEP 3.1.1c](https://neverwintervault.org/project/nwnee/hakpak/combined/cep-3-community-expansion-pack)
 
 ### Quality of Life
 * New starting item "Cloak of Fast Feet" - walk around quicker
@@ -49,9 +52,6 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * New haggling/appraise system for all stores (makes use of Appraise skill and Charisma bonus modifier)
 * Some chests must now be picked open, and may not be bashed open (makes use of Lockpick skill)
 * Reduce difficulty of some Persuade communications to make persuasion possible
-
-### Visual
-* Updated henchmen portraits
 
 ## Roadmap / Future Enhancements
  

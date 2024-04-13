@@ -1,6 +1,5 @@
 void DisableIfEmptyV1(object creature) {
-    //SendMessageToPC(GetFirstPC(), "DestroyIfEmpty()");
-    //SetIsDestroyable(TRUE, FALSE, FALSE);
+    //SendMessageToPC(GetFirstPC(), "DisableIfEmpty()");
 
     object oItem = GetFirstItemInInventory(creature);
     int any = FALSE;
@@ -27,11 +26,10 @@ void DisableIfEmptyV1(object creature) {
 }
 
 void DisableIfEmptyV2() {
-    //SendMessageToPC(GetFirstPC(), "destroy_if_empty ENTER");
-    SetIsDestroyable(TRUE, FALSE, FALSE);
+    //SendMessageToPC(GetFirstPC(), "disable_if_empty ENTER");
 
     if (!GetIsObjectValid(GetFirstItemInInventory(OBJECT_SELF)) && GetGold(OBJECT_SELF) < 1) {
-        //SendMessageToPC(GetFirstPC(), "destroy_if_empty DESTROY");
+        //SendMessageToPC(GetFirstPC(), "disable_if_empty DISABLE");
         SetUseableFlag(OBJECT_SELF, FALSE);
     }
 }

@@ -4838,7 +4838,7 @@ void MoveInventoryLootToProperties() {
         //SendMessageToPC(GetFirstPC(), "found gold " + IntToString(gold));
         TakeGoldFromCreature(gold, OBJECT_SELF, TRUE);
         //SendMessageToPC(GetFirstPC(), "gold left " + IntToString(GetGold()));
-        SetLocalInt(OBJECT_SELF, "loot_gold",  gold);
+        SetLocalInt(OBJECT_SELF, "loot_gold", gold + GetLocalInt(OBJECT_SELF, "loot_gold"));
     }
 
     // destroy container contents and create properties
@@ -4853,13 +4853,13 @@ void MoveInventoryLootToProperties() {
     while (GetIsObjectValid(oItem)) {
         string resref = GetResRef(oItem);
         if (resref == "nw_it_gold001") {
-            SetItemStackSize(oItem, 0);
-            //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() set gold stack size 0");
             if (gold < 1) {
                 // gold = GetLocalInt(OBJECT_SELF, "loot_gold");
                 //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() GetItemStackSize " + IntToString(GetItemStackSize(oItem)));
                 SetLocalInt(OBJECT_SELF, "loot_gold",  GetItemStackSize(oItem));
             }
+            //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() set gold stack size 0");
+            SetItemStackSize(oItem, 0);
         } else {
             //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() 3 " + resref + " " + GetName(oItem) + " droppable:" + IntToString(GetDroppableFlag(oItem)));
             if (!isDeadCreature || GetDroppableFlag(oItem)) {

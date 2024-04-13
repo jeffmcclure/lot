@@ -9000,7 +9000,12 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14595,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Bonus Chest 1"
+          }
+        ]
       },
       "DisarmDC" : 15,
       "Faction" : 1,
@@ -9017,7 +9022,7 @@
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "loot_normal_hi",
-      "OnUsed" : "disable_if_empty",
+      "OnClosed" : "disable_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 366,
@@ -9049,7 +9054,12 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14595,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Bonus Chest 2"
+          }
+        ]
       },
       "DisarmDC" : 15,
       "Faction" : 1,
@@ -9066,7 +9076,7 @@
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "loot_normal_hi",
-      "OnUsed" : "disable_if_empty",
+      "OnClosed" : "disable_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 366,

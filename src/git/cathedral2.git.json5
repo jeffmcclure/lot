@@ -11969,7 +11969,12 @@
       "CurrentHP" : 17,
       "Description" : {
         "StringRef" : 14595,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "The Butcher's Chest"
+          }
+        ]
       },
       "DisarmDC" : 15,
       "Faction" : 1,
@@ -11978,14 +11983,21 @@
       "Hardness" : 7,
       "HasInventory" : 1,
       "Interruptable" : 0,
+      "VarTable" : [
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 398
+        }
+      ],
       "KeyRequired" : 0,
       "LocName" : {
         "StringRef" : 5348,
         "Strings" : [ ]
       },
       "Lockable" : 0,
-      "Locked" : 1,
-      "OnDeath" : "loot_normal_hi",
+      "Locked" : 0,
+      "OnDeath" : "",
       "OnOpen" : "loot_normal_hi",
       "OnUsed" : "",
       "OpenLockDC" : 18,
