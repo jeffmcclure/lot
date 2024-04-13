@@ -6777,6 +6777,7 @@
       "Static" : 1,
       "Tag" : "Statue - Stone",
       "TemplateResRef" : "plc_statue1",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -6918,6 +6919,7 @@
       "Static" : 1,
       "Tag" : "StatueStone",
       "TemplateResRef" : "plc_statue1",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -7606,6 +7608,7 @@
       "Static" : 0,
       "Tag" : "BOOK_GREATCONFLICT",
       "TemplateResRef" : "plc_lecturn",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -9157,6 +9160,7 @@
       "Static" : 1,
       "Tag" : "Statue - Defaced",
       "TemplateResRef" : "plc_statue2",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -10604,6 +10608,7 @@
       "Static" : 0,
       "Tag" : "Box / Crate - 3",
       "TemplateResRef" : "plc_box3",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -10652,6 +10657,7 @@
       "Static" : 0,
       "Tag" : "Lecturn",
       "TemplateResRef" : "plc_lecturn",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11336,6 +11342,7 @@
       "Static" : 0,
       "Tag" : "Box / Crate - 4",
       "TemplateResRef" : "plc_box4",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11385,6 +11392,7 @@
       "Static" : 0,
       "Tag" : "Box / Crate - 3",
       "TemplateResRef" : "plc_box3",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11714,7 +11722,7 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnClosed" : "trs_destroychest",
+      "OnClosed" : "disable_if_empty",
       "OnDeath" : "trs_spawnchest",
       "OnOpen" : "nw_o2_generallow",
       "OnUsed" : "",
@@ -11774,6 +11782,7 @@
       "Static" : 0,
       "Tag" : "Lecturn",
       "TemplateResRef" : "plc_lecturn",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -11813,7 +11822,7 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnClosed" : "trs_destroychest",
+      "OnClosed" : "disable_if_empty",
       "OnDeath" : "trs_spawnchest",
       "OnOpen" : "nw_o2_generallow",
       "OnUsed" : "",
@@ -11863,7 +11872,7 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnClosed" : "trs_destroychest",
+      "OnClosed" : "disable_if_empty",
       "OnDeath" : "trs_spawnchest",
       "OnOpen" : "nw_o2_generallow",
       "OnUsed" : "",
@@ -11913,7 +11922,7 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnClosed" : "trs_destroychest",
+      "OnClosed" : "disable_if_empty",
       "OnDeath" : "trs_spawnchest",
       "OnOpen" : "nw_o2_generalhig",
       "OnUsed" : "",
@@ -11963,7 +11972,7 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnClosed" : "trs_destroychest",
+      "OnClosed" : "disable_if_empty",
       "OnDeath" : "trs_spawnchest",
       "OnOpen" : "nw_o2_generalhig",
       "OnUsed" : "",
@@ -12082,6 +12091,7 @@
       "Static" : 0,
       "Tag" : "RDM_CHEST1",
       "TemplateResRef" : "chest001",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -12141,6 +12151,7 @@
       "Static" : 0,
       "Tag" : "RDM_CHEST1",
       "TemplateResRef" : "chest001",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -12200,6 +12211,7 @@
       "Static" : 0,
       "Tag" : "RDM_CHEST1",
       "TemplateResRef" : "chest001",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -13583,6 +13595,7 @@
       "Static" : 0,
       "Tag" : "StatueStone",
       "TemplateResRef" : "plc_statue1",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -13632,6 +13645,7 @@
       "Static" : 0,
       "Tag" : "StatueStone",
       "TemplateResRef" : "plc_statue1",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -15988,17 +16002,20 @@
         {
           "Name" : "loot1",
           "Type" : 3,
-          "Value" : "nw_it_mpotion005" // Potion of Barkskin
+          "Value" : "nw_it_mpotion005"
+          // Potion of Barkskin
         },
         {
           "Name" : "loot2",
           "Type" : 3,
-          "Value" : "nw_it_mpotion005" // Potion of Barkskin
+          "Value" : "nw_it_mpotion005"
+          // Potion of Barkskin
         },
         {
           "Name" : "loot3",
           "Type" : 3,
-          "Value" : "nw_it_mpotion009" // Potion of Bless
+          "Value" : "nw_it_mpotion009"
+          // Potion of Bless
         },
         {
           "Name" : "loot_gold",
@@ -16199,17 +16216,20 @@
         {
           "Name" : "loot1",
           "Type" : 3,
-          "Value" : "nw_it_book001" // town portal
+          "Value" : "nw_it_book001"
+          // town portal
         },
         {
           "Name" : "loot2",
           "Type" : 3,
-          "Value" : "nw_it_book001" // town portal
+          "Value" : "nw_it_book001"
+          // town portal
         },
         {
           "Name" : "loot3",
           "Type" : 3,
-          "Value" : "nw_it_book001" // town portal
+          "Value" : "nw_it_book001"
+          // town portal
         },
         {
           "Name" : "loot_gold",
@@ -16245,7 +16265,8 @@
         {
           "Name" : "loot1",
           "Type" : 3,
-          "Value" : "nw_it_mneck023" // glittering necklace
+          "Value" : "nw_it_mneck023"
+          // glittering necklace
         },
         {
           "Name" : "loot1_plot",
@@ -16260,7 +16281,8 @@
         {
           "Name" : "loot2",
           "Type" : 3,
-          "Value" : "nw_wammar009", // arrow +1
+          "Value" : "nw_wammar009",
+          // arrow +1
         },
         {
           "Name" : "loot2_size",
@@ -16711,7 +16733,8 @@
           "StackSize" : 1,
           "Stolen" : 0,
           "Tag" : "NW_IT_MBOOTS015",
-          "TemplateResRef" : "nw_it_mboots015", // Boots of Hardiness +1
+          "TemplateResRef" : "nw_it_mboots015",
+          // Boots of Hardiness +1
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,

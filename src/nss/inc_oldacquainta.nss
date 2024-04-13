@@ -53,7 +53,7 @@ void OldAcquaintance(object obj) {
 
             int remainCount = JsonGetLength(people);
             if (remainCount == 0) {
-                AddJournalQuestEntry("QST_OLD_ACQUAINTANCE2", 2, oPC, TRUE); // give to party
+                AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", 2, oPC, TRUE); // give to party
             } else {
                 string msg;
                 if (remainCount > 1)

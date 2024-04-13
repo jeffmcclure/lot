@@ -205,6 +205,7 @@
       "Static" : 0,
       "Tag" : "RDM_CHEST1",
       "TemplateResRef" : "chest001",
+      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,

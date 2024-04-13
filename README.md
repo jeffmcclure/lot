@@ -28,7 +28,9 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * New item Loot Genie, when held in inventory your loot is automatically picked up and put into your inventory;  available from Witch via quest or purchase.
 * Dead monsters containing no loot are not clickable and cannot be opened
 * Killed monsters and corpses disappear shortly after looting to improve visibility and reduce memory/processing
+* Chests and containers are disabled and not clickable after looting
 * Conversation options with NPCs that lead to quests are prefixed with green [Quest] text
+* Journal entry and map pin recording location of dead henchman
 
 ### Multi-player Focused
 * Quests shared with party
@@ -46,11 +48,12 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 ### Role Playing
 * New haggling/appraise system for all stores (makes use of Appraise skill and Charisma bonus modifier)
 * Some chests must now be picked open, and may not be bashed open (makes use of Lockpick skill)
+* Reduce difficulty of some Persuade communications to make persuasion possible
+
+### Visual
+* Updated henchmen portraits
 
 ## Roadmap / Future Enhancements
-* Journal entry recording location of dead henchman
-* Map pin for location of dead henchman
-* Cain offer one no-cost identify
  
 ## See also
 * [CHANGES.md](https://github.com/jeffmcclure/lot/blob/master/CHANGES.md)
