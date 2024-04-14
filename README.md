@@ -1,11 +1,9 @@
-# The Lord of Terror 2
-A module for Neverwinter Nights Enhanced Edition
 
 Based on [The Lord of Terror](https://neverwintervault.org/project/nwn1/module/lord-terror-diablo-campaign) by [Tolitz Rosel](mailto:tolitzrosel@gmail.com)
 
 The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff McClure](mailto:jeffmcclure.github@gmail.com)
 
-Current Version 2.0.4 - April 7, 2024
+Current Version 2.0.4 - April 13, 2024
 
 ## Stay a while and listen
 This module is mostly the same as Tolitz Rosel's last released version 1.06 from November 27, 2004.
