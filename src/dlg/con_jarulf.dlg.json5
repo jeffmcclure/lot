@@ -3,7 +3,6 @@
   "DelayReply" : 0,
   "EndConverAbort" : "nw_walk_wp",
   "EndConversation" : "nw_walk_wp",
-  "PreventZoomIn" : 1,
   "EntryList" : [
     {
       "AnimLoop" : 1,
@@ -11,8 +10,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "henchhire",
           "Index" : 1,
+          "Active" : "henchhire",
           "IsChild" : false
         },
         0
@@ -52,8 +51,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "prq_jarulf001",
           "Index" : 5,
+          "Active" : "prq_jarulf001",
           "IsChild" : false
         }
       ],
@@ -76,8 +75,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_2000",
           "Index" : 23,
+          "Active" : "hench_2000",
           "IsChild" : false
         },
         9,
@@ -91,8 +90,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_1000",
           "Index" : 13,
+          "Active" : "hench_1000",
           "IsChild" : false
         },
         10
@@ -126,8 +125,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_1000",
           "Index" : 18,
+          "Active" : "hench_1000",
           "IsChild" : false
         },
         17
@@ -209,8 +208,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "prq_jarulf001",
           "Index" : 30,
+          "Active" : "prq_jarulf001",
           "IsChild" : false
         }
       ],
@@ -233,8 +232,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_2000",
           "Index" : 48,
+          "Active" : "hench_2000",
           "IsChild" : false
         },
         34,
@@ -248,8 +247,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_1000",
           "Index" : 38,
+          "Active" : "hench_1000",
           "IsChild" : false
         },
         35
@@ -283,8 +282,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_1000",
           "Index" : 43,
+          "Active" : "hench_1000",
           "IsChild" : false
         },
         42
@@ -358,30 +357,15 @@
       "AnimLoop" : 1,
       "Animation" : 28,
       "Delay" : 4294967295,
-      "RepliesList" : [ ],
-      "Text" : "As you wish."
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [ ],
-      "Script" : "69_ch_join",
-      "Text" : "Very good, <mister/missus> <LastName>"
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 28,
-      "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "prq_virgin",
           "Index" : 58,
+          "Active" : "prq_virgin",
           "IsChild" : false
         },
         {
-          "Active" : "prq_jarulf001",
           "Index" : 57,
+          "Active" : "prq_jarulf001",
           "IsChild" : false
         },
         56
@@ -444,8 +428,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_2000",
           "Index" : 85,
+          "Active" : "hench_2000",
           "IsChild" : false
         },
         71,
@@ -460,8 +444,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_1000",
           "Index" : 75,
+          "Active" : "hench_1000",
           "IsChild" : false
         },
         72
@@ -474,8 +458,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_2000",
           "Index" : 74,
+          "Active" : "hench_2000",
           "IsChild" : false
         },
         73
@@ -488,8 +472,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_2000",
           "Index" : 78,
+          "Active" : "hench_2000",
           "IsChild" : false
         },
         77,
@@ -503,8 +487,8 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Active" : "hench_1000",
           "Index" : 80,
+          "Active" : "hench_1000",
           "IsChild" : false
         },
         79
@@ -558,33 +542,30 @@
       "Animation" : 29,
       "Delay" : 4294967295,
       "RepliesList" : [
-        91,
-        90
+        {
+          "Index" : 92,
+          "Active" : "henchrefuse",
+          "IsChild" : false
+        },
+        {
+          "Index" : 91,
+          "Active" : "henchrefusenot",
+          "IsChild" : false
+        },
+        {
+          "Index" : 90,
+          "Active" : "henchrefusenot",
+          "IsChild" : false
+        }
       ],
       "Text" : "I knew you could not survive without me.  Would you like my able sword to guard you back once again?"
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [ ],
-      "Script" : "trg_jarulfgohome",
-      "Text" : "Is that so?  Then stop bothering me!"
-    },
-    {
-      "AnimLoop" : 1,
-      "Animation" : 0,
-      "Delay" : 4294967295,
-      "RepliesList" : [ ],
-      "Script" : "69_ch_join",
-      "Text" : "Then let's push on, shall we?"
     },
     {
       "AnimLoop" : 1,
       "Animation" : 35,
       "Delay" : 4294967295,
       "RepliesList" : [
-        92
+        93
       ],
       "Text" : "Dying is always an annoying bit of business, but I rarely know it."
     },
@@ -593,8 +574,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        94,
-        93
+        95,
+        94
       ],
       "Text" : "But I am here and ready to fight by your side once again if you want - if just to prove that my death was a fluke.  Do you want me to come along once more?"
     },
@@ -619,12 +600,12 @@
       "Comment" : "Default dialogue when the henchman is a member of the player's party.  ",
       "Delay" : 4294967295,
       "RepliesList" : [
+        164,
         163,
-        162,
-        101,
+        102,
+        98,
         97,
-        96,
-        95
+        96
       ],
       "Script" : "hench_unbusify",
       "Text" : {
@@ -657,8 +638,8 @@
       "Animation" : 28,
       "Delay" : 4294967295,
       "RepliesList" : [
-        99,
-        98
+        100,
+        99
       ],
       "Text" : {
         "StringRef" : 56150,
@@ -670,7 +651,7 @@
       "Animation" : 28,
       "Delay" : 4294967295,
       "RepliesList" : [
-        100
+        101
       ],
       "Script" : "69_ch_remove",
       "Text" : {
@@ -688,30 +669,30 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        108,
+        109,
         {
+          "Index" : 107,
           "Active" : "69_ch_check_38",
+          "IsChild" : false
+        },
+        {
           "Index" : 106,
-          "IsChild" : false
-        },
-        {
           "Active" : "69_ch_check_39",
+          "IsChild" : false
+        },
+        {
           "Index" : 105,
-          "IsChild" : false
-        },
-        {
           "Active" : "nw_ch_comrange",
+          "IsChild" : false
+        },
+        {
           "Index" : 104,
-          "IsChild" : false
-        },
-        {
           "Active" : "nw_ch_commelee",
-          "Index" : 103,
           "IsChild" : false
         },
-        102,
+        103,
         {
-          "Index" : 95,
+          "Index" : 96,
           "IsChild" : true
         }
       ],
@@ -745,7 +726,7 @@
       "Animation" : 34,
       "Delay" : 4294967295,
       "RepliesList" : [
-        107
+        108
       ],
       "Text" : {
         "StringRef" : 56222,
@@ -763,72 +744,72 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 152,
           "Active" : "nw_ch_comrange",
-          "Index" : 151,
           "IsChild" : false
         },
         {
+          "Index" : 150,
           "Active" : "nw_ch_commelee",
-          "Index" : 149,
           "IsChild" : false
         },
         {
+          "Index" : 148,
           "Active" : "nw_ch_comrange",
-          "Index" : 147,
           "IsChild" : false
         },
-        140,
+        141,
         {
+          "Index" : 129,
           "Active" : "nw_ch_heal_0",
-          "Index" : 128,
           "IsChild" : false
         },
         {
+          "Index" : 127,
           "Active" : "69_ch_yes_srch",
-          "Index" : 126,
           "IsChild" : false
         },
         {
+          "Index" : 125,
           "Active" : "69_ch_no_srch",
-          "Index" : 124,
           "IsChild" : false
         },
         {
+          "Index" : 123,
           "Active" : "69_ch_no_stlth",
-          "Index" : 122,
           "IsChild" : false
         },
         {
+          "Index" : 121,
           "Active" : "69_ch_yes_stlth",
-          "Index" : 120,
           "IsChild" : false
         },
         {
+          "Index" : 119,
           "Active" : "nw_ch_no_locks",
-          "Index" : 118,
           "IsChild" : false
         },
         {
+          "Index" : 117,
           "Active" : "nw_ch_yes_locks",
-          "Index" : 116,
           "IsChild" : false
         },
         {
+          "Index" : 115,
           "Active" : "henchdual",
-          "Index" : 114,
           "IsChild" : false
         },
         {
+          "Index" : 113,
           "Active" : "69_henchatackyes",
-          "Index" : 112,
           "IsChild" : false
         },
         {
+          "Index" : 112,
           "Active" : "69_henchatackno",
-          "Index" : 111,
           "IsChild" : false
         },
-        109
+        110
       ],
       "Text" : {
         "StringRef" : 56146,
@@ -845,7 +826,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        110
+        111
       ],
       "Text" : "As it should be."
     },
@@ -855,7 +836,7 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 113,
+          "Index" : 114,
           "IsChild" : true
         }
       ],
@@ -866,7 +847,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        113
+        114
       ],
       "Text" : "Yeah, soften them up so I can kill them in quicker then..."
     },
@@ -875,7 +856,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        115
+        116
       ],
       "Script" : "henchdoswap",
       "Text" : "What makes you the expert?   Fine, I'll change it so you won't bother me about it anymore."
@@ -885,7 +866,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        117
+        118
       ],
       "Text" : {
         "StringRef" : 56186,
@@ -897,7 +878,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        119
+        120
       ],
       "Text" : {
         "StringRef" : 56185,
@@ -914,7 +895,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        121
+        122
       ],
       "Text" : {
         "StringRef" : 56184,
@@ -931,7 +912,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        123
+        124
       ],
       "Text" : {
         "StringRef" : 56183,
@@ -948,7 +929,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        125
+        126
       ],
       "Text" : {
         "StringRef" : 56182,
@@ -965,7 +946,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        127
+        128
       ],
       "Text" : {
         "StringRef" : 56181,
@@ -983,43 +964,43 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 139,
           "Active" : "nw_d2_intn",
+          "IsChild" : false
+        },
+        {
           "Index" : 138,
+          "Active" : "nw_d2_intn",
           "IsChild" : false
         },
         {
-          "Active" : "nw_d2_intn",
           "Index" : 137,
-          "IsChild" : false
-        },
-        {
           "Active" : "nw_d2_intn",
+          "IsChild" : false
+        },
+        {
           "Index" : 136,
+          "Active" : "nw_d2_intl",
           "IsChild" : false
         },
         {
-          "Active" : "nw_d2_intl",
           "Index" : 135,
+          "Active" : "nw_d2_intl",
           "IsChild" : false
         },
         {
-          "Active" : "nw_d2_intl",
           "Index" : 134,
-          "IsChild" : false
-        },
-        {
           "Active" : "nw_d2_intl",
-          "Index" : 133,
           "IsChild" : false
         },
         {
+          "Index" : 132,
           "Active" : "henchheal1",
-          "Index" : 131,
           "IsChild" : false
         },
         {
+          "Index" : 130,
           "Active" : "henchheal2",
-          "Index" : 129,
           "IsChild" : false
         }
       ],
@@ -1033,7 +1014,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        130
+        131
       ],
       "Text" : "That is seriously gonna cramp my fighting if I do that, but very well, I'll try to heal you even if I'm in the middle of getting my butt kicked!"
     },
@@ -1042,7 +1023,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        132
+        133
       ],
       "Text" : "Like you actually need to tell me that!  I'll heal you when I'm done doing my business."
     },
@@ -1051,7 +1032,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        139
+        140
       ],
       "Text" : {
         "StringRef" : 56180,
@@ -1068,9 +1049,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        145,
-        143,
-        141
+        146,
+        144,
+        142
       ],
       "Text" : {
         "StringRef" : 56147,
@@ -1087,7 +1068,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        142
+        143
       ],
       "Text" : {
         "StringRef" : 56174,
@@ -1099,7 +1080,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        144
+        145
       ],
       "Text" : {
         "StringRef" : 56173,
@@ -1111,7 +1092,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        146
+        147
       ],
       "Text" : {
         "StringRef" : 56172,
@@ -1123,7 +1104,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        148
+        149
       ],
       "Text" : {
         "StringRef" : 62539,
@@ -1140,7 +1121,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        150
+        151
       ],
       "Text" : {
         "StringRef" : 62540,
@@ -1157,11 +1138,11 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        160,
-        158,
-        156,
-        154,
-        152
+        161,
+        159,
+        157,
+        155,
+        153
       ],
       "Text" : "Alright. what would you like me to do?"
     },
@@ -1170,7 +1151,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        153
+        154
       ],
       "Script" : "henchrange4",
       "Text" : "I'm no coward!  But if you want to get yourself killed without my help, I have no problems with that."
@@ -1180,7 +1161,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        155
+        156
       ],
       "Script" : "henchrange3",
       "Text" : "You don't have to tell me that!  Stay back, if you want, I'll spill some blood if I see them!"
@@ -1190,7 +1171,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        157
+        158
       ],
       "Script" : "henchrange2",
       "Text" : "I think I can clobber than any way I want!  But sure, I'll do what you say ... for now."
@@ -1200,7 +1181,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        159
+        160
       ],
       "Script" : "henchrange1",
       "Text" : "I'm good at everything!  But if you feel safer with me doing that, I'll oblige."
@@ -1210,7 +1191,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        161
+        162
       ],
       "Script" : "henchrange0",
       "Text" : "Of course, I always know best!"
@@ -1235,32 +1216,32 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 238,
           "Active" : "prq_jarulftalkx",
-          "Index" : 237,
           "IsChild" : false
         },
         {
+          "Index" : 211,
           "Active" : "prq_jarulftalk3",
-          "Index" : 210,
           "IsChild" : false
         },
         {
+          "Index" : 188,
           "Active" : "prq_jarulftalk2",
-          "Index" : 187,
           "IsChild" : false
         },
         {
+          "Index" : 177,
           "Active" : "prq_jarulftalk1",
-          "Index" : 176,
           "IsChild" : false
         },
         {
+          "Index" : 165,
           "Active" : "prq_jarulftalk",
-          "Index" : 164,
           "IsChild" : false
         },
         {
-          "Index" : 95,
+          "Index" : 96,
           "IsChild" : true
         }
       ],
@@ -1271,8 +1252,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        166,
-        165
+        167,
+        166
       ],
       "Text" : "As I said, it is none of your business."
     },
@@ -1281,8 +1262,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        168,
-        167
+        169,
+        168
       ],
       "Text" : "Is that so?  Well, if you should know, I came here to Tristram seeking honor, glory, and most of all, gold!"
     },
@@ -1291,8 +1272,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        170,
-        169
+        171,
+        170
       ],
       "Text" : "Sure, sure, you'll say, \"how can a warrior get gold in a town where everyone is leaving?\"  But I have heard that there is a vast amount of treasure hidden deep beneath the labyrinth, and I intend to get a sizeable portion of it before I am done!"
     },
@@ -1301,8 +1282,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        172,
-        171
+        173,
+        172
       ],
       "Text" : "Me?  Get killed?  I doubt it.  I don't know how confident you are in your skills, but I have no doubts in mine!  My only goal is to get as much gold as I can!"
     },
@@ -1311,9 +1292,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
+        176,
         175,
-        174,
-        173
+        174
       ],
       "Text" : "Say what you will.  If you are not concerned with gaining wealth, then you are more than welcome to give them to me."
     },
@@ -1322,9 +1303,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        177,
+        178,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1335,9 +1316,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
+        181,
         180,
-        179,
-        178
+        179
       ],
       "Text" : "Are you deaf or something?  I told you I am here because I am looking for treasure and gold!"
     },
@@ -1346,7 +1327,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        181
+        182
       ],
       "Text" : "Well, you're wrong."
     },
@@ -1355,8 +1336,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        184,
-        182
+        185,
+        183
       ],
       "Text" : "Oh it doesn't?  Well, maybe not.  I also said I am here for fame and glory.  I have searched for the most dangerous place here in Khanduras and everyone pointed to this town.  So where else can I achieve fame and fortune than in the place where even the bravest of warriors are hesitant to go.  I am here to get rid of whatever bad mojo that has slipped its slimy tentacle into the orifice that is Tristram!  I will make my family proud!"
     },
@@ -1365,7 +1346,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        183
+        184
       ],
       "Text" : "I'm sorry, I tend to get carried away sometimes."
     },
@@ -1374,13 +1355,13 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        185,
+        186,
         {
-          "Index" : 186,
+          "Index" : 187,
           "IsChild" : true
         },
         {
-          "Index" : 173,
+          "Index" : 174,
           "IsChild" : true
         }
       ],
@@ -1392,9 +1373,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        186,
+        187,
         {
-          "Index" : 173,
+          "Index" : 174,
           "IsChild" : true
         }
       ],
@@ -1406,11 +1387,11 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 179,
+          "Index" : 180,
           "IsChild" : true
         },
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1421,13 +1402,13 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        188,
+        189,
         {
-          "Index" : 186,
+          "Index" : 187,
           "IsChild" : true
         },
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1438,13 +1419,13 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        189,
+        190,
         {
-          "Index" : 186,
+          "Index" : 187,
           "IsChild" : true
         },
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1455,8 +1436,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        193,
-        190
+        194,
+        191
       ],
       "Text" : "Oh alright!  Yes, I have a wife and a son waiting for me back home.  They are really the reason why I am here in Tristram."
     },
@@ -1465,8 +1446,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        192,
-        191
+        193,
+        192
       ],
       "Text" : "Do you want to hear my tale or not?  I don't have much patience for your gloating!"
     },
@@ -1475,7 +1456,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        194
+        195
       ],
       "Text" : "When King Leoric went insane, he mobilized the armies of Khanduras and declared war on the northern kingdoms of Westmarch.  He issued a decree to draft every able-bodied male in the kingdom to join his armies.  We knew that Westmarch had larger and more experienced soldiers than Khanduras, but we had no choice but to leave our homes and join the army, lest we face execution according to Leoric's decree."
     },
@@ -1484,7 +1465,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        195
+        196
       ],
       "Text" : "I was a farmer living with a wife and a son in a small village near Duncraig.  We were near the boundary of Westmarch so it was either I join the army or be one of the first to be overwhelmed by the opposing forces to the west.  I had not choice but to join King Leoric's losing war.  Since most of the battles took place in the north, we were lucky to escape with our lives - it was a bloody, one-sided battle, and I was glad King Leoric was finally put down by his subjects...  but the damage has already been done."
     },
@@ -1493,7 +1474,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        196
+        197
       ],
       "Text" : "Naturally, I went back to my family and tried to get our life back to normal.  But the war has taken its toll on the land - a severe depression has hit Khanduras.  Business and trade went down, and crops did not yield as much as they did in the past.  I was forced to sell my farm because maintaining it cost more than the crops I gathered from it.  We quickly went into debt, as I had to find a way to feed my family without some sort of reliable way earn money."
     },
@@ -1502,8 +1483,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        198,
-        197
+        199,
+        198
       ],
       "Text" : "I tried odd jobs, but a farmer only knows how to plant, and to sow, and I quickly ran out of options.  In the end I had to pawn my house off to pay off outstanding debts.  I didn't want my wife and son to live in the streets, so I searched for a place where they can live and have a hot meal every night."
     },
@@ -1513,7 +1494,7 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 198,
+          "Index" : 199,
           "IsChild" : true
         }
       ],
@@ -1524,8 +1505,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        200,
-        199
+        201,
+        200
       ],
       "Text" : "Well, I did find an old woman who allowed my family to stay with her, but she turned out to be a miserable hag!  She treats my wife like her servant girl, and her dogs get better treatment than my son!  I badly want them to leave, but we don't know of anyone else who will take us in, and I don't have enough money to support my family on my own.  So I ... decided to take matters into my own hands."
     },
@@ -1534,7 +1515,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        201
+        202
       ],
       "Text" : "Err ... NO!  I don't know what you think of me, but even I won't go as far as that!"
     },
@@ -1543,8 +1524,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        203,
-        202
+        204,
+        203
       ],
       "Text" : "Well, I decided to use my training in the army.  I heard many adventurers in our village return with riches from far-away lands.  I realized that if I could get enough gold from similar quests they undertook, I may be able to restore my family's honor and take my wife and son out of that nasty old woman's house.  I want us to start a new life in a new land, and the only way I can do that is to get enough gold to pay off my debts and start that new life."
     },
@@ -1554,7 +1535,7 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 204,
+          "Index" : 205,
           "IsChild" : true
         }
       ],
@@ -1565,7 +1546,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        204
+        205
       ],
       "Text" : "I wasn't lying to you when I said I came here for honor and gold.  I came here to Tristram in a caravan of adventurers who seek the same thing, but they left me during the night so they can set off for the labyrinth without me.  More dishonor, but I have endured worse...  All I am concerned with right now is getting as much gold as I can so that I can return to my village and restore my family's honor and way of life."
     },
@@ -1574,8 +1555,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        206,
-        205
+        207,
+        206
       ],
       "Text" : "Exact gold?  Haha, how much gold is \"as much as I can get\" anyway?  I don't really know yet."
     },
@@ -1584,9 +1565,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
+        210,
         209,
-        208,
-        207
+        208
       ],
       "Script" : "giv_jarulfx",
       "Text" : "Alright, I need five hundred thousand gold pieces!  Yes, laugh at me if you want, I know it's a ridiculous sum, but I want to move my family to a new place and build a house there and maybe plan some crops and raise livestock once more.  Five hundred thousand gold pieces might seem a kingly sum, but it's what I need to regain my honor and save my family.  It may take me a year, or maybe ten years to get that much, but I will get it eventually."
@@ -1596,10 +1577,10 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
+        213,
         212,
-        211,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1610,10 +1591,10 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
+        215,
         214,
-        213,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1624,13 +1605,13 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        215,
+        216,
         {
-          "Index" : 213,
+          "Index" : 214,
           "IsChild" : true
         },
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1642,12 +1623,12 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
+          "Index" : 226,
           "Active" : "prq_jarulftalk3x",
-          "Index" : 225,
           "IsChild" : false
         },
-        223,
-        216
+        224,
+        217
       ],
       "Text" : "P-praise be your name!  I would be very grateful if you give it to me!"
     },
@@ -1656,8 +1637,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        221,
-        217
+        222,
+        218
       ],
       "Text" : "W-what?  You dare insult me this way?!  You should be thankful that I gave you my oath to be your henchman, or I would kill you where you stand!"
     },
@@ -1666,8 +1647,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        220,
-        218
+        221,
+        219
       ],
       "Text" : "You have insulted me, and I fear I cannot continue working for you until you have considered and apologized for this insult."
     },
@@ -1676,7 +1657,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        219
+        220
       ],
       "Script" : "69_ch_remove",
       "Text" : "I'll see you back in the tavern once you have learned to put your boots in your mouth when it counts..."
@@ -1687,7 +1668,11 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 101,
+          "Index" : 102,
+          "IsChild" : true
+        },
+        {
+          "Index" : 98,
           "IsChild" : true
         },
         {
@@ -1696,10 +1681,6 @@
         },
         {
           "Index" : 96,
-          "IsChild" : true
-        },
-        {
-          "Index" : 95,
           "IsChild" : true
         }
       ],
@@ -1710,7 +1691,7 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        222
+        223
       ],
       "Script" : "69_ch_remove",
       "Text" : "Then I guess I should not be working for an idiot like you.  Goodbye!"
@@ -1720,9 +1701,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        224,
+        225,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1733,8 +1714,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        227,
-        226
+        228,
+        227
       ],
       "Script" : "end_jarulf",
       "Text" : "Oh... oh... PRAISE THE LIGHT!  This is perfect!  Thank you thank you thank you, <FirstName>!  Please, accept this as payment.  It was my grandfather's old belt, and I kept it for good luck in my journeys.  The gold you just gave me is more than enough for my family and I to move to a city and begin our lives anew!  Yes, Atma will be very pleased with this!"
@@ -1745,7 +1726,7 @@
       "Delay" : 4294967295,
       "RepliesList" : [
         {
-          "Index" : 229,
+          "Index" : 230,
           "IsChild" : true
         }
       ],
@@ -1756,8 +1737,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        229,
-        228
+        230,
+        229
       ],
       "Text" : "Oh, Atma is my wife, and Faria is my son's name.  They will both be excited with this news, I'm sure of it.  They can finally leave that miserable old hag and be with me!"
     },
@@ -1766,8 +1747,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        231,
-        230
+        232,
+        231
       ],
       "Text" : "Well, as soon as I get home, we will pack our bags journey to the East.  Maybe buy a house in Luth Golein and work there as a trader.  Atma will like that.  She has always wanted to see the shining city.  We will finally be happy there - no more wars, no more dangers.  Just the three of us, living like a family once more!"
     },
@@ -1776,8 +1757,8 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        234,
-        232
+        235,
+        233
       ],
       "Text" : "I still have the oath I made to you, so I will stay here as long as you need me.  After we have finished our travels, I will immediately take a caravan home and be with my family - we have a lot of packing to do!"
     },
@@ -1786,9 +1767,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        233,
+        234,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1799,9 +1780,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        235,
+        236,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1812,9 +1793,9 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        236,
+        237,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
@@ -1825,21 +1806,24 @@
       "Animation" : 0,
       "Delay" : 4294967295,
       "RepliesList" : [
-        238,
+        239,
         {
-          "Index" : 178,
+          "Index" : 179,
           "IsChild" : true
         }
       ],
       "Text" : "After I get back home, I will take my wife Atma and my son Faria to Luth Golein, where we will start a new life and live as a family again."
     }
   ],
-  "NumWords" : 5955,
+  "NumWords" : 5949,
+  "PreventZoomIn" : 1,
   "ReplyList" : [
     {
-      "Text" : "Oops, sorry to bother you. (1)"
+      "ActionParams" : [ ],
+      "Text" : "Oops, sorry to bother you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         14,
         1
@@ -1847,34 +1831,39 @@
       "Text" : "Who are you and what are you doing here in Tristram?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         2
       ],
       "Text" : "So what happened?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         3
       ],
       "Text" : "So why have you come to Tristram?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         4
       ],
       "Text" : "Where are your companions?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Active" : "henchhire",
           "Index" : 5,
+          "Active" : "henchhire",
           "IsChild" : false
         }
       ],
       "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 20,
@@ -1884,12 +1873,14 @@
       "Text" : "I can handle it fine by myself, but the two of us can go about it quicker.  So what do you say?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         6
       ],
       "Text" : "Two capable pairs of hands are better than one, don't you think?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 22,
@@ -1899,10 +1890,11 @@
       "Text" : "That's preposterous!  I don't have the money you're asking for!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Active" : "nw_d2_pershigh",
           "Index" : 11,
+          "Active" : "nw_d2_pershigh",
           "IsChild" : false
         },
         7
@@ -1910,15 +1902,18 @@
       "Text" : "<StartCheck>Persuade.</Start>  Surely, you don't mean to charge me that much - you can profit all you want from the treasures we'll find in the labyrinth!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         8
       ],
       "Text" : "Your price is too high for me.  I cannot pay you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Maybe I'll be back to reconsider your offer.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 13,
@@ -1928,10 +1923,11 @@
       "Text" : "Alright, here's two thousand gold.  Just make sure you perform well and do as I tell you!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Active" : "nw_d2_persmed",
           "Index" : 10,
+          "Active" : "nw_d2_persmed",
           "IsChild" : false
         },
         9
@@ -1939,12 +1935,15 @@
       "Text" : "<StartCheck>Persuade.</Start>  Well, how about lowering your fee to, say, just one thousand gold?  I am sure that will be enough for you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I don't have the money you want.  I'll be back when I get it."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I refuse to pay such a sum for your measly services."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 13,
@@ -1954,9 +1953,11 @@
       "Text" : "Alright, here is two thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I changed my mind.  Your price is too high."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 13,
@@ -1967,21 +1968,26 @@
       "Text" : "Here is one thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Whatever.  Do what I tell you and you won't have to fear the same thing."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         12
       ],
       "Text" : "We will do fine, as long as you do what I tell you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Shut up and follow me."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Let us go then."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         13
       ],
@@ -1989,42 +1995,50 @@
       "Text" : "Alright, I have two thousand gold.  Here you go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Just remember to do as I tell you.  Let us go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I agree, let us go."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         15
       ],
       "Text" : "Fair enough.  My name is <FirstName> <LastName>."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         16
       ],
       "Text" : "So what happened?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         17
       ],
       "Text" : "So why have you come to Tristram?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         18
       ],
       "Text" : "Where are your companions?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         19
       ],
       "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 20,
@@ -2034,19 +2048,22 @@
       "Text" : "I can handle it fine by myself, but the two of us can go about it quicker.  So what do you say?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         20
       ],
       "Text" : "Two capable pairs of hands are better than one, don't you think?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Your asking price is too high for me.  I'll have to think about it.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Active" : "nw_d2_pershigh",
           "Index" : 25,
+          "Active" : "nw_d2_pershigh",
           "IsChild" : false
         },
         21
@@ -2054,15 +2071,18 @@
       "Text" : "<StartCheck>Persuade.</Start>  Surely, you don't mean to charge me that much - you can profit all you want from the treasures we'll find in the labyrinth!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         22
       ],
       "Text" : "Your price is too high for me.  I cannot pay you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Maybe I'll be back to reconsider your offer.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 26,
@@ -2072,10 +2092,11 @@
       "Text" : "Alright, here's two thousand gold.  Just make sure you perform well and do as I tell you!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Active" : "nw_d2_persmed",
           "Index" : 24,
+          "Active" : "nw_d2_persmed",
           "IsChild" : false
         },
         23
@@ -2083,12 +2104,15 @@
       "Text" : "<StartCheck>Persuade.</Start>  Well, how about lowering your fee to, say, just one thousand gold?  I am sure that will be enough for you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I don't have the money you want.  I'll be back when I get it."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I refuse to pay such a sum for your measly services."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 26,
@@ -2098,9 +2122,11 @@
       "Text" : "Alright, here is two thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I changed my mind.  Your price is too high."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 26,
@@ -2111,21 +2137,26 @@
       "Text" : "Here is one thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Whatever.  Do what I tell you and you won't have to fear the same thing."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         26
       ],
       "Text" : "We will do fine, as long as you do what I tell you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Shut up and follow me."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Let us go then."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         27
       ],
@@ -2133,21 +2164,26 @@
       "Text" : "Alright, I have two thousand gold.  Here you go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Just remember to do as I tell you.  Let us go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I agree, let us go."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         28
       ],
       "Text" : "You don't need to know my name."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Yes, I believe there is none.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
           "Index" : 15,
@@ -2157,138 +2193,154 @@
       "Text" : "Very well, my name is <FirstName> <LastName>."
     },
     {
-      "EntriesList" : [
-        31
-      ],
+      "ActionParams" : [ ],
       "Text" : "No, I work better alone."
     },
     {
-      "EntriesList" : [
-        32
-      ],
+      "ActionParams" : [ ],
+      "Script" : "69_ch_join",
       "Text" : "Yes, I would."
     },
     {
-      "Text" : "Oops, sorry to bother you. (2)"
+      "ActionParams" : [ ],
+      "Text" : "Oops, sorry to bother you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 45,
           "Active" : "henchrefuse",
-          "Index" : 47,
           "IsChild" : true
         },
         {
+          "Index" : 36,
           "Active" : "henchhire",
-          "Index" : 38,
           "IsChild" : true
         }
       ],
       "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        34
+        32
       ],
       "Text" : "You don't look familiar to me.  Who are you?  Are you from this town too?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Fine, never mind then."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        35
+        33
       ],
       "Script" : "con_chaotic1",
       "Text" : "You don't need to know my name."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Yes, I believe there is none.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 36,
+          "Index" : 34,
           "IsChild" : true
         }
       ],
       "Text" : "Very well, my name is <FirstName> <LastName>."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        36
+        34
       ],
       "Text" : "Fair enough.  My name is <FirstName> <LastName>."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "s_jarulf001",
       "Text" : "Alright, that's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 45,
           "Active" : "henchrefuse",
-          "Index" : 47,
           "IsChild" : false
         },
         {
+          "Index" : 36,
           "Active" : "henchhire",
-          "Index" : 38,
           "IsChild" : false
         },
-        37
+        35
       ],
       "Script" : "s_jarulf001",
       "Text" : "You look like a capable person. Would you like to join me in ridding this town of its problem?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I changed my mind.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 39,
+          "Index" : 37,
           "IsChild" : true
         }
       ],
       "Text" : "I can handle it fine by myself, but the two of us can go about it quicker.  So what do you say?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        39
+        37
       ],
       "Text" : "Two capable pairs of hands are better than one, don't you think?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Sorry, I don't have the money you're asking for.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's preposterous!  I don't have the money the money you're asking for!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 42,
           "Active" : "nw_d2_pershigh",
-          "Index" : 44,
           "IsChild" : false
         },
-        40
+        38
       ],
       "Text" : "<StartCheck>Persuade.</Start>  Surely, you don't mean to charge me that much - you can profit all you want from the treasures we'll find in the labyrinth!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        41
+        39
       ],
       "Text" : "Your price is too high for me.  I cannot pay you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Maybe I'll be back to reconsider your offer.  Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 46,
+          "Index" : 44,
           "IsChild" : true
         }
       ],
@@ -2296,33 +2348,37 @@
       "Text" : "Alright, here's two thousand gold.  Just make sure you perform well and do as I tell you!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 41,
           "Active" : "nw_d2_pershigh",
-          "Index" : 43,
           "IsChild" : false
         },
-        42
+        40
       ],
       "Script" : "s_jarulf001",
       "Text" : "<StartCheck>Persuade.</Start>  Well, how about lowering your fee to, say, just one thousand gold?  I am sure that will be enough for you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I don't have the money you want.  I'll be back when I get it."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 41,
+          "Index" : 39,
           "IsChild" : true
         }
       ],
       "Text" : "I refuse to pay such a sum for your measly services."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 46,
+          "Index" : 44,
           "IsChild" : true
         }
       ],
@@ -2330,12 +2386,14 @@
       "Text" : "Alright, here is two thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I changed my mind.  Your price is too high."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 45,
+          "Index" : 43,
           "IsChild" : true
         }
       ],
@@ -2343,91 +2401,102 @@
       "Text" : "Here is one thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 45,
+          "Index" : 43,
           "IsChild" : true
         }
       ],
       "Text" : "Whatever.  Do what I tell you and you won't have to fear the same thing."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        45
+        43
       ],
       "Text" : "We will do fine, as long as you do what I tell you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Shut up and follow me."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Let us go then."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        46
+        44
       ],
       "Script" : "giv_2000",
       "Text" : "Alright, I have two thousand gold.  Here you go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Just remember to do as I tell you.  Let us go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "I agree, let us go."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "trg_jarulfgohome",
       "Text" : "Alright, I'll go back to the tavern if I need you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Alright, wait here for me just in case."
     },
     {
+      "ActionParams" : [ ],
+      "Script" : "trg_jarulfgohome",
+      "Text" : "No, I work better alone."
+    },
+    {
+      "ActionParams" : [ ],
+      "Script" : "69_ch_join",
+      "Text" : "Yes, I would."
+    },
+    {
+      "ActionParams" : [ ],
+      "Script" : "trg_jarulfgohome",
+      "Text" : "No, I already have someone with me and could not manage two."
+    },
+    {
+      "ActionParams" : [ ],
+      "EntriesList" : [
+        {
+          "Index" : 45,
+          "Active" : "henchrefuse",
+          "IsChild" : true
+        },
+        48
+      ],
+      "Script" : "69_setdidiefalse",
+      "Text" : "So you say."
+    },
+    {
+      "ActionParams" : [ ],
       "EntriesList" : [
         49
       ],
       "Text" : "No, I work better alone."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        {
-          "Active" : "henchrefuse",
-          "Index" : 47,
-          "IsChild" : true
-        },
         50
       ],
       "Text" : "Yes, I would."
     },
     {
-      "EntriesList" : [
-        {
-          "Active" : "henchrefuse",
-          "Index" : 47,
-          "IsChild" : true
-        },
-        52
-      ],
-      "Script" : "69_setdidiefalse",
-      "Text" : "So you say."
-    },
-    {
-      "EntriesList" : [
-        53
-      ],
-      "Text" : "No, I work better alone."
-    },
-    {
-      "EntriesList" : [
-        54
-      ],
-      "Text" : "Yes, I would."
-    },
-    {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        56
+        52
       ],
       "Text" : {
         "StringRef" : 55688,
@@ -2435,14 +2504,16 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 38,
       "Script" : "henchmanshow",
       "Text" : "Show me your inventory."
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 40,
       "EntriesList" : [
-        57
+        53
       ],
       "Text" : {
         "StringRef" : 55683,
@@ -2455,6 +2526,7 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 35,
       "Text" : {
         "StringRef" : 55740,
@@ -2467,9 +2539,10 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 34,
       "EntriesList" : [
-        58
+        54
       ],
       "Text" : {
         "StringRef" : 55739,
@@ -2482,40 +2555,46 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Script" : "trg_jarulfgohome",
       "Text" : "Goodbye."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        59
+        55
       ],
       "Text" : "I want to give you some combat instructions."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        60
+        56
       ],
       "Text" : "Could you pick up some of the items in the area."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        61
+        57
       ],
       "Script" : "69_ch_goranged",
       "Text" : "Equip your ranged weapons"
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 38,
       "EntriesList" : [
-        62
+        58
       ],
       "Text" : "Equip your melee weapons"
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 28,
       "EntriesList" : [
         {
-          "Index" : 63,
+          "Index" : 59,
           "IsChild" : true
         }
       ],
@@ -2530,9 +2609,10 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 34,
       "EntriesList" : [
-        63
+        59
       ],
       "Text" : {
         "StringRef" : 55783,
@@ -2540,14 +2620,16 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "Script" : "69_ch_action_17",
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 38,
       "EntriesList" : [
-        64
+        60
       ],
       "Text" : {
         "StringRef" : 55682,
@@ -2560,9 +2642,10 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        65
+        61
       ],
       "Text" : {
         "StringRef" : 55703,
@@ -2570,10 +2653,11 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 51,
           "Active" : "69_ch_tactics2",
-          "Index" : 55,
           "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
@@ -2581,48 +2665,54 @@
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        66
+        62
       ],
       "Script" : "69_henchyeattack",
       "Text" : "Attack as soon as you see the enemy."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        67
+        63
       ],
       "Script" : "69_henchnoattack",
       "Text" : "Do not attack until I initiate combat."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        68
+        64
       ],
       "Script" : "henchswap",
       "Text" : "Ummm... I think you aren't dual-wielding your weapons correctly."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        69
+        65
       ],
       "Script" : "nw_ch_lock_off",
       "Text" : {
@@ -2631,19 +2721,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        70
+        66
       ],
       "Script" : "nw_ch_lock_on",
       "Text" : {
@@ -2652,19 +2744,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        71
+        67
       ],
       "Script" : "69_ch_stlth_off",
       "Text" : {
@@ -2673,19 +2767,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        72
+        68
       ],
       "Script" : "69_ch_stlth_on",
       "Text" : {
@@ -2694,19 +2790,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        73
+        69
       ],
       "Script" : "69_ch_srch_on",
       "Text" : {
@@ -2715,19 +2813,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        74
+        70
       ],
       "Script" : "69_ch_srch_off",
       "Text" : {
@@ -2736,11 +2836,12 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
+          "Index" : 51,
           "Active" : "69_ch_tactics2",
-          "Index" : 55,
           "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
@@ -2748,9 +2849,10 @@
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        75
+        71
       ],
       "Text" : {
         "StringRef" : 55693,
@@ -2758,17 +2860,19 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        76
+        72
       ],
       "Script" : "henchhealyes",
       "Text" : "Heal me even if there are enemies near you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 51,
           "Active" : "69_ch_tactics2",
-          "Index" : 55,
           "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
@@ -2776,20 +2880,23 @@
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        77
+        73
       ],
       "Script" : "henchhealno",
       "Text" : "Do not heal me if there are enemies near you."
     },
     {
+      "ActionParams" : [ ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 78,
+          "Index" : 74,
           "IsChild" : true
         }
       ],
@@ -2800,10 +2907,11 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 78,
+          "Index" : 74,
           "IsChild" : true
         }
       ],
@@ -2814,10 +2922,11 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 78,
+          "Index" : 74,
           "IsChild" : true
         }
       ],
@@ -2828,10 +2937,11 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 78,
+          "Index" : 74,
           "IsChild" : true
         }
       ],
@@ -2842,10 +2952,11 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 78,
+          "Index" : 74,
           "IsChild" : true
         }
       ],
@@ -2856,9 +2967,10 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        78
+        74
       ],
       "Script" : "nw_ch_heal_75",
       "Text" : {
@@ -2867,11 +2979,12 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
+          "Index" : 51,
           "Active" : "69_ch_tactics2",
-          "Index" : 55,
           "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
@@ -2879,9 +2992,10 @@
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        79
+        75
       ],
       "Text" : {
         "StringRef" : 55684,
@@ -2889,9 +3003,10 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        80
+        76
       ],
       "Script" : "nw_ch_dist_18",
       "Text" : {
@@ -2900,19 +3015,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        81
+        77
       ],
       "Script" : "nw_ch_dist_12",
       "Text" : {
@@ -2921,19 +3038,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        82
+        78
       ],
       "Script" : "nw_ch_dist_6",
       "Text" : {
@@ -2942,19 +3061,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        83
+        79
       ],
       "Script" : "69_ch_gomelee",
       "Text" : {
@@ -2963,19 +3084,21 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
-        84
+        80
       ],
       "Script" : "69_ch_goranged",
       "Text" : {
@@ -2984,107 +3107,120 @@
       }
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 1,
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : null
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        85
+        81
       ],
       "Text" : "Let's talk about your weapon-switching tactics."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        86
+        82
       ],
       "Text" : "I don't want you to engage in close-range combat at all. Move away from the enemy if they are too close!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        87
+        83
       ],
       "Text" : "Be aggressive. If you see enemies getting any closer than ten meters or so, charge with melee!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        88
+        84
       ],
       "Text" : "I think you should switch to melee if the enemy is at a medium distance,  between four and five meters away."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        89
+        85
       ],
       "Text" : "Since you're so good with your missile weapon, wait until the enemy gets relatively close, say less than two meters, before you switch to a melee weapon."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        90
+        86
       ],
       "Text" : "I want you to trust your instinct as to when to switch between melee and missile weapons."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 64,
+          "Index" : 60,
           "IsChild" : true
         }
       ],
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "Animation" : 48,
       "EntriesList" : [
         {
+          "Index" : 88,
           "Active" : "henchscoutyes",
-          "Index" : 92,
           "IsChild" : false
         },
         {
+          "Index" : 87,
           "Active" : "henchscoutno",
-          "Index" : 91,
           "IsChild" : false
         }
       ],
@@ -3092,82 +3228,93 @@
       "Text" : "Scout ahead for enemies. Engage in combat if they are nearby; otherwise return to me."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        93
+        89
       ],
       "Text" : "I want to know more about you.  Can I ask you some questions?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        94
+        90
       ],
       "Text" : "Can you tell me once again why you came to Tristram?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 95,
+          "Index" : 91,
           "IsChild" : true
         }
       ],
       "Text" : "Fine, if you continue being such a pain, you shouldn't be traveling with me!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        95
+        91
       ],
       "Text" : "If you expect to travel with me, I would need to know more about you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 96,
+          "Index" : 92,
           "IsChild" : true
         }
       ],
       "Text" : "Gold?  In Tristram?  You don't seem to be thinking properly."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        96
+        92
       ],
       "Text" : "You seem to be in the wrong place to look for riches, Jarulf."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 98,
+          "Index" : 94,
           "IsChild" : true
         }
       ],
       "Text" : "Very greedy of you.  Are you sure that's the only reason you're in Tristram?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        97
+        93
       ],
       "Text" : "You're pretty confident.  What if you get killed?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 98,
+          "Index" : 94,
           "IsChild" : true
         }
       ],
       "Text" : "Not if you get killed first."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        98
+        94
       ],
       "Text" : "Such single-minded greed probably means you sleep better at night."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 51,
           "Active" : "69_ch_tactics2",
-          "Index" : 55,
           "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
@@ -3175,30 +3322,35 @@
       "Text" : "I have other things I need you to do."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Whatever.  Let's go.."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Thanks for the, uhm, thoughts."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 96,
           "Active" : "prq_jarulftalk1x",
-          "Index" : 100,
           "IsChild" : false
         },
-        99
+        95
       ],
       "Text" : "Are you ready to tell why you're \"really\" here in Tristram?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 51,
           "Active" : "69_ch_tactics2",
-          "Index" : 55,
           "IsChild" : true,
           "LinkComment" : "Default dialogue when the henchman is a member of the player's party.  "
         }
@@ -3206,383 +3358,443 @@
       "Text" : "Very well, I have other things I need you to do."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Alright, just asking."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        101
+        97
       ],
       "Text" : "Yes, you did tell me that, but I think there's more."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        102
+        98
       ],
       "Text" : "Maybe.  But you don't strike me as someone who is just in it for the money."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        103
+        99
       ],
       "Text" : "Bad mojo?  Slimy tentacle?  Orifice?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 104,
+          "Index" : 100,
           "IsChild" : true
         }
       ],
       "Text" : "I'll say ... you mentioned a family? You actually have one?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        104
+        100
       ],
       "Text" : "You actually have a family?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 103,
           "Active" : "prq_jarulftalk2x",
-          "Index" : 107,
           "IsChild" : true
         },
-        105
+        101
       ],
       "Text" : "I think it is.  Please continue."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Suit yourself then."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
+          "Index" : 103,
           "Active" : "prq_jarulftalk2x",
-          "Index" : 107,
           "IsChild" : false
         },
-        106
+        102
       ],
       "Text" : "Are you ready to tell me about this family of yours?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        108
+        104
       ],
       "Text" : "It's because I don't think you're telling me the whole truth."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        109
+        105
       ],
       "Text" : "Try me."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        110
+        106
       ],
       "Text" : "So you DID lie!  Spill the rest of it!"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 111,
+          "Index" : 107,
           "IsChild" : true
         }
       ],
       "Text" : "Whatever, Jarulf.  Just tell me why you are really here."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 111,
+          "Index" : 107,
           "IsChild" : true
         }
       ],
       "Text" : "I apologize.  Continue your tale."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        111
+        107
       ],
       "Text" : "Really?  How so?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        112
+        108
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        113
+        109
       ],
       "Text" : "So what happened after the war?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        114
+        110
       ],
       "Text" : "Continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        115
+        111
       ],
       "Text" : "Why didn't you and your family move to another town?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        116
+        112
       ],
       "Text" : "Did you find a place for them to stay?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 118,
+          "Index" : 114,
           "IsChild" : true
         }
       ],
       "Text" : "What did you do?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        117
+        113
       ],
       "Text" : "You killed the old woman and took her house for your own?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        118
+        114
       ],
       "Text" : "So what did you do then?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        119
+        115
       ],
       "Text" : "Why did you come to Tristram, when you know that people are dying here?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        120
+        116
       ],
       "Text" : "So you went to Tristram."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        121
+        117
       ],
       "Text" : "How much gold exactly do you need to take home?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 122,
+          "Index" : 118,
           "IsChild" : true
         }
       ],
       "Text" : "I don't believe that.  I'm sure you have an approximate amount in mind."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        122
+        118
       ],
       "Text" : "How about an estimate then?  Maybe I can help you."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 124,
+          "Index" : 120,
           "IsChild" : true
         }
       ],
       "Text" : "What if I told you I had five hundred thousand gold right here?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Five hundred thousand?  Thanks for the laugh.  Let's go."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Five hundred thousand?  Good luck.  You're gonna need it."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        123
+        119
       ],
       "Text" : "Can you tell me again how much gold you needed to take back with you?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Alright, just asking."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        124
+        120
       ],
       "Text" : "What if I told you I can give you this much gold?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Just thinking out loud.  Let's continue."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        125
+        121
       ],
       "Text" : "Well guess what, I want to give you five hundred thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        126
+        122
       ],
       "Text" : "Yes, I am serious, I may want to give you five hundred thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        127
+        123
       ],
       "Text" : "Actually, I was pulling your leg.  I won't give you that gold."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        128
+        124
       ],
       "Text" : "I'm sorry, I was just kidding."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        129
+        125
       ],
       "Text" : "Suit yourself then."
     },
     {
+      "ActionParams" : [ ],
       "Script" : "trg_jarulfgohome",
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        130
+        126
       ],
       "Script" : "con_good1",
       "Text" : "Come on, I apologize, and it won't happen again."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        131
+        127
       ],
       "Script" : "con_evil5",
       "Text" : "Who cares... You're a fool to expect alms from me!"
     },
     {
+      "ActionParams" : [ ],
       "Script" : "trg_jarulfgone",
       "Text" : ""
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        132
+        128
       ],
       "Text" : "I don't have that much gold yet, but I'll consider your needs when I do."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "We'll see."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        133
+        129
       ],
       "Script" : "con_lawful5",
       "Text" : "Here you go.  Five hundred thousand gold."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        134
+        130
       ],
       "Text" : "Atma?  Is this some sort of mistress?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        135
+        131
       ],
       "Text" : "Who is Atma?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 136,
+          "Index" : 132,
           "IsChild" : true
         }
       ],
       "Text" : "Sure sure.  So what are you going to do now?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        136
+        132
       ],
       "Text" : "I'm glad for you Jarulf.  Where will you go now?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
         {
-          "Index" : 137,
+          "Index" : 133,
           "IsChild" : true
         }
       ],
       "Text" : "You still have a contract to fulfill, so I will tell you whether you can go home or not."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        137
+        133
       ],
       "Text" : "So when will you leave for home?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        138
+        134
       ],
       "Text" : "You're still going to be a pain in the neck, are you?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "*sigh* I guess we should."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        139
+        135
       ],
       "Text" : "So does that mean you're going to be nice to me from now on?"
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        140
+        136
       ],
       "Text" : "No problem.  We should push on."
     },
     {
+      "ActionParams" : [ ],
       "Text" : "Let's go."
     },
     {
+      "ActionParams" : [ ],
       "EntriesList" : [
-        141
+        137
       ],
       "Text" : "Now that you have your gold, what do you plan to do now?"
     },
     {
+      "ActionParams" : [ ],
       "Text" : "That's all I need to know."
     }
   ],
   "StartingList" : [
     {
       "Active" : "69_ch_tactics2",
-      "Index" : 55
-    },
-    {
-      "Active" : "69_ch_check_36",
       "Index" : 51
     },
     {
-      "Active" : "69_ch_check_37",
-      "Index" : 48
+      "Active" : "69_ch_check_36",
+      "Index" : 47
     },
-    33,
+    {
+      "Active" : "69_ch_check_37",
+      "Index" : 46
+    },
+    31,
     {
       "Active" : "henchhire",
       "Index" : 30
