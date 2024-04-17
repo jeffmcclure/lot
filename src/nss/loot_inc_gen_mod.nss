@@ -3,7 +3,7 @@
 #include "x0_i0_corpses"
 
 object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
-    //SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' stack:" + IntToString(nStackSize));
+    SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' stack:" + IntToString(nStackSize));
     if (!GetIsPC(oPC)) {
         MessageAll("CreateLoot(): non-PC parameter passed resref " + sItemTemplate);
         MessageAll("CreateLoot(): non-PC parameter passed oPC name   " + GetName(oPC));
@@ -39,6 +39,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
         // if party loot system
         SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
     }
+    SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' GetBaseItemType:" + IntToString(GetBaseItemType(treasure)));
 
     return treasure;
 }
@@ -4777,9 +4778,9 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     int is_creature = IsDeadCreature();
 
     object oChest;
-    if (is_creature)
-        oChest = CreateLootChest();
-    else
+    //if (is_creature)
+     //   oChest = CreateLootChest();
+    //else
         oChest = target;
 
     //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() is_creature:" + IntToString(is_creature));
@@ -4816,32 +4817,80 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     }
 
     if (is_creature) {
-        FixDeadCreature(OBJECT_SELF);
-
         // destroy loot bag if no loot added
         if (!GetIsObjectValid(GetFirstItemInInventory(oChest)) && GetGold(oChest) < 1) {
-            DestroyObject(oChest);
+            SetIsDestroyable(TRUE, FALSE, FALSE);
+            //FixDeadCreature(OBJECT_SELF);
+            //DestroyObject(oChest);
         }
     }
+}
+
+int IsGold(string resref) {
+    return GetSubString(resref, 0, 10) == "nw_it_gold" || GetSubString(resref, 0, 7) == "it_gold";
+}
+
+int IsStackable(string resref) {
+    return GetSubString(resref, 0, 10) == "nw_it_gold" || GetSubString(resref, 0, 7) == "it_gold" ||
+        GetSubString(resref, 0, 12) == "nw_it_medkit" || GetSubString(resref, 0, 9) == "it_medkit" ||
+        GetSubString(resref, 0, 9) == "nw_it_gem" || GetSubString(resref, 0, 6) == "it_gem" ||
+        GetSubString(resref, 0, 12) == "nw_it_potion" || GetSubString(resref, 0, 9) == "it_potion";
+}
+
+int IsStackableObject(object obj) {
+    SendMessageToPC(GetFirstPC(), "name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
+    switch (GetBaseItemType(obj)) {
+        case BASE_ITEM_ARROW:
+        case BASE_ITEM_BOLT:
+        case BASE_ITEM_BULLET:
+        case BASE_ITEM_GEM:
+        case BASE_ITEM_GOLD:
+        case BASE_ITEM_POTIONS:
+        case BASE_ITEM_SCROLL:
+        case BASE_ITEM_SPELLSCROLL:
+        case BASE_ITEM_THIEVESTOOLS:
+        case BASE_ITEM_HEALERSKIT:
+            return TRUE;
+
+        //case BASE_ITEM_INVALID:
+        //default:
+            //return FALSE;
+            //break;
+    }
+    return FALSE;
+}
+
+int DoAllPlayersHaveLootGenie(object oPC) {
+    object oMember = GetFirstFactionMember(oPC);
+    while (GetIsObjectValid(oMember)) {
+        if (GetItemPossessedBy(oMember, "D1_LOOT_GENIE") == OBJECT_INVALID)
+            return FALSE;
+
+        oMember = GetNextFactionMember(oPC);
+    }
+
+    return TRUE;
 }
 
 // For each item in the container, re-create a copy for each player and destroy the original item
 // for each item in the current inventory set "loot.*" properties
 // then PopulateLootForParty() will create items for each party member based on loot.* properties
 void MoveInventoryLootToProperties() {
-    //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() 1 " + GetResRef(OBJECT_SELF));
+    SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() ENTER " + GetTag(OBJECT_SELF));
     if (GetLocalInt(OBJECT_SELF, "MOVE_LOOT_ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "MOVE_LOOT_ONCE", 1);
 
+    int allPlayersHaveLootGenie = DoAllPlayersHaveLootGenie(GetFirstPC());
+
     int gold = GetGold();
     if (gold > 0) {
-        //SendMessageToPC(GetFirstPC(), "found gold " + IntToString(gold));
-        TakeGoldFromCreature(gold, OBJECT_SELF, TRUE);
-        //SendMessageToPC(GetFirstPC(), "gold left " + IntToString(GetGold()));
+        SendMessageToPC(GetFirstPC(), "found gold " + IntToString(gold));
+        TakeGold(gold, OBJECT_SELF, TRUE);
+        SendMessageToPC(GetFirstPC(), "gold left " + IntToString(GetGold()));
         SetLocalInt(OBJECT_SELF, "loot_gold", gold + GetLocalInt(OBJECT_SELF, "loot_gold"));
     }
 
-    // destroy container contents and create properties
+    // Determine next available properties loot slot
     int loop = 1;
     while (GetLocalString(OBJECT_SELF, "loot" + IntToString(loop)) != "") {
         loop = loop + 1;
@@ -4852,12 +4901,10 @@ void MoveInventoryLootToProperties() {
     object oItem = GetFirstItemInInventory(OBJECT_SELF);
     while (GetIsObjectValid(oItem)) {
         string resref = GetResRef(oItem);
-        if (resref == "nw_it_gold001") {
-            if (gold < 1) {
-                // gold = GetLocalInt(OBJECT_SELF, "loot_gold");
-                //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() GetItemStackSize " + IntToString(GetItemStackSize(oItem)));
-                SetLocalInt(OBJECT_SELF, "loot_gold",  GetItemStackSize(oItem));
-            }
+        SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() loop " + resref + " " + GetName(oItem) + " " + IntToString(GetItemStackSize(oItem)) + " " + IntToString(GetBaseItemType(oItem)));
+        if (IsGold(resref)) {
+            gold = gold + GetItemStackSize(oItem);
+            SetLocalInt(OBJECT_SELF, "loot_gold", gold);
             //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() set gold stack size 0");
             SetItemStackSize(oItem, 0);
         } else {
@@ -4869,11 +4916,15 @@ void MoveInventoryLootToProperties() {
                 loop = loop + 1;
             }
         }
-        if (isDeadCreature || resref != "nw_it_gold001") {
+
+        // once you delete a stackable item it cannot be added back
+        if (allPlayersHaveLootGenie || !IsStackableObject(oItem))
             DestroyObject(oItem);
-        }
+
         oItem = GetNextItemInInventory(OBJECT_SELF);
     }
+
+    SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() PART2");
 
     int slot;
     for (slot = 0; slot < NUM_INVENTORY_SLOTS; ++slot) {
@@ -4885,7 +4936,7 @@ void MoveInventoryLootToProperties() {
             //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() equip '" + resref + "' '" + name + "' drop:" + IntToString(GetDroppableFlag(oItem)));
 
         if (GetIsObjectValid(oItem) && GetDroppableFlag(oItem)) {
-            if ("nw_it_gold001" != GetResRef(oItem)){
+            if (!IsGold(GetResRef(oItem))) {
                 //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() don't drop " + GetResRef(oItem));
                 SetDroppableFlag(oItem, FALSE); // DestroyObject not working, but this prevents duplicate loot distribution.
             } else {
@@ -4894,15 +4945,11 @@ void MoveInventoryLootToProperties() {
             SetLocalString(OBJECT_SELF, "loot" + IntToString(loop), GetResRef(oItem));
             SetLocalInt(OBJECT_SELF, "loot" + IntToString(loop) + "_size", GetItemStackSize(oItem));
             loop = loop + 1;
-            //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() destroy " + GetResRef(oItem) + " " + GetName(oItem) + " drop:" + IntToString(GetDroppableFlag(oItem)));
-            //AssignCommand(OBJECT_SELF, ActionUnequipItem(oItem));
-            //SetObjectIsDestroyable(oItem, TRUE);
-            //DestroyObject(oItem, 1.0);
-            //SetItemCursedFlag(oItem, TRUE);
-            //SetLocalString(oItem, "LIMIT_ACQUIRE", "---===---"); // don't let anyone pick up
         }
-        if (isDeadCreature || resref != "nw_it_gold001") {
+        if (allPlayersHaveLootGenie || !IsStackableObject(oItem))
             DestroyObject(oItem);
-        }
     }
+
+    SendMessageToPC(GetFirstPC(), "FINAL gold " + IntToString(GetLocalInt(OBJECT_SELF, "loot_gold")));
+
 }
