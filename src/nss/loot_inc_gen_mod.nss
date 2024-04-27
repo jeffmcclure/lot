@@ -2,6 +2,32 @@
 #include "inc_jeff"
 #include "x0_i0_corpses"
 
+int IsStackable(string resref);
+int IsGold(string resref);
+
+int Possesses(object owner, string resref) {
+    object oItem = GetFirstItemInInventory(owner);
+    SendMessageToPC(GetFirstPC(), "owner resref=" + resref);
+
+    while (GetIsObjectValid(oItem)) {
+        SendMessageToPC(GetFirstPC(), "resref=" + GetResRef(oItem));
+        if (resref == GetResRef(oItem)) return TRUE;
+        oItem = GetNextItemInInventory(owner);
+    }
+    return FALSE;
+}
+
+string GetGoldResRef(object oContainer) {
+    return "nw_it_gold007";
+    object oItem = GetFirstItemInInventory(oContainer);
+    while (GetIsObjectValid(oItem)) {
+        string resref = GetResRef(oItem);
+        if (IsGold(resref)) return resref;
+        oItem = GetNextItemInInventory(oContainer);
+    }
+    return "nw_it_gold007";
+}
+
 object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
     SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' stack:" + IntToString(nStackSize));
     if (!GetIsPC(oPC)) {
@@ -18,7 +44,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
     }
     //SendMessageToPC(GetFirstPC(), "CreateLoot() 3");
 
-    object treasure;
+    object treasure = OBJECT_INVALID;
 
     // if Loot Genie
     if (GetItemPossessedBy(oPC, "D1_LOOT_GENIE") != OBJECT_INVALID) {
@@ -27,17 +53,31 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
     } else {
         //SendMessageToPC(GetFirstPC(), "CreateLoot() party Loot " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
         // normal loot
-        treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
-        //CreateObject(OBJECT_TYPE_ALL, sItemTemplate, GetLocation(oContainer), TRUE);
-        //if (GetIsObjectValid(treasure))
-            //SendMessageToPC(GetFirstPC(), "CreateLoot() GOOD-1 " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
-        //else if (treasure == OBJECT_INVALID)
-            //SendMessageToPC(GetFirstPC(), "CreateLoot() INVALID-2 " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
-        //else
-            //SendMessageToPC(GetFirstPC(), "CreateLoot() GOOD-2 " + sItemTemplate + " size:" + IntToString(nStackSize) + " in '" + GetName(oContainer) + "'");
-
-        // if party loot system
-        SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
+        if (IsGold(sItemTemplate)) {
+            int add = nStackSize - GetGold(oContainer);
+            if (add > 0) {
+                SendMessageToPC(GetFirstPC(), "CreateLoot() gold add1 = " + IntToString(add));
+                object treas = CreateItemOnObject("nw_it_gold007", oContainer, add);
+                add = nStackSize - GetGold(oContainer);
+                if (add > 0) {
+                    SendMessageToPC(GetFirstPC(), "CreateLoot() gold add2 = " + IntToString(add));
+                    treas = CreateItemOnObject("nw_it_gold001", oContainer, add);
+                    add = nStackSize - GetGold(oContainer);
+                    if (add > 0) {
+                        SendMessageToPC(GetFirstPC(), "CreateLoot() gold add3 = " + IntToString(add));
+                        GiveGoldToCreature(oContainer, add);
+                    }
+                }
+                return treas;
+            } else {
+                return OBJECT_INVALID;
+            }
+        } else if (!IsStackable(sItemTemplate) || !Possesses(oContainer, sItemTemplate)) {
+            treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
+            // if party loot system
+            SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
+            SetLocalInt(treasure, "JEFF_LOOT", 1);
+        }
     }
     SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' GetBaseItemType:" + IntToString(GetBaseItemType(treasure)));
 
@@ -4806,7 +4846,7 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     }
 
     int gold = GetLocalInt(target, "loot_gold");
-    //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold = " + IntToString(gold));
+    SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold = " + IntToString(gold));
     if (gold > 0) {
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
@@ -4827,18 +4867,25 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
 }
 
 int IsGold(string resref) {
-    return GetSubString(resref, 0, 10) == "nw_it_gold" || GetSubString(resref, 0, 7) == "it_gold";
+    return -1 != FindSubString(resref, "it_gold");
 }
 
 int IsStackable(string resref) {
-    return GetSubString(resref, 0, 10) == "nw_it_gold" || GetSubString(resref, 0, 7) == "it_gold" ||
-        GetSubString(resref, 0, 12) == "nw_it_medkit" || GetSubString(resref, 0, 9) == "it_medkit" ||
-        GetSubString(resref, 0, 9) == "nw_it_gem" || GetSubString(resref, 0, 6) == "it_gem" ||
-        GetSubString(resref, 0, 12) == "nw_it_potion" || GetSubString(resref, 0, 9) == "it_potion";
+    resref = GetStringLowerCase(resref);
+
+    if (-1 != FindSubString(resref, "it_gold")) return TRUE;
+    if (-1 != FindSubString(resref, "it_medkit")) return TRUE;
+    if (-1 != FindSubString(resref, "it_gem")) return TRUE;
+    if (-1 != FindSubString(resref, "it_mpotion")) return TRUE;
+    if (-1 != FindSubString(resref, "it_sparscr")) return TRUE;
+    if (-1 != FindSubString(resref, "it_spdvscr")) return TRUE;
+    if (-1 != FindSubString(resref, "_wammar")) return TRUE;
+    if (-1 != FindSubString(resref, "_wamar")) return TRUE;
+
+    return FALSE;
 }
 
 int IsStackableObject(object obj) {
-    SendMessageToPC(GetFirstPC(), "name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
     switch (GetBaseItemType(obj)) {
         case BASE_ITEM_ARROW:
         case BASE_ITEM_BOLT:
@@ -4850,13 +4897,16 @@ int IsStackableObject(object obj) {
         case BASE_ITEM_SPELLSCROLL:
         case BASE_ITEM_THIEVESTOOLS:
         case BASE_ITEM_HEALERSKIT:
+            SendMessageToPC(GetFirstPC(), "stackable name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
             return TRUE;
+            break;
 
-        //case BASE_ITEM_INVALID:
-        //default:
-            //return FALSE;
-            //break;
+        case BASE_ITEM_INVALID:
+        default:
+            return FALSE;
+            break;
     }
+    SendMessageToPC(GetFirstPC(), "not stackable name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
     return FALSE;
 }
 

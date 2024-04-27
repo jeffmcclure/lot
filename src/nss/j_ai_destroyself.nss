@@ -26,6 +26,7 @@
 
 // Exectued from death, to speed things up.
 #include "j_inc_constants"
+#include "inc_destroy"
 
 // This will delete all un-droppable items, before they fade out.
 void DeleteAllThings();
@@ -34,6 +35,7 @@ void ClearSlot(int iSlotID);
 
 void main()
 {
+    SendMessageToPC(GetFirstPC(), "j_ai_destoryself");
     // To not crash limbo. Destroying in limbo crashes a server (1.2 bugfix)
     if(GetIsObjectValid(GetArea(OBJECT_SELF)))
     {
@@ -49,22 +51,18 @@ void main()
                 // no inventory. SetLootable is set up on spawn.
                 // 75: "[Dead] Setting to selectable/destroyable (so we go) for Bioware corpses."
                 DebugActionSpeakByInt(75);
-                SetIsDestroyable(TRUE, FALSE, TRUE);
-            }
-            else // Destroy self normally
-            {
+                DestroyIfEmptyV1(OBJECT_SELF);
+            } else { // Destroy self normally
                 // Debug
                 // 76: "[Dead] Destroying self finally."
                 DebugActionSpeakByInt(76);
-                DeleteAllThings();
+                //DeleteAllThings();
                 // Just in case, we set destroyable, but not raiseable.
-                SetIsDestroyable(TRUE, FALSE, FALSE);
+                DestroyIfEmptyV1(OBJECT_SELF);
                 // Remove plot/immoral/lootable flags JUST in case.
                 SetPlotFlag(OBJECT_SELF, FALSE);
                 SetImmortal(OBJECT_SELF, FALSE);
                 SetLootable(OBJECT_SELF, FALSE);
-                // Destroy ourselves
-                DestroyObject(OBJECT_SELF);
             }
         }
     }

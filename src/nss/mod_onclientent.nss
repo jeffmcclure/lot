@@ -47,7 +47,7 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    //forDebug(oPC);
+    forDebug(oPC);
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.5 with enhancements by Jeff McClure\n";
     // Send welcome message to joining player

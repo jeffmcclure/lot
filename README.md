@@ -52,6 +52,9 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * Reduce difficulty of some Persuade communications to make persuasion possible
 
 ## Roadmap / Future Enhancements
+
+## Known Issues
+* The ending movie fails to play and shows error that lot2ending.wbm cannot be found, however the file is present into the lot2.hak.  This appears to be a bug in nwn itself.   The movie file will be found if it is installed in the movies/ directory, however nwn:ee is documented to be capable to read the movie from the hak, and the intro movie is read directly from the hak without issue.
  
 ## See also
 * [CHANGES.md](https://github.com/jeffmcclure/lot/blob/master/CHANGES.md)
