@@ -1,19 +1,24 @@
 {
-  "AppearanceType" : 29,
-  "BodyBag" : 0,
+  "AppearanceType" : 25,
+  "BodyBag" : 3,
+  "Lootable" : 0,
   "CRAdjust" : 0,
-  "Cha" : 9,
-  "ChallengeRating" : 2.0,
+  "Cha" : 12,
+  "ChallengeRating" : 10.0,
   "ClassList" : [
     {
-      "ClassLevel" : 3,
+      "ClassLevel" : 5,
       "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 6,
+      "ClassX" : 0
     }
   ],
-  "Comment" : "",
+  "Comment" : "Boss Monster",
   "Con" : 13,
   "Conversation" : "",
-  "CurrentHitPoints" : 13,
+  "CurrentHitPoints" : 139,
   "DecayTime" : 0,
   "Deity" : "",
   "Description" : {
@@ -24,11 +29,11 @@
   "Disarmable" : 1,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl001",
+      "EquippedRes" : "nw_aarcl008",
       "StructId" : 2
     },
     {
-      "EquippedRes" : "nw_wblms001",
+      "EquippedRes" : "nw_wswmka002",
       "StructId" : 16
     }
   ],
@@ -41,35 +46,53 @@
       "Feat" : 3
     },
     {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 14
+    },
+    {
+      "Feat" : 195
+    },
+    {
       "Feat" : 289
+    },
+    {
+      "Feat" : 44
     },
     {
       "Feat" : 46
     }
   ],
   "FirstName" : {
-    "StringRef" : 12411,
+    "StringRef" : 56565,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
   "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 13,
+  "HitPoints" : 139,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
+  "ItemList" : [
+    {
+      "InventoryRes" : "nw_it_mpotion005",
+      "ReposPosX" : 0,
+      "ReposPosy" : 0
+    }
+  ],
   "LastName" : null,
   "LawfulChaotic" : 0,
-  "Lootable" : 0,
-  "MaxHitPoints" : 16,
-  "NaturalAC" : 3,
+  "MaxHitPoints" : 150,
+  "NaturalAC" : 6,
   "NoPermDeath" : 0,
   "PaletteID" : 14,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 158,
+  "PortraitId" : 160,
   "Race" : 12,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
@@ -96,16 +119,16 @@
       "Rank" : 0
     },
     {
-      "Rank" : 0
+      "Rank" : 2
     },
     {
       "Rank" : 0
     },
     {
-      "Rank" : 3
+      "Rank" : 4
     },
     {
-      "Rank" : 3
+      "Rank" : 4
     },
     {
       "Rank" : 0
@@ -138,7 +161,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 3
+      "Rank" : 4
     },
     {
       "Rank" : 0
@@ -171,15 +194,15 @@
       "Rank" : 0
     }
   ],
-  "SoundSetFile" : 12,
+  "SoundSetFile" : 13,
   "SpecAbilityList" : [ ],
   "StartingPackage" : 0,
-  "Str" : 15,
+  "Str" : 18,
   "Subrace" : "",
-  "Tag" : "NW_BUGBEARA",
+  "Tag" : "nw_bugbearboss",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "bugbeara001",
+  "TemplateResRef" : "bugbearboss001",
   "WalkRate" : 7,
   "Willbonus" : 0,
   "WingsNew" : 0,

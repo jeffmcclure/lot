@@ -1,43 +1,40 @@
 {
-  "AppearanceType" : 83,
-  "BodyBag" : 0,
+  "AppearanceType" : 26,
+  "BodyBag" : 3,
+  "Lootable" : 0,
   "CRAdjust" : 0,
-  "Cha" : 8,
-  "ChallengeRating" : 3.0,
+  "Cha" : 12,
+  "ChallengeRating" : 5.0,
   "ClassList" : [
     {
-      "ClassLevel" : 1,
+      "ClassLevel" : 3,
       "ClassX" : 14
     },
     {
-      "ClassLevel" : 2,
+      "ClassLevel" : 3,
       "ClassX" : 0
     }
   ],
   "Comment" : "",
-  "Con" : 11,
+  "Con" : 13,
   "Conversation" : "",
-  "CurrentHitPoints" : 17,
-  "DecayTime" : 5000,
+  "CurrentHitPoints" : 30,
+  "DecayTime" : 0,
   "Deity" : "",
   "Description" : {
-    "StringRef" : 12565,
+    "StringRef" : 12410,
     "Strings" : [ ]
   },
-  "Dex" : 13,
+  "Dex" : 12,
   "Disarmable" : 0,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl002",
+      "EquippedRes" : "nw_aarcl008",
       "StructId" : 2
     },
     {
-      "EquippedRes" : "nw_waxhn001",
+      "EquippedRes" : "nw_waxmgr002",
       "StructId" : 16
-    },
-    {
-      "EquippedRes" : "nw_ashsw001",
-      "StructId" : 32
     }
   ],
   "FactionID" : 1,
@@ -52,10 +49,13 @@
       "Feat" : 4
     },
     {
-      "Feat" : 32
+      "Feat" : 14
     },
     {
       "Feat" : 195
+    },
+    {
+      "Feat" : 110
     },
     {
       "Feat" : 289
@@ -68,28 +68,27 @@
     }
   ],
   "FirstName" : {
-    "StringRef" : 12566,
+    "StringRef" : 12412,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
   "Gender" : 0,
-  "GoodEvil" : 50,
-  "HitPoints" : 17,
+  "GoodEvil" : 0,
+  "HitPoints" : 30,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
   "LastName" : null,
   "LawfulChaotic" : 0,
-  "Lootable" : 1,
-  "MaxHitPoints" : 17,
+  "MaxHitPoints" : 36,
   "NaturalAC" : 6,
   "NoPermDeath" : 0,
-  "PaletteID" : 16,
+  "PaletteID" : 14,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 220,
+  "PortraitId" : 161,
   "Race" : 12,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
@@ -116,6 +115,15 @@
       "Rank" : 0
     },
     {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
       "Rank" : 4
     },
     {
@@ -125,7 +133,25 @@
       "Rank" : 6
     },
     {
-      "Rank" : 3
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
     },
     {
       "Rank" : 0
@@ -137,33 +163,6 @@
       "Rank" : 0
     },
     {
-      "Rank" : 1
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 3
-    },
-    {
-      "Rank" : 0
-    },
-    {
       "Rank" : 0
     },
     {
@@ -191,23 +190,23 @@
       "Rank" : 0
     }
   ],
-  "SoundSetFile" : 44,
+  "SoundSetFile" : 12,
   "SpecAbilityList" : [
     {
       "Spell" : 299,
-      "SpellCasterLevel" : 1,
+      "SpellCasterLevel" : 3,
       "SpellFlags" : 1
     }
   ],
   "StartingPackage" : 0,
-  "Str" : 15,
+  "Str" : 18,
   "Subrace" : "",
-  "Tag" : "NW_GOBCHIEFB",
+  "Tag" : "NW_BUGCHIEFB",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "gobchiefb001",
+  "TemplateResRef" : "bugchiefb001",
   "WalkRate" : 7,
   "Willbonus" : 0,
   "WingsNew" : 0,
-  "Wis" : 11
+  "Wis" : 10
 }

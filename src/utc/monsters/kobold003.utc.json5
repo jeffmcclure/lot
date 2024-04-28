@@ -1,46 +1,52 @@
 {
-  "AppearanceType" : 25,
+  "AppearanceType" : 300,
   "BodyBag" : 0,
+  "Lootable" : 1,
   "CRAdjust" : 0,
-  "Cha" : 12,
-  "ChallengeRating" : 10.0,
+  "Cha" : 10,
+  "ChallengeRating" : 2.0,
   "ClassList" : [
     {
-      "ClassLevel" : 5,
+      "ClassLevel" : 1,
       "ClassX" : 14
     },
     {
-      "ClassLevel" : 6,
+      "ClassLevel" : 1,
       "ClassX" : 0
     }
   ],
-  "Comment" : "Boss Monster",
-  "Con" : 13,
+  "Comment" : "",
+  "Con" : 12,
   "Conversation" : "",
-  "CurrentHitPoints" : 139,
-  "DecayTime" : 0,
+  "CurrentHitPoints" : 11,
+  "DecayTime" : 100000,
   "Deity" : "",
   "Description" : {
-    "StringRef" : 12410,
+    "StringRef" : 2927,
     "Strings" : [ ]
   },
-  "Dex" : 12,
-  "Disarmable" : 1,
+  "Dex" : 13,
+  "Disarmable" : 0,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl008",
+      "EquippedRes" : "nw_aarcl001",
       "StructId" : 2
     },
     {
-      "EquippedRes" : "nw_wswmka002",
+      "EquippedRes" : "nw_wswss001",
       "StructId" : 16
+    },
+    {
+      "EquippedRes" : "nw_ashsw001",
+      "StructId" : 32
+    },
+    {
+      "EquippedRes" : "nw_it_crewpb001",
+      "StructId" : 16384
     }
   ],
   "FactionID" : 1,
   "FeatList" : [
-    {
-      "Feat" : 0
-    },
     {
       "Feat" : 3
     },
@@ -48,56 +54,48 @@
       "Feat" : 4
     },
     {
-      "Feat" : 14
+      "Feat" : 194
     },
     {
-      "Feat" : 195
+      "Feat" : 32
     },
     {
       "Feat" : 289
     },
     {
-      "Feat" : 44
+      "Feat" : 45
     },
     {
       "Feat" : 46
     }
   ],
   "FirstName" : {
-    "StringRef" : 56565,
+    "StringRef" : 2925,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
   "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 139,
+  "HitPoints" : 11,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
-  "ItemList" : [
-    {
-      "InventoryRes" : "nw_it_mpotion005",
-      "ReposPosX" : 0,
-      "ReposPosy" : 0
-    }
-  ],
   "LastName" : null,
-  "LawfulChaotic" : 0,
-  "Lootable" : 0,
-  "MaxHitPoints" : 150,
-  "NaturalAC" : 6,
+  "LawfulChaotic" : 100,
+  "MaxHitPoints" : 13,
+  "NaturalAC" : 1,
   "NoPermDeath" : 0,
-  "PaletteID" : 14,
+  "PaletteID" : 17,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 160,
-  "Race" : 12,
+  "PortraitId" : 569,
+  "Race" : 15,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
   "ScriptDamaged" : "nw_c2_default6",
-  "ScriptDeath" : "dth_generic_mid",
+  "ScriptDeath" : "dth_generic_low",
   "ScriptDialogue" : "nw_c2_default4",
   "ScriptDisturbed" : "nw_c2_default8",
   "ScriptEndRound" : "nw_c2_default3",
@@ -119,52 +117,52 @@
       "Rank" : 0
     },
     {
+      "Rank" : 1
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 8
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
       "Rank" : 2
     },
     {
       "Rank" : 0
     },
     {
-      "Rank" : 4
-    },
-    {
-      "Rank" : 4
-    },
-    {
       "Rank" : 0
     },
     {
-      "Rank" : 6
+      "Rank" : 2
     },
     {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 4
-    },
-    {
-      "Rank" : 0
+      "Rank" : 1
     },
     {
       "Rank" : 0
@@ -194,15 +192,21 @@
       "Rank" : 0
     }
   ],
-  "SoundSetFile" : 13,
-  "SpecAbilityList" : [ ],
+  "SoundSetFile" : 247,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 299,
+      "SpellCasterLevel" : 0,
+      "SpellFlags" : 1
+    }
+  ],
   "StartingPackage" : 0,
-  "Str" : 18,
+  "Str" : 10,
   "Subrace" : "",
-  "Tag" : "nw_bugbearboss",
+  "Tag" : "NW_KOBOLD003",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "bugbearboss001",
+  "TemplateResRef" : "kobold003",
   "WalkRate" : 7,
   "Willbonus" : 0,
   "WingsNew" : 0,

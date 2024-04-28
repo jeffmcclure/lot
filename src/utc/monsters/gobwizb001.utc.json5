@@ -1,8 +1,9 @@
 {
-  "AppearanceType" : 84,
-  "BodyBag" : 0,
+  "AppearanceType" : 85,
+  "BodyBag" : 3,
+  "Lootable" : 0,
   "CRAdjust" : 0,
-  "Cha" : 8,
+  "Cha" : 15,
   "ChallengeRating" : 3.0,
   "ClassList" : [
     {
@@ -11,59 +12,62 @@
     },
     {
       "ClassLevel" : 3,
-      "ClassX" : 2,
-      "MemorizedList0" : [
+      "ClassX" : 9,
+      "KnownList0" : [
         {
-          "Spell" : 33,
+          "Spell" : 37,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 33,
+          "Spell" : 37,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 33,
+          "Spell" : 37,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 33,
+          "Spell" : 144,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 144,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 144,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         }
       ],
-      "MemorizedList1" : [
+      "KnownList1" : [
         {
-          "Spell" : 46,
+          "Spell" : 102,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 46,
+          "Spell" : 107,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 154,
+          "Spell" : 107,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 154,
-          "SpellFlags" : 1,
-          "SpellMetaMagic" : 0
-        }
-      ],
-      "MemorizedList2" : [
-        {
-          "Spell" : 1,
+          "Spell" : 107,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         },
         {
-          "Spell" : 1,
+          "Spell" : 143,
           "SpellFlags" : 1,
           "SpellMetaMagic" : 0
         }
@@ -73,8 +77,8 @@
   "Comment" : "",
   "Con" : 11,
   "Conversation" : "",
-  "CurrentHitPoints" : 18,
-  "DecayTime" : 5000,
+  "CurrentHitPoints" : 12,
+  "DecayTime" : 0,
   "Deity" : "",
   "Description" : {
     "StringRef" : 12565,
@@ -84,39 +88,23 @@
   "Disarmable" : 1,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl012",
-      "StructId" : 2
-    },
-    {
-      "EquippedRes" : "nw_wblhl001",
+      "EquippedRes" : "nw_wswdg001",
       "StructId" : 16
     }
   ],
   "FactionID" : 1,
   "FeatList" : [
     {
-      "Feat" : 2
-    },
-    {
-      "Feat" : 3
-    },
-    {
-      "Feat" : 4
+      "Feat" : 0
     },
     {
       "Feat" : 7
     },
     {
-      "Feat" : 32
-    },
-    {
-      "Feat" : 294
+      "Feat" : 169
     },
     {
       "Feat" : 289
-    },
-    {
-      "Feat" : 45
     },
     {
       "Feat" : 46
@@ -128,23 +116,22 @@
   },
   "Fortbonus" : 0,
   "Gender" : 1,
-  "GoodEvil" : 0,
-  "HitPoints" : 18,
+  "GoodEvil" : 50,
+  "HitPoints" : 12,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
   "LastName" : null,
-  "LawfulChaotic" : 50,
-  "Lootable" : 1,
-  "MaxHitPoints" : 18,
-  "NaturalAC" : 2,
+  "LawfulChaotic" : 0,
+  "MaxHitPoints" : 12,
+  "NaturalAC" : 6,
   "NoPermDeath" : 0,
   "PaletteID" : 16,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 224,
+  "PortraitId" : 225,
   "Race" : 12,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
@@ -174,36 +161,6 @@
       "Rank" : 0
     },
     {
-      "Rank" : 2
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 0
-    },
-    {
       "Rank" : 0
     },
     {
@@ -213,7 +170,37 @@
       "Rank" : 2
     },
     {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
       "Rank" : 2
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 3
+    },
+    {
+      "Rank" : 0
     },
     {
       "Rank" : 0
@@ -248,15 +235,15 @@
   ],
   "SoundSetFile" : 46,
   "SpecAbilityList" : [ ],
-  "StartingPackage" : 2,
+  "StartingPackage" : 9,
   "Str" : 8,
   "Subrace" : "",
-  "Tag" : "NW_GOBWIZA",
+  "Tag" : "NW_GOBWIZB",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "gobwiza001",
-  "WalkRate" : 7,
+  "TemplateResRef" : "gobwizb001",
+  "WalkRate" : 4,
   "Willbonus" : 0,
   "WingsNew" : 0,
-  "Wis" : 15
+  "Wis" : 11
 }

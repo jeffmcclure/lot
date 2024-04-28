@@ -1,19 +1,58 @@
 {
-  "AppearanceType" : 390,
-  "BodyBag" : 0,
+  "AppearanceType" : 391,
+  "BodyBag" : 3,
+  "Lootable" : 0,
   "CRAdjust" : 0,
-  "Cha" : 10,
-  "ChallengeRating" : 0.33333334,
+  "Cha" : 15,
+  "ChallengeRating" : 2.0,
   "ClassList" : [
     {
       "ClassLevel" : 1,
       "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 9,
+      "KnownList0" : [
+        {
+          "Spell" : 424,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 439,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 144,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "KnownList1" : [
+        {
+          "Spell" : 107,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 165,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
     }
   ],
   "Comment" : "",
   "Con" : 13,
   "Conversation" : "",
-  "CurrentHitPoints" : 4,
+  "CurrentHitPoints" : 7,
   "DecayTime" : 0,
   "Deity" : "",
   "Description" : {
@@ -24,16 +63,8 @@
   "Disarmable" : 0,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl002",
-      "StructId" : 2
-    },
-    {
-      "EquippedRes" : "nw_wswls001",
+      "EquippedRes" : "nw_wblml001",
       "StructId" : 16
-    },
-    {
-      "EquippedRes" : "nw_ashsw001",
-      "StructId" : 32
     }
   ],
   "FactionID" : 1,
@@ -42,44 +73,40 @@
       "Feat" : 0
     },
     {
-      "Feat" : 3
+      "Feat" : 7
     },
     {
-      "Feat" : 32
+      "Feat" : 36
     },
     {
       "Feat" : 289
-    },
-    {
-      "Feat" : 45
     },
     {
       "Feat" : 46
     }
   ],
   "FirstName" : {
-    "StringRef" : 3100,
+    "StringRef" : 3102,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
   "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 4,
+  "HitPoints" : 7,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
   "LastName" : null,
   "LawfulChaotic" : 100,
-  "Lootable" : 0,
-  "MaxHitPoints" : 5,
-  "NaturalAC" : 0,
+  "MaxHitPoints" : 9,
+  "NaturalAC" : 1,
   "NoPermDeath" : 0,
   "PaletteID" : 16,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 692,
+  "PortraitId" : 693,
   "Race" : 12,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
@@ -100,7 +127,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 0
+      "Rank" : 1
     },
     {
       "Rank" : 0
@@ -145,7 +172,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 0
+      "Rank" : 1
     },
     {
       "Rank" : 3
@@ -181,15 +208,15 @@
       "Rank" : 0
     }
   ],
-  "SoundSetFile" : 253,
+  "SoundSetFile" : 254,
   "SpecAbilityList" : [ ],
-  "StartingPackage" : 0,
+  "StartingPackage" : 9,
   "Str" : 11,
   "Subrace" : "",
-  "Tag" : "NW_HOBGOBLIN001",
+  "Tag" : "NW_HOBGOBLIN002",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "hobgoblin001",
+  "TemplateResRef" : "hobgoblin002",
   "WalkRate" : 7,
   "Willbonus" : 0,
   "WingsNew" : 0,

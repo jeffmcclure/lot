@@ -1,19 +1,48 @@
 {
-  "AppearanceType" : 302,
+  "AppearanceType" : 304,
   "BodyBag" : 0,
+  "Lootable" : 1,
   "CRAdjust" : 0,
   "Cha" : 10,
-  "ChallengeRating" : 0.33333334,
+  "ChallengeRating" : 2.0,
   "ClassList" : [
     {
       "ClassLevel" : 1,
       "ClassX" : 14
+    },
+    {
+      "ClassLevel" : 1,
+      "ClassX" : 2,
+      "MemorizedList0" : [
+        {
+          "Spell" : 33,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 100,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        },
+        {
+          "Spell" : 189,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ],
+      "MemorizedList1" : [
+        {
+          "Spell" : 6,
+          "SpellFlags" : 1,
+          "SpellMetaMagic" : 0
+        }
+      ]
     }
   ],
   "Comment" : "",
   "Con" : 11,
   "Conversation" : "",
-  "CurrentHitPoints" : 2,
+  "CurrentHitPoints" : 10,
   "DecayTime" : 100000,
   "Deity" : "",
   "Description" : {
@@ -28,25 +57,39 @@
       "StructId" : 2
     },
     {
-      "EquippedRes" : "nw_wbwxl001",
+      "EquippedRes" : "nw_wblml001",
       "StructId" : 16
     },
     {
-      "EquippedRes" : "nw_wammbo006",
-      "StructId" : 8192
+      "EquippedRes" : "nw_ashsw001",
+      "StructId" : 32
     },
     {
       "EquippedRes" : "nw_it_crewpb001",
       "StructId" : 16384
+    },
+    {
+      "EquippedRes" : "nw_it_crewpb001",
+      "StructId" : 32768
+    },
+    {
+      "EquippedRes" : "nw_it_crewpb001",
+      "StructId" : 65536
     }
   ],
   "FactionID" : 1,
   "FeatList" : [
     {
-      "Feat" : 0
+      "Feat" : 2
     },
     {
       "Feat" : 3
+    },
+    {
+      "Feat" : 4
+    },
+    {
+      "Feat" : 32
     },
     {
       "Feat" : 289
@@ -56,28 +99,27 @@
     }
   ],
   "FirstName" : {
-    "StringRef" : 2924,
+    "StringRef" : 2934,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
   "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 2,
+  "HitPoints" : 10,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
   "LastName" : null,
   "LawfulChaotic" : 100,
-  "Lootable" : 1,
-  "MaxHitPoints" : 2,
+  "MaxHitPoints" : 10,
   "NaturalAC" : 1,
   "NoPermDeath" : 0,
   "PaletteID" : 17,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 571,
+  "PortraitId" : 566,
   "Race" : 15,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
@@ -98,7 +140,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 0
+      "Rank" : 1
     },
     {
       "Rank" : 0
@@ -107,7 +149,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 0
+      "Rank" : 1
     },
     {
       "Rank" : 8
@@ -181,15 +223,15 @@
   ],
   "SoundSetFile" : 246,
   "SpecAbilityList" : [ ],
-  "StartingPackage" : 0,
-  "Str" : 6,
+  "StartingPackage" : 2,
+  "Str" : 10,
   "Subrace" : "",
-  "Tag" : "NW_KOBOLD001",
+  "Tag" : "NW_KOBOLD006",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "kobold001",
+  "TemplateResRef" : "kobold006",
   "WalkRate" : 4,
   "Willbonus" : 0,
   "WingsNew" : 0,
-  "Wis" : 10
+  "Wis" : 15
 }

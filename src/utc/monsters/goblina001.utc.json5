@@ -1,48 +1,38 @@
 {
-  "AppearanceType" : 30,
-  "BodyBag" : 0,
+  "AppearanceType" : 86,
+  "BodyBag" : 3,
+  "Lootable" : 0,
   "CRAdjust" : 0,
-  "Cha" : 9,
-  "ChallengeRating" : 2.0,
+  "Cha" : 8,
+  "ChallengeRating" : 0.25,
   "ClassList" : [
     {
-      "ClassLevel" : 3,
+      "ClassLevel" : 1,
       "ClassX" : 14
     }
   ],
   "Comment" : "",
-  "Con" : 13,
+  "Con" : 11,
   "Conversation" : "",
-  "CurrentHitPoints" : 13,
+  "CurrentHitPoints" : 4,
   "DecayTime" : 0,
   "Deity" : "",
   "Description" : {
-    "StringRef" : 12410,
+    "StringRef" : 12565,
     "Strings" : [ ]
   },
-  "Dex" : 12,
+  "Dex" : 8,
   "Disarmable" : 1,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl001",
-      "StructId" : 2
-    },
-    {
-      "EquippedRes" : "nw_wbwxl001",
+      "EquippedRes" : "nw_wblms001",
       "StructId" : 16
-    },
-    {
-      "EquippedRes" : "nw_wammbo006",
-      "StructId" : 8192
     }
   ],
   "FactionID" : 1,
   "FeatList" : [
     {
       "Feat" : 0
-    },
-    {
-      "Feat" : 3
     },
     {
       "Feat" : 289
@@ -52,33 +42,32 @@
     }
   ],
   "FirstName" : {
-    "StringRef" : 12411,
+    "StringRef" : 12567,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
   "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 13,
+  "HitPoints" : 4,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
   "LastName" : null,
-  "LawfulChaotic" : 0,
-  "Lootable" : 0,
-  "MaxHitPoints" : 16,
-  "NaturalAC" : 3,
+  "LawfulChaotic" : 50,
+  "MaxHitPoints" : 4,
+  "NaturalAC" : 0,
   "NoPermDeath" : 0,
-  "PaletteID" : 14,
+  "PaletteID" : 16,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 159,
+  "PortraitId" : 222,
   "Race" : 12,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
   "ScriptDamaged" : "nw_c2_default6",
-  "ScriptDeath" : "dth_generic_mid",
+  "ScriptDeath" : "dth_generic_low",
   "ScriptDialogue" : "nw_c2_default4",
   "ScriptDisturbed" : "nw_c2_default8",
   "ScriptEndRound" : "nw_c2_default3",
@@ -106,7 +95,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 3
+      "Rank" : 6
     },
     {
       "Rank" : 3
@@ -115,7 +104,7 @@
       "Rank" : 0
     },
     {
-      "Rank" : 6
+      "Rank" : 4
     },
     {
       "Rank" : 0
@@ -175,17 +164,17 @@
       "Rank" : 0
     }
   ],
-  "SoundSetFile" : 12,
+  "SoundSetFile" : 44,
   "SpecAbilityList" : [ ],
   "StartingPackage" : 0,
-  "Str" : 15,
+  "Str" : 8,
   "Subrace" : "",
-  "Tag" : "NW_BUGBEARB",
+  "Tag" : "NW_GOBLINA",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "bugbearb001",
+  "TemplateResRef" : "goblina001",
   "WalkRate" : 7,
   "Willbonus" : 0,
   "WingsNew" : 0,
-  "Wis" : 10
+  "Wis" : 11
 }

@@ -1,43 +1,40 @@
 {
-  "AppearanceType" : 82,
-  "BodyBag" : 0,
+  "AppearanceType" : 25,
+  "BodyBag" : 3,
+  "Lootable" : 0,
   "CRAdjust" : 0,
-  "Cha" : 8,
-  "ChallengeRating" : 4.0,
+  "Cha" : 12,
+  "ChallengeRating" : 5.0,
   "ClassList" : [
     {
-      "ClassLevel" : 1,
+      "ClassLevel" : 3,
       "ClassX" : 14
     },
     {
-      "ClassLevel" : 4,
-      "ClassX" : 8
+      "ClassLevel" : 3,
+      "ClassX" : 0
     }
   ],
   "Comment" : "",
-  "Con" : 11,
+  "Con" : 13,
   "Conversation" : "",
-  "CurrentHitPoints" : 18,
+  "CurrentHitPoints" : 30,
   "DecayTime" : 0,
   "Deity" : "",
   "Description" : {
-    "StringRef" : 12565,
+    "StringRef" : 12410,
     "Strings" : [ ]
   },
-  "Dex" : 16,
+  "Dex" : 12,
   "Disarmable" : 0,
   "EquipItemList" : [
     {
-      "EquippedRes" : "nw_aarcl002",
+      "EquippedRes" : "nw_aarcl008",
       "StructId" : 2
     },
     {
-      "EquippedRes" : "nw_wswss001",
+      "EquippedRes" : "nw_wswmbs002",
       "StructId" : 16
-    },
-    {
-      "EquippedRes" : "nw_wswdg001",
-      "StructId" : 32
     }
   ],
   "FactionID" : 1,
@@ -49,50 +46,49 @@
       "Feat" : 3
     },
     {
-      "Feat" : 206
+      "Feat" : 4
     },
     {
-      "Feat" : 221
-    },
-    {
-      "Feat" : 41
+      "Feat" : 14
     },
     {
       "Feat" : 195
     },
     {
+      "Feat" : 123
+    },
+    {
       "Feat" : 289
     },
     {
-      "Feat" : 50
+      "Feat" : 44
     },
     {
       "Feat" : 46
     }
   ],
   "FirstName" : {
-    "StringRef" : 12566,
+    "StringRef" : 12412,
     "Strings" : [ ]
   },
   "Fortbonus" : 0,
-  "Gender" : 1,
+  "Gender" : 0,
   "GoodEvil" : 0,
-  "HitPoints" : 18,
+  "HitPoints" : 30,
   "Int" : 10,
   "Interruptable" : 1,
   "IsImmortal" : 0,
   "IsPC" : 0,
   "LastName" : null,
-  "LawfulChaotic" : 50,
-  "Lootable" : 1,
-  "MaxHitPoints" : 18,
-  "NaturalAC" : 3,
+  "LawfulChaotic" : 0,
+  "MaxHitPoints" : 36,
+  "NaturalAC" : 6,
   "NoPermDeath" : 0,
-  "PaletteID" : 16,
+  "PaletteID" : 14,
   "PerceptionRange" : 11,
   "Phenotype" : 0,
   "Plot" : 0,
-  "PortraitId" : 219,
+  "PortraitId" : 160,
   "Race" : 12,
   "Refbonus" : 0,
   "ScriptAttacked" : "nw_c2_default5",
@@ -116,10 +112,19 @@
       "Rank" : 0
     },
     {
-      "Rank" : 3
+      "Rank" : 0
     },
     {
-      "Rank" : 3
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
+    },
+    {
+      "Rank" : 4
     },
     {
       "Rank" : 0
@@ -128,28 +133,13 @@
       "Rank" : 6
     },
     {
-      "Rank" : 5
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 5
-    },
-    {
-      "Rank" : 0
-    },
-    {
-      "Rank" : 3
-    },
-    {
       "Rank" : 0
     },
     {
       "Rank" : 0
     },
     {
-      "Rank" : 3
+      "Rank" : 0
     },
     {
       "Rank" : 0
@@ -161,7 +151,13 @@
       "Rank" : 0
     },
     {
-      "Rank" : 5
+      "Rank" : 0
+    },
+    {
+      "Rank" : 0
+    },
+    {
+      "Rank" : 4
     },
     {
       "Rank" : 0
@@ -194,17 +190,23 @@
       "Rank" : 0
     }
   ],
-  "SoundSetFile" : 44,
-  "SpecAbilityList" : [ ],
-  "StartingPackage" : 8,
-  "Str" : 12,
+  "SoundSetFile" : 12,
+  "SpecAbilityList" : [
+    {
+      "Spell" : 299,
+      "SpellCasterLevel" : 3,
+      "SpellFlags" : 1
+    }
+  ],
+  "StartingPackage" : 0,
+  "Str" : 18,
   "Subrace" : "",
-  "Tag" : "NW_GOBCHIEFA",
+  "Tag" : "NW_BUGCHIEFA",
   "TailNew" : 0,
   "TemplateList" : [ ],
-  "TemplateResRef" : "gobchiefa001",
+  "TemplateResRef" : "bugchiefa001",
   "WalkRate" : 7,
   "Willbonus" : 0,
   "WingsNew" : 0,
-  "Wis" : 11
+  "Wis" : 10
 }
