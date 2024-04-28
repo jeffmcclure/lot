@@ -2,7 +2,10 @@
 
 # Changelog
 ## 2.0.5 &mdash; 2024-04-28
-* 
+* Loot system - allow lootable monster corpses and other monster Treasure Models (default, treasure...) 
+* tighten up loot system
+* start organizing utc source files into subdirectories
+* Simplify Jarulf's conversation from a user standpoint
 
 ## 2.0.4 &mdash; 2024-04-13
 * Reduce difficulty of Cain's persuasion check for a free identify to make it possible (but still difficult) for level 1 characters to get a free identify
