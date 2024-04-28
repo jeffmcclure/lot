@@ -1,9 +1,12 @@
 void DestroyIfEmptyV1(object creature) {
-    SendMessageToPC(GetFirstPC(), "DestroyIfEmpty() ENTER " + GetName(creature));
+    int jeffloot = GetLocalInt(creature, "JEFF_LOOT");
+    SendMessageToPC(GetFirstPC(), "DestroyIfEmpty() ENTER " + GetName(creature) + " JEFF_LOOT:" + IntToString(jeffloot));
+    if (jeffloot) return;
 
     object oItem = GetFirstItemInInventory(creature);
     int any = FALSE;
     while (OBJECT_INVALID != oItem) {
+        SendMessageToPC(GetFirstPC(), "Destroy x");
         string resref = GetResRef(oItem);
         int droppable = GetDroppableFlag(oItem);
         if (droppable) {
@@ -17,6 +20,16 @@ void DestroyIfEmptyV1(object creature) {
         }
         //SendMessageToPC(GetFirstPC(), "DEAD ITEM " + GetName(oItem) + " drop:" + IntToString(droppable));
         oItem = GetNextItemInInventory(OBJECT_SELF);
+    }
+
+    int i;
+    for (i = 0; i < NUM_INVENTORY_SLOTS; ++i) {
+        oItem = GetItemInSlot(i, creature);
+        if (GetIsObjectValid(oItem)) {
+            SendMessageToPC(GetFirstPC(), "valid " + GetName(oItem));
+        } else {
+            SendMessageToPC(GetFirstPC(), "invalid");
+        }
     }
 
     int gold = GetGold(creature);

@@ -4,6 +4,7 @@
 
 int IsStackable(string resref);
 int IsGold(string resref);
+int IsDeadCreature();
 
 int Possesses(object owner, string resref) {
     object oItem = GetFirstItemInInventory(owner);
@@ -56,6 +57,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
         if (IsGold(sItemTemplate)) {
             int add = nStackSize - GetGold(oContainer);
             if (add > 0) {
+                SetLocalInt(oContainer, "JEFF_LOOT", 1);
                 SendMessageToPC(GetFirstPC(), "CreateLoot() gold add1 = " + IntToString(add));
                 object treas = CreateItemOnObject("nw_it_gold007", oContainer, add);
                 add = nStackSize - GetGold(oContainer);
@@ -73,6 +75,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
                 return OBJECT_INVALID;
             }
         } else if (!IsStackable(sItemTemplate) || !Possesses(oContainer, sItemTemplate)) {
+            SetLocalInt(oContainer, "JEFF_LOOT", 1);
             treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
             // if party loot system
             SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
