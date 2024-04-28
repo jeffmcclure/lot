@@ -49,7 +49,7 @@ void main() {
     // for debug testing
     //forDebug(oPC);
 
-    string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.4 with enhancements by Jeff McClure\n";
+    string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.5 with enhancements by Jeff McClure\n";
     // Send welcome message to joining player
     SendMessageToPC(oPC,msg);
 

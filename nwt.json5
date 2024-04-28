@@ -1,15 +1,14 @@
 [
   {
     "description" : "The Lord of Terror",
-    "version" : "2.0.4",
-    "dirPath" : [ ],
+    "version" : "2.0.5",
     "erfPath" : [ ],
     "overwrite" : true,
     "rules" : {
       "module.*" : "src",
       "*.ncs" : "target/ncs"
     },
-    "source" : "${nwnHome}/modules/The_Lord_of_Terror_2_0_4.mod",
-    "target" : "${nwnHome}/modules/The_Lord_of_Terror_2_0_4.mod"
+    "source" : "${nwnHome}/modules/The_Lord_of_Terror_${version}.mod",
+    "target" : "${nwnHome}/modules/The_Lord_of_Terror_${version}.mod"
   }
 ]
