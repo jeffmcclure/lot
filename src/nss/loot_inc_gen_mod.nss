@@ -8,10 +8,10 @@ int IsDeadCreature();
 
 int Possesses(object owner, string resref) {
     object oItem = GetFirstItemInInventory(owner);
-    SendMessageToPC(GetFirstPC(), "owner resref=" + resref);
+    //SendMessageToPC(GetFirstPC(), "owner resref=" + resref);
 
     while (GetIsObjectValid(oItem)) {
-        SendMessageToPC(GetFirstPC(), "resref=" + GetResRef(oItem));
+        //SendMessageToPC(GetFirstPC(), "resref=" + GetResRef(oItem));
         if (resref == GetResRef(oItem)) return TRUE;
         oItem = GetNextItemInInventory(owner);
     }
@@ -30,7 +30,7 @@ string GetGoldResRef(object oContainer) {
 }
 
 object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStackSize = 1) {
-    SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' stack:" + IntToString(nStackSize));
+    //SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' stack:" + IntToString(nStackSize));
     if (!GetIsPC(oPC)) {
         MessageAll("CreateLoot(): non-PC parameter passed resref " + sItemTemplate);
         MessageAll("CreateLoot(): non-PC parameter passed oPC name   " + GetName(oPC));
@@ -58,15 +58,15 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
             int add = nStackSize - GetGold(oContainer);
             if (add > 0) {
                 SetLocalInt(oContainer, "JEFF_LOOT", 1);
-                SendMessageToPC(GetFirstPC(), "CreateLoot() gold add1 = " + IntToString(add));
+                //SendMessageToPC(GetFirstPC(), "CreateLoot() gold add1 = " + IntToString(add));
                 object treas = CreateItemOnObject("nw_it_gold007", oContainer, add);
                 add = nStackSize - GetGold(oContainer);
                 if (add > 0) {
-                    SendMessageToPC(GetFirstPC(), "CreateLoot() gold add2 = " + IntToString(add));
+                    //SendMessageToPC(GetFirstPC(), "CreateLoot() gold add2 = " + IntToString(add));
                     treas = CreateItemOnObject("nw_it_gold001", oContainer, add);
                     add = nStackSize - GetGold(oContainer);
                     if (add > 0) {
-                        SendMessageToPC(GetFirstPC(), "CreateLoot() gold add3 = " + IntToString(add));
+                        //SendMessageToPC(GetFirstPC(), "CreateLoot() gold add3 = " + IntToString(add));
                         GiveGoldToCreature(oContainer, add);
                     }
                 }
@@ -82,7 +82,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
             SetLocalInt(treasure, "JEFF_LOOT", 1);
         }
     }
-    SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' GetBaseItemType:" + IntToString(GetBaseItemType(treasure)));
+    //SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' GetBaseItemType:" + IntToString(GetBaseItemType(treasure)));
 
     return treasure;
 }
@@ -4849,7 +4849,7 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     }
 
     int gold = GetLocalInt(target, "loot_gold");
-    SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold = " + IntToString(gold));
+    //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() gold = " + IntToString(gold));
     if (gold > 0) {
         object oMember = GetFirstFactionMember(oPC, TRUE);
         while (GetIsObjectValid(oMember)) {
@@ -4900,7 +4900,7 @@ int IsStackableObject(object obj) {
         case BASE_ITEM_SPELLSCROLL:
         case BASE_ITEM_THIEVESTOOLS:
         case BASE_ITEM_HEALERSKIT:
-            SendMessageToPC(GetFirstPC(), "stackable name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
+            //SendMessageToPC(GetFirstPC(), "stackable name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
             return TRUE;
             break;
 
@@ -4909,7 +4909,7 @@ int IsStackableObject(object obj) {
             return FALSE;
             break;
     }
-    SendMessageToPC(GetFirstPC(), "not stackable name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
+    //SendMessageToPC(GetFirstPC(), "not stackable name=" + GetName(obj) + " resref=" + GetResRef(obj) + " ItemType=" + IntToString(GetBaseItemType(obj)));
     return FALSE;
 }
 
@@ -4929,7 +4929,7 @@ int DoAllPlayersHaveLootGenie(object oPC) {
 // for each item in the current inventory set "loot.*" properties
 // then PopulateLootForParty() will create items for each party member based on loot.* properties
 void MoveInventoryLootToProperties() {
-    SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() ENTER " + GetTag(OBJECT_SELF));
+    //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() ENTER " + GetTag(OBJECT_SELF));
     if (GetLocalInt(OBJECT_SELF, "MOVE_LOOT_ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "MOVE_LOOT_ONCE", 1);
 
@@ -4937,9 +4937,9 @@ void MoveInventoryLootToProperties() {
 
     int gold = GetGold();
     if (gold > 0) {
-        SendMessageToPC(GetFirstPC(), "found gold " + IntToString(gold));
+        //SendMessageToPC(GetFirstPC(), "found gold " + IntToString(gold));
         TakeGold(gold, OBJECT_SELF, TRUE);
-        SendMessageToPC(GetFirstPC(), "gold left " + IntToString(GetGold()));
+        //SendMessageToPC(GetFirstPC(), "gold left " + IntToString(GetGold()));
         SetLocalInt(OBJECT_SELF, "loot_gold", gold + GetLocalInt(OBJECT_SELF, "loot_gold"));
     }
 
@@ -4954,7 +4954,7 @@ void MoveInventoryLootToProperties() {
     object oItem = GetFirstItemInInventory(OBJECT_SELF);
     while (GetIsObjectValid(oItem)) {
         string resref = GetResRef(oItem);
-        SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() loop " + resref + " " + GetName(oItem) + " " + IntToString(GetItemStackSize(oItem)) + " " + IntToString(GetBaseItemType(oItem)));
+        //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() loop " + resref + " " + GetName(oItem) + " " + IntToString(GetItemStackSize(oItem)) + " " + IntToString(GetBaseItemType(oItem)));
         if (IsGold(resref)) {
             gold = gold + GetItemStackSize(oItem);
             SetLocalInt(OBJECT_SELF, "loot_gold", gold);
@@ -4977,7 +4977,7 @@ void MoveInventoryLootToProperties() {
         oItem = GetNextItemInInventory(OBJECT_SELF);
     }
 
-    SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() PART2");
+    //SendMessageToPC(GetFirstPC(), "MoveInventoryLootToProperties() PART2");
 
     int slot;
     for (slot = 0; slot < NUM_INVENTORY_SLOTS; ++slot) {
@@ -5003,6 +5003,6 @@ void MoveInventoryLootToProperties() {
             DestroyObject(oItem);
     }
 
-    SendMessageToPC(GetFirstPC(), "FINAL gold " + IntToString(GetLocalInt(OBJECT_SELF, "loot_gold")));
+    //SendMessageToPC(GetFirstPC(), "FINAL gold " + IntToString(GetLocalInt(OBJECT_SELF, "loot_gold")));
 
 }

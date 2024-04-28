@@ -35,7 +35,7 @@ void ClearSlot(int iSlotID);
 
 void main()
 {
-    SendMessageToPC(GetFirstPC(), "j_ai_destoryself");
+    //SendMessageToPC(GetFirstPC(), "j_ai_destoryself");
     // To not crash limbo. Destroying in limbo crashes a server (1.2 bugfix)
     if(GetIsObjectValid(GetArea(OBJECT_SELF)))
     {
