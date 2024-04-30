@@ -52,8 +52,8 @@ void JeffGiveStuff(object oPC) {
     /*
      * Cloak of Fast Feet
      */
-    if (HasItem(oPC, "CloakofFastFeet") == FALSE) {
-        object obj = CreateItemOnObject("cloakoffastfeet", oPC); // Cloak of Fast Feet
+    if (HasItem(oPC, "cloakoffastfe") == FALSE) {
+        object obj = CreateItemOnObject("cloakoffastfe", oPC); // Cloak of Fast Feet
         SetIdentified(obj,TRUE);
         SetPlotFlag(obj, TRUE);  // set resale value to zero
         DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));

@@ -12,7 +12,7 @@ void main() {
 
     AddJournalQuestEntry("QST_WELCOME_BACK", 1, oPC, FALSE, FALSE); // only give to player not party
 
-    if (GetItemPossessedBy(oPC, "CloakofFastFeet") != OBJECT_INVALID) return; // only allow one time
+    if (GetItemPossessedBy(oPC, "cloakoffastfe") != OBJECT_INVALID) return; // only allow one time
 
     //RewardPartyGP(500, oPC, FALSE); // reward just player, not party
 
@@ -28,7 +28,7 @@ void main() {
     /*
      * Cloak of Fast Feet
      */
-    object obj = CreateItemOnObject("cloakoffastfeet", oPC, 1, "CloakofFastFeet"); // Cloak of Fast Feet
+    object obj = CreateItemOnObject("cloakoffastfe", oPC, 1, "cloakoffastfe"); // Cloak of Fast Feet
     SetIdentified(obj,TRUE);
     SetPlotFlag(obj, TRUE);  // set resale value to zero
     DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));
