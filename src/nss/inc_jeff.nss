@@ -40,7 +40,7 @@ void JeffGiveStuff(object oPC) {
         object obj = CreateItemOnObject("nw_wmgmrd002", oPC); // wand of resurrection
         SetIdentified(obj,TRUE);
         SetPlotFlag(obj, TRUE); // set resale value to zero
-        SetItemCursedFlag(obj, TRUE); // don't allow dropping, selling, trading
+        //SetItemCursedFlag(obj, TRUE); // don't allow dropping, selling, trading
     } else {
         object obj = GetItemPossessedBy(oPC, "NW_WMGMRD002" );
         if (obj == OBJECT_INVALID) {
@@ -50,33 +50,11 @@ void JeffGiveStuff(object oPC) {
     }
 
     /*
-     * Cloak of Fast Feet
-     */
-    if (HasItem(oPC, "cloakoffastfe") == FALSE) {
-        object obj = CreateItemOnObject("cloakoffastfe", oPC); // Cloak of Fast Feet
-        SetIdentified(obj,TRUE);
-        SetPlotFlag(obj, TRUE);  // set resale value to zero
-        DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));
-    }
-
-    /*
      * Rectory Key
      */
     object door = GetObjectByTag("InsideRectoryDoor");
     if (GetIsObjectValid(door) && GetLocked(door) && !HasItem(oPC, "KEY_RECTORY_INSIDE")) {
         CreateItemOnObject("rectorykey", oPC);
-    }
-
-    /*
-     * Tome of Town Portal
-     */
-    if (!HasItem(oPC, "ITM_BookOfTownPortal")) {
-        object obj = CreateItemOnObject("bookoftownportal", oPC); // Tome of Town Portal w/10 uses
-        //MessageAll(GetTag(obj));
-        //MessageAll(GetName(obj));
-        //MessageAll(GetResRef(obj));
-        //SetTag(obj, "LOT_BOOK_OF_TOWN_PORTAL");
-        SetItemCursedFlag(obj, TRUE); // don't allow dropping, selling, trading
     }
 }
 

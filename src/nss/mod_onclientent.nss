@@ -22,12 +22,8 @@ void forDebug(object oPC) {
     CreateItemOnObject("nw_it_mring013", oPC); // Ring of scholors - lore white light
 
     CreateItemOnObject("nw_it_book001", oPC); // Tome of town portal
-    CreateItemOnObject("nw_it_book002", oPC); // Tome of town portal
-    CreateItemOnObject("nw_it_book010", oPC); // Tome of town portal
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
-    CreateItemOnObject("nw_it_book020", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
-    CreateItemOnObject("nw_it_book030", oPC); // Tome of healing
 
     GiveGoldToCreature(oPC, 76543);
 

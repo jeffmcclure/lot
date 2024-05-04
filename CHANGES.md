@@ -6,6 +6,9 @@
 * tighten up loot system
 * start organizing utc source files into subdirectories
 * Simplify Jarulf's conversation from a user standpoint
+* Roleplay : tome of identify is very expensive to buy
+* Wand of resurrection from Remy is now droppable (no longer cursed)
+* Eliminate duplicate nw_it_book.* objects
 
 ## 2.0.4 &mdash; 2024-04-13
 * Reduce difficulty of Cain's persuasion check for a free identify to make it possible (but still difficult) for level 1 characters to get a free identify

@@ -408,21 +408,23 @@ int GetNumberOfItems(int nTreasureType)
     // *
     // * Non-Scaling Treasure
     // *
-    object CreateBook(object oTarget, object oPC)
-    {
-        int nBook1 = Random(31) + 1;
-        string sRes = "NW_IT_BOOK01";
+    object CreateBook(object oTarget, object oPC) {
+        int nBook1 = Random(10);
+        string sRes;
 
-        if (nBook1 < 10)
-        {
-            sRes = "NW_IT_BOOK00" + IntToString(nBook1);
-        }
-        else
-        {
-            sRes = "NW_IT_BOOK0" + IntToString(nBook1);
+        if (nBook1 < 7) {
+            sRes = "NW_IT_BOOK001"; // town portal
+        } else if (nBook1 < 8) {
+            sRes = "NW_IT_BOOK011"; // identify
+        } else if (nBook1 < 9) {
+            sRes = "NW_IT_BOOK021"; // healing
+        } else {
+            sRes = "NW_IT_BOOK031"; // apocalypse
         }
         dbSpeak("Create book");
-        return dbCreateItemOnObject(sRes, oTarget, oPC);
+        object book = dbCreateItemOnObject(sRes, oTarget, oPC);
+        SetPlotFlag(book, TRUE); // set resale value to zero
+        return book;
     }
 
     object CreateAnimalPart(object oTarget, object oPC)
