@@ -3,7 +3,7 @@ Based on [The Lord of Terror](https://neverwintervault.org/project/nwn1/module/l
 
 The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff McClure](mailto:jeffmcclure.github@gmail.com)
 
-Current Version 2.0.5 - April 28, 2024
+Current Version 2.0.5 - March 3, 2024
 
 ## Stay a while and listen
 This module is mostly the same as Tolitz Rosel's last released version 1.06 from November 27, 2004.
@@ -50,6 +50,7 @@ This module is mostly the same as Tolitz Rosel's last released version 1.06 from
 * New haggling/appraise system for all stores (makes use of Appraise skill and Charisma bonus modifier)
 * Some chests must now be picked open, and may not be bashed open (makes use of Lockpick skill)
 * Reduce difficulty of some Persuade communications to make persuasion possible
+* Tome of Identify drops rarely and very expensive to purchase
 
 ## Roadmap / Future Enhancements
 
