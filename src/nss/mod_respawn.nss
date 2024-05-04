@@ -3,6 +3,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 #include "nw_i0_plot"
+#include "inc_cloak_ff"
 
 // * Applies an XP and GP penalty
 // * to the player respawning
@@ -49,4 +50,6 @@ void main() {
 
     location lTarget = GetLocation(soulsDeath);
     //AssignCommand(oPC, DelayCommand(1.0, JumpToLocation(lTarget)));
+
+    CloakOfFastFeet(oPC);
 }

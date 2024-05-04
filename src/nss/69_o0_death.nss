@@ -15,6 +15,8 @@
 //:: Modified: 69MEH69 AUG2003
 //:://////////////////////////////////////////////
 
+#include "inc_cloak_ff"
+
 //Set PC_BLEEDING = 1 to initiate PC Raise Dead/Resurrection by a healer henchman
 //Set PC_BLEEDING = 0 to initiate default BIOWARE PC death
 const int PC_BLEEDING = 1;
@@ -26,6 +28,7 @@ void Raise(object oPlayer)
         effect eBad = GetFirstEffect(oPlayer);
         ApplyEffectToObject(DURATION_TYPE_INSTANT,EffectResurrection(),oPlayer);
         ApplyEffectToObject(DURATION_TYPE_INSTANT,EffectHeal(GetMaxHitPoints(oPlayer)), oPlayer);
+        CloakOfFastFeet(oPlayer);
 
         //Search for negative effects
         while(GetIsEffectValid(eBad))

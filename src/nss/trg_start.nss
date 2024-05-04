@@ -29,6 +29,18 @@ void main() {
      * Cloak of Fast Feet
      */
     object obj = CreateItemOnObject("cloakoffastfe", oPC, 1, "cloakoffastfe"); // Cloak of Fast Feet
+
+        //effect eGoFast = EffectMovementSpeedIncrease(50);
+        //ApplyEffectToObject(DURATION_TYPE_PERMANENT, eGoFast, obj);
+
+            //itemproperty ipAddFeat = ItemPropertyBonusFeat(IP_CONST_FEAT_KNOCKDOWN);
+            //itemproperty ipAddFeat = ItemPropertyBonusFeat(FEAT_BARBARIAN_ENDURANCE);
+
+            //itemproperty ipAddFeat = ItemPropertyBonusFeat(53);
+            //AddItemProperty(DURATION_TYPE_PERMANENT, ipAddFeat, obj);
+            //ipAddFeat = ItemPropertyBonusFeat(54);
+            //AddItemProperty(DURATION_TYPE_PERMANENT, ipAddFeat, obj);
+
     SetIdentified(obj,TRUE);
     SetPlotFlag(obj, TRUE);  // set resale value to zero
     DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));
