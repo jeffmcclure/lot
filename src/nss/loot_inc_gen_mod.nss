@@ -5,6 +5,7 @@
 int IsStackable(string resref);
 int IsGold(string resref);
 int IsDeadCreature();
+int DoAllPlayersHaveLootGenie(object oPC);
 
 int Possesses(object owner, string resref) {
     object oItem = GetFirstItemInInventory(owner);
@@ -70,6 +71,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
                         GiveGoldToCreature(oContainer, add);
                     }
                 }
+                SetDroppableFlag(treas, TRUE);
                 return treas;
             } else {
                 return OBJECT_INVALID;
@@ -84,6 +86,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
     }
     //SendMessageToPC(GetFirstPC(), "CreateLoot() '" + sItemTemplate + "' GetBaseItemType:" + IntToString(GetBaseItemType(treasure)));
 
+    SetDroppableFlag(treasure, TRUE);
     return treasure;
 }
 
@@ -4810,6 +4813,48 @@ void FixDeadCreature(object creature) {
     if (!any) SetIsDestroyable(FALSE, FALSE, FALSE);
 }
 
+int IsEmpty(object creature) {
+    int isDeadCreature = GetIsObjectValid(GetLastKiller());
+    if (isDeadCreature && GetLocalInt(creature, "JEFF_LOOT")) {
+        return FALSE;
+    }
+
+    //SendMessageToPC(GetFirstPC(), "IsEmpty()  creature:" + IntToString(isDeadCreature));
+    //int isContainer = GetIsObjectValid(GetLastOpenedBy());
+    //SendMessageToPC(GetFirstPC(), "IsEmpty() container:" + IntToString(isContainer));
+
+    object oItem = GetFirstItemInInventory(creature);
+    while (OBJECT_INVALID != oItem) {
+        int droppable = GetDroppableFlag(oItem);
+        if (droppable) {
+            //SendMessageToPC(GetFirstPC(), "IsEmpty() '" + GetName(oItem) + "'");
+            return FALSE;
+        }
+        if (GetLocalInt(oItem, "JEFF_LOOT") > 0) {
+            //SendMessageToPC(GetFirstPC(), "IsEmpty() JEFF '" + GetName(oItem) + "'");
+            return FALSE;
+        }
+        oItem = GetNextItemInInventory(OBJECT_SELF);
+    }
+
+    int i;
+    for (i = 0; i < NUM_INVENTORY_SLOTS; ++i) {
+        oItem = GetItemInSlot(i, creature);
+        if (GetIsObjectValid(oItem) && GetDroppableFlag(oItem)) {
+            //SendMessageToPC(GetFirstPC(), "IsEmpty() INV '" + GetName(oItem) + "'");
+            return FALSE;
+        }
+    }
+
+    if (GetGold(creature) > 0) {
+        //SendMessageToPC(GetFirstPC(), "IsEmpty() gold");
+        return FALSE;
+    }
+
+    //SendMessageToPC(GetFirstPC(), "IsEmpty() TRUE");
+    return TRUE;
+}
+
 void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     if (GetLocalInt(OBJECT_SELF, "POPULATE_LOOT_ONCE") > 0) return;
     SetLocalInt(OBJECT_SELF, "POPULATE_LOOT_ONCE", 1);
@@ -4862,12 +4907,21 @@ void PopulateLootForParty(object target, object oPC = OBJECT_INVALID) {
     }
 
     if (is_creature) {
+        if (DoAllPlayersHaveLootGenie(GetFirstPC())) {
+            //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() DoAllPlayersHaveLootGenie()");
+            SetIsDestroyable(TRUE, FALSE, FALSE);
         // destroy loot bag if no loot added
-        if (!GetIsObjectValid(GetFirstItemInInventory(oChest)) && GetGold(oChest) < 1) {
+        } else if (IsEmpty(oChest)) {
+            //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() SetIsDestroyable()");
             SetIsDestroyable(TRUE, FALSE, FALSE);
             //FixDeadCreature(OBJECT_SELF);
             //DestroyObject(oChest);
+        } else {
+            object obj = GetFirstItemInInventory(oChest);
+            //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() name:" + GetName(obj) + ", drop:" + IntToString(GetDroppableFlag(obj)) + ", gold:" + IntToString(GetGold(oChest)));
         }
+    } else {
+        //SendMessageToPC(GetFirstPC(), "PopulateLootForParty() not creature");
     }
 }
 

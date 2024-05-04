@@ -10,7 +10,10 @@ void forDebug(object oPC) {
 
     //CreateItemOnObject("tavernsign", oPC);
     CreateItemOnObject("lootgenie", oPC);   // loot genie
-    CreateItemOnObject("it_mneck026", oPC); // natural armor +1
+    object obj = CreateItemOnObject("it_mneck026", oPC); // natural armor +1
+    SetIdentified(obj,TRUE);
+
+    CreateItemOnObject("nw_it_mneck023", oPC); // glittering necklace
 
     CreateItemOnObject("nw_wswls001", oPC); // long sword
     CreateItemOnObject("nw_waxbt001", oPC); // battle axe
@@ -24,6 +27,11 @@ void forDebug(object oPC) {
     CreateItemOnObject("nw_it_book001", oPC); // Tome of town portal
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
+
+    obj = CreateItemOnObject("cloakoffastfe", oPC, 1, "cloakoffastfe"); // Cloak of Fast Feet
+    SetIdentified(obj,TRUE);
+    SetPlotFlag(obj, TRUE);  // set resale value to zero
+    DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));
 
     GiveGoldToCreature(oPC, 76543);
 

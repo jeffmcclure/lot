@@ -4,7 +4,7 @@ void main() {
     object oPC = GetFirstPC();
 
     string limitAcquire = GetLocalString(OBJECT_SELF, "LIMIT_ACQUIRE");
-    object oChest = CreateLootChest();
+    object oChest = OBJECT_SELF;
 
     object oMember = GetFirstFactionMember(oPC, TRUE);
     while (GetIsObjectValid(oMember)) {
@@ -14,10 +14,6 @@ void main() {
         AssignCommand(oMember, ActionSpeakString("The spirits of the dead are now avenged..."));
         GiveXPToCreature(oMember, 750);
         oMember = GetNextFactionMember(oPC, TRUE);
-    }
-
-    if (!GetIsObjectValid(GetFirstItemInInventory(oChest)) && GetGold(oChest) < 1) {
-        DestroyObject(oChest);
     }
 
     AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE);
