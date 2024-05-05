@@ -2,5 +2,7 @@
 
 void main() {
     TreasureChestHigh();
+    MoveInventoryLootToProperties();
+    PopulateLootForParty(OBJECT_SELF, GetLastOpenerOrKiller());
     ShoutDisturbed();
 }

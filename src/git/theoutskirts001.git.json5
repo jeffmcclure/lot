@@ -342,7 +342,20 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 14550,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 1b"
+          }
+        ]      },
+      "LocName" : {
+        "StringRef" : 14551,
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Corpse 1a"
+          }
+        ]
       },
       "DisarmDC" : 15,
       "Faction" : 1,
@@ -351,50 +364,20 @@
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 1,
-      "ItemList" : [
+      "VarTable" : [
         {
-          "AddCost" : 0,
-          "BaseItem" : 76,
-          "Charges" : 0,
-          "Cost" : 0,
-          "Cursed" : 0,
-          "DescIdentified" : null,
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 535,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 1,
-          "Plot" : 0,
-          "PropertiesList" : [ ],
-          "ReposPosX" : 0,
-          "ReposPosy" : 0,
-          "StackSize" : 33,
-          "Stolen" : 0,
-          "Tag" : "NW_IT_GOLD001",
-          "TemplateResRef" : "nw_it_gold001",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
-        }
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 199
+        },
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14551,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse"
-          }
-        ]
-      },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "",
-      "OnUsed" : "dth_generic_low",
+      "OnDeath" : "loot_partyfi1",
+      "OnOpen" : "loot_partyfi1",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 467,
@@ -533,95 +516,24 @@
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 1,
-      "ItemList" : [
+      "VarTable" : [
         {
-          "AddCost" : 0,
-          "BaseItem" : 76,
-          "Charges" : 0,
-          "Cost" : 0,
-          "Cursed" : 0,
-          "DescIdentified" : null,
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 535,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 1,
-          "Plot" : 0,
-          "PropertiesList" : [ ],
-          "ReposPosX" : 0,
-          "ReposPosy" : 0,
-          "StackSize" : 26,
-          "Stolen" : 0,
-          "Tag" : "NW_IT_GOLD001",
-          "TemplateResRef" : "nw_it_gold001",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
+          "Name" : "loot1",
+          "Type" : 3,
+          // nw_wamar001 == arrow
+          "Value" : "nw_wamar001"
         },
         {
-          "AddCost" : 0,
-          "BaseItem" : 20,
-          "Charges" : 0,
-          "Cost" : 0,
-          "Cursed" : 0,
-          "DescIdentified" : null,
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 1517,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 11,
-          "ModelPart2" : 11,
-          "ModelPart3" : 11,
-          "Plot" : 0,
-          "PropertiesList" : [ ],
-          "ReposPosX" : 2,
-          "ReposPosy" : 0,
-          "StackSize" : 99,
-          "Stolen" : 0,
-          "Tag" : "NW_WAMAR001",
-          "TemplateResRef" : "nw_wamar001",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
+          "Name" : "loot2",
+          "Type" : 3,
+          // nw_wbwsh001 == Shortbow
+          "Value" : "nw_wbwsh001"
         },
         {
-          "AddCost" : 0,
-          "BaseItem" : 11,
-          "Charges" : 0,
-          "Cost" : 60,
-          "Cursed" : 0,
-          "DescIdentified" : null,
-          "Description" : null,
-          "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 171,
-            "Strings" : [ ]
-          },
-          "ModelPart1" : 11,
-          "ModelPart2" : 11,
-          "ModelPart3" : 11,
-          "Plot" : 0,
-          "PropertiesList" : [ ],
-          "ReposPosX" : 3,
-          "ReposPosy" : 0,
-          "StackSize" : 1,
-          "Stolen" : 0,
-          "Tag" : "NW_WBWSH001",
-          "TemplateResRef" : "nw_wbwsh001",
-          "XOrientation" : 0.0,
-          "XPosition" : -1.0,
-          "YOrientation" : 1.0,
-          "YPosition" : -1.0,
-          "ZPosition" : -1.0
-        }
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 199
+        },
       ],
       "KeyRequired" : 0,
       "LocName" : {
@@ -629,14 +541,16 @@
         "Strings" : [
           {
             "Id" : 0,
-            "String" : "Corpse"
+            "String" : "Corpse 2a"
           }
         ]
       },
       "Lockable" : 0,
       "Locked" : 0,
-      "OnDeath" : "",
-      "OnUsed" : "dth_generic_low",
+      "OnDeath" : "nw_o2_generalmed",
+      "OnOpen" : "nw_o2_generalmed",
+      "OnUsed" : "destroy_if_empty",
+      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 479,

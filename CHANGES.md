@@ -3,7 +3,8 @@
 # Changelog
 ## 2.0.6 &mdash; 2024-05-XX
 * bugfix: when tome of portal is depleted it does not disappear from inventory
-* appraise system buy-back price
+* (todo) appraise system buy-back price
+* improve looting of corpses in theoutskirts001
  
 ## 2.0.5 &mdash; 2024-05-03
 * Loot system - allow lootable monster corpses and other monster Treasure Models (default, treasure...) 

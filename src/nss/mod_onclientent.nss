@@ -1,5 +1,5 @@
 #include "inc_jeff"
-//#include "NW_I0_GENERIC"
+#include "loot_inc_gen_mod"
 
 void forDebug(object oPC) {
     JeffGiveStuff(oPC);
@@ -24,7 +24,9 @@ void forDebug(object oPC) {
     //CreateItemOnObject("nw_it_mring009", oPC); // Ring of cyan
     CreateItemOnObject("nw_it_mring013", oPC); // Ring of scholors - lore white light
 
-    CreateItemOnObject("nw_it_book001", oPC); // Tome of town portal
+    CreateLoot("bookoftownportal", oPC, oPC); // Tome of town portal
+    CreateLoot("nw_it_book001", oPC, oPC); // Tome of town portal
+
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
 
