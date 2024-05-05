@@ -3,10 +3,19 @@ Based on [The Lord of Terror](https://neverwintervault.org/project/nwn1/module/l
 
 The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff McClure](mailto:jeffmcclure.github@gmail.com)
 
-Current Version 2.0.5 - March 3, 2024
+Current Version 2.0.6 - March 3, 2024
 
 ## Stay a while and listen
 This module is mostly the same as Tolitz Rosel's last released version 1.06 from November 27, 2004.
+
+## Mission Statement
+My goal with this project is to enhance the original Lord of Terror module
+* address usability deficiencies with quality of life improvements (for example the loot system and Loot Genie, henchman death makers).  
+* Improve multi-player
+* Adding interesting new game mechanics (e.g. Souls-like death system)
+* Adding fun
+* Modernizing tech
+* Enhance role-play (e.g. appraise system)
 
 ## Major Changes Since 1.06
 ### Technical

@@ -1,12 +1,17 @@
 [Back to README.md](README.md)
 
 # Changelog
+## 2.0.6 &mdash; 2024-05-XX
+* bugfix: when tome of portal is depleted it does not disappear from inventory
+* appraise system buy-back price
+ 
 ## 2.0.5 &mdash; 2024-05-03
 * Loot system - allow lootable monster corpses and other monster Treasure Models (default, treasure...) 
 * tighten up loot system
 * start organizing utc source files into subdirectories
 * Simplify Jarulf's conversation from a user standpoint
 * Roleplay : tome of identify is very expensive to buy
+* Tome of Identify and Tome of Healing are much rarer drops
 * Wand of resurrection from Remy is now droppable (no longer cursed)
 * Eliminate duplicate nw_it_book.* objects
 * Cloak of Fast Feet no longer provides 2nd attack, it only provides fast movement.
