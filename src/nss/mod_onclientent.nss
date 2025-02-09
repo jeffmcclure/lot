@@ -65,4 +65,9 @@ void main() {
     string pcName = GetPCPlayerName(oPC);
     string charName = GetName(oPC);
     MessageAll("'" + pcName + "' joined as '" + charName + "'");
+    //AssignCommand(oPC, ActionStartConversation(OBJECT_SELF, "dmfi_universal", TRUE));
+    //object oBoy = GetObjectByTag("BEGINNING");
+    //AssignCommand(oBoy, ActionStartConversation(oPC, "con_beginning", TRUE));
+
+    //ActionStartConversation(GetEnteringObject(), "con_beginning");
 }
