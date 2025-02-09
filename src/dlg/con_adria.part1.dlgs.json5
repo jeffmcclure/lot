@@ -25,7 +25,7 @@
                           "NpcSays" : "It is called a Loot Genie.  Wirt is scared of me and runs off whenever I approach him.   If you would obtain two of these 'baubles' from Wirt I will restore them to working order and give you one.   Do we have a deal?",
                           "UserChoices" : [
                             {
-                              "UserSays" : "Sounds good.",
+                              "UserSays" : "<StartAction>[Quest]</Start> Sounds good.",
                               "OnSelectScript" : "qst_lgenie1"
                             },
                             {
