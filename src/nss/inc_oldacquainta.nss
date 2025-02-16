@@ -19,7 +19,8 @@ void OldAcquaintance(object obj) {
         sTag == "OGDEN" ||
         sTag == "PEPIN" ||
         sTag == "TREMAYNE" ||
-        sTag == "WIRT"
+        sTag == "WIRT" ||
+        sTag == "COW"
         ) {
         object oPC=GetPCSpeaker();
 
@@ -29,7 +30,7 @@ void OldAcquaintance(object obj) {
 
             json people = GetLocalJson(GetModule(), "CUSTOM30001");
             if (JSON_TYPE_NULL == JsonGetType(people)) {
-                people = JsonParse("[\"Adria\", \"Cain\", \"Deese\", \"Farnham\", \"Garda\", \"Gillian\", \"Griswold\", \"Lester\", \"Gillian's Grandmother\", \"Remy\", \"TheeMon\", \"Ogden\", \"Pepin\", \"Tremayne\", \"Wirt\"]");
+                people = JsonParse("[\"Adria\", \"Cain\", \"Deese\", \"Farnham\", \"Garda\", \"Gillian\", \"Griswold\", \"Lester\", \"Gillian's Grandmother\", \"Remy\", \"TheeMon\", \"Ogden\", \"Pepin\", \"Tremayne\", \"Wirt\", \"The Cow\"]");
                 //SendMessageToPC(GetFirstPC(), "create array " + IntToString(JsonGetType(people)));
                 SetLocalJson(GetModule(), "CUSTOM30001", people);
             }
