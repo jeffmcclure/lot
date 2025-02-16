@@ -14,7 +14,7 @@
       "Script" : "con_tristramx",
       "Sound" : "cow_greet",
       "Text" : "Moo."
-    },
+    }, // 0
     {
       "AnimLoop" : 1,
       "Animation" : 0,
@@ -107,7 +107,7 @@
       "Script" : "con_tristramx",
       "Sound" : "cow_greet4",
       "Text" : "Quit bugging me!"
-    },
+    }, // 6
     {
       "AnimLoop" : 1,
       "Animation" : 0,
@@ -151,7 +151,7 @@
       ],
       "Sound" : "cow_intro3",
       "Text" : "Look - I'm a cow. And you - you're monster bait. Get some experience under your belt, and we'll talk."
-    },
+    }, // 10
     {
       "AnimLoop" : 1,
       "Animation" : 0,
@@ -256,7 +256,7 @@
       "Script" : "end_graysuit",
       "Sound" : "cow_jersey8",
       "Text" : "No, no, no, NO! This is my \"gray\" suit, it's for evening wear! Formal occasions! I can't wear this!"
-    },
+    }, // 20
     {
       "AnimLoop" : 1,
       "Animation" : 0,
@@ -274,7 +274,7 @@
       "RepliesList" : [ ],
       "Sound" : "cow_greet",
       "Text" : "Moo."
-    },
+    }, // 22
     {
       "AnimLoop" : 1,
       "Animation" : 29,
@@ -282,7 +282,7 @@
       "RepliesList" : [ ],
       "Sound" : "cow_greet",
       "Text" : "Moo."
-    }
+    } // 23
   ],
   "NumWords" : 615,
   "PreventZoomIn" : 0,
@@ -495,6 +495,9 @@
       "Active" : "prq_cowtalk",
       "Index" : 6
     },
-    0
+    {
+      "Active" : "prq_end_virgin",
+      "Index" : 0
+    }
   ]
 }
