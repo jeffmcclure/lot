@@ -7,9 +7,9 @@ int DoOnce = GetLocalInt(OBJECT_SELF, GetTag(OBJECT_SELF));
 if (DoOnce==TRUE) return;
 SetLocalInt(OBJECT_SELF, GetTag(OBJECT_SELF), TRUE);
 
-CreateItemOnObject("bookoftownportal", oPC);
-CreateItemOnObject("bookoftownportal", oPC);
-CreateItemOnObject("bookoftownportal", oPC);
+CreateItemOnObject("tomeoftownportal", oPC);
+CreateItemOnObject("tomeoftownportal", oPC);
+CreateItemOnObject("tomeoftownportal", oPC);
 
 object oTarget;
 oTarget = oPC;

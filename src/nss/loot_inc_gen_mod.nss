@@ -416,7 +416,7 @@ int GetNumberOfItems(int nTreasureType)
         string sRes;
 
         if (nBook1 < 7) {
-            sRes = "NW_IT_BOOK001"; // town portal
+            sRes = "bookoftownportal"; // town portal
         } else if (nBook1 < 8) {
             sRes = "NW_IT_BOOK011"; // identify
         } else if (nBook1 < 9) {

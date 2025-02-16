@@ -24,8 +24,9 @@ void forDebug(object oPC) {
     //CreateItemOnObject("nw_it_mring009", oPC); // Ring of cyan
     CreateItemOnObject("nw_it_mring013", oPC); // Ring of scholors - lore white light
 
+    CreateLoot("tomeoftownportal", oPC, oPC); // Tome of town portal
     CreateLoot("bookoftownportal", oPC, oPC); // Tome of town portal
-    CreateLoot("nw_it_book001", oPC, oPC); // Tome of town portal
+    CreateLoot("scrolloftownport", oPC, oPC); // Scroll of town portal
 
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
