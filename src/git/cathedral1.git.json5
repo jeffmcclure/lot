@@ -1105,15 +1105,7 @@
           "Identified" : 0,
           "Leather1Color" : 23,
           "Leather2Color" : 33,
-          "LocalizedName" : {
-            "StringRef" : 12923,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "Robe of Balpheron"
-              }
-            ]
-          },
+          "LocalizedName" : "Robe of Balpheron",
           "Metal1Color" : 9,
           "Metal2Color" : 9,
           "Plot" : 0,
@@ -1312,15 +1304,7 @@
           "Identified" : 0,
           "Leather1Color" : 23,
           "Leather2Color" : 37,
-          "LocalizedName" : {
-            "StringRef" : 12923,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "Robe of Energy"
-              }
-            ]
-          },
+          "LocalizedName" : "Robe of Energy",
           "Metal1Color" : 25,
           "Metal2Color" : 25,
           "Plot" : 0,
@@ -2216,15 +2200,7 @@
       "LinkedTo" : "WP_TRISTRAM2CATHEDRAL",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Door to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -2266,15 +2242,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 1,
       "OnOpen" : "trg_closedoor",
@@ -2899,15 +2867,7 @@
       "Bearing" : -3.141585,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 9078,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fashioned from rough-hewn wood, this simple door swings on ill-fitting hinges."
-          }
-        ]
-      },
+      "Description" : "Fashioned from rough-hewn wood, this simple door swings on ill-fitting hinges.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2919,15 +2879,7 @@
       "LinkedTo" : "WP_CHURCH2CHURCH1",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 35,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Church 2"
-          }
-        ]
-      },
+      "LocName" : "Door to Church 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -7223,15 +7175,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14531,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 001"
-          }
-        ]
-      },
+      "Description" : "Corpse 001",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse3",
       "OnDeath" : "nw_o2_generalmed",
@@ -7278,15 +7222,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14602,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 005"
-          }
-        ]
-      },
+      "Description" : "Corpse 005",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse2",
       "OnDeath" : "nw_o2_generallow",
@@ -7380,15 +7316,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14531,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 002"
-          }
-        ]
-      },
+      "Description" : "Corpse 002",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse3",
       "OnDeath" : "nw_o2_generalmed",
@@ -7589,15 +7517,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Great Conflict"
-          }
-        ]
-      },
+      "LocName" : "The Great Conflict",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -9464,15 +9384,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14531,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 003"
-          }
-        ]
-      },
+      "Description" : "Corpse 003",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse3",
       "OnDeath" : "nw_o2_generalmed",
@@ -9519,15 +9431,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14603,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 006"
-          }
-        ]
-      },
+      "Description" : "Corpse 006",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse4",
       "OnDeath" : "nw_o2_generalhig",
@@ -9574,15 +9478,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14602,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 007"
-          }
-        ]
-      },
+      "Description" : "Corpse 007",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse2",
       "OnDeath" : "nw_o2_generallow",
@@ -9629,15 +9525,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14600,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 008"
-          }
-        ]
-      },
+      "Description" : "Corpse 008",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse1",
       "OnDeath" : "nw_o2_generallow",
@@ -9966,15 +9854,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14550,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Arrow Corpse 001"
-          }
-        ]
-      },
+      "Description" : "Arrow Corpse 001",
       "OnUsed" : "destroy_if_empty",
       "OnClosed" : "destroy_if_empty",
       "Tag" : "Arrow-filled corpse",
@@ -10254,15 +10134,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14550,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Arrow Corpse 002"
-          }
-        ]
-      },
+      "Description" : "Arrow Corpse 002",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -10372,15 +10244,7 @@
         }
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14551,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse"
-          }
-        ]
-      },
+      "LocName" : "Corpse",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_partyfi1",
@@ -10462,15 +10326,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14600,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 009"
-          }
-        ]
-      },
+      "Description" : "Corpse 009",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse1",
       "OnDeath" : "loot_normal_low",
@@ -10804,15 +10660,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14603,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 010"
-          }
-        ]
-      },
+      "Description" : "Corpse 010",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse4",
       "OnDeath" : "nw_o2_generalhig",
@@ -11141,15 +10989,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14600,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 011"
-          }
-        ]
-      },
+      "Description" : "Corpse 011",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse1",
       "OnDeath" : "nw_o2_generallow",
@@ -11243,15 +11083,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14600,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 012"
-          }
-        ]
-      },
+      "Description" : "Corpse 012",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse1",
       "OnDeath" : "nw_o2_generallow",
@@ -11445,15 +11277,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14531,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 004"
-          }
-        ]
-      },
+      "Description" : "Corpse 004",
       "Tag" : "CORPSE",
       "TemplateResRef" : "plc_corpse3",
       "OnDeath" : "nw_o2_generalmed",
@@ -12037,15 +11861,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12054,15 +11870,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "loot_normal_mid",
@@ -12097,15 +11905,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12114,15 +11914,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "loot_normal_mid",
@@ -12157,15 +11949,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12174,15 +11958,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "loot_normal_low",
@@ -12364,15 +12140,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12381,15 +12149,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Missing top"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Missing top",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12421,15 +12181,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12438,15 +12190,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken On Side"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken On Side",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12478,15 +12222,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12495,15 +12231,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Scattered"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Scattered",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12535,15 +12263,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12552,15 +12272,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Upright"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Upright",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12592,15 +12304,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12609,15 +12313,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Missing top"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Missing top",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12649,15 +12345,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12666,15 +12354,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken On Side"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken On Side",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12706,15 +12386,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12723,15 +12395,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Missing top"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Missing top",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12763,15 +12427,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12780,15 +12436,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Scattered"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Scattered",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12820,15 +12468,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12837,15 +12477,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Upright"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Upright",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12877,15 +12509,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12894,15 +12518,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Missing top"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Missing top",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12934,15 +12550,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -12951,15 +12559,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken On Side"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken On Side",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12991,15 +12591,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14593,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This door has been broken down."
-          }
-        ]
-      },
+      "Description" : "This door has been broken down.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13008,15 +12600,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5822,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door, Broken Down"
-          }
-        ]
-      },
+      "LocName" : "Door, Broken Down",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13048,15 +12632,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14593,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This door has been shattered."
-          }
-        ]
-      },
+      "Description" : "This door has been shattered.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13065,15 +12641,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5822,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door, Broken Down In Pieces"
-          }
-        ]
-      },
+      "LocName" : "Door, Broken Down In Pieces",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13105,15 +12673,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13122,15 +12682,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Scattered"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Scattered",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13162,15 +12714,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13179,15 +12723,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken On Side"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken On Side",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13219,15 +12755,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13236,15 +12764,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken On Side"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken On Side",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13276,15 +12796,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13293,15 +12805,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Missing top"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Missing top",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13333,15 +12837,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13350,15 +12846,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken On Side"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken On Side",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13390,15 +12878,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13407,15 +12887,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Scattered"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Scattered",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -13447,15 +12919,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14555,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This barrel has been trashed."
-          }
-        ]
-      },
+      "Description" : "This barrel has been trashed.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -13464,15 +12928,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5691,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Barrel, Broken Scattered"
-          }
-        ]
-      },
+      "LocName" : "Barrel, Broken Scattered",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -15758,15 +15214,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -15798,15 +15246,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14597,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Rectory bedroom chest 1"
-          }
-        ]
-      },
+      "Description" : "Rectory bedroom chest 1",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -15947,15 +15387,7 @@
 //        },
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 68937,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "loot_normal_hi",
@@ -16889,15 +16321,7 @@
         }
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Rectory Library Chest 2"
-          }
-        ]
-      },
+      "LocName" : "Rectory Library Chest 2",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "",
@@ -16977,15 +16401,7 @@
         }
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Rectory Library Chest 1"
-          }
-        ]
-      },
+      "LocName" : "Rectory Library Chest 1",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "",
@@ -18265,15 +17681,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Shrine Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -18400,15 +17808,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14793,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Minor Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Minor Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -18470,15 +17870,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14784,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Minor Acid Splash Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Minor Acid Splash Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -18510,24 +17902,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH1TRISTRAM",
       "TemplateResRef" : "nw_mapnote001",
@@ -18542,24 +17918,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Second Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Cathedral - Second Level",
+      "MapNote" : "To Cathedral - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH1CHURCH2",
       "TemplateResRef" : "nw_mapnote001",
@@ -18574,15 +17934,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Spawnpoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Shrine Spawnpoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SHRINE1A",

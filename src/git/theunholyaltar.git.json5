@@ -689,15 +689,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_unholyaltar",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14718,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A searing shaft of blue light descends from some unseen place above."
-          }
-        ]
-      },
+      "Description" : "A searing shaft of blue light descends from some unseen place above.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -932,15 +924,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_lazarusport",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14718,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A searing shaft of blue light descends from some unseen place above."
-          }
-        ]
-      },
+      "Description" : "A searing shaft of blue light descends from some unseen place above.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -949,15 +933,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14719,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Mysterious Portal"
-          }
-        ]
-      },
+      "LocName" : "Mysterious Portal",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -1001,15 +977,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14641,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse"
-          }
-        ]
-      },
+      "LocName" : "Corpse",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -1042,15 +1010,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_lazarus",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14662,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "You look about you, suspicious, but see nothing."
-          }
-        ]
-      },
+      "Description" : "You look about you, suspicious, but see nothing.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -1059,15 +1019,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Archbishop Lazarus"
-          }
-        ]
-      },
+      "LocName" : "Archbishop Lazarus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -1205,15 +1157,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fake Albrecht Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Fake Albrecht Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -1245,15 +1189,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Unholy Altar Startpoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Unholy Altar Startpoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "START_UNHOLYALTAR",
@@ -1269,24 +1205,8 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Diablo's Lair"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Diablo's Lair"
-          }
-        ]
-      },
+      "LocalizedName" : "To Diablo's Lair",
+      "MapNote" : "To Diablo's Lair",
       "MapNoteEnabled" : 0,
       "Tag" : "MAP_DIABLOLAIR",
       "TemplateResRef" : "nw_mapnote001",

@@ -284,15 +284,7 @@
       "CurrentHitPoints" : 32,
       "DecayTime" : 5000,
       "Deity" : "",
-      "Description" : {
-        "StringRef" : 12677,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "These heavy draft animals are prized possessions that not all farmers can afford. Oxen are well suited to pulling plows and milling grain."
-          }
-        ]
-      },
+      "Description" : "These heavy draft animals are prized possessions that not all farmers can afford. Oxen are well suited to pulling plows and milling grain.",
       "Dex" : 9,
       "Disarmable" : 0,
       "EquipItemList" : [
@@ -340,15 +332,7 @@
           "Feat" : 289
         }
       ],
-      "FirstName" : {
-        "StringRef" : 12678,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Pack Ox"
-          }
-        ]
-      },
+      "FirstName" : "Pack Ox",
       "Fortbonus" : 0,
       "Gender" : 0,
       "GoodEvil" : 50,
@@ -508,15 +492,7 @@
       "LinkedTo" : "WP_TRISTRAM2ENTRANCE",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Town Entrance"
-          }
-        ]
-      },
+      "LocName" : "Town Entrance",
       "Lockable" : 0,
       "Locked" : 0,
       "OnClick" : "s_restrictmodule",
@@ -549,15 +525,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14662,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "You look about you, suspicious, but see nothing."
-          }
-        ]
-      },
+      "Description" : "You look about you, suspicious, but see nothing.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -566,15 +534,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>"
-          }
-        ]
-      },
+      "LocName" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -707,15 +667,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Return to Tristram"
-          }
-        ]
-      },
+      "LocName" : "The Return to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -1023,15 +975,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "No Entry"
-          }
-        ]
-      },
+      "LocalizedName" : "No Entry",
       "OnClick" : "trg_noentry",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -1088,15 +1032,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Cow Level Portal Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Cow Level Portal Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -1128,24 +1064,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_ENTRANCE2TRISTRAM",
       "TemplateResRef" : "nw_mapnote001",
@@ -1160,15 +1080,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Portal to Cow Level"
-          }
-        ]
-      },
+      "LocalizedName" : "Portal to Cow Level",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_COWLEVELPORTAL",

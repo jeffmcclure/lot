@@ -34,15 +34,7 @@
       "LinkedTo" : "WP_CHURCH4CHURCH3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 38,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Cathedral 4"
-          }
-        ]
-      },
+      "LocName" : "Door to Cathedral 4",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -85,15 +77,7 @@
       "LinkedTo" : "WP_LEORIC2CHURCH3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 10,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Leoric's Tomb"
-          }
-        ]
-      },
+      "LocName" : "Door to Leoric's Tomb",
       "Lockable" : 0,
       "Locked" : 1,
       "OnOpen" : "trg_closedoor",
@@ -136,15 +120,7 @@
       "LinkedTo" : "WP_CHURCH2CHURCH3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 36,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Cathedral 2"
-          }
-        ]
-      },
+      "LocName" : "Door to Cathedral 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -5210,15 +5186,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14662,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "You look about you, suspicious, but see nothing."
-          }
-        ]
-      },
+      "Description" : "You look about you, suspicious, but see nothing.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -5227,15 +5195,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>"
-          }
-        ]
-      },
+      "LocName" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -5279,15 +5239,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -5319,15 +5271,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 18,
-      "Description" : {
-        "StringRef" : 14596,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
-          }
-        ]
-      },
+      "Description" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 18,
@@ -5336,15 +5280,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -5379,15 +5315,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -5396,15 +5324,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -5452,15 +5372,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Dark Exile"
-          }
-        ]
-      },
+      "LocName" : "The Dark Exile",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -8689,15 +8601,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -8706,15 +8610,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -8749,15 +8645,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -8766,15 +8654,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -8809,15 +8689,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -8826,15 +8698,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -8869,15 +8733,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -8886,15 +8742,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -8930,15 +8778,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -8947,15 +8787,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -8990,15 +8822,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9007,15 +8831,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9050,15 +8866,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9067,15 +8875,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9110,15 +8910,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9127,15 +8919,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9170,15 +8954,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9187,15 +8963,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9230,15 +8998,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 16,
       "Faction" : 1,
       "Fort" : 16,
@@ -9247,15 +9007,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9291,15 +9043,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9308,15 +9052,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9351,15 +9087,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9368,15 +9096,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9411,15 +9131,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9428,15 +9140,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9471,15 +9175,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9488,15 +9184,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9532,15 +9220,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9549,15 +9229,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -9592,15 +9264,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -9609,15 +9273,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Statue"
-          }
-        ]
-      },
+      "LocName" : "Statue",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -11379,15 +11035,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11431,15 +11079,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11483,15 +11123,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11535,15 +11167,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11587,15 +11211,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11639,15 +11255,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11691,15 +11299,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11743,15 +11343,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12924,15 +12516,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Shrine Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -12994,15 +12578,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14762,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Acid Splash Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Acid Splash Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13054,15 +12630,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14766,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Frost Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Frost Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13119,15 +12687,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14762,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Acid Splash Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Acid Splash Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13194,15 +12754,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13299,24 +12851,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Second Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Cathedral - Second Level",
+      "MapNote" : "To Cathedral - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH3CHURCH2",
       "TemplateResRef" : "nw_mapnote001",
@@ -13331,24 +12867,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Fourth Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Fourth Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Cathedral - Fourth Level",
+      "MapNote" : "To Cathedral - Fourth Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH3CHURCH4",
       "TemplateResRef" : "nw_mapnote001",
@@ -13363,24 +12883,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Tomb of King Leoric"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Tomb of King Leoric"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Tomb of King Leoric",
+      "MapNote" : "To the Tomb of King Leoric",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH3LEORIC",
       "TemplateResRef" : "nw_mapnote001",
@@ -13395,15 +12899,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Spawn point"
-          }
-        ]
-      },
+      "LocalizedName" : "Shrine Spawn point",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SHRINE1C",

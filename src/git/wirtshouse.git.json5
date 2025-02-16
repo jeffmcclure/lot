@@ -34,15 +34,7 @@
       "LinkedTo" : "TRISTRAM_2WIRT",
       "LinkedToFlags" : 1,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Door to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -171,15 +163,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "00.99.W.A.P.REST"
-          }
-        ]
-      },
+      "LocalizedName" : "00.99.W.A.P.REST",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "NIGHT_WIRT",
@@ -195,24 +179,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_INSIDEWIRT",
       "TemplateResRef" : "nw_mapnote001",

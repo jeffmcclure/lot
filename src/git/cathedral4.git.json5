@@ -28,15 +28,7 @@
       "CurrentHitPoints" : 22,
       "DecayTime" : 5000,
       "Deity" : "",
-      "Description" : {
-        "StringRef" : 12644,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The lieutenants of Baal are bred for strength, endurance, and cunning. These demons constantly train themselves in the art of war, for battle is their bread and the blood of innocents, their water. There are several known \"clans\" of Goat Men, each given a different gift from their Dark Master. It is believed that to earn their powers they once held mock wars in Hell for the entertainment of the Three Brothers. Do not expect them to fight amongst themselves on the mortal realm, however, for they much prefer to slaughter the innocent.\n\nThis particular creature, however, seems to cringe and quiver with fright.  The runt of the litter, no doubt..."
-          }
-        ]
-      },
+      "Description" : "The lieutenants of Baal are bred for strength, endurance, and cunning. These demons constantly train themselves in the art of war, for battle is their bread and the blood of innocents, their water. There are several known \"clans\" of Goat Men, each given a different gift from their Dark Master. It is believed that to earn their powers they once held mock wars in Hell for the entertainment of the Three Brothers. Do not expect them to fight amongst themselves on the mortal realm, however, for they much prefer to slaughter the innocent.\n\nThis particular creature, however, seems to cringe and quiver with fright.  The runt of the litter, no doubt...",
       "Dex" : 10,
       "Disarmable" : 0,
       "EquipItemList" : [
@@ -76,15 +68,7 @@
           "Identified" : 1,
           "Leather1Color" : 11,
           "Leather2Color" : 7,
-          "LocalizedName" : {
-            "StringRef" : 13817,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "Gharbad Armor"
-              }
-            ]
-          },
+          "LocalizedName" : "Gharbad Armor",
           "Metal1Color" : 35,
           "Metal2Color" : 35,
           "Plot" : 0,
@@ -296,15 +280,7 @@
           "Feat" : 149
         }
       ],
-      "FirstName" : {
-        "StringRef" : 12648,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "<cÿÿ >Gharbad the Weak"
-          }
-        ]
-      },
+      "FirstName" : "<cÿÿ >Gharbad the Weak",
       "Fortbonus" : 0,
       "Gender" : 0,
       "GoodEvil" : 0,
@@ -502,15 +478,7 @@
           "Identified" : 0,
           "Leather1Color" : 1,
           "Leather2Color" : 7,
-          "LocalizedName" : {
-            "StringRef" : 12836,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "Snotspill Armor"
-              }
-            ]
-          },
+          "LocalizedName" : "Snotspill Armor",
           "Metal1Color" : 0,
           "Metal2Color" : 8,
           "Plot" : 0,
@@ -1051,15 +1019,7 @@
       "LinkedTo" : "WP_CATACOMBS1CHURCH4",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 8,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Catacombs 1"
-          }
-        ]
-      },
+      "LocName" : "Door to Catacombs 1",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -1102,15 +1062,7 @@
       "LinkedTo" : "WP_CHURCH3CHURCH4",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 36,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Cathedral 3"
-          }
-        ]
-      },
+      "LocName" : "Door to Cathedral 3",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -1794,15 +1746,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 1,
       "OnOpen" : "trg_closedoor",
@@ -2720,15 +2664,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 1,
       "OpenLockDC" : 28,
@@ -6890,15 +6826,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Binding of the Three"
-          }
-        ]
-      },
+      "LocName" : "The Binding of the Three",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -7184,34 +7112,10 @@
           "Charges" : 0,
           "Cost" : 0,
           "Cursed" : 0,
-          "DescIdentified" : {
-            "StringRef" : 16807813,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "This tavern sign looks very familiar..."
-              }
-            ]
-          },
-          "Description" : {
-            "StringRef" : 16807813,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "This tavern sign looks very familiar..."
-              }
-            ]
-          },
+          "DescIdentified" : "This tavern sign looks very familiar...",
+          "Description" : "This tavern sign looks very familiar...",
           "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 16807450,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "Tavern Sign"
-              }
-            ]
-          },
+          "LocalizedName" : "Tavern Sign",
           "ModelPart1" : 60,
           "Plot" : 1,
           "PropertiesList" : [ ],
@@ -11723,15 +11627,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -11775,15 +11671,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5738,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fireball Trap"
-          }
-        ]
-      },
+      "LocName" : "Fireball Trap",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -12873,15 +12761,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Gharbad Marker"
-          }
-        ]
-      },
+      "LocalizedName" : "Gharbad Marker",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -12938,15 +12818,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14762,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Acid Splash Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Acid Splash Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13008,15 +12880,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14768,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Holy Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Holy Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13078,15 +12942,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14769,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Negative Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Negative Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13143,15 +12999,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13208,15 +13056,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13273,15 +13113,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14762,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Acid Splash Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Acid Splash Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13338,15 +13170,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14762,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Acid Splash Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Acid Splash Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13403,15 +13227,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13468,15 +13284,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13533,15 +13341,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -13638,24 +13438,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Catacombs - First Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Catacombs - First Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Catacombs - First Level",
+      "MapNote" : "To the Catacombs - First Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH4CATACOMBS1",
       "TemplateResRef" : "nw_mapnote001",
@@ -13670,24 +13454,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Third Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Cathedral - Third Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Cathedral - Third Level",
+      "MapNote" : "To Cathedral - Third Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CHURCH4CHURCH3",
       "TemplateResRef" : "nw_mapnote001",
@@ -13702,15 +13470,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_01",
@@ -13726,15 +13486,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_02",
@@ -13750,15 +13502,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_03",
@@ -13774,15 +13518,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_04",
@@ -13798,15 +13534,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_05",
@@ -13822,15 +13550,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_06",
@@ -13846,15 +13566,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_07",
@@ -13870,15 +13582,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_08",
@@ -13894,15 +13598,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_09",
@@ -13918,15 +13614,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_10",
@@ -13942,15 +13630,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_11",
@@ -13966,15 +13646,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_12",
@@ -14006,15 +13678,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_13",
@@ -14030,15 +13694,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Snotspill Spawn"
-          }
-        ]
-      },
+      "LocalizedName" : "Snotspill Spawn",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_SNOTSPILL_14",

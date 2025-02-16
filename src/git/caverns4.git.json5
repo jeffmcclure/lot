@@ -117,15 +117,7 @@
       "LinkedTo" : "WP_HELL1CAVERNS4",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 15,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Caverns to Hell"
-          }
-        ]
-      },
+      "LocName" : "Caverns to Hell",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 28,
@@ -164,15 +156,7 @@
       "LinkedTo" : "WP_CAVERNS3CAVERNS4",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 21,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Caverns 3"
-          }
-        ]
-      },
+      "LocName" : "Door to Caverns 3",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -2704,15 +2688,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -5304,15 +5280,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -5680,15 +5648,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14600,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Either he owned little to begin with or this man was stripped of all he had."
-          }
-        ]
-      },
+      "Description" : "Either he owned little to begin with or this man was stripped of all he had.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -5697,15 +5657,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14601,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse"
-          }
-        ]
-      },
+      "LocName" : "Corpse",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -6333,24 +6285,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Caverns - Third Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Caverns - Third Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Caverns - Third Level",
+      "MapNote" : "To the Caverns - Third Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CAVERNS4CAVERNS3",
       "TemplateResRef" : "nw_mapnote001",
@@ -6365,24 +6301,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Hell"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Hell"
-          }
-        ]
-      },
+      "LocalizedName" : "To Hell",
+      "MapNote" : "To Hell",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CAVERNS4HELL1",
       "TemplateResRef" : "nw_mapnote001",

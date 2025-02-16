@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_FOREST2CLEARING",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 61,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A Clearing to Forest Area"
-          }
-        ]
-      },
+      "LocName" : "A Clearing to Forest Area",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -78,15 +70,7 @@
       "LinkedTo" : "WP_TRISTRAM2CLEARING",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Clearing to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Clearing to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -348,15 +332,7 @@
             "String" : "Corpse 1b"
           }
         ]      },
-      "LocName" : {
-        "StringRef" : 14551,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 1a"
-          }
-        ]
-      },
+      "LocName" : "Corpse 1a",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -500,15 +476,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14730,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "It's hard to tell if the spears killed him or if his enemies pierced the corpse as a means of defilement."
-          }
-        ]
-      },
+      "Description" : "It's hard to tell if the spears killed him or if his enemies pierced the corpse as a means of defilement.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -536,15 +504,7 @@
         },
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14731,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 2a"
-          }
-        ]
-      },
+      "LocName" : "Corpse 2a",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "nw_o2_generalmed",
@@ -759,24 +719,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CLEARING2TRISTRAM",
       "TemplateResRef" : "nw_mapnote001",
@@ -791,24 +735,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Forest Area"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Forest Area"
-          }
-        ]
-      },
+      "LocalizedName" : "To Forest Area",
+      "MapNote" : "To Forest Area",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CLEARING2FOREST",
       "TemplateResRef" : "nw_mapnote001",

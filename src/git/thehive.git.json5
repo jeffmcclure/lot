@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_HIVE2_2HIVE1",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 153,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Hive 2"
-          }
-        ]
-      },
+      "LocName" : "Door to Hive 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -956,15 +948,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_secretpsg",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14705,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The chain disappears into some unseen recess above you where it presumably activates some hidden mechanism."
-          }
-        ]
-      },
+      "Description" : "The chain disappears into some unseen recess above you where it presumably activates some hidden mechanism.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -973,15 +957,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14706,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Back to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Back to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -1026,15 +1002,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Defiler"
-          }
-        ]
-      },
+      "LocName" : "The Defiler",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -1798,15 +1766,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Defiler Taunt 1"
-          }
-        ]
-      },
+      "LocalizedName" : "Defiler Taunt 1",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -1838,15 +1798,7 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
       "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HIVE1",
@@ -1862,24 +1814,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Hive - Second Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Hive - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Hive - Second Level",
+      "MapNote" : "To the Hive - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HIVE1_2HIVE2",
       "TemplateResRef" : "nw_mapnote001",

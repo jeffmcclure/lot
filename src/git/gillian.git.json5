@@ -34,15 +34,7 @@
       "LinkedTo" : "TRISTRAM_2GILLIAN",
       "LinkedToFlags" : 1,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Door to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -166,15 +158,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -183,15 +167,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "thf_chest1b",
@@ -239,15 +215,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Evening Point - Gillian"
-          }
-        ]
-      },
+      "LocName" : "Evening Point - Gillian",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -327,15 +295,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_grandmother",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 16814215,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Gillian's grandmother is kindly old woman with a somewhat musical voice when she speaks.  Long hobbled due to old age, Gillian now takes care of the old woman and handles her every need.  The townspeople once said that she can have premonitions of what might happen, usually dark and frightening visions, but this has been regarded as just some random dreams of a senile, old woman..."
-          }
-        ]
-      },
+      "Description" : "Gillian's grandmother is kindly old woman with a somewhat musical voice when she speaks.  Long hobbled due to old age, Gillian now takes care of the old woman and handles her every need.  The townspeople once said that she can have premonitions of what might happen, usually dark and frightening visions, but this has been regarded as just some random dreams of a senile, old woman...",
       "DisarmDC" : 15,
       "Faction" : 3,
       "Fort" : 16,
@@ -344,15 +304,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 16814192,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Gillian's Grandmother"
-          }
-        ]
-      },
+      "LocName" : "Gillian's Grandmother",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -506,15 +458,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "01.99.W.A.P.NONE"
-          }
-        ]
-      },
+      "LocalizedName" : "01.99.W.A.P.NONE",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "NIGHT_GILLIAN",
@@ -530,15 +474,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "02.30.W.A.P.LOW"
-          }
-        ]
-      },
+      "LocalizedName" : "02.30.W.A.P.LOW",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WN_GILLIAN_01",
@@ -554,15 +490,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "03.60.W.A.P.SCRT"
-          }
-        ]
-      },
+      "LocalizedName" : "03.60.W.A.P.SCRT",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WN_GILLIAN_02",
@@ -578,15 +506,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "04.60.W.A.P.MID"
-          }
-        ]
-      },
+      "LocalizedName" : "04.60.W.A.P.MID",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WN_GILLIAN_03",
@@ -602,15 +522,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "05.60.W.A.P.MID"
-          }
-        ]
-      },
+      "LocalizedName" : "05.60.W.A.P.MID",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WN_GILLIAN_04",
@@ -626,15 +538,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "00.60.W.A.P.BORD"
-          }
-        ]
-      },
+      "LocalizedName" : "00.60.W.A.P.BORD",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WN_GILLIAN_05",
@@ -650,24 +554,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_INSIDEGILLIAN",
       "TemplateResRef" : "nw_mapnote001",

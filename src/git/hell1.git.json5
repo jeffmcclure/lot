@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_TRISTRAM2HELL",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Hell Level to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Hell Level to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -78,15 +70,7 @@
       "LinkedTo" : "WP_CAVERNS4HELL1",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 25,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Hell 1 to Caverns 4"
-          }
-        ]
-      },
+      "LocName" : "Hell 1 to Caverns 4",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 28,
@@ -125,15 +109,7 @@
       "LinkedTo" : "WP_HELL2HELL1",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 15,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Hell 1 to Hell 2"
-          }
-        ]
-      },
+      "LocName" : "Hell 1 to Hell 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -688,15 +664,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -2838,15 +2806,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_warlord",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14665,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The lectern holding the Book of Blood beckons..."
-          }
-        ]
-      },
+      "Description" : "The lectern holding the Book of Blood beckons...",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2855,15 +2815,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Steel Pulpit"
-          }
-        ]
-      },
+      "LocName" : "The Steel Pulpit",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -3085,15 +3037,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_arkaine",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14628,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -3149,15 +3093,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -3242,15 +3178,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -5337,24 +5265,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Caverns"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Caverns"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Caverns",
+      "MapNote" : "To the Caverns",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL1CAVERNS4",
       "TemplateResRef" : "nw_mapnote001",
@@ -5369,24 +5281,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Hell - Second Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Hell - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Hell - Second Level",
+      "MapNote" : "To Hell - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL1HELL2",
       "TemplateResRef" : "nw_mapnote001",
@@ -5401,24 +5297,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL1TRISTRAM",
       "TemplateResRef" : "nw_mapnote001",
@@ -5433,15 +5313,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Steel Tome Speaker"
-          }
-        ]
-      },
+      "LocalizedName" : "Steel Tome Speaker",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_STEELTOME",

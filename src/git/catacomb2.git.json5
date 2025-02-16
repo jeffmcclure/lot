@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_CATACOMBS1CATACOMBS2",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 11,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Catacombs 2 to Catacombs 1"
-          }
-        ]
-      },
+      "LocName" : "Catacombs 2 to Catacombs 1",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 28,
@@ -78,15 +70,7 @@
       "LinkedTo" : "WP_CATACOMBS3CATACOMBS2",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 10,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Catacombs 2 to Catacombs 3"
-          }
-        ]
-      },
+      "LocName" : "Catacombs 2 to Catacombs 3",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 28,
@@ -125,15 +109,7 @@
       "LinkedTo" : "WP_BONECHAMBER2CATACOMBS2",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 7,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Catacombs 2 to Chamber"
-          }
-        ]
-      },
+      "LocName" : "Catacombs 2 to Chamber",
       "Lockable" : 0,
       "Locked" : 1,
       "OnOpen" : "trg_closedoor",
@@ -3372,15 +3348,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -3463,15 +3431,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_chamber",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14665,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The lectern holding the Book of Blood beckons..."
-          }
-        ]
-      },
+      "Description" : "The lectern holding the Book of Blood beckons...",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -3480,15 +3440,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A Mysterious Book"
-          }
-        ]
-      },
+      "LocName" : "A Mysterious Book",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -3710,15 +3662,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_arkaine",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14628,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : ""
-          }
-        ]
-      },
+      "Description" : "",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -3821,15 +3765,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -3876,15 +3812,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -3931,15 +3859,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -3987,15 +3907,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4042,15 +3954,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4097,15 +4001,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4152,15 +4048,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4208,15 +4096,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4263,15 +4143,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4318,15 +4190,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4373,15 +4237,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -4428,15 +4284,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -4483,15 +4331,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -4538,15 +4378,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -4593,15 +4425,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -4648,15 +4472,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_low",
@@ -5115,15 +4931,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fleshdoom Spawn 1"
-          }
-        ]
-      },
+      "LocalizedName" : "Fleshdoom Spawn 1",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -5185,15 +4993,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chambertalk Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Chambertalk Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -5255,15 +5055,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14771,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Average Spike Trap"
-          }
-        ]
-      },
+      "LocalizedName" : "Average Spike Trap",
       "OnClick" : "",
       "OnDisarm" : "s_xptrapdisarm",
       "OnTrapTriggered" : "",
@@ -5295,24 +5087,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Catacombs - First Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Catacombs - First Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Catacombs - First Level",
+      "MapNote" : "To Catacombs - First Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CATACOMBS2CATACOMBS1",
       "TemplateResRef" : "nw_mapnote001",
@@ -5327,24 +5103,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Catacombs - Third Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Catacombs - Third Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Catacombs - Third Level",
+      "MapNote" : "To Catacombs - Third Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CATACOMBS2CATACOMBS3",
       "TemplateResRef" : "nw_mapnote001",
@@ -5359,24 +5119,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Chamber of Bone"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Chamber of Bone"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Chamber of Bone",
+      "MapNote" : "To the Chamber of Bone",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_BONEENTRANCE",
       "TemplateResRef" : "nw_mapnote001",
@@ -5391,15 +5135,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Fleshdoom Spawn 1"
-          }
-        ]
-      },
+      "LocalizedName" : "Fleshdoom Spawn 1",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_FLESHDOOM1",
