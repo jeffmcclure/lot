@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_CRYPTS4_2CRYPTS3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 13,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Crypts 4"
-          }
-        ]
-      },
+      "LocName" : "Door to Crypts 4",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -77,15 +69,7 @@
       "LinkedTo" : "WP_CRYPTS2_2CRYPTS3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 13,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Crypts 2"
-          }
-        ]
-      },
+      "LocName" : "Door to Crypts 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -1871,15 +1855,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Skulken's Journal"
-          }
-        ]
-      },
+      "LocName" : "Skulken's Journal",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -2116,15 +2092,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5716,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Skulken's Journal"
-          }
-        ]
-      },
+      "LocName" : "Skulken's Journal",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -2361,15 +2329,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 16811170,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Cornerstone of the World"
-          }
-        ]
-      },
+      "LocName" : "Cornerstone of the World",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -2409,15 +2369,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_tornjournal3",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 16813907,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A torn page is lying on a dried pool of blood."
-          }
-        ]
-      },
+      "Description" : "A torn page is lying on a dried pool of blood.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2426,15 +2378,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 16812408,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Torn Journal Note"
-          }
-        ]
-      },
+      "LocName" : "Torn Journal Note",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -2467,15 +2411,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_journalnote",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14572,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A pool of blood leaves its mark upon this place."
-          }
-        ]
-      },
+      "Description" : "A pool of blood leaves its mark upon this place.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2484,15 +2420,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5789,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Reconstructed Journal Note"
-          }
-        ]
-      },
+      "LocName" : "Reconstructed Journal Note",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -2524,15 +2452,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2541,15 +2461,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -2583,15 +2495,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2600,15 +2504,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_boss",
@@ -2642,15 +2538,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2659,15 +2547,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_boss",
@@ -2701,15 +2581,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2718,15 +2590,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -2760,15 +2624,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2777,15 +2633,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -2819,15 +2667,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2836,15 +2676,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -2878,15 +2710,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2895,15 +2719,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -2937,15 +2753,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2954,15 +2762,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Sarcophagus"
-          }
-        ]
-      },
+      "LocName" : "Sarcophagus",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -3409,15 +3209,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Torn Note Talk 3"
-          }
-        ]
-      },
+      "LocalizedName" : "Torn Note Talk 3",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -3449,15 +3241,7 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Crypts - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Crypts - Second Level",
       "MapNote" : "To the Crypts - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CRYPTS3_2CRYPTS2",
@@ -3473,15 +3257,7 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Crypts - Fourth Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Crypts - Fourth Level",
       "MapNote" : "To the Crypts - Fourth Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_CRYPTS3_2CRYPTS4",

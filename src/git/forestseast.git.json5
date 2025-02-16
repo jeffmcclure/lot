@@ -70,15 +70,7 @@
       "LinkedTo" : "WP_SDFOREST_2EDFOREST",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 62,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Deep Forest - Southern Pit"
-          }
-        ]
-      },
+      "LocName" : "To the Deep Forest - Southern Pit",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -118,15 +110,7 @@
       "LinkedTo" : "WP_DRAGON2FOREST",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 21,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Dragon Cave"
-          }
-        ]
-      },
+      "LocName" : "Door to Dragon Cave",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -1981,15 +1965,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 18,
-      "Description" : {
-        "StringRef" : 14596,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
-          }
-        ]
-      },
+      "Description" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 18,
@@ -1998,15 +1974,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_mid",
@@ -2041,15 +2009,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 18,
-      "Description" : {
-        "StringRef" : 14596,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
-          }
-        ]
-      },
+      "Description" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 18,
@@ -2058,15 +2018,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_mid",
@@ -2983,15 +2935,7 @@
       "LinkedTo" : "WP_FOREST_2EDFOREST",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 61,
-      "LocalizedName" : {
-        "StringRef" : 14760,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Forest Area"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Forest Area",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -3114,15 +3058,7 @@
       "LinkedTo" : "WP_NDFOREST_2EDFOREST",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 62,
-      "LocalizedName" : {
-        "StringRef" : 14760,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Deep Forest - Northern Area"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Deep Forest - Northern Area",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -3154,24 +3090,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Northern Area"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Northern Area"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Northern Area",
+      "MapNote" : "To the Northern Area",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_EDFOREST_2NDFOREST",
       "TemplateResRef" : "nw_mapnote001",
@@ -3186,24 +3106,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Southern Pit"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Southern Pit"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Southern Pit",
+      "MapNote" : "To the Southern Pit",
       "MapNoteEnabled" : 1,
       "Tag" : "EDFOREST_2SDFOREST",
       "TemplateResRef" : "nw_mapnote001",
@@ -3234,24 +3138,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Forest Cavern"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Forest Cavern"
-          }
-        ]
-      },
+      "LocalizedName" : "To Forest Cavern",
+      "MapNote" : "To Forest Cavern",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_FOREST2DRAGON",
       "TemplateResRef" : "nw_mapnote001",

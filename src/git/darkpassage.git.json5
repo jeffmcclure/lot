@@ -30,15 +30,7 @@
       "LinkedTo" : "WP_CHURCH2DPASSAGE",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 34,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Cathedral 2"
-          }
-        ]
-      },
+      "LocName" : "Door to Cathedral 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 23,
@@ -865,15 +857,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14662,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "You look about you, suspicious, but see nothing."
-          }
-        ]
-      },
+      "Description" : "You look about you, suspicious, but see nothing.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -882,15 +866,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5800,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>"
-          }
-        ]
-      },
+      "LocName" : "<cÿÿÿ><cÿÿ ><cÿ ÿ><c ÿÿ><cÿ  ><c ÿ ><c  ÿ>",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -1483,15 +1459,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 18,
-      "Description" : {
-        "StringRef" : 14596,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
-          }
-        ]
-      },
+      "Description" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 18,
@@ -1500,15 +1468,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 0,
       "OnDeath" : "loot_normal_hi",
@@ -1773,15 +1733,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Watertalk Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Watertalk Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -1843,15 +1795,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Watertalk Trigger"
-          }
-        ]
-      },
+      "LocalizedName" : "Watertalk Trigger",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -1883,24 +1827,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Back to the Cathedral - Second Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Back to the Cathedral - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "Back to the Cathedral - Second Level",
+      "MapNote" : "Back to the Cathedral - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_DPASSAGE2CHURCH2",
       "TemplateResRef" : "nw_mapnote001",
@@ -1915,24 +1843,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Underground Spring"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Underground Spring"
-          }
-        ]
-      },
+      "LocalizedName" : "The Underground Spring",
+      "MapNote" : "The Underground Spring",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_WATERSUPPLY",
       "TemplateResRef" : "nw_mapnote001",
@@ -1947,15 +1859,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Water Waypoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Water Waypoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_WATERFX1",
@@ -1971,15 +1875,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Water Waypoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Water Waypoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_WATERFX2",
@@ -1995,15 +1891,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Water Waypoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Water Waypoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_WATERFX3",
@@ -2019,15 +1907,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Water Waypoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Water Waypoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_WATERFX4",
@@ -2043,15 +1923,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Water Waypoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Water Waypoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_WATERFX5",

@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_HELL3HELLFORGE",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Hell"
-          }
-        ]
-      },
+      "LocName" : "Door to Hell",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -1803,15 +1795,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_hellforge",
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14543,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The hellforge burns with infernal heat - no doubt needed to craft the hellish weapons used by the demons in this realm.  Touching it is inadvisable unless you plan to put something in it."
-          }
-        ]
-      },
+      "Description" : "The hellforge burns with infernal heat - no doubt needed to craft the hellish weapons used by the demons in this realm.  Touching it is inadvisable unless you plan to put something in it.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -1820,15 +1804,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 1,
-      "LocName" : {
-        "StringRef" : 14541,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Hellforge"
-          }
-        ]
-      },
+      "LocName" : "Hellforge",
       "Lockable" : 0,
       "Locked" : 0,
       "OnInvDisturbed" : "end_shadowfang2a",
@@ -2174,15 +2150,7 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14718,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "A searing shaft of blue light descends from some unseen place above."
-          }
-        ]
-      },
+      "Description" : "A searing shaft of blue light descends from some unseen place above.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -2191,15 +2159,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14719,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Izual's Portal"
-          }
-        ]
-      },
+      "LocName" : "Izual's Portal",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -2979,15 +2939,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocalizedName" : {
-        "StringRef" : 14759,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "New Generic"
-          }
-        ]
-      },
+      "LocalizedName" : "New Generic",
       "OnClick" : "",
       "OnDisarm" : "",
       "OnTrapTriggered" : "",
@@ -3019,24 +2971,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Hellforge"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "The Hellforge"
-          }
-        ]
-      },
+      "LocalizedName" : "The Hellforge",
+      "MapNote" : "The Hellforge",
       "MapNoteEnabled" : 1,
       "Tag" : "NW_MAPNOTE_HELLFORGE",
       "TemplateResRef" : "nw_mapnote001",
@@ -3051,15 +2987,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Izual Spawnpoint"
-          }
-        ]
-      },
+      "LocalizedName" : "Izual Spawnpoint",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "WP_IZUAL",
@@ -3075,15 +3003,7 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Back to Hell - Third Level"
-          }
-        ]
-      },
+      "LocalizedName" : "Back to Hell - Third Level",
       "MapNote" : "Back to Hell - Third Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELLFORGE2HELL3",

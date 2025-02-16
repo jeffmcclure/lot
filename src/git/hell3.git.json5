@@ -31,15 +31,7 @@
       "LinkedTo" : "WP_LAZARUS2HELL3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 17,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Hell 3 to Lazarus"
-          }
-        ]
-      },
+      "LocName" : "Hell 3 to Lazarus",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 18,
@@ -78,15 +70,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -321,15 +305,7 @@
       "LinkedTo" : "WP_ARMORY2HELL3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 12,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Armories of Hell"
-          }
-        ]
-      },
+      "LocName" : "To Armories of Hell",
       "Lockable" : 0,
       "Locked" : 1,
       "OpenLockDC" : 18,
@@ -368,15 +344,7 @@
       "LinkedTo" : "WP_HELLFORGE2HELL3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Hellforge"
-          }
-        ]
-      },
+      "LocName" : "Door to Hellforge",
       "Lockable" : 0,
       "Locked" : 1,
       "OpenLockDC" : 18,
@@ -415,15 +383,7 @@
       "LinkedTo" : "WP_HELL2HELL3",
       "LinkedToFlags" : 2,
       "LoadScreenID" : 15,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Hell 3 to Hell 2"
-          }
-        ]
-      },
+      "LocName" : "Hell 3 to Hell 2",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 28,
@@ -4233,15 +4193,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -4281,15 +4233,7 @@
       "HasInventory" : 0,
       "Interruptable" : 1,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 14673,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Shrine Marker"
-          }
-        ]
-      },
+      "LocName" : "Shrine Marker",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "",
@@ -4489,15 +4433,7 @@
         }
       ],
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 16811008,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Altar of the Oblivion Knight"
-          }
-        ]
-      },
+      "LocName" : "Altar of the Oblivion Knight",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -4608,15 +4544,7 @@
       "CloseLockDC" : 0,
       "Conversation" : "con_goldenelixir",
       "CurrentHP" : 10,
-      "Description" : {
-        "StringRef" : 16810889,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "This floating structure shimmers with warm light."
-          }
-        ]
-      },
+      "Description" : "This floating structure shimmers with warm light.",
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 5,
@@ -4625,15 +4553,7 @@
       "HasInventory" : 0,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 16811978,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Golden Guardian"
-          }
-        ]
-      },
+      "LocName" : "Golden Guardian",
       "Lockable" : 0,
       "Locked" : 0,
       "OnUsed" : "s_onusedconverse",
@@ -5359,24 +5279,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Hell - Second Level"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Hell - Second Level"
-          }
-        ]
-      },
+      "LocalizedName" : "To Hell - Second Level",
+      "MapNote" : "To Hell - Second Level",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL3HELL2",
       "TemplateResRef" : "nw_mapnote001",
@@ -5391,24 +5295,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Archbishop's Inner Sanctum"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Archbishop's Inner Sanctum"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Archbishop's Inner Sanctum",
+      "MapNote" : "To the Archbishop's Inner Sanctum",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL3LAZARUS",
       "TemplateResRef" : "nw_mapnote001",
@@ -5423,24 +5311,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Armories of Hell"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Armories of Hell"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Armories of Hell",
+      "MapNote" : "To the Armories of Hell",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL3ARMORY",
       "TemplateResRef" : "nw_mapnote001",
@@ -5455,24 +5327,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Hellforge"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To the Hellforge"
-          }
-        ]
-      },
+      "LocalizedName" : "To the Hellforge",
+      "MapNote" : "To the Hellforge",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_HELL3HELLFORGE",
       "TemplateResRef" : "nw_mapnote001",

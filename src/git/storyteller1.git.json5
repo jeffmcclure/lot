@@ -30,15 +30,7 @@
       "LinkedTo" : "TRISTRAM_2CAIN1",
       "LinkedToFlags" : 1,
       "LoadScreenID" : 64,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Tristram"
-          }
-        ]
-      },
+      "LocName" : "Door to Tristram",
       "Lockable" : 0,
       "Locked" : 0,
       "OpenLockDC" : 28,
@@ -76,15 +68,7 @@
       "LinkedTo" : "CAIN2_2CAIN1",
       "LinkedToFlags" : 1,
       "LoadScreenID" : 47,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door to Upstairs"
-          }
-        ]
-      },
+      "LocName" : "Door to Upstairs",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -524,15 +508,7 @@
       "Description" : null,
       "HasMapNote" : 0,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14817,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "01.60.W.A.P.READ"
-          }
-        ]
-      },
+      "LocalizedName" : "01.60.W.A.P.READ",
       "MapNote" : null,
       "MapNoteEnabled" : 1,
       "Tag" : "NIGHT_CAIN",
@@ -644,24 +620,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Tristram"
-          }
-        ]
-      },
+      "LocalizedName" : "To Tristram",
+      "MapNote" : "To Tristram",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_INSIDESTORYTELLER1",
       "TemplateResRef" : "nw_mapnote001",
@@ -676,24 +636,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Upstairs Room"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Upstairs Room"
-          }
-        ]
-      },
+      "LocalizedName" : "To Upstairs Room",
+      "MapNote" : "To Upstairs Room",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_INSIDESTORYTELLER1A",
       "TemplateResRef" : "nw_mapnote001",

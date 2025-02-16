@@ -30,15 +30,7 @@
       "LinkedTo" : "PEPIN1_2PEPIN2",
       "LinkedToFlags" : 1,
       "LoadScreenID" : 47,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Healer's House Downstairs"
-          }
-        ]
-      },
+      "LocName" : "Healer's House Downstairs",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -77,15 +69,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 0,
       "OnOpen" : "trg_closedoor",
@@ -124,15 +108,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Door"
-          }
-        ]
-      },
+      "LocName" : "Door",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "thf_door1",
@@ -167,15 +143,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14594,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value."
-          }
-        ]
-      },
+      "Description" : "Bound in iron and with a heavy lock, this heavy chest was obviously meant to protect something of value.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
@@ -184,15 +152,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "thf_chest1",
@@ -228,15 +188,7 @@
       "BodyBag" : 0,
       "CloseLockDC" : 0,
       "CurrentHP" : 18,
-      "Description" : {
-        "StringRef" : 14596,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display."
-          }
-        ]
-      },
+      "Description" : "Metal studs poke through the woodwork of this ornate chest. Judging by the fine craftsmanship, this strongbox appears to have been intended for public display.",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 18,
@@ -245,15 +197,7 @@
       "HasInventory" : 1,
       "Interruptable" : 0,
       "KeyRequired" : 0,
-      "LocName" : {
-        "StringRef" : 5348,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Chest"
-          }
-        ]
-      },
+      "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "thf_chest1",
@@ -330,24 +274,8 @@
       "Description" : null,
       "HasMapNote" : 1,
       "LinkedTo" : "",
-      "LocalizedName" : {
-        "StringRef" : 14814,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Downstairs Room"
-          }
-        ]
-      },
-      "MapNote" : {
-        "StringRef" : 14815,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "To Downstairs Room"
-          }
-        ]
-      },
+      "LocalizedName" : "To Downstairs Room",
+      "MapNote" : "To Downstairs Room",
       "MapNoteEnabled" : 1,
       "Tag" : "WP_INSIDEHEALER2",
       "TemplateResRef" : "nw_mapnote001",
