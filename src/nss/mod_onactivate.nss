@@ -8,7 +8,7 @@ void main()
   object oPC         = GetItemActivator();
   object oTownPortal;
 
-  if (GetTag(oItem) == "ITM_BookOfTownPortal")
+  if (GetTag(oItem) == "ITM_TownPortal")
   {
     if (GetTag(GetArea(oPC)) != "TRISTRAM")
       {

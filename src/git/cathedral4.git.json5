@@ -839,27 +839,10 @@
           "Charges" : 10,
           "Cost" : 251,
           "Cursed" : 0,
-          "DescIdentified" : "This tome allows you to create a magical portal that leads back to Tristram.  However, there are areas that block the power of the town portal, so use this tome with care.\n\nThe tome of town portal only has a set number of uses - after you use up all the charges, this tome will disappear.",
-          "Description" : {
-            "StringRef" : 13002,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : ""
-              }
-            ]
-          },
+          "DescIdentified" : "This book allows you to create a magical portal that leads back to Tristram.  However, there are areas that block the power of the town portal, so use this tome with care.\n\nThe tome of town portal only has a set number of uses - after you use up all the charges, this tome will disappear.",
           "Dropable" : 1,
           "Identified" : 1,
-          "LocalizedName" : {
-            "StringRef" : 13001,
-            "Strings" : [
-              {
-                "Id" : 0,
-                "String" : "Tome of Town Portal"
-              }
-            ]
-          },
+          "LocalizedName" : "Book of Town Portal",
           "ModelPart1" : 7,
           "Plot" : 0,
           "PropertiesList" : [
@@ -877,8 +860,8 @@
           "ReposPosy" : 0,
           "StackSize" : 1,
           "Stolen" : 0,
-          "Tag" : "ITM_BookOfTownPortal",
-          "TemplateResRef" : "nw_it_book001",
+          "Tag" : "ITM_TownPortal",
+          "TemplateResRef" : "bookoftownportal",
           "XOrientation" : 0.0,
           "XPosition" : -1.0,
           "YOrientation" : 1.0,
