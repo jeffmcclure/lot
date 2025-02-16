@@ -30,6 +30,7 @@ void forDebug(object oPC) {
 
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
+    CreateItemOnObject("nw_it_book031", oPC); // Tome of Apocalypse
 
     obj = CreateItemOnObject("cloakoffastfe", oPC, 1, "cloakoffastfe"); // Cloak of Fast Feet
     SetIdentified(obj,TRUE);
