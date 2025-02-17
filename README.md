@@ -3,7 +3,7 @@ Based on [The Lord of Terror](https://neverwintervault.org/project/nwn1/module/l
 
 The [Lord of Terror 2](https://github.com/jeffmcclure/lot) by [Jeff McClure](mailto:jeffmcclure.github@gmail.com)
 
-Current Version 2.0.6 - March 3, 2024
+Current Version 2.0.7 - February 3, 2024
 
 ## Stay a while and listen
 This module is mostly the same as Tolitz Rosel's last released version 1.06 from November 27, 2004.
