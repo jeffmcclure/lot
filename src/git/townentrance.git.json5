@@ -737,6 +737,70 @@
       "X" : 9.126322,
       "Y" : 9.508574,
       "Z" : 0.010001659
+    },
+    {
+      "Description" : "Town Entrance Chest",
+      "AnimationState" : 0,
+      "Appearance" : 8,
+      "AutoRemoveKey" : 0,
+//      "Bearing" : 1.5,
+      "Bearing" : 0,
+      "BodyBag" : 0,
+      "CloseLockDC" : 0,
+      "CurrentHP" : 15,
+      "DisarmDC" : 15,
+      "Faction" : 1,
+      "Fort" : 16,
+      "HP" : 15,
+      "Hardness" : 5,
+      "HasInventory" : 1,
+      "Interruptable" : 0,
+      "KeyRequired" : 0,
+      "LocName" : {
+        "StringRef" : 5348,
+        "Strings" : [ ]
+      },
+      "Lockable" : 0,
+      "Locked" : 0,
+      "OnOpen" : "loot_normal_hi",
+      "OnClosed" : "disable_if_empty",
+      "OpenLockDC" : 18,
+      "Plot" : 0,
+      "PortraitId" : 366,
+      "Ref" : 0,
+      "Static" : 0,
+      //"Tag" : "CHEST_BONE1",
+      "Tag" : "",
+      "TemplateResRef" : "plc_chest2",
+      "TrapDetectDC" : 0,
+      "TrapDetectable" : 1,
+      "TrapDisarmable" : 1,
+      "TrapFlag" : 0,
+      "TrapOneShot" : 1,
+      "TrapType" : 0,
+      "Type" : 0,
+      "Useable" : 1,
+      "VarTable" : [
+        {
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "bookoftownportal"
+        },
+        {
+          "Name" : "loot2",
+          "Type" : 3,
+          "Value" : "tomeoftownportal"
+        },
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 13
+        }
+      ],
+      "Will" : 0,
+      "X" : 22,
+      "Y" : 15,
+      "Z" : 0.0
     }
   ],
   "SoundList" : [
