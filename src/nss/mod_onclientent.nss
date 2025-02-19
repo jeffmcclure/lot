@@ -12,17 +12,23 @@ void forDebug(object oPC) {
     CreateItemOnObject("lootgenie", oPC);   // loot genie
     object obj = CreateItemOnObject("it_mneck026", oPC); // natural armor +1
     SetIdentified(obj,TRUE);
+    DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_NECK)));
 
-    CreateItemOnObject("nw_it_mneck023", oPC); // glittering necklace
+    obj = CreateItemOnObject("nw_it_mneck023", oPC); // glittering necklace
+    //DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_NECK)));
 
     CreateItemOnObject("nw_wswls001", oPC); // long sword
-    CreateItemOnObject("nw_waxbt001", oPC); // battle axe
-    CreateItemOnObject("nw_ashlw001", oPC); // large shield
+    obj = CreateItemOnObject("nw_waxbt001", oPC); // battle axe
+    DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_RIGHTHAND)));
+
+    obj = CreateItemOnObject("nw_ashlw001", oPC); // large shield
+    DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_LEFTHAND)));
 
     CreateItemOnObject("nw_it_sparscr216", oPC); // knock scroll
 
     //CreateItemOnObject("nw_it_mring009", oPC); // Ring of cyan
-    CreateItemOnObject("nw_it_mring013", oPC); // Ring of scholors - lore white light
+    obj = CreateItemOnObject("nw_it_mring013", oPC); // Ring of scholors - lore white light
+    DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_LEFTRING)));
 
     CreateLoot("tomeoftownportal", oPC, oPC); // Tome of town portal
     CreateLoot("bookoftownportal", oPC, oPC); // Tome of town portal
@@ -40,6 +46,7 @@ void forDebug(object oPC) {
     GiveGoldToCreature(oPC, 76543);
 
     AddJournalQuestEntry("QST_BUTCHER", 1, oPC, TRUE, FALSE);
+    AddJournalQuestEntry("QST_FIND_REMY", 1, oPC, TRUE, FALSE);
     SetLocked(GetObjectByTag("CHURCH3_2LEORIC"), FALSE);
     int grant = 16000 - GetXP(oPC);
     if (grant > 0)
@@ -57,7 +64,7 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    //forDebug(oPC);
+    forDebug(oPC);
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.6 with enhancements by Jeff McClure\n";
     // Send welcome message to joining player
