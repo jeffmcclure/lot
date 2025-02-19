@@ -4814,24 +4814,26 @@ void FixDeadCreature(object creature) {
 }
 
 int IsEmpty(object creature) {
-    int isDeadCreature = GetIsObjectValid(GetLastKiller());
-    if (isDeadCreature && GetLocalInt(creature, "JEFF_LOOT")) {
+    // GetLastKiller() returns OBJECT_INVALID if called from other than OnDeath
+    // isOnDeathUsage is true when we are called from OnDeath
+    int isOnDeathUsage = GetIsObjectValid(GetLastKiller());
+    if (isOnDeathUsage && GetLocalInt(creature, "JEFF_LOOT")) {
         return FALSE;
     }
 
-    //SendMessageToPC(GetFirstPC(), "IsEmpty()  creature:" + IntToString(isDeadCreature));
+    //SendMessageToPC(GetFirstPC(), "Is_Empty()  creature:" + IntToString(isOnDeathUsage));
     //int isContainer = GetIsObjectValid(GetLastOpenedBy());
-    //SendMessageToPC(GetFirstPC(), "IsEmpty() container:" + IntToString(isContainer));
+    //SendMessageToPC(GetFirstPC(), "Is_Empty() container:" + IntToString(isContainer));
 
     object oItem = GetFirstItemInInventory(creature);
     while (OBJECT_INVALID != oItem) {
         int droppable = GetDroppableFlag(oItem);
         if (droppable) {
-            //SendMessageToPC(GetFirstPC(), "IsEmpty() '" + GetName(oItem) + "'");
+            //SendMessageToPC(GetFirstPC(), "Is_Empty() '" + GetName(oItem) + "'");
             return FALSE;
         }
         if (GetLocalInt(oItem, "JEFF_LOOT") > 0) {
-            //SendMessageToPC(GetFirstPC(), "IsEmpty() JEFF '" + GetName(oItem) + "'");
+            //SendMessageToPC(GetFirstPC(), "Is_Empty() JEFF '" + GetName(oItem) + "'");
             return FALSE;
         }
         oItem = GetNextItemInInventory(OBJECT_SELF);
@@ -4841,17 +4843,17 @@ int IsEmpty(object creature) {
     for (i = 0; i < NUM_INVENTORY_SLOTS; ++i) {
         oItem = GetItemInSlot(i, creature);
         if (GetIsObjectValid(oItem) && GetDroppableFlag(oItem)) {
-            //SendMessageToPC(GetFirstPC(), "IsEmpty() INV '" + GetName(oItem) + "'");
+            //SendMessageToPC(GetFirstPC(), "Is_Empty() INV '" + GetName(oItem) + "'");
             return FALSE;
         }
     }
 
     if (GetGold(creature) > 0) {
-        //SendMessageToPC(GetFirstPC(), "IsEmpty() gold");
+        //SendMessageToPC(GetFirstPC(), "Is_Empty() gold");
         return FALSE;
     }
 
-    //SendMessageToPC(GetFirstPC(), "IsEmpty() TRUE");
+    //SendMessageToPC(GetFirstPC(), "Is_Empty() TRUE");
     return TRUE;
 }
 
