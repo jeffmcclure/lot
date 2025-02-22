@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/bash
 
 # This script creates, re-creates, and starts the following docker containers to host the module for multiplayer:
 #   nwn_lot       runs Neverwinter Nights server process
@@ -6,14 +6,59 @@
 
 # This script has permissive/lazy/weak error handling so it can be run the first time and subsequently without failing or reporting errors
 
+# docker ps
+# docker kill
+
 # Input variables
 # LOT_LOCAL_IP
 # NWN_DIR
 
+case $(uname) in
+Darwin)
+  CMD_7Z=7zz
+  NWN_DIR="$HOME/.local/share/Neverwinter Nights"
+  #echo macOS
+  ;;
+
+Linux)
+  CMD_7Z=7z
+  NWN_DIR="$HOME/Documents/Neverwinter Nights"
+  #echo linux
+  ;;
+
+*)
+  echo other
+  exit
+  ;;
+esac
+
+which nwn_nwsync_write 2>/dev/null
+if [ $? != 0 ]; then
+  echo nwn_nwsync_write not found in path
+  exit 1
+fi
+
+if [ -z "$LOT_LOCAL_IP" ]; then
+  LOT_LOCAL_IP=$(hostname -I | head | sed -rn 's/^([0-9.]+).*$/\1/p')
+fi
+
 LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
-DOWNLOADS=$HOME/Downloads/lot
+DOWNLOADS=$HOME/Downloads
 LOT_VERSION="2.0.6"
-LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
+
+if [ -n "$ZSH_VERSINO" ]; then
+  LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
+elif [ -n "$BASH" ]; then
+  LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION//./_}"
+else
+  echo unknown shell
+  exit 1
+fi
+
+if [ -z "$LOT_MOD_NAME" ]; then
+  echo LOT_MOD_NAME is blank
+  exit
+fi
 
 if [ -z "$LOT_DIR" ]; then
 	LOT_DIR=$HOME/lot
@@ -51,12 +96,21 @@ function supporting {
 
 	if [ ! -e hak/cep3_core3.hak ]; then
 		mkdir hak &>/dev/null
-		F="${DOWNLOADS}/cep_3.1.1_releasec_0.7z"
+		#F="${DOWNLOADS}/cep_3.1.1_releasec_0.7z"
+		F="${DOWNLOADS}/cep_3.1.2.7z"
 		if [ ! -e "$F" ]; then
 			echo "$F does not exist"
 			exit 1
 		fi
-		7zz x "${F}"
+		#$CMD_7Z x "${F}"
+		mkdir -p tlk
+		cd tlk
+		$CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk
+		mkdir -p ../hak
+		cd ../hak
+    $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak
+    cd ..
+
 	fi
 
 }
@@ -66,14 +120,14 @@ function web {
 	cd ../webserver || exit
 
 	echo stopping nwn_nginx
-	docker stop nwn_nginx &>/dev/null
+	sudo docker stop nwn_nginx &>/dev/null
 
 	echo removing nwn_nginx
-	docker rm nwn_nginx &>/dev/null
+	sudo docker rm nwn_nginx &>/dev/null
 
 	echo creating nwn_nginx
-	#docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" abevoelker/docker-nginx: -c "${LOT_DIR}/nginx.conf"
-	#	docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/nginx.conf":/etc/nginx/nginx.conf:ro nginx
+	#docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" abevoelker/docker-nginx: -c "${LOT_DIR}/nginx.conf"
+	#	docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/nginx.conf":/etc/nginx/nginx.conf:ro nginx
 
 	cat <<EOF >../default.conf
 server {
@@ -92,7 +146,7 @@ server {
 }
 EOF
 
-	docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/default.conf":/etc/nginx/conf.d/default.conf:ro nginx
+	sudo docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/default.conf":/etc/nginx/conf.d/default.conf:ro nginx
 }
 
 function nwn {
@@ -111,19 +165,20 @@ function nwn {
 EOF
 
 	echo stopping nwn_lot
-	docker stop nwn_lot &>/dev/null
+	sudo docker stop nwn_lot &>/dev/null
 
 	echo removing nwn_lot
-	docker rm nwn_lot &>/dev/null
+	sudo docker rm nwn_lot &>/dev/null
 
 	echo creating nwn_lot
-	docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.36.12
+	#sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
+	sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 }
 
 function nwsync {
 	header "nwsync"
 	cd ../lot_docker || exit
-	nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
+	nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
 # if no parameters are passed, then use these
