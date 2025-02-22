@@ -5,9 +5,14 @@
 #   webserver     runs nginx web server to server the files so the user does not need to manually install .mod, .hak, and other files
 
 # This script has permissive/lazy/weak error handling so it can be run the first time and subsequently without failing or reporting errors
+# git clone https://github.com/niv/neverwinter.nim
+
 
 # docker ps
 # docker kill
+# docker logs nwn_lot
+# docker logs -f nwn_lot
+
 
 # Input variables
 # LOT_LOCAL_IP
@@ -32,7 +37,7 @@ Linux)
   ;;
 esac
 
-which nwn_nwsync_write 2>/dev/null
+which nwn_nwsync_write &>/dev/null
 if [ $? != 0 ]; then
   echo nwn_nwsync_write not found in path
   exit 1
@@ -172,6 +177,7 @@ EOF
 
 	echo creating nwn_lot
 	#sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
+	echo sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 	sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 }
 
