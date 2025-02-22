@@ -12,6 +12,7 @@
 # docker kill
 # docker logs nwn_lot
 # docker logs -f nwn_lot
+# docker attach nwn_lot
 
 
 # Input variables
@@ -76,27 +77,27 @@ function header {
 function setup1 {
 	header "setup1"
 	mkdir "$LOT_DIR" 2>/dev/null
-	cd "$LOT_DIR" || exit
+	cd "$LOT_DIR" || exit 8
 	mkdir lot_docker webserver 2>/dev/null
-	cd lot_docker || exit
+	cd lot_docker || exit 7
 
 	src="${NWN_DIR}/modules/${LOT_MOD_NAME}.mod"
 	if ! cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"; then
 		echo /bin/cp "$src" modules/
 		mkdir modules &>/dev/null
-		/bin/cp "$src" modules/ || exit
+		/bin/cp "$src" modules/ || exit 6
 	fi
 }
 
 function supporting {
 	header "supporting"
-	cd ../lot_docker || exit
+	cd ../lot_docker || exit 5
 
 	src="${NWN_DIR}/hak/lot2.hak"
 	if ! cmp --silent hak/lot2.hak "$src"; then
 		mkdir hak &>/dev/null
 		echo /bin/cp "$src" hak/
-		/bin/cp "$src" hak/ || exit
+		/bin/cp "$src" hak/ || exit 4
 	fi
 
 	if [ ! -e hak/cep3_core3.hak ]; then
@@ -109,10 +110,10 @@ function supporting {
 		fi
 		#$CMD_7Z x "${F}"
 		mkdir -p tlk
-		cd tlk
+		cd tlk || exit 3
 		$CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk
 		mkdir -p ../hak
-		cd ../hak
+		cd ../hak || exit 2
     $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak
     cd ..
 
@@ -122,7 +123,7 @@ function supporting {
 
 function web {
 	header "web"
-	cd ../webserver || exit
+	cd ../webserver || exit 11
 
 	echo stopping nwn_nginx
 	sudo docker stop nwn_nginx &>/dev/null
@@ -156,7 +157,7 @@ EOF
 
 function nwn {
 	header "nwn"
-	cd ../lot_docker || exit
+	cd ../lot_docker || exit 10
   #NWN_AUTOSAVEINTERVAL=15
 	cat <<EOF >env.txt
     NWN_ILR=0
@@ -183,7 +184,7 @@ EOF
 
 function nwsync {
 	header "nwsync"
-	cd ../lot_docker || exit
+	cd ../lot_docker || exit 9
 	nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
