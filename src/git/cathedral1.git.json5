@@ -2448,7 +2448,7 @@
       "Z" : 0.0
     },
     {
-      "AnimationState" : 1,
+      "AnimationState" : 0,
       "Appearance" : 0,
       "AutoRemoveKey" : 0,
       "Bearing" : -0.0,
@@ -2461,7 +2461,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
-      "GenericTypeNew" : 1,
+      "GenericTypeNew" : 405,
       "HP" : 15,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -2487,6 +2487,13 @@
       "TrapFlag" : 0,
       "TrapOneShot" : 1,
       "TrapType" : 0,
+      "VarTable" : [
+        {
+          "Name" : "JEFF_DOOR2",
+          "Type" : 1,
+          "Value" : 0
+        }
+      ],
       "Will" : 0,
       "X" : 55.0,
       "Y" : 80.0,
@@ -2506,7 +2513,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
-      "GenericTypeNew" : 1,
+      "GenericTypeNew" : 405,
       "HP" : 15,
       "Hardness" : 5,
       "Interruptable" : 1,
