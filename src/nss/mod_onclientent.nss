@@ -18,7 +18,9 @@ void forDebug(object oPC) {
     //DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_NECK)));
 
     CreateItemOnObject("nw_wswls001", oPC); // long sword
-    obj = CreateItemOnObject("nw_waxbt001", oPC); // battle axe
+    //obj = CreateItemOnObject("nw_waxbt001", oPC); // battle axe
+    obj = CreateItemOnObject("butcherscleaver", oPC); // butcher's cleaver
+    SetIdentified(obj,TRUE);
     DelayCommand(0.5, AssignCommand(oPC, ActionEquipItem(obj, INVENTORY_SLOT_RIGHTHAND)));
 
     obj = CreateItemOnObject("nw_ashlw001", oPC); // large shield

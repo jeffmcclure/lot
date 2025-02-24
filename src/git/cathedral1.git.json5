@@ -2547,7 +2547,12 @@
       "CurrentHP" : 15,
       "Description" : {
         "StringRef" : 9077,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Etched and oiled, the carvings on this door lend depth to its prominent woodgrain. 33_a"
+          }
+        ]
       },
       "DisarmDC" : 15,
       "Faction" : 1,
@@ -2562,7 +2567,12 @@
       "LoadScreenID" : 0,
       "LocName" : {
         "StringRef" : 5349,
-        "Strings" : [ ]
+        "Strings" : [
+          {
+            "Id" : 0,
+            "String" : "Door 33_a"
+          }
+        ]
       },
       "Lockable" : 0,
       "Locked" : 0,
@@ -3602,6 +3612,7 @@
       "ZPosition" : 0.0
     },
     {
+      "LocalizedName" : "Scavenger Group 1a",
       "Active" : 1,
       "CreatureList" : [
         {
@@ -3648,10 +3659,9 @@
           "Z" : 0.025
         }
       ],
-      "LocalizedName" : "Scavenger Group (low)",
-      "MaxCreatures" : 5,
+      "MaxCreatures" : 8,
       "PlayerOnly" : 1,
-      "RecCreatures" : 5,
+      "RecCreatures" : 8,
       "Reset" : 1,
       "ResetTime" : 5400,
       "Respawns" : -1,
@@ -3659,15 +3669,98 @@
       "SpawnPointList" : [
         {
           "Orientation" : -0.0,
-          "X" : 21.0484,
-          "Y" : 114.0559,
+          "X" : 34.928047,
+          "Y" : 95.57218,
           "Z" : 0.0
         }
       ],
       "Tag" : "ScavengerGroup",
       "TemplateResRef" : "scavengergroup",
-      "XPosition" : 36.9009,
-      "YPosition" : 102.075,
+      "VarTable" : [
+        {
+          "Name" : "JEFF_ENCOUNTER",
+          "Type" : 1,
+          "Value" : 133
+        }
+      ],
+      "XPosition" : 36.982445,
+      "YPosition" : 102.08443,
+      "ZPosition" : 0.0
+    },
+    {
+      "LocalizedName" : "Scavenger Group 1b",
+      "Active" : 1,
+      "CreatureList" : [
+        {
+          "Appearance" : 117,
+          "CR" : 0.125,
+          "ResRef" : "scavenger001",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 117,
+          "CR" : 0.16666667,
+          "ResRef" : "scavenger002",
+          "SingleSpawn" : 0
+        },
+        {
+          "Appearance" : 36,
+          "CR" : 0.5,
+          "ResRef" : "scavenger004",
+          "SingleSpawn" : 1
+        }
+      ],
+      "Difficulty" : 0,
+      "DifficultyIndex" : 0,
+      "Faction" : 1,
+      "Geometry" : [
+        {
+          "X" : -3.8467,
+          "Y" : -0.8377,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.2152,
+          "Y" : -0.8449,
+          "Z" : 0.025
+        },
+        {
+          "X" : 0.0162,
+          "Y" : 0.0131,
+          "Z" : 0.025
+        },
+        {
+          "X" : -3.7662,
+          "Y" : -0.0215,
+          "Z" : 0.025
+        }
+      ],
+      "MaxCreatures" : 8,
+      "PlayerOnly" : 1,
+      "RecCreatures" : 8,
+      "Reset" : 1,
+      "ResetTime" : 5400,
+      "Respawns" : -1,
+      "SpawnOption" : 1,
+      "SpawnPointList" : [
+        {
+          "Orientation" : -0.0,
+          "X" : 34.488,
+          "Y" : 110.234375,
+          "Z" : -5.722046E-6
+        }
+      ],
+      "Tag" : "ScavengerGroup",
+      "TemplateResRef" : "scavengergroup",
+      "VarTable" : [
+        {
+          "Name" : "JEFF_ENCOUNTER",
+          "Type" : 1,
+          "Value" : 133
+        }
+      ],
+      "XPosition" : 36.76947,
+      "YPosition" : 102.9458,
       "ZPosition" : 0.0
     },
     {
