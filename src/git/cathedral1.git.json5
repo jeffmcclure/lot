@@ -3303,10 +3303,7 @@
       "LinkedTo" : "",
       "LinkedToFlags" : 0,
       "LoadScreenID" : 0,
-      "LocName" : {
-        "StringRef" : 5349,
-        "Strings" : [ ]
-      },
+      "LocName" : "Rectory Door",
       "Lockable" : 0,
       "Locked" : 1,
       "OnDeath" : "x2_door_death",
@@ -4273,45 +4270,30 @@
       "Faction" : 1,
       "Geometry" : [
         {
+          "X" : -4.8126526,
+          "Y" : 1.3454208,
+          "Z" : 0.02499994
+        },
+        {
+          "X" : -4.804247,
+          "Y" : 0.024490356,
+          "Z" : 0.025
+        },
+        {
           "X" : 0.0,
           "Y" : 0.0,
           "Z" : 0.025
         },
         {
-          "X" : 0.1002,
-          "Y" : -0.1095,
-          "Z" : 0.025
-        },
-        {
-          "X" : 1.3437,
-          "Y" : -1.3034,
-          "Z" : 0.025
-        },
-        {
-          "X" : 8.068,
-          "Y" : -1.1835,
-          "Z" : 0.025
-        },
-        {
-          "X" : 8.2064,
-          "Y" : 5.8871,
-          "Z" : 0.025
-        },
-        {
-          "X" : 1.1324,
-          "Y" : 5.9601,
-          "Z" : 0.025
-        },
-        {
-          "X" : 0.029,
-          "Y" : 4.9675,
-          "Z" : 0.025
+          "X" : -0.10866356,
+          "Y" : 1.1391678,
+          "Z" : 0.02500006
         }
       ],
-      "LocalizedName" : "Scavenger Group (low)",
-      "MaxCreatures" : 4,
+      "LocalizedName" : "Scavenger Group 6",
+      "MaxCreatures" : 6,
       "PlayerOnly" : 1,
-      "RecCreatures" : 2,
+      "RecCreatures" : 6,
       "Reset" : 1,
       "ResetTime" : 5400,
       "Respawns" : -1,
@@ -4326,8 +4308,8 @@
       ],
       "Tag" : "ScavengerGroup",
       "TemplateResRef" : "scavengergroup",
-      "XPosition" : 21.6058,
-      "YPosition" : 72.4528,
+      "XPosition" : 17.522697,
+      "YPosition" : 81.19768,
       "ZPosition" : 0.0
     },
     {
