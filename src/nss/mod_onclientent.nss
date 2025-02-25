@@ -35,6 +35,7 @@ void forDebug(object oPC) {
     CreateLoot("tomeoftownportal", oPC, oPC); // Tome of town portal
     CreateLoot("bookoftownportal", oPC, oPC); // Tome of town portal
     CreateLoot("scrolloftownport", oPC, oPC); // Scroll of town portal
+    CreateLoot("wandoftownportal", oPC, oPC); // Tome of town portal
 
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
@@ -66,7 +67,7 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    //forDebug(oPC);
+    forDebug(oPC);
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.6 with enhancements by Jeff McClure\n";
     // Send welcome message to joining player

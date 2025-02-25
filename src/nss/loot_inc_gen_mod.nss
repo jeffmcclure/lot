@@ -426,7 +426,7 @@ int GetNumberOfItems(int nTreasureType)
         }
         dbSpeak("Create book");
         object book = dbCreateItemOnObject(sRes, oTarget, oPC);
-        SetPlotFlag(book, TRUE); // set resale value to zero
+        //SetPlotFlag(book, TRUE); // set resale value to zero
         return book;
     }
 
