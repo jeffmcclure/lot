@@ -24,6 +24,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericType" : 0,
+      "GicComment" : "MineExit",
       "HP" : 80,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -53,6 +54,7 @@
     }
   ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [ ],
   "SoundList" : [ ],
@@ -62,6 +64,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "Back to the Forest",

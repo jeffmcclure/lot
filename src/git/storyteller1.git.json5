@@ -27,6 +27,7 @@
       "Faction" : 1,
       "Fort" : 28,
       "GenericType" : 0,
+      "GicComment" : "Strong Door",
       "HP" : 20,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -69,6 +70,7 @@
       "Faction" : 1,
       "Fort" : 28,
       "GenericType" : 0,
+      "GicComment" : "Strong Door",
       "HP" : 20,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -99,6 +101,7 @@
     }
   ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -116,6 +119,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 5,
+      "GicComment" : "",
       "HP" : 10,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -163,6 +167,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 5,
+      "GicComment" : "volition's Bio Placeables by volition\r\nmodified by SBird for CEP\r\n",
       "HP" : 2,
       "Hardness" : 0,
       "HasInventory" : 0,
@@ -233,6 +238,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Source: Translucent Crystal Balls by Lisa",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -287,6 +293,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Source: Translucent Crystal Balls by Lisa",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -341,6 +348,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 5,
+      "GicComment" : "volition's Bio Placeables by volition\r\nmodified by SBird for CEP\r\n",
       "HP" : 2,
       "Hardness" : 0,
       "HasInventory" : 0,
@@ -411,6 +419,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 2,
+      "GicComment" : "Food by Saloran\r\n",
       "HP" : 2,
       "Hardness" : 2,
       "HasInventory" : 0,
@@ -458,6 +467,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 2,
+      "GicComment" : "Food by Saloran\r\n",
       "HP" : 2,
       "Hardness" : 2,
       "HasInventory" : 0,
@@ -505,6 +515,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Source: Torture, Taxidermy, and High Tea by Gnomad",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -544,6 +555,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -582,6 +595,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "01.60.W.A.P.READ",
@@ -598,6 +612,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "02.60.W.A.P.READ.READ",
@@ -614,6 +629,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "03.60.W.A.P.READ.READ",
@@ -630,6 +646,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "04.60.W.A.P.READ.READ",
@@ -646,6 +663,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "05.30.W.A.P.LOW",
@@ -662,6 +680,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "06.30.W.A.P.BORD",
@@ -678,6 +697,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "00.45.W.A.P.LOW",
@@ -694,6 +714,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "On the Advanced tab, replace <Place text here> with whatever information you wish to appear on the Map of an area.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To Tristram",
@@ -710,6 +731,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "On the Advanced tab, replace <Place text here> with whatever information you wish to appear on the Map of an area.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To Upstairs Room",

@@ -85,6 +85,7 @@
       },
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 5,
       "Int" : 3,
@@ -295,6 +296,7 @@
       },
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 5,
       "Int" : 3,
@@ -505,6 +507,7 @@
       },
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 5,
       "Int" : 3,
@@ -715,6 +718,7 @@
       },
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 5,
       "Int" : 3,
@@ -925,6 +929,7 @@
       },
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 5,
       "Int" : 3,
@@ -1064,6 +1069,7 @@
   ],
   "DoorList" : [ ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -1078,6 +1084,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Empty Wagon",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -1114,6 +1121,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -1150,6 +1159,8 @@
       "Continuous" : 1,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 25000,
       "IntervalVrtn" : 5000,
@@ -1195,6 +1206,8 @@
       "Continuous" : 1,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 5000,
       "IntervalVrtn" : 5000,
@@ -1246,6 +1259,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -1282,6 +1297,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -1318,6 +1335,8 @@
       "Continuous" : 1,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 10000,
       "IntervalVrtn" : 5000,
@@ -1354,6 +1373,8 @@
       "Continuous" : 1,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 10000,
       "IntervalVrtn" : 5000,
@@ -1390,6 +1411,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -1424,16 +1447,18 @@
   ],
   "StoreList" : [
     {
+      "LocName" : "Jacho's Store",
+      "ResRef" : "jachostore001",
+      "Tag" : "STO_JACHOSTORE",
       "BMMarkDown" : 25,
       "BlackMarket" : 1,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Jacho's Store",
       "MarkDown" : 25,
       "MarkUp" : 90,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "jachostore001",
       "StoreGold" : -1,
       "StoreList" : [
         { },
@@ -13595,7 +13620,6 @@
         { },
         { }
       ],
-      "Tag" : "STO_JACHOSTORE",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -13657,6 +13681,7 @@
           "PointZ" : 0.027190113
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "WP_WDFOREST_2FORESTX",
@@ -13719,6 +13744,7 @@
           "PointZ" : 0.020489303
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "WP_EDFOREST_2FORESTX",
@@ -13781,6 +13807,7 @@
           "PointZ" : 0.025
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "",
@@ -13843,6 +13870,7 @@
           "PointZ" : 0.027190113
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "",
@@ -13905,6 +13933,7 @@
           "PointZ" : 0.025
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "",
@@ -13967,6 +13996,7 @@
           "PointZ" : 0.053577326
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "WP_CLEARING2FOREST",
@@ -14029,6 +14059,7 @@
           "PointZ" : 0.028029112
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "",
@@ -14091,6 +14122,7 @@
           "PointZ" : 0.025
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "",
@@ -14126,6 +14158,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To the Western Area",
@@ -14142,6 +14175,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To the Eastern Area",
@@ -14158,6 +14192,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To the Forest Outskirts",
@@ -14174,6 +14209,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "Cleared Waypoint",
@@ -14190,6 +14226,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "Bandit Camp",

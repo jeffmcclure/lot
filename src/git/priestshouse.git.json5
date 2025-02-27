@@ -27,6 +27,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericType" : 1,
+      "GicComment" : "Fancy Door",
       "HP" : 15,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -57,6 +58,7 @@
     }
   ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -71,6 +73,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 18,
+      "GicComment" : "Chest - 3 (Medium treasure script)",
       "HP" : 18,
       "Hardness" : 8,
       "HasInventory" : 1,
@@ -79,6 +82,7 @@
       "LocName" : "Chest",
       "Lockable" : 0,
       "Locked" : 1,
+      "OnClosed" : "disable_if_empty",
       "OnDeath" : "thf_chest1a",
       "OnOpen" : "loot_normal_hi",
       "OnUnlock" : "thf_door2",
@@ -90,7 +94,6 @@
       "Static" : 0,
       "Tag" : "RDM_CHEST3",
       "TemplateResRef" : "chest003",
-      "OnClosed" : "disable_if_empty",
       "TrapDetectDC" : 0,
       "TrapDetectable" : 1,
       "TrapDisarmable" : 1,
@@ -119,6 +122,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 5,
+      "GicComment" : "",
       "HP" : 10,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -155,16 +159,18 @@
   "SoundList" : [ ],
   "StoreList" : [
     {
+      "LocName" : "Tremayne's Store 1",
+      "ResRef" : "tremaynestore001",
+      "Tag" : "STO_TREMAYNESTORE1",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Tremayne's Store 1",
       "MarkDown" : 50,
       "MarkUp" : 100,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "tremaynestore001",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -3038,7 +3044,6 @@
           ]
         }
       ],
-      "Tag" : "STO_TREMAYNESTORE1",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -3052,16 +3057,18 @@
       "ZPosition" : 9.536743E-6
     },
     {
+      "LocName" : "Tremayne's Store 2",
+      "ResRef" : "tremaynestore002",
+      "Tag" : "STO_TREMAYNESTORE2",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Tremayne's Store 2",
       "MarkDown" : 50,
       "MarkUp" : 100,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "tremaynestore002",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -7390,7 +7397,6 @@
           ]
         }
       ],
-      "Tag" : "STO_TREMAYNESTORE2",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -7404,16 +7410,18 @@
       "ZPosition" : 9.536743E-7
     },
     {
+      "LocName" : "Tremayne's Store 3",
+      "ResRef" : "tremaynestore003",
+      "Tag" : "STO_TREMAYNESTORE3",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Tremayne's Store 3",
       "MarkDown" : 50,
       "MarkUp" : 100,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "tremaynestore003",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -11632,7 +11640,6 @@
           ]
         }
       ],
-      "Tag" : "STO_TREMAYNESTORE3",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -11646,16 +11653,18 @@
       "ZPosition" : 9.536743E-6
     },
     {
+      "LocName" : "Tremayne's Store 4",
+      "ResRef" : "tremaynestore004",
+      "Tag" : "STO_TREMAYNESTORE4",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Tremayne's Store 4",
       "MarkDown" : 50,
       "MarkUp" : 100,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "tremaynestore004",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -17056,7 +17065,6 @@
           ]
         }
       ],
-      "Tag" : "STO_TREMAYNESTORE4",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -17070,16 +17078,18 @@
       "ZPosition" : 9.536743E-6
     },
     {
+      "LocName" : "Tremayne's Premium Store",
+      "ResRef" : "tremayneprem001",
+      "Tag" : "STO_TREMAYNEPREMIUM",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Tremayne's Premium Store",
       "MarkDown" : 65,
       "MarkUp" : 125,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "tremayneprem001",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -19926,7 +19936,6 @@
           ]
         }
       ],
-      "Tag" : "STO_TREMAYNEPREMIUM",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -19940,16 +19949,18 @@
       "ZPosition" : 9.536743E-6
     },
     {
+      "LocName" : "Tremayne's Sell Store",
+      "ResRef" : "tremaynesell001",
+      "Tag" : "STO_TREMAYNESELL",
       "BMMarkDown" : 35,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Tremayne's Sell Store",
       "MarkDown" : 70,
       "MarkUp" : 175,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "s_cleanstore",
       "OnStoreClosed" : "",
-      "ResRef" : "tremaynesell001",
       "StoreGold" : -1,
       "StoreList" : [
         { },
@@ -19958,7 +19969,6 @@
         { },
         { }
       ],
-      "Tag" : "STO_TREMAYNESELL",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -20085,6 +20095,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "00.00.W.A.P.MEDI",
@@ -20101,6 +20112,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "On the Advanced tab, replace <Place text here> with whatever information you wish to appear on the Map of an area.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To Tristram",

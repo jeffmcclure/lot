@@ -27,6 +27,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericType" : 0,
+      "GicComment" : "Strong Door",
       "HP" : 15,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -57,6 +58,7 @@
     }
   ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -71,6 +73,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Trap Door",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -118,6 +121,7 @@
       "DisarmDC" : 0,
       "Faction" : 1,
       "Fort" : 5,
+      "GicComment" : "",
       "HP" : 10,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -154,16 +158,18 @@
   "SoundList" : [ ],
   "StoreList" : [
     {
+      "LocName" : "Adria's Store 1",
+      "ResRef" : "adriastore001",
+      "Tag" : "STO_ADRIASTORE1",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Adria's Store 1",
       "MarkDown" : 65,
       "MarkUp" : 120,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "adriastore001",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -15632,7 +15638,6 @@
           ]
         }
       ],
-      "Tag" : "STO_ADRIASTORE1",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -15646,16 +15651,18 @@
       "ZPosition" : 9.536743E-6
     },
     {
+      "LocName" : "Adria's Store 2",
+      "ResRef" : "adriastore002",
+      "Tag" : "STO_ADRIASTORE2",
       "BMMarkDown" : 25,
       "BlackMarket" : 0,
+      "GicComment" : "",
       "IdentifyPrice" : -1,
-      "LocName" : "Adria's Store 2",
       "MarkDown" : 65,
       "MarkUp" : 120,
       "MaxBuyPrice" : -1,
       "OnOpenStore" : "",
       "OnStoreClosed" : "",
-      "ResRef" : "adriastore002",
       "StoreGold" : -1,
       "StoreList" : [
         {
@@ -39340,7 +39347,6 @@
           ]
         }
       ],
-      "Tag" : "STO_ADRIASTORE2",
       "WillNotBuy" : [ ],
       "WillOnlyBuy" : [
         {
@@ -39359,6 +39365,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "On the Advanced tab, replace <Place text here> with whatever information you wish to appear on the Map of an area.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To Tristram",

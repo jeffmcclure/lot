@@ -24,6 +24,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericTypeNew" : 0,
+      "GicComment" : "RuralExit",
       "HP" : 80,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -63,6 +64,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericTypeNew" : 0,
+      "GicComment" : "RuralExit",
       "HP" : 80,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -102,6 +104,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericTypeNew" : 0,
+      "GicComment" : "RuralExit",
       "HP" : 80,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -144,6 +147,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericTypeNew" : 0,
+      "GicComment" : "RuralExit",
       "HP" : 80,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -314,6 +318,7 @@
       "ZPosition" : 0.0
     }
   ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -324,36 +329,23 @@
       "BodyBag" : 6,
       "CloseLockDC" : 0,
       "CurrentHP" : 15,
-      "Description" : {
-        "StringRef" : 14550,
-        "Strings" : [
-          {
-            "Id" : 0,
-            "String" : "Corpse 1b"
-          }
-        ]      },
-      "LocName" : "Corpse 1a",
+      "Description" : "Corpse 1b",
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 1,
-      "VarTable" : [
-        {
-          "Name" : "loot_gold",
-          "Type" : 1,
-          "Value" : 199
-        },
-      ],
       "KeyRequired" : 0,
+      "LocName" : "Corpse 1a",
       "Lockable" : 0,
       "Locked" : 0,
+      "OnClosed" : "destroy_if_empty",
       "OnDeath" : "loot_partyfi1",
       "OnOpen" : "loot_partyfi1",
       "OnUsed" : "destroy_if_empty",
-      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 467,
@@ -369,6 +361,13 @@
       "TrapType" : 0,
       "Type" : 0,
       "Useable" : 1,
+      "VarTable" : [
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 199
+        }
+      ],
       "Will" : 0,
       "X" : 42.424988,
       "Y" : 42.663425,
@@ -389,6 +388,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -436,6 +436,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Weathering / Scorch Mark",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -480,37 +481,19 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Spear / Sword-filled Corpse",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 1,
       "Interruptable" : 1,
-      "VarTable" : [
-        {
-          "Name" : "loot1",
-          "Type" : 3,
-          // nw_wamar001 == arrow
-          "Value" : "nw_wamar001"
-        },
-        {
-          "Name" : "loot2",
-          "Type" : 3,
-          // nw_wbwsh001 == Shortbow
-          "Value" : "nw_wbwsh001"
-        },
-        {
-          "Name" : "loot_gold",
-          "Type" : 1,
-          "Value" : 199
-        },
-      ],
       "KeyRequired" : 0,
       "LocName" : "Corpse 2a",
       "Lockable" : 0,
       "Locked" : 0,
+      "OnClosed" : "destroy_if_empty",
       "OnDeath" : "nw_o2_generalmed",
       "OnOpen" : "nw_o2_generalmed",
       "OnUsed" : "destroy_if_empty",
-      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 479,
@@ -526,6 +509,23 @@
       "TrapType" : 0,
       "Type" : 0,
       "Useable" : 1,
+      "VarTable" : [
+        {
+          "Name" : "loot1",
+          "Type" : 3,
+          "Value" : "nw_wamar001"
+        },
+        {
+          "Name" : "loot2",
+          "Type" : 3,
+          "Value" : "nw_wbwsh001"
+        },
+        {
+          "Name" : "loot_gold",
+          "Type" : 1,
+          "Value" : 199
+        }
+      ],
       "Will" : 0,
       "X" : 45.527687,
       "Y" : 46.775494,
@@ -546,6 +546,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -593,6 +594,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Rubble (Battlefield)",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -640,6 +642,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Weathering / Scorch Mark",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -679,6 +682,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -717,6 +722,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "On the Advanced tab, replace <Place text here> with whatever information you wish to appear on the Map of an area.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To Tristram",
@@ -733,6 +739,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "On the Advanced tab, replace <Place text here> with whatever information you wish to appear on the Map of an area.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To Forest Area",

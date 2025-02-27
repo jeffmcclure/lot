@@ -24,6 +24,7 @@
       "Faction" : 1,
       "Fort" : 16,
       "GenericType" : 0,
+      "GicComment" : "MineExit",
       "HP" : 80,
       "Hardness" : 5,
       "Interruptable" : 1,
@@ -53,6 +54,7 @@
     }
   ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -70,6 +72,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Corpse - 1 (Low treasure script)",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 1,
@@ -81,10 +84,10 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
+      "OnClosed" : "destroy_if_empty",
       "OnDeath" : "nw_o2_generallow",
       "OnOpen" : "nw_o2_generallow",
       "OnUsed" : "destroy_if_empty",
-      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 468,
@@ -120,6 +123,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Corpse - 3 (Medium treasure script)",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 1,
@@ -131,10 +135,10 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
+      "OnClosed" : "destroy_if_empty",
       "OnDeath" : "nw_o2_generalmed",
       "OnOpen" : "nw_o2_generalmed",
       "OnUsed" : "destroy_if_empty",
-      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 470,
@@ -170,6 +174,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Corpse - 4 (High treasure script)",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 1,
@@ -181,10 +186,10 @@
       },
       "Lockable" : 0,
       "Locked" : 0,
+      "OnClosed" : "destroy_if_empty",
       "OnDeath" : "nw_o2_generalhig",
       "OnOpen" : "nw_o2_generalhig",
       "OnUsed" : "destroy_if_empty",
-      "OnClosed" : "destroy_if_empty",
       "OpenLockDC" : 18,
       "Plot" : 0,
       "PortraitId" : 471,
@@ -220,6 +225,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Bones",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -267,6 +273,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Bones",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -314,6 +321,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Bones",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -382,6 +390,7 @@
           "PointZ" : 0.025
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "",
@@ -417,6 +426,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "Back to the Forest",
@@ -433,6 +443,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "Tempt Waypoint",
@@ -449,6 +460,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : {
@@ -468,6 +480,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : {
@@ -487,6 +500,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : {
@@ -506,6 +520,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : {
@@ -525,6 +540,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : {
@@ -544,6 +560,7 @@
     {
       "Appearance" : 3,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : {
@@ -563,6 +580,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "Crinos Trap Waypoint",
@@ -579,6 +597,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "Crinos Trap Waypoint",

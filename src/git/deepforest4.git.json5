@@ -225,6 +225,7 @@
       "FirstName" : "<cÿÿ >Grokko",
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 70,
       "Int" : 10,
@@ -726,6 +727,7 @@
       "FirstName" : "<cÿÿ >Maynard",
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 50,
       "HitPoints" : 32,
       "Int" : 10,
@@ -1331,6 +1333,7 @@
       "FirstName" : "<cÿÿ >Elimae",
       "Fortbonus" : 0,
       "Gender" : 1,
+      "GicComment" : "",
       "GoodEvil" : 100,
       "HitPoints" : 36,
       "Int" : 17,
@@ -2644,6 +2647,7 @@
       "FirstName" : "<cÿÿ >Gillette",
       "Fortbonus" : 0,
       "Gender" : 0,
+      "GicComment" : "",
       "GoodEvil" : 100,
       "HitPoints" : 48,
       "Int" : 10,
@@ -2958,6 +2962,7 @@
   ],
   "DoorList" : [ ],
   "EncounterList" : [ ],
+  "GicList" : [ ],
   "List" : [ ],
   "PlaceableList" : [
     {
@@ -2975,6 +2980,7 @@
       "DisarmDC" : 15,
       "Faction" : 1,
       "Fort" : 16,
+      "GicComment" : "Campfire",
       "HP" : 15,
       "Hardness" : 5,
       "HasInventory" : 0,
@@ -3014,6 +3020,8 @@
       "Continuous" : 0,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 0,
       "IntervalVrtn" : 0,
@@ -3050,6 +3058,8 @@
       "Continuous" : 1,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 25000,
       "IntervalVrtn" : 5000,
@@ -3095,6 +3105,8 @@
       "Continuous" : 1,
       "Elevation" : 1.5,
       "GeneratedType" : 0,
+      "GicComment" : "",
+      "GicPlayInToolset" : 1,
       "Hours" : 0,
       "Interval" : 25000,
       "IntervalVrtn" : 5000,
@@ -3171,6 +3183,7 @@
           "PointZ" : 1.58773
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "WDFORESTX_2SDFORESTX",
@@ -3233,6 +3246,7 @@
           "PointZ" : 1.6438497
         }
       ],
+      "GicComment" : "",
       "HighlightHeight" : 0.0,
       "KeyName" : "",
       "LinkedTo" : "EDFORESTX_2SDFORESTX",
@@ -3268,6 +3282,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To the Eastern Area",
@@ -3284,6 +3299,7 @@
     {
       "Appearance" : 2,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 1,
       "LinkedTo" : "",
       "LocalizedName" : "To the Western Area",
@@ -3300,6 +3316,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "This is the default waypoint you may place to set a patrol path for a creature or NPC.\r\n1. Create the creature and either use its current Tag or fill in a new one.\r\n2. Place or make sure the WalkWayPoints() is within the body of the On Spawn script for the creature.\r\n3. Place a series of waypoints along the route you wish the creature to walk.\r\n4. Select all of the newly created waypoints and right click. Choose the Create Set option.\r\n5. The waypoint set will have a set name of \"WP_\" + NPC Tag. Thus if an NPC with the Tag \"Guard\" will have a waypoint set called \"WP_Guard\". Note that Tags are case sensitive.",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : "Cleared Waypoint",
@@ -3316,6 +3333,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : null,
@@ -3332,6 +3350,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : null,
@@ -3348,6 +3367,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : null,
@@ -3364,6 +3384,7 @@
     {
       "Appearance" : 4,
       "Description" : null,
+      "GicComment" : "",
       "HasMapNote" : 0,
       "LinkedTo" : "",
       "LocalizedName" : null,
