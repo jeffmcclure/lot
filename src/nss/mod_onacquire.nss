@@ -19,7 +19,7 @@ void main() {
             AssignCommand(oPC, DelayCommand(0.1, ActionGiveItem(oItem, oLostBy)));
         } else {
             // clear it so we can trade to other players
-            SetLocalString(oItem, "LIMIT_ACQUIRE", "");
+            DeleteLocalString(oItem, "LIMIT_ACQUIRE");
         }
     }
 }
