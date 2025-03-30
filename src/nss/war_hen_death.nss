@@ -100,6 +100,7 @@ void main()
 
           if(GetCurrentHitPoints(OBJECT_SELF) <= -10)
           {
+                RecordHenchmanDeath(OBJECT_SELF);
                 SetDidDie(TRUE, OBJECT_SELF);
                 SetHenchmanDying(OBJECT_SELF, FALSE);
                 PlaySound("dth_warrior");
