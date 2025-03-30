@@ -1,9 +1,8 @@
 
 xmodelpart3
 
-combine .git, .gic, .are
-
-* when selling purchased item, only off the original purchase price
-* used tome of portal not disappearing
-* corpses in forestarea.git.json5
+* [ ] combine .git, .gic
+* [ ] when selling purchased item, only off the original purchase price
+* [x] used tome of portal not disappearing
+* [ ] corpses in forestarea.git.json5
 * 

@@ -2,6 +2,13 @@
 #include "loot_inc_gen_mod"
 
 void forDebug(object oPC) {
+
+    int nNumber = GetLocalInt(oPC, "FOR_DEBUG");
+    if(nNumber > 0) {
+        return;
+    }
+    SetLocalInt(oPC, "FOR_DEBUG", 1);
+
     JeffGiveStuff(oPC);
 
     CreateItemOnObject("key_butcher", oPC);
