@@ -13,38 +13,37 @@
 # docker logs -f nwn_lot
 # docker attach nwn_lot
 
-
 # Input variables
 # LOT_LOCAL_IP
 # NWN_DIR
 
 case $(uname) in
-Darwin)
-  CMD_7Z=7zz
-  NWN_DIR="$HOME/.local/share/Neverwinter Nights"
-  #echo macOS
-  ;;
+    Darwin)
+        CMD_7Z=7zz
+        NWN_DIR="$HOME/.local/share/Neverwinter Nights"
+        #echo macOS
+        ;;
 
-Linux)
-  CMD_7Z=7z
-  NWN_DIR="$HOME/Documents/Neverwinter Nights"
-  #echo linux
-  ;;
+    Linux)
+        CMD_7Z=7z
+        NWN_DIR="$HOME/Documents/Neverwinter Nights"
+        #echo linux
+        ;;
 
-*)
-  echo other
-  exit
-  ;;
+    *)
+        echo other
+        exit
+        ;;
 esac
 
 which nwn_nwsync_write &>/dev/null
 if [ $? != 0 ]; then
-  echo nwn_nwsync_write not found in path
-  exit 1
+    echo nwn_nwsync_write not found in path
+    exit 1
 fi
 
 if [ -z "$LOT_LOCAL_IP" ]; then
-  LOT_LOCAL_IP=$(hostname -I | head | sed -rn 's/^([0-9.]+).*$/\1/p')
+    LOT_LOCAL_IP=$(hostname -I | head | sed -rn 's/^([0-9.]+).*$/\1/p')
 fi
 
 LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
@@ -52,89 +51,89 @@ DOWNLOADS=$HOME/Downloads
 LOT_VERSION="2.0.6"
 
 if [ -n "$ZSH_VERSINO" ]; then
-  LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
+    LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
 elif [ -n "$BASH" ]; then
-  LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION//./_}"
+    LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION//./_}"
 else
-  echo unknown shell
-  exit 1
+    echo unknown shell
+    exit 1
 fi
 
 if [ -z "$LOT_MOD_NAME" ]; then
-  echo LOT_MOD_NAME is blank
-  exit
+    echo LOT_MOD_NAME is blank
+    exit
 fi
 
 if [ -z "$LOT_DIR" ]; then
-	LOT_DIR=$HOME/lot
+    LOT_DIR=$HOME/lot
 fi
 
 function header {
-	figlet "$@"
+    figlet "$@"
 }
 
 function setup1 {
-	header "setup1"
-	mkdir "$LOT_DIR" 2>/dev/null
-	cd "$LOT_DIR" || exit 8
-	mkdir lot_docker webserver 2>/dev/null
-	cd lot_docker || exit 7
+    header "setup1"
+    mkdir "$LOT_DIR" 2>/dev/null
+    cd "$LOT_DIR" || exit 8
+    mkdir lot_docker webserver 2>/dev/null
+    cd lot_docker || exit 7
 
-	src="${NWN_DIR}/modules/${LOT_MOD_NAME}.mod"
-	if ! cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"; then
-		echo /bin/cp "$src" modules/
-		mkdir modules &>/dev/null
-		/bin/cp "$src" modules/ || exit 6
-	fi
+    src="${NWN_DIR}/modules/${LOT_MOD_NAME}.mod"
+    if ! cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"; then
+        echo /bin/cp "$src" modules/
+        mkdir modules &>/dev/null
+        /bin/cp "$src" modules/ || exit 6
+    fi
 }
 
 function supporting {
-	header "supporting"
-	cd ../lot_docker || exit 5
+    header "supporting"
+    cd ../lot_docker || exit 5
 
-	src="${NWN_DIR}/hak/lot2.hak"
-	if ! cmp --silent hak/lot2.hak "$src"; then
-		mkdir hak &>/dev/null
-		echo /bin/cp "$src" hak/
-		/bin/cp "$src" hak/ || exit 4
-	fi
+    src="${NWN_DIR}/hak/lot2.hak"
+    if ! cmp --silent hak/lot2.hak "$src"; then
+        mkdir hak &>/dev/null
+        echo /bin/cp "$src" hak/
+        /bin/cp "$src" hak/ || exit 4
+    fi
 
-	if [ ! -e hak/cep3_core3.hak ]; then
-		mkdir hak &>/dev/null
-		#F="${DOWNLOADS}/cep_3.1.1_releasec_0.7z"
-		F="${DOWNLOADS}/cep_3.1.2.7z"
-		if [ ! -e "$F" ]; then
-			echo "$F does not exist"
-			exit 1
-		fi
-		#$CMD_7Z x "${F}"
-		mkdir -p tlk
-		cd tlk || exit 3
-		$CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk
-		mkdir -p ../hak
-		cd ../hak || exit 2
-    $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak
-    cd ..
+    if [ ! -e hak/cep3_core3.hak ]; then
+        mkdir hak &>/dev/null
+        #F="${DOWNLOADS}/cep_3.1.1_releasec_0.7z"
+        F="${DOWNLOADS}/cep_3.1.2.7z"
+        if [ ! -e "$F" ]; then
+            echo "$F does not exist"
+            exit 1
+        fi
+        #$CMD_7Z x "${F}"
+        mkdir -p tlk
+        cd tlk || exit 3
+        $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk
+        mkdir -p ../hak
+        cd ../hak || exit 2
+        $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak
+        cd ..
 
-	fi
+    fi
 
 }
 
 function web {
-	header "web"
-	cd ../webserver || exit 11
+    header "web"
+    cd ../webserver || exit 11
 
-	echo stopping nwn_nginx
-	sudo docker stop nwn_nginx &>/dev/null
+    echo stopping nwn_nginx
+    sudo docker stop nwn_nginx &>/dev/null
 
-	echo removing nwn_nginx
-	sudo docker rm nwn_nginx &>/dev/null
+    echo removing nwn_nginx
+    sudo docker rm nwn_nginx &>/dev/null
 
-	echo creating nwn_nginx
-	#docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" abevoelker/docker-nginx: -c "${LOT_DIR}/nginx.conf"
-	#	docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/nginx.conf":/etc/nginx/nginx.conf:ro nginx
+    echo creating nwn_nginx
+    #docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" abevoelker/docker-nginx: -c "${LOT_DIR}/nginx.conf"
+    #	docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/nginx.conf":/etc/nginx/nginx.conf:ro nginx
 
-	cat <<EOF >../default.conf
+    cat <<EOF >../default.conf
 server {
     listen       80;
     listen  [::]:80;
@@ -151,16 +150,16 @@ server {
 }
 EOF
 
-	sudo docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/default.conf":/etc/nginx/conf.d/default.conf:ro nginx
+    sudo docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/default.conf":/etc/nginx/conf.d/default.conf:ro nginx
 }
 
 function nwn {
-	header "nwn"
-	echo LOT_PUBLIC_IP=$LOT_PUBLIC_IP
+    header "nwn"
+    echo LOT_PUBLIC_IP=$LOT_PUBLIC_IP
 
-	cd ../lot_docker || exit 10
-  #NWN_AUTOSAVEINTERVAL=15
-	cat <<EOF >env.txt
+    cd ../lot_docker || exit 10
+    #NWN_AUTOSAVEINTERVAL=15
+    cat <<EOF >env.txt
     NWN_ILR=0
     NWN_PORT=5121
     NWN_MODULE=${LOT_MOD_NAME}
@@ -171,13 +170,13 @@ function nwn {
     NWN_NWSYNCURL=http://${LOT_PUBLIC_IP}:8000
 EOF
 
-	echo stopping nwn_lot
-	sudo docker stop nwn_lot &>/dev/null
+    echo stopping nwn_lot
+    sudo docker stop nwn_lot &>/dev/null
 
-	echo removing nwn_lot
-	sudo docker rm nwn_lot &>/dev/null
+    echo removing nwn_lot
+    sudo docker rm nwn_lot &>/dev/null
 
-	echo creating nwn_lot
+    echo creating nwn_lot
 
     if [ -n "$OPT_I" ]; then
         OPT=
@@ -185,20 +184,20 @@ EOF
         OPT=d
     fi
 
-	#sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
-	echo sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
-	sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+    #sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
+    echo sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+    sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 }
 
 function nwsync {
-	header "nwsync"
-	cd ../lot_docker || exit 9
-	nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
+    header "nwsync"
+    cd ../lot_docker || exit 9
+    nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
 # if no parameters are passed, then use these
 if [ $# -eq 0 ]; then
-	set -- sync web nwn
+    set -- sync web nwn
 fi
 
 while [[ $# -gt 0 ]]; do
@@ -228,7 +227,6 @@ done
 setup1
 supporting
 
-
 if [ -n "$CMD_SYNC" ]; then
     nwsync
 fi
@@ -240,4 +238,3 @@ fi
 if [ -n "$CMD_NWN" ]; then
     nwn
 fi
-
