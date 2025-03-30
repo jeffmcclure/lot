@@ -7,7 +7,6 @@
 # This script has permissive/lazy/weak error handling so it can be run the first time and subsequently without failing or reporting errors
 # git clone https://github.com/niv/neverwinter.nim
 
-
 # docker ps
 # docker kill
 # docker logs nwn_lot
@@ -157,6 +156,8 @@ EOF
 
 function nwn {
 	header "nwn"
+	echo LOT_PUBLIC_IP=$LOT_PUBLIC_IP
+
 	cd ../lot_docker || exit 10
   #NWN_AUTOSAVEINTERVAL=15
 	cat <<EOF >env.txt
@@ -177,9 +178,16 @@ EOF
 	sudo docker rm nwn_lot &>/dev/null
 
 	echo creating nwn_lot
+
+    if [ -n "$OPT_I" ]; then
+        OPT=
+    else
+        OPT=d
+    fi
+
 	#sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
-	echo sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
-	sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+	echo sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+	sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 }
 
 function nwsync {
@@ -193,38 +201,43 @@ if [ $# -eq 0 ]; then
 	set -- sync web nwn
 fi
 
-# pre check options
-for i in "$@"; do
-	case $i in
-
-	web|nwn|sync)
-		;;
-
-  *)
-    echo unknown option $i
-    exit 1
-    ;;
-
-	esac
+while [[ $# -gt 0 ]]; do
+    key="$1"
+    case "$key" in
+        -i)
+            OPT_I=1
+            ;;
+        web)
+            CMD_WEB=1
+            ;;
+        nwn)
+            CMD_NWN=1
+            ;;
+        sync)
+            CMD_SYNC=1
+            ;;
+        *)
+            # Handle unknown options or non-option arguments
+            echo "Unknown option: $1"
+            exit
+            ;;
+    esac
+    shift # Remove processed argument
 done
 
 setup1
 supporting
 
-for i in "$@"; do
-	case $i in
 
-	web)
-		web
-		;;
+if [ -n "$CMD_SYNC" ]; then
+    nwsync
+fi
 
-	nwn)
-		nwn
-		;;
+if [ -n "$CMD_WEB" ]; then
+    web
+fi
 
-	sync)
-		nwsync
-		;;
+if [ -n "$CMD_NWN" ]; then
+    nwn
+fi
 
-	esac
-done
