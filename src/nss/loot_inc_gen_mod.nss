@@ -80,7 +80,7 @@ object CreateLoot(string sItemTemplate, object oContainer, object oPC, int nStac
             SetLocalInt(oContainer, "JEFF_LOOT", 1);
             treasure = CreateItemOnObject(sItemTemplate, oContainer, nStackSize);
             // if party loot system
-            SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
+            // SetLocalString(treasure, "LIMIT_ACQUIRE", charName);
             SetLocalInt(treasure, "JEFF_LOOT", 1);
         }
     }
@@ -4469,9 +4469,9 @@ void GenerateTreasure(int nTreasureType, object oLastOpener, object oCreateOn, s
       dbSpeak("other stuff");
 
       //MessageAll("limitAcquire='" + limitAcquire + "'");
-      if (limitAcquire != "") {
-        SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
-      }
+      //if (limitAcquire != "") {
+        //SetLocalString(treasure, "LIMIT_ACQUIRE", limitAcquire);
+      //}
    }
 }
 

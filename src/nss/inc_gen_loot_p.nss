@@ -6,7 +6,7 @@ void GenLootForEachPlayer(string lootResRef, object targetContainer) {
         SendMessageToPC(oPC, "charName='" + charName + "'");
         object newLoot = CreateItemOnObject(lootResRef, targetContainer);
         SetIdentified(newLoot, TRUE);
-        SetLocalString(newLoot, "LIMIT_ACQUIRE", charName);
+        //SetLocalString(newLoot, "LIMIT_ACQUIRE", charName);
         oMember = GetNextFactionMember(oPC, TRUE);
     }
 }
