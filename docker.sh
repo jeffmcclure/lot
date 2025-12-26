@@ -18,20 +18,20 @@
 # NWN_DIR
 
 case $(uname) in
-    Darwin)
+    Darwin|Linux)
         CMD_7Z=7zz
         NWN_DIR="$HOME/.local/share/Neverwinter Nights"
         #echo macOS
         ;;
 
-    Linux)
-        CMD_7Z=7z
-        NWN_DIR="$HOME/Documents/Neverwinter Nights"
-        #echo linux
-        ;;
+    #Linux)
+        #CMD_7Z=7z
+        #NWN_DIR="$HOME/Documents/Neverwinter Nights"
+        ##echo linux
+        #;;
 
     *)
-        echo other
+        echo other uname=$(uname)
         exit
         ;;
 esac
@@ -43,14 +43,17 @@ if [ $? != 0 ]; then
 fi
 
 if [ -z "$LOT_LOCAL_IP" ]; then
-    LOT_LOCAL_IP=$(hostname -I | head | sed -rn 's/^([0-9.]+).*$/\1/p')
+    #LOT_LOCAL_IP=$(hostname -I | head | sed -rn 's/^([0-9.]+).*$/\1/p')
+    LOT_LOCAL_IP=$(hostname -I | awk 'NR==1 { print $1;exit }')
 fi
 
 LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
+#LOT_PUBLIC_IP=$LOT_LOCAL_IP
+
 DOWNLOADS=$HOME/Downloads
 LOT_VERSION="2.0.6"
 
-if [ -n "$ZSH_VERSINO" ]; then
+if [ -n "$ZSH_VERSION" ]; then
     LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
 elif [ -n "$BASH" ]; then
     LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION//./_}"
