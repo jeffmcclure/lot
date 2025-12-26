@@ -31,7 +31,7 @@ case $(uname) in
         #;;
 
     *)
-        echo other uname=$(uname)
+        echo other uname="$(uname)"
         exit
         ;;
 esac
