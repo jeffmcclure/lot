@@ -1,14 +1,6 @@
-#include "inc_party"
-int StartingConditional()
-{
-object oPC = GetPCSpeaker();
+int StartingConditional() {
+    object oPC = GetPCSpeaker();
 
-int nInt;
-nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_BUTCHER");
-
-if (!(nInt < 1))
-   return FALSE;
-
-return TRUE;
+    // read from user, not party
+    return GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_BUTCHER") < 1;
 }
-

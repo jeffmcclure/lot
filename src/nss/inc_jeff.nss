@@ -30,6 +30,29 @@ int hasItem2(object oPC, string itemTag) {
     return FALSE;
 }
 
+// will not create duplicate if party member already has the item
+void JeffCreateObjectOnAllPartyMembers(
+    string sItemTemplate,
+    int nStackSize = 1,
+    string sNewTag = "",
+    int bIdentified = TRUE,
+    int bPlotFlag = FALSE)
+{
+    object oPC = GetPCSpeaker();
+    object oMember=GetFirstFactionMember(oPC, TRUE);
+    //if (sNewTag == "") sNewTag = sItemTemplate;
+
+    while (GetIsObjectValid(oMember)) {
+        if (HasItem(oPC, sNewTag) == FALSE) {
+            object obj = CreateItemOnObject(sItemTemplate, oMember, nStackSize, sNewTag);
+            SetIdentified(obj, bIdentified);
+            SetPlotFlag(obj, bPlotFlag);  // if true set resale value to zero
+            //DelayCommand(0.5, AssignCommand(oMember, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));
+        }
+        oMember=GetNextFactionMember(oPC, TRUE);
+    }
+}
+
 void JeffGiveStuff(object oPC) {
     if (!GetIsPC(oPC)) return;
 
@@ -53,27 +76,8 @@ void JeffGiveStuff(object oPC) {
      * Rectory Key
      */
     object door = GetObjectByTag("InsideRectoryDoor");
-    if (GetIsObjectValid(door) && GetLocked(door) && !HasItem(oPC, "KEY_RECTORY_INSIDE")) {
-        CreateItemOnObject("rectorykey", oPC);
-    }
-}
-
-void JeffCreateObjectOnAllPartyMembers(
-    string sItemTemplate,
-    int nStackSize = 1,
-    string sNewTag = "",
-    int bIdentified = TRUE,
-    int bPlotFlag = FALSE)
-{
-    object oPC = GetPCSpeaker();
-    object oMember=GetFirstFactionMember(oPC, TRUE);
-
-    while (GetIsObjectValid(oMember)) {
-        object obj = CreateItemOnObject(sItemTemplate, oMember, nStackSize, sNewTag);
-        SetIdentified(obj, bIdentified);
-        SetPlotFlag(obj, bPlotFlag);  // if true set resale value to zero
-        //DelayCommand(0.5, AssignCommand(oMember, ActionEquipItem(obj, INVENTORY_SLOT_CLOAK)));
-        oMember=GetNextFactionMember(oPC, TRUE);
+    if (GetIsObjectValid(door) && GetLocked(door) && !HasItem(oPC, "KEY_RECTORY_INS")) {
+        JeffCreateObjectOnAllPartyMembers("key_rectory_ins", 1, "", TRUE, TRUE);
     }
 }
 
