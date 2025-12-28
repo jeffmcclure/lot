@@ -24,10 +24,9 @@ void OldAcquaintance(object obj) {
         ) {
         object oPC=GetPCSpeaker();
 
-        // only once per NPC
-        if (GetLocalInt(obj, "OLD_ACQUAINTANCE") == 0) {
-            SetLocalInt(obj, "OLD_ACQUAINTANCE", 1);
+            // may run multiple times per NPC so ensure it handles this case properly
 
+            // get or create global people json
             json people = GetLocalJson(GetModule(), "CUSTOM30001");
             if (JSON_TYPE_NULL == JsonGetType(people)) {
                 people = JsonParse("[\"Adria\", \"Cain\", \"Deese\", \"Farnham\", \"Garda\", \"Gillian\", \"Griswold\", \"Lester\", \"Gillian's Grandmother\", \"Remy\", \"TheeMon\", \"Ogden\", \"Pepin\", \"Tremayne\", \"Wirt\", \"The Cow\"]");
@@ -48,6 +47,7 @@ void OldAcquaintance(object obj) {
                 }
             }
 
+            // generate list of people remaining for us to speak with for use in the journal entry
             string remain = StringReplace(JsonDump(people), "\"", "");
             remain = StringReplace(remain, ",", ", ");
             remain = GetSubString(remain, 1, GetStringLength(remain) - 2);
@@ -65,18 +65,9 @@ void OldAcquaintance(object obj) {
                 SetCustomToken(30000, msg);
 
                 // need to remove and re-add so the custom token is re-generated into journal log entry
-                RemoveJournalQuestEntry("QST_OLD_ACQUAINTANCE", oPC, TRUE); // give to party
+                RemoveJournalQuestEntry("QST_OLD_ACQUAINTANCE", oPC, TRUE); // remove from party
                 AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", 1, oPC, TRUE); // give to party
                 //SendMessageToPC(GetFirstPC(), "msg:" + msg);
             }
-        } else {
-            // if player is missing quest, then copy from another player
-            if (GetLocalInt(oPC, "NW_JOURNAL_ENTRYQST_OLD_ACQUAINTANCE") < 1) {
-                int cur = GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_OLD_ACQUAINTANCE");
-                if (cur > 0) {
-                    AddJournalQuestEntry("QST_OLD_ACQUAINTANCE", cur, oPC, FALSE); // add to me only.  others already have
-                }
-            }
-        }
     }
 }
