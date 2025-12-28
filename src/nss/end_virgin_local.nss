@@ -5,7 +5,8 @@
 void main() {
     object oPC=GetPCSpeaker();
 
-    string sTag=GetTag(OBJECT_SELF); // OBJECT_SELF is the NPC we are talking to; GetTag() returns "NPC_THEEMON" for example
+    // OBJECT_SELF is the NPC we are talking to; GetTag() returns "NPC_THEEMON" for example
+    string sTag=GetTag(OBJECT_SELF);
 
     if (GetLocalInt(oPC, sTag) == 1) return; // ensure we only process this once
 
