@@ -8,35 +8,32 @@ void main() {
     DestroyAllByTag("KEY_BUTCHER");
 
     object oPC = GetLastOpenedBy();
-    if (!GetIsPC(oPC)) return;
-    //SendMessageToPC(GetFirstPC(), "trg_spawnbutcher 2");
+    if (!GetIsPC(oPC))
+        oPC = GetFirstPC(); // this should not happen
 
     int nInt=GetPartyInt(oPC, "NW_JOURNAL_ENTRYQST_BUTCHER");
-    if (!(nInt >= 1))
-        return;
-    //SendMessageToPC(GetFirstPC(), "trg_spawnbutcher 3");
+    if (nInt >= 2) return; // quest already active or done
 
-    nInt=GetPartyInt(oPC, "butcher");
-    if (!(nInt == 0))
-        return;
-    //SendMessageToPC(GetFirstPC(), "trg_spawnbutcher 4");
-
-    SetPartyInt(oPC, "butcher", 1);
+    AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE); // the butcher is out
 
     object oTarget = GetObjectByTag("SND_FRESHMEAT");
     AssignCommand(oTarget, ActionStartConversation(oPC, "con_butcher"));
 
     location lTarget = GetLocation(GetWaypointByTag("WP_BUTCHER"));
+    object oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
 
-    object oMember=GetFirstFactionMember(oPC, TRUE);
-    //SendMessageToPC(GetFirstPC(), "trg_spawnbutcher 5");
-    while (GetIsObjectValid(oMember)) {
-    //SendMessageToPC(GetFirstPC(), "trg_spawnbutcher 6");
-        object oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
-        SetLocalString(oSpawn, "LIMIT_ACQUIRE", GetName(oMember));
-        SetIsTemporaryEnemy(oPC, oSpawn);
-        AssignCommand(oSpawn, ActionAttack(oPC));
-        AssignCommand(oSpawn, DetermineCombatRound(oPC));
-        oMember=GetNextFactionMember(oPC, TRUE);
-    }
+    SetLocalString(oSpawn, "LIMIT_ACQUIRE", GetName(oPC));
+    SetIsTemporaryEnemy(oPC, oSpawn);
+    AssignCommand(oSpawn, ActionAttack(oPC));
+    AssignCommand(oSpawn, DetermineCombatRound(oPC));
+
+    //object oMember=GetFirstFactionMember(oPC, TRUE);
+    //while (GetIsObjectValid(oMember)) {
+    //    object oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
+    //    SetLocalString(oSpawn, "LIMIT_ACQUIRE", GetName(oMember));
+    //    SetIsTemporaryEnemy(oPC, oSpawn);
+    //    AssignCommand(oSpawn, ActionAttack(oPC));
+    //    AssignCommand(oSpawn, DetermineCombatRound(oPC));
+    //    oMember=GetNextFactionMember(oPC, TRUE);
+    //}
 }

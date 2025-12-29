@@ -151,7 +151,8 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    //forDebug(oPC);
+    forDebug(oPC);
+
     //levelUp(oPC);
     //equipment(oPC);
     //CreateItemOnObject("key_rectory_ins", oPC);

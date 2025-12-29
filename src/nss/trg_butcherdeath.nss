@@ -16,7 +16,7 @@ void main() {
         oMember = GetNextFactionMember(oPC, TRUE);
     }
 
-    AddJournalQuestEntry("QST_BUTCHER", 2, oPC, TRUE, FALSE);
+    AddJournalQuestEntry("QST_BUTCHER", 3, oPC, TRUE, FALSE);
 
     DestroyObject(GetObjectByTag("D1_WOUNDEDMAN"), 0.0);
     DestroyObject(GetObjectByTag("BUTCHER_BLOOD"), 0.0);
