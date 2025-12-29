@@ -152,12 +152,14 @@ void main() {
 
     // for debug testing
     //forDebug(oPC);
-    levelUp(oPC);
-    equipment(oPC);
-    CreateItemOnObject("key_rectory_ins", oPC);
-    CreateItemOnObject("key_rectory_ins", oPC);
-    CreateItemOnObject("key_rectory_outs", oPC); // rectory outdoor key
-    CreateItemOnObject("key_rectory_outs", oPC); // rectory outdoor key
+    //levelUp(oPC);
+    //equipment(oPC);
+    //CreateItemOnObject("key_rectory_ins", oPC);
+    //CreateItemOnObject("key_rectory_ins", oPC);
+    //CreateItemOnObject("key_rectory_ins", oPC);
+    //CreateItemOnObject("key_rectory_outs", oPC); // rectory outdoor key
+    //CreateItemOnObject("key_rectory_outs", oPC); // rectory outdoor key
+    //CreateItemOnObject("key_rectory_outs", oPC); // rectory outdoor key
 
     string msg = "Welcome to Tolitz Rosel's \"The Lord of Terror\" version 2.0.6 with enhancements by Jeff McClure\n";
     // Send welcome message to joining player

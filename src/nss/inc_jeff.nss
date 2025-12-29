@@ -84,11 +84,18 @@ void JeffGiveStuff(object oPC) {
 void DestroyAllByTag(string sTag) {
     object oPC = GetFirstPC();
     object oMember = GetFirstFactionMember(oPC, TRUE);
+
+    // This algorithm supports destroying all matching even if a PC has multiple
+    // using GetItemPossessedBy() will not allow destruction of multiple
     while (GetIsObjectValid(oMember)) {
-        object oTarget = GetItemPossessedBy(oMember, sTag);
-        if (GetIsObjectValid(oTarget)) {
-            DestroyObject(oTarget, 0.5);
+        object oItem = GetFirstItemInInventory(oMember);
+        while (GetIsObjectValid(oItem)) {
+            if (GetTag(oItem) == sTag) {
+                DestroyObject(oItem, 0.5);
+            }
+            oItem = GetNextItemInInventory(oMember);
         }
+
         oMember = GetNextFactionMember(oPC, TRUE);
     }
 }
