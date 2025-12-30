@@ -22,7 +22,7 @@ void main() {
     location lTarget = GetLocation(GetWaypointByTag("WP_BUTCHER"));
     object oSpawn = CreateObject(OBJECT_TYPE_CREATURE, "butcher001", lTarget);
 
-    SetLocalString(oSpawn, "LIMIT_ACQUIRE", GetName(oPC));
+    //SetLocalString(oSpawn, "LIMIT_ACQUIRE", GetName(oPC));
     SetIsTemporaryEnemy(oPC, oSpawn);
     AssignCommand(oSpawn, ActionAttack(oPC));
     AssignCommand(oSpawn, DetermineCombatRound(oPC));
