@@ -45,15 +45,34 @@ while [[ $# -gt 0 ]]; do
         -l|--local)
             echo local
             OPT_LOCAL=1
-            shift # Remove processed switch
             ;;
         -i|--interactive)
             OPT_I=1
-            shift # Remove processed switch
             ;;
+         web)
+             CMD_WEB=1
+             ;;
+         nwn)
+             CMD_NWN=1
+             ;;
+         sync)
+             CMD_SYNC=1
+             ;;
+         *)
+             # Handle unknown options or non-option arguments
+             echo "Unknown option: $1"
+             exit 1
+             ;;
     esac
+    shift # Remove processed switch
 done
 
+# if no commands are set then set all
+if [[ -z "$CMD_SYNC" && -z "$CMD_WEB" && -z "$CMD_NWN" ]]; then
+    CMD_SYNC=1
+    CMD_WEB=1
+    CMD_NWN=1
+fi
 
 case $(uname) in
     Darwin)
@@ -239,36 +258,6 @@ function nwsync {
     nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
-
-
-# if no parameters are passed, then use these
-if [ $# -eq 0 ]; then
-    echo no args
-    set -- sync web nwn
-fi
-
-
-# process commands
-while [[ $# -gt 0 ]]; do
-    key="$1"
-    case "$key" in
-        web)
-            CMD_WEB=1
-            ;;
-        nwn)
-            CMD_NWN=1
-            ;;
-        sync)
-            CMD_SYNC=1
-            ;;
-        *)
-            # Handle unknown options or non-option arguments
-            echo "Unknown option: $1"
-            exit
-            ;;
-    esac
-    shift # Remove processed argument
-done
 
 setup1
 supporting
