@@ -64,7 +64,7 @@ case $(uname) in
 
     Linux)
         CMD_7Z=7z
-        NWN_DIR="$HOME/Documents/Neverwinter Nights"
+        NWN_DIR="$HOME/.local/share/Neverwinter Nights"
         #echo linux
         ;;
 
