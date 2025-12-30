@@ -19,13 +19,19 @@
 
 
 function help {
-    #echo Usage: sb [OPTION]
+    echo Usage: docker.sh [OPTION] [COMMAND]
     #echo Start, stop or monitor bitcoind
-    #echo
-    #echo If no options are provided start bitcoind if it is not already running.  If bitcoin is already running show PID and end of log file.
     echo
+    echo "If no options are provided same 'docker.sh sync web nwn'"
+    echo
+    echo 'OPTIONS'
     echo '  -l,--local        use local ip address'
     echo '  -i,--interactive  run docker interactively'
+    echo
+    echo 'COMMANDS'
+    echo '  nwn               stop, create and start nwn docker process'
+    echo '  web               stop, create, start web server process'
+    echo '  sync              synchronize files for client download via nwsync'
     exit
 }
 
