@@ -17,6 +17,38 @@
 # LOT_LOCAL_IP
 # NWN_DIR
 
+
+function help {
+    #echo Usage: sb [OPTION]
+    #echo Start, stop or monitor bitcoind
+    #echo
+    #echo If no options are provided start bitcoind if it is not already running.  If bitcoin is already running show PID and end of log file.
+    echo
+    echo '  -l,--local        use local ip address'
+    echo '  -i,--interactive  run docker interactively'
+    exit
+}
+
+# process options/switches
+while [[ $# -gt 0 ]]; do
+    key="$1"
+    case "$key" in
+        -h|--help)
+            help
+            ;;
+        -l|--local)
+            echo local
+            OPT_LOCAL=1
+            shift # Remove processed switch
+            ;;
+        -i|--interactive)
+            OPT_I=1
+            shift # Remove processed switch
+            ;;
+    esac
+done
+
+
 case $(uname) in
     Darwin|Linux)
         CMD_7Z=7zz
@@ -47,8 +79,11 @@ if [ -z "$LOT_LOCAL_IP" ]; then
     LOT_LOCAL_IP=$(hostname -I | awk 'NR==1 { print $1;exit }')
 fi
 
-LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
-#LOT_PUBLIC_IP=$LOT_LOCAL_IP
+if [ -n "$OPT_LOCAL" ]; then
+    LOT_PUBLIC_IP=$LOT_LOCAL_IP
+else
+    LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
+fi
 
 DOWNLOADS=$HOME/Downloads
 LOT_VERSION="2.0.6"
@@ -127,10 +162,10 @@ function web {
     cd ../webserver || exit 11
 
     echo stopping nwn_nginx
-    sudo docker stop nwn_nginx &>/dev/null
+    docker stop nwn_nginx &>/dev/null
 
     echo removing nwn_nginx
-    sudo docker rm nwn_nginx &>/dev/null
+    docker rm nwn_nginx &>/dev/null
 
     echo creating nwn_nginx
     #docker xrun -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" abevoelker/docker-nginx: -c "${LOT_DIR}/nginx.conf"
@@ -153,7 +188,7 @@ server {
 }
 EOF
 
-    sudo docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/default.conf":/etc/nginx/conf.d/default.conf:ro nginx
+    docker run -dit -p "${LOT_LOCAL_IP}:8000:80" --name nwn_nginx -v "$(pwd):/usr/share/nginx/html" -v "${LOT_DIR}/default.conf":/etc/nginx/conf.d/default.conf:ro nginx
 }
 
 function nwn {
@@ -174,10 +209,10 @@ function nwn {
 EOF
 
     echo stopping nwn_lot
-    sudo docker stop nwn_lot &>/dev/null
+    docker stop nwn_lot &>/dev/null
 
     echo removing nwn_lot
-    sudo docker rm nwn_lot &>/dev/null
+    docker rm nwn_lot &>/dev/null
 
     echo creating nwn_lot
 
@@ -187,9 +222,9 @@ EOF
         OPT=d
     fi
 
-    #sudo docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
-    echo sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
-    sudo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+    #docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
+    echo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+    docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 }
 
 function nwsync {
@@ -198,17 +233,19 @@ function nwsync {
     nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
 }
 
+
+
 # if no parameters are passed, then use these
 if [ $# -eq 0 ]; then
+    echo no args
     set -- sync web nwn
 fi
 
+
+# process commands
 while [[ $# -gt 0 ]]; do
     key="$1"
     case "$key" in
-        -i)
-            OPT_I=1
-            ;;
         web)
             CMD_WEB=1
             ;;
