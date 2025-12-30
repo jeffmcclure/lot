@@ -8,9 +8,9 @@ void main() {
 
     object oMember = GetFirstFactionMember(oPC, TRUE);
     while (GetIsObjectValid(oMember)) {
-        if (GetName(oMember) == limitAcquire) {
-            CreateLoot("butcherscleaver", oChest, oMember);
-        }
+        //if (GetName(oMember) == limitAcquire) {
+        //    CreateLoot("butcherscleaver", oChest, oMember);
+        //}
         AssignCommand(oMember, ActionSpeakString("The spirits of the dead are now avenged..."));
         GiveXPToCreature(oMember, 750);
         oMember = GetNextFactionMember(oPC, TRUE);

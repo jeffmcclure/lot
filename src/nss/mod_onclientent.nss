@@ -3,13 +3,14 @@
 #include "loot_inc_gen_mod"
 
 void levelUp(object oPC) {
-    int grant = 16000 - GetXP(oPC);
+    //int grant = 16000 - GetXP(oPC);
+    int grant = 28000 - GetXP(oPC);
     if (grant > 0)
         GiveXPToCreature(oPC, grant);
 }
 
 void equipment(object oPC) {
-    CreateItemOnObject("lootgenie", oPC);   // loot genie
+    //CreateItemOnObject("lootgenie", oPC);   // loot genie
     object obj;
     obj = CreateItemOnObject("it_mneck026", oPC); // natural armor +1
     SetIdentified(obj,TRUE);
@@ -69,6 +70,14 @@ void forDebug(object oPC) {
 
     CreateItemOnObject("nw_it_book011", oPC); // Tome of identify
     CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
+    CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
+    CreateItemOnObject("nw_it_book021", oPC); // Tome of healing
+    CreateItemOnObject("nw_it_mpotion012", oPC); // Potion of heal
+    CreateItemOnObject("nw_it_mpotion003", oPC); // Potion of Cure Critical Wounds
+    CreateItemOnObject("nw_it_mpotion015", oPC); // Potion of Bull's Strength
+    CreateItemOnObject("nw_it_mpotion016", oPC); // Potion of Aid
+    CreateItemOnObject("nw_it_mpotion005", oPC); // Potion of Barkskin
+    CreateItemOnObject("nw_it_mpotion009", oPC); // Potion of Bless
     CreateItemOnObject("nw_it_book031", oPC); // apocalypse
 
     obj = CreateItemOnObject("cloakoffastfe", oPC, 1, "cloakoffastfe"); // Cloak of Fast Feet
@@ -151,7 +160,7 @@ void main() {
     object oPC = GetEnteringObject();
 
     // for debug testing
-    forDebug(oPC);
+    //forDebug(oPC);
 
     //levelUp(oPC);
     //equipment(oPC);
