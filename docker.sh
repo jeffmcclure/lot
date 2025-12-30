@@ -56,17 +56,17 @@ done
 
 
 case $(uname) in
-    Darwin|Linux)
+    Darwin)
         CMD_7Z=7zz
         NWN_DIR="$HOME/.local/share/Neverwinter Nights"
         #echo macOS
         ;;
 
-    #Linux)
-        #CMD_7Z=7z
-        #NWN_DIR="$HOME/Documents/Neverwinter Nights"
-        ##echo linux
-        #;;
+    Linux)
+        CMD_7Z=7z
+        NWN_DIR="$HOME/Documents/Neverwinter Nights"
+        #echo linux
+        ;;
 
     *)
         echo other uname="$(uname)"
@@ -153,10 +153,10 @@ function supporting {
         #$CMD_7Z x "${F}"
         mkdir -p tlk
         cd tlk || exit 3
-        $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk
+        $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk || { echo "7zip failed"; exit 1; }
         mkdir -p ../hak
         cd ../hak || exit 2
-        $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak
+        $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak || { echo "7zip failed"; exit 1; }
         cd ..
 
     fi
