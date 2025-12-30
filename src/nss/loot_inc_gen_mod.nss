@@ -1,6 +1,7 @@
 #include "loot_inc_data"
 #include "inc_jeff"
 #include "x0_i0_corpses"
+#include "x0_i0_partywide"
 
 int IsStackable(string resref);
 int IsGold(string resref);
@@ -4725,10 +4726,19 @@ void TreasureChest(int nTreasureType, object oCreateOn = OBJECT_SELF) {
     SetLocalInt(OBJECT_SELF, "NW_DO_ONCE", 1);
 
     object oLastOpener = GetLastOpenerOrKiller();
+
+    int partyMembers = GetNumberPartyMembers(oLastOpener);
+    int partyMemberNumber = Random(partyMembers);
+
     object oMember = GetFirstFactionMember(oLastOpener, TRUE);
 
+    int count = 0;
     while (GetIsObjectValid(oMember)) {
-      GenTreasure(nTreasureType, oCreateOn, oMember);
+      if (count == partyMemberNumber) {
+        GenTreasure(nTreasureType, oCreateOn, oMember);
+        break;
+      }
+      count++;
       oMember = GetNextFactionMember(oLastOpener, TRUE);
     }
 }
