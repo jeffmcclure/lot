@@ -107,11 +107,7 @@ if [[ -z "$CMD_SYNC" && -z "$CMD_WEB" && -z "$CMD_NWN" ]]; then
     CMD_NWN=1
 fi
 
-which nwn_nwsync_write &>/dev/null
-if [ $? != 0 ]; then
-    echo nwn_nwsync_write not found in path
-    exit 1
-fi
+which nwn_nwsync_write || { echo "nwn_nwsync_write not found in path"; exit 1; }
 
 if [ -z "$LOT_LOCAL_IP" ]; then
     #LOT_LOCAL_IP=$(hostname -I | head | sed -rn 's/^([0-9.]+).*$/\1/p')
@@ -124,7 +120,7 @@ else
     NWN_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
 fi
 
-DOWNLOADS=$HOME/Downloads
+DOWNLOADS="$HOME/Downloads"
 LOT_VERSION="2.0.6"
 
 if [ -z "$MODULE_NAME" ]; then
@@ -138,10 +134,7 @@ if [ -z "$MODULE_NAME" ]; then
     fi
 fi
 
-if [ -z "$MODULE_NAME" ]; then
-    echo MODULE_NAME is blank
-    exit
-fi
+[ -n "$MODULE_NAME" ] || { echo "MODULE_NAME is blank"; exit 1; }
 
 if [ -z "$LOT_DIR" ]; then
     LOT_DIR=$HOME/lot
