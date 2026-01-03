@@ -227,7 +227,7 @@ EOF
 
 function nwn {
     header "nwn"
-    echo LOT_PUBLIC_IP=$LOT_PUBLIC_IP
+    echo LOT_PUBLIC_IP="$LOT_PUBLIC_IP"
 
     cd ../lot_docker || exit 10
     #NWN_AUTOSAVEINTERVAL=15
@@ -258,7 +258,7 @@ EOF
 
     #docker run --platform linux/amd64 -dit -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:build8193.37.14
     echo docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
-    docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
+    docker run --platform linux/amd64 "-${OPT}it" -p 5121:5121/udp -p 5120:5120/udp -p 6500:6500/udp --name nwn_lot -v "$(pwd):/nwn/home" --env-file=env.txt nwnxee/unified:latest
 }
 
 function nwsync {
