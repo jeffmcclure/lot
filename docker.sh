@@ -197,6 +197,8 @@ function supporting {
         cd ..
     fi
 
+    [ -f "modules/Eye of the Beholder.mod" ] || { echo "eob module missing"; exit 1; }
+
     if [ ! -e hak/cep3_core3.hak ]; then
         F="${DOWNLOADS}/cep_3.1.2.7z"
         [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
