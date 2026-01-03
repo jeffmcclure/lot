@@ -76,6 +76,12 @@ while [[ $# -gt 0 ]]; do
     sync)
         CMD_SYNC=1
         ;;
+    "Eye of the Beholder")
+        MODULE_NAME="$key"
+        ;;
+    "Eye of the Beholder.mod")
+        MODULE_NAME="${key%.*}"
+        ;;
     *)
         if [ -e "$key" ]; then
             MODULE_NAME=$(basename "$key")
