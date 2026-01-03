@@ -113,9 +113,9 @@ if [ -z "$LOT_LOCAL_IP" ]; then
 fi
 
 if [ -n "$OPT_LOCAL" ]; then
-    LOT_PUBLIC_IP=$LOT_LOCAL_IP
+    NWN_PUBLIC_IP=$LOT_LOCAL_IP
 else
-    LOT_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
+    NWN_PUBLIC_IP=$(curl ifconfig.me 2>/dev/null)
 fi
 
 DOWNLOADS=$HOME/Downloads
@@ -177,11 +177,20 @@ function supporting {
         $CMD_7Z x "${F}" || { echo "7zip failed for $F"; exit 1; }
     fi
 
+    if [ ! -e "modules/Eye of the Beholder.mod" ]; then
+        F="${DOWNLOADS}/eye_of_the_beholder_v6.7.zip"
+        [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
+        mkdir -p modules || { echo "error mkdir -p modules"; exit 1; }
+        cd modules || { echo "error cd modules"; exit 1; }
+        $CMD_7Z e "${F}" || { echo "7zip failed for $F"; exit 1; }
+        cd ..
+    fi
+
     if [ ! -e hak/cep3_core3.hak ]; then
         F="${DOWNLOADS}/cep_3.1.2.7z"
         [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
-        mkdir -p tlk || { echo "error mkdir tlk"; exit 1; }
-        cd tlk || exit 3
+        mkdir -p tlk || { echo "error mkdir -p tlk"; exit 1; }
+        cd tlk || { echo "error cd tlk"; exit 1; }
         $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk || { echo "7zip failed for $F"; exit 1; }
         mkdir -p ../hak || { echo "error creating hak" exit 1; }
         cd ../hak || { echo "error cd ../hak" ; exit 2; }
@@ -227,7 +236,7 @@ EOF
 
 function nwn {
     header "nwn"
-    echo LOT_PUBLIC_IP="$LOT_PUBLIC_IP"
+    echo NWN_PUBLIC_IP="$NWN_PUBLIC_IP"
 
     cd ../lot_docker || exit 10
     #NWN_AUTOSAVEINTERVAL=15
@@ -239,7 +248,7 @@ function nwn {
     NWN_SERVERNAME="${MODULE_NAME}"
     NWN_ONEPARTY=1
     NWN_DIFFICULTY=3
-    NWN_NWSYNCURL=http://${LOT_PUBLIC_IP}:8000
+    NWN_NWSYNCURL=http://${NWN_PUBLIC_IP}:8000
 EOF
 
     echo stopping nwn_lot
