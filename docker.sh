@@ -282,8 +282,8 @@ function nwsync {
     nwn_nwsync_write --limit-file-size 30 --description="$MODULE_NAME" ../webserver modules/"${MODULE_NAME}".mod
 }
 
-setup1
 supporting
+setup1
 
 if [ -n "$CMD_SYNC" ]; then
     nwsync
