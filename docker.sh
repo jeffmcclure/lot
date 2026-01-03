@@ -17,10 +17,9 @@
 # LOT_LOCAL_IP
 # NWN_DIR
 
-
 function help {
-    echo Usage: docker.sh [OPTION] [COMMAND]
-    #echo Start, stop or monitor bitcoind
+    echo "Usage: docker.sh [OPTION] [COMMAND]"
+    echo "Manage docker config for Neverwinter Nights"
     echo
     echo "If no options are provided same 'docker.sh sync web nwn'"
     echo
@@ -35,34 +34,62 @@ function help {
     exit
 }
 
+case $(uname) in
+Darwin)
+    CMD_7Z=7zz
+    NWN_DIR="$HOME/.local/share/Neverwinter Nights"
+    #echo macOS
+    ;;
+
+Linux)
+    CMD_7Z=7z
+    NWN_DIR="$HOME/.local/share/Neverwinter Nights"
+    #echo linux
+    ;;
+
+*)
+    echo other uname="$(uname)"
+    exit
+    ;;
+esac
+
 # process options/switches
 while [[ $# -gt 0 ]]; do
     key="$1"
     case "$key" in
-        -h|--help)
-            help
-            ;;
-        -l|--local)
-            echo local
-            OPT_LOCAL=1
-            ;;
-        -i|--interactive)
-            OPT_I=1
-            ;;
-         web)
-             CMD_WEB=1
-             ;;
-         nwn)
-             CMD_NWN=1
-             ;;
-         sync)
-             CMD_SYNC=1
-             ;;
-         *)
-             # Handle unknown options or non-option arguments
-             echo "Unknown option: $1"
-             exit 1
-             ;;
+    -h | --help)
+        help
+        ;;
+    -l | --local)
+        echo local
+        OPT_LOCAL=1
+        ;;
+    -i | --interactive)
+        OPT_I=1
+        ;;
+    web)
+        CMD_WEB=1
+        ;;
+    nwn)
+        CMD_NWN=1
+        ;;
+    sync)
+        CMD_SYNC=1
+        ;;
+    *)
+        if [ -e "$key" ]; then
+            MODULE_NAME=$(basename "$key")
+            MODULE_NAME="${MODULE_NAME%.*}"
+        elif [ -e "${NWN_DIR}/modules/${key}.mod" ]; then
+            MODULE_NAME="$key"
+        elif [ -e "${NWN_DIR}/modules/${key}" ]; then
+            MODULE_NAME="${key%.*}"
+        else
+            # Handle unknown options or non-option arguments
+            echo "Unknown option: $1"
+            exit 1
+        fi
+        ;;
     esac
     shift # Remove processed switch
 done
@@ -73,25 +100,6 @@ if [[ -z "$CMD_SYNC" && -z "$CMD_WEB" && -z "$CMD_NWN" ]]; then
     CMD_WEB=1
     CMD_NWN=1
 fi
-
-case $(uname) in
-    Darwin)
-        CMD_7Z=7zz
-        NWN_DIR="$HOME/.local/share/Neverwinter Nights"
-        #echo macOS
-        ;;
-
-    Linux)
-        CMD_7Z=7z
-        NWN_DIR="$HOME/.local/share/Neverwinter Nights"
-        #echo linux
-        ;;
-
-    *)
-        echo other uname="$(uname)"
-        exit
-        ;;
-esac
 
 which nwn_nwsync_write &>/dev/null
 if [ $? != 0 ]; then
@@ -113,17 +121,19 @@ fi
 DOWNLOADS=$HOME/Downloads
 LOT_VERSION="2.0.6"
 
-if [ -n "$ZSH_VERSION" ]; then
-    LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
-elif [ -n "$BASH" ]; then
-    LOT_MOD_NAME="The_Lord_of_Terror_${LOT_VERSION//./_}"
-else
-    echo unknown shell
-    exit 1
+if [ -z "$MODULE_NAME" ]; then
+    if [ -n "$ZSH_VERSION" ]; then
+        MODULE_NAME="The_Lord_of_Terror_${LOT_VERSION:gs/./_}"
+    elif [ -n "$BASH" ]; then
+        MODULE_NAME="The_Lord_of_Terror_${LOT_VERSION//./_}"
+    else
+        echo unknown shell
+        exit 1
+    fi
 fi
 
-if [ -z "$LOT_MOD_NAME" ]; then
-    echo LOT_MOD_NAME is blank
+if [ -z "$MODULE_NAME" ]; then
+    echo MODULE_NAME is blank
     exit
 fi
 
@@ -142,8 +152,8 @@ function setup1 {
     mkdir lot_docker webserver 2>/dev/null
     cd lot_docker || exit 7
 
-    src="${NWN_DIR}/modules/${LOT_MOD_NAME}.mod"
-    if ! cmp --silent "$src" "modules/${LOT_MOD_NAME}.mod"; then
+    src="${NWN_DIR}/modules/${MODULE_NAME}.mod"
+    if ! cmp --silent "$src" "modules/${MODULE_NAME}.mod"; then
         echo /bin/cp "$src" modules/
         mkdir modules &>/dev/null
         /bin/cp "$src" modules/ || exit 6
@@ -161,23 +171,22 @@ function supporting {
         /bin/cp "$src" hak/ || exit 4
     fi
 
-    if [ ! -e hak/cep3_core3.hak ]; then
-        mkdir hak &>/dev/null
-        #F="${DOWNLOADS}/cep_3.1.1_releasec_0.7z"
-        F="${DOWNLOADS}/cep_3.1.2.7z"
-        if [ ! -e "$F" ]; then
-            echo "$F does not exist"
-            exit 1
-        fi
-        #$CMD_7Z x "${F}"
-        mkdir -p tlk
-        cd tlk || exit 3
-        $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk || { echo "7zip failed"; exit 1; }
-        mkdir -p ../hak
-        cd ../hak || exit 2
-        $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak || { echo "7zip failed"; exit 1; }
-        cd ..
+    if [ ! -e hak/eotb1-armor1.hak ]; then
+        F="${DOWNLOADS}/eob_2_0.zip"
+        [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
+        $CMD_7Z x "${F}" || { echo "7zip failed for $F"; exit 1; }
+    fi
 
+    if [ ! -e hak/cep3_core3.hak ]; then
+        F="${DOWNLOADS}/cep_3.1.2.7z"
+        [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
+        mkdir -p tlk || { echo "error mkdir tlk"; exit 1; }
+        cd tlk || exit 3
+        $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk || { echo "7zip failed for $F"; exit 1; }
+        mkdir -p ../hak || { echo "error creating hak" exit 1; }
+        cd ../hak || { echo "error cd ../hak" ; exit 2; }
+        $CMD_7Z e "${F}" "CEP 3.1.2"/hak/*hak || { echo "7zip failed for $F"; exit 1; }
+        cd ..
     fi
 
 }
@@ -225,9 +234,9 @@ function nwn {
     cat <<EOF >env.txt
     NWN_ILR=0
     NWN_PORT=5121
-    NWN_MODULE=${LOT_MOD_NAME}
+    NWN_MODULE=${MODULE_NAME}
     NWN_PUBLICSERVER=0
-    NWN_SERVERNAME="The Lord of Terror ${LOT_VERSION}"
+    NWN_SERVERNAME="${MODULE_NAME}"
     NWN_ONEPARTY=1
     NWN_DIFFICULTY=3
     NWN_NWSYNCURL=http://${LOT_PUBLIC_IP}:8000
@@ -255,9 +264,8 @@ EOF
 function nwsync {
     header "nwsync"
     cd ../lot_docker || exit 9
-    nwn_nwsync_write --description="The Lord of Terror Server Data" ../webserver modules/${LOT_MOD_NAME}.mod
+    nwn_nwsync_write --limit-file-size 30 --description="$MODULE_NAME" ../webserver modules/"${MODULE_NAME}".mod
 }
-
 
 setup1
 supporting
