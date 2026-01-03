@@ -157,6 +157,11 @@ function setup1 {
     cd "$LOT_DIR" || exit 8
     mkdir lot_docker webserver 2>/dev/null
     cd lot_docker || exit 7
+}
+
+function setup2 {
+    header "setup2"
+    cd "$LOT_DIR/lot_docker" || exit 1
 
     src="${NWN_DIR}/modules/${MODULE_NAME}.mod"
     if ! cmp --silent "$src" "modules/${MODULE_NAME}.mod"; then
@@ -282,8 +287,9 @@ function nwsync {
     nwn_nwsync_write --limit-file-size 30 --description="$MODULE_NAME" ../webserver modules/"${MODULE_NAME}".mod
 }
 
-supporting
 setup1
+supporting
+setup2
 
 if [ -n "$CMD_SYNC" ]; then
     nwsync
