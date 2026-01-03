@@ -151,57 +151,42 @@ function header {
     figlet "$@"
 }
 
-function setup1 {
-    header "setup1"
-    mkdir "$LOT_DIR" 2>/dev/null
-    cd "$LOT_DIR" || exit 8
-    mkdir lot_docker webserver 2>/dev/null
-    cd lot_docker || exit 7
-}
-
-function setup2 {
-    header "setup2"
-    cd "$LOT_DIR/lot_docker" || exit 1
-
-    src="${NWN_DIR}/modules/${MODULE_NAME}.mod"
-    if ! cmp --silent "$src" "modules/${MODULE_NAME}.mod"; then
-        echo /bin/cp "$src" modules/
-        mkdir modules &>/dev/null
-        /bin/cp "$src" modules/ || exit 6
-    fi
-}
-
 function supporting {
     header "supporting"
-    cd ../lot_docker || exit 5
+
+    mkdir -p "$LOT_DIR" || { echo "mkdir lot_dir failed"; exit 1; }
+    cd "$LOT_DIR" || exit 8
+    mkdir -p lot_docker webserver || { echo "mkdir lot_docker webserver failed"; exit 1; }
+
+    cd "${LOT_DIR}/lot_docker" || exit 5
 
     src="${NWN_DIR}/hak/lot2.hak"
     if ! cmp --silent hak/lot2.hak "$src"; then
-        mkdir hak &>/dev/null
-        echo /bin/cp "$src" hak/
-        /bin/cp "$src" hak/ || exit 4
+        mkdir -p hak || { echo "mkdir hak failed"; exit 1; }
+        /bin/cp "$src" hak/ || { echo "cp failed"; exit 1; }
     fi
 
     if [ ! -e hak/eotb1-armor1.hak ]; then
         F="${DOWNLOADS}/eob_2_0.zip"
-        [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
+        [ -f "$F" ] || { echo "Error: File '$F' does not exist."; exit 1; }
         $CMD_7Z x "${F}" || { echo "7zip failed for $F"; exit 1; }
     fi
 
-    if [ ! -e "modules/Eye of the Beholder.mod" ]; then
+    if [ ! -e "${NWN_DIR}/modules/Eye of the Beholder.mod" ]; then
         F="${DOWNLOADS}/eye_of_the_beholder_v6.7.zip"
-        [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
-        mkdir -p modules || { echo "error mkdir -p modules"; exit 1; }
-        cd modules || { echo "error cd modules"; exit 1; }
+        [ -f "$F" ] || { echo "Error: File '$F' does not exist."; exit 1; }
+        pushd "$NWN_DIR" || { echo "pushd failed"; exit 1; }
+        mkdir -p "${NWN_DIR}/modules" || { echo "error mkdir -p modules"; exit 1; }
+        cd "${NWN_DIR}/modules" || { echo "error cd modules"; exit 1; }
         $CMD_7Z e "${F}" || { echo "7zip failed for $F"; exit 1; }
-        cd ..
+        popd || { echo "popd failed"; exit 1; }
     fi
 
-    [ -f "modules/Eye of the Beholder.mod" ] || { echo "eob module missing"; exit 1; }
+    [ -f "${NWN_DIR}/modules/Eye of the Beholder.mod" ] || { echo "eob module missing"; exit 1; }
 
     if [ ! -e hak/cep3_core3.hak ]; then
         F="${DOWNLOADS}/cep_3.1.2.7z"
-        [ -f "$F" ] || { echo "Error: File '$F' does not exist." >&2; exit 1; }
+        [ -f "$F" ] || { echo "Error: File '$F' does not exist."; exit 1; }
         mkdir -p tlk || { echo "error mkdir -p tlk"; exit 1; }
         cd tlk || { echo "error cd tlk"; exit 1; }
         $CMD_7Z e "${F}" "CEP 3.1.2"/tlk/*tlk || { echo "7zip failed for $F"; exit 1; }
@@ -211,6 +196,12 @@ function supporting {
         cd ..
     fi
 
+    cd "$LOT_DIR/lot_docker" || exit 1
+    src="${NWN_DIR}/modules/${MODULE_NAME}.mod"
+    if ! cmp --silent "$src" "modules/${MODULE_NAME}.mod"; then
+        mkdir -p modules || { echo "mkdir modules failed"; exit 1; }
+        /bin/cp "$src" modules || { echo "cp failed"; exit 6; }
+    fi
 }
 
 function web {
@@ -289,9 +280,7 @@ function nwsync {
     nwn_nwsync_write --limit-file-size 30 --description="$MODULE_NAME" ../webserver modules/"${MODULE_NAME}".mod
 }
 
-setup1
 supporting
-setup2
 
 if [ -n "$CMD_SYNC" ]; then
     nwsync
